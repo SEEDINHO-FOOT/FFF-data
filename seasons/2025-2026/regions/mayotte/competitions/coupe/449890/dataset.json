@@ -3,15 +3,108 @@
   "cpNo": "449890",
   "nom": "COUPE DE MAYOTTE U17F",
   "type": "coupe",
+  "scope": "regional",
   "region": "MAYOTTE",
   "district": null,
   "phases": [
     {
       "cp_slug": "449890-coupe-de-mayotte-u17f/phase/1/1",
       "competition": "COUPE DE MAYOTTE U17F",
-      "clubs": {},
-      "stades": {},
-      "officiels": {},
+      "clubs": {
+        "RACINE DU NORD": {
+          "nom": "RACINE DU NORD",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC545349.jpg",
+          "clNo": "23280",
+          "slug": "545349-racine-du-nord"
+        },
+        "BANDRELE FOOT F": {
+          "nom": "BANDRELE FOOT F",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC760353.jpg",
+          "clNo": "196126",
+          "slug": "760353-bandrele-foot-f"
+        },
+        "ETINCELLES HAMJAGO": {
+          "nom": "ETINCELLES HAMJAGO",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC542949.jpg",
+          "clNo": "22326",
+          "slug": "542949-etincelles-hamjago"
+        },
+        "MIRACLE DU SUD": {
+          "nom": "MIRACLE DU SUD",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC542892.jpg",
+          "clNo": "22270",
+          "slug": "542892-miracle-du-sud"
+        },
+        "R.C. DE BARAKANI": {
+          "nom": "R.C. DE BARAKANI",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC545344.jpg",
+          "clNo": "23275",
+          "slug": "545344-r-c-de-barakani"
+        },
+        "USC LABATTOIR": {
+          "nom": "USC LABATTOIR",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC563940.jpg",
+          "clNo": "175841",
+          "slug": "563940-usc-labattoir"
+        },
+        "U.S. DE OUANGANI": {
+          "nom": "U.S. DE OUANGANI",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC542077.jpg",
+          "clNo": "21731",
+          "slug": "542077-u-s-de-ouangani"
+        },
+        "FC MAJICAVO": {
+          "nom": "FC MAJICAVO",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC545338.jpg",
+          "clNo": "23269",
+          "slug": "545338-fc-majicavo"
+        }
+      },
+      "stades": {
+        "Stade Bassin D'acoua_['LE BOURG', '97630 ACOUA']": {
+          "nom": "Stade Bassin D'acoua",
+          "adresse": "LE BOURG | 97630 ACOUA",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE HAMJAGO_['HAMJAGO', 'RN 1', '97630 MTSAMBORO']": {
+          "nom": "STADE DE HAMJAGO",
+          "adresse": "HAMJAGO | RN 1 | 97630 MTSAMBORO",
+          "surface": "Stabilisé",
+          "surface_jeu": "Stabilisé",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE OUANGANI_['OUANGANI', 'CCD8', '97670 OUANGANI']": {
+          "nom": "STADE DE OUANGANI",
+          "adresse": "OUANGANI | CCD8 | 97670 OUANGANI",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
+      "officiels": {
+        "SOUADIKI DIVI BEN ASSIMAKOU_AC": {
+          "nom": "SOUADIKI DIVI BEN ASSIMAKOU",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ISSOUFOU ALI_AC": {
+          "nom": "ISSOUFOU ALI",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "FRANCK SAID_AC": {
+          "nom": "FRANCK SAID",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "MOHAMED HADJI ABDALLAH_AC": {
+          "nom": "MOHAMED HADJI ABDALLAH",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        }
+      },
       "joueurs": {},
       "matchs": [
         {
@@ -20,10 +113,14 @@
           "heure": "14:00",
           "recevant": "RACINE DU NORD",
           "visiteur": "BANDRELE FOOT F",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Bassin D'acoua_['LE BOURG', '97630 ACOUA']",
+          "officiels": [
+            "SOUADIKI DIVI BEN ASSIMAKOU_AC"
+          ]
         },
         {
           "id": 55661894,
@@ -42,10 +139,15 @@
           "heure": "14:00",
           "recevant": "ETINCELLES HAMJAGO",
           "visiteur": "MIRACLE DU SUD",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE HAMJAGO_['HAMJAGO', 'RN 1', '97630 MTSAMBORO']",
+          "officiels": [
+            "ISSOUFOU ALI_AC"
+          ],
+          "tirs_au_but": true
         },
         {
           "id": 55661896,
@@ -53,10 +155,14 @@
           "heure": "14:00",
           "recevant": "R.C. DE BARAKANI",
           "visiteur": "USC LABATTOIR",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE OUANGANI_['OUANGANI', 'CCD8', '97670 OUANGANI']",
+          "officiels": [
+            "FRANCK SAID_AC"
+          ]
         },
         {
           "id": 55661897,
@@ -64,10 +170,14 @@
           "heure": "14:00",
           "recevant": "U.S. DE OUANGANI",
           "visiteur": "FC MAJICAVO",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE OUANGANI_['OUANGANI', 'CCD8', '97670 OUANGANI']",
+          "officiels": [
+            "MOHAMED HADJI ABDALLAH_AC"
+          ]
         }
       ]
     }
