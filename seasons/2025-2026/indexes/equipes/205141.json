@@ -29,78 +29,12 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "BLOIS ASC PORTUGAIS",
+     "adversaire_slug": "533251-blois-asc-portugais",
      "score": "0-3",
      "statut": "joué",
      "journee": "1er tour",
-     "stade": "STADE ANDRÉ HYACINTHE 1"
-    }
-   ]
-  },
-  {
-   "cpNo": "441682",
-   "division": "Coupe de District",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "CENTRE-V.L.",
-   "equipe_nom": "E.S.SM-SM",
-   "equipe_slug": "565205-e-s-sm-sm",
-   "matchs": [
-    {
-     "date": "2025-10-12",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "A.S.C. TURQUE BLOIS",
-     "score": "3-0",
-     "statut": "joué",
-     "journee": "2ème Tour",
-     "stade": "STADE MUNICIPAL 1"
-    },
-    {
-     "date": "2025-11-30",
-     "heure": "14:00",
-     "domicile": false,
-     "adversaire": "C.AM. MONTRICHARD 2",
-     "score": "3-2",
-     "statut": "joué",
-     "journee": "3ème tour",
-     "stade": "STADE GUY LANGOU 1"
-    }
-   ]
-  },
-  {
-   "cpNo": "441684",
-   "division": "Coupe Loir-et-Cher U18G",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "CENTRE-V.L.",
-   "equipe_nom": "E.S.SM-SM 21",
-   "equipe_slug": "565205-e-s-sm-sm-21",
-   "matchs": [
-    {
-     "date": "2025-10-25",
-     "heure": "15:30",
-     "domicile": false,
-     "adversaire": "ENT BEAUCE 21",
-     "score": "7-1",
-     "statut": "joué",
-     "journee": "1er tour",
-     "stade": "STADE HENRI RAULIN 1"
+     "stade": "STADE ANDRÉ HYACINTHE 1",
+     "joue": true
     }
    ]
   },
@@ -126,20 +60,24 @@
      "heure": "15:30",
      "domicile": false,
      "adversaire": "ENT. USRPM",
+     "adversaire_slug": "524973-ent-usrpm",
      "score": "0-6",
      "statut": "joué",
      "journee": "1er tour",
-     "stade": "STADE MUNICIPAL 1"
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
     },
     {
      "date": "2026-02-28",
      "heure": "14:30",
      "domicile": true,
      "adversaire": "ENT ST LAURENT",
+     "adversaire_slug": "505067-ent-st-laurent",
      "score": "2-5",
      "statut": "joué",
      "journee": "1/4 de Finale",
-     "stade": "STADE MUNICIPAL 1"
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
     }
    ]
   },
@@ -165,40 +103,124 @@
      "heure": "10:30",
      "domicile": true,
      "adversaire": "C.M.S.R.",
+     "adversaire_slug": "505123-c-m-s-r",
      "score": "11-0",
      "statut": "joué",
      "journee": "1er tour",
-     "stade": "STADE MUNICIPAL 1"
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
     },
     {
      "date": "2026-03-01",
      "heure": "10:30",
      "domicile": false,
      "adversaire": "US PETITE BEAUCE",
+     "adversaire_slug": "561194-us-petite-beauce",
      "score": "3-3",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE MUNICIPAL 1"
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true,
+     "tirs_au_but": true
     },
     {
      "date": "2026-04-19",
      "heure": "10:30",
      "domicile": true,
      "adversaire": "BFC",
+     "adversaire_slug": "561198-bfc",
      "score": "2-2",
      "statut": "joué",
      "journee": "1/2 Finale",
-     "stade": "STADE MUNICIPAL 1"
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true,
+     "tirs_au_but": true
     },
     {
      "date": "2026-05-24",
      "heure": "15:00",
      "domicile": false,
      "adversaire": "U.S. CHITENAY CELLET",
+     "adversaire_slug": "514336-u-s-chitenay-cellet",
      "score": "1-3",
      "statut": "joué",
      "journee": "Finale",
-     "stade": "STADE LÉO LAGRANGE 2"
+     "stade": "STADE LÉO LAGRANGE 2",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "441682",
+   "division": "Coupe de District",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "CENTRE-V.L.",
+   "equipe_nom": "E.S.SM-SM",
+   "equipe_slug": "565205-e-s-sm-sm",
+   "matchs": [
+    {
+     "date": "2025-10-12",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "A.S.C. TURQUE BLOIS",
+     "adversaire_slug": "582692-a-s-c-turque-blois",
+     "score": "3-0",
+     "statut": "joué",
+     "journee": "2ème Tour",
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
+    },
+    {
+     "date": "2025-11-30",
+     "heure": "14:00",
+     "domicile": false,
+     "adversaire": "C.AM. MONTRICHARD 2",
+     "adversaire_slug": "504886-c-am-montrichard-2",
+     "score": "3-2",
+     "statut": "joué",
+     "journee": "3ème tour",
+     "stade": "STADE GUY LANGOU 1",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "441684",
+   "division": "Coupe Loir-et-Cher U18G",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "CENTRE-V.L.",
+   "equipe_nom": "E.S.SM-SM 21",
+   "equipe_slug": "565205-e-s-sm-sm-21",
+   "matchs": [
+    {
+     "date": "2025-10-25",
+     "heure": "15:30",
+     "domicile": false,
+     "adversaire": "ENT BEAUCE 21",
+     "adversaire_slug": "561198-ent-beauce-21",
+     "score": "7-1",
+     "statut": "joué",
+     "journee": "1er tour",
+     "stade": "STADE HENRI RAULIN 1",
+     "joue": true
     }
    ]
   },
@@ -224,20 +246,24 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "AM.S. VILLIERS AU BO",
+     "adversaire_slug": "512278-am-s-villiers-au-bo",
      "score": "1-3",
      "statut": "joué",
      "journee": "Tour 1",
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true
     },
     {
      "date": "2025-08-31",
      "heure": "15:00",
      "domicile": true,
      "adversaire": "ES VILLE A.DAMES",
+     "adversaire_slug": "529944-es-ville-a-dames",
      "score": "0-1",
      "statut": "joué",
      "journee": "Tour 2",
-     "stade": "STADE ANDRÉ HYACINTHE 1"
+     "stade": "STADE ANDRÉ HYACINTHE 1",
+     "joue": true
     }
    ]
   }

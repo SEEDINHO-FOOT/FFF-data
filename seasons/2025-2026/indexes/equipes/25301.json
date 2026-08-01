@@ -6,84 +6,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "442479",
-   "division": "COUPE DARGAINS",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "F.C.2 VALLEES",
-   "equipe_slug": "548184-f-c-2-vallees",
-   "matchs": [
-    {
-     "date": "2025-09-14",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "FC BBL",
-     "score": "0-0",
-     "statut": "joué",
-     "journee": "TOUR 1",
-     "stade": "STADE MUNICIPAL"
-    },
-    {
-     "date": "2025-11-19",
-     "heure": "20:00",
-     "domicile": false,
-     "adversaire": "USTARITZ LABOURDINS 2",
-     "score": "3-2",
-     "statut": "joué",
-     "journee": null,
-     "stade": "PLAINE DE JEUX ETXEPAREA 1"
-    }
-   ]
-  },
-  {
-   "cpNo": "442481",
-   "division": "COUPE VISPALY",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "F.C.2 VALLEES",
-   "equipe_slug": "548184-f-c-2-vallees",
-   "matchs": [
-    {
-     "date": "2025-10-11",
-     "heure": "18:00",
-     "domicile": false,
-     "adversaire": "MONEIN FC",
-     "score": "3-3",
-     "statut": "joué",
-     "journee": null,
-     "stade": "Stade Du Pont Du Lat 1"
-    },
-    {
-     "date": "2025-11-16",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "PAU PORTUGAISE UNION 2",
-     "score": "0-2",
-     "statut": "joué",
-     "journee": "TOUR 2",
-     "stade": "STADE MUNICIPAL"
-    }
-   ]
-  },
-  {
    "cpNo": "442582",
    "division": "COUPE FUMA Seniors à 7",
    "niveau": "Départemental",
@@ -105,10 +27,12 @@
      "heure": "10:00",
      "domicile": true,
      "adversaire": "GANTOIS FC",
+     "adversaire_slug": "533039-gantois-fc",
      "score": "0-4",
      "statut": "joué",
      "journee": "TOUR 1",
-     "stade": "STADE MICHEL FROUTE"
+     "stade": "STADE MICHEL FROUTE",
+     "joue": true
     }
    ]
   },
@@ -134,30 +58,124 @@
      "heure": "10:00",
      "domicile": true,
      "adversaire": "PAU PORTUGAISE UNION",
+     "adversaire_slug": "526571-pau-portugaise-union",
      "score": "1-0",
      "statut": "joué",
      "journee": "1/4 FINALE",
-     "stade": "STADE MICHEL FROUTE"
+     "stade": "STADE MICHEL FROUTE",
+     "joue": true
     },
     {
      "date": "2026-05-17",
      "heure": "10:00",
      "domicile": true,
      "adversaire": "PONTACQ PAPILLONS",
+     "adversaire_slug": "532157-pontacq-papillons",
      "score": "3-1",
      "statut": "joué",
      "journee": "1/2 FINALE",
-     "stade": "STADE MICHEL FROUTE"
+     "stade": "STADE MICHEL FROUTE",
+     "joue": true
     },
     {
      "date": "2026-05-30",
      "heure": "21:00",
      "domicile": true,
      "adversaire": "OLORON BEARN FC",
+     "adversaire_slug": "582370-oloron-bearn-fc",
      "score": "1-2",
      "statut": "joué",
      "journee": "FINALE",
-     "stade": "STADE PAUL ESCUDÉ"
+     "stade": "STADE PAUL ESCUDÉ",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "442479",
+   "division": "COUPE DARGAINS",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "F.C.2 VALLEES",
+   "equipe_slug": "548184-f-c-2-vallees",
+   "matchs": [
+    {
+     "date": "2025-09-14",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "FC BBL",
+     "adversaire_slug": "565249-fc-bbl",
+     "score": "0-0",
+     "statut": "joué",
+     "journee": "TOUR 1",
+     "stade": "STADE MUNICIPAL",
+     "joue": true,
+     "tirs_au_but": true
+    },
+    {
+     "date": "2025-11-19",
+     "heure": "20:00",
+     "domicile": false,
+     "adversaire": "USTARITZ LABOURDINS 2",
+     "adversaire_slug": "523568-ustaritz-labourdins-2",
+     "score": "3-2",
+     "statut": "joué",
+     "journee": null,
+     "stade": "PLAINE DE JEUX ETXEPAREA 1",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "442481",
+   "division": "COUPE VISPALY",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "F.C.2 VALLEES",
+   "equipe_slug": "548184-f-c-2-vallees",
+   "matchs": [
+    {
+     "date": "2025-10-11",
+     "heure": "18:00",
+     "domicile": false,
+     "adversaire": "MONEIN FC",
+     "adversaire_slug": "536697-monein-fc",
+     "score": "3-3",
+     "statut": "joué",
+     "journee": null,
+     "stade": "Stade Du Pont Du Lat 1",
+     "joue": true,
+     "tirs_au_but": true
+    },
+    {
+     "date": "2025-11-16",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "PAU PORTUGAISE UNION 2",
+     "adversaire_slug": "526571-pau-portugaise-union-2",
+     "score": "0-2",
+     "statut": "joué",
+     "journee": "TOUR 2",
+     "stade": "STADE MUNICIPAL",
+     "joue": true
     }
    ]
   }

@@ -7,74 +7,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "438391",
-   "division": "Coupe Occitanie U18 FEM Amos",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U18",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "OCCITANIE",
-   "equipe_nom": "B.JEUNESSE OL",
-   "equipe_slug": "549091-b-jeunesse-ol",
-   "matchs": [
-    {
-     "date": "2025-11-23",
-     "heure": "10:30",
-     "domicile": true,
-     "adversaire": "BEZIERS A. S.",
-     "score": "1-13",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE DE LA GAYONNE 4"
-    }
-   ]
-  },
-  {
-   "cpNo": "438392",
-   "division": "Coupe Occitanie U15 FEM",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U15",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "OCCITANIE",
-   "equipe_nom": "B.JEUNESSE OL",
-   "equipe_slug": "549091-b-jeunesse-ol",
-   "matchs": [
-    {
-     "date": "2025-10-04",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "VERGEZE EP",
-     "score": "1-0",
-     "statut": "joué",
-     "journee": "1ier Tour",
-     "stade": "STADE DE LA GAYONNE 4"
-    },
-    {
-     "date": "2025-11-08",
-     "heure": "17:30",
-     "domicile": true,
-     "adversaire": "CARCASS. FOOT FEM",
-     "score": "0-0",
-     "statut": "joué",
-     "journee": "2ième Tour",
-     "stade": "STADE DE LA GAYONNE 4"
-    }
-   ]
-  },
-  {
    "cpNo": "442737",
    "division": "COUPE DE L'HERAULT U15",
    "niveau": "Départemental",
@@ -96,50 +28,63 @@
      "heure": "18:15",
      "domicile": false,
      "adversaire": "SAUVIAN FC",
+     "adversaire_slug": "580725-sauvian-fc",
      "score": "1-2",
      "statut": "joué",
      "journee": "tour préliminaire CDH U15",
-     "stade": "COMPLEXE SPORTIF LA GOURONNE 1"
+     "stade": "COMPLEXE SPORTIF LA GOURONNE 1",
+     "joue": true
     },
     {
      "date": "2026-01-27",
      "heure": "18:30",
      "domicile": true,
      "adversaire": "MARSEILLAN CS",
+     "adversaire_slug": "500414-marseillan-cs",
      "score": "2-2",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE DE LA GAYONNE 4"
+     "stade": "STADE DE LA GAYONNE 4",
+     "joue": true,
+     "tirs_au_but": true
     },
     {
      "date": "2026-02-21",
      "heure": "15:00",
      "domicile": false,
      "adversaire": "CX D'ARGENT-ATHLETIC",
+     "adversaire_slug": "560844-cx-d-argent-athletic",
      "score": "2-2",
      "statut": "joué",
      "journee": "8èmes CDH U15",
-     "stade": "STADE GIL FAYARD"
+     "stade": "STADE GIL FAYARD",
+     "joue": true,
+     "tirs_au_but": true
     },
     {
      "date": "2026-03-08",
      "heure": "10:30",
      "domicile": true,
      "adversaire": "ENT.HAUTS CANTONS",
+     "adversaire_slug": "523435-ent-hauts-cantons",
      "score": "1-1",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE DE LA GAYONNE 1"
+     "stade": "STADE DE LA GAYONNE 1",
+     "joue": true,
+     "tirs_au_but": true
     },
     {
      "date": "2026-04-25",
      "heure": "17:00",
      "domicile": false,
      "adversaire": "M. ATLAS PAILLADE",
+     "adversaire_slug": "548263-m-atlas-paillade",
      "score": "4-0",
      "statut": "joué",
      "journee": "1/2 Finales CDH U15",
-     "stade": "STADE DE LA MOSSON 5"
+     "stade": "STADE DE LA MOSSON 5",
+     "joue": true
     }
    ]
   },
@@ -165,10 +110,86 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "M. PAILLADE MERCURE 21",
+     "adversaire_slug": "547089-m-paillade-mercure-21",
      "score": "0-3",
      "statut": "joué",
      "journee": "tour préliminaire CDH U14",
-     "stade": "STADE DE LA GAYONNE 3"
+     "stade": "STADE DE LA GAYONNE 3",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "438392",
+   "division": "Coupe Occitanie U15 FEM",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U15",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "OCCITANIE",
+   "equipe_nom": "B.JEUNESSE OL",
+   "equipe_slug": "549091-b-jeunesse-ol",
+   "matchs": [
+    {
+     "date": "2025-10-04",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "VERGEZE EP",
+     "adversaire_slug": "500377-vergeze-ep",
+     "score": "1-0",
+     "statut": "joué",
+     "journee": "1ier Tour",
+     "stade": "STADE DE LA GAYONNE 4",
+     "joue": true
+    },
+    {
+     "date": "2025-11-08",
+     "heure": "17:30",
+     "domicile": true,
+     "adversaire": "CARCASS. FOOT FEM",
+     "adversaire_slug": "781263-carcass-foot-fem",
+     "score": "0-0",
+     "statut": "joué",
+     "journee": "2ième Tour",
+     "stade": "STADE DE LA GAYONNE 4",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "438391",
+   "division": "Coupe Occitanie U18 FEM Amos",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U18",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "OCCITANIE",
+   "equipe_nom": "B.JEUNESSE OL",
+   "equipe_slug": "549091-b-jeunesse-ol",
+   "matchs": [
+    {
+     "date": "2025-11-23",
+     "heure": "10:30",
+     "domicile": true,
+     "adversaire": "BEZIERS A. S.",
+     "adversaire_slug": "553074-beziers-a-s",
+     "score": "1-13",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE DE LA GAYONNE 4",
+     "joue": true
     }
    ]
   },
@@ -194,10 +215,13 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "F.C. LAVERUNE",
+     "adversaire_slug": "541831-f-c-laverune",
      "score": "2-2",
      "statut": "joué",
      "journee": "1ier Tour",
-     "stade": "COMPLEXE SPORTIF 1"
+     "stade": "COMPLEXE SPORTIF 1",
+     "joue": true,
+     "tirs_au_but": true
     }
    ]
   }

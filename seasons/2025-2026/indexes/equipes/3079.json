@@ -7,75 +7,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "438136",
-   "division": "Challenge Marcel Renaudie",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "LUSIGNAN USM 2",
-   "equipe_slug": "507062-lusignan-usm-2",
-   "matchs": [
-    {
-     "date": "2025-11-16",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "SAVIGNE.BLANZAY",
-     "score": "14-1",
-     "statut": "joué",
-     "journee": "T2 - CMR",
-     "stade": "STADE JACQUES PAPINEAU"
-    },
-    {
-     "date": "2026-01-18",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "ASLONNES.ST MAURICE 2",
-     "score": "5-0",
-     "statut": "joué",
-     "journee": "T3 - CMR",
-     "stade": "STADE JACQUES PAPINEAU"
-    },
-    {
-     "date": "2026-04-19",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "ST JULIEN.SAVIGNY 3",
-     "score": "2-1",
-     "statut": "joué",
-     "journee": "T4 - CMR",
-     "stade": "STADE JACQUES PAPINEAU"
-    },
-    {
-     "date": "2026-05-03",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "SMARVES ITEUIL FC 3",
-     "score": "5-2",
-     "statut": "joué",
-     "journee": "T5 - CMR",
-     "stade": "STADE JACQUES PAPINEAU"
-    },
-    {
-     "date": "2026-05-14",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "POITIERS BAROC",
-     "score": "5-1",
-     "statut": "joué",
-     "journee": "1/4 - CMR",
-     "stade": "STADE DE LA DEMI-LUNE"
-    }
-   ]
-  },
-  {
    "cpNo": "438137",
    "division": "Challenge des Réserves",
    "niveau": "Départemental",
@@ -97,20 +28,24 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "ST SAVIOL AS 2",
+     "adversaire_slug": "520968-st-saviol-as-2",
      "score": "2-0",
      "statut": "joué",
      "journee": "T1 - CHR",
-     "stade": "STADE JACQUES PAPINEAU"
+     "stade": "STADE JACQUES PAPINEAU",
+     "joue": true
     },
     {
      "date": "2025-10-12",
      "heure": "14:00",
      "domicile": false,
      "adversaire": "FONTAINE LE COMTE FC 3",
+     "adversaire_slug": "522182-fontaine-le-comte-fc-3",
      "score": "4-2",
      "statut": "joué",
      "journee": "T1 - CHR",
-     "stade": "STADE MUNICIPAL 2"
+     "stade": "STADE MUNICIPAL 2",
+     "joue": true
     }
    ]
   },
@@ -136,10 +71,91 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "ST SAVIOL AS",
+     "adversaire_slug": "520968-st-saviol-as",
      "score": "2-1",
      "statut": "joué",
      "journee": "CLD - T4",
-     "stade": "STADE ANDRÉ NAFFRECHOUX 1"
+     "stade": "STADE ANDRÉ NAFFRECHOUX 1",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "438136",
+   "division": "Challenge Marcel Renaudie",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "LUSIGNAN USM 2",
+   "equipe_slug": "507062-lusignan-usm-2",
+   "matchs": [
+    {
+     "date": "2025-11-16",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "SAVIGNE.BLANZAY",
+     "adversaire_slug": "520967-savigne-blanzay",
+     "score": "14-1",
+     "statut": "joué",
+     "journee": "T2 - CMR",
+     "stade": "STADE JACQUES PAPINEAU",
+     "joue": true
+    },
+    {
+     "date": "2026-01-18",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "ASLONNES.ST MAURICE 2",
+     "adversaire_slug": "560326-aslonnes-st-maurice-2",
+     "score": "5-0",
+     "statut": "joué",
+     "journee": "T3 - CMR",
+     "stade": "STADE JACQUES PAPINEAU",
+     "joue": true
+    },
+    {
+     "date": "2026-04-19",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "ST JULIEN.SAVIGNY 3",
+     "adversaire_slug": "514861-st-julien-savigny-3",
+     "score": "2-1",
+     "statut": "joué",
+     "journee": "T4 - CMR",
+     "stade": "STADE JACQUES PAPINEAU",
+     "joue": true
+    },
+    {
+     "date": "2026-05-03",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "SMARVES ITEUIL FC 3",
+     "adversaire_slug": "560258-smarves-iteuil-fc-3",
+     "score": "5-2",
+     "statut": "joué",
+     "journee": "T5 - CMR",
+     "stade": "STADE JACQUES PAPINEAU",
+     "joue": true
+    },
+    {
+     "date": "2026-05-14",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "POITIERS BAROC",
+     "adversaire_slug": "515296-poitiers-baroc",
+     "score": "5-1",
+     "statut": "joué",
+     "journee": "1/4 - CMR",
+     "stade": "STADE DE LA DEMI-LUNE",
+     "joue": true
     }
    ]
   },
@@ -165,10 +181,12 @@
      "heure": "13:00",
      "domicile": true,
      "adversaire": "MONTMORILLON UES",
+     "adversaire_slug": "507038-montmorillon-ues",
      "score": "1-5",
      "statut": "joué",
      "journee": "Tour 1",
-     "stade": "STADE JACQUES PAPINEAU"
+     "stade": "STADE JACQUES PAPINEAU",
+     "joue": true
     }
    ]
   }

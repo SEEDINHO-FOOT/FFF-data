@@ -7,65 +7,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "437410",
-   "division": "COUPE REGION BRETAGNE",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BRETAGNE",
-   "equipe_nom": "SCRIGNAC POULLAOUEN",
-   "equipe_slug": "560788-scrignac-poullaouen",
-   "matchs": [
-    {
-     "date": "2025-09-14",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "BERRIEN HUELGOAT ES",
-     "score": "1-1",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE DU POULLIC N°1"
-    },
-    {
-     "date": "2025-09-14",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "BERRIEN HUELGOAT ES",
-     "score": "1-1",
-     "statut": "joué",
-     "journee": "CRB",
-     "stade": "STADE DU POULLIC N°1"
-    },
-    {
-     "date": "2025-09-14",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "BERRIEN HUELGOAT ES",
-     "score": "1-1",
-     "statut": "joué",
-     "journee": "CRB",
-     "stade": "STADE DU POULLIC N°1"
-    },
-    {
-     "date": "2025-09-14",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "BERRIEN HUELGOAT ES",
-     "score": "1-1",
-     "statut": "joué",
-     "journee": "CRB",
-     "stade": "STADE DU POULLIC N°1"
-    }
-   ]
-  },
-  {
    "cpNo": "438473",
    "division": "Coupe De District",
    "niveau": "Départemental",
@@ -87,10 +28,12 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "GOURIN FC",
+     "adversaire_slug": "544818-gourin-fc",
      "score": "5-0",
      "statut": "joué",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": true
     }
    ]
   },
@@ -116,20 +59,24 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "PLONEVEZ DU FAOU G",
+     "adversaire_slug": "512033-plonevez-du-faou-g",
      "score": "8-1",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE JEAN MARSEILLER 1"
+     "stade": "STADE JEAN MARSEILLER 1",
+     "joue": true
     },
     {
      "date": "2025-10-26",
      "heure": "15:00",
      "domicile": true,
      "adversaire": "ST EVARZEC US",
+     "adversaire_slug": null,
      "score": "3-3",
      "statut": "joué",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": true
     }
    ]
   },
@@ -155,30 +102,107 @@
      "heure": "14:00",
      "domicile": true,
      "adversaire": "GJ DES ENCLOS SIZUN 3",
+     "adversaire_slug": "551904-gj-des-enclos-sizun-3",
      "score": "0-3",
      "statut": "joué",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": true
     },
     {
      "date": "2025-11-08",
      "heure": "14:00",
      "domicile": true,
      "adversaire": "PLOURIN AV",
+     "adversaire_slug": null,
      "score": null,
      "statut": "à venir",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": false
     },
     {
      "date": "2026-01-17",
      "heure": "14:00",
      "domicile": false,
      "adversaire": "CARHAIX DC 2",
+     "adversaire_slug": "501889-carhaix-dc-2",
      "score": "12-1",
      "statut": "joué",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "437410",
+   "division": "COUPE REGION BRETAGNE",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BRETAGNE",
+   "equipe_nom": "SCRIGNAC POULLAOUEN",
+   "equipe_slug": "560788-scrignac-poullaouen",
+   "matchs": [
+    {
+     "date": "2025-09-14",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "BERRIEN HUELGOAT ES",
+     "adversaire_slug": "590321-berrien-huelgoat-es",
+     "score": "1-1",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE DU POULLIC N°1",
+     "joue": true,
+     "tirs_au_but": true
+    },
+    {
+     "date": "2025-09-14",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "BERRIEN HUELGOAT ES",
+     "adversaire_slug": "590321-berrien-huelgoat-es",
+     "score": "1-1",
+     "statut": "joué",
+     "journee": "CRB",
+     "stade": "STADE DU POULLIC N°1",
+     "joue": true,
+     "tirs_au_but": true
+    },
+    {
+     "date": "2025-09-14",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "BERRIEN HUELGOAT ES",
+     "adversaire_slug": "590321-berrien-huelgoat-es",
+     "score": "1-1",
+     "statut": "joué",
+     "journee": "CRB",
+     "stade": "STADE DU POULLIC N°1",
+     "joue": true,
+     "tirs_au_but": true
+    },
+    {
+     "date": "2025-09-14",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "BERRIEN HUELGOAT ES",
+     "adversaire_slug": "590321-berrien-huelgoat-es",
+     "score": "1-1",
+     "statut": "joué",
+     "journee": "CRB",
+     "stade": "STADE DU POULLIC N°1",
+     "joue": true,
+     "tirs_au_but": true
     }
    ]
   },
@@ -204,30 +228,36 @@
      "heure": "14:00",
      "domicile": true,
      "adversaire": "GOURIN FC",
+     "adversaire_slug": "544818-gourin-fc",
      "score": "1-7",
      "statut": "joué",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": true
     },
     {
      "date": "2025-11-08",
      "heure": "14:00",
      "domicile": true,
      "adversaire": "CHATEAUNEUF US",
+     "adversaire_slug": "547597-chateauneuf-us",
      "score": "7-0",
      "statut": "joué",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": true
     },
     {
      "date": "2026-01-17",
      "heure": "14:00",
      "domicile": false,
      "adversaire": "CARHAIX DC",
+     "adversaire_slug": "501889-carhaix-dc",
      "score": "8-2",
      "statut": "joué",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": true
     }
    ]
   }

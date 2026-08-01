@@ -7,84 +7,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "444115",
-   "division": "coupe des Flandres U16",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U16",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "HAUTS-DE-FRANCE",
-   "equipe_nom": "GRAVELINES GD FORT 21",
-   "equipe_slug": "582258-gravelines-gd-fort-21",
-   "matchs": [
-    {
-     "date": "2026-03-14",
-     "heure": "15:15",
-     "domicile": true,
-     "adversaire": "MARCQ EN BAROEUL O. 22",
-     "score": "4-6",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE ROBERT PRUVOST 2"
-    }
-   ]
-  },
-  {
-   "cpNo": "444116",
-   "division": "coupe des Flandres U15",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U15",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "HAUTS-DE-FRANCE",
-   "equipe_nom": "GRAVELINES GD FORT",
-   "equipe_slug": "582258-gravelines-gd-fort",
-   "matchs": [
-    {
-     "date": "2026-03-04",
-     "heure": "19:00",
-     "domicile": false,
-     "adversaire": "HAZEBROUCK SC 2",
-     "score": "0-14",
-     "statut": "joué",
-     "journee": null,
-     "stade": "COMPLEXE SPORTIF DE L'HOFLANDT 2"
-    },
-    {
-     "date": "2026-03-14",
-     "heure": "16:30",
-     "domicile": true,
-     "adversaire": "ESTAIRES US",
-     "score": "3-2",
-     "statut": "joué",
-     "journee": "16ème de finale",
-     "stade": "STADE DU MOULIN N°4"
-    },
-    {
-     "date": "2026-04-04",
-     "heure": "14:00",
-     "domicile": false,
-     "adversaire": "GRANDE SYNTHE O.",
-     "score": "3-1",
-     "statut": "joué",
-     "journee": "8ème de finale",
-     "stade": "Stadium Du Littoral 2"
-    }
-   ]
-  },
-  {
    "cpNo": "444117",
    "division": "coupe des Flandres U14",
    "niveau": "Départemental",
@@ -106,20 +28,24 @@
      "heure": "14:00",
      "domicile": false,
      "adversaire": "NEUVILLE FERRAIN FAN 23",
+     "adversaire_slug": "524395-neuville-ferrain-fan-23",
      "score": "0-7",
      "statut": "joué",
      "journee": "3ème tour",
-     "stade": "STADE JEAN DEPOORTÈRE 2"
+     "stade": "STADE JEAN DEPOORTÈRE 2",
+     "joue": true
     },
     {
      "date": "2026-03-14",
      "heure": "14:30",
      "domicile": true,
      "adversaire": "LAMBERSART UF 23",
+     "adversaire_slug": "560787-lambersart-uf-23",
      "score": "4-2",
      "statut": "joué",
      "journee": "16ème de finale",
-     "stade": "STADE DU MOULIN N°3"
+     "stade": "STADE DU MOULIN N°3",
+     "joue": true
     }
    ]
   },
@@ -145,20 +71,110 @@
      "heure": "17:30",
      "domicile": true,
      "adversaire": "DUNKERQUE SUD AS",
+     "adversaire_slug": "544774-dunkerque-sud-as",
      "score": "2-1",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE DU MOULIN N°3"
+     "stade": "STADE DU MOULIN N°3",
+     "joue": true
     },
     {
      "date": "2026-04-29",
      "heure": "18:00",
      "domicile": false,
      "adversaire": "SAINGHIN AO",
+     "adversaire_slug": "500981-sainghin-ao",
      "score": "2-1",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE BETRANCOURT 1"
+     "stade": "STADE BETRANCOURT 1",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "444115",
+   "division": "coupe des Flandres U16",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U16",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "HAUTS-DE-FRANCE",
+   "equipe_nom": "GRAVELINES GD FORT 21",
+   "equipe_slug": "582258-gravelines-gd-fort-21",
+   "matchs": [
+    {
+     "date": "2026-03-14",
+     "heure": "15:15",
+     "domicile": true,
+     "adversaire": "MARCQ EN BAROEUL O. 22",
+     "adversaire_slug": "500866-marcq-en-baroeul-o-22",
+     "score": "4-6",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE ROBERT PRUVOST 2",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "444116",
+   "division": "coupe des Flandres U15",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U15",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "HAUTS-DE-FRANCE",
+   "equipe_nom": "GRAVELINES GD FORT",
+   "equipe_slug": "582258-gravelines-gd-fort",
+   "matchs": [
+    {
+     "date": "2026-03-04",
+     "heure": "19:00",
+     "domicile": false,
+     "adversaire": "HAZEBROUCK SC 2",
+     "adversaire_slug": "500957-hazebrouck-sc-2",
+     "score": "0-14",
+     "statut": "joué",
+     "journee": null,
+     "stade": "COMPLEXE SPORTIF DE L'HOFLANDT 2",
+     "joue": true
+    },
+    {
+     "date": "2026-03-14",
+     "heure": "16:30",
+     "domicile": true,
+     "adversaire": "ESTAIRES US",
+     "adversaire_slug": "523108-estaires-us",
+     "score": "3-2",
+     "statut": "joué",
+     "journee": "16ème de finale",
+     "stade": "STADE DU MOULIN N°4",
+     "joue": true
+    },
+    {
+     "date": "2026-04-04",
+     "heure": "14:00",
+     "domicile": false,
+     "adversaire": "GRANDE SYNTHE O.",
+     "adversaire_slug": "520251-grande-synthe-o",
+     "score": "3-1",
+     "statut": "joué",
+     "journee": "8ème de finale",
+     "stade": "Stadium Du Littoral 2",
+     "joue": true
     }
    ]
   }

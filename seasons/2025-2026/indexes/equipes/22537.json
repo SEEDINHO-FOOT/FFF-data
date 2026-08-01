@@ -8,64 +8,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "439061",
-   "division": "Coupe CREDIT AGRICOLE",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BOURGOGNE - FRANCHE COMTE",
-   "equipe_nom": "AJ ST FORGEOT 2",
-   "equipe_slug": "544240-aj-st-forgeot-2",
-   "matchs": [
-    {
-     "date": "2025-09-14",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "MONTCENIS F.C. 2",
-     "score": "2-2",
-     "statut": "joué",
-     "journee": "1er TOUR",
-     "stade": "STADE MUNICIPAL"
-    }
-   ]
-  },
-  {
-   "cpNo": "439062",
-   "division": "Coupe DEPARTEMENTALE",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BOURGOGNE - FRANCHE COMTE",
-   "equipe_nom": "AJ ST FORGEOT 2",
-   "equipe_slug": "544240-aj-st-forgeot-2",
-   "matchs": [
-    {
-     "date": "2025-10-12",
-     "heure": "12:00",
-     "domicile": false,
-     "adversaire": "GENELARD PERRECY FC 2",
-     "score": "4-0",
-     "statut": "joué",
-     "journee": "1er TOUR",
-     "stade": "STADE LÉON SIMONIN 1"
-    }
-   ]
-  },
-  {
    "cpNo": "439063",
    "division": "Coupe REX ROTARY",
    "niveau": "Départemental",
@@ -87,30 +29,68 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "MOROGES",
+     "adversaire_slug": "536826-moroges",
      "score": "1-3",
      "statut": "joué",
      "journee": "1er TOUR",
-     "stade": "STADE LES PRÉS GERMAINS"
+     "stade": "STADE LES PRÉS GERMAINS",
+     "joue": true
     },
     {
      "date": "2025-10-12",
      "heure": "15:00",
      "domicile": true,
      "adversaire": "A.S. CIRY LE NOBLE",
+     "adversaire_slug": "508433-a-s-ciry-le-noble",
      "score": "6-1",
      "statut": "joué",
      "journee": "2ème Tour",
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true
     },
     {
      "date": "2025-11-16",
      "heure": "12:00",
      "domicile": false,
      "adversaire": "DIGOIN F.C.A. 2",
+     "adversaire_slug": "553296-digoin-f-c-a-2",
      "score": "6-1",
      "statut": "joué",
      "journee": "Cadrage ",
-     "stade": "STADE PIERRE DE COUBERTIN 2"
+     "stade": "STADE PIERRE DE COUBERTIN 2",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "439061",
+   "division": "Coupe CREDIT AGRICOLE",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BOURGOGNE - FRANCHE COMTE",
+   "equipe_nom": "AJ ST FORGEOT 2",
+   "equipe_slug": "544240-aj-st-forgeot-2",
+   "matchs": [
+    {
+     "date": "2025-09-14",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "MONTCENIS F.C. 2",
+     "adversaire_slug": "533893-montcenis-f-c-2",
+     "score": "2-2",
+     "statut": "joué",
+     "journee": "1er TOUR",
+     "stade": "STADE MUNICIPAL",
+     "joue": true,
+     "tirs_au_but": true
     }
    ]
   },
@@ -136,10 +116,44 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "SC AUTUN",
+     "adversaire_slug": "861190-sc-autun",
      "score": "2-2",
      "statut": "joué",
      "journee": "1er TOUR",
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true,
+     "tirs_au_but": true
+    }
+   ]
+  },
+  {
+   "cpNo": "439062",
+   "division": "Coupe DEPARTEMENTALE",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BOURGOGNE - FRANCHE COMTE",
+   "equipe_nom": "AJ ST FORGEOT 2",
+   "equipe_slug": "544240-aj-st-forgeot-2",
+   "matchs": [
+    {
+     "date": "2025-10-12",
+     "heure": "12:00",
+     "domicile": false,
+     "adversaire": "GENELARD PERRECY FC 2",
+     "adversaire_slug": "560222-genelard-perrecy-fc-2",
+     "score": "4-0",
+     "statut": "joué",
+     "journee": "1er TOUR",
+     "stade": "STADE LÉON SIMONIN 1",
+     "joue": true
     }
    ]
   },
@@ -165,10 +179,12 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "AMICALE SPORTIVE",
+     "adversaire_slug": "561096-amicale-sportive",
      "score": "3-0",
      "statut": "joué",
      "journee": "1er TOUR",
-     "stade": "STADE LE MAUGUIN"
+     "stade": "STADE LE MAUGUIN",
+     "joue": true
     }
    ]
   }

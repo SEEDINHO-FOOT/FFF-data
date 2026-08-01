@@ -8,45 +8,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "435203",
-   "division": "Coupe Nouvelle-Aquitaine U15",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U15",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "PAYS TARUSATE GJ",
-   "equipe_slug": "560585-pays-tarusate-gj",
-   "matchs": [
-    {
-     "date": "2025-11-01",
-     "heure": "14:00",
-     "domicile": false,
-     "adversaire": "ST PIERRE DU MONT SC",
-     "score": "1-1",
-     "statut": "joué",
-     "journee": "Tour 2",
-     "stade": "PLAINE DE JEUX DE LA MÉNASSE 1"
-    },
-    {
-     "date": "2025-11-22",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "BASSIN ARCACHON FC",
-     "score": "1-5",
-     "statut": "joué",
-     "journee": "Tour 3",
-     "stade": "MARCEL ESTIVALS /HOURRITIOT 4"
-    }
-   ]
-  },
-  {
    "cpNo": "437748",
    "division": "COUPE DES LANDES U15",
    "niveau": "Départemental",
@@ -68,20 +29,24 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "MORCENX/ARENGOSSE FC",
+     "adversaire_slug": "518160-morcenx-arengosse-fc",
      "score": "0-2",
      "statut": "joué",
      "journee": "Tour 1",
-     "stade": "STADE LUXEY-BONNAT"
+     "stade": "STADE LUXEY-BONNAT",
+     "joue": true
     },
     {
      "date": "2026-01-10",
      "heure": "13:00",
      "domicile": true,
      "adversaire": "DAX J.A.",
+     "adversaire_slug": "505739-dax-j-a",
      "score": "0-2",
      "statut": "joué",
      "journee": "1/8èmes de Finale",
-     "stade": "Parc Des Sports Hourritiot 6 SyN"
+     "stade": "Parc Des Sports Hourritiot 6 SyN",
+     "joue": true
     }
    ]
   },
@@ -107,10 +72,13 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "SCS FC 2",
+     "adversaire_slug": "581325-scs-fc-2",
      "score": "1-1",
      "statut": "joué",
      "journee": "Tour 1",
-     "stade": "STADE J. FARTHOUAT"
+     "stade": "STADE J. FARTHOUAT",
+     "joue": true,
+     "tirs_au_but": true
     }
    ]
   },
@@ -136,20 +104,69 @@
      "heure": "15:30",
      "domicile": true,
      "adversaire": "FC ROQUEFORT ST JUST",
+     "adversaire_slug": "560484-fc-roquefort-st-just",
      "score": "1-0",
      "statut": "joué",
      "journee": "1/8èmes de Finale",
-     "stade": "Parc Des Sports Hourritiot 6 SyN"
+     "stade": "Parc Des Sports Hourritiot 6 SyN",
+     "joue": true
     },
     {
      "date": "2026-02-21",
      "heure": "15:30",
      "domicile": true,
      "adversaire": "US ARMAGNAC",
+     "adversaire_slug": "505875-us-armagnac",
      "score": "0-0",
      "statut": "joué",
      "journee": "1/4 de Finale",
-     "stade": "Parc Des Sports Hourritiot 6 SyN"
+     "stade": "Parc Des Sports Hourritiot 6 SyN",
+     "joue": true,
+     "tirs_au_but": true
+    }
+   ]
+  },
+  {
+   "cpNo": "435203",
+   "division": "Coupe Nouvelle-Aquitaine U15",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U15",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "PAYS TARUSATE GJ",
+   "equipe_slug": "560585-pays-tarusate-gj",
+   "matchs": [
+    {
+     "date": "2025-11-01",
+     "heure": "14:00",
+     "domicile": false,
+     "adversaire": "ST PIERRE DU MONT SC",
+     "adversaire_slug": "531446-st-pierre-du-mont-sc",
+     "score": "1-1",
+     "statut": "joué",
+     "journee": "Tour 2",
+     "stade": "PLAINE DE JEUX DE LA MÉNASSE 1",
+     "joue": true,
+     "tirs_au_but": true
+    },
+    {
+     "date": "2025-11-22",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "BASSIN ARCACHON FC",
+     "adversaire_slug": "580598-bassin-arcachon-fc",
+     "score": "1-5",
+     "statut": "joué",
+     "journee": "Tour 3",
+     "stade": "MARCEL ESTIVALS /HOURRITIOT 4",
+     "joue": true
     }
    ]
   }

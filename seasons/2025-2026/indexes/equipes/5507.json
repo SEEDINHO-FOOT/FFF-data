@@ -28,89 +28,75 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "ALLERY AIRAINE AS 2A 2",
+     "adversaire_slug": "549631-allery-airaine-as-2a-2",
      "score": "0-4",
      "statut": "joué",
      "journee": "1er Tour",
-     "stade": "Stade Gérard Beuvin"
+     "stade": "Stade Gérard Beuvin",
+     "joue": true
     },
     {
      "date": "2025-09-14",
      "heure": "11:30",
      "domicile": true,
      "adversaire": "MIANNAY MOYENNEVILLE 2",
+     "adversaire_slug": "582693-miannay-moyenneville-2",
      "score": "1-1",
      "statut": "joué",
      "journee": "2ème Tour",
-     "stade": "STADE PLAINE SPORTS ET LOISIRS 1"
+     "stade": "STADE PLAINE SPORTS ET LOISIRS 1",
+     "joue": true,
+     "tirs_au_but": true
     },
     {
      "date": "2025-10-26",
      "heure": "14:30",
      "domicile": false,
      "adversaire": "AILLY S/S FC SAMARA 2",
+     "adversaire_slug": "563785-ailly-s-s-fc-samara-2",
      "score": "1-1",
      "statut": "joué",
      "journee": "3ème tour",
-     "stade": "STADE NICOLAS COUPÉ 1"
+     "stade": "STADE NICOLAS COUPÉ 1",
+     "joue": true,
+     "tirs_au_but": true
     },
     {
      "date": "2025-11-16",
      "heure": "14:30",
      "domicile": true,
      "adversaire": "ABBEVILLE US",
+     "adversaire_slug": "501016-abbeville-us",
      "score": "6-3",
      "statut": "joué",
      "journee": "4ème Tour",
-     "stade": "STADE PLAINE SPORTS ET LOISIRS 1"
+     "stade": "STADE PLAINE SPORTS ET LOISIRS 1",
+     "joue": true
     },
     {
      "date": "2025-12-07",
      "heure": "14:30",
      "domicile": true,
      "adversaire": "PERONNE ECAFC 2",
+     "adversaire_slug": "500341-peronne-ecafc-2",
      "score": "1-1",
      "statut": "joué",
      "journee": "5ème Tour",
-     "stade": "STADE PLAINE SPORTS ET LOISIRS 1"
+     "stade": "STADE PLAINE SPORTS ET LOISIRS 1",
+     "joue": true,
+     "tirs_au_but": true
     },
     {
      "date": "2026-03-01",
      "heure": "14:30",
      "domicile": true,
      "adversaire": "LIGNIERES US",
+     "adversaire_slug": "501051-lignieres-us",
      "score": "1-4",
      "statut": "joué",
      "journee": "1/8ème de finale",
-     "stade": "STADE PLAINE SPORTS ET LOISIRS 1"
-    }
-   ]
-  },
-  {
-   "cpNo": "442959",
-   "division": "Coupe de la Somme Seniors / Challenge CRCA",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "HAUTS-DE-FRANCE",
-   "equipe_nom": "PONT REMY SC",
-   "equipe_slug": "517696-pont-remy-sc",
-   "matchs": [
-    {
-     "date": "2025-11-16",
-     "heure": "14:30",
-     "domicile": false,
-     "adversaire": "AILLY S/S FC SAMARA",
-     "score": "4-1",
-     "statut": "joué",
-     "journee": "4ème Tour",
-     "stade": "STADE NICOLAS COUPÉ 1"
+     "stade": "STADE PLAINE SPORTS ET LOISIRS 1",
+     "joue": true
     }
    ]
   },
@@ -136,20 +122,55 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "LE TITRE ENT.",
+     "adversaire_slug": "542780-le-titre-ent",
      "score": "3-5",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE M ET M ROCQUE"
+     "stade": "STADE M ET M ROCQUE",
+     "joue": true
     },
     {
      "date": "2026-04-22",
      "heure": "16:00",
      "domicile": false,
      "adversaire": "CENTULOIS FC 1924",
+     "adversaire_slug": "501220-centulois-fc-1924",
      "score": "3-0",
      "statut": "joué",
      "journee": "2ème tour",
-     "stade": "STADE MARCEL LOUCHART"
+     "stade": "STADE MARCEL LOUCHART",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "442959",
+   "division": "Coupe de la Somme Seniors / Challenge CRCA",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "HAUTS-DE-FRANCE",
+   "equipe_nom": "PONT REMY SC",
+   "equipe_slug": "517696-pont-remy-sc",
+   "matchs": [
+    {
+     "date": "2025-11-16",
+     "heure": "14:30",
+     "domicile": false,
+     "adversaire": "AILLY S/S FC SAMARA",
+     "adversaire_slug": "563785-ailly-s-s-fc-samara",
+     "score": "4-1",
+     "statut": "joué",
+     "journee": "4ème Tour",
+     "stade": "STADE NICOLAS COUPÉ 1",
+     "joue": true
     }
    ]
   },
@@ -175,10 +196,12 @@
      "heure": "16:30",
      "domicile": false,
      "adversaire": "AMIENS RC",
+     "adversaire_slug": "500345-amiens-rc",
      "score": "3-0",
      "statut": "joué",
      "journee": "1er Tour",
-     "stade": "STADE MOULONGUET N°2"
+     "stade": "STADE MOULONGUET N°2",
+     "joue": true
     }
    ]
   },
@@ -204,20 +227,24 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "RUE AS",
+     "adversaire_slug": "564380-rue-as",
      "score": "0-6",
      "statut": "joué",
      "journee": "1er Tour",
-     "stade": "Stade Des Frères Caudron 1"
+     "stade": "Stade Des Frères Caudron 1",
+     "joue": true
     },
     {
      "date": "2025-09-28",
      "heure": "15:00",
      "domicile": false,
      "adversaire": "GAUCHY GRUGIES FC",
+     "adversaire_slug": "581692-gauchy-grugies-fc",
      "score": "3-1",
      "statut": "joué",
      "journee": "4ème Tour",
-     "stade": "COMPLEXE SPORTIF ROBERT BARRAN 1"
+     "stade": "COMPLEXE SPORTIF ROBERT BARRAN 1",
+     "joue": true
     }
    ]
   }

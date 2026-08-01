@@ -7,104 +7,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "440413",
-   "division": "Trophée Morbihan U17",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U17",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BRETAGNE",
-   "equipe_nom": "GJ PAYS DE ROCHEFORT",
-   "equipe_slug": "552582-gj-pays-de-rochefort",
-   "matchs": [
-    {
-     "date": "2025-09-27",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "GJ PAYS ROCHE BERNAR",
-     "score": "2-3",
-     "statut": "joué",
-     "journee": "Journée 1",
-     "stade": "STADE MUNICIPAL 1"
-    },
-    {
-     "date": "2025-10-18",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "PLOERMEL FC 2",
-     "score": "3-1",
-     "statut": "joué",
-     "journee": "Journée 2",
-     "stade": "STADE OCTAVE GUILLOUX"
-    },
-    {
-     "date": "2025-11-22",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "CAMPENEAC AUGAN AV",
-     "score": "0-3",
-     "statut": "joué",
-     "journee": "Journée 3",
-     "stade": null
-    }
-   ]
-  },
-  {
-   "cpNo": "440415",
-   "division": "Trophée Morbihan U16",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U16",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BRETAGNE",
-   "equipe_nom": "GJ PAYS DE ROCHEFORT 21",
-   "equipe_slug": "552582-gj-pays-de-rochefort-21",
-   "matchs": [
-    {
-     "date": "2025-09-27",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "GJ PAYS DE CARNAC 21",
-     "score": "14-1",
-     "statut": "joué",
-     "journee": "Journée 1",
-     "stade": "STADE MUNICIPAL 1"
-    },
-    {
-     "date": "2025-10-18",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "VANNES MENIMUR 22",
-     "score": "1-6",
-     "statut": "joué",
-     "journee": "Journée 2",
-     "stade": "STADE DE BRESPAN 1"
-    },
-    {
-     "date": "2025-11-22",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "SARZEAU 21",
-     "score": "0-1",
-     "statut": "joué",
-     "journee": "Journée 3",
-     "stade": "STADE DE BRESPAN 1"
-    }
-   ]
-  },
-  {
    "cpNo": "440420",
    "division": "Trophée Morbihan U14",
    "niveau": "Départemental",
@@ -126,20 +28,24 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "QUESTEMBERT BO 22",
+     "adversaire_slug": "502020-questembert-bo-22",
      "score": "0-3",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE GALINIO NORD 4"
+     "stade": "STADE GALINIO NORD 4",
+     "joue": true
     },
     {
      "date": "2026-02-28",
      "heure": "15:00",
      "domicile": true,
      "adversaire": "GJ PAYS MUZILLAC 21",
+     "adversaire_slug": "563618-gj-pays-muzillac-21",
      "score": "2-0",
      "statut": "joué",
      "journee": "8èmes de finale",
-     "stade": "STADE MUNICIPAL 1"
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
     }
    ]
   },
@@ -165,10 +71,122 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "PLOEMEUR FC 56",
+     "adversaire_slug": "553187-ploemeur-fc-56",
      "score": "1-4",
      "statut": "joué",
      "journee": "Quarts de finale",
-     "stade": null
+     "stade": null,
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "440415",
+   "division": "Trophée Morbihan U16",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U16",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BRETAGNE",
+   "equipe_nom": "GJ PAYS DE ROCHEFORT 21",
+   "equipe_slug": "552582-gj-pays-de-rochefort-21",
+   "matchs": [
+    {
+     "date": "2025-09-27",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "GJ PAYS DE CARNAC 21",
+     "adversaire_slug": "581777-gj-pays-de-carnac-21",
+     "score": "14-1",
+     "statut": "joué",
+     "journee": "Journée 1",
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
+    },
+    {
+     "date": "2025-10-18",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "VANNES MENIMUR 22",
+     "adversaire_slug": "523863-vannes-menimur-22",
+     "score": "1-6",
+     "statut": "joué",
+     "journee": "Journée 2",
+     "stade": "STADE DE BRESPAN 1",
+     "joue": true
+    },
+    {
+     "date": "2025-11-22",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "SARZEAU 21",
+     "adversaire_slug": "519037-sarzeau-21",
+     "score": "0-1",
+     "statut": "joué",
+     "journee": "Journée 3",
+     "stade": "STADE DE BRESPAN 1",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "440413",
+   "division": "Trophée Morbihan U17",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U17",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BRETAGNE",
+   "equipe_nom": "GJ PAYS DE ROCHEFORT",
+   "equipe_slug": "552582-gj-pays-de-rochefort",
+   "matchs": [
+    {
+     "date": "2025-09-27",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "GJ PAYS ROCHE BERNAR",
+     "adversaire_slug": "551574-gj-pays-roche-bernar",
+     "score": "2-3",
+     "statut": "joué",
+     "journee": "Journée 1",
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
+    },
+    {
+     "date": "2025-10-18",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "PLOERMEL FC 2",
+     "adversaire_slug": "548866-ploermel-fc-2",
+     "score": "3-1",
+     "statut": "joué",
+     "journee": "Journée 2",
+     "stade": "STADE OCTAVE GUILLOUX",
+     "joue": true
+    },
+    {
+     "date": "2025-11-22",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "CAMPENEAC AUGAN AV",
+     "adversaire_slug": "560240-campeneac-augan-av",
+     "score": "0-3",
+     "statut": "joué",
+     "journee": "Journée 3",
+     "stade": null,
+     "joue": true
     }
    ]
   }

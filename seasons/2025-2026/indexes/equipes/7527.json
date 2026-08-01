@@ -28,60 +28,72 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "TUBERSENT AC",
+     "adversaire_slug": "549881-tubersent-ac",
      "score": null,
      "statut": "à venir",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": false
     },
     {
      "date": "2025-08-16",
      "heure": "16:30",
      "domicile": true,
      "adversaire": "LECLUSE RC",
+     "adversaire_slug": null,
      "score": null,
      "statut": "à venir",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": false
     },
     {
      "date": "2025-08-16",
      "heure": "18:00",
      "domicile": true,
      "adversaire": "CAUCHY A LA TOUR AS",
+     "adversaire_slug": null,
      "score": null,
      "statut": "à venir",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": false
     },
     {
      "date": "2025-08-17",
      "heure": "10:00",
      "domicile": false,
      "adversaire": "VERCHOCQ US 3",
+     "adversaire_slug": "523499-verchocq-us-3",
      "score": "3-2",
      "statut": "joué",
      "journee": null,
-     "stade": "Stade Gérard HouIllier 1"
+     "stade": "Stade Gérard HouIllier 1",
+     "joue": true
     },
     {
      "date": "2025-08-19",
      "heure": "19:30",
      "domicile": true,
      "adversaire": "NEUFCHATEL L'ECLAIR 2",
+     "adversaire_slug": "500188-neufchatel-l-eclair-2",
      "score": "2-2",
      "statut": "joué",
      "journee": null,
-     "stade": "Complexe Sportif Ostermeyer 1"
+     "stade": "Complexe Sportif Ostermeyer 1",
+     "joue": true
     },
     {
      "date": "2025-08-21",
      "heure": "19:30",
      "domicile": true,
      "adversaire": "ETAPLES HAUTE VILLE 2",
+     "adversaire_slug": "536157-etaples-haute-ville-2",
      "score": null,
      "statut": "à venir",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": false
     }
    ]
   },
@@ -107,10 +119,12 @@
      "heure": "10:30",
      "domicile": true,
      "adversaire": "QUEND US 3",
+     "adversaire_slug": "501264-quend-us-3",
      "score": "1-0",
      "statut": "joué",
      "journee": null,
-     "stade": "Complexe Sportif Ostermeyer 1"
+     "stade": "Complexe Sportif Ostermeyer 1",
+     "joue": true
     }
    ]
   },
@@ -136,39 +150,12 @@
      "heure": "18:30",
      "domicile": true,
      "adversaire": "BERCK AS",
+     "adversaire_slug": "500295-berck-as",
      "score": "0-10",
      "statut": "joué",
      "journee": null,
-     "stade": "Complexe Sportif Ostermeyer 1"
-    }
-   ]
-  },
-  {
-   "cpNo": "437130",
-   "division": "Coupe ADN D4D5",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "HAUTS-DE-FRANCE",
-   "equipe_nom": "RANG DU FLIERS AS",
-   "equipe_slug": "521362-rang-du-fliers-as",
-   "matchs": [
-    {
-     "date": "2025-10-12",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "CUCQ AS 2",
-     "score": "3-0",
-     "statut": "joué",
-     "journee": "TOUR 2",
-     "stade": "STADE MUNICIPAL 2"
+     "stade": "Complexe Sportif Ostermeyer 1",
+     "joue": true
     }
    ]
   },
@@ -194,10 +181,13 @@
      "heure": "10:30",
      "domicile": true,
      "adversaire": "CONCHIL AS 3",
+     "adversaire_slug": "537276-conchil-as-3",
      "score": "2-2",
      "statut": "joué",
      "journee": null,
-     "stade": "Complexe Sportif Ostermeyer 1"
+     "stade": "Complexe Sportif Ostermeyer 1",
+     "joue": true,
+     "tirs_au_but": true
     }
    ]
   },
@@ -223,10 +213,12 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "FRUGES AS",
+     "adversaire_slug": "521530-fruges-as",
      "score": "2-6",
      "statut": "joué",
      "journee": null,
-     "stade": "Complexe Sportif Ostermeyer 1"
+     "stade": "Complexe Sportif Ostermeyer 1",
+     "joue": true
     }
    ]
   },
@@ -252,10 +244,43 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "ENT. CONCHIL-VERTON",
+     "adversaire_slug": "537276-ent-conchil-verton",
      "score": "16-0",
      "statut": "joué",
      "journee": "TOUR 1",
-     "stade": "STADE MUNICIPAL 1"
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "437130",
+   "division": "Coupe ADN D4D5",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "HAUTS-DE-FRANCE",
+   "equipe_nom": "RANG DU FLIERS AS",
+   "equipe_slug": "521362-rang-du-fliers-as",
+   "matchs": [
+    {
+     "date": "2025-10-12",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "CUCQ AS 2",
+     "adversaire_slug": "525817-cucq-as-2",
+     "score": "3-0",
+     "statut": "joué",
+     "journee": "TOUR 2",
+     "stade": "STADE MUNICIPAL 2",
+     "joue": true
     }
    ]
   },
@@ -281,10 +306,12 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "ISBERGUES ESD",
+     "adversaire_slug": "500469-isbergues-esd",
      "score": "0-9",
      "statut": "joué",
      "journee": "3ème Tour",
-     "stade": "Complexe Sportif Ostermeyer 1"
+     "stade": "Complexe Sportif Ostermeyer 1",
+     "joue": true
     }
    ]
   }

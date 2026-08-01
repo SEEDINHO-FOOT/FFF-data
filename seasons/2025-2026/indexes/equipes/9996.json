@@ -7,105 +7,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "437410",
-   "division": "COUPE REGION BRETAGNE",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BRETAGNE",
-   "equipe_nom": "LAMPAUL FC",
-   "equipe_slug": "525183-lampaul-fc",
-   "matchs": [
-    {
-     "date": "2025-09-28",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "LANNILIS SC",
-     "score": "2-2",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE DE KERGROAS 1"
-    },
-    {
-     "date": "2025-09-28",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "LANNILIS SC",
-     "score": "2-2",
-     "statut": "joué",
-     "journee": "CRB",
-     "stade": "STADE DE KERGROAS 1"
-    },
-    {
-     "date": "2025-09-28",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "LANNILIS SC",
-     "score": "2-2",
-     "statut": "joué",
-     "journee": "CRB",
-     "stade": "STADE DE KERGROAS 1"
-    },
-    {
-     "date": "2025-09-28",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "LANNILIS SC",
-     "score": "2-2",
-     "statut": "joué",
-     "journee": "CRB",
-     "stade": "STADE DE KERGROAS 1"
-    },
-    {
-     "date": "2025-10-12",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "BREST ASPTT",
-     "score": "4-3",
-     "statut": "joué",
-     "journee": null,
-     "stade": "Complexe Sportif De Kéranroux"
-    },
-    {
-     "date": "2025-10-12",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "BREST ASPTT",
-     "score": "4-3",
-     "statut": "joué",
-     "journee": "CRB",
-     "stade": "Complexe Sportif De Kéranroux"
-    },
-    {
-     "date": "2025-10-12",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "BREST ASPTT",
-     "score": "4-3",
-     "statut": "joué",
-     "journee": "CRB",
-     "stade": "Complexe Sportif De Kéranroux"
-    },
-    {
-     "date": "2025-10-12",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "BREST ASPTT",
-     "score": "4-3",
-     "statut": "joué",
-     "journee": "CRB",
-     "stade": "Complexe Sportif De Kéranroux"
-    }
-   ]
-  },
-  {
    "cpNo": "443711",
    "division": "Coupe Vétérans",
    "niveau": "Départemental",
@@ -127,20 +28,25 @@
      "heure": "21:00",
      "domicile": false,
      "adversaire": "GUILERS AM S 31",
+     "adversaire_slug": "512366-guilers-am-s-31",
      "score": "2-1",
      "statut": "joué",
      "journee": "Journée 2",
-     "stade": null
+     "stade": null,
+     "joue": true
     },
     {
      "date": "2025-11-14",
      "heure": "21:00",
      "domicile": true,
      "adversaire": "LE RELECQ KERHUON FC 31",
+     "adversaire_slug": "580840-le-relecq-kerhuon-fc-31",
      "score": "3-3",
      "statut": "joué",
      "journee": "Journée 3",
-     "stade": null
+     "stade": null,
+     "joue": true,
+     "tirs_au_but": true
     }
    ]
   },
@@ -166,10 +72,131 @@
      "heure": "21:00",
      "domicile": false,
      "adversaire": "PLOUZANE ACF 2",
+     "adversaire_slug": "502397-plouzane-acf-2",
      "score": "8-1",
      "statut": "joué",
      "journee": "1/4 DE FINALE",
-     "stade": null
+     "stade": null,
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "437410",
+   "division": "COUPE REGION BRETAGNE",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BRETAGNE",
+   "equipe_nom": "LAMPAUL FC",
+   "equipe_slug": "525183-lampaul-fc",
+   "matchs": [
+    {
+     "date": "2025-09-28",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "LANNILIS SC",
+     "adversaire_slug": "501950-lannilis-sc",
+     "score": "2-2",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE DE KERGROAS 1",
+     "joue": true,
+     "tirs_au_but": true
+    },
+    {
+     "date": "2025-09-28",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "LANNILIS SC",
+     "adversaire_slug": "501950-lannilis-sc",
+     "score": "2-2",
+     "statut": "joué",
+     "journee": "CRB",
+     "stade": "STADE DE KERGROAS 1",
+     "joue": true,
+     "tirs_au_but": true
+    },
+    {
+     "date": "2025-09-28",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "LANNILIS SC",
+     "adversaire_slug": "501950-lannilis-sc",
+     "score": "2-2",
+     "statut": "joué",
+     "journee": "CRB",
+     "stade": "STADE DE KERGROAS 1",
+     "joue": true,
+     "tirs_au_but": true
+    },
+    {
+     "date": "2025-09-28",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "LANNILIS SC",
+     "adversaire_slug": "501950-lannilis-sc",
+     "score": "2-2",
+     "statut": "joué",
+     "journee": "CRB",
+     "stade": "STADE DE KERGROAS 1",
+     "joue": true,
+     "tirs_au_but": true
+    },
+    {
+     "date": "2025-10-12",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "BREST ASPTT",
+     "adversaire_slug": "520895-brest-asptt",
+     "score": "4-3",
+     "statut": "joué",
+     "journee": null,
+     "stade": "Complexe Sportif De Kéranroux",
+     "joue": true
+    },
+    {
+     "date": "2025-10-12",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "BREST ASPTT",
+     "adversaire_slug": "520895-brest-asptt",
+     "score": "4-3",
+     "statut": "joué",
+     "journee": "CRB",
+     "stade": "Complexe Sportif De Kéranroux",
+     "joue": true
+    },
+    {
+     "date": "2025-10-12",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "BREST ASPTT",
+     "adversaire_slug": "520895-brest-asptt",
+     "score": "4-3",
+     "statut": "joué",
+     "journee": "CRB",
+     "stade": "Complexe Sportif De Kéranroux",
+     "joue": true
+    },
+    {
+     "date": "2025-10-12",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "BREST ASPTT",
+     "adversaire_slug": "520895-brest-asptt",
+     "score": "4-3",
+     "statut": "joué",
+     "journee": "CRB",
+     "stade": "Complexe Sportif De Kéranroux",
+     "joue": true
     }
    ]
   },
@@ -195,10 +222,12 @@
      "heure": "17:00",
      "domicile": true,
      "adversaire": "MILIZAC ST P",
+     "adversaire_slug": "517201-milizac-st-p",
      "score": "0-2",
      "statut": "joué",
      "journee": null,
-     "stade": "Stade Des Dunes Porspaul N°1"
+     "stade": "Stade Des Dunes Porspaul N°1",
+     "joue": true
     }
    ]
   }

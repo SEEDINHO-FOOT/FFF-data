@@ -8,35 +8,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "440179",
-   "division": "COUPE DE NORMANDIE U18 - E2SE",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U18",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NORMANDIE",
-   "equipe_nom": "FC FREVILLE BO.SIVOM 21",
-   "equipe_slug": "590569-fc-freville-bo-sivom-21",
-   "matchs": [
-    {
-     "date": "2025-10-11",
-     "heure": "13:30",
-     "domicile": false,
-     "adversaire": "AS LONDAISE 21",
-     "score": "8-0",
-     "statut": "joué",
-     "journee": "2eme TOUR",
-     "stade": "STADE ANDRÉ TREPAGNY 1 "
-    }
-   ]
-  },
-  {
    "cpNo": "440947",
    "division": "COUPE ANDRE CAILLOT",
    "niveau": "Départemental",
@@ -58,69 +29,37 @@
      "heure": "14:30",
      "domicile": false,
      "adversaire": "US GREGEOISE 2",
+     "adversaire_slug": "530661-us-gregeoise-2",
      "score": "0-3",
      "statut": "joué",
      "journee": "2ème tour",
-     "stade": "STADE ALEXANDRE DANNE"
+     "stade": "STADE ALEXANDRE DANNE",
+     "joue": true
     },
     {
      "date": "2026-03-01",
      "heure": "14:30",
      "domicile": true,
      "adversaire": "CA LONGUEVILLAIS 2",
+     "adversaire_slug": "501448-ca-longuevillais-2",
      "score": "7-1",
      "statut": "joué",
      "journee": "3ème tour",
-     "stade": "STADE MICHEL VAUTROT"
+     "stade": "STADE MICHEL VAUTROT",
+     "joue": true
     },
     {
      "date": "2026-04-05",
      "heure": "15:00",
      "domicile": false,
      "adversaire": "ISNEAUVILLE FC",
+     "adversaire_slug": "520201-isneauville-fc",
      "score": "2-2",
      "statut": "joué",
      "journee": "1/8èmes de finale",
-     "stade": "COMPLEXE SPORTIF CHEVAL ROUGE 1"
-    }
-   ]
-  },
-  {
-   "cpNo": "440949",
-   "division": "COUPE ROBERT BALLUET",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NORMANDIE",
-   "equipe_nom": "FC FREVILLE BO.SIVOM 2",
-   "equipe_slug": "590569-fc-freville-bo-sivom-2",
-   "matchs": [
-    {
-     "date": "2025-09-28",
-     "heure": "10:00",
-     "domicile": true,
-     "adversaire": "E.MOTTEVILLE X MARE 3",
-     "score": "6-2",
-     "statut": "joué",
-     "journee": "1er tour",
-     "stade": "STADE DANY COLE 1"
-    },
-    {
-     "date": "2025-11-16",
-     "heure": "10:00",
-     "domicile": false,
-     "adversaire": "FC TOTES 3",
-     "score": "4-3",
-     "statut": "joué",
-     "journee": "2ème tour",
-     "stade": "STADE RAYMOND MALLET"
+     "stade": "COMPLEXE SPORTIF CHEVAL ROUGE 1",
+     "joue": true,
+     "tirs_au_but": true
     }
    ]
   },
@@ -146,10 +85,12 @@
      "heure": "14:30",
      "domicile": false,
      "adversaire": "ENT. CANTON/GOURNAY 21",
+     "adversaire_slug": "501457-ent-canton-gournay-21",
      "score": "1-2",
      "statut": "joué",
      "journee": null,
-     "stade": "COMPLEXE SPORTIF DE L' AULNAIE 1"
+     "stade": "COMPLEXE SPORTIF DE L' AULNAIE 1",
+     "joue": true
     }
    ]
   },
@@ -175,10 +116,86 @@
      "heure": "15:30",
      "domicile": true,
      "adversaire": "FC LA VARENNE",
+     "adversaire_slug": "581291-fc-la-varenne",
      "score": "0-11",
      "statut": "joué",
      "journee": "1/16ème de finale",
-     "stade": "STADE DANY COLE 1"
+     "stade": "STADE DANY COLE 1",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "440949",
+   "division": "COUPE ROBERT BALLUET",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NORMANDIE",
+   "equipe_nom": "FC FREVILLE BO.SIVOM 2",
+   "equipe_slug": "590569-fc-freville-bo-sivom-2",
+   "matchs": [
+    {
+     "date": "2025-09-28",
+     "heure": "10:00",
+     "domicile": true,
+     "adversaire": "E.MOTTEVILLE X MARE 3",
+     "adversaire_slug": "581682-e-motteville-x-mare-3",
+     "score": "6-2",
+     "statut": "joué",
+     "journee": "1er tour",
+     "stade": "STADE DANY COLE 1",
+     "joue": true
+    },
+    {
+     "date": "2025-11-16",
+     "heure": "10:00",
+     "domicile": false,
+     "adversaire": "FC TOTES 3",
+     "adversaire_slug": "501543-fc-totes-3",
+     "score": "4-3",
+     "statut": "joué",
+     "journee": "2ème tour",
+     "stade": "STADE RAYMOND MALLET",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "440179",
+   "division": "COUPE DE NORMANDIE U18 - E2SE",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U18",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NORMANDIE",
+   "equipe_nom": "FC FREVILLE BO.SIVOM 21",
+   "equipe_slug": "590569-fc-freville-bo-sivom-21",
+   "matchs": [
+    {
+     "date": "2025-10-11",
+     "heure": "13:30",
+     "domicile": false,
+     "adversaire": "AS LONDAISE 21",
+     "adversaire_slug": "514240-as-londaise-21",
+     "score": "8-0",
+     "statut": "joué",
+     "journee": "2eme TOUR",
+     "stade": "STADE ANDRÉ TREPAGNY 1 ",
+     "joue": true
     }
    ]
   }

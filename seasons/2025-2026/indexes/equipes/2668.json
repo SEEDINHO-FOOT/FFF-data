@@ -9,94 +9,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "437735",
-   "division": "COUPE DES LANDES",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "US ARMAGNAC",
-   "equipe_slug": "505875-us-armagnac",
-   "matchs": [
-    {
-     "date": "2025-10-11",
-     "heure": "19:00",
-     "domicile": true,
-     "adversaire": "ST PERDON SPORTS",
-     "score": "5-2",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE JACQUES DUTIN 1"
-    },
-    {
-     "date": "2025-11-15",
-     "heure": "20:00",
-     "domicile": false,
-     "adversaire": "LENCOUACQ U.S",
-     "score": "0-2",
-     "statut": "joué",
-     "journee": null,
-     "stade": "Stade André Ernoult"
-    },
-    {
-     "date": "2025-12-13",
-     "heure": "19:00",
-     "domicile": true,
-     "adversaire": "FC DOAZIT",
-     "score": "0-5",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE MUNICIPAL"
-    }
-   ]
-  },
-  {
-   "cpNo": "437736",
-   "division": "COUPE DES RÉSERVES INTERMARCHÉ",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "US ARMAGNAC 2",
-   "equipe_slug": "505875-us-armagnac-2",
-   "matchs": [
-    {
-     "date": "2025-11-16",
-     "heure": "14:30",
-     "domicile": false,
-     "adversaire": "OEYRELUY ESP 2",
-     "score": "2-4",
-     "statut": "joué",
-     "journee": "Tour 2",
-     "stade": "STADE CHRISTIAN LABORDE 1"
-    },
-    {
-     "date": "2026-02-22",
-     "heure": "14:30",
-     "domicile": true,
-     "adversaire": "ST PIERRE DU MONT SC 2",
-     "score": "2-4",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE JACQUES DUTIN 1"
-    }
-   ]
-  },
-  {
    "cpNo": "437748",
    "division": "COUPE DES LANDES U15",
    "niveau": "Départemental",
@@ -118,20 +30,24 @@
      "heure": "13:00",
      "domicile": false,
      "adversaire": "ST SEVER SA",
+     "adversaire_slug": "527927-st-sever-sa",
      "score": "0-8",
      "statut": "joué",
      "journee": "Tour 1",
-     "stade": "Stade Louis Lafaurie 1 (Ter. Honneur)"
+     "stade": "Stade Louis Lafaurie 1 (Ter. Honneur)",
+     "joue": true
     },
     {
      "date": "2026-01-10",
      "heure": "15:00",
      "domicile": false,
      "adversaire": "U.A. SABRES ENT.",
+     "adversaire_slug": "520780-u-a-sabres-ent",
      "score": "2-1",
      "statut": "joué",
      "journee": "1/8èmes de Finale",
-     "stade": "STADE BERTRAND NAVARRE 1"
+     "stade": "STADE BERTRAND NAVARRE 1",
+     "joue": true
     }
    ]
   },
@@ -157,10 +73,110 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "BISCARROSSE O.",
+     "adversaire_slug": "519360-biscarrosse-o",
      "score": "1-0",
      "statut": "joué",
      "journee": "Tour 1",
-     "stade": "Stade De Ragueys 1"
+     "stade": "Stade De Ragueys 1",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "437735",
+   "division": "COUPE DES LANDES",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "US ARMAGNAC",
+   "equipe_slug": "505875-us-armagnac",
+   "matchs": [
+    {
+     "date": "2025-10-11",
+     "heure": "19:00",
+     "domicile": true,
+     "adversaire": "ST PERDON SPORTS",
+     "adversaire_slug": "524139-st-perdon-sports",
+     "score": "5-2",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE JACQUES DUTIN 1",
+     "joue": true
+    },
+    {
+     "date": "2025-11-15",
+     "heure": "20:00",
+     "domicile": false,
+     "adversaire": "LENCOUACQ U.S",
+     "adversaire_slug": "505733-lencouacq-u-s",
+     "score": "0-2",
+     "statut": "joué",
+     "journee": null,
+     "stade": "Stade André Ernoult",
+     "joue": true
+    },
+    {
+     "date": "2025-12-13",
+     "heure": "19:00",
+     "domicile": true,
+     "adversaire": "FC DOAZIT",
+     "adversaire_slug": "531681-fc-doazit",
+     "score": "0-5",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE MUNICIPAL",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "437736",
+   "division": "COUPE DES RÉSERVES INTERMARCHÉ",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "US ARMAGNAC 2",
+   "equipe_slug": "505875-us-armagnac-2",
+   "matchs": [
+    {
+     "date": "2025-11-16",
+     "heure": "14:30",
+     "domicile": false,
+     "adversaire": "OEYRELUY ESP 2",
+     "adversaire_slug": "520699-oeyreluy-esp-2",
+     "score": "2-4",
+     "statut": "joué",
+     "journee": "Tour 2",
+     "stade": "STADE CHRISTIAN LABORDE 1",
+     "joue": true
+    },
+    {
+     "date": "2026-02-22",
+     "heure": "14:30",
+     "domicile": true,
+     "adversaire": "ST PIERRE DU MONT SC 2",
+     "adversaire_slug": "531446-st-pierre-du-mont-sc-2",
+     "score": "2-4",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE JACQUES DUTIN 1",
+     "joue": true
     }
    ]
   },
@@ -186,40 +202,49 @@
      "heure": "18:00",
      "domicile": true,
      "adversaire": "AMOU/POUDENX FC",
+     "adversaire_slug": "582599-amou-poudenx-fc",
      "score": "1-0",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE JACQUES DUTIN 1"
+     "stade": "STADE JACQUES DUTIN 1",
+     "joue": true
     },
     {
      "date": "2026-02-21",
      "heure": "15:30",
      "domicile": false,
      "adversaire": "G.J. J.S.P.T. FOOT",
+     "adversaire_slug": "560585-g-j-j-s-p-t-foot",
      "score": "0-0",
      "statut": "joué",
      "journee": "1/4 de Finale",
-     "stade": "Parc Des Sports Hourritiot 6 SyN"
+     "stade": "Parc Des Sports Hourritiot 6 SyN",
+     "joue": true,
+     "tirs_au_but": true
     },
     {
      "date": "2026-04-18",
      "heure": "15:00",
      "domicile": true,
      "adversaire": "DAX J.A.",
+     "adversaire_slug": "505739-dax-j-a",
      "score": "2-1",
      "statut": "joué",
      "journee": "1/2 Finales",
-     "stade": "STADE JACQUES DUTIN 1"
+     "stade": "STADE JACQUES DUTIN 1",
+     "joue": true
     },
     {
      "date": "2026-05-16",
      "heure": "17:00",
      "domicile": true,
      "adversaire": "AGGLO MARSAN FOOT",
+     "adversaire_slug": "560931-agglo-marsan-foot",
      "score": "1-2",
      "statut": "joué",
      "journee": "Finale",
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true
     }
    ]
   },
@@ -245,10 +270,12 @@
      "heure": "20:00",
      "domicile": true,
      "adversaire": "MARSAN US",
+     "adversaire_slug": "582280-marsan-us",
      "score": "2-4",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true
     }
    ]
   }

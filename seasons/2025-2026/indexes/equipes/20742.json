@@ -6,74 +6,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "438437",
-   "division": "COUPE GARD LOZERE U17",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U17",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "OCCITANIE",
-   "equipe_nom": "LM/STA SEDISUD",
-   "equipe_slug": "540714-lm-sta-sedisud",
-   "matchs": [
-    {
-     "date": "2025-09-27",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "ST HILAIRE LA JASSE",
-     "score": "3-3",
-     "statut": "joué",
-     "journee": "1ER TOUR CADRAGE",
-     "stade": "STADE PAUL DOUARCHE"
-    }
-   ]
-  },
-  {
-   "cpNo": "438708",
-   "division": "Coupe André Vigier U18 F A 8",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U18",
-    "genre": "F",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "OCCITANIE",
-   "equipe_nom": "LM/STA SEDISUD",
-   "equipe_slug": "540714-lm-sta-sedisud",
-   "matchs": [
-    {
-     "date": "2026-03-21",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "BAGNOLS PONT",
-     "score": "3-0",
-     "statut": "joué",
-     "journee": "1/2 Finale Coupe André Vigier Seniors Fém U18 à 8",
-     "stade": "Stade Du Coussac- Alain Pascal"
-    },
-    {
-     "date": "2026-05-14",
-     "heure": "10:00",
-     "domicile": false,
-     "adversaire": "FOOT TERRE CAMARGUE",
-     "score": "1-2",
-     "statut": "joué",
-     "journee": "FINALE COUPE ANDRE VIGIER FEM U18 A 8",
-     "stade": "STADE DU BOURGIDOU 2"
-    }
-   ]
-  },
-  {
    "cpNo": "438712",
    "division": "COUPE ANDRE VIGIER U15  A 8 6512",
    "niveau": "Départemental",
@@ -95,30 +27,36 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "ESPERANCE NIMES",
+     "adversaire_slug": "560294-esperance-nimes",
      "score": "1-8",
      "statut": "joué",
      "journee": "1/4 DE FINALE COUPE ANDRE VIGIER  FEM U15 A 8",
-     "stade": "STADE MARCEL ROUVIÈRE N° 1"
+     "stade": "STADE MARCEL ROUVIÈRE N° 1",
+     "joue": true
     },
     {
      "date": "2026-03-21",
      "heure": "15:00",
      "domicile": true,
      "adversaire": "CAVILL CHUSCL LAUDUN",
+     "adversaire_slug": "565210-cavill-chuscl-laudun",
      "score": "2-1",
      "statut": "joué",
      "journee": "1/2 Finale Coupe André Vigier Seniors Fém U15 à 8",
-     "stade": "Stade Du Coussac- Alain Pascal"
+     "stade": "Stade Du Coussac- Alain Pascal",
+     "joue": true
     },
     {
      "date": "2026-05-14",
      "heure": "09:00",
      "domicile": false,
      "adversaire": "ALES OL",
+     "adversaire_slug": "503029-ales-ol",
      "score": "7-1",
      "statut": "joué",
      "journee": "FINALE COUPE ANDRE VIGIER FEM  U15 A 8",
-     "stade": "STADE DU BOURGIDOU 2"
+     "stade": "STADE DU BOURGIDOU 2",
+     "joue": true
     }
    ]
   },
@@ -144,20 +82,56 @@
      "heure": "10:00",
      "domicile": false,
      "adversaire": "ESPERANCE NIMES",
+     "adversaire_slug": "560294-esperance-nimes",
      "score": "0-14",
      "statut": "joué",
      "journee": "2EME TOUR CADRAGE",
-     "stade": "COMPLEXE SPORTIF SAINT STANISLAS"
+     "stade": "COMPLEXE SPORTIF SAINT STANISLAS",
+     "joue": true
     },
     {
      "date": "2026-01-25",
      "heure": "12:00",
      "domicile": false,
      "adversaire": "LANGLADE FC",
+     "adversaire_slug": "563786-langlade-fc",
      "score": "2-1",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE D' AUBARNE"
+     "stade": "STADE D' AUBARNE",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "438437",
+   "division": "COUPE GARD LOZERE U17",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U17",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "OCCITANIE",
+   "equipe_nom": "LM/STA SEDISUD",
+   "equipe_slug": "540714-lm-sta-sedisud",
+   "matchs": [
+    {
+     "date": "2025-09-27",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "ST HILAIRE LA JASSE",
+     "adversaire_slug": "553073-st-hilaire-la-jasse",
+     "score": "3-3",
+     "statut": "joué",
+     "journee": "1ER TOUR CADRAGE",
+     "stade": "STADE PAUL DOUARCHE",
+     "joue": true,
+     "tirs_au_but": true
     }
    ]
   },
@@ -183,10 +157,55 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "PUJAUT US",
+     "adversaire_slug": "519114-pujaut-us",
      "score": "1-5",
      "statut": "joué",
      "journee": "TOUR DE CADRAGE COUPE ANDRE GRANIER SENIORS",
-     "stade": "Stade Du Coussac- Alain Pascal"
+     "stade": "Stade Du Coussac- Alain Pascal",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "438708",
+   "division": "Coupe André Vigier U18 F A 8",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U18",
+    "genre": "F",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "OCCITANIE",
+   "equipe_nom": "LM/STA SEDISUD",
+   "equipe_slug": "540714-lm-sta-sedisud",
+   "matchs": [
+    {
+     "date": "2026-03-21",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "BAGNOLS PONT",
+     "adversaire_slug": "548837-bagnols-pont",
+     "score": "3-0",
+     "statut": "joué",
+     "journee": "1/2 Finale Coupe André Vigier Seniors Fém U18 à 8",
+     "stade": "Stade Du Coussac- Alain Pascal",
+     "joue": true
+    },
+    {
+     "date": "2026-05-14",
+     "heure": "10:00",
+     "domicile": false,
+     "adversaire": "FOOT TERRE CAMARGUE",
+     "adversaire_slug": "551417-foot-terre-camargue",
+     "score": "1-2",
+     "statut": "joué",
+     "journee": "FINALE COUPE ANDRE VIGIER FEM U18 A 8",
+     "stade": "STADE DU BOURGIDOU 2",
+     "joue": true
     }
    ]
   },
@@ -212,10 +231,12 @@
      "heure": "14:30",
      "domicile": false,
      "adversaire": "BOUILLARGUES",
+     "adversaire_slug": "503370-bouillargues",
      "score": "2-1",
      "statut": "joué",
      "journee": "TOUR DE CADRAGE COUPE GARD LOZERE SENIORS",
-     "stade": "STADE CLAUDE BORDAS"
+     "stade": "STADE CLAUDE BORDAS",
+     "joue": true
     }
    ]
   }

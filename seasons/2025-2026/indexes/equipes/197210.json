@@ -6,45 +6,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "437410",
-   "division": "COUPE REGION BRETAGNE",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BRETAGNE",
-   "equipe_nom": " BOBITAL BRUSVILY AS",
-   "equipe_slug": "560507-bobital-brusvily-as",
-   "matchs": [
-    {
-     "date": "2025-08-31",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "CALORGUEN US",
-     "score": "1-0",
-     "statut": "joué",
-     "journee": "1er Tour",
-     "stade": "STADE MUNICIPAL"
-    },
-    {
-     "date": "2025-08-31",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "CALORGUEN US",
-     "score": "1-0",
-     "statut": "joué",
-     "journee": "1er Tour",
-     "stade": "STADE MUNICIPAL"
-    }
-   ]
-  },
-  {
    "cpNo": "438160",
    "division": "Coupe du Département",
    "niveau": "Départemental",
@@ -66,20 +27,24 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "RUCA US",
+     "adversaire_slug": "546964-ruca-us",
      "score": "0-3",
      "statut": "joué",
      "journee": "2ème Tour",
-     "stade": "STADE DE L' HEPRALE"
+     "stade": "STADE DE L' HEPRALE",
+     "joue": true
     },
     {
      "date": "2025-10-26",
      "heure": "15:00",
      "domicile": true,
      "adversaire": "LANVALLAY US",
+     "adversaire_slug": "521224-lanvallay-us",
      "score": "2-4",
      "statut": "joué",
      "journee": "3ème Tour",
-     "stade": "STADE MUNICIPAL 1"
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
     }
    ]
   },
@@ -105,20 +70,24 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "PLUMAUDAN AS",
+     "adversaire_slug": "553730-plumaudan-as",
      "score": "2-1",
      "statut": "joué",
      "journee": "1er Tour",
-     "stade": null
+     "stade": null,
+     "joue": true
     },
     {
      "date": "2025-09-28",
      "heure": "15:00",
      "domicile": true,
      "adversaire": "BROONS TREMEUR AS",
+     "adversaire_slug": "544275-broons-tremeur-as",
      "score": "0-1",
      "statut": "joué",
      "journee": "2ème Tour",
-     "stade": null
+     "stade": null,
+     "joue": true
     }
    ]
   },
@@ -144,50 +113,105 @@
      "heure": "14:30",
      "domicile": false,
      "adversaire": "LA LANDEC AS",
+     "adversaire_slug": "525908-la-landec-as",
      "score": "0-1",
      "statut": "joué",
      "journee": "2ème Tour",
-     "stade": null
+     "stade": null,
+     "joue": true
     },
     {
      "date": "2026-03-15",
      "heure": "14:30",
      "domicile": true,
      "adversaire": "ST POTAN AS",
+     "adversaire_slug": "522027-st-potan-as",
      "score": null,
      "statut": "à venir",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": false
     },
     {
      "date": "2026-04-04",
      "heure": "15:00",
      "domicile": false,
      "adversaire": "TREMELOIR RODO FC",
+     "adversaire_slug": "565081-tremeloir-rodo-fc",
      "score": "0-2",
      "statut": "joué",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": true
     },
     {
      "date": "2026-05-03",
      "heure": "15:00",
      "domicile": false,
      "adversaire": "FC YVIAS 90",
+     "adversaire_slug": "565095-fc-yvias-90",
      "score": "2-2",
      "statut": "joué",
      "journee": "Quarts de finale",
-     "stade": null
+     "stade": null,
+     "joue": true,
+     "tirs_au_but": true
     },
     {
      "date": "2026-05-08",
      "heure": "15:30",
      "domicile": true,
      "adversaire": "TRELEVERN TREV FC",
+     "adversaire_slug": "519611-trelevern-trev-fc",
      "score": "1-1",
      "statut": "joué",
      "journee": "Demi-finales",
-     "stade": null
+     "stade": null,
+     "joue": true,
+     "tirs_au_but": true
+    }
+   ]
+  },
+  {
+   "cpNo": "437410",
+   "division": "COUPE REGION BRETAGNE",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BRETAGNE",
+   "equipe_nom": " BOBITAL BRUSVILY AS",
+   "equipe_slug": "560507-bobital-brusvily-as",
+   "matchs": [
+    {
+     "date": "2025-08-31",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "CALORGUEN US",
+     "adversaire_slug": "564825-calorguen-us",
+     "score": "1-0",
+     "statut": "joué",
+     "journee": "1er Tour",
+     "stade": "STADE MUNICIPAL",
+     "joue": true
+    },
+    {
+     "date": "2025-08-31",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "CALORGUEN US",
+     "adversaire_slug": "564825-calorguen-us",
+     "score": "1-0",
+     "statut": "joué",
+     "journee": "1er Tour",
+     "stade": "STADE MUNICIPAL",
+     "joue": true
     }
    ]
   }

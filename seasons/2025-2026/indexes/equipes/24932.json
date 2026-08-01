@@ -9,45 +9,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "435659",
-   "division": "Coupe Occitanie U19 Amos",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U19",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "OCCITANIE",
-   "equipe_nom": "M.U.C. F.",
-   "equipe_slug": "547644-m-u-c-f",
-   "matchs": [
-    {
-     "date": "2025-12-06",
-     "heure": "15:30",
-     "domicile": true,
-     "adversaire": "NIMES LASALLIEN",
-     "score": "1-0",
-     "statut": "joué",
-     "journee": "CADRAGE (Tour 1)",
-     "stade": "STADE JEANNOT VÉGA"
-    },
-    {
-     "date": "2026-02-21",
-     "heure": "15:30",
-     "domicile": true,
-     "adversaire": "CAISSARGUES",
-     "score": "0-3",
-     "statut": "joué",
-     "journee": "1/16ème de Finale",
-     "stade": "STADE JEANNOT VÉGA"
-    }
-   ]
-  },
-  {
    "cpNo": "442737",
    "division": "COUPE DE L'HERAULT U15",
    "niveau": "Départemental",
@@ -69,20 +30,24 @@
      "heure": "10:30",
      "domicile": true,
      "adversaire": "BAILLARGUES ST BRES",
+     "adversaire_slug": "553143-baillargues-st-bres",
      "score": "4-1",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE JEANNOT VÉGA"
+     "stade": "STADE JEANNOT VÉGA",
+     "joue": true
     },
     {
      "date": "2026-02-04",
      "heure": "19:00",
      "domicile": false,
      "adversaire": "CX D'ARGENT-ATHLETIC",
+     "adversaire_slug": "560844-cx-d-argent-athletic",
      "score": "11-0",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE GIL FAYARD"
+     "stade": "STADE GIL FAYARD",
+     "joue": true
     }
    ]
   },
@@ -108,20 +73,24 @@
      "heure": "11:00",
      "domicile": true,
      "adversaire": "MARSILLARGUES 21",
+     "adversaire_slug": "503190-marsillargues-21",
      "score": "6-1",
      "statut": "joué",
      "journee": "tour préliminaire CDH U18",
-     "stade": "STADE JEANNOT VÉGA"
+     "stade": "STADE JEANNOT VÉGA",
+     "joue": true
     },
     {
      "date": "2026-01-21",
      "heure": "19:00",
      "domicile": true,
      "adversaire": "M. ARCEAUX 21",
+     "adversaire_slug": "528675-m-arceaux-21",
      "score": "3-0",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE JEANNOT VÉGA"
+     "stade": "STADE JEANNOT VÉGA",
+     "joue": true
     }
    ]
   },
@@ -147,30 +116,80 @@
      "heure": "10:30",
      "domicile": true,
      "adversaire": "SAUVIAN FC",
+     "adversaire_slug": "580725-sauvian-fc",
      "score": "9-0",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE JEANNOT VÉGA"
+     "stade": "STADE JEANNOT VÉGA",
+     "joue": true
     },
     {
      "date": "2026-04-26",
      "heure": "17:00",
      "domicile": true,
      "adversaire": "ENT.HAUTS CANTONS",
+     "adversaire_slug": "523435-ent-hauts-cantons",
      "score": "1-1",
      "statut": "joué",
      "journee": "1/2 Finales CDH U18",
-     "stade": "STADE JEANNOT VÉGA"
+     "stade": "STADE JEANNOT VÉGA",
+     "joue": true,
+     "tirs_au_but": true
     },
     {
      "date": "2026-05-17",
      "heure": "10:00",
      "domicile": false,
      "adversaire": "MAUGUIO CARNON US 2",
+     "adversaire_slug": "503393-mauguio-carnon-us-2",
      "score": "2-1",
      "statut": "joué",
      "journee": "FINALE COUPE DE L'HERAULT U18",
-     "stade": "STADE ANDRÉ CANCEL"
+     "stade": "STADE ANDRÉ CANCEL",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "435659",
+   "division": "Coupe Occitanie U19 Amos",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U19",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "OCCITANIE",
+   "equipe_nom": "M.U.C. F.",
+   "equipe_slug": "547644-m-u-c-f",
+   "matchs": [
+    {
+     "date": "2025-12-06",
+     "heure": "15:30",
+     "domicile": true,
+     "adversaire": "NIMES LASALLIEN",
+     "adversaire_slug": "521138-nimes-lasallien",
+     "score": "1-0",
+     "statut": "joué",
+     "journee": "CADRAGE (Tour 1)",
+     "stade": "STADE JEANNOT VÉGA",
+     "joue": true
+    },
+    {
+     "date": "2026-02-21",
+     "heure": "15:30",
+     "domicile": true,
+     "adversaire": "CAISSARGUES",
+     "adversaire_slug": "521050-caissargues",
+     "score": "0-3",
+     "statut": "joué",
+     "journee": "1/16ème de Finale",
+     "stade": "STADE JEANNOT VÉGA",
+     "joue": true
     }
    ]
   },
@@ -196,20 +215,24 @@
      "heure": "18:00",
      "domicile": true,
      "adversaire": "CASTRIES AV. 21",
+     "adversaire_slug": "503367-castries-av-21",
      "score": "3-1",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE JEANNOT VÉGA"
+     "stade": "STADE JEANNOT VÉGA",
+     "joue": true
     },
     {
      "date": "2025-09-28",
      "heure": "18:30",
      "domicile": true,
      "adversaire": "JACOU CLAPIERS FA 21",
+     "adversaire_slug": "582757-jacou-clapiers-fa-21",
      "score": "0-4",
      "statut": "joué",
      "journee": "3ème tour",
-     "stade": "STADE JEANNOT VÉGA"
+     "stade": "STADE JEANNOT VÉGA",
+     "joue": true
     }
    ]
   }

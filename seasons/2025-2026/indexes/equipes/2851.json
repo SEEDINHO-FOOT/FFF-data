@@ -7,93 +7,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "444654",
-   "division": "Coupe du Conseil Départemental",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BOURGOGNE - FRANCHE COMTE",
-   "equipe_nom": "PREMERY",
-   "equipe_slug": "506442-premery",
-   "matchs": [
-    {
-     "date": "2025-10-12",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "CHAULGNES F.C.",
-     "score": "5-1",
-     "statut": "joué",
-     "journee": "2EME TOUR",
-     "stade": "STADE MUNICIPAL"
-    }
-   ]
-  },
-  {
-   "cpNo": "445213",
-   "division": "COUPE VETERANS ALAIN CHARLOIS",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BOURGOGNE - FRANCHE COMTE",
-   "equipe_nom": "PREMERY",
-   "equipe_slug": "506442-premery",
-   "matchs": [
-    {
-     "date": "2025-11-28",
-     "heure": "21:00",
-     "domicile": true,
-     "adversaire": "ALLIGNY ST AMAND FC",
-     "score": "5-8",
-     "statut": "joué",
-     "journee": "Tour de cadrage",
-     "stade": "STADE ROBERT GOMEZ 1"
-    }
-   ]
-  },
-  {
-   "cpNo": "446781",
-   "division": "Coupe U15 Consolante",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U15",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BOURGOGNE - FRANCHE COMTE",
-   "equipe_nom": "ENT. PREMERY GUERIGN",
-   "equipe_slug": "506442-ent-premery-guerign",
-   "matchs": [
-    {
-     "date": "2026-03-28",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "POUILLY",
-     "score": "4-4",
-     "statut": "joué",
-     "journee": "1/4 de finale",
-     "stade": "STADE MALAGA N°1"
-    }
-   ]
-  },
-  {
    "cpNo": "446782",
    "division": "Coupe U15 Principale",
    "niveau": "Départemental",
@@ -115,10 +28,12 @@
      "heure": "14:30",
      "domicile": true,
      "adversaire": "NEVERS BANLAY",
+     "adversaire_slug": "581138-nevers-banlay",
      "score": "0-3",
      "statut": "joué",
      "journee": "1/8 FINALE",
-     "stade": "STADE ROBERT GOMEZ 1"
+     "stade": "STADE ROBERT GOMEZ 1",
+     "joue": true
     }
    ]
   },
@@ -144,10 +59,106 @@
      "heure": "14:30",
      "domicile": true,
      "adversaire": "POUGUES",
+     "adversaire_slug": "518970-pougues",
      "score": "0-2",
      "statut": "joué",
      "journee": "1ER TOUR",
-     "stade": "STADE ROBERT GOMEZ 1"
+     "stade": "STADE ROBERT GOMEZ 1",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "445213",
+   "division": "COUPE VETERANS ALAIN CHARLOIS",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BOURGOGNE - FRANCHE COMTE",
+   "equipe_nom": "PREMERY",
+   "equipe_slug": "506442-premery",
+   "matchs": [
+    {
+     "date": "2025-11-28",
+     "heure": "21:00",
+     "domicile": true,
+     "adversaire": "ALLIGNY ST AMAND FC",
+     "adversaire_slug": "552547-alligny-st-amand-fc",
+     "score": "5-8",
+     "statut": "joué",
+     "journee": "Tour de cadrage",
+     "stade": "STADE ROBERT GOMEZ 1",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "444654",
+   "division": "Coupe du Conseil Départemental",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BOURGOGNE - FRANCHE COMTE",
+   "equipe_nom": "PREMERY",
+   "equipe_slug": "506442-premery",
+   "matchs": [
+    {
+     "date": "2025-10-12",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "CHAULGNES F.C.",
+     "adversaire_slug": "581607-chaulgnes-f-c",
+     "score": "5-1",
+     "statut": "joué",
+     "journee": "2EME TOUR",
+     "stade": "STADE MUNICIPAL",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "446781",
+   "division": "Coupe U15 Consolante",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U15",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BOURGOGNE - FRANCHE COMTE",
+   "equipe_nom": "ENT. PREMERY GUERIGN",
+   "equipe_slug": "506442-ent-premery-guerign",
+   "matchs": [
+    {
+     "date": "2026-03-28",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "POUILLY",
+     "adversaire_slug": "506441-pouilly",
+     "score": "4-4",
+     "statut": "joué",
+     "journee": "1/4 de finale",
+     "stade": "STADE MALAGA N°1",
+     "joue": true,
+     "tirs_au_but": true
     }
    ]
   }

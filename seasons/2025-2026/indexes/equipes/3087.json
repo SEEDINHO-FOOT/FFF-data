@@ -8,74 +8,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "435202",
-   "division": "Coupe de Nouvelle-Aquitaine",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "ROUILLE FC",
-   "equipe_slug": "507080-rouille-fc",
-   "matchs": [
-    {
-     "date": "2025-09-26",
-     "heure": "20:00",
-     "domicile": true,
-     "adversaire": "ST AUBIN LE CLOUD CA",
-     "score": "1-0",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE GASTON DELAVAULT"
-    },
-    {
-     "date": "2025-10-11",
-     "heure": "20:00",
-     "domicile": true,
-     "adversaire": "COMPREIGNAC USA",
-     "score": "2-3",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE GASTON DELAVAULT"
-    }
-   ]
-  },
-  {
-   "cpNo": "438136",
-   "division": "Challenge Marcel Renaudie",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "ROUILLE FC 3",
-   "equipe_slug": "507080-rouille-fc-3",
-   "matchs": [
-    {
-     "date": "2025-10-12",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "SEVRES ANXAUMONT AS 3",
-     "score": "0-1",
-     "statut": "joué",
-     "journee": "T1 - CMR",
-     "stade": "STADE GASTON DELAVAULT"
-    }
-   ]
-  },
-  {
    "cpNo": "438137",
    "division": "Challenge des Réserves",
    "niveau": "Départemental",
@@ -97,10 +29,12 @@
      "heure": "20:00",
      "domicile": false,
      "adversaire": "ST MAURICE GENCAY E. 2",
+     "adversaire_slug": "553504-st-maurice-gencay-e-2",
      "score": "3-0",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE DES TAMISIÈRES"
+     "stade": "STADE DES TAMISIÈRES",
+     "joue": true
     }
    ]
   },
@@ -126,20 +60,98 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "SEVRES ANXAUMONT AS",
+     "adversaire_slug": "524580-sevres-anxaumont-as",
      "score": "1-6",
      "statut": "joué",
      "journee": "CLD - T4",
-     "stade": "COMPLEXE SPORTIF FERNAND HAIE 1"
+     "stade": "COMPLEXE SPORTIF FERNAND HAIE 1",
+     "joue": true
     },
     {
      "date": "2026-03-14",
      "heure": "19:00",
      "domicile": true,
      "adversaire": "ST JULIEN L ARS AAS",
+     "adversaire_slug": "514861-st-julien-l-ars-aas",
      "score": "0-1",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE GASTON DELAVAULT"
+     "stade": "STADE GASTON DELAVAULT",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "438136",
+   "division": "Challenge Marcel Renaudie",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "ROUILLE FC 3",
+   "equipe_slug": "507080-rouille-fc-3",
+   "matchs": [
+    {
+     "date": "2025-10-12",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "SEVRES ANXAUMONT AS 3",
+     "adversaire_slug": "524580-sevres-anxaumont-as-3",
+     "score": "0-1",
+     "statut": "joué",
+     "journee": "T1 - CMR",
+     "stade": "STADE GASTON DELAVAULT",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "435202",
+   "division": "Coupe de Nouvelle-Aquitaine",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "ROUILLE FC",
+   "equipe_slug": "507080-rouille-fc",
+   "matchs": [
+    {
+     "date": "2025-09-26",
+     "heure": "20:00",
+     "domicile": true,
+     "adversaire": "ST AUBIN LE CLOUD CA",
+     "adversaire_slug": "511953-st-aubin-le-cloud-ca",
+     "score": "1-0",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE GASTON DELAVAULT",
+     "joue": true
+    },
+    {
+     "date": "2025-10-11",
+     "heure": "20:00",
+     "domicile": true,
+     "adversaire": "COMPREIGNAC USA",
+     "adversaire_slug": "523163-compreignac-usa",
+     "score": "2-3",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE GASTON DELAVAULT",
+     "joue": true
     }
    ]
   },
@@ -165,10 +177,12 @@
      "heure": "18:00",
      "domicile": true,
      "adversaire": "FONTAINE LE COMTE FC",
+     "adversaire_slug": "522182-fontaine-le-comte-fc",
      "score": "1-2",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE GASTON DELAVAULT"
+     "stade": "STADE GASTON DELAVAULT",
+     "joue": true
     }
    ]
   }

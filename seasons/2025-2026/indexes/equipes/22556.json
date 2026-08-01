@@ -8,84 +8,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "442954",
-   "division": "Challenge D5 Amiénois",
-   "niveau": "Départemental",
-   "echelon": "D5",
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "HAUTS-DE-FRANCE",
-   "equipe_nom": "LE HAMEL O. 2",
-   "equipe_slug": "544261-le-hamel-o-2",
-   "matchs": [
-    {
-     "date": "2025-10-26",
-     "heure": "14:30",
-     "domicile": false,
-     "adversaire": "LA CHAUSSEE TIRANC.",
-     "score": "1-2",
-     "statut": "joué",
-     "journee": "1er tour",
-     "stade": "STADE MARCEL DELEPINE"
-    },
-    {
-     "date": "2026-03-01",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "AMIENS PIGEONNIER ES 2",
-     "score": "1-3",
-     "statut": "joué",
-     "journee": "1/4 de finale",
-     "stade": "STADE COMMUNAL"
-    }
-   ]
-  },
-  {
-   "cpNo": "442959",
-   "division": "Coupe de la Somme Seniors / Challenge CRCA",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "HAUTS-DE-FRANCE",
-   "equipe_nom": "LE HAMEL O.",
-   "equipe_slug": "544261-le-hamel-o",
-   "matchs": [
-    {
-     "date": "2025-10-26",
-     "heure": "14:30",
-     "domicile": true,
-     "adversaire": "BRAY SUR SOMME AAE",
-     "score": "0-0",
-     "statut": "joué",
-     "journee": "3ème tour",
-     "stade": "STADE COMMUNAL"
-    },
-    {
-     "date": "2025-11-16",
-     "heure": "14:30",
-     "domicile": true,
-     "adversaire": "MONTDIDIER AC",
-     "score": "1-4",
-     "statut": "joué",
-     "journee": "4ème Tour",
-     "stade": "STADE COMMUNAL"
-    }
-   ]
-  },
-  {
    "cpNo": "442964",
    "division": "Coupe Somme U16/U17",
    "niveau": "Départemental",
@@ -107,10 +29,12 @@
      "heure": "14:30",
      "domicile": true,
      "adversaire": "ALBERT USOAAS",
+     "adversaire_slug": "501071-albert-usoaas",
      "score": "0-11",
      "statut": "joué",
      "journee": "2ème tour",
-     "stade": "STADE COMMUNAL"
+     "stade": "STADE COMMUNAL",
+     "joue": true
     }
    ]
   },
@@ -136,20 +60,111 @@
      "heure": "10:30",
      "domicile": true,
      "adversaire": "POIX BLANGY CROI. FC 11",
+     "adversaire_slug": "581180-poix-blangy-croi-fc-11",
      "score": "2-0",
      "statut": "joué",
      "journee": "1er tour",
-     "stade": "STADE COMMUNAL"
+     "stade": "STADE COMMUNAL",
+     "joue": true
     },
     {
      "date": "2025-12-14",
      "heure": "10:30",
      "domicile": false,
      "adversaire": "TEMPLIERS SC 11",
+     "adversaire_slug": "544263-templiers-sc-11",
      "score": "12-2",
      "statut": "joué",
      "journee": "2ème tour",
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "442959",
+   "division": "Coupe de la Somme Seniors / Challenge CRCA",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "HAUTS-DE-FRANCE",
+   "equipe_nom": "LE HAMEL O.",
+   "equipe_slug": "544261-le-hamel-o",
+   "matchs": [
+    {
+     "date": "2025-10-26",
+     "heure": "14:30",
+     "domicile": true,
+     "adversaire": "BRAY SUR SOMME AAE",
+     "adversaire_slug": "521004-bray-sur-somme-aae",
+     "score": "0-0",
+     "statut": "joué",
+     "journee": "3ème tour",
+     "stade": "STADE COMMUNAL",
+     "joue": true,
+     "tirs_au_but": true
+    },
+    {
+     "date": "2025-11-16",
+     "heure": "14:30",
+     "domicile": true,
+     "adversaire": "MONTDIDIER AC",
+     "adversaire_slug": "500526-montdidier-ac",
+     "score": "1-4",
+     "statut": "joué",
+     "journee": "4ème Tour",
+     "stade": "STADE COMMUNAL",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "442954",
+   "division": "Challenge D5 Amiénois",
+   "niveau": "Départemental",
+   "echelon": "D5",
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "HAUTS-DE-FRANCE",
+   "equipe_nom": "LE HAMEL O. 2",
+   "equipe_slug": "544261-le-hamel-o-2",
+   "matchs": [
+    {
+     "date": "2025-10-26",
+     "heure": "14:30",
+     "domicile": false,
+     "adversaire": "LA CHAUSSEE TIRANC.",
+     "adversaire_slug": "564099-la-chaussee-tiranc",
+     "score": "1-2",
+     "statut": "joué",
+     "journee": "1er tour",
+     "stade": "STADE MARCEL DELEPINE",
+     "joue": true
+    },
+    {
+     "date": "2026-03-01",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "AMIENS PIGEONNIER ES 2",
+     "adversaire_slug": "534402-amiens-pigeonnier-es-2",
+     "score": "1-3",
+     "statut": "joué",
+     "journee": "1/4 de finale",
+     "stade": "STADE COMMUNAL",
+     "joue": true
     }
    ]
   },
@@ -175,10 +190,12 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "ESTREES MONS FC",
+     "adversaire_slug": "535349-estrees-mons-fc",
      "score": "1-6",
      "statut": "joué",
      "journee": "1er Tour",
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true
     }
    ]
   }

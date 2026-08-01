@@ -8,45 +8,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "437410",
-   "division": "COUPE REGION BRETAGNE",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BRETAGNE",
-   "equipe_nom": "AS PLOUHA PLUDUAL",
-   "equipe_slug": "549517-as-plouha-pludual",
-   "matchs": [
-    {
-     "date": "2025-08-31",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "PLOUMILIAU AS",
-     "score": "2-2",
-     "statut": "joué",
-     "journee": "1er Tour",
-     "stade": "STADE HENRI ARTHUR"
-    },
-    {
-     "date": "2025-08-31",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "PLOUMILIAU AS",
-     "score": "2-2",
-     "statut": "joué",
-     "journee": "1er Tour",
-     "stade": "STADE HENRI ARTHUR"
-    }
-   ]
-  },
-  {
    "cpNo": "438160",
    "division": "Coupe du Département",
    "niveau": "Départemental",
@@ -68,10 +29,12 @@
      "heure": "14:30",
      "domicile": true,
      "adversaire": "PENVENAN JA",
+     "adversaire_slug": "502213-penvenan-ja",
      "score": "0-7",
      "statut": "joué",
      "journee": "4ème Tour",
-     "stade": "STADE HENRI ARTHUR"
+     "stade": "STADE HENRI ARTHUR",
+     "joue": true
     }
    ]
   },
@@ -97,59 +60,12 @@
      "heure": "14:30",
      "domicile": true,
      "adversaire": "PORDIC BINIC FC 21",
+     "adversaire_slug": "580625-pordic-binic-fc-21",
      "score": "0-6",
      "statut": "joué",
      "journee": "1",
-     "stade": "STADE EUGÈNE LALLINEC 1"
-    }
-   ]
-  },
-  {
-   "cpNo": "438205",
-   "division": "Challenge du District",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BRETAGNE",
-   "equipe_nom": "AS PLOUHA PLUDUAL 2",
-   "equipe_slug": "549517-as-plouha-pludual-2",
-   "matchs": [
-    {
-     "date": "2025-09-28",
-     "heure": "13:00",
-     "domicile": false,
-     "adversaire": "LANVOLLON JS 2",
-     "score": "2-0",
-     "statut": "joué",
-     "journee": "Journée 1",
-     "stade": "STADE ANDRÉ POULLOUIN 1"
-    },
-    {
-     "date": "2025-10-12",
-     "heure": "12:30",
-     "domicile": false,
-     "adversaire": "GOMMENEC H FC 2",
-     "score": "7-4",
-     "statut": "joué",
-     "journee": "Journée 2",
-     "stade": "STADE MUNICIPAL"
-    },
-    {
-     "date": "2025-10-26",
-     "heure": "13:00",
-     "domicile": true,
-     "adversaire": "PLOUEZEC GOELAND 2",
-     "score": "1-3",
-     "statut": "joué",
-     "journee": "Journée 3",
-     "stade": null
+     "stade": "STADE EUGÈNE LALLINEC 1",
+     "joue": true
     }
    ]
   },
@@ -175,30 +91,137 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "FAOUET",
+     "adversaire_slug": "544273-faouet",
      "score": "1-3",
      "statut": "joué",
      "journee": "1er Tour",
-     "stade": null
+     "stade": null,
+     "joue": true
     },
     {
      "date": "2025-09-28",
      "heure": "15:00",
      "domicile": true,
      "adversaire": "TREGASTEL CS",
+     "adversaire_slug": "518890-tregastel-cs",
      "score": "3-0",
      "statut": "joué",
      "journee": "2ème Tour",
-     "stade": "STADE HENRI ARTHUR"
+     "stade": "STADE HENRI ARTHUR",
+     "joue": true
     },
     {
      "date": "2025-10-26",
      "heure": "15:00",
      "domicile": false,
      "adversaire": "PLOUARET UODT",
+     "adversaire_slug": "551116-plouaret-uodt",
      "score": "4-2",
      "statut": "joué",
      "journee": "4ème Tour",
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "438205",
+   "division": "Challenge du District",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BRETAGNE",
+   "equipe_nom": "AS PLOUHA PLUDUAL 2",
+   "equipe_slug": "549517-as-plouha-pludual-2",
+   "matchs": [
+    {
+     "date": "2025-09-28",
+     "heure": "13:00",
+     "domicile": false,
+     "adversaire": "LANVOLLON JS 2",
+     "adversaire_slug": "516444-lanvollon-js-2",
+     "score": "2-0",
+     "statut": "joué",
+     "journee": "Journée 1",
+     "stade": "STADE ANDRÉ POULLOUIN 1",
+     "joue": true,
+     "tirs_au_but": true
+    },
+    {
+     "date": "2025-10-12",
+     "heure": "12:30",
+     "domicile": false,
+     "adversaire": "GOMMENEC H FC 2",
+     "adversaire_slug": "554087-gommenec-h-fc-2",
+     "score": "7-4",
+     "statut": "joué",
+     "journee": "Journée 2",
+     "stade": "STADE MUNICIPAL",
+     "joue": true
+    },
+    {
+     "date": "2025-10-26",
+     "heure": "13:00",
+     "domicile": true,
+     "adversaire": "PLOUEZEC GOELAND 2",
+     "adversaire_slug": "525063-plouezec-goeland-2",
+     "score": "1-3",
+     "statut": "joué",
+     "journee": "Journée 3",
+     "stade": null,
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "437410",
+   "division": "COUPE REGION BRETAGNE",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BRETAGNE",
+   "equipe_nom": "AS PLOUHA PLUDUAL",
+   "equipe_slug": "549517-as-plouha-pludual",
+   "matchs": [
+    {
+     "date": "2025-08-31",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "PLOUMILIAU AS",
+     "adversaire_slug": "520635-ploumiliau-as",
+     "score": "2-2",
+     "statut": "joué",
+     "journee": "1er Tour",
+     "stade": "STADE HENRI ARTHUR",
+     "joue": true,
+     "tirs_au_but": true
+    },
+    {
+     "date": "2025-08-31",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "PLOUMILIAU AS",
+     "adversaire_slug": "520635-ploumiliau-as",
+     "score": "2-2",
+     "statut": "joué",
+     "journee": "1er Tour",
+     "stade": "STADE HENRI ARTHUR",
+     "joue": true,
+     "tirs_au_but": true
     }
    ]
   },
@@ -224,10 +247,12 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "YFFINIAC UF",
+     "adversaire_slug": "580937-yffiniac-uf",
      "score": "5-0",
      "statut": "joué",
      "journee": "1er Tour",
-     "stade": "STADE MUNICIPAL 1"
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
     }
    ]
   }

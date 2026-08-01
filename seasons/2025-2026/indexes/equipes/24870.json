@@ -7,64 +7,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "435202",
-   "division": "Coupe de Nouvelle-Aquitaine",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "PORT STE MARIE FEUG.",
-   "equipe_slug": "547571-port-ste-marie-feug",
-   "matchs": [
-    {
-     "date": "2025-09-13",
-     "heure": "20:00",
-     "domicile": false,
-     "adversaire": "ST MARTIN.GEL",
-     "score": "6-1",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE ANDRÉ VIVES 1"
-    }
-   ]
-  },
-  {
-   "cpNo": "435204",
-   "division": "Coupe Nouvelle-Aquitaine Féminine",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "F",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "PORT STE MARIE FEUG.",
-   "equipe_slug": "547571-port-ste-marie-feug",
-   "matchs": [
-    {
-     "date": "2025-11-02",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "CHAMBERY BEC GF",
-     "score": "3-0",
-     "statut": "joué",
-     "journee": "Tour 1",
-     "stade": "STADE PIERRE BROSSOLETTE 2"
-    }
-   ]
-  },
-  {
    "cpNo": "438715",
    "division": "Coupe 47 E Goualc'h Intersport",
    "niveau": "Départemental",
@@ -86,49 +28,24 @@
      "heure": "20:00",
      "domicile": false,
      "adversaire": "CASTELJALOUX FC",
+     "adversaire_slug": "522240-casteljaloux-fc",
      "score": "1-2",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE DE LIRAC 1"
+     "stade": "STADE DE LIRAC 1",
+     "joue": true
     },
     {
      "date": "2025-12-14",
      "heure": "15:00",
      "domicile": true,
      "adversaire": "GONTAUDAISE US",
+     "adversaire_slug": "519800-gontaudaise-us",
      "score": "1-8",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE TIVOLI ALBERT GALASSYS"
-    }
-   ]
-  },
-  {
-   "cpNo": "438717",
-   "division": "Coupe Réserves L Coué Intersport",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "PORT STE MARIE FEUG. 2",
-   "equipe_slug": "547571-port-ste-marie-feug-2",
-   "matchs": [
-    {
-     "date": "2026-03-15",
-     "heure": "12:30",
-     "domicile": true,
-     "adversaire": "O.S. AGENAIS 2",
-     "score": "2-3",
-     "statut": "joué",
-     "journee": "Tour 3",
-     "stade": "STADE TIVOLI ALBERT GALASSYS"
+     "stade": "STADE TIVOLI ALBERT GALASSYS",
+     "joue": true
     }
    ]
   },
@@ -154,20 +71,55 @@
      "heure": "11:00",
      "domicile": true,
      "adversaire": "CASTELMORON FC",
+     "adversaire_slug": "533111-castelmoron-fc",
      "score": "4-3",
      "statut": "joué",
      "journee": "1/4 de finale",
-     "stade": "STADE TIVOLI ALBERT GALASSYS"
+     "stade": "STADE TIVOLI ALBERT GALASSYS",
+     "joue": true
     },
     {
      "date": "2026-04-12",
      "heure": "11:00",
      "domicile": false,
      "adversaire": "ENT. VLFC/FFM",
+     "adversaire_slug": "580944-ent-vlfc-ffm",
      "score": "3-0",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "438717",
+   "division": "Coupe Réserves L Coué Intersport",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "PORT STE MARIE FEUG. 2",
+   "equipe_slug": "547571-port-ste-marie-feug-2",
+   "matchs": [
+    {
+     "date": "2026-03-15",
+     "heure": "12:30",
+     "domicile": true,
+     "adversaire": "O.S. AGENAIS 2",
+     "adversaire_slug": "554433-o-s-agenais-2",
+     "score": "2-3",
+     "statut": "joué",
+     "journee": "Tour 3",
+     "stade": "STADE TIVOLI ALBERT GALASSYS",
+     "joue": true
     }
    ]
   },
@@ -193,10 +145,74 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "FC SAVERIEN",
+     "adversaire_slug": "564912-fc-saverien",
      "score": "0-3",
      "statut": "joué",
      "journee": "Finale D3",
-     "stade": "STADE INTERCOM. PIERRE PERIE 1"
+     "stade": "STADE INTERCOM. PIERRE PERIE 1",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "435204",
+   "division": "Coupe Nouvelle-Aquitaine Féminine",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "F",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "PORT STE MARIE FEUG.",
+   "equipe_slug": "547571-port-ste-marie-feug",
+   "matchs": [
+    {
+     "date": "2025-11-02",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "CHAMBERY BEC GF",
+     "adversaire_slug": "564976-chambery-bec-gf",
+     "score": "3-0",
+     "statut": "joué",
+     "journee": "Tour 1",
+     "stade": "STADE PIERRE BROSSOLETTE 2",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "435202",
+   "division": "Coupe de Nouvelle-Aquitaine",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "PORT STE MARIE FEUG.",
+   "equipe_slug": "547571-port-ste-marie-feug",
+   "matchs": [
+    {
+     "date": "2025-09-13",
+     "heure": "20:00",
+     "domicile": false,
+     "adversaire": "ST MARTIN.GEL",
+     "adversaire_slug": "540862-st-martin-gel",
+     "score": "6-1",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE ANDRÉ VIVES 1",
+     "joue": true
     }
    ]
   }

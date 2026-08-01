@@ -7,35 +7,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "435204",
-   "division": "Coupe Nouvelle-Aquitaine Féminine",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "F",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "BOISME CLESSE ES",
-   "equipe_slug": "580609-boisme-clesse-es",
-   "matchs": [
-    {
-     "date": "2025-11-02",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "THOUARS FOOT 79",
-     "score": "0-6",
-     "statut": "joué",
-     "journee": "Tour 1",
-     "stade": "STADE MUNICIPAL 1"
-    }
-   ]
-  },
-  {
    "cpNo": "438147",
    "division": "Coupe du Poitou à 11",
    "niveau": "Départemental",
@@ -57,10 +28,12 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "CHAUVIGNY.JARDRES",
+     "adversaire_slug": "507029-chauvigny-jardres",
      "score": "4-1",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE MUNICIPAL 1"
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
     }
    ]
   },
@@ -86,69 +59,37 @@
      "heure": "14:30",
      "domicile": false,
      "adversaire": "ST AUBIN LE CLOUD CA 2",
+     "adversaire_slug": "511953-st-aubin-le-cloud-ca-2",
      "score": "0-5",
      "statut": "joué",
      "journee": "Tour n°2",
-     "stade": "STADE MUNICIPAL 1"
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
     },
     {
      "date": "2025-12-14",
      "heure": "14:30",
      "domicile": true,
      "adversaire": "ST VARENT PIERREGEAY 2",
+     "adversaire_slug": "581270-st-varent-pierregeay-2",
      "score": "3-0",
      "statut": "joué",
      "journee": "Tour n°3",
-     "stade": "STADE MUNICIPAL 1"
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
     },
     {
      "date": "2026-01-18",
      "heure": "14:30",
      "domicile": false,
      "adversaire": "BOUTONNAIS FC 2",
+     "adversaire_slug": "563787-boutonnais-fc-2",
      "score": "2-2",
      "statut": "joué",
      "journee": "Tour n°4",
-     "stade": "STADE MUNICIPAL"
-    }
-   ]
-  },
-  {
-   "cpNo": "436839",
-   "division": "Coupe des Deux-Sèvres Super U",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "BOISME CLESSE ES",
-   "equipe_slug": "580609-boisme-clesse-es",
-   "matchs": [
-    {
-     "date": "2025-09-28",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "BRESSUIRE CLNC",
-     "score": "0-3",
-     "statut": "joué",
-     "journee": "Tour n°1",
-     "stade": "STADE JEAN CHARRIER"
-    },
-    {
-     "date": "2025-10-12",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "AMAILLOUX",
-     "score": "3-3",
-     "statut": "joué",
-     "journee": "Tour n°2",
-     "stade": "STADE MUNICIPAL 1"
+     "stade": "STADE MUNICIPAL",
+     "joue": true,
+     "tirs_au_but": true
     }
    ]
   },
@@ -174,20 +115,99 @@
      "heure": "14:30",
      "domicile": true,
      "adversaire": "BUSLAURS THIREUIL 3",
+     "adversaire_slug": "553448-buslaurs-thireuil-3",
      "score": "5-0",
      "statut": "joué",
      "journee": "Tour n°1",
-     "stade": "STADE MUNICIPAL 1"
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
     },
     {
      "date": "2026-01-18",
      "heure": "14:30",
      "domicile": true,
      "adversaire": "ST JEAN MISSE FC 2",
+     "adversaire_slug": "544365-st-jean-misse-fc-2",
      "score": "1-3",
      "statut": "joué",
      "journee": "Tour n°2",
-     "stade": "STADE MUNICIPAL 1"
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "436839",
+   "division": "Coupe des Deux-Sèvres Super U",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "BOISME CLESSE ES",
+   "equipe_slug": "580609-boisme-clesse-es",
+   "matchs": [
+    {
+     "date": "2025-09-28",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "BRESSUIRE CLNC",
+     "adversaire_slug": "548924-bressuire-clnc",
+     "score": "0-3",
+     "statut": "joué",
+     "journee": "Tour n°1",
+     "stade": "STADE JEAN CHARRIER",
+     "joue": true
+    },
+    {
+     "date": "2025-10-12",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "AMAILLOUX",
+     "adversaire_slug": "518443-amailloux",
+     "score": "3-3",
+     "statut": "joué",
+     "journee": "Tour n°2",
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true,
+     "tirs_au_but": true
+    }
+   ]
+  },
+  {
+   "cpNo": "435204",
+   "division": "Coupe Nouvelle-Aquitaine Féminine",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "F",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "BOISME CLESSE ES",
+   "equipe_slug": "580609-boisme-clesse-es",
+   "matchs": [
+    {
+     "date": "2025-11-02",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "THOUARS FOOT 79",
+     "adversaire_slug": "507008-thouars-foot-79",
+     "score": "0-6",
+     "statut": "joué",
+     "journee": "Tour 1",
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
     }
    ]
   }

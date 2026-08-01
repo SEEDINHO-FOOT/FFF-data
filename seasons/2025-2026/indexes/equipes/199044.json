@@ -6,65 +6,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "435204",
-   "division": "Coupe Nouvelle-Aquitaine Féminine",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "F",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "FC GATINAISE",
-   "equipe_slug": "760857-fc-gatinaise",
-   "matchs": [
-    {
-     "date": "2025-11-02",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "VICQ S/GARTEMPE US",
-     "score": "0-10",
-     "statut": "joué",
-     "journee": "Tour 1",
-     "stade": "STADE JEAN CLAUDE DALLAY 1"
-    },
-    {
-     "date": "2025-11-23",
-     "heure": "14:30",
-     "domicile": true,
-     "adversaire": "ST CERBOUILLE ES",
-     "score": "3-0",
-     "statut": "joué",
-     "journee": "Tour 2",
-     "stade": "STADE ANDRÉ DECOUX"
-    },
-    {
-     "date": "2026-03-01",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "ENT. ASESG/CHAURAY",
-     "score": "0-3",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE ANDRÉ DECOUX"
-    },
-    {
-     "date": "2026-03-15",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "AIGREFEUILLE US",
-     "score": "3-4",
-     "statut": "joué",
-     "journee": "1/16èmes de Finale",
-     "stade": "STADE ANDRÉ DECOUX"
-    }
-   ]
-  },
-  {
    "cpNo": "438147",
    "division": "Coupe du Poitou à 11",
    "niveau": "Départemental",
@@ -86,20 +27,25 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "U.S. LA CHAPELLE BAT",
+     "adversaire_slug": "521943-u-s-la-chapelle-bat",
      "score": "5-2",
      "statut": "joué",
      "journee": "T3 - CDP",
-     "stade": "STADE ANDRÉ DECOUX"
+     "stade": "STADE ANDRÉ DECOUX",
+     "joue": true
     },
     {
      "date": "2026-05-10",
      "heure": "15:00",
      "domicile": false,
      "adversaire": "NIORT ST FLORENT UA",
+     "adversaire_slug": "514355-niort-st-florent-ua",
      "score": "2-2",
      "statut": "joué",
      "journee": "1/4 - CDP",
-     "stade": "STADE RENÉ GAILLARD"
+     "stade": "STADE RENÉ GAILLARD",
+     "joue": true,
+     "tirs_au_but": true
     }
    ]
   },
@@ -125,17 +71,19 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "BRESSUIRE FC",
+     "adversaire_slug": "507145-bressuire-fc",
      "score": "0-9",
      "statut": "joué",
      "journee": "Barrage U16/18F ",
-     "stade": "STADE ANDRÉ DECOUX"
+     "stade": "STADE ANDRÉ DECOUX",
+     "joue": true
     }
    ]
   },
   {
-   "cpNo": "435167",
-   "division": "COUPE DE FRANCE FÉMININE",
-   "niveau": "National",
+   "cpNo": "435204",
+   "division": "Coupe Nouvelle-Aquitaine Féminine",
+   "niveau": "Régional",
    "echelon": null,
    "forme": "Coupe",
    "categorie": {
@@ -144,20 +92,58 @@
     "discipline": "Football"
    },
    "type": "coupe",
-   "scope": "national",
-   "region": null,
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
    "equipe_nom": "FC GATINAISE",
    "equipe_slug": "760857-fc-gatinaise",
    "matchs": [
     {
-     "date": "2025-09-07",
+     "date": "2025-11-02",
      "heure": "15:00",
-     "domicile": true,
-     "adversaire": "LIGUGE LL",
-     "score": "0-1",
+     "domicile": false,
+     "adversaire": "VICQ S/GARTEMPE US",
+     "adversaire_slug": "523943-vicq-s-gartempe-us",
+     "score": "0-10",
      "statut": "joué",
      "journee": "Tour 1",
-     "stade": "STADE ANDRÉ DECOUX"
+     "stade": "STADE JEAN CLAUDE DALLAY 1",
+     "joue": true
+    },
+    {
+     "date": "2025-11-23",
+     "heure": "14:30",
+     "domicile": true,
+     "adversaire": "ST CERBOUILLE ES",
+     "adversaire_slug": "547106-st-cerbouille-es",
+     "score": "3-0",
+     "statut": "joué",
+     "journee": "Tour 2",
+     "stade": "STADE ANDRÉ DECOUX",
+     "joue": true
+    },
+    {
+     "date": "2026-03-01",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "ENT. ASESG/CHAURAY",
+     "adversaire_slug": "515733-ent-asesg-chauray",
+     "score": "0-3",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE ANDRÉ DECOUX",
+     "joue": true
+    },
+    {
+     "date": "2026-03-15",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "AIGREFEUILLE US",
+     "adversaire_slug": "500491-aigrefeuille-us",
+     "score": "3-4",
+     "statut": "joué",
+     "journee": "1/16èmes de Finale",
+     "stade": "STADE ANDRÉ DECOUX",
+     "joue": true
     }
    ]
   }

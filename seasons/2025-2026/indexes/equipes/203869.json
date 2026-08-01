@@ -6,85 +6,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "437410",
-   "division": "COUPE REGION BRETAGNE",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BRETAGNE",
-   "equipe_nom": "LANGUEUX LES GRÈVES",
-   "equipe_slug": "564655-langueux-les-grEves",
-   "matchs": [
-    {
-     "date": "2025-08-31",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "TREMOREL US",
-     "score": "2-2",
-     "statut": "joué",
-     "journee": "1er Tour",
-     "stade": null
-    },
-    {
-     "date": "2025-08-31",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "TREMOREL US",
-     "score": "2-2",
-     "statut": "joué",
-     "journee": "1er Tour",
-     "stade": null
-    },
-    {
-     "date": "2025-09-14",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "LANTIC FC",
-     "score": "2-1",
-     "statut": "joué",
-     "journee": "2ème Tour",
-     "stade": null
-    },
-    {
-     "date": "2025-09-14",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "LANTIC FC",
-     "score": "2-1",
-     "statut": "joué",
-     "journee": "2ème Tour",
-     "stade": null
-    },
-    {
-     "date": "2025-09-28",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "HILLION AS",
-     "score": "0-5",
-     "statut": "joué",
-     "journee": "3ème Tour",
-     "stade": null
-    },
-    {
-     "date": "2025-09-28",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "HILLION AS",
-     "score": "0-5",
-     "statut": "joué",
-     "journee": "3ème Tour",
-     "stade": null
-    }
-   ]
-  },
-  {
    "cpNo": "438160",
    "division": "Coupe du Département",
    "niveau": "Départemental",
@@ -106,10 +27,12 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "TREMOREL US",
+     "adversaire_slug": "522021-tremorel-us",
      "score": "3-2",
      "statut": "joué",
      "journee": "3ème Tour",
-     "stade": null
+     "stade": null,
+     "joue": true
     }
    ]
   },
@@ -135,10 +58,12 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "LA MOTTE AS",
+     "adversaire_slug": "522665-la-motte-as",
      "score": "2-4",
      "statut": "joué",
      "journee": "3ème Tour",
-     "stade": null
+     "stade": null,
+     "joue": true
     }
    ]
   },
@@ -164,30 +89,129 @@
      "heure": "14:30",
      "domicile": true,
      "adversaire": "CALORGUEN US",
+     "adversaire_slug": "564825-calorguen-us",
      "score": "3-2",
      "statut": "joué",
      "journee": null,
-     "stade": "Stade Jean Louis Jaffrain N°2"
+     "stade": "Stade Jean Louis Jaffrain N°2",
+     "joue": true
     },
     {
      "date": "2026-04-05",
      "heure": "15:00",
      "domicile": false,
      "adversaire": "PLUZUNET US",
+     "adversaire_slug": "520636-pluzunet-us",
      "score": "0-1",
      "statut": "joué",
      "journee": "1/8 FINALE",
-     "stade": null
+     "stade": null,
+     "joue": true
     },
     {
      "date": "2026-05-03",
      "heure": "15:00",
      "domicile": false,
      "adversaire": "ST BARNABE AS",
+     "adversaire_slug": "520441-st-barnabe-as",
      "score": "2-1",
      "statut": "joué",
      "journee": "Quarts de finale",
-     "stade": null
+     "stade": null,
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "437410",
+   "division": "COUPE REGION BRETAGNE",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BRETAGNE",
+   "equipe_nom": "LANGUEUX LES GRÈVES",
+   "equipe_slug": "564655-langueux-les-grEves",
+   "matchs": [
+    {
+     "date": "2025-08-31",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "TREMOREL US",
+     "adversaire_slug": "522021-tremorel-us",
+     "score": "2-2",
+     "statut": "joué",
+     "journee": "1er Tour",
+     "stade": null,
+     "joue": true,
+     "tirs_au_but": true
+    },
+    {
+     "date": "2025-08-31",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "TREMOREL US",
+     "adversaire_slug": "522021-tremorel-us",
+     "score": "2-2",
+     "statut": "joué",
+     "journee": "1er Tour",
+     "stade": null,
+     "joue": true,
+     "tirs_au_but": true
+    },
+    {
+     "date": "2025-09-14",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "LANTIC FC",
+     "adversaire_slug": "541223-lantic-fc",
+     "score": "2-1",
+     "statut": "joué",
+     "journee": "2ème Tour",
+     "stade": null,
+     "joue": true
+    },
+    {
+     "date": "2025-09-14",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "LANTIC FC",
+     "adversaire_slug": "541223-lantic-fc",
+     "score": "2-1",
+     "statut": "joué",
+     "journee": "2ème Tour",
+     "stade": null,
+     "joue": true
+    },
+    {
+     "date": "2025-09-28",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "HILLION AS",
+     "adversaire_slug": "520431-hillion-as",
+     "score": "0-5",
+     "statut": "joué",
+     "journee": "3ème Tour",
+     "stade": null,
+     "joue": true
+    },
+    {
+     "date": "2025-09-28",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "HILLION AS",
+     "adversaire_slug": "520431-hillion-as",
+     "score": "0-5",
+     "statut": "joué",
+     "journee": "3ème Tour",
+     "stade": null,
+     "joue": true
     }
    ]
   }

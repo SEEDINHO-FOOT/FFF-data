@@ -6,55 +6,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "435204",
-   "division": "Coupe Nouvelle-Aquitaine Féminine",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "F",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "POLE FEMININ MONTOIS",
-   "equipe_slug": "560930-pole-feminin-montois",
-   "matchs": [
-    {
-     "date": "2025-11-02",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "TARNOS AS",
-     "score": "3-0",
-     "statut": "joué",
-     "journee": "Tour 1",
-     "stade": "STADE ANDRÉ VIVES 1"
-    },
-    {
-     "date": "2025-11-23",
-     "heure": "14:30",
-     "domicile": true,
-     "adversaire": "TARTAS ST YAGUEN FC",
-     "score": "6-0",
-     "statut": "joué",
-     "journee": "Tour 2",
-     "stade": "STADE RENÉ BATBY"
-    },
-    {
-     "date": "2026-02-22",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "BORDEAUX COQS ROUGES",
-     "score": "0-0",
-     "statut": "joué",
-     "journee": "Tour 3",
-     "stade": "STADE RENÉ BATBY"
-    }
-   ]
-  },
-  {
    "cpNo": "437750",
    "division": "Coupe des Landes Féminines CA Aquitaine",
    "niveau": "Départemental",
@@ -76,59 +27,37 @@
      "heure": "20:00",
      "domicile": false,
      "adversaire": "DAX J.A.",
+     "adversaire_slug": "505739-dax-j-a",
      "score": "0-9",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE ANDRÉ DARRIGADE 3"
+     "stade": "STADE ANDRÉ DARRIGADE 3",
+     "joue": true
     },
     {
      "date": "2026-04-05",
      "heure": "14:30",
      "domicile": false,
      "adversaire": "SCS FC",
+     "adversaire_slug": "581325-scs-fc",
      "score": "1-1",
      "statut": "joué",
      "journee": "1/2 Finales",
-     "stade": "STADE MUNICIPAL 3"
+     "stade": "STADE MUNICIPAL 3",
+     "joue": true,
+     "tirs_au_but": true
     },
     {
      "date": "2026-05-14",
      "heure": "18:00",
      "domicile": true,
      "adversaire": "FC TARTAS ST YAGUEN",
+     "adversaire_slug": "590250-fc-tartas-st-yaguen",
      "score": "3-0",
      "statut": "joué",
      "journee": "Finale",
-     "stade": "STADE YVON LE BOUELLEC 1"
-    }
-   ]
-  },
-  {
-   "cpNo": "443996",
-   "division": "Coupe des Landes U18 F",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U18",
-    "genre": "F",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "POLE FEMININ MONTOIS",
-   "equipe_slug": "560930-pole-feminin-montois",
-   "matchs": [
-    {
-     "date": "2026-05-14",
-     "heure": "15:30",
-     "domicile": true,
-     "adversaire": "SCS FC",
-     "score": "0-3",
-     "statut": "joué",
-     "journee": "Finale",
-     "stade": "STADE YVON LE BOUELLEC 1"
+     "stade": "STADE YVON LE BOUELLEC 1",
+     "joue": true
     }
    ]
   },
@@ -154,10 +83,12 @@
      "heure": "10:30",
      "domicile": true,
      "adversaire": "SCS FC",
+     "adversaire_slug": "581325-scs-fc",
      "score": "0-5",
      "statut": "joué",
      "journee": "1/2 Finales",
-     "stade": "PLAINE DE JEUX DE LA MÉNASSE 2"
+     "stade": "PLAINE DE JEUX DE LA MÉNASSE 2",
+     "joue": true
     }
    ]
   },
@@ -183,20 +114,111 @@
      "heure": "15:30",
      "domicile": true,
      "adversaire": "SCS FC",
+     "adversaire_slug": "581325-scs-fc",
      "score": "6-3",
      "statut": "joué",
      "journee": "1/2 Finales",
-     "stade": "SALLE DES SPORTS"
+     "stade": "SALLE DES SPORTS",
+     "joue": true
     },
     {
      "date": "2026-06-14",
      "heure": "15:30",
      "domicile": false,
      "adversaire": "DAX J.A.",
+     "adversaire_slug": "505739-dax-j-a",
      "score": "1-8",
      "statut": "joué",
      "journee": "Finale",
-     "stade": "SALLE OMNISPORT"
+     "stade": "SALLE OMNISPORT",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "443996",
+   "division": "Coupe des Landes U18 F",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U18",
+    "genre": "F",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "POLE FEMININ MONTOIS",
+   "equipe_slug": "560930-pole-feminin-montois",
+   "matchs": [
+    {
+     "date": "2026-05-14",
+     "heure": "15:30",
+     "domicile": true,
+     "adversaire": "SCS FC",
+     "adversaire_slug": "581325-scs-fc",
+     "score": "0-3",
+     "statut": "joué",
+     "journee": "Finale",
+     "stade": "STADE YVON LE BOUELLEC 1",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "435204",
+   "division": "Coupe Nouvelle-Aquitaine Féminine",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "F",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "POLE FEMININ MONTOIS",
+   "equipe_slug": "560930-pole-feminin-montois",
+   "matchs": [
+    {
+     "date": "2025-11-02",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "TARNOS AS",
+     "adversaire_slug": "533943-tarnos-as",
+     "score": "3-0",
+     "statut": "joué",
+     "journee": "Tour 1",
+     "stade": "STADE ANDRÉ VIVES 1",
+     "joue": true
+    },
+    {
+     "date": "2025-11-23",
+     "heure": "14:30",
+     "domicile": true,
+     "adversaire": "TARTAS ST YAGUEN FC",
+     "adversaire_slug": "590250-tartas-st-yaguen-fc",
+     "score": "6-0",
+     "statut": "joué",
+     "journee": "Tour 2",
+     "stade": "STADE RENÉ BATBY",
+     "joue": true
+    },
+    {
+     "date": "2026-02-22",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "BORDEAUX COQS ROUGES",
+     "adversaire_slug": "505598-bordeaux-coqs-rouges",
+     "score": "0-0",
+     "statut": "joué",
+     "journee": "Tour 3",
+     "stade": "STADE RENÉ BATBY",
+     "joue": true,
+     "tirs_au_but": true
     }
    ]
   },
@@ -222,10 +244,12 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "SEIGN.CAPB.SOUST. FC",
+     "adversaire_slug": "581325-seign-capb-soust-fc",
      "score": "3-1",
      "statut": "joué",
      "journee": "Tour 1",
-     "stade": "STADE MUNICIPAL 1"
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
     }
    ]
   }

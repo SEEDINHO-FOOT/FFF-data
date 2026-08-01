@@ -9,55 +9,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "435204",
-   "division": "Coupe Nouvelle-Aquitaine Féminine",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "F",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "ENT.VRERE- LOUZY",
-   "equipe_slug": "522232-ent-vrere-louzy",
-   "matchs": [
-    {
-     "date": "2025-11-02",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "ENT. FEMININE RCV",
-     "score": "0-2",
-     "statut": "joué",
-     "journee": "Tour 1",
-     "stade": "STADE CHARLES MOREAU"
-    },
-    {
-     "date": "2025-11-22",
-     "heure": "19:00",
-     "domicile": true,
-     "adversaire": "FONTAINE LE COMTE FC",
-     "score": "4-0",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE DE VRÈRE 2 (MONTALAIS 2)"
-    },
-    {
-     "date": "2026-02-21",
-     "heure": "19:00",
-     "domicile": true,
-     "adversaire": "JAUNAY MARIGNY US",
-     "score": "0-2",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE DE VRÈRE 2 (MONTALAIS 2)"
-    }
-   ]
-  },
-  {
    "cpNo": "438147",
    "division": "Coupe du Poitou à 11",
    "niveau": "Départemental",
@@ -79,20 +30,25 @@
      "heure": "19:00",
      "domicile": true,
      "adversaire": "ENT. AV 79 - VV",
+     "adversaire_slug": "581429-ent-av-79-vv",
      "score": "4-1",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE DE VRÈRE 2 (MONTALAIS 2)"
+     "stade": "STADE DE VRÈRE 2 (MONTALAIS 2)",
+     "joue": true
     },
     {
      "date": "2026-05-08",
      "heure": "15:00",
      "domicile": false,
      "adversaire": "NEUVILLE CA",
+     "adversaire_slug": "506983-neuville-ca",
      "score": "1-1",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE SERGE DELHUMEAU"
+     "stade": "STADE SERGE DELHUMEAU",
+     "joue": true,
+     "tirs_au_but": true
     }
    ]
   },
@@ -118,39 +74,12 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "ST VARENT PIERREGEAY 2",
+     "adversaire_slug": "581270-st-varent-pierregeay-2",
      "score": "3-0",
      "statut": "joué",
      "journee": "Tour n°1",
-     "stade": "STADE DES GRANDES VERSENNES 1"
-    }
-   ]
-  },
-  {
-   "cpNo": "436839",
-   "division": "Coupe des Deux-Sèvres Super U",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "VRERE ST LEGER DE M.",
-   "equipe_slug": "522232-vrere-st-leger-de-m",
-   "matchs": [
-    {
-     "date": "2025-12-14",
-     "heure": "14:30",
-     "domicile": false,
-     "adversaire": "CHAURAY FC 3",
-     "score": "5-3",
-     "statut": "joué",
-     "journee": "Tour n°4",
-     "stade": "STADE MUNICIPAL 3"
+     "stade": "STADE DES GRANDES VERSENNES 1",
+     "joue": true
     }
    ]
   },
@@ -176,20 +105,111 @@
      "heure": "14:30",
      "domicile": true,
      "adversaire": "CLAZAY BOCAGE FC 2",
+     "adversaire_slug": "560578-clazay-bocage-fc-2",
      "score": "4-0",
      "statut": "joué",
      "journee": "Tour n°1",
-     "stade": "Stade De Vrère 1 (montalais 1)"
+     "stade": "Stade De Vrère 1 (montalais 1)",
+     "joue": true
     },
     {
      "date": "2026-02-01",
      "heure": "13:00",
      "domicile": false,
      "adversaire": "CHANTEL. COURL. CHAP 4",
+     "adversaire_slug": "560512-chantel-courl-chap-4",
      "score": "2-2",
      "statut": "joué",
      "journee": null,
-     "stade": "PARC DES SPORTS JEAN NIVET 2 (SYNT.)"
+     "stade": "PARC DES SPORTS JEAN NIVET 2 (SYNT.)",
+     "joue": true,
+     "tirs_au_but": true
+    }
+   ]
+  },
+  {
+   "cpNo": "436839",
+   "division": "Coupe des Deux-Sèvres Super U",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "VRERE ST LEGER DE M.",
+   "equipe_slug": "522232-vrere-st-leger-de-m",
+   "matchs": [
+    {
+     "date": "2025-12-14",
+     "heure": "14:30",
+     "domicile": false,
+     "adversaire": "CHAURAY FC 3",
+     "adversaire_slug": "525269-chauray-fc-3",
+     "score": "5-3",
+     "statut": "joué",
+     "journee": "Tour n°4",
+     "stade": "STADE MUNICIPAL 3",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "435204",
+   "division": "Coupe Nouvelle-Aquitaine Féminine",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "F",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "ENT.VRERE- LOUZY",
+   "equipe_slug": "522232-ent-vrere-louzy",
+   "matchs": [
+    {
+     "date": "2025-11-02",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "ENT. FEMININE RCV",
+     "adversaire_slug": "518323-ent-feminine-rcv",
+     "score": "0-2",
+     "statut": "joué",
+     "journee": "Tour 1",
+     "stade": "STADE CHARLES MOREAU",
+     "joue": true
+    },
+    {
+     "date": "2025-11-22",
+     "heure": "19:00",
+     "domicile": true,
+     "adversaire": "FONTAINE LE COMTE FC",
+     "adversaire_slug": "522182-fontaine-le-comte-fc",
+     "score": "4-0",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE DE VRÈRE 2 (MONTALAIS 2)",
+     "joue": true
+    },
+    {
+     "date": "2026-02-21",
+     "heure": "19:00",
+     "domicile": true,
+     "adversaire": "JAUNAY MARIGNY US",
+     "adversaire_slug": "514931-jaunay-marigny-us",
+     "score": "0-2",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE DE VRÈRE 2 (MONTALAIS 2)",
+     "joue": true
     }
    ]
   }

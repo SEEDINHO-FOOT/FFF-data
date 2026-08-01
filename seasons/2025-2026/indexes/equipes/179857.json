@@ -8,74 +8,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "435202",
-   "division": "Coupe de Nouvelle-Aquitaine",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "OYRE DANGE  ES",
-   "equipe_slug": "590232-oyre-dange-es",
-   "matchs": [
-    {
-     "date": "2025-12-13",
-     "heure": "18:00",
-     "domicile": false,
-     "adversaire": "NIORT ST FLORENT UA",
-     "score": "3-0",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE RENÉ GAILLARD"
-    }
-   ]
-  },
-  {
-   "cpNo": "438136",
-   "division": "Challenge Marcel Renaudie",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "OYRE DANGE  ES 3",
-   "equipe_slug": "590232-oyre-dange-es-3",
-   "matchs": [
-    {
-     "date": "2025-10-11",
-     "heure": "19:00",
-     "domicile": true,
-     "adversaire": "CHATELLERAULT PORTUG 3",
-     "score": "5-2",
-     "statut": "joué",
-     "journee": null,
-     "stade": "Stade Municipal 1"
-    },
-    {
-     "date": "2025-11-16",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "AVANTON US 2",
-     "score": "3-2",
-     "statut": "joué",
-     "journee": "T2 - CMR",
-     "stade": "STADE LE CLOS DE BEAUMONT 1"
-    }
-   ]
-  },
-  {
    "cpNo": "438137",
    "division": "Challenge des Réserves",
    "niveau": "Départemental",
@@ -97,10 +29,12 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "BEAUMONT ST CYR ES 3",
+     "adversaire_slug": "520480-beaumont-st-cyr-es-3",
      "score": "3-4",
      "statut": "joué",
      "journee": "T3 - CHR",
-     "stade": "Stade Municipal 1"
+     "stade": "Stade Municipal 1",
+     "joue": true
     }
    ]
   },
@@ -126,30 +60,111 @@
      "heure": "19:00",
      "domicile": false,
      "adversaire": "ANTRAN SL",
+     "adversaire_slug": "527576-antran-sl",
      "score": "0-5",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE CLAUDE CHARLOT 1"
+     "stade": "STADE CLAUDE CHARLOT 1",
+     "joue": true
     },
     {
      "date": "2026-04-03",
      "heure": "20:30",
      "domicile": true,
      "adversaire": "MONTMORILLON UES 2",
+     "adversaire_slug": "507038-montmorillon-ues-2",
      "score": "1-0",
      "statut": "joué",
      "journee": null,
-     "stade": "Stade Municipal 1"
+     "stade": "Stade Municipal 1",
+     "joue": true
     },
     {
      "date": "2026-05-13",
      "heure": "20:30",
      "domicile": false,
      "adversaire": "CHASS. ST GEORGES FC",
+     "adversaire_slug": "582346-chass-st-georges-fc",
      "score": "2-2",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE DES ECLUZELLES 1"
+     "stade": "STADE DES ECLUZELLES 1",
+     "joue": true,
+     "tirs_au_but": true
+    }
+   ]
+  },
+  {
+   "cpNo": "438136",
+   "division": "Challenge Marcel Renaudie",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "OYRE DANGE  ES 3",
+   "equipe_slug": "590232-oyre-dange-es-3",
+   "matchs": [
+    {
+     "date": "2025-10-11",
+     "heure": "19:00",
+     "domicile": true,
+     "adversaire": "CHATELLERAULT PORTUG 3",
+     "adversaire_slug": "527361-chatellerault-portug-3",
+     "score": "5-2",
+     "statut": "joué",
+     "journee": null,
+     "stade": "Stade Municipal 1",
+     "joue": true
+    },
+    {
+     "date": "2025-11-16",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "AVANTON US 2",
+     "adversaire_slug": "524575-avanton-us-2",
+     "score": "3-2",
+     "statut": "joué",
+     "journee": "T2 - CMR",
+     "stade": "STADE LE CLOS DE BEAUMONT 1",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "435202",
+   "division": "Coupe de Nouvelle-Aquitaine",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "OYRE DANGE  ES",
+   "equipe_slug": "590232-oyre-dange-es",
+   "matchs": [
+    {
+     "date": "2025-12-13",
+     "heure": "18:00",
+     "domicile": false,
+     "adversaire": "NIORT ST FLORENT UA",
+     "adversaire_slug": "514355-niort-st-florent-ua",
+     "score": "3-0",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE RENÉ GAILLARD",
+     "joue": true
     }
    ]
   },
@@ -175,10 +190,12 @@
      "heure": "18:00",
      "domicile": true,
      "adversaire": "BRESSUIRE COMORIENNE",
+     "adversaire_slug": "581937-bressuire-comorienne",
      "score": "3-0",
      "statut": "joué",
      "journee": null,
-     "stade": "Stade Municipal 1"
+     "stade": "Stade Municipal 1",
+     "joue": true
     }
    ]
   }

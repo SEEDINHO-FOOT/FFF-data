@@ -7,55 +7,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "438558",
-   "division": "U17 Coupe Loisir",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U17",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BRETAGNE",
-   "equipe_nom": "GJ GARS TREGOR PLOUG",
-   "equipe_slug": "554331-gj-gars-tregor-ploug",
-   "matchs": [
-    {
-     "date": "2026-02-28",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "GJ DES ENCLOS SIZUN",
-     "score": "1-5",
-     "statut": "joué",
-     "journee": "Journée 1",
-     "stade": "STADE METAIRIE"
-    },
-    {
-     "date": "2026-04-11",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "ST MARTIN CH",
-     "score": "3-0",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE AR BRUG N°1"
-    },
-    {
-     "date": "2026-04-18",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "GJ C LEONARDE PLOU 2",
-     "score": "3-0",
-     "statut": "joué",
-     "journee": "Journée 3",
-     "stade": "STADE GÉRARD MARTIN 1"
-    }
-   ]
-  },
-  {
    "cpNo": "438568",
    "division": "U15 Coupe Loisir",
    "niveau": "Départemental",
@@ -77,30 +28,36 @@
      "heure": "11:00",
      "domicile": true,
      "adversaire": "LE FOLGOET CND",
+     "adversaire_slug": "524222-le-folgoet-cnd",
      "score": "1-11",
      "statut": "joué",
      "journee": "Journée 1",
-     "stade": null
+     "stade": null,
+     "joue": true
     },
     {
      "date": "2026-04-18",
      "heure": "15:00",
      "domicile": false,
      "adversaire": "MORLAIX SC 2",
+     "adversaire_slug": "553186-morlaix-sc-2",
      "score": "3-0",
      "statut": "joué",
      "journee": "Journée 3",
-     "stade": "Stade De Coatserho "
+     "stade": "Stade De Coatserho ",
+     "joue": true
     },
     {
      "date": "2026-05-02",
      "heure": "15:00",
      "domicile": true,
      "adversaire": "PLOUNEVENTER PLOUED.",
+     "adversaire_slug": "560853-plouneventer-ploued",
      "score": "1-1",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE HERVÉ BRIGAND N° 2"
+     "stade": "STADE HERVÉ BRIGAND N° 2",
+     "joue": true
     }
    ]
   },
@@ -126,30 +83,91 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "GJ KERNIC LANH",
+     "adversaire_slug": "550021-gj-kernic-lanh",
      "score": "2-2",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE LES QUATRE VENTS N°1"
+     "stade": "STADE LES QUATRE VENTS N°1",
+     "joue": true
     },
     {
      "date": "2026-04-11",
      "heure": "15:00",
      "domicile": false,
      "adversaire": "GJ C LEONARDE PLOU 2",
+     "adversaire_slug": "581084-gj-c-leonarde-plou-2",
      "score": "6-7",
      "statut": "joué",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": true
     },
     {
      "date": "2026-04-18",
      "heure": "15:00",
      "domicile": false,
      "adversaire": "GJ DES ENCLOS SIZUN 2",
+     "adversaire_slug": "551904-gj-des-enclos-sizun-2",
      "score": null,
      "statut": "à venir",
      "journee": "Journée 3",
-     "stade": null
+     "stade": null,
+     "joue": false
+    }
+   ]
+  },
+  {
+   "cpNo": "438558",
+   "division": "U17 Coupe Loisir",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U17",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BRETAGNE",
+   "equipe_nom": "GJ GARS TREGOR PLOUG",
+   "equipe_slug": "554331-gj-gars-tregor-ploug",
+   "matchs": [
+    {
+     "date": "2026-02-28",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "GJ DES ENCLOS SIZUN",
+     "adversaire_slug": "551904-gj-des-enclos-sizun",
+     "score": "1-5",
+     "statut": "joué",
+     "journee": "Journée 1",
+     "stade": "STADE METAIRIE",
+     "joue": true
+    },
+    {
+     "date": "2026-04-11",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "ST MARTIN CH",
+     "adversaire_slug": "502278-st-martin-ch",
+     "score": "3-0",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE AR BRUG N°1",
+     "joue": true
+    },
+    {
+     "date": "2026-04-18",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "GJ C LEONARDE PLOU 2",
+     "adversaire_slug": "581084-gj-c-leonarde-plou-2",
+     "score": "3-0",
+     "statut": "joué",
+     "journee": "Journée 3",
+     "stade": "STADE GÉRARD MARTIN 1",
+     "joue": true
     }
    ]
   }

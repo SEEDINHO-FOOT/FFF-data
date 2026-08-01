@@ -7,64 +7,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "435202",
-   "division": "Coupe de Nouvelle-Aquitaine",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "ST ROMANS LM",
-   "equipe_slug": "518323-st-romans-lm",
-   "matchs": [
-    {
-     "date": "2025-09-13",
-     "heure": "20:00",
-     "domicile": true,
-     "adversaire": "BESSINES ASPTT",
-     "score": "0-11",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE CHARLES MOREAU"
-    }
-   ]
-  },
-  {
-   "cpNo": "435204",
-   "division": "Coupe Nouvelle-Aquitaine Féminine",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "F",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "ENT. FEMININE RCV",
-   "equipe_slug": "518323-ent-feminine-rcv",
-   "matchs": [
-    {
-     "date": "2025-11-02",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "ENT.VRERE- LOUZY",
-     "score": "0-2",
-     "statut": "joué",
-     "journee": "Tour 1",
-     "stade": "STADE CHARLES MOREAU"
-    }
-   ]
-  },
-  {
    "cpNo": "436838",
    "division": "Coupe Saboureau",
    "niveau": "Départemental",
@@ -86,20 +28,25 @@
      "heure": "20:00",
      "domicile": true,
      "adversaire": "AUGE AZAY LE BRULE",
+     "adversaire_slug": "545020-auge-azay-le-brule",
      "score": "1-1",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE CHARLES MOREAU"
+     "stade": "STADE CHARLES MOREAU",
+     "joue": true,
+     "tirs_au_but": true
     },
     {
      "date": "2025-12-14",
      "heure": "14:30",
      "domicile": false,
      "adversaire": "SUD GATINE FC 2",
+     "adversaire_slug": "551597-sud-gatine-fc-2",
      "score": "4-1",
      "statut": "joué",
      "journee": "Tour n°3",
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true
     }
    ]
   },
@@ -125,10 +72,74 @@
      "heure": "20:00",
      "domicile": false,
      "adversaire": "CELLES-VERRINES ES 2",
+     "adversaire_slug": "546422-celles-verrines-es-2",
      "score": "10-0",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE DE LA BOISSIÈRE"
+     "stade": "STADE DE LA BOISSIÈRE",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "435204",
+   "division": "Coupe Nouvelle-Aquitaine Féminine",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "F",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "ENT. FEMININE RCV",
+   "equipe_slug": "518323-ent-feminine-rcv",
+   "matchs": [
+    {
+     "date": "2025-11-02",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "ENT.VRERE- LOUZY",
+     "adversaire_slug": "522232-ent-vrere-louzy",
+     "score": "0-2",
+     "statut": "joué",
+     "journee": "Tour 1",
+     "stade": "STADE CHARLES MOREAU",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "435202",
+   "division": "Coupe de Nouvelle-Aquitaine",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "ST ROMANS LM",
+   "equipe_slug": "518323-st-romans-lm",
+   "matchs": [
+    {
+     "date": "2025-09-13",
+     "heure": "20:00",
+     "domicile": true,
+     "adversaire": "BESSINES ASPTT",
+     "adversaire_slug": "563636-bessines-asptt",
+     "score": "0-11",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE CHARLES MOREAU",
+     "joue": true
     }
    ]
   },
@@ -154,10 +165,12 @@
      "heure": "20:00",
      "domicile": true,
      "adversaire": "CHAMPIGNY",
+     "adversaire_slug": "522518-champigny",
      "score": "0-3",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE CHARLES MOREAU"
+     "stade": "STADE CHARLES MOREAU",
+     "joue": true
     }
    ]
   }

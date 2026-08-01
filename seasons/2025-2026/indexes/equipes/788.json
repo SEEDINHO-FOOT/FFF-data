@@ -8,103 +8,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "445071",
-   "division": "Coupe D1-D3 Avesnois",
-   "niveau": "Départemental",
-   "echelon": "D1",
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "HAUTS-DE-FRANCE",
-   "equipe_nom": "LOUVROIL ASG",
-   "equipe_slug": "500970-louvroil-asg",
-   "matchs": [
-    {
-     "date": "2026-01-25",
-     "heure": "13:00",
-     "domicile": false,
-     "adversaire": "FERRIERE IC",
-     "score": "2-2",
-     "statut": "joué",
-     "journee": "8ème de Finale",
-     "stade": "STADE M. GILLET 1"
-    }
-   ]
-  },
-  {
-   "cpNo": "445079",
-   "division": "Coupe D4-D6 Avesnois",
-   "niveau": "Départemental",
-   "echelon": "D4",
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": null,
-   "region": "HAUTS-DE-FRANCE",
-   "equipe_nom": "LOUVROIL ASG 2",
-   "equipe_slug": "500970-louvroil-asg-2",
-   "matchs": [
-    {
-     "date": "2025-12-07",
-     "heure": "14:30",
-     "domicile": false,
-     "adversaire": "AVESNES S/HELPE FC96 2",
-     "score": "0-3",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE LÉO LAGRANGE 2"
-    },
-    {
-     "date": "2026-01-25",
-     "heure": "14:30",
-     "domicile": false,
-     "adversaire": "ROUSIES COEUR SAMBRE 2",
-     "score": "6-1",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE ABELOS MOUCHART 1"
-    }
-   ]
-  },
-  {
-   "cpNo": "445400",
-   "division": "Coupe Escaut U18",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U18",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "HAUTS-DE-FRANCE",
-   "equipe_nom": "LOUVROIL ASG 21",
-   "equipe_slug": "500970-louvroil-asg-21",
-   "matchs": [
-    {
-     "date": "2026-02-28",
-     "heure": "16:00",
-     "domicile": false,
-     "adversaire": "ESCAUDOEUVRES CAS 22",
-     "score": "6-0",
-     "statut": "joué",
-     "journee": "1/16ème de Finale",
-     "stade": "STADE MARCEAU DHORDAIN 2"
-    }
-   ]
-  },
-  {
    "cpNo": "445403",
    "division": "Coupe Escaut U16",
    "niveau": "Départemental",
@@ -126,20 +29,24 @@
      "heure": "10:00",
      "domicile": true,
      "adversaire": "ST SOUPLET US 21",
+     "adversaire_slug": "501083-st-souplet-us-21",
      "score": "5-0",
      "statut": "joué",
      "journee": "32ème de Finale",
-     "stade": "STADE LECLERC 2"
+     "stade": "STADE LECLERC 2",
+     "joue": true
     },
     {
      "date": "2026-03-01",
      "heure": "10:00",
      "domicile": false,
      "adversaire": "FERRIERE IC 22",
+     "adversaire_slug": "500973-ferriere-ic-22",
      "score": "0-6",
      "statut": "joué",
      "journee": "16ème de Finale",
-     "stade": "STADE M. GILLET 1"
+     "stade": "STADE M. GILLET 1",
+     "joue": true
     }
    ]
   },
@@ -165,10 +72,118 @@
      "heure": "10:00",
      "domicile": true,
      "adversaire": "BERLAIMONT US",
+     "adversaire_slug": "500404-berlaimont-us",
      "score": "0-3",
      "statut": "joué",
      "journee": "1/8 de Finale ",
-     "stade": "STADE LECLERC 2"
+     "stade": "STADE LECLERC 2",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "445400",
+   "division": "Coupe Escaut U18",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U18",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "HAUTS-DE-FRANCE",
+   "equipe_nom": "LOUVROIL ASG 21",
+   "equipe_slug": "500970-louvroil-asg-21",
+   "matchs": [
+    {
+     "date": "2026-02-28",
+     "heure": "16:00",
+     "domicile": false,
+     "adversaire": "ESCAUDOEUVRES CAS 22",
+     "adversaire_slug": "512853-escaudoeuvres-cas-22",
+     "score": "6-0",
+     "statut": "joué",
+     "journee": "1/16ème de Finale",
+     "stade": "STADE MARCEAU DHORDAIN 2",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "445071",
+   "division": "Coupe D1-D3 Avesnois",
+   "niveau": "Départemental",
+   "echelon": "D1",
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "HAUTS-DE-FRANCE",
+   "equipe_nom": "LOUVROIL ASG",
+   "equipe_slug": "500970-louvroil-asg",
+   "matchs": [
+    {
+     "date": "2026-01-25",
+     "heure": "13:00",
+     "domicile": false,
+     "adversaire": "FERRIERE IC",
+     "adversaire_slug": "500973-ferriere-ic",
+     "score": "2-2",
+     "statut": "joué",
+     "journee": "8ème de Finale",
+     "stade": "STADE M. GILLET 1",
+     "joue": true,
+     "tirs_au_but": true
+    }
+   ]
+  },
+  {
+   "cpNo": "445079",
+   "division": "Coupe D4-D6 Avesnois",
+   "niveau": "Départemental",
+   "echelon": "D4",
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": null,
+   "region": "HAUTS-DE-FRANCE",
+   "equipe_nom": "LOUVROIL ASG 2",
+   "equipe_slug": "500970-louvroil-asg-2",
+   "matchs": [
+    {
+     "date": "2025-12-07",
+     "heure": "14:30",
+     "domicile": false,
+     "adversaire": "AVESNES S/HELPE FC96 2",
+     "adversaire_slug": "546350-avesnes-s-helpe-fc96-2",
+     "score": "0-3",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE LÉO LAGRANGE 2",
+     "joue": true
+    },
+    {
+     "date": "2026-01-25",
+     "heure": "14:30",
+     "domicile": false,
+     "adversaire": "ROUSIES COEUR SAMBRE 2",
+     "adversaire_slug": "852191-rousies-coeur-sambre-2",
+     "score": "6-1",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE ABELOS MOUCHART 1",
+     "joue": true
     }
    ]
   }

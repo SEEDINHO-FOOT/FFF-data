@@ -9,94 +9,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "438568",
-   "division": "U15 Coupe Loisir",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U15",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BRETAGNE",
-   "equipe_nom": "GJ DU JET-ELLIANT,ST 2",
-   "equipe_slug": "564034-gj-du-jet-elliant-st-2",
-   "matchs": [
-    {
-     "date": "2026-02-28",
-     "heure": "14:00",
-     "domicile": false,
-     "adversaire": "ERGUE GABERIC PAOT 2",
-     "score": "14-0",
-     "statut": "joué",
-     "journee": "Journée 3",
-     "stade": "Stade De Lestonan N°2"
-    },
-    {
-     "date": "2026-04-11",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "GJ AULNE",
-     "score": "3-0",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE DU BOIS D' AMOUR"
-    }
-   ]
-  },
-  {
-   "cpNo": "444961",
-   "division": "U13 Coupe Festival",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U13",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BRETAGNE",
-   "equipe_nom": "GJ DU JET-ELLIANT,ST",
-   "equipe_slug": "564034-gj-du-jet-elliant-st",
-   "matchs": [
-    {
-     "date": "2025-10-11",
-     "heure": "14:00",
-     "domicile": false,
-     "adversaire": "US CONCARNEAU",
-     "score": "4-0",
-     "statut": "joué",
-     "journee": null,
-     "stade": null
-    },
-    {
-     "date": "2025-11-08",
-     "heure": "14:00",
-     "domicile": false,
-     "adversaire": "PONT LABBE FC",
-     "score": "0-1",
-     "statut": "joué",
-     "journee": null,
-     "stade": null
-    },
-    {
-     "date": "2026-01-17",
-     "heure": "14:00",
-     "domicile": true,
-     "adversaire": "GJ PRESQU ILE CROZON",
-     "score": "1-1",
-     "statut": "joué",
-     "journee": null,
-     "stade": null
-    }
-   ]
-  },
-  {
    "cpNo": "444963",
    "division": "U13 Coupe Loisir Quimper",
    "niveau": "Départemental",
@@ -118,30 +30,36 @@
      "heure": "14:00",
      "domicile": false,
      "adversaire": "GJ JEUNES BIG POUL 2",
+     "adversaire_slug": "551905-gj-jeunes-big-poul-2",
      "score": "2-5",
      "statut": "joué",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": true
     },
     {
      "date": "2025-11-08",
      "heure": "14:00",
      "domicile": false,
      "adversaire": "ST EVARZEC US",
+     "adversaire_slug": "518476-st-evarzec-us",
      "score": null,
      "statut": "à venir",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": false
     },
     {
      "date": "2026-01-17",
      "heure": "14:00",
      "domicile": true,
      "adversaire": "QUIMPER ERGUE ARMEL 4",
+     "adversaire_slug": "508484-quimper-ergue-armel-4",
      "score": "3-8",
      "statut": "joué",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": true
     }
    ]
   },
@@ -167,30 +85,134 @@
      "heure": "14:00",
      "domicile": true,
      "adversaire": "CONCARNEAU HERMINE 3",
+     "adversaire_slug": "501925-concarneau-hermine-3",
      "score": "5-2",
      "statut": "joué",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": true
     },
     {
      "date": "2025-11-08",
      "heure": "14:00",
      "domicile": true,
      "adversaire": "ERGUE GABERIC PAOT 4",
+     "adversaire_slug": "502015-ergue-gaberic-paot-4",
      "score": "3-3",
      "statut": "joué",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": true
     },
     {
      "date": "2026-01-17",
      "heure": "10:00",
      "domicile": false,
      "adversaire": "GJ AVEN PT AVEN 2",
+     "adversaire_slug": "564048-gj-aven-pt-aven-2",
      "score": "3-3",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE HENRI SINQUIN"
+     "stade": "STADE HENRI SINQUIN",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "438568",
+   "division": "U15 Coupe Loisir",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U15",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BRETAGNE",
+   "equipe_nom": "GJ DU JET-ELLIANT,ST 2",
+   "equipe_slug": "564034-gj-du-jet-elliant-st-2",
+   "matchs": [
+    {
+     "date": "2026-02-28",
+     "heure": "14:00",
+     "domicile": false,
+     "adversaire": "ERGUE GABERIC PAOT 2",
+     "adversaire_slug": "502015-ergue-gaberic-paot-2",
+     "score": "14-0",
+     "statut": "joué",
+     "journee": "Journée 3",
+     "stade": "Stade De Lestonan N°2",
+     "joue": true
+    },
+    {
+     "date": "2026-04-11",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "GJ AULNE",
+     "adversaire_slug": "553113-gj-aulne",
+     "score": "3-0",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE DU BOIS D' AMOUR",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "444961",
+   "division": "U13 Coupe Festival",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U13",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BRETAGNE",
+   "equipe_nom": "GJ DU JET-ELLIANT,ST",
+   "equipe_slug": "564034-gj-du-jet-elliant-st",
+   "matchs": [
+    {
+     "date": "2025-10-11",
+     "heure": "14:00",
+     "domicile": false,
+     "adversaire": "US CONCARNEAU",
+     "adversaire_slug": "500308-us-concarneau",
+     "score": "4-0",
+     "statut": "joué",
+     "journee": null,
+     "stade": null,
+     "joue": true
+    },
+    {
+     "date": "2025-11-08",
+     "heure": "14:00",
+     "domicile": false,
+     "adversaire": "PONT LABBE FC",
+     "adversaire_slug": "541313-pont-labbe-fc",
+     "score": "0-1",
+     "statut": "joué",
+     "journee": null,
+     "stade": null,
+     "joue": true
+    },
+    {
+     "date": "2026-01-17",
+     "heure": "14:00",
+     "domicile": true,
+     "adversaire": "GJ PRESQU ILE CROZON",
+     "adversaire_slug": "564189-gj-presqu-ile-crozon",
+     "score": "1-1",
+     "statut": "joué",
+     "journee": null,
+     "stade": null,
+     "joue": true
     }
    ]
   },
@@ -216,30 +238,36 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "MOELAN US 21",
+     "adversaire_slug": "502088-moelan-us-21",
      "score": "2-5",
      "statut": "joué",
      "journee": "1er Tour",
-     "stade": "Parc Des Sports Ar Hoat 1"
+     "stade": "Parc Des Sports Ar Hoat 1",
+     "joue": true
     },
     {
      "date": "2025-09-06",
      "heure": "11:00",
      "domicile": true,
      "adversaire": "CARHAIX DC 21",
+     "adversaire_slug": "501889-carhaix-dc-21",
      "score": "3-1",
      "statut": "joué",
      "journee": "2ème Tour",
-     "stade": "Stade De Keryannic 1"
+     "stade": "Stade De Keryannic 1",
+     "joue": true
     },
     {
      "date": "2025-09-27",
      "heure": "15:30",
      "domicile": true,
      "adversaire": "VANNES MENIMUR 21",
+     "adversaire_slug": "523863-vannes-menimur-21",
      "score": "0-4",
      "statut": "joué",
      "journee": "3ème Tour",
-     "stade": "Stade De Keryannic 1"
+     "stade": "Stade De Keryannic 1",
+     "joue": true
     }
    ]
   }

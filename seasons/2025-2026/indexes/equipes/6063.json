@@ -6,35 +6,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "444269",
-   "division": "Coupe Région Bretagne Futsal",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Futsal"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BRETAGNE",
-   "equipe_nom": "LOCOAL MENDON",
-   "equipe_slug": "518848-locoal-mendon",
-   "matchs": [
-    {
-     "date": "2025-11-27",
-     "heure": "20:45",
-     "domicile": true,
-     "adversaire": "CARNAC FUTSAL CLUB",
-     "score": "3-4",
-     "statut": "joué",
-     "journee": null,
-     "stade": "SALLE ÉMERAUDE"
-    }
-   ]
-  },
-  {
    "cpNo": "437410",
    "division": "COUPE REGION BRETAGNE",
    "niveau": "Régional",
@@ -56,20 +27,24 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "LORIENT LA VIG FL",
+     "adversaire_slug": "501994-lorient-la-vig-fl",
      "score": "1-0",
      "statut": "joué",
      "journee": "Tour 1",
-     "stade": "COMPLEXE SPORTIF DE KERSABIEC"
+     "stade": "COMPLEXE SPORTIF DE KERSABIEC",
+     "joue": true
     },
     {
      "date": "2025-08-31",
      "heure": "15:00",
      "domicile": false,
      "adversaire": "LORIENT LA VIG FL",
+     "adversaire_slug": "501994-lorient-la-vig-fl",
      "score": "1-0",
      "statut": "joué",
      "journee": "Tour 1",
-     "stade": "COMPLEXE SPORTIF DE KERSABIEC"
+     "stade": "COMPLEXE SPORTIF DE KERSABIEC",
+     "joue": true
     }
    ]
   },
@@ -95,30 +70,36 @@
      "heure": "11:00",
      "domicile": true,
      "adversaire": "PLESCOP ENT S",
+     "adversaire_slug": "519102-plescop-ent-s",
      "score": "0-11",
      "statut": "joué",
      "journee": "Journée 1",
-     "stade": "STADE BERNARD LE MONTAGNER"
+     "stade": "STADE BERNARD LE MONTAGNER",
+     "joue": true
     },
     {
      "date": "2025-10-18",
      "heure": "15:00",
      "domicile": true,
      "adversaire": "PLOUHINEC FC",
+     "adversaire_slug": "580468-plouhinec-fc",
      "score": "2-3",
      "statut": "joué",
      "journee": "Journée 2",
-     "stade": "STADE BERNARD LE MONTAGNER"
+     "stade": "STADE BERNARD LE MONTAGNER",
+     "joue": true
     },
     {
      "date": "2025-11-22",
      "heure": "15:00",
      "domicile": false,
      "adversaire": "ST AVE ES",
+     "adversaire_slug": "522461-st-ave-es",
      "score": "3-0",
      "statut": "joué",
      "journee": "Journée 3",
-     "stade": "POLE SPORTIF DE KEROZER 2 "
+     "stade": "POLE SPORTIF DE KEROZER 2 ",
+     "joue": true
     }
    ]
   },
@@ -144,40 +125,82 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "PLOEMEL ENT S 2",
+     "adversaire_slug": "523681-ploemel-ent-s-2",
      "score": "2-2",
      "statut": "joué",
      "journee": "Tour 1",
-     "stade": null
+     "stade": null,
+     "joue": true,
+     "prolongation": true,
+     "tirs_au_but": true
     },
     {
      "date": "2025-09-28",
      "heure": "15:00",
      "domicile": false,
      "adversaire": "LANGUIDIC F.C. 2",
+     "adversaire_slug": "502479-languidic-f-c-2",
      "score": "2-2",
      "statut": "joué",
      "journee": "Tour 2",
-     "stade": "STADE LUCIEN BIGOIN 1"
+     "stade": "STADE LUCIEN BIGOIN 1",
+     "joue": true,
+     "tirs_au_but": true
     },
     {
      "date": "2025-10-12",
      "heure": "15:00",
      "domicile": true,
      "adversaire": "MONTAGNARDE US 3",
+     "adversaire_slug": "502072-montagnarde-us-3",
      "score": "1-0",
      "statut": "joué",
      "journee": "Tour 3",
-     "stade": null
+     "stade": null,
+     "joue": true
     },
     {
      "date": "2025-10-26",
      "heure": "15:00",
      "domicile": false,
      "adversaire": "LANDEVANT ST",
+     "adversaire_slug": "517855-landevant-st",
      "score": "4-2",
      "statut": "joué",
      "journee": "Tour 4",
-     "stade": "Stade Municipal"
+     "stade": "Stade Municipal",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "444269",
+   "division": "Coupe Région Bretagne Futsal",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Futsal"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BRETAGNE",
+   "equipe_nom": "LOCOAL MENDON",
+   "equipe_slug": "518848-locoal-mendon",
+   "matchs": [
+    {
+     "date": "2025-11-27",
+     "heure": "20:45",
+     "domicile": true,
+     "adversaire": "CARNAC FUTSAL CLUB",
+     "adversaire_slug": "564826-carnac-futsal-club",
+     "score": "3-4",
+     "statut": "joué",
+     "journee": null,
+     "stade": "SALLE ÉMERAUDE",
+     "joue": true
     }
    ]
   },
@@ -203,10 +226,12 @@
      "heure": "20:30",
      "domicile": false,
      "adversaire": "LE SOURN SP C",
+     "adversaire_slug": "521120-le-sourn-sp-c",
      "score": "8-6",
      "statut": "joué",
      "journee": null,
-     "stade": "Ar Sorn Park 1"
+     "stade": "Ar Sorn Park 1",
+     "joue": true
     }
    ]
   }

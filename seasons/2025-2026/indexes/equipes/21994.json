@@ -7,94 +7,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "439061",
-   "division": "Coupe CREDIT AGRICOLE",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BOURGOGNE - FRANCHE COMTE",
-   "equipe_nom": "PALINGES J. FOOTBALL 2",
-   "equipe_slug": "542454-palinges-j-football-2",
-   "matchs": [
-    {
-     "date": "2025-09-14",
-     "heure": "12:30",
-     "domicile": false,
-     "adversaire": "US CHAROLLES 2",
-     "score": "0-7",
-     "statut": "joué",
-     "journee": "1er TOUR",
-     "stade": "STADE MUNICIPAL"
-    },
-    {
-     "date": "2025-10-12",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "CLAYETTOIS S REUNIS 3",
-     "score": "5-4",
-     "statut": "joué",
-     "journee": "2ème Tour",
-     "stade": null
-    }
-   ]
-  },
-  {
-   "cpNo": "439062",
-   "division": "Coupe DEPARTEMENTALE",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BOURGOGNE - FRANCHE COMTE",
-   "equipe_nom": "PALINGES J. FOOTBALL 2",
-   "equipe_slug": "542454-palinges-j-football-2",
-   "matchs": [
-    {
-     "date": "2026-01-25",
-     "heure": "14:30",
-     "domicile": true,
-     "adversaire": "DIGOIN F.C.A. 3",
-     "score": "2-0",
-     "statut": "joué",
-     "journee": "16ème de Finale",
-     "stade": "STADE DE ST THIBAULT"
-    },
-    {
-     "date": "2026-03-22",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "JSVG 2",
-     "score": "2-2",
-     "statut": "joué",
-     "journee": "1/8 de finale",
-     "stade": "STADE DE ST THIBAULT"
-    },
-    {
-     "date": "2026-04-06",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "HLS 2",
-     "score": "0-2",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE DE ST THIBAULT"
-    }
-   ]
-  },
-  {
    "cpNo": "439063",
    "division": "Coupe REX ROTARY",
    "niveau": "Départemental",
@@ -116,20 +28,68 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "MARLY/OUDRY",
+     "adversaire_slug": "536658-marly-oudry",
      "score": "2-0",
      "statut": "joué",
      "journee": "1er TOUR",
-     "stade": "STADE DE ST THIBAULT"
+     "stade": "STADE DE ST THIBAULT",
+     "joue": true
     },
     {
      "date": "2025-10-12",
      "heure": "15:00",
      "domicile": false,
      "adversaire": "TRAMAYES",
+     "adversaire_slug": "518233-tramayes",
      "score": "2-2",
      "statut": "joué",
      "journee": "2ème Tour",
-     "stade": "STADE GEORGES IMBERT"
+     "stade": "STADE GEORGES IMBERT",
+     "joue": true,
+     "tirs_au_but": true
+    }
+   ]
+  },
+  {
+   "cpNo": "439061",
+   "division": "Coupe CREDIT AGRICOLE",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BOURGOGNE - FRANCHE COMTE",
+   "equipe_nom": "PALINGES J. FOOTBALL 2",
+   "equipe_slug": "542454-palinges-j-football-2",
+   "matchs": [
+    {
+     "date": "2025-09-14",
+     "heure": "12:30",
+     "domicile": false,
+     "adversaire": "US CHAROLLES 2",
+     "adversaire_slug": "529473-us-charolles-2",
+     "score": "0-7",
+     "statut": "joué",
+     "journee": "1er TOUR",
+     "stade": "STADE MUNICIPAL",
+     "joue": true
+    },
+    {
+     "date": "2025-10-12",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "CLAYETTOIS S REUNIS 3",
+     "adversaire_slug": "500177-clayettois-s-reunis-3",
+     "score": "5-4",
+     "statut": "joué",
+     "journee": "2ème Tour",
+     "stade": null,
+     "joue": true
     }
    ]
   },
@@ -155,10 +115,68 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "POUILLOUX",
+     "adversaire_slug": "524848-pouilloux",
      "score": "2-1",
      "statut": "joué",
      "journee": "1er TOUR",
-     "stade": "STADE PHILIPPE MICHON"
+     "stade": "STADE PHILIPPE MICHON",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "439062",
+   "division": "Coupe DEPARTEMENTALE",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BOURGOGNE - FRANCHE COMTE",
+   "equipe_nom": "PALINGES J. FOOTBALL 2",
+   "equipe_slug": "542454-palinges-j-football-2",
+   "matchs": [
+    {
+     "date": "2026-01-25",
+     "heure": "14:30",
+     "domicile": true,
+     "adversaire": "DIGOIN F.C.A. 3",
+     "adversaire_slug": "553296-digoin-f-c-a-3",
+     "score": "2-0",
+     "statut": "joué",
+     "journee": "16ème de Finale",
+     "stade": "STADE DE ST THIBAULT",
+     "joue": true
+    },
+    {
+     "date": "2026-03-22",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "JSVG 2",
+     "adversaire_slug": "560456-jsvg-2",
+     "score": "2-2",
+     "statut": "joué",
+     "journee": "1/8 de finale",
+     "stade": "STADE DE ST THIBAULT",
+     "joue": true,
+     "tirs_au_but": true
+    },
+    {
+     "date": "2026-04-06",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "HLS 2",
+     "adversaire_slug": "564466-hls-2",
+     "score": "0-2",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE DE ST THIBAULT",
+     "joue": true
     }
    ]
   },
@@ -184,20 +202,24 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "ENT. ORION TMF ",
+     "adversaire_slug": "506746-ent-orion-tmf",
      "score": "3-4",
      "statut": "joué",
      "journee": "1er TOUR",
-     "stade": "STADE DES CHAVANNES"
+     "stade": "STADE DES CHAVANNES",
+     "joue": true
     },
     {
      "date": "2026-01-24",
      "heure": "14:30",
      "domicile": false,
      "adversaire": "AMICALE SPORTIVE",
+     "adversaire_slug": "561096-amicale-sportive",
      "score": "3-1",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE LE MAUGUIN"
+     "stade": "STADE LE MAUGUIN",
+     "joue": true
     }
    ]
   }

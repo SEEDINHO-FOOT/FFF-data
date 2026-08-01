@@ -7,65 +7,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "437410",
-   "division": "COUPE REGION BRETAGNE",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BRETAGNE",
-   "equipe_nom": "ST CARADEC US",
-   "equipe_slug": "519952-st-caradec-us",
-   "matchs": [
-    {
-     "date": "2025-08-31",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "ST BRIEUC RACING",
-     "score": "0-1",
-     "statut": "joué",
-     "journee": "1er Tour",
-     "stade": null
-    },
-    {
-     "date": "2025-08-31",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "ST BRIEUC RACING",
-     "score": "0-1",
-     "statut": "joué",
-     "journee": "1er Tour",
-     "stade": null
-    },
-    {
-     "date": "2025-09-14",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "PLOEUC /LIE",
-     "score": "4-0",
-     "statut": "joué",
-     "journee": "2ème Tour",
-     "stade": "STADE GEORGES BOULAIRE 1"
-    },
-    {
-     "date": "2025-09-14",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "PLOEUC /LIE",
-     "score": "4-0",
-     "statut": "joué",
-     "journee": "2ème Tour",
-     "stade": "STADE GEORGES BOULAIRE 1"
-    }
-   ]
-  },
-  {
    "cpNo": "438160",
    "division": "Coupe du Département",
    "niveau": "Départemental",
@@ -87,30 +28,36 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "PLESIDY FC TRIEUX",
+     "adversaire_slug": "551676-plesidy-fc-trieux",
      "score": "0-3",
      "statut": "joué",
      "journee": "2ème Tour",
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true
     },
     {
      "date": "2025-10-26",
      "heure": "15:00",
      "domicile": true,
      "adversaire": "HEMONSTOIR SP",
+     "adversaire_slug": "524318-hemonstoir-sp",
      "score": "2-0",
      "statut": "joué",
      "journee": "3ème Tour",
-     "stade": "STADE JEAN EVERT 1"
+     "stade": "STADE JEAN EVERT 1",
+     "joue": true
     },
     {
      "date": "2025-11-16",
      "heure": "14:30",
      "domicile": false,
      "adversaire": "LA MOTTE AS",
+     "adversaire_slug": "522665-la-motte-as",
      "score": "6-3",
      "statut": "joué",
      "journee": "4ème Tour",
-     "stade": "STADE ERNEST MERCIER 1"
+     "stade": "STADE ERNEST MERCIER 1",
+     "joue": true
     }
    ]
   },
@@ -136,10 +83,12 @@
      "heure": "14:30",
      "domicile": true,
      "adversaire": "FC LIE PLOUGUENAST 2",
+     "adversaire_slug": "517852-fc-lie-plouguenast-2",
      "score": "2-6",
      "statut": "joué",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": true
     }
    ]
   },
@@ -165,10 +114,80 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "COETMIEUX FC CAMP",
+     "adversaire_slug": "582610-coetmieux-fc-camp",
      "score": "1-1",
      "statut": "joué",
      "journee": "2ème Tour",
-     "stade": "STADE JEAN EVERT 1"
+     "stade": "STADE JEAN EVERT 1",
+     "joue": true,
+     "tirs_au_but": true
+    }
+   ]
+  },
+  {
+   "cpNo": "437410",
+   "division": "COUPE REGION BRETAGNE",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BRETAGNE",
+   "equipe_nom": "ST CARADEC US",
+   "equipe_slug": "519952-st-caradec-us",
+   "matchs": [
+    {
+     "date": "2025-08-31",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "ST BRIEUC RACING",
+     "adversaire_slug": "528971-st-brieuc-racing",
+     "score": "0-1",
+     "statut": "joué",
+     "journee": "1er Tour",
+     "stade": null,
+     "joue": true
+    },
+    {
+     "date": "2025-08-31",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "ST BRIEUC RACING",
+     "adversaire_slug": "528971-st-brieuc-racing",
+     "score": "0-1",
+     "statut": "joué",
+     "journee": "1er Tour",
+     "stade": null,
+     "joue": true
+    },
+    {
+     "date": "2025-09-14",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "PLOEUC /LIE",
+     "adversaire_slug": "502003-ploeuc-lie",
+     "score": "4-0",
+     "statut": "joué",
+     "journee": "2ème Tour",
+     "stade": "STADE GEORGES BOULAIRE 1",
+     "joue": true
+    },
+    {
+     "date": "2025-09-14",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "PLOEUC /LIE",
+     "adversaire_slug": "502003-ploeuc-lie",
+     "score": "4-0",
+     "statut": "joué",
+     "journee": "2ème Tour",
+     "stade": "STADE GEORGES BOULAIRE 1",
+     "joue": true
     }
    ]
   },
@@ -194,10 +213,12 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "PENGUILY DAHUS MBA",
+     "adversaire_slug": "532689-penguily-dahus-mba",
      "score": "1-4",
      "statut": "joué",
      "journee": "1er Tour",
-     "stade": "STADE JEAN EVERT 1"
+     "stade": "STADE JEAN EVERT 1",
+     "joue": true
     }
    ]
   }

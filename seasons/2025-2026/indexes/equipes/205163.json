@@ -9,74 +9,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "438136",
-   "division": "Challenge Marcel Renaudie",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "UCSE.COLOMBIERS 3",
-   "equipe_slug": "565225-ucse-colombiers-3",
-   "matchs": [
-    {
-     "date": "2025-10-12",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "LAVOUX LINIERS ES 2",
-     "score": "0-1",
-     "statut": "joué",
-     "journee": "T1 - CMR",
-     "stade": "STADE VALENTIN MENANTEAU"
-    }
-   ]
-  },
-  {
-   "cpNo": "438136",
-   "division": "Challenge Marcel Renaudie",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "UCSE 2",
-   "equipe_slug": "565225-ucse-2",
-   "matchs": [
-    {
-     "date": "2025-11-15",
-     "heure": "18:00",
-     "domicile": false,
-     "adversaire": "BONNEUIL MATOURS USA 2",
-     "score": "0-3",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE DU PARC DE CRÉMAULT 1"
-    },
-    {
-     "date": "2026-01-17",
-     "heure": "19:00",
-     "domicile": true,
-     "adversaire": "US VOUILLÉ-LATILLÉ 2",
-     "score": "2-3",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE JEAN ROUILLARD 1"
-    }
-   ]
-  },
-  {
    "cpNo": "438137",
    "division": "Challenge des Réserves",
    "niveau": "Départemental",
@@ -98,10 +30,12 @@
      "heure": "19:00",
      "domicile": true,
      "adversaire": "VENDELOGNE ES 2",
+     "adversaire_slug": "548779-vendelogne-es-2",
      "score": "0-3",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE JEAN ROUILLARD 1"
+     "stade": "STADE JEAN ROUILLARD 1",
+     "joue": true
     }
    ]
   },
@@ -127,10 +61,13 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "POITIERS GIBAUDERIE",
+     "adversaire_slug": "544185-poitiers-gibauderie",
      "score": "1-1",
      "statut": "joué",
      "journee": "CLD - T3",
-     "stade": "STADE VALENTIN MENANTEAU"
+     "stade": "STADE VALENTIN MENANTEAU",
+     "joue": true,
+     "tirs_au_but": true
     }
    ]
   },
@@ -156,10 +93,86 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "GJ CAP Haut Poitou",
+     "adversaire_slug": "565219-gj-cap-haut-poitou",
      "score": "0-10",
      "statut": "joué",
      "journee": "TP - CONSU15",
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "438136",
+   "division": "Challenge Marcel Renaudie",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "UCSE.COLOMBIERS 3",
+   "equipe_slug": "565225-ucse-colombiers-3",
+   "matchs": [
+    {
+     "date": "2025-10-12",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "LAVOUX LINIERS ES 2",
+     "adversaire_slug": "544366-lavoux-liniers-es-2",
+     "score": "0-1",
+     "statut": "joué",
+     "journee": "T1 - CMR",
+     "stade": "STADE VALENTIN MENANTEAU",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "438136",
+   "division": "Challenge Marcel Renaudie",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "UCSE 2",
+   "equipe_slug": "565225-ucse-2",
+   "matchs": [
+    {
+     "date": "2025-11-15",
+     "heure": "18:00",
+     "domicile": false,
+     "adversaire": "BONNEUIL MATOURS USA 2",
+     "adversaire_slug": "513509-bonneuil-matours-usa-2",
+     "score": "0-3",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE DU PARC DE CRÉMAULT 1",
+     "joue": true
+    },
+    {
+     "date": "2026-01-17",
+     "heure": "19:00",
+     "domicile": true,
+     "adversaire": "US VOUILLÉ-LATILLÉ 2",
+     "adversaire_slug": "514425-us-vouillE-latillE-2",
+     "score": "2-3",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE JEAN ROUILLARD 1",
+     "joue": true
     }
    ]
   },
@@ -185,10 +198,12 @@
      "heure": "20:00",
      "domicile": false,
      "adversaire": "PAYS MAIXENTAIS US",
+     "adversaire_slug": "581234-pays-maixentais-us",
      "score": "7-0",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE PAUL DREVIN"
+     "stade": "STADE PAUL DREVIN",
+     "joue": true
     }
    ]
   }

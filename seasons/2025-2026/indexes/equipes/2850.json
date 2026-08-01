@@ -6,74 +6,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "444654",
-   "division": "Coupe du Conseil Départemental",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BOURGOGNE - FRANCHE COMTE",
-   "equipe_nom": "POUILLY",
-   "equipe_slug": "506441-pouilly",
-   "matchs": [
-    {
-     "date": "2025-10-12",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "DONZY",
-     "score": "2-2",
-     "statut": "joué",
-     "journee": "2EME TOUR",
-     "stade": "STADE MALAGA N°1"
-    }
-   ]
-  },
-  {
-   "cpNo": "446781",
-   "division": "Coupe U15 Consolante",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U15",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BOURGOGNE - FRANCHE COMTE",
-   "equipe_nom": "POUILLY",
-   "equipe_slug": "506441-pouilly",
-   "matchs": [
-    {
-     "date": "2026-03-28",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "ENT. PREMERY GUERIGN",
-     "score": "4-4",
-     "statut": "joué",
-     "journee": "1/4 de finale",
-     "stade": "STADE MALAGA N°1"
-    },
-    {
-     "date": "2026-04-11",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "COSNE UCS FOOTBALL",
-     "score": "3-0",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE RAPHAËL GIRAUX"
-    }
-   ]
-  },
-  {
    "cpNo": "446782",
    "division": "Coupe U15 Principale",
    "niveau": "Départemental",
@@ -95,10 +27,12 @@
      "heure": "12:00",
      "domicile": false,
      "adversaire": "COULANGES NEVERS US",
+     "adversaire_slug": "532380-coulanges-nevers-us",
      "score": "8-0",
      "statut": "joué",
      "journee": "1/8 FINALE",
-     "stade": "STADE JEAN CHORLET"
+     "stade": "STADE JEAN CHORLET",
+     "joue": true
     }
    ]
   },
@@ -124,50 +58,138 @@
      "heure": "14:30",
      "domicile": false,
      "adversaire": "US CHATEAUNEUF",
+     "adversaire_slug": "564632-us-chateauneuf",
      "score": "2-9",
      "statut": "joué",
      "journee": "1ER TOUR",
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true
     },
     {
      "date": "2026-03-01",
      "heure": "15:00",
      "domicile": false,
      "adversaire": "CHARRIN",
+     "adversaire_slug": "529428-charrin",
      "score": "1-2",
      "statut": "joué",
      "journee": "1/8 FINALE",
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true
     },
     {
      "date": "2026-05-01",
      "heure": "15:00",
      "domicile": true,
      "adversaire": "CERCY US",
+     "adversaire_slug": "506408-cercy-us",
      "score": "1-1",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE MALAGA N°1"
+     "stade": "STADE MALAGA N°1",
+     "joue": true,
+     "tirs_au_but": true
     },
     {
      "date": "2026-05-17",
      "heure": "15:00",
      "domicile": true,
      "adversaire": "VARZY",
+     "adversaire_slug": "518170-varzy",
      "score": "5-1",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE MALAGA N°1"
+     "stade": "STADE MALAGA N°1",
+     "joue": true
     },
     {
      "date": "2026-06-14",
      "heure": "18:00",
      "domicile": true,
      "adversaire": "MOULINS",
+     "adversaire_slug": "506434-moulins",
      "score": "1-1",
      "statut": "joué",
      "journee": "Finale",
-     "stade": "STADE MUNICIPAL 1"
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true,
+     "tirs_au_but": true
+    }
+   ]
+  },
+  {
+   "cpNo": "444654",
+   "division": "Coupe du Conseil Départemental",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BOURGOGNE - FRANCHE COMTE",
+   "equipe_nom": "POUILLY",
+   "equipe_slug": "506441-pouilly",
+   "matchs": [
+    {
+     "date": "2025-10-12",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "DONZY",
+     "adversaire_slug": "582509-donzy",
+     "score": "2-2",
+     "statut": "joué",
+     "journee": "2EME TOUR",
+     "stade": "STADE MALAGA N°1",
+     "joue": true,
+     "tirs_au_but": true
+    }
+   ]
+  },
+  {
+   "cpNo": "446781",
+   "division": "Coupe U15 Consolante",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U15",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BOURGOGNE - FRANCHE COMTE",
+   "equipe_nom": "POUILLY",
+   "equipe_slug": "506441-pouilly",
+   "matchs": [
+    {
+     "date": "2026-03-28",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "ENT. PREMERY GUERIGN",
+     "adversaire_slug": "506442-ent-premery-guerign",
+     "score": "4-4",
+     "statut": "joué",
+     "journee": "1/4 de finale",
+     "stade": "STADE MALAGA N°1",
+     "joue": true,
+     "tirs_au_but": true
+    },
+    {
+     "date": "2026-04-11",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "COSNE UCS FOOTBALL",
+     "adversaire_slug": "506416-cosne-ucs-football",
+     "score": "3-0",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE RAPHAËL GIRAUX",
+     "joue": true
     }
    ]
   },
@@ -193,20 +215,24 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "C.S. DU BAZOIS",
+     "adversaire_slug": "514521-c-s-du-bazois",
      "score": "1-0",
      "statut": "joué",
      "journee": "1er TOUR",
-     "stade": "STADE MALAGA N°1"
+     "stade": "STADE MALAGA N°1",
+     "joue": true
     },
     {
      "date": "2025-08-30",
      "heure": "17:30",
      "domicile": true,
      "adversaire": "SENS FC",
+     "adversaire_slug": "500555-sens-fc",
      "score": "1-2",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE MALAGA N°1"
+     "stade": "STADE MALAGA N°1",
+     "joue": true
     }
    ]
   }

@@ -9,64 +9,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "440179",
-   "division": "COUPE DE NORMANDIE U18 - E2SE",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U18",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NORMANDIE",
-   "equipe_nom": "ENT.USMD/USG 21",
-   "equipe_slug": "520341-ent-usmd-usg-21",
-   "matchs": [
-    {
-     "date": "2025-09-27",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "FC DES ETANGS 21",
-     "score": "4-1",
-     "statut": "joué",
-     "journee": "1ER TOUR",
-     "stade": "Stade Richard Vivien 1"
-    }
-   ]
-  },
-  {
-   "cpNo": "440180",
-   "division": "COUPE DE NORMANDIE U15-ORANGE",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U15",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NORMANDIE",
-   "equipe_nom": "ENT. DONV USG CER",
-   "equipe_slug": "520341-ent-donv-usg-cer",
-   "matchs": [
-    {
-     "date": "2025-09-27",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "FC DU THAR",
-     "score": "3-0",
-     "statut": "joué",
-     "journee": "1ER TOUR ",
-     "stade": "STADE LANOS DIOR"
-    }
-   ]
-  },
-  {
    "cpNo": "443435",
    "division": "COUPE DU CONSEIL DEPARTEMENTAL",
    "niveau": "Départemental",
@@ -88,10 +30,12 @@
      "heure": "14:30",
      "domicile": true,
      "adversaire": "AS CERENCAISE",
+     "adversaire_slug": "548943-as-cerencaise",
      "score": "0-1",
      "statut": "joué",
      "journee": null,
-     "stade": "Stade De La Plage 1 "
+     "stade": "Stade De La Plage 1 ",
+     "joue": true
     }
    ]
   },
@@ -117,49 +61,26 @@
      "heure": "14:30",
      "domicile": false,
      "adversaire": "AS VAL DE SIENNE 2",
+     "adversaire_slug": "564830-as-val-de-sienne-2",
      "score": "0-3",
      "statut": "joué",
      "journee": "TOUR 2",
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true,
+     "tirs_au_but": true
     },
     {
      "date": "2026-03-01",
      "heure": "14:30",
      "domicile": false,
      "adversaire": "E.LOREY HAUTEV.FEUGE 2",
+     "adversaire_slug": "547507-e-lorey-hautev-feuge-2",
      "score": "1-1",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE L' OISELIÈRE"
-    }
-   ]
-  },
-  {
-   "cpNo": "446855",
-   "division": "COUPE DE LA MANCHE U15",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U15",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NORMANDIE",
-   "equipe_nom": "ENT. DONV USG CER",
-   "equipe_slug": "520341-ent-donv-usg-cer",
-   "matchs": [
-    {
-     "date": "2026-01-24",
-     "heure": "14:00",
-     "domicile": false,
-     "adversaire": "ENT.MOR-SEL-TER",
-     "score": "2-0",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE MUNICIPAL 1"
+     "stade": "STADE L' OISELIÈRE",
+     "joue": true,
+     "tirs_au_but": true
     }
    ]
   },
@@ -185,10 +106,105 @@
      "heure": "15:30",
      "domicile": true,
      "adversaire": "PATRIOTE TERREGATTE 21",
+     "adversaire_slug": "501449-patriote-terregatte-21",
      "score": "0-9",
      "statut": "joué",
      "journee": null,
-     "stade": "Stade De La Plage 1 "
+     "stade": "Stade De La Plage 1 ",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "446855",
+   "division": "COUPE DE LA MANCHE U15",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U15",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NORMANDIE",
+   "equipe_nom": "ENT. DONV USG CER",
+   "equipe_slug": "520341-ent-donv-usg-cer",
+   "matchs": [
+    {
+     "date": "2026-01-24",
+     "heure": "14:00",
+     "domicile": false,
+     "adversaire": "ENT.MOR-SEL-TER",
+     "adversaire_slug": "553761-ent-mor-sel-ter",
+     "score": "2-0",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "440179",
+   "division": "COUPE DE NORMANDIE U18 - E2SE",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U18",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NORMANDIE",
+   "equipe_nom": "ENT.USMD/USG 21",
+   "equipe_slug": "520341-ent-usmd-usg-21",
+   "matchs": [
+    {
+     "date": "2025-09-27",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "FC DES ETANGS 21",
+     "adversaire_slug": "550823-fc-des-etangs-21",
+     "score": "4-1",
+     "statut": "joué",
+     "journee": "1ER TOUR",
+     "stade": "Stade Richard Vivien 1",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "440180",
+   "division": "COUPE DE NORMANDIE U15-ORANGE",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U15",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NORMANDIE",
+   "equipe_nom": "ENT. DONV USG CER",
+   "equipe_slug": "520341-ent-donv-usg-cer",
+   "matchs": [
+    {
+     "date": "2025-09-27",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "FC DU THAR",
+     "adversaire_slug": "501535-fc-du-thar",
+     "score": "3-0",
+     "statut": "joué",
+     "journee": "1ER TOUR ",
+     "stade": "STADE LANOS DIOR",
+     "joue": true
     }
    ]
   },
@@ -214,20 +230,24 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "US RONCEY CERISY",
+     "adversaire_slug": "581301-us-roncey-cerisy",
      "score": "1-2",
      "statut": "joué",
      "journee": "1er TOUR",
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true
     },
     {
      "date": "2025-09-14",
      "heure": "15:00",
      "domicile": true,
      "adversaire": "AS TOURLAVILLE",
+     "adversaire_slug": "510729-as-tourlaville",
      "score": "0-10",
      "statut": "joué",
      "journee": "3eme TOUR",
-     "stade": "Stade De La Plage 1 "
+     "stade": "Stade De La Plage 1 ",
+     "joue": true
     }
    ]
   }

@@ -8,75 +8,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "446921",
-   "division": "Coupe Nationale Futsal U18",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U18",
-    "genre": "M",
-    "discipline": "Futsal"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "FOOTHISLECOLE GJ",
-   "equipe_slug": "560927-foothislecole-gj",
-   "matchs": [
-    {
-     "date": "2026-02-14",
-     "heure": "13:00",
-     "domicile": true,
-     "adversaire": "CHAMBERY RC",
-     "score": null,
-     "statut": "à venir",
-     "journee": "FINALE REGIONALE",
-     "stade": null
-    },
-    {
-     "date": "2026-02-14",
-     "heure": "13:00",
-     "domicile": false,
-     "adversaire": "CHAMBERY RC",
-     "score": "1-3",
-     "statut": "joué",
-     "journee": "FINALE REGIONALE",
-     "stade": "SALLE DU COMPLEXE NELSON PAILLOU"
-    },
-    {
-     "date": "2026-02-14",
-     "heure": "13:00",
-     "domicile": true,
-     "adversaire": "FOOTHISLECOLE GJ",
-     "score": null,
-     "statut": "à venir",
-     "journee": "FINALE REGIONALE",
-     "stade": null
-    },
-    {
-     "date": "2026-02-14",
-     "heure": "13:00",
-     "domicile": false,
-     "adversaire": "FOOTHISLECOLE GJ",
-     "score": null,
-     "statut": "à venir",
-     "journee": "FINALE REGIONALE",
-     "stade": null
-    },
-    {
-     "date": "2026-02-14",
-     "heure": "14:00",
-     "domicile": true,
-     "adversaire": "AULNAY FUTSAL AJ",
-     "score": "4-3",
-     "statut": "joué",
-     "journee": "FINALE REGIONALE",
-     "stade": "SALLE DU COMPLEXE NELSON PAILLOU"
-    }
-   ]
-  },
-  {
    "cpNo": "443511",
    "division": "Coupe Dordogne U17",
    "niveau": "Départemental",
@@ -98,10 +29,12 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "E.COURSAC CHAMIERS",
+     "adversaire_slug": "526763-e-coursac-chamiers",
      "score": "3-0",
      "statut": "joué",
      "journee": "1er Tour",
-     "stade": "STADE Y. MARC BARTHOUMIEUX"
+     "stade": "STADE Y. MARC BARTHOUMIEUX",
+     "joue": true
     }
    ]
   },
@@ -127,20 +60,104 @@
      "heure": "13:30",
      "domicile": true,
      "adversaire": "SANILHACOIS SA",
+     "adversaire_slug": "524990-sanilhacois-sa",
      "score": "4-2",
      "statut": "joué",
      "journee": "1/2 Finales",
-     "stade": "Salle OmnisportS"
+     "stade": "Salle OmnisportS",
+     "joue": true
     },
     {
      "date": "2026-04-18",
      "heure": "17:00",
      "domicile": false,
      "adversaire": "GJ PERIGORD BLANC",
+     "adversaire_slug": "561171-gj-perigord-blanc",
      "score": "4-6",
      "statut": "joué",
      "journee": "Finale",
-     "stade": "GYMNASE DU BUGUE"
+     "stade": "GYMNASE DU BUGUE",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "446921",
+   "division": "Coupe Nationale Futsal U18",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U18",
+    "genre": "M",
+    "discipline": "Futsal"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "FOOTHISLECOLE GJ",
+   "equipe_slug": "560927-foothislecole-gj",
+   "matchs": [
+    {
+     "date": "2026-02-14",
+     "heure": "13:00",
+     "domicile": true,
+     "adversaire": "CHAMBERY RC",
+     "adversaire_slug": "525600-chambery-rc",
+     "score": null,
+     "statut": "à venir",
+     "journee": "FINALE REGIONALE",
+     "stade": null,
+     "joue": false
+    },
+    {
+     "date": "2026-02-14",
+     "heure": "13:00",
+     "domicile": false,
+     "adversaire": "CHAMBERY RC",
+     "adversaire_slug": "525600-chambery-rc",
+     "score": "1-3",
+     "statut": "joué",
+     "journee": "FINALE REGIONALE",
+     "stade": "SALLE DU COMPLEXE NELSON PAILLOU",
+     "joue": true
+    },
+    {
+     "date": "2026-02-14",
+     "heure": "13:00",
+     "domicile": true,
+     "adversaire": "FOOTHISLECOLE GJ",
+     "adversaire_slug": "560927-foothislecole-gj",
+     "score": null,
+     "statut": "à venir",
+     "journee": "FINALE REGIONALE",
+     "stade": null,
+     "joue": false
+    },
+    {
+     "date": "2026-02-14",
+     "heure": "13:00",
+     "domicile": false,
+     "adversaire": "FOOTHISLECOLE GJ",
+     "adversaire_slug": "560927-foothislecole-gj",
+     "score": null,
+     "statut": "à venir",
+     "journee": "FINALE REGIONALE",
+     "stade": null,
+     "joue": false
+    },
+    {
+     "date": "2026-02-14",
+     "heure": "14:00",
+     "domicile": true,
+     "adversaire": "AULNAY FUTSAL AJ",
+     "adversaire_slug": "582442-aulnay-futsal-aj",
+     "score": "4-3",
+     "statut": "joué",
+     "journee": "FINALE REGIONALE",
+     "stade": "SALLE DU COMPLEXE NELSON PAILLOU",
+     "joue": true,
+     "prolongation": true
     }
    ]
   },
@@ -166,10 +183,12 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "GJ EFPN",
+     "adversaire_slug": "553678-gj-efpn",
      "score": "0-3",
      "statut": "joué",
      "journee": "Tour 2",
-     "stade": "STADE DU PARC"
+     "stade": "STADE DU PARC",
+     "joue": true
     }
    ]
   },
@@ -195,10 +214,12 @@
      "heure": "16:00",
      "domicile": true,
      "adversaire": "AS NORMANDIE FUTSAL",
+     "adversaire_slug": "564401-as-normandie-futsal",
      "score": "2-14",
      "statut": "joué",
      "journee": "8èmes de Finale",
-     "stade": "GYMNASE LOUIS ARAGON"
+     "stade": "GYMNASE LOUIS ARAGON",
+     "joue": true
     }
    ]
   }

@@ -7,65 +7,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "437410",
-   "division": "COUPE REGION BRETAGNE",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BRETAGNE",
-   "equipe_nom": "SQUIFFIEC TREGON FC",
-   "equipe_slug": "532499-squiffiec-tregon-fc",
-   "matchs": [
-    {
-     "date": "2025-08-31",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "FC YVIAS 90",
-     "score": "0-4",
-     "statut": "joué",
-     "journee": "1er Tour",
-     "stade": null
-    },
-    {
-     "date": "2025-08-31",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "FC YVIAS 90",
-     "score": "0-4",
-     "statut": "joué",
-     "journee": "1er Tour",
-     "stade": null
-    },
-    {
-     "date": "2025-09-14",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "PLOURIVO AV GOËLO",
-     "score": "2-1",
-     "statut": "joué",
-     "journee": "2ème Tour",
-     "stade": "STADE DU MÉZOU 1"
-    },
-    {
-     "date": "2025-09-14",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "PLOURIVO AV GOËLO",
-     "score": "2-1",
-     "statut": "joué",
-     "journee": "2ème Tour",
-     "stade": "STADE DU MÉZOU 1"
-    }
-   ]
-  },
-  {
    "cpNo": "438160",
    "division": "Coupe du Département",
    "niveau": "Départemental",
@@ -87,20 +28,24 @@
      "heure": "14:30",
      "domicile": true,
      "adversaire": "US PAYS ROCHOIS LANG",
+     "adversaire_slug": "560514-us-pays-rochois-lang",
      "score": "8-2",
      "statut": "joué",
      "journee": "4ème Tour",
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true
     },
     {
      "date": "2025-11-30",
      "heure": "14:30",
      "domicile": false,
      "adversaire": "ST QUAY PORT FC",
+     "adversaire_slug": "553315-st-quay-port-fc",
      "score": "3-0",
      "statut": "joué",
      "journee": "5ème Tour",
-     "stade": null
+     "stade": null,
+     "joue": true
     }
    ]
   },
@@ -126,59 +71,12 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "PLOUMAGOAR RC 3",
+     "adversaire_slug": "540887-ploumagoar-rc-3",
      "score": "6-0",
      "statut": "joué",
      "journee": null,
-     "stade": null
-    }
-   ]
-  },
-  {
-   "cpNo": "438205",
-   "division": "Challenge du District",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BRETAGNE",
-   "equipe_nom": "SQUIFFIEC TREGON FC 2",
-   "equipe_slug": "532499-squiffiec-tregon-fc-2",
-   "matchs": [
-    {
-     "date": "2025-09-28",
-     "heure": "13:00",
-     "domicile": true,
-     "adversaire": "BOURBRIAC US 2",
-     "score": "8-3",
-     "statut": "joué",
-     "journee": "Journée 1",
-     "stade": null
-    },
-    {
-     "date": "2025-10-26",
-     "heure": "13:00",
-     "domicile": false,
-     "adversaire": "PLOUGONVER US 2",
-     "score": "0-12",
-     "statut": "joué",
-     "journee": null,
-     "stade": null
-    },
-    {
-     "date": "2025-12-21",
-     "heure": "13:00",
-     "domicile": true,
-     "adversaire": "KERIEN MAGOAR AS 2",
-     "score": "2-2",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE MUNICIPAL"
+     "stade": null,
+     "joue": true
     }
    ]
   },
@@ -204,10 +102,135 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "PLEHEDEL SPORTS",
+     "adversaire_slug": "561025-plehedel-sports",
      "score": "2-1",
      "statut": "joué",
      "journee": "4ème Tour",
-     "stade": null
+     "stade": null,
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "438205",
+   "division": "Challenge du District",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BRETAGNE",
+   "equipe_nom": "SQUIFFIEC TREGON FC 2",
+   "equipe_slug": "532499-squiffiec-tregon-fc-2",
+   "matchs": [
+    {
+     "date": "2025-09-28",
+     "heure": "13:00",
+     "domicile": true,
+     "adversaire": "BOURBRIAC US 2",
+     "adversaire_slug": "508667-bourbriac-us-2",
+     "score": "8-3",
+     "statut": "joué",
+     "journee": "Journée 1",
+     "stade": null,
+     "joue": true
+    },
+    {
+     "date": "2025-10-26",
+     "heure": "13:00",
+     "domicile": false,
+     "adversaire": "PLOUGONVER US 2",
+     "adversaire_slug": "519106-plougonver-us-2",
+     "score": "0-12",
+     "statut": "joué",
+     "journee": null,
+     "stade": null,
+     "joue": true
+    },
+    {
+     "date": "2025-12-21",
+     "heure": "13:00",
+     "domicile": true,
+     "adversaire": "KERIEN MAGOAR AS 2",
+     "adversaire_slug": "525910-kerien-magoar-as-2",
+     "score": "2-2",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE MUNICIPAL",
+     "joue": true,
+     "tirs_au_but": true
+    }
+   ]
+  },
+  {
+   "cpNo": "437410",
+   "division": "COUPE REGION BRETAGNE",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BRETAGNE",
+   "equipe_nom": "SQUIFFIEC TREGON FC",
+   "equipe_slug": "532499-squiffiec-tregon-fc",
+   "matchs": [
+    {
+     "date": "2025-08-31",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "FC YVIAS 90",
+     "adversaire_slug": "565095-fc-yvias-90",
+     "score": "0-4",
+     "statut": "joué",
+     "journee": "1er Tour",
+     "stade": null,
+     "joue": true
+    },
+    {
+     "date": "2025-08-31",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "FC YVIAS 90",
+     "adversaire_slug": "565095-fc-yvias-90",
+     "score": "0-4",
+     "statut": "joué",
+     "journee": "1er Tour",
+     "stade": null,
+     "joue": true
+    },
+    {
+     "date": "2025-09-14",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "PLOURIVO AV GOËLO",
+     "adversaire_slug": "560540-plourivo-av-goElo",
+     "score": "2-1",
+     "statut": "joué",
+     "journee": "2ème Tour",
+     "stade": "STADE DU MÉZOU 1",
+     "joue": true
+    },
+    {
+     "date": "2025-09-14",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "PLOURIVO AV GOËLO",
+     "adversaire_slug": "560540-plourivo-av-goElo",
+     "score": "2-1",
+     "statut": "joué",
+     "journee": "2ème Tour",
+     "stade": "STADE DU MÉZOU 1",
+     "joue": true
     }
    ]
   },
@@ -233,10 +256,12 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "ST BRIEUC CCL",
+     "adversaire_slug": "533333-st-brieuc-ccl",
      "score": "0-4",
      "statut": "joué",
      "journee": "1er Tour",
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true
     }
    ]
   }

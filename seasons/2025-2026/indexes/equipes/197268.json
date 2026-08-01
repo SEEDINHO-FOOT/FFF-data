@@ -7,45 +7,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "440259",
-   "division": "CHALLENGE DU DISTRICT U18",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U18",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BOURGOGNE - FRANCHE COMTE",
-   "equipe_nom": "GJ 3 RIVIERES 21",
-   "equipe_slug": "560531-gj-3-rivieres-21",
-   "matchs": [
-    {
-     "date": "2025-09-27",
-     "heure": "16:00",
-     "domicile": true,
-     "adversaire": "VAIVRE/FROTEY/MONT. 21",
-     "score": "2-0",
-     "statut": "joué",
-     "journee": "1er tour",
-     "stade": "STADE MUNICIPAL 1"
-    },
-    {
-     "date": "2025-11-29",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "FRANCHEVELLE 21",
-     "score": "1-3",
-     "statut": "joué",
-     "journee": "8EME DE FINALE",
-     "stade": "STADE MUNICIPAL 1"
-    }
-   ]
-  },
-  {
    "cpNo": "440261",
    "division": "COUPE HAUTE SAONE U18",
    "niveau": "Départemental",
@@ -67,10 +28,12 @@
      "heure": "16:00",
      "domicile": false,
      "adversaire": "MAGNY VERNOIS 21",
+     "adversaire_slug": "550164-magny-vernois-21",
      "score": "0-11",
      "statut": "joué",
      "journee": "1er tour",
-     "stade": "STADE DE LA REIGNE 1"
+     "stade": "STADE DE LA REIGNE 1",
+     "joue": true
     }
    ]
   },
@@ -96,39 +59,12 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "4 RIVIERES 70",
+     "adversaire_slug": "552197-4-rivieres-70",
      "score": "0-4",
      "statut": "joué",
      "journee": "8EMES DE FINALE",
-     "stade": "STADE MUNICIPAL 1"
-    }
-   ]
-  },
-  {
-   "cpNo": "440262",
-   "division": "CHALLENGE DU DISTRICT U15",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U15",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BOURGOGNE - FRANCHE COMTE",
-   "equipe_nom": "GJ 3 RIVIERES",
-   "equipe_slug": "560531-gj-3-rivieres",
-   "matchs": [
-    {
-     "date": "2026-03-21",
-     "heure": "16:00",
-     "domicile": true,
-     "adversaire": "GJ VOIE VERTE",
-     "score": "0-3",
-     "statut": "joué",
-     "journee": "1ER TOUR",
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
     }
    ]
   },
@@ -154,20 +90,98 @@
      "heure": "16:00",
      "domicile": true,
      "adversaire": "GJ SOING/VAL SAONE",
+     "adversaire_slug": "565259-gj-soing-val-saone",
      "score": "3-2",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true
     },
     {
      "date": "2025-11-29",
      "heure": "14:00",
      "domicile": true,
      "adversaire": "COLOMBE VESOUL",
+     "adversaire_slug": "534049-colombe-vesoul",
      "score": "0-3",
      "statut": "joué",
      "journee": "8EME DE FINALE",
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "440262",
+   "division": "CHALLENGE DU DISTRICT U15",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U15",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BOURGOGNE - FRANCHE COMTE",
+   "equipe_nom": "GJ 3 RIVIERES",
+   "equipe_slug": "560531-gj-3-rivieres",
+   "matchs": [
+    {
+     "date": "2026-03-21",
+     "heure": "16:00",
+     "domicile": true,
+     "adversaire": "GJ VOIE VERTE",
+     "adversaire_slug": "565026-gj-voie-verte",
+     "score": "0-3",
+     "statut": "joué",
+     "journee": "1ER TOUR",
+     "stade": "STADE MUNICIPAL",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "440259",
+   "division": "CHALLENGE DU DISTRICT U18",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U18",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BOURGOGNE - FRANCHE COMTE",
+   "equipe_nom": "GJ 3 RIVIERES 21",
+   "equipe_slug": "560531-gj-3-rivieres-21",
+   "matchs": [
+    {
+     "date": "2025-09-27",
+     "heure": "16:00",
+     "domicile": true,
+     "adversaire": "VAIVRE/FROTEY/MONT. 21",
+     "adversaire_slug": "509186-vaivre-frotey-mont-21",
+     "score": "2-0",
+     "statut": "joué",
+     "journee": "1er tour",
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
+    },
+    {
+     "date": "2025-11-29",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "FRANCHEVELLE 21",
+     "adversaire_slug": "529383-franchevelle-21",
+     "score": "1-3",
+     "statut": "joué",
+     "journee": "8EME DE FINALE",
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
     }
    ]
   }

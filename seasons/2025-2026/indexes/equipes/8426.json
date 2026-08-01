@@ -7,74 +7,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "439061",
-   "division": "Coupe CREDIT AGRICOLE",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BOURGOGNE - FRANCHE COMTE",
-   "equipe_nom": "F.C. BOIS DU VERNE 2",
-   "equipe_slug": "522764-f-c-bois-du-verne-2",
-   "matchs": [
-    {
-     "date": "2025-09-14",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "F.C. DE MARMAGNE 2",
-     "score": "1-1",
-     "statut": "joué",
-     "journee": "1er TOUR",
-     "stade": "STADE DU CHAMBON"
-    }
-   ]
-  },
-  {
-   "cpNo": "439062",
-   "division": "Coupe DEPARTEMENTALE",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BOURGOGNE - FRANCHE COMTE",
-   "equipe_nom": "F.C. BOIS DU VERNE 2",
-   "equipe_slug": "522764-f-c-bois-du-verne-2",
-   "matchs": [
-    {
-     "date": "2025-10-12",
-     "heure": "12:00",
-     "domicile": true,
-     "adversaire": "ENT.BOURBON3/STAGNAN 3",
-     "score": "3-0",
-     "statut": "joué",
-     "journee": "1er TOUR",
-     "stade": "STADE DU POULOUX"
-    },
-    {
-     "date": "2026-01-25",
-     "heure": "14:30",
-     "domicile": false,
-     "adversaire": "LE CREUSOT JO 3",
-     "score": "3-2",
-     "statut": "joué",
-     "journee": "16ème de Finale",
-     "stade": "STADE MONTPORCHER N°2"
-    }
-   ]
-  },
-  {
    "cpNo": "439063",
    "division": "Coupe REX ROTARY",
    "niveau": "Départemental",
@@ -96,20 +28,56 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "GILLY/LOIRE",
+     "adversaire_slug": "534874-gilly-loire",
      "score": "3-0",
      "statut": "joué",
      "journee": "2ème Tour",
-     "stade": "STADE DU POULOUX"
+     "stade": "STADE DU POULOUX",
+     "joue": true
     },
     {
      "date": "2025-11-16",
      "heure": "12:00",
      "domicile": false,
      "adversaire": "LE CREUSOT JO 2",
+     "adversaire_slug": "500402-le-creusot-jo-2",
      "score": "5-3",
      "statut": "joué",
      "journee": "Cadrage ",
-     "stade": "STADE MONTPORCHER N°2"
+     "stade": "STADE MONTPORCHER N°2",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "439061",
+   "division": "Coupe CREDIT AGRICOLE",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BOURGOGNE - FRANCHE COMTE",
+   "equipe_nom": "F.C. BOIS DU VERNE 2",
+   "equipe_slug": "522764-f-c-bois-du-verne-2",
+   "matchs": [
+    {
+     "date": "2025-09-14",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "F.C. DE MARMAGNE 2",
+     "adversaire_slug": "511268-f-c-de-marmagne-2",
+     "score": "1-1",
+     "statut": "joué",
+     "journee": "1er TOUR",
+     "stade": "STADE DU CHAMBON",
+     "joue": true,
+     "tirs_au_but": true
     }
    ]
   },
@@ -135,10 +103,55 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "SANVIGNES LES M 2",
+     "adversaire_slug": "506736-sanvignes-les-m-2",
      "score": "5-3",
      "statut": "joué",
      "journee": "2ème Tour",
-     "stade": "STADE SAINT AMÉDÉE 1"
+     "stade": "STADE SAINT AMÉDÉE 1",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "439062",
+   "division": "Coupe DEPARTEMENTALE",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BOURGOGNE - FRANCHE COMTE",
+   "equipe_nom": "F.C. BOIS DU VERNE 2",
+   "equipe_slug": "522764-f-c-bois-du-verne-2",
+   "matchs": [
+    {
+     "date": "2025-10-12",
+     "heure": "12:00",
+     "domicile": true,
+     "adversaire": "ENT.BOURBON3/STAGNAN 3",
+     "adversaire_slug": "506743-ent-bourbon3-stagnan-3",
+     "score": "3-0",
+     "statut": "joué",
+     "journee": "1er TOUR",
+     "stade": "STADE DU POULOUX",
+     "joue": true
+    },
+    {
+     "date": "2026-01-25",
+     "heure": "14:30",
+     "domicile": false,
+     "adversaire": "LE CREUSOT JO 3",
+     "adversaire_slug": "500402-le-creusot-jo-3",
+     "score": "3-2",
+     "statut": "joué",
+     "journee": "16ème de Finale",
+     "stade": "STADE MONTPORCHER N°2",
+     "joue": true
     }
    ]
   }

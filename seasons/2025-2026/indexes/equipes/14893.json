@@ -9,74 +9,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "437735",
-   "division": "COUPE DES LANDES",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "BRETAGNE A.S",
-   "equipe_slug": "532419-bretagne-a-s",
-   "matchs": [
-    {
-     "date": "2025-10-12",
-     "heure": "14:30",
-     "domicile": false,
-     "adversaire": "ST MAURICE GRENADE",
-     "score": "1-12",
-     "statut": "joué",
-     "journee": "Tour 1",
-     "stade": "STADE DU BARRIQUE 1"
-    },
-    {
-     "date": "2025-11-16",
-     "heure": "14:30",
-     "domicile": true,
-     "adversaire": "AIRE V.A.",
-     "score": "1-4",
-     "statut": "joué",
-     "journee": "Tour 2",
-     "stade": "Stade Jean MicheL Larribeau"
-    }
-   ]
-  },
-  {
-   "cpNo": "437736",
-   "division": "COUPE DES RÉSERVES INTERMARCHÉ",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "BRETAGNE A.S 2",
-   "equipe_slug": "532419-bretagne-a-s-2",
-   "matchs": [
-    {
-     "date": "2025-10-12",
-     "heure": "14:30",
-     "domicile": true,
-     "adversaire": "FC 2 LEYRES 2",
-     "score": "2-3",
-     "statut": "joué",
-     "journee": "Tour 1",
-     "stade": "Stade Jean MicheL Larribeau"
-    }
-   ]
-  },
-  {
    "cpNo": "437737",
    "division": "COUPE INTERSPORT LASAOSA",
    "niveau": "Départemental",
@@ -98,20 +30,24 @@
      "heure": "20:00",
      "domicile": true,
      "adversaire": "LATRILLE U.S",
+     "adversaire_slug": "530417-latrille-u-s",
      "score": "3-2",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE ANDRÉ VIVES 1"
+     "stade": "STADE ANDRÉ VIVES 1",
+     "joue": true
     },
     {
      "date": "2026-04-05",
      "heure": "14:30",
      "domicile": true,
      "adversaire": "CHALOSSE FC LAUREDE",
+     "adversaire_slug": "529258-chalosse-fc-laurede",
      "score": "0-2",
      "statut": "joué",
      "journee": "1/4 de Finale",
-     "stade": "Stade Jean MicheL Larribeau"
+     "stade": "Stade Jean MicheL Larribeau",
+     "joue": true
     }
    ]
   },
@@ -137,20 +73,98 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "OEYRELUY ASE",
+     "adversaire_slug": "520699-oeyreluy-ase",
      "score": "10-0",
      "statut": "joué",
      "journee": "Tour 1",
-     "stade": "Stade Jean MicheL Larribeau"
+     "stade": "Stade Jean MicheL Larribeau",
+     "joue": true
     },
     {
      "date": "2026-01-14",
      "heure": "15:00",
      "domicile": true,
      "adversaire": "LATRILLE U.S",
+     "adversaire_slug": "530417-latrille-u-s",
      "score": "1-6",
      "statut": "joué",
      "journee": null,
-     "stade": "PLAINE DE JEUX DU GALAN"
+     "stade": "PLAINE DE JEUX DU GALAN",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "437735",
+   "division": "COUPE DES LANDES",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "BRETAGNE A.S",
+   "equipe_slug": "532419-bretagne-a-s",
+   "matchs": [
+    {
+     "date": "2025-10-12",
+     "heure": "14:30",
+     "domicile": false,
+     "adversaire": "ST MAURICE GRENADE",
+     "adversaire_slug": "553787-st-maurice-grenade",
+     "score": "1-12",
+     "statut": "joué",
+     "journee": "Tour 1",
+     "stade": "STADE DU BARRIQUE 1",
+     "joue": true
+    },
+    {
+     "date": "2025-11-16",
+     "heure": "14:30",
+     "domicile": true,
+     "adversaire": "AIRE V.A.",
+     "adversaire_slug": "510983-aire-v-a",
+     "score": "1-4",
+     "statut": "joué",
+     "journee": "Tour 2",
+     "stade": "Stade Jean MicheL Larribeau",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "437736",
+   "division": "COUPE DES RÉSERVES INTERMARCHÉ",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "BRETAGNE A.S 2",
+   "equipe_slug": "532419-bretagne-a-s-2",
+   "matchs": [
+    {
+     "date": "2025-10-12",
+     "heure": "14:30",
+     "domicile": true,
+     "adversaire": "FC 2 LEYRES 2",
+     "adversaire_slug": "560234-fc-2-leyres-2",
+     "score": "2-3",
+     "statut": "joué",
+     "journee": "Tour 1",
+     "stade": "Stade Jean MicheL Larribeau",
+     "joue": true
     }
    ]
   },
@@ -176,20 +190,25 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "FC ST GEOURS",
+     "adversaire_slug": "533882-fc-st-geours",
      "score": "0-2",
      "statut": "joué",
      "journee": "Tour 1",
-     "stade": "COMPLEXE SPORTIF RENÉ LAPEYRE 1"
+     "stade": "COMPLEXE SPORTIF RENÉ LAPEYRE 1",
+     "joue": true
     },
     {
      "date": "2026-01-14",
      "heure": "15:00",
      "domicile": false,
      "adversaire": "ST PIERRE DU MONT SC",
+     "adversaire_slug": "531446-st-pierre-du-mont-sc",
      "score": "3-3",
      "statut": "joué",
      "journee": null,
-     "stade": "PLAINE DE JEUX DE LA MÉNASSE 3"
+     "stade": "PLAINE DE JEUX DE LA MÉNASSE 3",
+     "joue": true,
+     "tirs_au_but": true
     }
    ]
   },
@@ -215,10 +234,12 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "MAZERES UZOS RONTIGN 21",
+     "adversaire_slug": "524114-mazeres-uzos-rontign-21",
      "score": "1-3",
      "statut": "joué",
      "journee": "Tour 3",
-     "stade": "Stade Jean MicheL Larribeau"
+     "stade": "Stade Jean MicheL Larribeau",
+     "joue": true
     }
    ]
   }

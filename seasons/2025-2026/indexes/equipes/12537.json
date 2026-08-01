@@ -7,45 +7,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "437410",
-   "division": "COUPE REGION BRETAGNE",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BRETAGNE",
-   "equipe_nom": "ST BRIEUC RACING",
-   "equipe_slug": "528971-st-brieuc-racing",
-   "matchs": [
-    {
-     "date": "2025-08-31",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "ST CARADEC US",
-     "score": "0-1",
-     "statut": "joué",
-     "journee": "1er Tour",
-     "stade": null
-    },
-    {
-     "date": "2025-08-31",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "ST CARADEC US",
-     "score": "0-1",
-     "statut": "joué",
-     "journee": "1er Tour",
-     "stade": null
-    }
-   ]
-  },
-  {
    "cpNo": "438160",
    "division": "Coupe du Département",
    "niveau": "Départemental",
@@ -67,10 +28,13 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "ST BRIEUC FO",
+     "adversaire_slug": "541180-st-brieuc-fo",
      "score": "1-1",
      "statut": "joué",
      "journee": "2ème Tour",
-     "stade": null
+     "stade": null,
+     "joue": true,
+     "tirs_au_but": true
     }
    ]
   },
@@ -96,49 +60,12 @@
      "heure": "14:30",
      "domicile": true,
      "adversaire": "TREGUEUX AS 2",
+     "adversaire_slug": "520171-tregueux-as-2",
      "score": "0-5",
      "statut": "joué",
      "journee": "1er Tour",
-     "stade": "STADE PIERRE KERGROAS 1"
-    }
-   ]
-  },
-  {
-   "cpNo": "438205",
-   "division": "Challenge du District",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BRETAGNE",
-   "equipe_nom": "ST BRIEUC RACING 2",
-   "equipe_slug": "528971-st-brieuc-racing-2",
-   "matchs": [
-    {
-     "date": "2025-09-28",
-     "heure": "13:00",
-     "domicile": false,
-     "adversaire": "PLOUFRAGAN ASSH 2",
-     "score": "1-2",
-     "statut": "joué",
-     "journee": "Journée 1",
-     "stade": null
-    },
-    {
-     "date": "2025-10-12",
-     "heure": "13:00",
-     "domicile": true,
-     "adversaire": "LANGUEUX US 2",
-     "score": "1-1",
-     "statut": "joué",
-     "journee": "Journée 2",
-     "stade": null
+     "stade": "STADE PIERRE KERGROAS 1",
+     "joue": true
     }
    ]
   },
@@ -164,20 +91,111 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "RUCA US",
+     "adversaire_slug": "546964-ruca-us",
      "score": "1-5",
      "statut": "joué",
      "journee": "1er Tour",
-     "stade": "STADE DE L' HEPRALE"
+     "stade": "STADE DE L' HEPRALE",
+     "joue": true
     },
     {
      "date": "2025-09-28",
      "heure": "15:00",
      "domicile": false,
      "adversaire": "LA CHEZE HIPPOCAMPE",
+     "adversaire_slug": "561024-la-cheze-hippocampe",
      "score": "7-4",
      "statut": "joué",
      "journee": "2ème Tour",
-     "stade": null
+     "stade": null,
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "438205",
+   "division": "Challenge du District",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BRETAGNE",
+   "equipe_nom": "ST BRIEUC RACING 2",
+   "equipe_slug": "528971-st-brieuc-racing-2",
+   "matchs": [
+    {
+     "date": "2025-09-28",
+     "heure": "13:00",
+     "domicile": false,
+     "adversaire": "PLOUFRAGAN ASSH 2",
+     "adversaire_slug": "529576-ploufragan-assh-2",
+     "score": "1-2",
+     "statut": "joué",
+     "journee": "Journée 1",
+     "stade": null,
+     "joue": true
+    },
+    {
+     "date": "2025-10-12",
+     "heure": "13:00",
+     "domicile": true,
+     "adversaire": "LANGUEUX US 2",
+     "adversaire_slug": "519905-langueux-us-2",
+     "score": "1-1",
+     "statut": "joué",
+     "journee": "Journée 2",
+     "stade": null,
+     "joue": true,
+     "tirs_au_but": true
+    }
+   ]
+  },
+  {
+   "cpNo": "437410",
+   "division": "COUPE REGION BRETAGNE",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BRETAGNE",
+   "equipe_nom": "ST BRIEUC RACING",
+   "equipe_slug": "528971-st-brieuc-racing",
+   "matchs": [
+    {
+     "date": "2025-08-31",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "ST CARADEC US",
+     "adversaire_slug": "519952-st-caradec-us",
+     "score": "0-1",
+     "statut": "joué",
+     "journee": "1er Tour",
+     "stade": null,
+     "joue": true
+    },
+    {
+     "date": "2025-08-31",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "ST CARADEC US",
+     "adversaire_slug": "519952-st-caradec-us",
+     "score": "0-1",
+     "statut": "joué",
+     "journee": "1er Tour",
+     "stade": null,
+     "joue": true
     }
    ]
   },
@@ -203,10 +221,12 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "HILLION AS",
+     "adversaire_slug": "520431-hillion-as",
      "score": "6-0",
      "statut": "joué",
      "journee": "1er Tour",
-     "stade": "STADE ALEXANDRE ROBERT 1"
+     "stade": "STADE ALEXANDRE ROBERT 1",
+     "joue": true
     }
    ]
   }

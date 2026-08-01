@@ -8,123 +8,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "439591",
-   "division": "Coupe Jacques Chivot",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "HAUTS-DE-FRANCE",
-   "equipe_nom": "VERNEUIL AS 3",
-   "equipe_slug": "513090-verneuil-as-3",
-   "matchs": [
-    {
-     "date": "2025-09-14",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "LACHAPELLE ST PIER.",
-     "score": "0-3",
-     "statut": "joué",
-     "journee": "1er Tour",
-     "stade": "STADE GÉRARD LEVEL 2"
-    }
-   ]
-  },
-  {
-   "cpNo": "439595",
-   "division": "Coupe Jean Objois",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "HAUTS-DE-FRANCE",
-   "equipe_nom": "VERNEUIL AS",
-   "equipe_slug": "513090-verneuil-as",
-   "matchs": [
-    {
-     "date": "2026-01-25",
-     "heure": "14:30",
-     "domicile": false,
-     "adversaire": "LASSIGNY US",
-     "score": "3-0",
-     "statut": "joué",
-     "journee": "Cadrage",
-     "stade": "STADE AURÉLIEN HENOT 1"
-    }
-   ]
-  },
-  {
-   "cpNo": "439597",
-   "division": "Coupe de l'Oise Seniors",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "HAUTS-DE-FRANCE",
-   "equipe_nom": "VERNEUIL AS",
-   "equipe_slug": "513090-verneuil-as",
-   "matchs": [
-    {
-     "date": "2025-09-14",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "ATTICHY US",
-     "score": "1-6",
-     "statut": "joué",
-     "journee": "2ième Tour",
-     "stade": "STADE B.FOURNET"
-    },
-    {
-     "date": "2025-09-28",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "MORIENVAL ASCVA",
-     "score": "1-5",
-     "statut": "joué",
-     "journee": "3ème Tour",
-     "stade": "STADE LA LAVANDERIE"
-    },
-    {
-     "date": "2025-10-12",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "ESTREES ST DENIS US",
-     "score": "0-4",
-     "statut": "joué",
-     "journee": "4ème Tour",
-     "stade": "STADE DES CHARMILLES"
-    },
-    {
-     "date": "2025-10-26",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "ST LEU ESSERENT USE",
-     "score": "0-2",
-     "statut": "joué",
-     "journee": "5ème Tour",
-     "stade": "STADE GÉRARD LEVEL 2"
-    }
-   ]
-  },
-  {
    "cpNo": "439603",
    "division": "COUPE DE L'OISE U16",
    "niveau": "Départemental",
@@ -146,10 +29,12 @@
      "heure": "14:30",
      "domicile": true,
      "adversaire": "GRANDVILLIERS AC",
+     "adversaire_slug": "503006-grandvilliers-ac",
      "score": "0-7",
      "statut": "joué",
      "journee": "Tour de Cadrage",
-     "stade": "STADE GÉRARD LEVEL 2"
+     "stade": "STADE GÉRARD LEVEL 2",
+     "joue": true
     }
    ]
   },
@@ -175,30 +60,166 @@
      "heure": "10:00",
      "domicile": false,
      "adversaire": "CIRES LES MELLO US 2",
+     "adversaire_slug": "502718-cires-les-mello-us-2",
      "score": "1-1",
      "statut": "joué",
      "journee": "1/16ième Finale",
-     "stade": "STADE HENRI BAILLY 1"
+     "stade": "STADE HENRI BAILLY 1",
+     "joue": true,
+     "tirs_au_but": true
     },
     {
      "date": "2026-03-01",
      "heure": "10:00",
      "domicile": true,
      "adversaire": "HERMES BERTHECOURT",
+     "adversaire_slug": "502814-hermes-berthecourt",
      "score": "3-1",
      "statut": "joué",
      "journee": "1/8ième Finale",
-     "stade": "STADE GÉRARD LEVEL 2"
+     "stade": "STADE GÉRARD LEVEL 2",
+     "joue": true
     },
     {
      "date": "2026-03-22",
      "heure": "10:00",
      "domicile": false,
      "adversaire": "BALAGNY US",
+     "adversaire_slug": "527101-balagny-us",
      "score": "5-0",
      "statut": "joué",
      "journee": "1/4 de Finale",
-     "stade": "STADE ERNEST FRUIT 1"
+     "stade": "STADE ERNEST FRUIT 1",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "439597",
+   "division": "Coupe de l'Oise Seniors",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "HAUTS-DE-FRANCE",
+   "equipe_nom": "VERNEUIL AS",
+   "equipe_slug": "513090-verneuil-as",
+   "matchs": [
+    {
+     "date": "2025-09-14",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "ATTICHY US",
+     "adversaire_slug": "502786-attichy-us",
+     "score": "1-6",
+     "statut": "joué",
+     "journee": "2ième Tour",
+     "stade": "STADE B.FOURNET",
+     "joue": true
+    },
+    {
+     "date": "2025-09-28",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "MORIENVAL ASCVA",
+     "adversaire_slug": "527508-morienval-ascva",
+     "score": "1-5",
+     "statut": "joué",
+     "journee": "3ème Tour",
+     "stade": "STADE LA LAVANDERIE",
+     "joue": true
+    },
+    {
+     "date": "2025-10-12",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "ESTREES ST DENIS US",
+     "adversaire_slug": "500504-estrees-st-denis-us",
+     "score": "0-4",
+     "statut": "joué",
+     "journee": "4ème Tour",
+     "stade": "STADE DES CHARMILLES",
+     "joue": true
+    },
+    {
+     "date": "2025-10-26",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "ST LEU ESSERENT USE",
+     "adversaire_slug": "517480-st-leu-esserent-use",
+     "score": "0-2",
+     "statut": "joué",
+     "journee": "5ème Tour",
+     "stade": "STADE GÉRARD LEVEL 2",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "439591",
+   "division": "Coupe Jacques Chivot",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "HAUTS-DE-FRANCE",
+   "equipe_nom": "VERNEUIL AS 3",
+   "equipe_slug": "513090-verneuil-as-3",
+   "matchs": [
+    {
+     "date": "2025-09-14",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "LACHAPELLE ST PIER.",
+     "adversaire_slug": "532395-lachapelle-st-pier",
+     "score": "0-3",
+     "statut": "joué",
+     "journee": "1er Tour",
+     "stade": "STADE GÉRARD LEVEL 2",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "439595",
+   "division": "Coupe Jean Objois",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "HAUTS-DE-FRANCE",
+   "equipe_nom": "VERNEUIL AS",
+   "equipe_slug": "513090-verneuil-as",
+   "matchs": [
+    {
+     "date": "2026-01-25",
+     "heure": "14:30",
+     "domicile": false,
+     "adversaire": "LASSIGNY US",
+     "adversaire_slug": "502750-lassigny-us",
+     "score": "3-0",
+     "statut": "joué",
+     "journee": "Cadrage",
+     "stade": "STADE AURÉLIEN HENOT 1",
+     "joue": true
     }
    ]
   },
@@ -224,10 +245,12 @@
      "heure": "10:00",
      "domicile": false,
      "adversaire": "ST CREPIN USR",
+     "adversaire_slug": "518304-st-crepin-usr",
      "score": "4-1",
      "statut": "joué",
      "journee": "1er Tour",
-     "stade": "PARC DES SPORTS"
+     "stade": "PARC DES SPORTS",
+     "joue": true
     }
    ]
   }

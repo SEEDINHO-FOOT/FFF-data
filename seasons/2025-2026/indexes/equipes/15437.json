@@ -7,104 +7,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "444441",
-   "division": "Coupe Bourgogne-Franche-Comté de Football",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BOURGOGNE - FRANCHE COMTE",
-   "equipe_nom": "GURGY",
-   "equipe_slug": "533247-gurgy",
-   "matchs": [
-    {
-     "date": "2025-10-12",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "NEVERS BANLAY",
-     "score": "4-1",
-     "statut": "joué",
-     "journee": "1er TOUR",
-     "stade": "STADE DE LA GONIO 1"
-    },
-    {
-     "date": "2025-11-11",
-     "heure": "14:30",
-     "domicile": true,
-     "adversaire": "SENS FC",
-     "score": "3-2",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE DE LA GONIO 1"
-    },
-    {
-     "date": "2025-11-30",
-     "heure": "14:30",
-     "domicile": false,
-     "adversaire": "CLAMECYCOISE A.S.",
-     "score": "1-1",
-     "statut": "joué",
-     "journee": "1/32ème de finale",
-     "stade": "STADE DU PARC VAUVERT"
-    },
-    {
-     "date": "2026-03-01",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "DIJON FCO 2",
-     "score": "2-2",
-     "statut": "joué",
-     "journee": "1/16ème de finale",
-     "stade": "STADE DE LA GONIO 1"
-    },
-    {
-     "date": "2026-04-04",
-     "heure": "17:00",
-     "domicile": true,
-     "adversaire": "SOCHAUX MONTB. FC 2",
-     "score": "1-5",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE DE LA GONIO 1"
-    }
-   ]
-  },
-  {
-   "cpNo": "437374",
-   "division": "COUPE DE L''YONNE SENIORS",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BOURGOGNE - FRANCHE COMTE",
-   "equipe_nom": "GURGY 2",
-   "equipe_slug": "533247-gurgy-2",
-   "matchs": [
-    {
-     "date": "2025-09-28",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "CHAMPS/YONNE",
-     "score": "2-0",
-     "statut": "joué",
-     "journee": "1er tour",
-     "stade": "COMPLEXE SPORTIF CROIX BERSAN"
-    }
-   ]
-  },
-  {
    "cpNo": "446841",
    "division": "Coupe AUXERRE SPORTS",
    "niveau": "Départemental",
@@ -126,10 +28,12 @@
      "heure": "12:00",
      "domicile": false,
      "adversaire": "U.S. VERMENTONNAISE",
+     "adversaire_slug": "528277-u-s-vermentonnaise",
      "score": "3-2",
      "statut": "joué",
      "journee": "16ème",
-     "stade": "STADE  MUNICIPAL 1"
+     "stade": "STADE  MUNICIPAL 1",
+     "joue": true
     }
    ]
   },
@@ -155,20 +59,136 @@
      "heure": "10:00",
      "domicile": false,
      "adversaire": "CHEU",
+     "adversaire_slug": "535671-cheu",
      "score": "1-3",
      "statut": "joué",
      "journee": "1/4 de Finale",
-     "stade": "STADE DE LA PRAIE 1"
+     "stade": "STADE DE LA PRAIE 1",
+     "joue": true
     },
     {
      "date": "2026-04-26",
      "heure": "10:00",
      "domicile": false,
      "adversaire": "FC CHARMOY",
+     "adversaire_slug": "532469-fc-charmoy",
      "score": "4-3",
      "statut": "joué",
      "journee": "1/2 Finale",
-     "stade": "STADE LUCIEN LEPLAT"
+     "stade": "STADE LUCIEN LEPLAT",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "437374",
+   "division": "COUPE DE L''YONNE SENIORS",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BOURGOGNE - FRANCHE COMTE",
+   "equipe_nom": "GURGY 2",
+   "equipe_slug": "533247-gurgy-2",
+   "matchs": [
+    {
+     "date": "2025-09-28",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "CHAMPS/YONNE",
+     "adversaire_slug": "522302-champs-yonne",
+     "score": "2-0",
+     "statut": "joué",
+     "journee": "1er tour",
+     "stade": "COMPLEXE SPORTIF CROIX BERSAN",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "444441",
+   "division": "Coupe Bourgogne-Franche-Comté de Football",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BOURGOGNE - FRANCHE COMTE",
+   "equipe_nom": "GURGY",
+   "equipe_slug": "533247-gurgy",
+   "matchs": [
+    {
+     "date": "2025-10-12",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "NEVERS BANLAY",
+     "adversaire_slug": "581138-nevers-banlay",
+     "score": "4-1",
+     "statut": "joué",
+     "journee": "1er TOUR",
+     "stade": "STADE DE LA GONIO 1",
+     "joue": true
+    },
+    {
+     "date": "2025-11-11",
+     "heure": "14:30",
+     "domicile": true,
+     "adversaire": "SENS FC",
+     "adversaire_slug": "500555-sens-fc",
+     "score": "3-2",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE DE LA GONIO 1",
+     "joue": true
+    },
+    {
+     "date": "2025-11-30",
+     "heure": "14:30",
+     "domicile": false,
+     "adversaire": "CLAMECYCOISE A.S.",
+     "adversaire_slug": "506413-clamecycoise-a-s",
+     "score": "1-1",
+     "statut": "joué",
+     "journee": "1/32ème de finale",
+     "stade": "STADE DU PARC VAUVERT",
+     "joue": true,
+     "tirs_au_but": true
+    },
+    {
+     "date": "2026-03-01",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "DIJON FCO 2",
+     "adversaire_slug": "547450-dijon-fco-2",
+     "score": "2-2",
+     "statut": "joué",
+     "journee": "1/16ème de finale",
+     "stade": "STADE DE LA GONIO 1",
+     "joue": true,
+     "tirs_au_but": true
+    },
+    {
+     "date": "2026-04-04",
+     "heure": "17:00",
+     "domicile": true,
+     "adversaire": "SOCHAUX MONTB. FC 2",
+     "adversaire_slug": "500303-sochaux-montb-fc-2",
+     "score": "1-5",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE DE LA GONIO 1",
+     "joue": true
     }
    ]
   },
@@ -194,20 +214,24 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "U.S. TOUCYCOISE",
+     "adversaire_slug": "527437-u-s-toucycoise",
      "score": "0-4",
      "statut": "joué",
      "journee": "2ème TOUR",
-     "stade": "STADE MUNICIPAL 1"
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
     },
     {
      "date": "2025-09-14",
      "heure": "15:00",
      "domicile": true,
      "adversaire": "PARAY U.S.C.",
+     "adversaire_slug": "506747-paray-u-s-c",
      "score": "1-4",
      "statut": "joué",
      "journee": "3ème TOUR",
-     "stade": "STADE DE LA GONIO 1"
+     "stade": "STADE DE LA GONIO 1",
+     "joue": true
     }
    ]
   }

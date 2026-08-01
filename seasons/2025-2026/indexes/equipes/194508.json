@@ -7,64 +7,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "435202",
-   "division": "Coupe de Nouvelle-Aquitaine",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "ST SEURIN ST ESTEPHE",
-   "equipe_slug": "560205-st-seurin-st-estephe",
-   "matchs": [
-    {
-     "date": "2025-09-27",
-     "heure": "20:00",
-     "domicile": false,
-     "adversaire": "CHATEAUBERNARD SL",
-     "score": "1-4",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE CLAUDE BOUÉ 3"
-    }
-   ]
-  },
-  {
-   "cpNo": "437485",
-   "division": "Coupe de Gironde Seat Skoda",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "ST SEURIN ST ESTEPHE",
-   "equipe_slug": "560205-st-seurin-st-estephe",
-   "matchs": [
-    {
-     "date": "2025-11-09",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "CARBON BLANAIS CA",
-     "score": "4-1",
-     "statut": "joué",
-     "journee": "3ème tour",
-     "stade": "Stade Gerard Halet"
-    }
-   ]
-  },
-  {
    "cpNo": "437486",
    "division": "Coupe du District Seniors",
    "niveau": "Départemental",
@@ -86,10 +28,13 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "CAZAUX OLYMPIQUE 2",
+     "adversaire_slug": "521250-cazaux-olympique-2",
      "score": "0-0",
      "statut": "joué",
      "journee": "1er tour",
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true,
+     "tirs_au_but": true
     }
    ]
   },
@@ -115,30 +60,38 @@
      "heure": "20:00",
      "domicile": true,
      "adversaire": "MEDOC OCEAN FC 2",
+     "adversaire_slug": "549489-medoc-ocean-fc-2",
      "score": "0-0",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE CHRISTIAN FETIS"
+     "stade": "STADE CHRISTIAN FETIS",
+     "joue": true,
+     "tirs_au_but": true
     },
     {
      "date": "2026-01-21",
      "heure": "20:00",
      "domicile": true,
      "adversaire": "MACAUDAISE SJ",
+     "adversaire_slug": "505613-macaudaise-sj",
      "score": "3-3",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE CHRISTIAN FETIS"
+     "stade": "STADE CHRISTIAN FETIS",
+     "joue": true,
+     "tirs_au_but": true
     },
     {
      "date": "2026-02-01",
      "heure": "15:00",
      "domicile": false,
      "adversaire": "VILLENAVE PORTUGAIS",
+     "adversaire_slug": "531375-villenave-portugais",
      "score": "7-0",
      "statut": "joué",
      "journee": "8ème tour",
-     "stade": "COMPLEXE SPORTIF DE LA PISCINE 1"
+     "stade": "COMPLEXE SPORTIF DE LA PISCINE 1",
+     "joue": true
     }
    ]
   },
@@ -164,10 +117,74 @@
      "heure": "20:30",
      "domicile": true,
      "adversaire": "ASPOM",
+     "adversaire_slug": "565023-aspom",
      "score": "5-7",
      "statut": "joué",
      "journee": null,
-     "stade": "Espace Guy GUYONNAUD"
+     "stade": "Espace Guy GUYONNAUD",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "437485",
+   "division": "Coupe de Gironde Seat Skoda",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "ST SEURIN ST ESTEPHE",
+   "equipe_slug": "560205-st-seurin-st-estephe",
+   "matchs": [
+    {
+     "date": "2025-11-09",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "CARBON BLANAIS CA",
+     "adversaire_slug": "505560-carbon-blanais-ca",
+     "score": "4-1",
+     "statut": "joué",
+     "journee": "3ème tour",
+     "stade": "Stade Gerard Halet",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "435202",
+   "division": "Coupe de Nouvelle-Aquitaine",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "ST SEURIN ST ESTEPHE",
+   "equipe_slug": "560205-st-seurin-st-estephe",
+   "matchs": [
+    {
+     "date": "2025-09-27",
+     "heure": "20:00",
+     "domicile": false,
+     "adversaire": "CHATEAUBERNARD SL",
+     "adversaire_slug": "523316-chateaubernard-sl",
+     "score": "1-4",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE CLAUDE BOUÉ 3",
+     "joue": true
     }
    ]
   }

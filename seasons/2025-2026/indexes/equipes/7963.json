@@ -6,45 +6,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "437410",
-   "division": "COUPE REGION BRETAGNE",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BRETAGNE",
-   "equipe_nom": "TREMOREL US",
-   "equipe_slug": "522021-tremorel-us",
-   "matchs": [
-    {
-     "date": "2025-08-31",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "LANGUEUX LES GRÈVES",
-     "score": "2-2",
-     "statut": "joué",
-     "journee": "1er Tour",
-     "stade": null
-    },
-    {
-     "date": "2025-08-31",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "LANGUEUX LES GRÈVES",
-     "score": "2-2",
-     "statut": "joué",
-     "journee": "1er Tour",
-     "stade": null
-    }
-   ]
-  },
-  {
    "cpNo": "438160",
    "division": "Coupe du Département",
    "niveau": "Départemental",
@@ -66,30 +27,37 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "SEVIGNAC ROUILLAC JS",
+     "adversaire_slug": "527711-sevignac-rouillac-js",
      "score": "12-1",
      "statut": "joué",
      "journee": "2ème Tour",
-     "stade": null
+     "stade": null,
+     "joue": true
     },
     {
      "date": "2025-10-26",
      "heure": "15:00",
      "domicile": true,
      "adversaire": "LANGUEUX LES GRÈVES",
+     "adversaire_slug": "564655-langueux-les-grEves",
      "score": "3-2",
      "statut": "joué",
      "journee": "3ème Tour",
-     "stade": null
+     "stade": null,
+     "joue": true
     },
     {
      "date": "2025-11-16",
      "heure": "14:30",
      "domicile": false,
      "adversaire": "PLEMY AL",
+     "adversaire_slug": "517216-plemy-al",
      "score": "2-2",
      "statut": "joué",
      "journee": "4ème Tour",
-     "stade": "STADE MUNICIPAL 1"
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true,
+     "tirs_au_but": true
     }
    ]
   },
@@ -115,20 +83,24 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "PLAINE HAUTE AS",
+     "adversaire_slug": "522438-plaine-haute-as",
      "score": "2-1",
      "statut": "joué",
      "journee": "1er Tour",
-     "stade": null
+     "stade": null,
+     "joue": true
     },
     {
      "date": "2025-09-28",
      "heure": "15:00",
      "domicile": false,
      "adversaire": "HENANSAL HDB",
+     "adversaire_slug": "548340-henansal-hdb",
      "score": "7-1",
      "statut": "joué",
      "journee": "2ème Tour",
-     "stade": "STADE DU BOIS SAUDRAIS"
+     "stade": "STADE DU BOIS SAUDRAIS",
+     "joue": true
     }
    ]
   },
@@ -154,10 +126,57 @@
      "heure": "14:30",
      "domicile": false,
      "adversaire": "ST POTAN AS",
+     "adversaire_slug": "522027-st-potan-as",
      "score": "3-0",
      "statut": "joué",
      "journee": "2ème Tour",
-     "stade": null
+     "stade": null,
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "437410",
+   "division": "COUPE REGION BRETAGNE",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BRETAGNE",
+   "equipe_nom": "TREMOREL US",
+   "equipe_slug": "522021-tremorel-us",
+   "matchs": [
+    {
+     "date": "2025-08-31",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "LANGUEUX LES GRÈVES",
+     "adversaire_slug": "564655-langueux-les-grEves",
+     "score": "2-2",
+     "statut": "joué",
+     "journee": "1er Tour",
+     "stade": null,
+     "joue": true,
+     "tirs_au_but": true
+    },
+    {
+     "date": "2025-08-31",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "LANGUEUX LES GRÈVES",
+     "adversaire_slug": "564655-langueux-les-grEves",
+     "score": "2-2",
+     "statut": "joué",
+     "journee": "1er Tour",
+     "stade": null,
+     "joue": true,
+     "tirs_au_but": true
     }
    ]
   },
@@ -183,10 +202,12 @@
      "heure": "20:30",
      "domicile": true,
      "adversaire": "IRODOUER AV",
+     "adversaire_slug": "517372-irodouer-av",
      "score": "2-5",
      "statut": "joué",
      "journee": "1er tour",
-     "stade": "STADE MUNICIPAL 1"
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
     }
    ]
   },
@@ -212,10 +233,12 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "PLUMIEUX ESAP",
+     "adversaire_slug": "581225-plumieux-esap",
      "score": "5-2",
      "statut": "joué",
      "journee": "1er Tour",
-     "stade": "STADE FRANCIS ANGER 1"
+     "stade": "STADE FRANCIS ANGER 1",
+     "joue": true
     }
    ]
   }

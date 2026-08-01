@@ -28,20 +28,24 @@
      "heure": "10:30",
      "domicile": false,
      "adversaire": "LANDRETHUN NORD US",
+     "adversaire_slug": "525479-landrethun-nord-us",
      "score": null,
      "statut": "à venir",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": false
     },
     {
      "date": "2026-03-31",
      "heure": "19:30",
      "domicile": false,
      "adversaire": "NEUFCHATEL L'ECLAIR",
+     "adversaire_slug": "500188-neufchatel-l-eclair",
      "score": "4-0",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE MUNICIPAL 2"
+     "stade": "STADE MUNICIPAL 2",
+     "joue": true
     }
    ]
   },
@@ -67,30 +71,36 @@
      "heure": "09:00",
      "domicile": true,
      "adversaire": "HUBY ST LEU US",
+     "adversaire_slug": "537910-huby-st-leu-us",
      "score": "0-4",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE MUNICIPAL 1"
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
     },
     {
      "date": "2025-10-05",
      "heure": "09:30",
      "domicile": true,
      "adversaire": "WISSANT FC",
+     "adversaire_slug": "524660-wissant-fc",
      "score": "0-2",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE MUNICIPAL 1"
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
     },
     {
      "date": "2025-10-05",
      "heure": "10:00",
      "domicile": true,
      "adversaire": "BEZINGHEM AS 2",
+     "adversaire_slug": "533008-bezinghem-as-2",
      "score": "1-0",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE MUNICIPAL 1"
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
     }
    ]
   },
@@ -116,59 +126,36 @@
      "heure": "10:30",
      "domicile": false,
      "adversaire": "BOURTHES US",
+     "adversaire_slug": "527018-bourthes-us",
      "score": "1-2",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE MUNICIPAL 1"
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
     },
     {
      "date": "2025-09-28",
      "heure": "11:00",
      "domicile": true,
      "adversaire": "LANDRETHUN NORD US",
+     "adversaire_slug": "525479-landrethun-nord-us",
      "score": "0-5",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE MUNICIPAL 1"
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
     },
     {
      "date": "2025-09-28",
      "heure": "11:30",
      "domicile": true,
      "adversaire": "RENESCURE JS",
+     "adversaire_slug": "521642-renescure-js",
      "score": "1-3",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE MUNICIPAL 1"
-    }
-   ]
-  },
-  {
-   "cpNo": "437130",
-   "division": "Coupe ADN D4D5",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "HAUTS-DE-FRANCE",
-   "equipe_nom": "DANNES US",
-   "equipe_slug": "500891-dannes-us",
-   "matchs": [
-    {
-     "date": "2025-09-28",
-     "heure": "10:30",
-     "domicile": false,
-     "adversaire": "BOULOGNE S/MER CONTI 2",
-     "score": "2-1",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE DE L'OCTROI 2"
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
     }
    ]
   },
@@ -194,10 +181,12 @@
      "heure": "10:30",
      "domicile": false,
      "adversaire": "OSTROHOVE RC 2",
+     "adversaire_slug": "527365-ostrohove-rc-2",
      "score": "7-0",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE DE LA WAROQUERIE 4"
+     "stade": "STADE DE LA WAROQUERIE 4",
+     "joue": true
     }
    ]
   },
@@ -223,20 +212,56 @@
      "heure": "10:30",
      "domicile": false,
      "adversaire": "FRENCQ US",
+     "adversaire_slug": "551924-frencq-us",
      "score": "2-2",
      "statut": "joué",
      "journee": "TOUR 1",
-     "stade": "STADE ABBE CAUX"
+     "stade": "STADE ABBE CAUX",
+     "joue": true,
+     "tirs_au_but": true
     },
     {
      "date": "2026-04-04",
      "heure": "17:30",
      "domicile": true,
      "adversaire": "TUBERSENT AC",
+     "adversaire_slug": "549881-tubersent-ac",
      "score": "1-2",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE MUNICIPAL 1"
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "437130",
+   "division": "Coupe ADN D4D5",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "HAUTS-DE-FRANCE",
+   "equipe_nom": "DANNES US",
+   "equipe_slug": "500891-dannes-us",
+   "matchs": [
+    {
+     "date": "2025-09-28",
+     "heure": "10:30",
+     "domicile": false,
+     "adversaire": "BOULOGNE S/MER CONTI 2",
+     "adversaire_slug": "537278-boulogne-s-mer-conti-2",
+     "score": "2-1",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE DE L'OCTROI 2",
+     "joue": true
     }
    ]
   },
@@ -262,10 +287,12 @@
      "heure": "10:30",
      "domicile": false,
      "adversaire": "HELFAUT ES",
+     "adversaire_slug": "527321-helfaut-es",
      "score": "9-2",
      "statut": "joué",
      "journee": "1er tour",
-     "stade": "Stade Maurice Fallet 2"
+     "stade": "Stade Maurice Fallet 2",
+     "joue": true
     }
    ]
   },
@@ -291,10 +318,12 @@
      "heure": "11:00",
      "domicile": true,
      "adversaire": "BLENDECQUES PATRIOTE",
+     "adversaire_slug": "521809-blendecques-patriote",
      "score": "1-10",
      "statut": "joué",
      "journee": "1",
-     "stade": "SALLE DE SPORT INTERCOMMUNALE"
+     "stade": "SALLE DE SPORT INTERCOMMUNALE",
+     "joue": true
     }
    ]
   }

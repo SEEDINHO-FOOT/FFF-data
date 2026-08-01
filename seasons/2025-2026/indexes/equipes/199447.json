@@ -7,74 +7,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "435203",
-   "division": "Coupe Nouvelle-Aquitaine U15",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U15",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "BESSINES ANF 87 GJ",
-   "equipe_slug": "560990-bessines-anf-87-gj",
-   "matchs": [
-    {
-     "date": "2025-10-18",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "ENT. NANT COMP",
-     "score": "4-0",
-     "statut": "joué",
-     "journee": "Tour 1",
-     "stade": "STADE JEAN PERIN"
-    },
-    {
-     "date": "2025-11-01",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "AURENCE-ROUSSILLON F",
-     "score": "11-0",
-     "statut": "joué",
-     "journee": "Tour 2",
-     "stade": "STADE DE LA BASTIDE"
-    }
-   ]
-  },
-  {
-   "cpNo": "436020",
-   "division": "Coupe Consolante U17",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U17",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "GJ BESSINES ANF 87",
-   "equipe_slug": "560990-gj-bessines-anf-87",
-   "matchs": [
-    {
-     "date": "2026-04-18",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "EYMOUTIERS AS",
-     "score": "3-1",
-     "statut": "joué",
-     "journee": "2ème tour",
-     "stade": "STADE MUNICIPAL"
-    }
-   ]
-  },
-  {
    "cpNo": "436021",
    "division": "Coupe U17",
    "niveau": "Départemental",
@@ -96,20 +28,24 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "ST JUST LE MARTEL AS",
+     "adversaire_slug": "521505-st-just-le-martel-as",
      "score": "1-3",
      "statut": "joué",
      "journee": "Tour de régularisation",
-     "stade": "STADE JEAN-LOUIS POMMIES"
+     "stade": "STADE JEAN-LOUIS POMMIES",
+     "joue": true
     },
     {
      "date": "2026-04-04",
      "heure": "15:00",
      "domicile": true,
      "adversaire": "GJ PANAZOL VIGENAL",
+     "adversaire_slug": "564819-gj-panazol-vigenal",
      "score": "1-5",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true
     }
    ]
   },
@@ -135,10 +71,43 @@
      "heure": "18:30",
      "domicile": false,
      "adversaire": "ENT. ASSJ RSC",
+     "adversaire_slug": "521505-ent-assj-rsc",
      "score": "1-0",
      "statut": "joué",
      "journee": "1/4 de Finale",
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "436020",
+   "division": "Coupe Consolante U17",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U17",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "GJ BESSINES ANF 87",
+   "equipe_slug": "560990-gj-bessines-anf-87",
+   "matchs": [
+    {
+     "date": "2026-04-18",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "EYMOUTIERS AS",
+     "adversaire_slug": "507210-eymoutiers-as",
+     "score": "3-1",
+     "statut": "joué",
+     "journee": "2ème tour",
+     "stade": "STADE MUNICIPAL",
+     "joue": true
     }
    ]
   },
@@ -164,20 +133,67 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "ROCHECHOUART OC",
+     "adversaire_slug": "517994-rochechouart-oc",
      "score": "0-5",
      "statut": "joué",
      "journee": null,
-     "stade": "COMPLEXE SPORTIF MICHEL FAGES"
+     "stade": "COMPLEXE SPORTIF MICHEL FAGES",
+     "joue": true
     },
     {
      "date": "2026-04-18",
      "heure": "13:00",
      "domicile": false,
      "adversaire": "BEAUNE LES MINES US",
+     "adversaire_slug": "534030-beaune-les-mines-us",
      "score": "7-1",
      "statut": "joué",
      "journee": "3ème tour",
-     "stade": "COMPLEXE SPORTIF DE LA BASSE 1"
+     "stade": "COMPLEXE SPORTIF DE LA BASSE 1",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "435203",
+   "division": "Coupe Nouvelle-Aquitaine U15",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U15",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "BESSINES ANF 87 GJ",
+   "equipe_slug": "560990-bessines-anf-87-gj",
+   "matchs": [
+    {
+     "date": "2025-10-18",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "ENT. NANT COMP",
+     "adversaire_slug": "519848-ent-nant-comp",
+     "score": "4-0",
+     "statut": "joué",
+     "journee": "Tour 1",
+     "stade": "STADE JEAN PERIN",
+     "joue": true
+    },
+    {
+     "date": "2025-11-01",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "AURENCE-ROUSSILLON F",
+     "adversaire_slug": "561239-aurence-roussillon-f",
+     "score": "11-0",
+     "statut": "joué",
+     "journee": "Tour 2",
+     "stade": "STADE DE LA BASTIDE",
+     "joue": true
     }
    ]
   }

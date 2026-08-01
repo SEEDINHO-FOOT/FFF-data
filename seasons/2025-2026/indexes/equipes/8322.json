@@ -9,74 +9,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "444654",
-   "division": "Coupe du Conseil Départemental",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BOURGOGNE - FRANCHE COMTE",
-   "equipe_nom": "MARZY",
-   "equipe_slug": "522596-marzy",
-   "matchs": [
-    {
-     "date": "2025-10-12",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "U.S. DE SAUVIGNY LES",
-     "score": "0-3",
-     "statut": "joué",
-     "journee": "2EME TOUR",
-     "stade": "STADE MUNICIPAL"
-    },
-    {
-     "date": "2025-11-30",
-     "heure": "14:30",
-     "domicile": true,
-     "adversaire": "GARCHI.PORTUG",
-     "score": "4-4",
-     "statut": "joué",
-     "journee": "3EME TOUR",
-     "stade": "STADE DE LA SIMONNERIE"
-    }
-   ]
-  },
-  {
-   "cpNo": "446781",
-   "division": "Coupe U15 Consolante",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U15",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BOURGOGNE - FRANCHE COMTE",
-   "equipe_nom": "ENT. MARZY RCNCS COU",
-   "equipe_slug": "522596-ent-marzy-rcncs-cou",
-   "matchs": [
-    {
-     "date": "2026-03-28",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "CHATEAU ARLEUF",
-     "score": "1-3",
-     "statut": "joué",
-     "journee": "1/4 de finale",
-     "stade": "STADE DE LA SIMONNERIE"
-    }
-   ]
-  },
-  {
    "cpNo": "446782",
    "division": "Coupe U15 Principale",
    "niveau": "Départemental",
@@ -98,10 +30,12 @@
      "heure": "14:30",
      "domicile": true,
      "adversaire": "NEVERS FC",
+     "adversaire_slug": "581784-nevers-fc",
      "score": "0-10",
      "statut": "joué",
      "journee": "1/8 FINALE",
-     "stade": "STADE DE LA SIMONNERIE"
+     "stade": "STADE DE LA SIMONNERIE",
+     "joue": true
     }
    ]
   },
@@ -127,20 +61,99 @@
      "heure": "14:30",
      "domicile": false,
      "adversaire": "LORMES US",
+     "adversaire_slug": "581853-lormes-us",
      "score": "0-5",
      "statut": "joué",
      "journee": "1ER TOUR",
-     "stade": "STADE LACROIX"
+     "stade": "STADE LACROIX",
+     "joue": true
     },
     {
      "date": "2026-03-01",
      "heure": "15:00",
      "domicile": true,
      "adversaire": "MOULINS",
+     "adversaire_slug": "506434-moulins",
      "score": "0-4",
      "statut": "joué",
      "journee": "1/8 FINALE",
-     "stade": "STADE DE LA SIMONNERIE"
+     "stade": "STADE DE LA SIMONNERIE",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "444654",
+   "division": "Coupe du Conseil Départemental",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BOURGOGNE - FRANCHE COMTE",
+   "equipe_nom": "MARZY",
+   "equipe_slug": "522596-marzy",
+   "matchs": [
+    {
+     "date": "2025-10-12",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "U.S. DE SAUVIGNY LES",
+     "adversaire_slug": "529624-u-s-de-sauvigny-les",
+     "score": "0-3",
+     "statut": "joué",
+     "journee": "2EME TOUR",
+     "stade": "STADE MUNICIPAL",
+     "joue": true
+    },
+    {
+     "date": "2025-11-30",
+     "heure": "14:30",
+     "domicile": true,
+     "adversaire": "GARCHI.PORTUG",
+     "adversaire_slug": "528555-garchi-portug",
+     "score": "4-4",
+     "statut": "joué",
+     "journee": "3EME TOUR",
+     "stade": "STADE DE LA SIMONNERIE",
+     "joue": true,
+     "tirs_au_but": true
+    }
+   ]
+  },
+  {
+   "cpNo": "446781",
+   "division": "Coupe U15 Consolante",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U15",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BOURGOGNE - FRANCHE COMTE",
+   "equipe_nom": "ENT. MARZY RCNCS COU",
+   "equipe_slug": "522596-ent-marzy-rcncs-cou",
+   "matchs": [
+    {
+     "date": "2026-03-28",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "CHATEAU ARLEUF",
+     "adversaire_slug": "550207-chateau-arleuf",
+     "score": "1-3",
+     "statut": "joué",
+     "journee": "1/4 de finale",
+     "stade": "STADE DE LA SIMONNERIE",
+     "joue": true
     }
    ]
   },
@@ -166,10 +179,12 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "U.S. DE SAUVIGNY LES",
+     "adversaire_slug": "529624-u-s-de-sauvigny-les",
      "score": "3-0",
      "statut": "joué",
      "journee": "1ER TOUR",
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true
     }
    ]
   }

@@ -9,74 +9,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "435202",
-   "division": "Coupe de Nouvelle-Aquitaine",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "VIVONNE FOOTBALL US",
-   "equipe_slug": "507041-vivonne-football-us",
-   "matchs": [
-    {
-     "date": "2025-09-12",
-     "heure": "20:00",
-     "domicile": true,
-     "adversaire": "PARTHENAY PORTUGAIS",
-     "score": "5-2",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE DE BELLEVUE"
-    },
-    {
-     "date": "2025-10-11",
-     "heure": "20:00",
-     "domicile": true,
-     "adversaire": "RILHAC RANCON CA",
-     "score": "3-4",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE DE BELLEVUE"
-    }
-   ]
-  },
-  {
-   "cpNo": "438136",
-   "division": "Challenge Marcel Renaudie",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "VIVONNE FOOTBALL US 3",
-   "equipe_slug": "507041-vivonne-football-us-3",
-   "matchs": [
-    {
-     "date": "2025-10-12",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "ST JULIEN.SAVIGNY 3",
-     "score": "2-3",
-     "statut": "joué",
-     "journee": "T1 - CMR",
-     "stade": "STADE DE BELLEVUE 2"
-    }
-   ]
-  },
-  {
    "cpNo": "438137",
    "division": "Challenge des Réserves",
    "niveau": "Départemental",
@@ -98,20 +30,24 @@
      "heure": "19:00",
      "domicile": true,
      "adversaire": "VALLEE DU SALLERON 2",
+     "adversaire_slug": "560913-vallee-du-salleron-2",
      "score": "3-0",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE DE BELLEVUE 2"
+     "stade": "STADE DE BELLEVUE 2",
+     "joue": true
     },
     {
      "date": "2025-10-12",
      "heure": "15:00",
      "domicile": false,
      "adversaire": "LIGUGE LL 3",
+     "adversaire_slug": "507002-liguge-ll-3",
      "score": "7-0",
      "statut": "joué",
      "journee": "T1 - CHR",
-     "stade": "STADE MAURICE GIRAULT 1"
+     "stade": "STADE MAURICE GIRAULT 1",
+     "joue": true
     }
    ]
   },
@@ -137,20 +73,24 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "MIGNALOUX BEAUVOIR 2",
+     "adversaire_slug": "521755-mignaloux-beauvoir-2",
      "score": "0-3",
      "statut": "joué",
      "journee": "CLD - T4",
-     "stade": "STADE MUNICIPAL 1"
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
     },
     {
      "date": "2026-03-14",
      "heure": "19:00",
      "domicile": true,
      "adversaire": "LIGUGE LL 2",
+     "adversaire_slug": "507002-liguge-ll-2",
      "score": "1-3",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE DE BELLEVUE"
+     "stade": "STADE DE BELLEVUE",
+     "joue": true
     }
    ]
   },
@@ -176,20 +116,98 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "GJ CAP Haut Poitou",
+     "adversaire_slug": "565219-gj-cap-haut-poitou",
      "score": "5-1",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE DE BELLEVUE"
+     "stade": "STADE DE BELLEVUE",
+     "joue": true
     },
     {
      "date": "2026-04-18",
      "heure": "15:00",
      "domicile": false,
      "adversaire": "MONTASEVRES GJ",
+     "adversaire_slug": "561253-montasevres-gj",
      "score": "5-0",
      "statut": "joué",
      "journee": "1/4 - CONSU15",
-     "stade": "Stade Roger Gault (ex. De La Vallée 1)"
+     "stade": "Stade Roger Gault (ex. De La Vallée 1)",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "438136",
+   "division": "Challenge Marcel Renaudie",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "VIVONNE FOOTBALL US 3",
+   "equipe_slug": "507041-vivonne-football-us-3",
+   "matchs": [
+    {
+     "date": "2025-10-12",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "ST JULIEN.SAVIGNY 3",
+     "adversaire_slug": "514861-st-julien-savigny-3",
+     "score": "2-3",
+     "statut": "joué",
+     "journee": "T1 - CMR",
+     "stade": "STADE DE BELLEVUE 2",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "435202",
+   "division": "Coupe de Nouvelle-Aquitaine",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "VIVONNE FOOTBALL US",
+   "equipe_slug": "507041-vivonne-football-us",
+   "matchs": [
+    {
+     "date": "2025-09-12",
+     "heure": "20:00",
+     "domicile": true,
+     "adversaire": "PARTHENAY PORTUGAIS",
+     "adversaire_slug": "530480-parthenay-portugais",
+     "score": "5-2",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE DE BELLEVUE",
+     "joue": true
+    },
+    {
+     "date": "2025-10-11",
+     "heure": "20:00",
+     "domicile": true,
+     "adversaire": "RILHAC RANCON CA",
+     "adversaire_slug": "520169-rilhac-rancon-ca",
+     "score": "3-4",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE DE BELLEVUE",
+     "joue": true
     }
    ]
   }

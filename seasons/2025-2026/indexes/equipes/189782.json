@@ -6,45 +6,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "437410",
-   "division": "COUPE REGION BRETAGNE",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BRETAGNE",
-   "equipe_nom": "ST CARREUC HENON US",
-   "equipe_slug": "582353-st-carreuc-henon-us",
-   "matchs": [
-    {
-     "date": "2025-08-31",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "ST BRIEUC FO",
-     "score": "1-0",
-     "statut": "joué",
-     "journee": "1er Tour",
-     "stade": "STADE PIERRE KERGROAS 1"
-    },
-    {
-     "date": "2025-08-31",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "ST BRIEUC FO",
-     "score": "1-0",
-     "statut": "joué",
-     "journee": "1er Tour",
-     "stade": "STADE PIERRE KERGROAS 1"
-    }
-   ]
-  },
-  {
    "cpNo": "438160",
    "division": "Coupe du Département",
    "niveau": "Départemental",
@@ -66,40 +27,49 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "PLANCOET ARG FC",
+     "adversaire_slug": "502109-plancoet-arg-fc",
      "score": "1-1",
      "statut": "joué",
      "journee": "3ème Tour",
-     "stade": "STADE JOSEPH SAMSON 1"
+     "stade": "STADE JOSEPH SAMSON 1",
+     "joue": true,
+     "tirs_au_but": true
     },
     {
      "date": "2025-11-16",
      "heure": "14:30",
      "domicile": false,
      "adversaire": "LA LANDEC AS",
+     "adversaire_slug": "525908-la-landec-as",
      "score": "1-2",
      "statut": "joué",
      "journee": "4ème Tour",
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true
     },
     {
      "date": "2025-11-30",
      "heure": "14:30",
      "domicile": true,
      "adversaire": "LE FOEIL ES",
+     "adversaire_slug": "527066-le-foeil-es",
      "score": "3-2",
      "statut": "joué",
      "journee": "5ème Tour",
-     "stade": "Stade De L' armel 1"
+     "stade": "Stade De L' armel 1",
+     "joue": true
     },
     {
      "date": "2026-02-22",
      "heure": "14:30",
      "domicile": false,
      "adversaire": "COETQUEN ST HELEN",
+     "adversaire_slug": "563801-coetquen-st-helen",
      "score": "3-1",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true
     }
    ]
   },
@@ -125,30 +95,79 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "MUR POULANCRE FC",
+     "adversaire_slug": "580992-mur-poulancre-fc",
      "score": "0-9",
      "statut": "joué",
      "journee": "1er Tour",
-     "stade": "STADE DE TOULPRENO 1"
+     "stade": "STADE DE TOULPRENO 1",
+     "joue": true
     },
     {
      "date": "2025-09-27",
      "heure": "17:30",
      "domicile": false,
      "adversaire": "ST BRIEUC FO",
+     "adversaire_slug": "541180-st-brieuc-fo",
      "score": "1-6",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE PIERRE KERGROAS 1"
+     "stade": "STADE PIERRE KERGROAS 1",
+     "joue": true
     },
     {
      "date": "2025-10-12",
      "heure": "15:00",
      "domicile": true,
      "adversaire": "LA CROIX CORLAY FC",
+     "adversaire_slug": "548918-la-croix-corlay-fc",
      "score": "1-2",
      "statut": "joué",
      "journee": "3ème Tour",
-     "stade": "Stade De L' armel 1"
+     "stade": "Stade De L' armel 1",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "437410",
+   "division": "COUPE REGION BRETAGNE",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BRETAGNE",
+   "equipe_nom": "ST CARREUC HENON US",
+   "equipe_slug": "582353-st-carreuc-henon-us",
+   "matchs": [
+    {
+     "date": "2025-08-31",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "ST BRIEUC FO",
+     "adversaire_slug": "541180-st-brieuc-fo",
+     "score": "1-0",
+     "statut": "joué",
+     "journee": "1er Tour",
+     "stade": "STADE PIERRE KERGROAS 1",
+     "joue": true
+    },
+    {
+     "date": "2025-08-31",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "ST BRIEUC FO",
+     "adversaire_slug": "541180-st-brieuc-fo",
+     "score": "1-0",
+     "statut": "joué",
+     "journee": "1er Tour",
+     "stade": "STADE PIERRE KERGROAS 1",
+     "joue": true
     }
    ]
   },
@@ -174,10 +193,12 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "PLEMET CENTRE BGNE",
+     "adversaire_slug": "560255-plemet-centre-bgne",
      "score": "2-1",
      "statut": "joué",
      "journee": "1er Tour",
-     "stade": "Stade De Bodiffé 1"
+     "stade": "Stade De Bodiffé 1",
+     "joue": true
     }
    ]
   }

@@ -7,93 +7,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "438455",
-   "division": "CHALLENGE MAURICE MARTIN",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "OCCITANIE",
-   "equipe_nom": "MARSILLARGUES",
-   "equipe_slug": "503190-marsillargues",
-   "matchs": [
-    {
-     "date": "2025-11-15",
-     "heure": "20:00",
-     "domicile": true,
-     "adversaire": "LESPIGNAN VENDRES FC 2",
-     "score": "2-4",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE CHRISTIAN COSTE"
-    }
-   ]
-  },
-  {
-   "cpNo": "438456",
-   "division": "COUPE DE LHERAULT SENIORS - HERAULT SPORT",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "OCCITANIE",
-   "equipe_nom": "MARSILLARGUES",
-   "equipe_slug": "503190-marsillargues",
-   "matchs": [
-    {
-     "date": "2025-10-25",
-     "heure": "19:30",
-     "domicile": false,
-     "adversaire": "ST MATHIEU AS",
-     "score": "0-0",
-     "statut": "joué",
-     "journee": null,
-     "stade": "COMPLEXE SPORTIF CHAMPS NOIRS"
-    }
-   ]
-  },
-  {
-   "cpNo": "442736",
-   "division": "COUPE DE L'HERAULT U17",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U17",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "OCCITANIE",
-   "equipe_nom": "MARSILLARGUES",
-   "equipe_slug": "503190-marsillargues",
-   "matchs": [
-    {
-     "date": "2025-12-07",
-     "heure": "10:30",
-     "domicile": true,
-     "adversaire": "M. PETIT BARD FC",
-     "score": "2-7",
-     "statut": "joué",
-     "journee": "tour préliminaire CDH U17",
-     "stade": "STADE EDMOND ALLOUCH"
-    }
-   ]
-  },
-  {
    "cpNo": "442737",
    "division": "COUPE DE L'HERAULT U15",
    "niveau": "Départemental",
@@ -115,10 +28,12 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "ST ANDRE SANGONIS OL",
+     "adversaire_slug": "517246-st-andre-sangonis-ol",
      "score": "6-3",
      "statut": "joué",
      "journee": "tour préliminaire CDH U15",
-     "stade": "STADE SANGONIS"
+     "stade": "STADE SANGONIS",
+     "joue": true
     }
    ]
   },
@@ -144,10 +59,106 @@
      "heure": "11:00",
      "domicile": false,
      "adversaire": "MUC FOOTBALL 21",
+     "adversaire_slug": "547644-muc-football-21",
      "score": "6-1",
      "statut": "joué",
      "journee": "tour préliminaire CDH U18",
-     "stade": "STADE JEANNOT VÉGA"
+     "stade": "STADE JEANNOT VÉGA",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "442736",
+   "division": "COUPE DE L'HERAULT U17",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U17",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "OCCITANIE",
+   "equipe_nom": "MARSILLARGUES",
+   "equipe_slug": "503190-marsillargues",
+   "matchs": [
+    {
+     "date": "2025-12-07",
+     "heure": "10:30",
+     "domicile": true,
+     "adversaire": "M. PETIT BARD FC",
+     "adversaire_slug": "540542-m-petit-bard-fc",
+     "score": "2-7",
+     "statut": "joué",
+     "journee": "tour préliminaire CDH U17",
+     "stade": "STADE EDMOND ALLOUCH",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "438456",
+   "division": "COUPE DE LHERAULT SENIORS - HERAULT SPORT",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "OCCITANIE",
+   "equipe_nom": "MARSILLARGUES",
+   "equipe_slug": "503190-marsillargues",
+   "matchs": [
+    {
+     "date": "2025-10-25",
+     "heure": "19:30",
+     "domicile": false,
+     "adversaire": "ST MATHIEU AS",
+     "adversaire_slug": "524557-st-mathieu-as",
+     "score": "0-0",
+     "statut": "joué",
+     "journee": null,
+     "stade": "COMPLEXE SPORTIF CHAMPS NOIRS",
+     "joue": true,
+     "tirs_au_but": true
+    }
+   ]
+  },
+  {
+   "cpNo": "438455",
+   "division": "CHALLENGE MAURICE MARTIN",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "OCCITANIE",
+   "equipe_nom": "MARSILLARGUES",
+   "equipe_slug": "503190-marsillargues",
+   "matchs": [
+    {
+     "date": "2025-11-15",
+     "heure": "20:00",
+     "domicile": true,
+     "adversaire": "LESPIGNAN VENDRES FC 2",
+     "adversaire_slug": "530106-lespignan-vendres-fc-2",
+     "score": "2-4",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE CHRISTIAN COSTE",
+     "joue": true
     }
    ]
   }

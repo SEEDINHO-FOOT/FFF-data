@@ -28,40 +28,48 @@
      "heure": "13:00",
      "domicile": false,
      "adversaire": "PONT DE BRIQUES A. 2",
+     "adversaire_slug": "511172-pont-de-briques-a-2",
      "score": "2-1",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE DE LA CACHAINE 1"
+     "stade": "STADE DE LA CACHAINE 1",
+     "joue": true
     },
     {
      "date": "2025-08-13",
      "heure": "19:00",
      "domicile": false,
      "adversaire": "SANGATTE FC",
+     "adversaire_slug": null,
      "score": null,
      "statut": "à venir",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": false
     },
     {
      "date": "2025-08-16",
      "heure": "18:30",
      "domicile": true,
      "adversaire": "MARAIS DE GUINES US",
+     "adversaire_slug": "532087-marais-de-guines-us",
      "score": null,
      "statut": "à venir",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": false
     },
     {
      "date": "2025-08-17",
      "heure": "10:30",
      "domicile": true,
      "adversaire": "DANNES US",
+     "adversaire_slug": "500891-dannes-us",
      "score": null,
      "statut": "à venir",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": false
     }
    ]
   },
@@ -87,69 +95,12 @@
      "heure": "10:30",
      "domicile": true,
      "adversaire": "WISSANT FC",
+     "adversaire_slug": "524660-wissant-fc",
      "score": "2-2",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE MUNICIPAL 2"
-    }
-   ]
-  },
-  {
-   "cpNo": "444701",
-   "division": "BRASSAGES FEMININS",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Brassage",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "F",
-    "discipline": "Football"
-   },
-   "type": "autre",
-   "scope": "regional",
-   "region": "HAUTS-DE-FRANCE",
-   "equipe_nom": "LANDRETHUN NORD US",
-   "equipe_slug": "525479-landrethun-nord-us",
-   "matchs": [
-    {
-     "date": "2025-10-05",
-     "heure": "10:30",
-     "domicile": true,
-     "adversaire": "FORT VERT FJEP",
-     "score": "3-1",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE MUNICIPAL 2"
-    },
-    {
-     "date": "2025-10-05",
-     "heure": "11:00",
-     "domicile": false,
-     "adversaire": "ENT.ST TRICAT/BONNIN",
-     "score": "0-6",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE MUNICIPAL 2"
-    },
-    {
-     "date": "2025-10-05",
-     "heure": "11:30",
-     "domicile": true,
-     "adversaire": "NEUFCHATEL L'ECLAIR",
-     "score": "1-0",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE MUNICIPAL 2"
-    },
-    {
-     "date": "2025-10-05",
-     "heure": "12:00",
-     "domicile": true,
-     "adversaire": "EQUIHEN PLAGE US 2",
-     "score": "4-1",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE MUNICIPAL 2"
+     "stade": "STADE MUNICIPAL 2",
+     "joue": true
     }
    ]
   },
@@ -175,30 +126,103 @@
      "heure": "10:30",
      "domicile": true,
      "adversaire": "ST MARTIN TATINGHEM",
+     "adversaire_slug": "522908-st-martin-tatinghem",
      "score": "8-0",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE SAINT MARTIN AU LAERT 1"
+     "stade": "STADE SAINT MARTIN AU LAERT 1",
+     "joue": true
     },
     {
      "date": "2025-09-21",
      "heure": "11:00",
      "domicile": false,
      "adversaire": "AMBLETEUSE US",
+     "adversaire_slug": "523828-ambleteuse-us",
      "score": "0-0",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE SAINT MARTIN AU LAERT 1"
+     "stade": "STADE SAINT MARTIN AU LAERT 1",
+     "joue": true
     },
     {
      "date": "2025-09-21",
      "heure": "11:30",
      "domicile": false,
      "adversaire": "WISSANT FC",
+     "adversaire_slug": "524660-wissant-fc",
      "score": "0-5",
      "statut": "joué",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "444701",
+   "division": "BRASSAGES FEMININS",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Brassage",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "F",
+    "discipline": "Football"
+   },
+   "type": "autre",
+   "scope": "regional",
+   "region": "HAUTS-DE-FRANCE",
+   "equipe_nom": "LANDRETHUN NORD US",
+   "equipe_slug": "525479-landrethun-nord-us",
+   "matchs": [
+    {
+     "date": "2025-10-05",
+     "heure": "10:30",
+     "domicile": true,
+     "adversaire": "FORT VERT FJEP",
+     "adversaire_slug": "528385-fort-vert-fjep",
+     "score": "3-1",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE MUNICIPAL 2",
+     "joue": true
+    },
+    {
+     "date": "2025-10-05",
+     "heure": "11:00",
+     "domicile": false,
+     "adversaire": "ENT.ST TRICAT/BONNIN",
+     "adversaire_slug": "527011-ent-st-tricat-bonnin",
+     "score": "0-6",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE MUNICIPAL 2",
+     "joue": true
+    },
+    {
+     "date": "2025-10-05",
+     "heure": "11:30",
+     "domicile": true,
+     "adversaire": "NEUFCHATEL L'ECLAIR",
+     "adversaire_slug": "500188-neufchatel-l-eclair",
+     "score": "1-0",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE MUNICIPAL 2",
+     "joue": true
+    },
+    {
+     "date": "2025-10-05",
+     "heure": "12:00",
+     "domicile": true,
+     "adversaire": "EQUIHEN PLAGE US 2",
+     "adversaire_slug": "528070-equihen-plage-us-2",
+     "score": "4-1",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE MUNICIPAL 2",
+     "joue": true
     }
    ]
   },
@@ -224,128 +248,36 @@
      "heure": "10:30",
      "domicile": false,
      "adversaire": "RENESCURE JS",
+     "adversaire_slug": "521642-renescure-js",
      "score": "0-2",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE MUNICIPAL 1"
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
     },
     {
      "date": "2025-09-28",
      "heure": "11:00",
      "domicile": false,
      "adversaire": "DANNES US",
+     "adversaire_slug": "500891-dannes-us",
      "score": "0-5",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE MUNICIPAL 1"
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
     },
     {
      "date": "2025-09-28",
      "heure": "11:30",
      "domicile": false,
      "adversaire": "BOURTHES US",
+     "adversaire_slug": "527018-bourthes-us",
      "score": "0-2",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE MUNICIPAL 1"
-    }
-   ]
-  },
-  {
-   "cpNo": "437130",
-   "division": "Coupe ADN D4D5",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "HAUTS-DE-FRANCE",
-   "equipe_nom": "LANDRETHUN NORD US 2",
-   "equipe_slug": "525479-landrethun-nord-us-2",
-   "matchs": [
-    {
-     "date": "2025-09-28",
-     "heure": "10:30",
-     "domicile": false,
-     "adversaire": "ANDRES AS",
-     "score": "5-0",
-     "statut": "joué",
-     "journee": null,
-     "stade": "Stade Gaston Guilbert"
-    }
-   ]
-  },
-  {
-   "cpNo": "437131",
-   "division": "Coupe Côte d Opale D3",
-   "niveau": "Départemental",
-   "echelon": "D3",
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "HAUTS-DE-FRANCE",
-   "equipe_nom": "LANDRETHUN NORD US",
-   "equipe_slug": "525479-landrethun-nord-us",
-   "matchs": [
-    {
-     "date": "2026-05-06",
-     "heure": "19:15",
-     "domicile": false,
-     "adversaire": "LICQUES ES",
-     "score": "1-7",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE DANIEL BLOUME"
-    },
-    {
-     "date": "2026-05-20",
-     "heure": "19:00",
-     "domicile": true,
-     "adversaire": "MARQUISE US 2",
-     "score": "1-0",
-     "statut": "joué",
-     "journee": "8ème FINALE",
-     "stade": "STADE MUNICIPAL 2"
-    },
-    {
-     "date": "2026-05-27",
-     "heure": "19:00",
-     "domicile": false,
-     "adversaire": "VIEIL MOUTIER ASL",
-     "score": "2-3",
-     "statut": "joué",
-     "journee": "1/4 FINALE",
-     "stade": "Stade Municipal 1"
-    },
-    {
-     "date": "2026-06-03",
-     "heure": "19:00",
-     "domicile": false,
-     "adversaire": "MAMETZ ES",
-     "score": "0-3",
-     "statut": "joué",
-     "journee": "1/2 FINALE",
-     "stade": "STADE ANDRÉ DELANNOY 1"
-    },
-    {
-     "date": "2026-06-21",
-     "heure": "10:30",
-     "domicile": true,
-     "adversaire": "CUCQ AS",
-     "score": "4-1",
-     "statut": "joué",
-     "journee": "FINALE",
-     "stade": "STADE NABOR 1"
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
     }
    ]
   },
@@ -371,10 +303,91 @@
      "heure": "10:30",
      "domicile": false,
      "adversaire": "OUTREAU ASF 3",
+     "adversaire_slug": "501009-outreau-asf-3",
      "score": "3-1",
      "statut": "joué",
      "journee": "TOUR 1",
-     "stade": "STADE MUNICIPAL 2"
+     "stade": "STADE MUNICIPAL 2",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "437131",
+   "division": "Coupe Côte d Opale D3",
+   "niveau": "Départemental",
+   "echelon": "D3",
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "HAUTS-DE-FRANCE",
+   "equipe_nom": "LANDRETHUN NORD US",
+   "equipe_slug": "525479-landrethun-nord-us",
+   "matchs": [
+    {
+     "date": "2026-05-06",
+     "heure": "19:15",
+     "domicile": false,
+     "adversaire": "LICQUES ES",
+     "adversaire_slug": "517823-licques-es",
+     "score": "1-7",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE DANIEL BLOUME",
+     "joue": true
+    },
+    {
+     "date": "2026-05-20",
+     "heure": "19:00",
+     "domicile": true,
+     "adversaire": "MARQUISE US 2",
+     "adversaire_slug": "501185-marquise-us-2",
+     "score": "1-0",
+     "statut": "joué",
+     "journee": "8ème FINALE",
+     "stade": "STADE MUNICIPAL 2",
+     "joue": true
+    },
+    {
+     "date": "2026-05-27",
+     "heure": "19:00",
+     "domicile": false,
+     "adversaire": "VIEIL MOUTIER ASL",
+     "adversaire_slug": "539750-vieil-moutier-asl",
+     "score": "2-3",
+     "statut": "joué",
+     "journee": "1/4 FINALE",
+     "stade": "Stade Municipal 1",
+     "joue": true
+    },
+    {
+     "date": "2026-06-03",
+     "heure": "19:00",
+     "domicile": false,
+     "adversaire": "MAMETZ ES",
+     "adversaire_slug": "525819-mametz-es",
+     "score": "0-3",
+     "statut": "joué",
+     "journee": "1/2 FINALE",
+     "stade": "STADE ANDRÉ DELANNOY 1",
+     "joue": true
+    },
+    {
+     "date": "2026-06-21",
+     "heure": "10:30",
+     "domicile": true,
+     "adversaire": "CUCQ AS",
+     "adversaire_slug": "525817-cucq-as",
+     "score": "4-1",
+     "statut": "joué",
+     "journee": "FINALE",
+     "stade": "STADE NABOR 1",
+     "joue": true
     }
    ]
   },
@@ -400,10 +413,43 @@
      "heure": "14:00",
      "domicile": false,
      "adversaire": "AMBLETEUSE US",
+     "adversaire_slug": "523828-ambleteuse-us",
      "score": "5-1",
      "statut": "joué",
      "journee": "TOUR 2",
-     "stade": "STADE RAYMOND MUSELET 1"
+     "stade": "STADE RAYMOND MUSELET 1",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "437130",
+   "division": "Coupe ADN D4D5",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "HAUTS-DE-FRANCE",
+   "equipe_nom": "LANDRETHUN NORD US 2",
+   "equipe_slug": "525479-landrethun-nord-us-2",
+   "matchs": [
+    {
+     "date": "2025-09-28",
+     "heure": "10:30",
+     "domicile": false,
+     "adversaire": "ANDRES AS",
+     "adversaire_slug": "564135-andres-as",
+     "score": "5-0",
+     "statut": "joué",
+     "journee": null,
+     "stade": "Stade Gaston Guilbert",
+     "joue": true
     }
    ]
   },
@@ -429,50 +475,60 @@
      "heure": "10:30",
      "domicile": true,
      "adversaire": "MAMETZ ES",
+     "adversaire_slug": "525819-mametz-es",
      "score": "3-0",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE MUNICIPAL 2"
+     "stade": "STADE MUNICIPAL 2",
+     "joue": true
     },
     {
      "date": "2026-04-06",
      "heure": "10:30",
      "domicile": true,
      "adversaire": "EQUIHEN PLAGE US 2",
+     "adversaire_slug": "528070-equihen-plage-us-2",
      "score": "6-1",
      "statut": "joué",
      "journee": "8ème FINALE",
-     "stade": "STADE MUNICIPAL 2"
+     "stade": "STADE MUNICIPAL 2",
+     "joue": true
     },
     {
      "date": "2026-05-24",
      "heure": "10:30",
      "domicile": false,
      "adversaire": "FORT VERT FJEP",
+     "adversaire_slug": "528385-fort-vert-fjep",
      "score": "0-7",
      "statut": "joué",
      "journee": "1/4 FINALE",
-     "stade": "STADE DANIEL CLOUET"
+     "stade": "STADE DANIEL CLOUET",
+     "joue": true
     },
     {
      "date": "2026-06-07",
      "heure": "10:30",
      "domicile": true,
      "adversaire": "ENT.RECQUES.BONNINGU",
+     "adversaire_slug": "528743-ent-recques-bonningu",
      "score": "8-1",
      "statut": "joué",
      "journee": "1/2 FINALE",
-     "stade": "STADE MUNICIPAL 1"
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
     },
     {
      "date": "2026-06-21",
      "heure": "16:00",
      "domicile": true,
      "adversaire": "BLENDECQUES PATRIOTE",
+     "adversaire_slug": "521809-blendecques-patriote",
      "score": "2-1",
      "statut": "joué",
      "journee": "FINALE",
-     "stade": "STADE NABOR 1"
+     "stade": "STADE NABOR 1",
+     "joue": true
     }
    ]
   }

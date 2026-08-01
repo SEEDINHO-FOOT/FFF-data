@@ -8,65 +8,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "446471",
-   "division": "COUPE NA FOOT ENTREPRISE",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "ASSOA",
-   "equipe_slug": "660641-assoa",
-   "matchs": [
-    {
-     "date": "2026-02-09",
-     "heure": "20:45",
-     "domicile": false,
-     "adversaire": "FC JV TRAVAUX",
-     "score": "0-3",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE PORTE PÈRE"
-    },
-    {
-     "date": "2026-03-11",
-     "heure": "20:30",
-     "domicile": true,
-     "adversaire": "F.C P2M",
-     "score": "3-3",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE ANTENNES DU LAC N°25"
-    },
-    {
-     "date": "2026-05-13",
-     "heure": "20:00",
-     "domicile": true,
-     "adversaire": "SECURITE SOCIALE CA",
-     "score": "2-1",
-     "statut": "joué",
-     "journee": null,
-     "stade": "PARC DES SPORTS DES ÉCUS 1"
-    },
-    {
-     "date": "2026-06-20",
-     "heure": "13:00",
-     "domicile": true,
-     "adversaire": "SPEEDAUTO FC",
-     "score": null,
-     "statut": "à venir",
-     "journee": "Finale",
-     "stade": null
-    }
-   ]
-  },
-  {
    "cpNo": "444543",
    "division": "Coupe de Gironde Foot Entreprise",
    "niveau": "Départemental",
@@ -88,40 +29,48 @@
      "heure": "20:30",
      "domicile": true,
      "adversaire": "AMATEURS FC AQUITAIN",
+     "adversaire_slug": "680731-amateurs-fc-aquitain",
      "score": "9-3",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE ANTENNES DU LAC N°25"
+     "stade": "STADE ANTENNES DU LAC N°25",
+     "joue": true
     },
     {
      "date": "2026-01-20",
      "heure": "20:30",
      "domicile": true,
      "adversaire": "CHR TALENCE",
+     "adversaire_slug": "601096-chr-talence",
      "score": "1-0",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE ANTENNES DU LAC N°25"
+     "stade": "STADE ANTENNES DU LAC N°25",
+     "joue": true
     },
     {
      "date": "2026-05-26",
      "heure": "20:30",
      "domicile": true,
      "adversaire": "AS SAFRAN",
+     "adversaire_slug": "602459-as-safran",
      "score": "5-2",
      "statut": "joué",
      "journee": "1/2 Finale",
-     "stade": "STADE ANTENNES DU LAC N°25"
+     "stade": "STADE ANTENNES DU LAC N°25",
+     "joue": true
     },
     {
      "date": "2026-05-30",
      "heure": "15:50",
      "domicile": true,
      "adversaire": "FC P2M",
+     "adversaire_slug": "660429-fc-p2m",
      "score": "2-1",
      "statut": "joué",
      "journee": "Finale",
-     "stade": "PARC DES SPORTS DES ÉCUS 4"
+     "stade": "PARC DES SPORTS DES ÉCUS 4",
+     "joue": true
     }
    ]
   },
@@ -147,10 +96,80 @@
      "heure": "20:30",
      "domicile": true,
      "adversaire": "SECURITE SOCIALE CA 2",
+     "adversaire_slug": "600544-securite-sociale-ca-2",
      "score": "1-3",
      "statut": "joué",
      "journee": "1er tour",
-     "stade": "STADE ANTENNES DU LAC N°25"
+     "stade": "STADE ANTENNES DU LAC N°25",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "446471",
+   "division": "COUPE NA FOOT ENTREPRISE",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "ASSOA",
+   "equipe_slug": "660641-assoa",
+   "matchs": [
+    {
+     "date": "2026-02-09",
+     "heure": "20:45",
+     "domicile": false,
+     "adversaire": "FC JV TRAVAUX",
+     "adversaire_slug": "665078-fc-jv-travaux",
+     "score": "0-3",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE PORTE PÈRE",
+     "joue": true
+    },
+    {
+     "date": "2026-03-11",
+     "heure": "20:30",
+     "domicile": true,
+     "adversaire": "F.C P2M",
+     "adversaire_slug": "660429-f-c-p2m",
+     "score": "3-3",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE ANTENNES DU LAC N°25",
+     "joue": true,
+     "tirs_au_but": true
+    },
+    {
+     "date": "2026-05-13",
+     "heure": "20:00",
+     "domicile": true,
+     "adversaire": "SECURITE SOCIALE CA",
+     "adversaire_slug": "600544-securite-sociale-ca",
+     "score": "2-1",
+     "statut": "joué",
+     "journee": null,
+     "stade": "PARC DES SPORTS DES ÉCUS 1",
+     "joue": true
+    },
+    {
+     "date": "2026-06-20",
+     "heure": "13:00",
+     "domicile": true,
+     "adversaire": "SPEEDAUTO FC",
+     "adversaire_slug": "660797-speedauto-fc",
+     "score": null,
+     "statut": "à venir",
+     "journee": "Finale",
+     "stade": null,
+     "joue": false
     }
    ]
   },
@@ -176,40 +195,50 @@
      "heure": "20:30",
      "domicile": false,
      "adversaire": "FC JV TRAVAUX",
+     "adversaire_slug": "665078-fc-jv-travaux",
      "score": "4-7",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE GÉRARD LANTRES"
+     "stade": "STADE GÉRARD LANTRES",
+     "joue": true
     },
     {
      "date": "2025-10-30",
      "heure": "20:45",
      "domicile": false,
      "adversaire": "F.C. ESPACE FOOT",
+     "adversaire_slug": "682765-f-c-espace-foot",
      "score": "4-4",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE JOSEPH ANTOINE CRUCHON N°3"
+     "stade": "STADE JOSEPH ANTOINE CRUCHON N°3",
+     "joue": true,
+     "tirs_au_but": true
     },
     {
      "date": "2025-11-29",
      "heure": "14:30",
      "domicile": true,
      "adversaire": "APSAP E. ROUX L BREV",
+     "adversaire_slug": "614219-apsap-e-roux-l-brev",
      "score": "3-3",
      "statut": "joué",
      "journee": "16èmes de finale",
-     "stade": "PARC DES SPORTS DES ÉCUS 2"
+     "stade": "PARC DES SPORTS DES ÉCUS 2",
+     "joue": true,
+     "tirs_au_but": true
     },
     {
      "date": "2026-01-31",
      "heure": "17:30",
      "domicile": true,
      "adversaire": "OCANA",
+     "adversaire_slug": "614430-ocana",
      "score": "1-4",
      "statut": "joué",
      "journee": "8èmes de finale",
-     "stade": "Stade C. Martin ferdinand Moreau"
+     "stade": "Stade C. Martin ferdinand Moreau",
+     "joue": true
     }
    ]
   }

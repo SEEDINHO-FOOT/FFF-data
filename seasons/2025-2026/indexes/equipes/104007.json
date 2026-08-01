@@ -8,84 +8,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "438927",
-   "division": "Coupe Centre-Val de Loire",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "CENTRE-V.L.",
-   "equipe_nom": "CHALETTE US",
-   "equipe_slug": "550720-chalette-us",
-   "matchs": [
-    {
-     "date": "2025-09-28",
-     "heure": "14:30",
-     "domicile": true,
-     "adversaire": "MARIGNY ES",
-     "score": "5-3",
-     "statut": "joué",
-     "journee": "Tour 2",
-     "stade": "STADE AUGUSTE DELAUNE"
-    },
-    {
-     "date": "2025-10-12",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "SOURS AMIC",
-     "score": "2-2",
-     "statut": "joué",
-     "journee": "Tour 3",
-     "stade": "STADE MUNICIPAL"
-    },
-    {
-     "date": "2025-10-26",
-     "heure": "14:00",
-     "domicile": true,
-     "adversaire": "DAMMARIE FOOT",
-     "score": "1-1",
-     "statut": "joué",
-     "journee": "Tour 4",
-     "stade": "STADE AUGUSTE DELAUNE"
-    }
-   ]
-  },
-  {
-   "cpNo": "438928",
-   "division": "Coupe Centre-Val de Loire U18",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U18",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "CENTRE-V.L.",
-   "equipe_nom": "CHALETTE US 21",
-   "equipe_slug": "550720-chalette-us-21",
-   "matchs": [
-    {
-     "date": "2025-10-11",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "J3S AMILLY 22",
-     "score": "1-6",
-     "statut": "joué",
-     "journee": "Tour 1",
-     "stade": "STADE AUGUSTE DELAUNE"
-    }
-   ]
-  },
-  {
    "cpNo": "438760",
    "division": "Coupe District Paul Sauvageau",
    "niveau": "Départemental",
@@ -107,30 +29,37 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "CHAINGY ST AY",
+     "adversaire_slug": "553261-chaingy-st-ay",
      "score": "3-2",
      "statut": "joué",
      "journee": "1er tour",
-     "stade": "STADE AUGUSTE DELAUNE"
+     "stade": "STADE AUGUSTE DELAUNE",
+     "joue": true
     },
     {
      "date": "2025-11-30",
      "heure": "14:30",
      "domicile": false,
      "adversaire": "NANCRAY CH.N. 2",
+     "adversaire_slug": "526955-nancray-ch-n-2",
      "score": "1-1",
      "statut": "joué",
      "journee": "2ème Tour",
-     "stade": "COMPLEXE SPORTIF ÉMILE BERTRAND"
+     "stade": "COMPLEXE SPORTIF ÉMILE BERTRAND",
+     "joue": true,
+     "tirs_au_but": true
     },
     {
      "date": "2026-01-18",
      "heure": "14:30",
      "domicile": true,
      "adversaire": "MALESHERBOIS SC 2",
+     "adversaire_slug": "516385-malesherbois-sc-2",
      "score": "0-2",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE AUGUSTE DELAUNE"
+     "stade": "STADE AUGUSTE DELAUNE",
+     "joue": true
     }
    ]
   },
@@ -156,20 +85,24 @@
      "heure": "14:30",
      "domicile": false,
      "adversaire": "CHILLEURS COC",
+     "adversaire_slug": "505081-chilleurs-coc",
      "score": "0-3",
      "statut": "joué",
      "journee": "2ème Tour",
-     "stade": "STADE JEAN TRESSY"
+     "stade": "STADE JEAN TRESSY",
+     "joue": true
     },
     {
      "date": "2026-02-01",
      "heure": "14:30",
      "domicile": true,
      "adversaire": "SANDILLON US",
+     "adversaire_slug": "515177-sandillon-us",
      "score": "0-3",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE AUGUSTE DELAUNE"
+     "stade": "STADE AUGUSTE DELAUNE",
+     "joue": true
     }
    ]
   },
@@ -195,10 +128,101 @@
      "heure": "14:30",
      "domicile": true,
      "adversaire": "PANNES FC",
+     "adversaire_slug": "533258-pannes-fc",
      "score": "1-1",
      "statut": "joué",
      "journee": "1er Tour",
-     "stade": "STADE DU LANCY"
+     "stade": "STADE DU LANCY",
+     "joue": true,
+     "tirs_au_but": true
+    }
+   ]
+  },
+  {
+   "cpNo": "438927",
+   "division": "Coupe Centre-Val de Loire",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "CENTRE-V.L.",
+   "equipe_nom": "CHALETTE US",
+   "equipe_slug": "550720-chalette-us",
+   "matchs": [
+    {
+     "date": "2025-09-28",
+     "heure": "14:30",
+     "domicile": true,
+     "adversaire": "MARIGNY ES",
+     "adversaire_slug": "529946-marigny-es",
+     "score": "5-3",
+     "statut": "joué",
+     "journee": "Tour 2",
+     "stade": "STADE AUGUSTE DELAUNE",
+     "joue": true
+    },
+    {
+     "date": "2025-10-12",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "SOURS AMIC",
+     "adversaire_slug": "505146-sours-amic",
+     "score": "2-2",
+     "statut": "joué",
+     "journee": "Tour 3",
+     "stade": "STADE MUNICIPAL",
+     "joue": true,
+     "tirs_au_but": true
+    },
+    {
+     "date": "2025-10-26",
+     "heure": "14:00",
+     "domicile": true,
+     "adversaire": "DAMMARIE FOOT",
+     "adversaire_slug": "548860-dammarie-foot",
+     "score": "1-1",
+     "statut": "joué",
+     "journee": "Tour 4",
+     "stade": "STADE AUGUSTE DELAUNE",
+     "joue": true,
+     "tirs_au_but": true
+    }
+   ]
+  },
+  {
+   "cpNo": "438928",
+   "division": "Coupe Centre-Val de Loire U18",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U18",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "CENTRE-V.L.",
+   "equipe_nom": "CHALETTE US 21",
+   "equipe_slug": "550720-chalette-us-21",
+   "matchs": [
+    {
+     "date": "2025-10-11",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "J3S AMILLY 22",
+     "adversaire_slug": "511828-j3s-amilly-22",
+     "score": "1-6",
+     "statut": "joué",
+     "journee": "Tour 1",
+     "stade": "STADE AUGUSTE DELAUNE",
+     "joue": true
     }
    ]
   },
@@ -224,10 +248,12 @@
      "heure": "14:00",
      "domicile": true,
      "adversaire": "FC ML INGRE 22",
+     "adversaire_slug": "528298-fc-ml-ingre-22",
      "score": "0-6",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE AUGUSTE DELAUNE"
+     "stade": "STADE AUGUSTE DELAUNE",
+     "joue": true
     }
    ]
   }

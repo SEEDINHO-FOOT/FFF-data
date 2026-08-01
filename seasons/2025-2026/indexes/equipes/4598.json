@@ -7,84 +7,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "437735",
-   "division": "COUPE DES LANDES",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "AS CAZERES",
-   "equipe_slug": "514725-as-cazeres",
-   "matchs": [
-    {
-     "date": "2025-11-16",
-     "heure": "14:30",
-     "domicile": false,
-     "adversaire": "UA SABRES",
-     "score": "3-3",
-     "statut": "joué",
-     "journee": "Tour 2",
-     "stade": "STADE MUNICIPAL"
-    },
-    {
-     "date": "2025-12-14",
-     "heure": "14:30",
-     "domicile": true,
-     "adversaire": "ST VINCENT F.C.",
-     "score": "2-2",
-     "statut": "joué",
-     "journee": "1/16ème de Finale",
-     "stade": "STADE MUNICIPAL"
-    },
-    {
-     "date": "2026-03-04",
-     "heure": "20:30",
-     "domicile": true,
-     "adversaire": "SCS FC",
-     "score": "1-5",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE MUNICIPAL 1"
-    }
-   ]
-  },
-  {
-   "cpNo": "437736",
-   "division": "COUPE DES RÉSERVES INTERMARCHÉ",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "AS CAZERES 2",
-   "equipe_slug": "514725-as-cazeres-2",
-   "matchs": [
-    {
-     "date": "2025-11-16",
-     "heure": "14:30",
-     "domicile": true,
-     "adversaire": "BISCARROSSE O. 2",
-     "score": "0-6",
-     "statut": "joué",
-     "journee": "Tour 2",
-     "stade": "STADE MUNICIPAL"
-    }
-   ]
-  },
-  {
    "cpNo": "437751",
    "division": "COUPE DES LANDES FUTSAL",
    "niveau": "Départemental",
@@ -106,30 +28,93 @@
      "heure": "21:30",
      "domicile": false,
      "adversaire": "PEYREHORADE S.",
+     "adversaire_slug": "527825-peyrehorade-s",
      "score": "4-6",
      "statut": "joué",
      "journee": null,
-     "stade": "GYMNASE MUNICIPAL"
+     "stade": "GYMNASE MUNICIPAL",
+     "joue": true
     },
     {
      "date": "2026-04-16",
      "heure": "21:15",
      "domicile": true,
      "adversaire": "ST PAUL SPORT",
+     "adversaire_slug": "535772-st-paul-sport",
      "score": "4-3",
      "statut": "joué",
      "journee": "1/2 finales",
-     "stade": "GYMNASE HENRI GOURDON"
+     "stade": "GYMNASE HENRI GOURDON",
+     "joue": true
     },
     {
      "date": "2026-06-14",
      "heure": "17:00",
      "domicile": true,
      "adversaire": "FUTSAL ARRIGANS",
+     "adversaire_slug": "560608-futsal-arrigans",
      "score": "2-3",
      "statut": "joué",
      "journee": "Finale",
-     "stade": "SALLE OMNISPORT"
+     "stade": "SALLE OMNISPORT",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "437735",
+   "division": "COUPE DES LANDES",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "AS CAZERES",
+   "equipe_slug": "514725-as-cazeres",
+   "matchs": [
+    {
+     "date": "2025-11-16",
+     "heure": "14:30",
+     "domicile": false,
+     "adversaire": "UA SABRES",
+     "adversaire_slug": "520780-ua-sabres",
+     "score": "3-3",
+     "statut": "joué",
+     "journee": "Tour 2",
+     "stade": "STADE MUNICIPAL",
+     "joue": true,
+     "tirs_au_but": true
+    },
+    {
+     "date": "2025-12-14",
+     "heure": "14:30",
+     "domicile": true,
+     "adversaire": "ST VINCENT F.C.",
+     "adversaire_slug": "526554-st-vincent-f-c",
+     "score": "2-2",
+     "statut": "joué",
+     "journee": "1/16ème de Finale",
+     "stade": "STADE MUNICIPAL",
+     "joue": true,
+     "tirs_au_but": true
+    },
+    {
+     "date": "2026-03-04",
+     "heure": "20:30",
+     "domicile": true,
+     "adversaire": "SCS FC",
+     "adversaire_slug": "581325-scs-fc",
+     "score": "1-5",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
     }
    ]
   },
@@ -155,10 +140,43 @@
      "heure": "20:00",
      "domicile": true,
      "adversaire": "FC MOUN 2",
+     "adversaire_slug": "564595-fc-moun-2",
      "score": "2-18",
      "statut": "joué",
      "journee": "1/2 finales",
-     "stade": "GYMNASE HENRI GOURDON"
+     "stade": "GYMNASE HENRI GOURDON",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "437736",
+   "division": "COUPE DES RÉSERVES INTERMARCHÉ",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "AS CAZERES 2",
+   "equipe_slug": "514725-as-cazeres-2",
+   "matchs": [
+    {
+     "date": "2025-11-16",
+     "heure": "14:30",
+     "domicile": true,
+     "adversaire": "BISCARROSSE O. 2",
+     "adversaire_slug": "519360-biscarrosse-o-2",
+     "score": "0-6",
+     "statut": "joué",
+     "journee": "Tour 2",
+     "stade": "STADE MUNICIPAL",
+     "joue": true
     }
    ]
   }

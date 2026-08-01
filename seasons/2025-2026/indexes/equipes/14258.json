@@ -8,64 +8,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "440556",
-   "division": "MATCHS AMICAUX SENIORS",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Championnat",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "autre",
-   "scope": "regional",
-   "region": "HAUTS-DE-FRANCE",
-   "equipe_nom": "ARMBOUTS CAPPEL US",
-   "equipe_slug": "531505-armbouts-cappel-us",
-   "matchs": [
-    {
-     "date": "2025-08-10",
-     "heure": "15:30",
-     "domicile": false,
-     "adversaire": "CALAIS BEAU MARAIS F 2",
-     "score": "8-1",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE STADIUM STECY SUISSE 1"
-    }
-   ]
-  },
-  {
-   "cpNo": "444108",
-   "division": "Cpe Des Flandres Sen D1 A D3",
-   "niveau": "Départemental",
-   "echelon": "D1",
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "HAUTS-DE-FRANCE",
-   "equipe_nom": "ARMBOUTS CAPPEL US",
-   "equipe_slug": "531505-armbouts-cappel-us",
-   "matchs": [
-    {
-     "date": "2025-09-14",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "CAPPELLE L/GRANDE ES 2",
-     "score": "2-4",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE ROGER FLENGHI N° 1"
-    }
-   ]
-  },
-  {
    "cpNo": "444109",
    "division": "Cpe Des Flandres Sen D4 A D5",
    "niveau": "Départemental",
@@ -87,10 +29,12 @@
      "heure": "10:00",
      "domicile": true,
      "adversaire": "ST POL SUR MER USCC 3",
+     "adversaire_slug": "501147-st-pol-sur-mer-uscc-3",
      "score": "0-1",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE ROGER FLENGHI N° 1"
+     "stade": "STADE ROGER FLENGHI N° 1",
+     "joue": true
     }
    ]
   },
@@ -116,30 +60,36 @@
      "heure": "10:00",
      "domicile": false,
      "adversaire": "BOURBOURG SC 3",
+     "adversaire_slug": "500265-bourbourg-sc-3",
      "score": "2-4",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE EDMOND BELLE 4"
+     "stade": "STADE EDMOND BELLE 4",
+     "joue": true
     },
     {
      "date": "2025-09-28",
      "heure": "10:00",
      "domicile": true,
      "adversaire": "HOUTKERQUE FC",
+     "adversaire_slug": "537906-houtkerque-fc",
      "score": "3-0",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE ROGER FLENGHI N° 2"
+     "stade": "STADE ROGER FLENGHI N° 2",
+     "joue": true
     },
     {
      "date": "2025-10-12",
      "heure": "15:00",
      "domicile": false,
      "adversaire": "COLME US",
+     "adversaire_slug": "527015-colme-us",
      "score": "5-0",
      "statut": "joué",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": true
     }
    ]
   },
@@ -165,10 +115,74 @@
      "heure": "16:30",
      "domicile": true,
      "adversaire": "STEENVOORDE AS 22",
+     "adversaire_slug": "515473-steenvoorde-as-22",
      "score": "0-6",
      "statut": "joué",
      "journee": "2e tour",
-     "stade": "STADE ROGER FLENGHI N° 2"
+     "stade": "STADE ROGER FLENGHI N° 2",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "444108",
+   "division": "Cpe Des Flandres Sen D1 A D3",
+   "niveau": "Départemental",
+   "echelon": "D1",
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "HAUTS-DE-FRANCE",
+   "equipe_nom": "ARMBOUTS CAPPEL US",
+   "equipe_slug": "531505-armbouts-cappel-us",
+   "matchs": [
+    {
+     "date": "2025-09-14",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "CAPPELLE L/GRANDE ES 2",
+     "adversaire_slug": "582688-cappelle-l-grande-es-2",
+     "score": "2-4",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE ROGER FLENGHI N° 1",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "440556",
+   "division": "MATCHS AMICAUX SENIORS",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Championnat",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "autre",
+   "scope": "regional",
+   "region": "HAUTS-DE-FRANCE",
+   "equipe_nom": "ARMBOUTS CAPPEL US",
+   "equipe_slug": "531505-armbouts-cappel-us",
+   "matchs": [
+    {
+     "date": "2025-08-10",
+     "heure": "15:30",
+     "domicile": false,
+     "adversaire": "CALAIS BEAU MARAIS F 2",
+     "adversaire_slug": "528384-calais-beau-marais-f-2",
+     "score": "8-1",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE STADIUM STECY SUISSE 1",
+     "joue": true
     }
    ]
   }

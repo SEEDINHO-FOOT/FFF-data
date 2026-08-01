@@ -8,113 +8,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "444654",
-   "division": "Coupe du Conseil Départemental",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BOURGOGNE - FRANCHE COMTE",
-   "equipe_nom": "ST PIERRE US",
-   "equipe_slug": "512846-st-pierre-us",
-   "matchs": [
-    {
-     "date": "2025-10-12",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "DRUY BEARD",
-     "score": "1-2",
-     "statut": "joué",
-     "journee": "2EME TOUR",
-     "stade": "STADE RAYMOND TISSIER"
-    },
-    {
-     "date": "2025-11-30",
-     "heure": "14:30",
-     "domicile": true,
-     "adversaire": "NEVERS-CHALLUY-SERMO",
-     "score": "0-5",
-     "statut": "joué",
-     "journee": "3EME TOUR",
-     "stade": "STADE DU PANAMA 1"
-    }
-   ]
-  },
-  {
-   "cpNo": "446780",
-   "division": "Coupe U18 Principale",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U18",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BOURGOGNE - FRANCHE COMTE",
-   "equipe_nom": "ENT.ST PIERRE FC IMP 21",
-   "equipe_slug": "512846-ent-st-pierre-fc-imp-21",
-   "matchs": [
-    {
-     "date": "2026-01-17",
-     "heure": "14:30",
-     "domicile": false,
-     "adversaire": "ENT. LA MACH ST BENI 21",
-     "score": "1-3",
-     "statut": "joué",
-     "journee": "1/8 FINALE",
-     "stade": "STADE ETIENNE MARETS 1"
-    }
-   ]
-  },
-  {
-   "cpNo": "446780",
-   "division": "Coupe U18 Principale",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U18",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BOURGOGNE - FRANCHE COMTE",
-   "equipe_nom": "ENT.ST PIERRE FC IMP",
-   "equipe_slug": "512846-ent-st-pierre-fc-imp",
-   "matchs": [
-    {
-     "date": "2026-03-28",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "ST PERE",
-     "score": "7-0",
-     "statut": "joué",
-     "journee": "1/4 de finale",
-     "stade": "STADE DU PANAMA 1"
-    },
-    {
-     "date": "2026-04-30",
-     "heure": "19:30",
-     "domicile": false,
-     "adversaire": "FC DECIZE",
-     "score": "5-0",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE DES HALLES 1"
-    }
-   ]
-  },
-  {
    "cpNo": "446782",
    "division": "Coupe U15 Principale",
    "niveau": "Départemental",
@@ -136,20 +29,25 @@
      "heure": "14:30",
      "domicile": true,
      "adversaire": "ENT. ESN 58",
+     "adversaire_slug": "582660-ent-esn-58",
      "score": "0-0",
      "statut": "joué",
      "journee": "1/8 FINALE",
-     "stade": "STADE DU PANAMA 1"
+     "stade": "STADE DU PANAMA 1",
+     "joue": true,
+     "tirs_au_but": true
     },
     {
      "date": "2026-03-28",
      "heure": "12:30",
      "domicile": true,
      "adversaire": "COULANGES NEVERS US",
+     "adversaire_slug": "532380-coulanges-nevers-us",
      "score": "0-19",
      "statut": "joué",
      "journee": "1/4 de finale",
-     "stade": "STADE DU PANAMA 1"
+     "stade": "STADE DU PANAMA 1",
+     "joue": true
     }
    ]
   },
@@ -175,10 +73,130 @@
      "heure": "14:30",
      "domicile": false,
      "adversaire": "ST ELOI",
+     "adversaire_slug": "535031-st-eloi",
      "score": "2-2",
      "statut": "joué",
      "journee": "1ER TOUR",
-     "stade": "STADE MUNICIPAL 1"
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true,
+     "tirs_au_but": true
+    }
+   ]
+  },
+  {
+   "cpNo": "444654",
+   "division": "Coupe du Conseil Départemental",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BOURGOGNE - FRANCHE COMTE",
+   "equipe_nom": "ST PIERRE US",
+   "equipe_slug": "512846-st-pierre-us",
+   "matchs": [
+    {
+     "date": "2025-10-12",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "DRUY BEARD",
+     "adversaire_slug": "531710-druy-beard",
+     "score": "1-2",
+     "statut": "joué",
+     "journee": "2EME TOUR",
+     "stade": "STADE RAYMOND TISSIER",
+     "joue": true
+    },
+    {
+     "date": "2025-11-30",
+     "heure": "14:30",
+     "domicile": true,
+     "adversaire": "NEVERS-CHALLUY-SERMO",
+     "adversaire_slug": "541323-nevers-challuy-sermo",
+     "score": "0-5",
+     "statut": "joué",
+     "journee": "3EME TOUR",
+     "stade": "STADE DU PANAMA 1",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "446780",
+   "division": "Coupe U18 Principale",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U18",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BOURGOGNE - FRANCHE COMTE",
+   "equipe_nom": "ENT.ST PIERRE FC IMP 21",
+   "equipe_slug": "512846-ent-st-pierre-fc-imp-21",
+   "matchs": [
+    {
+     "date": "2026-01-17",
+     "heure": "14:30",
+     "domicile": false,
+     "adversaire": "ENT. LA MACH ST BENI 21",
+     "adversaire_slug": "508757-ent-la-mach-st-beni-21",
+     "score": "1-3",
+     "statut": "joué",
+     "journee": "1/8 FINALE",
+     "stade": "STADE ETIENNE MARETS 1",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "446780",
+   "division": "Coupe U18 Principale",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U18",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BOURGOGNE - FRANCHE COMTE",
+   "equipe_nom": "ENT.ST PIERRE FC IMP",
+   "equipe_slug": "512846-ent-st-pierre-fc-imp",
+   "matchs": [
+    {
+     "date": "2026-03-28",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "ST PERE",
+     "adversaire_slug": "537080-st-pere",
+     "score": "7-0",
+     "statut": "joué",
+     "journee": "1/4 de finale",
+     "stade": "STADE DU PANAMA 1",
+     "joue": true
+    },
+    {
+     "date": "2026-04-30",
+     "heure": "19:30",
+     "domicile": false,
+     "adversaire": "FC DECIZE",
+     "adversaire_slug": "551038-fc-decize",
+     "score": "5-0",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE DES HALLES 1",
+     "joue": true
     }
    ]
   }

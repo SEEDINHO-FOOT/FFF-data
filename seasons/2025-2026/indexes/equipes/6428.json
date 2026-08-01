@@ -6,45 +6,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "437410",
-   "division": "COUPE REGION BRETAGNE",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BRETAGNE",
-   "equipe_nom": "TRELEVERN TREV FC",
-   "equipe_slug": "519611-trelevern-trev-fc",
-   "matchs": [
-    {
-     "date": "2025-09-28",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "LANNION FC 2",
-     "score": "0-4",
-     "statut": "joué",
-     "journee": "3ème Tour",
-     "stade": "STADE MUNICIPAL"
-    },
-    {
-     "date": "2025-09-28",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "LANNION FC 2",
-     "score": "0-4",
-     "statut": "joué",
-     "journee": "3ème Tour",
-     "stade": "STADE MUNICIPAL"
-    }
-   ]
-  },
-  {
    "cpNo": "438160",
    "division": "Coupe du Département",
    "niveau": "Départemental",
@@ -66,10 +27,12 @@
      "heure": "14:30",
      "domicile": true,
      "adversaire": "LA CROIX CORLAY FC",
+     "adversaire_slug": "548918-la-croix-corlay-fc",
      "score": "0-1",
      "statut": "joué",
      "journee": "5ème Tour",
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true
     }
    ]
   },
@@ -95,30 +58,36 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "CALLAC US",
+     "adversaire_slug": "501930-callac-us",
      "score": "1-2",
      "statut": "joué",
      "journee": "3ème Tour",
-     "stade": "STADE FRANCIS BOSCHER 1"
+     "stade": "STADE FRANCIS BOSCHER 1",
+     "joue": true
     },
     {
      "date": "2025-10-26",
      "heure": "15:00",
      "domicile": true,
      "adversaire": "GRACES AS",
+     "adversaire_slug": "522664-graces-as",
      "score": "1-0",
      "statut": "joué",
      "journee": "4ème Tour",
-     "stade": "STADE JEAN CLAUDE GUELAEN"
+     "stade": "STADE JEAN CLAUDE GUELAEN",
+     "joue": true
     },
     {
      "date": "2025-11-16",
      "heure": "14:30",
      "domicile": true,
      "adversaire": "ROSPEZ CS",
+     "adversaire_slug": "520763-rospez-cs",
      "score": "1-5",
      "statut": "joué",
      "journee": "5ème Tour",
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true
     }
    ]
   },
@@ -144,50 +113,105 @@
      "heure": "14:30",
      "domicile": true,
      "adversaire": "BRINGOLO AS",
+     "adversaire_slug": "532496-bringolo-as",
      "score": "3-1",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true
     },
     {
      "date": "2026-04-05",
      "heure": "15:00",
      "domicile": true,
      "adversaire": "TONQUEDEC KC",
+     "adversaire_slug": "533907-tonquedec-kc",
      "score": "3-0",
      "statut": "joué",
      "journee": "1/8 FINALE",
-     "stade": null
+     "stade": null,
+     "joue": true
     },
     {
      "date": "2026-05-03",
      "heure": "15:00",
      "domicile": false,
      "adversaire": "LANFAINS AS",
+     "adversaire_slug": "525911-lanfains-as",
      "score": "0-3",
      "statut": "joué",
      "journee": "Quarts de finale",
-     "stade": null
+     "stade": null,
+     "joue": true
     },
     {
      "date": "2026-05-08",
      "heure": "15:30",
      "domicile": false,
      "adversaire": " BOBITAL BRUSVILY AS",
+     "adversaire_slug": "560507-bobital-brusvily-as",
      "score": "1-1",
      "statut": "joué",
      "journee": "Demi-finales",
-     "stade": null
+     "stade": null,
+     "joue": true,
+     "tirs_au_but": true
     },
     {
      "date": "2026-05-17",
      "heure": "17:15",
      "domicile": false,
      "adversaire": "KERIEN MAGOAR AS",
+     "adversaire_slug": "525910-kerien-magoar-as",
      "score": "2-2",
      "statut": "joué",
      "journee": "Finale",
-     "stade": "STADE FRED AUBERT N°1"
+     "stade": "STADE FRED AUBERT N°1",
+     "joue": true,
+     "tirs_au_but": true
+    }
+   ]
+  },
+  {
+   "cpNo": "437410",
+   "division": "COUPE REGION BRETAGNE",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BRETAGNE",
+   "equipe_nom": "TRELEVERN TREV FC",
+   "equipe_slug": "519611-trelevern-trev-fc",
+   "matchs": [
+    {
+     "date": "2025-09-28",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "LANNION FC 2",
+     "adversaire_slug": "548875-lannion-fc-2",
+     "score": "0-4",
+     "statut": "joué",
+     "journee": "3ème Tour",
+     "stade": "STADE MUNICIPAL",
+     "joue": true
+    },
+    {
+     "date": "2025-09-28",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "LANNION FC 2",
+     "adversaire_slug": "548875-lannion-fc-2",
+     "score": "0-4",
+     "statut": "joué",
+     "journee": "3ème Tour",
+     "stade": "STADE MUNICIPAL",
+     "joue": true
     }
    ]
   },
@@ -213,10 +237,12 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "PLOUGRAS ES",
+     "adversaire_slug": "542337-plougras-es",
      "score": "2-3",
      "statut": "joué",
      "journee": "1er Tour",
-     "stade": "STADE THIERRY LAGADEC"
+     "stade": "STADE THIERRY LAGADEC",
+     "joue": true
     }
    ]
   }

@@ -6,85 +6,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "437410",
-   "division": "COUPE REGION BRETAGNE",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BRETAGNE",
-   "equipe_nom": "BOURSEUL FC",
-   "equipe_slug": "560791-bourseul-fc",
-   "matchs": [
-    {
-     "date": "2025-09-14",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "LA LANDEC AS",
-     "score": "1-0",
-     "statut": "joué",
-     "journee": "2ème Tour",
-     "stade": "STADE MUNICIPAL"
-    },
-    {
-     "date": "2025-09-14",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "LA LANDEC AS",
-     "score": "1-0",
-     "statut": "joué",
-     "journee": "2ème Tour",
-     "stade": "STADE MUNICIPAL"
-    },
-    {
-     "date": "2025-09-28",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "St MELOIR ES.",
-     "score": "0-6",
-     "statut": "joué",
-     "journee": "3ème Tour",
-     "stade": null
-    },
-    {
-     "date": "2025-09-28",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "St MELOIR ES.",
-     "score": "0-6",
-     "statut": "joué",
-     "journee": "3ème Tour",
-     "stade": null
-    },
-    {
-     "date": "2025-10-12",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "LANGUEUX US",
-     "score": "1-2",
-     "statut": "joué",
-     "journee": "4ème Tour",
-     "stade": "STADE MUNICIPAL"
-    },
-    {
-     "date": "2025-10-12",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "LANGUEUX US",
-     "score": "1-2",
-     "statut": "joué",
-     "journee": "4ème Tour",
-     "stade": "STADE MUNICIPAL"
-    }
-   ]
-  },
-  {
    "cpNo": "438160",
    "division": "Coupe du Département",
    "niveau": "Départemental",
@@ -106,20 +27,25 @@
      "heure": "14:30",
      "domicile": true,
      "adversaire": "CALORGUEN US",
+     "adversaire_slug": "564825-calorguen-us",
      "score": "2-2",
      "statut": "joué",
      "journee": "4ème Tour",
-     "stade": null
+     "stade": null,
+     "joue": true,
+     "tirs_au_but": true
     },
     {
      "date": "2025-11-30",
      "heure": "14:30",
      "domicile": false,
      "adversaire": "YFFINIAC UF",
+     "adversaire_slug": "580937-yffiniac-uf",
      "score": "6-3",
      "statut": "joué",
      "journee": "5ème Tour",
-     "stade": "STADE MUNICIPAL 1"
+     "stade": "STADE MUNICIPAL 1",
+     "joue": true
     }
    ]
   },
@@ -145,10 +71,103 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "HENANSAL HDB",
+     "adversaire_slug": "548340-henansal-hdb",
      "score": "0-1",
      "statut": "joué",
      "journee": "4ème Tour",
-     "stade": null
+     "stade": null,
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "437410",
+   "division": "COUPE REGION BRETAGNE",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BRETAGNE",
+   "equipe_nom": "BOURSEUL FC",
+   "equipe_slug": "560791-bourseul-fc",
+   "matchs": [
+    {
+     "date": "2025-09-14",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "LA LANDEC AS",
+     "adversaire_slug": "525908-la-landec-as",
+     "score": "1-0",
+     "statut": "joué",
+     "journee": "2ème Tour",
+     "stade": "STADE MUNICIPAL",
+     "joue": true
+    },
+    {
+     "date": "2025-09-14",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "LA LANDEC AS",
+     "adversaire_slug": "525908-la-landec-as",
+     "score": "1-0",
+     "statut": "joué",
+     "journee": "2ème Tour",
+     "stade": "STADE MUNICIPAL",
+     "joue": true
+    },
+    {
+     "date": "2025-09-28",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "St MELOIR ES.",
+     "adversaire_slug": "532693-st-meloir-es",
+     "score": "0-6",
+     "statut": "joué",
+     "journee": "3ème Tour",
+     "stade": null,
+     "joue": true
+    },
+    {
+     "date": "2025-09-28",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "St MELOIR ES.",
+     "adversaire_slug": "532693-st-meloir-es",
+     "score": "0-6",
+     "statut": "joué",
+     "journee": "3ème Tour",
+     "stade": null,
+     "joue": true
+    },
+    {
+     "date": "2025-10-12",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "LANGUEUX US",
+     "adversaire_slug": "519905-langueux-us",
+     "score": "1-2",
+     "statut": "joué",
+     "journee": "4ème Tour",
+     "stade": "STADE MUNICIPAL",
+     "joue": true
+    },
+    {
+     "date": "2025-10-12",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "LANGUEUX US",
+     "adversaire_slug": "519905-langueux-us",
+     "score": "1-2",
+     "statut": "joué",
+     "journee": "4ème Tour",
+     "stade": "STADE MUNICIPAL",
+     "joue": true
     }
    ]
   }

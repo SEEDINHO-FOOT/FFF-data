@@ -7,64 +7,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "435203",
-   "division": "Coupe Nouvelle-Aquitaine U15",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U15",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "GJ EFPN",
-   "equipe_slug": "553678-gj-efpn",
-   "matchs": [
-    {
-     "date": "2025-10-18",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "LAC 16 GJ",
-     "score": "1-0",
-     "statut": "joué",
-     "journee": "Tour 1",
-     "stade": "STADE MUNICIPAL"
-    }
-   ]
-  },
-  {
-   "cpNo": "436020",
-   "division": "Coupe Consolante U17",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U17",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "GJ EF PAYS NEXON",
-   "equipe_slug": "553678-gj-ef-pays-nexon",
-   "matchs": [
-    {
-     "date": "2026-04-04",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "EYMOUTIERS AS",
-     "score": "3-0",
-     "statut": "joué",
-     "journee": "1er Tour",
-     "stade": "STADE MUNICIPAL"
-    }
-   ]
-  },
-  {
    "cpNo": "436021",
    "division": "Coupe U17",
    "niveau": "Départemental",
@@ -86,10 +28,12 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "ISLE JA 2",
+     "adversaire_slug": "509585-isle-ja-2",
      "score": "0-13",
      "statut": "joué",
      "journee": "Tour de régularisation",
-     "stade": "Stade Jean-pierre MarchaT"
+     "stade": "Stade Jean-pierre MarchaT",
+     "joue": true
     }
    ]
   },
@@ -115,20 +59,56 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "GJ FCCO/SCS/FEUILLAR",
+     "adversaire_slug": "565181-gj-fcco-scs-feuillar",
      "score": "1-1",
      "statut": "joué",
      "journee": "2ème tour",
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true,
+     "tirs_au_but": true
     },
     {
      "date": "2026-05-06",
      "heure": "18:30",
      "domicile": false,
      "adversaire": "LIMOGES LAFARGE JS",
+     "adversaire_slug": "519926-limoges-lafarge-js",
      "score": "6-1",
      "statut": "joué",
      "journee": "1/4 de Finale",
-     "stade": "STADE PUY LAS RODAS 1"
+     "stade": "STADE PUY LAS RODAS 1",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "436020",
+   "division": "Coupe Consolante U17",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U17",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "GJ EF PAYS NEXON",
+   "equipe_slug": "553678-gj-ef-pays-nexon",
+   "matchs": [
+    {
+     "date": "2026-04-04",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "EYMOUTIERS AS",
+     "adversaire_slug": "507210-eymoutiers-as",
+     "score": "3-0",
+     "statut": "joué",
+     "journee": "1er Tour",
+     "stade": "STADE MUNICIPAL",
+     "joue": true
     }
    ]
   },
@@ -154,10 +134,12 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "BOISSEUIL 87 FC",
+     "adversaire_slug": "522774-boisseuil-87-fc",
      "score": "3-0",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE MUNICIPAL 1 (HONNEUR)"
+     "stade": "STADE MUNICIPAL 1 (HONNEUR)",
+     "joue": true
     }
    ]
   },
@@ -183,10 +165,43 @@
      "heure": "20:00",
      "domicile": false,
      "adversaire": "COUZEIX CHAPTELAT US",
+     "adversaire_slug": "546431-couzeix-chaptelat-us",
      "score": "3-1",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE ADRIEN LACORE"
+     "stade": "STADE ADRIEN LACORE",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "435203",
+   "division": "Coupe Nouvelle-Aquitaine U15",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U15",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "GJ EFPN",
+   "equipe_slug": "553678-gj-efpn",
+   "matchs": [
+    {
+     "date": "2025-10-18",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "LAC 16 GJ",
+     "adversaire_slug": "560102-lac-16-gj",
+     "score": "1-0",
+     "statut": "joué",
+     "journee": "Tour 1",
+     "stade": "STADE MUNICIPAL",
+     "joue": true
     }
    ]
   },
@@ -212,20 +227,24 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "FOOTHISLECOLE GJ 21",
+     "adversaire_slug": "560927-foothislecole-gj-21",
      "score": "0-3",
      "statut": "joué",
      "journee": "Tour 2",
-     "stade": "STADE DU PARC"
+     "stade": "STADE DU PARC",
+     "joue": true
     },
     {
      "date": "2025-10-04",
      "heure": "15:00",
      "domicile": true,
      "adversaire": "BERGERAC PERIGORD FC",
+     "adversaire_slug": "563716-bergerac-perigord-fc",
      "score": "0-7",
      "statut": "joué",
      "journee": "Tour 3",
-     "stade": "STADE ROBERT HERBIN"
+     "stade": "STADE ROBERT HERBIN",
+     "joue": true
     }
    ]
   }

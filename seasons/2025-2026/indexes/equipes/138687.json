@@ -7,65 +7,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "437410",
-   "division": "COUPE REGION BRETAGNE",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BRETAGNE",
-   "equipe_nom": "LANMEUR US",
-   "equipe_slug": "553672-lanmeur-us",
-   "matchs": [
-    {
-     "date": "2025-09-14",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "ST MARTIN CH",
-     "score": "1-0",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE ALBERT MARTIN"
-    },
-    {
-     "date": "2025-09-14",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "ST MARTIN CH",
-     "score": "1-0",
-     "statut": "joué",
-     "journee": "CRB",
-     "stade": "STADE ALBERT MARTIN"
-    },
-    {
-     "date": "2025-09-14",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "ST MARTIN CH",
-     "score": "1-0",
-     "statut": "joué",
-     "journee": "CRB",
-     "stade": "STADE ALBERT MARTIN"
-    },
-    {
-     "date": "2025-09-14",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "ST MARTIN CH",
-     "score": "1-0",
-     "statut": "joué",
-     "journee": "CRB",
-     "stade": "STADE ALBERT MARTIN"
-    }
-   ]
-  },
-  {
    "cpNo": "438473",
    "division": "Coupe De District",
    "niveau": "Départemental",
@@ -87,30 +28,36 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "GUICLAN PLOUENAN FC 2",
+     "adversaire_slug": "561201-guiclan-plouenan-fc-2",
      "score": "3-0",
      "statut": "joué",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": true
     },
     {
      "date": "2025-10-26",
      "heure": "15:00",
      "domicile": false,
      "adversaire": "GUERLESQUIN",
+     "adversaire_slug": "502212-guerlesquin",
      "score": "0-3",
      "statut": "joué",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": true
     },
     {
      "date": "2025-11-16",
      "heure": "15:00",
      "domicile": true,
      "adversaire": "TAULE US",
+     "adversaire_slug": "502395-taule-us",
      "score": "0-2",
      "statut": "joué",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": true
     }
    ]
   },
@@ -136,10 +83,12 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "MORLAIX US",
+     "adversaire_slug": "523685-morlaix-us",
      "score": "4-2",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE ARTHUR AUREGAN"
+     "stade": "STADE ARTHUR AUREGAN",
+     "joue": true
     }
    ]
   },
@@ -165,30 +114,103 @@
      "heure": "14:00",
      "domicile": false,
      "adversaire": "GJ HORN PLOUENAN 2",
+     "adversaire_slug": "552204-gj-horn-plouenan-2",
      "score": "9-1",
      "statut": "joué",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": true
     },
     {
      "date": "2025-11-08",
      "heure": "14:00",
      "domicile": true,
      "adversaire": "ST MARTIN CH 3",
+     "adversaire_slug": "502278-st-martin-ch-3",
      "score": null,
      "statut": "à venir",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": false
     },
     {
      "date": "2026-01-17",
      "heure": "14:00",
      "domicile": true,
      "adversaire": "LANDIVISIAU FC 3",
+     "adversaire_slug": "542060-landivisiau-fc-3",
      "score": "4-4",
      "statut": "joué",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "437410",
+   "division": "COUPE REGION BRETAGNE",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BRETAGNE",
+   "equipe_nom": "LANMEUR US",
+   "equipe_slug": "553672-lanmeur-us",
+   "matchs": [
+    {
+     "date": "2025-09-14",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "ST MARTIN CH",
+     "adversaire_slug": "502278-st-martin-ch",
+     "score": "1-0",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE ALBERT MARTIN",
+     "joue": true
+    },
+    {
+     "date": "2025-09-14",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "ST MARTIN CH",
+     "adversaire_slug": "502278-st-martin-ch",
+     "score": "1-0",
+     "statut": "joué",
+     "journee": "CRB",
+     "stade": "STADE ALBERT MARTIN",
+     "joue": true
+    },
+    {
+     "date": "2025-09-14",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "ST MARTIN CH",
+     "adversaire_slug": "502278-st-martin-ch",
+     "score": "1-0",
+     "statut": "joué",
+     "journee": "CRB",
+     "stade": "STADE ALBERT MARTIN",
+     "joue": true
+    },
+    {
+     "date": "2025-09-14",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "ST MARTIN CH",
+     "adversaire_slug": "502278-st-martin-ch",
+     "score": "1-0",
+     "statut": "joué",
+     "journee": "CRB",
+     "stade": "STADE ALBERT MARTIN",
+     "joue": true
     }
    ]
   },
@@ -214,30 +236,36 @@
      "heure": "14:00",
      "domicile": false,
      "adversaire": "MORLAIX SC 2",
+     "adversaire_slug": "553186-morlaix-sc-2",
      "score": "20-0",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE MAURICE MARZIN"
+     "stade": "STADE MAURICE MARZIN",
+     "joue": true
     },
     {
      "date": "2025-11-08",
      "heure": "14:00",
      "domicile": false,
      "adversaire": "LANDIVISIAU FC",
+     "adversaire_slug": "542060-landivisiau-fc",
      "score": "15-0",
      "statut": "joué",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": true
     },
     {
      "date": "2026-01-17",
      "heure": "14:00",
      "domicile": true,
      "adversaire": "ST POL",
+     "adversaire_slug": "500329-st-pol",
      "score": "3-9",
      "statut": "joué",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": true
     }
    ]
   }

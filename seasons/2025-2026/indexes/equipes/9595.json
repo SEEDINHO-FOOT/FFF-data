@@ -8,45 +8,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "438136",
-   "division": "Challenge Marcel Renaudie",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "SEVRES ANXAUMONT AS 3",
-   "equipe_slug": "524580-sevres-anxaumont-as-3",
-   "matchs": [
-    {
-     "date": "2025-10-12",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "ROUILLE FC 3",
-     "score": "0-1",
-     "statut": "joué",
-     "journee": "T1 - CMR",
-     "stade": "STADE GASTON DELAVAULT"
-    },
-    {
-     "date": "2025-11-16",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "CROUTELLE.FONTAINE",
-     "score": "4-2",
-     "statut": "joué",
-     "journee": "T2 - CMR",
-     "stade": "STADE DE L' ÉCORCERIE"
-    }
-   ]
-  },
-  {
    "cpNo": "438137",
    "division": "Challenge des Réserves",
    "niveau": "Départemental",
@@ -68,59 +29,36 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "LAVOUX LINIERS ES 2",
+     "adversaire_slug": "544366-lavoux-liniers-es-2",
      "score": "0-2",
      "statut": "joué",
      "journee": "T1 - CHR",
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true
     },
     {
      "date": "2025-10-11",
      "heure": "19:00",
      "domicile": false,
      "adversaire": "NIEUIL L ESPOIR JS 3",
+     "adversaire_slug": "514249-nieuil-l-espoir-js-3",
      "score": "1-2",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE MUNICIPAL 2"
+     "stade": "STADE MUNICIPAL 2",
+     "joue": true
     },
     {
      "date": "2025-11-16",
      "heure": "15:00",
      "domicile": true,
      "adversaire": "ST JULIEN L ARS AAS 2",
+     "adversaire_slug": "514861-st-julien-l-ars-aas-2",
      "score": "1-2",
      "statut": "joué",
      "journee": "T3 - CHR",
-     "stade": "COMPLEXE SPORTIF FERNAND HAIE 1"
-    }
-   ]
-  },
-  {
-   "cpNo": "438139",
-   "division": "Coupe Jolliet-Rousseau",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "SEVRES ANXAUMONT AS",
-   "equipe_slug": "524580-sevres-anxaumont-as",
-   "matchs": [
-    {
-     "date": "2026-04-12",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "VALENCE EN POITOU OC",
-     "score": "0-2",
-     "statut": "joué",
-     "journee": "T4 - CJR",
-     "stade": "COMPLEXE SPORTIF FERNAND HAIE 1"
+     "stade": "COMPLEXE SPORTIF FERNAND HAIE 1",
+     "joue": true
     }
    ]
   },
@@ -146,20 +84,99 @@
      "heure": "19:00",
      "domicile": false,
      "adversaire": "PAYROUX CHARR. MAUP.",
+     "adversaire_slug": "860568-payroux-charr-maup",
      "score": "0-0",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE ALAIN DE L' ALLIER"
+     "stade": "STADE ALAIN DE L' ALLIER",
+     "joue": true,
+     "tirs_au_but": true
     },
     {
      "date": "2026-01-18",
      "heure": "15:00",
      "domicile": true,
      "adversaire": "ROUILLE FC",
+     "adversaire_slug": "507080-rouille-fc",
      "score": "1-6",
      "statut": "joué",
      "journee": "CLD - T4",
-     "stade": "COMPLEXE SPORTIF FERNAND HAIE 1"
+     "stade": "COMPLEXE SPORTIF FERNAND HAIE 1",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "438139",
+   "division": "Coupe Jolliet-Rousseau",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "SEVRES ANXAUMONT AS",
+   "equipe_slug": "524580-sevres-anxaumont-as",
+   "matchs": [
+    {
+     "date": "2026-04-12",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "VALENCE EN POITOU OC",
+     "adversaire_slug": "550850-valence-en-poitou-oc",
+     "score": "0-2",
+     "statut": "joué",
+     "journee": "T4 - CJR",
+     "stade": "COMPLEXE SPORTIF FERNAND HAIE 1",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "438136",
+   "division": "Challenge Marcel Renaudie",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "SEVRES ANXAUMONT AS 3",
+   "equipe_slug": "524580-sevres-anxaumont-as-3",
+   "matchs": [
+    {
+     "date": "2025-10-12",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "ROUILLE FC 3",
+     "adversaire_slug": "507080-rouille-fc-3",
+     "score": "0-1",
+     "statut": "joué",
+     "journee": "T1 - CMR",
+     "stade": "STADE GASTON DELAVAULT",
+     "joue": true
+    },
+    {
+     "date": "2025-11-16",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "CROUTELLE.FONTAINE",
+     "adversaire_slug": "581323-croutelle-fontaine",
+     "score": "4-2",
+     "statut": "joué",
+     "journee": "T2 - CMR",
+     "stade": "STADE DE L' ÉCORCERIE",
+     "joue": true
     }
    ]
   },
@@ -185,10 +202,12 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "BESSINES ASPTT",
+     "adversaire_slug": "563636-bessines-asptt",
      "score": "3-0",
      "statut": "joué",
      "journee": "1/8èmes de Finales",
-     "stade": "STADE DES GARDOUX"
+     "stade": "STADE DES GARDOUX",
+     "joue": true
     }
    ]
   }

@@ -6,35 +6,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "440881",
-   "division": "Coupe Région Bretagne Féminine",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "F",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BRETAGNE",
-   "equipe_nom": "CRUGUEL AS",
-   "equipe_slug": "524229-cruguel-as",
-   "matchs": [
-    {
-     "date": "2025-09-27",
-     "heure": "16:00",
-     "domicile": true,
-     "adversaire": "PLUVIGNER KERIOLETS",
-     "score": "1-11",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE MUNICIPAL"
-    }
-   ]
-  },
-  {
    "cpNo": "437410",
    "division": "COUPE REGION BRETAGNE",
    "niveau": "Régional",
@@ -56,40 +27,48 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "CARO MISSIRIAC A.S.",
+     "adversaire_slug": "582218-caro-missiriac-a-s",
      "score": "4-0",
      "statut": "joué",
      "journee": "Tour 4",
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true
     },
     {
      "date": "2025-10-12",
      "heure": "15:00",
      "domicile": true,
      "adversaire": "CARO MISSIRIAC A.S.",
+     "adversaire_slug": "582218-caro-missiriac-a-s",
      "score": "4-0",
      "statut": "joué",
      "journee": "Tour 4",
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true
     },
     {
      "date": "2025-10-26",
      "heure": "15:00",
      "domicile": true,
      "adversaire": "PLESCOP ENT S",
+     "adversaire_slug": "519102-plescop-ent-s",
      "score": "0-4",
      "statut": "joué",
      "journee": "Tour 5",
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true
     },
     {
      "date": "2025-10-26",
      "heure": "15:00",
      "domicile": true,
      "adversaire": "PLESCOP ENT S",
+     "adversaire_slug": "519102-plescop-ent-s",
      "score": "0-4",
      "statut": "joué",
      "journee": "Tour 5",
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true
     }
    ]
   },
@@ -115,20 +94,24 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "MONTAGNARDE US",
+     "adversaire_slug": "502072-montagnarde-us",
      "score": "7-6",
      "statut": "joué",
      "journee": "8èmes de finale",
-     "stade": "PLAINE DE JEUX"
+     "stade": "PLAINE DE JEUX",
+     "joue": true
     },
     {
      "date": "2026-04-05",
      "heure": "15:00",
      "domicile": false,
      "adversaire": "PLOEMEUR FC 56",
+     "adversaire_slug": "553187-ploemeur-fc-56",
      "score": "8-0",
      "statut": "joué",
      "journee": "Quarts de finale",
-     "stade": "COMPLEXE SPORTIF BOIS PINS 3"
+     "stade": "COMPLEXE SPORTIF BOIS PINS 3",
+     "joue": true
     }
    ]
   },
@@ -154,10 +137,13 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "BIGNAN CS",
+     "adversaire_slug": "517854-bignan-cs",
      "score": "1-1",
      "statut": "joué",
      "journee": "Tour 3",
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true,
+     "tirs_au_but": true
     }
    ]
   },
@@ -183,20 +169,56 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "VANNES AS TO",
+     "adversaire_slug": "539775-vannes-as-to",
      "score": "2-2",
      "statut": "joué",
      "journee": "Tour 6",
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true,
+     "tirs_au_but": true
     },
     {
      "date": "2025-12-21",
      "heure": "15:00",
      "domicile": false,
      "adversaire": "PEAULE ARMORICAINE",
+     "adversaire_slug": "524410-peaule-armoricaine",
      "score": "2-1",
      "statut": "joué",
      "journee": "Tour 7",
-     "stade": "Complexe Sportif P. Penuizic 1"
+     "stade": "Complexe Sportif P. Penuizic 1",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "440881",
+   "division": "Coupe Région Bretagne Féminine",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "F",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BRETAGNE",
+   "equipe_nom": "CRUGUEL AS",
+   "equipe_slug": "524229-cruguel-as",
+   "matchs": [
+    {
+     "date": "2025-09-27",
+     "heure": "16:00",
+     "domicile": true,
+     "adversaire": "PLUVIGNER KERIOLETS",
+     "adversaire_slug": "502277-pluvigner-keriolets",
+     "score": "1-11",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE MUNICIPAL",
+     "joue": true
     }
    ]
   },
@@ -222,20 +244,24 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "RUFFIAC MALESTROIT F",
+     "adversaire_slug": "580943-ruffiac-malestroit-f",
      "score": "1-0",
      "statut": "joué",
      "journee": "2ème Tour",
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true
     },
     {
      "date": "2025-09-28",
      "heure": "15:00",
      "domicile": false,
      "adversaire": "MUZILLAC OMNI SPORTS",
+     "adversaire_slug": "542063-muzillac-omni-sports",
      "score": "2-1",
      "statut": "joué",
      "journee": "4ème Tour",
-     "stade": "STADE DU PARC 1"
+     "stade": "STADE DU PARC 1",
+     "joue": true
     }
    ]
   }

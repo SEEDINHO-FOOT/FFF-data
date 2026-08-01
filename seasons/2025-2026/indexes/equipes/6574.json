@@ -7,74 +7,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "435203",
-   "division": "Coupe Nouvelle-Aquitaine U15",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U15",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "ENT. NANT COMP",
-   "equipe_slug": "519848-ent-nant-comp",
-   "matchs": [
-    {
-     "date": "2025-10-18",
-     "heure": "15:00",
-     "domicile": false,
-     "adversaire": "BESSINES ANF 87 GJ",
-     "score": "4-0",
-     "statut": "joué",
-     "journee": "Tour 1",
-     "stade": "STADE JEAN PERIN"
-    }
-   ]
-  },
-  {
-   "cpNo": "435830",
-   "division": "Challenge du District Marcel Pailler",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "NANTIAT US",
-   "equipe_slug": "519848-nantiat-us",
-   "matchs": [
-    {
-     "date": "2025-11-16",
-     "heure": "14:30",
-     "domicile": true,
-     "adversaire": "BERSAC DIABLES BLEUS",
-     "score": "5-0",
-     "statut": "joué",
-     "journee": "1er Tour",
-     "stade": "STADE LE PEU DE CHAUDADE"
-    },
-    {
-     "date": "2026-01-18",
-     "heure": "14:30",
-     "domicile": true,
-     "adversaire": "ST VICTURNIEN CA",
-     "score": "1-3",
-     "statut": "joué",
-     "journee": "2ème tour ",
-     "stade": "STADE LE PEU DE CHAUDADE"
-    }
-   ]
-  },
-  {
    "cpNo": "435831",
    "division": "Coupe Haute-Vienne René Croguennec Crédit-Agricole",
    "niveau": "Départemental",
@@ -96,10 +28,12 @@
      "heure": "20:00",
      "domicile": true,
      "adversaire": "ST JUNIEN AS",
+     "adversaire_slug": "523322-st-junien-as",
      "score": "0-7",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE LE PEU DE CHAUDADE"
+     "stade": "STADE LE PEU DE CHAUDADE",
+     "joue": true
     }
    ]
   },
@@ -125,10 +59,56 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "EYMOUTIERS AS",
+     "adversaire_slug": "507210-eymoutiers-as",
      "score": "1-1",
      "statut": "joué",
      "journee": "2ème tour",
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true,
+     "tirs_au_but": true
+    }
+   ]
+  },
+  {
+   "cpNo": "435830",
+   "division": "Challenge du District Marcel Pailler",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "NANTIAT US",
+   "equipe_slug": "519848-nantiat-us",
+   "matchs": [
+    {
+     "date": "2025-11-16",
+     "heure": "14:30",
+     "domicile": true,
+     "adversaire": "BERSAC DIABLES BLEUS",
+     "adversaire_slug": "581923-bersac-diables-bleus",
+     "score": "5-0",
+     "statut": "joué",
+     "journee": "1er Tour",
+     "stade": "STADE LE PEU DE CHAUDADE",
+     "joue": true
+    },
+    {
+     "date": "2026-01-18",
+     "heure": "14:30",
+     "domicile": true,
+     "adversaire": "ST VICTURNIEN CA",
+     "adversaire_slug": "513703-st-victurnien-ca",
+     "score": "1-3",
+     "statut": "joué",
+     "journee": "2ème tour ",
+     "stade": "STADE LE PEU DE CHAUDADE",
+     "joue": true
     }
    ]
   },
@@ -154,10 +134,43 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "ST LEONARD DE NOBLAT 2",
+     "adversaire_slug": "517419-st-leonard-de-noblat-2",
      "score": "3-4",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE LE PEU DE CHAUDADE"
+     "stade": "STADE LE PEU DE CHAUDADE",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "435203",
+   "division": "Coupe Nouvelle-Aquitaine U15",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U15",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "ENT. NANT COMP",
+   "equipe_slug": "519848-ent-nant-comp",
+   "matchs": [
+    {
+     "date": "2025-10-18",
+     "heure": "15:00",
+     "domicile": false,
+     "adversaire": "BESSINES ANF 87 GJ",
+     "adversaire_slug": "560990-bessines-anf-87-gj",
+     "score": "4-0",
+     "statut": "joué",
+     "journee": "Tour 1",
+     "stade": "STADE JEAN PERIN",
+     "joue": true
     }
    ]
   },
@@ -183,10 +196,12 @@
      "heure": "20:00",
      "domicile": true,
      "adversaire": "SEREILHAC SC",
+     "adversaire_slug": "524281-sereilhac-sc",
      "score": "2-0",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE LE PEU DE CHAUDADE"
+     "stade": "STADE LE PEU DE CHAUDADE",
+     "joue": true
     }
    ]
   }

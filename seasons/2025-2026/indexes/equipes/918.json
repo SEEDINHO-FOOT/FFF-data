@@ -28,49 +28,12 @@
      "heure": "15:00",
      "domicile": false,
      "adversaire": "COMINES ACS",
+     "adversaire_slug": "500991-comines-acs",
      "score": "5-3",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE ETIENNE PLANCQUE 1"
-    }
-   ]
-  },
-  {
-   "cpNo": "444111",
-   "division": "Coupe des Flandres Vet A 11",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "HAUTS-DE-FRANCE",
-   "equipe_nom": "BOUSBECQUE CS",
-   "equipe_slug": "501330-bousbecque-cs",
-   "matchs": [
-    {
-     "date": "2025-10-19",
-     "heure": "09:30",
-     "domicile": false,
-     "adversaire": "ANNOEULLIN FC",
-     "score": "2-3",
-     "statut": "joué",
-     "journee": null,
-     "stade": "STADE LÉO LAGRANGE N°2"
-    },
-    {
-     "date": "2026-02-01",
-     "heure": "08:30",
-     "domicile": false,
-     "adversaire": "ROUBAIX TCG PORTUGAI",
-     "score": "5-1",
-     "statut": "joué",
-     "journee": null,
-     "stade": "Stade Antoine maillard"
+     "stade": "STADE ETIENNE PLANCQUE 1",
+     "joue": true
     }
    ]
   },
@@ -96,20 +59,25 @@
      "heure": "09:00",
      "domicile": false,
      "adversaire": "WAVRIN DON JS 31",
+     "adversaire_slug": "550240-wavrin-don-js-31",
      "score": "5-5",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true,
+     "tirs_au_but": true
     },
     {
      "date": "2026-02-01",
      "heure": "09:00",
      "domicile": false,
      "adversaire": "ARMENTIERES JA 31",
+     "adversaire_slug": "500305-armentieres-ja-31",
      "score": "4-1",
      "statut": "joué",
      "journee": null,
-     "stade": null
+     "stade": null,
+     "joue": true
     }
    ]
   },
@@ -135,10 +103,12 @@
      "heure": "17:00",
      "domicile": false,
      "adversaire": "LILLE VIEUX AS",
+     "adversaire_slug": "536150-lille-vieux-as",
      "score": "6-5",
      "statut": "joué",
      "journee": "1er TOUR",
-     "stade": "STADE ADOLPHE MAX 1"
+     "stade": "STADE ADOLPHE MAX 1",
+     "joue": true
     }
    ]
   },
@@ -164,50 +134,104 @@
      "heure": "10:00",
      "domicile": false,
      "adversaire": "LE DOULIEU STEENWERC",
+     "adversaire_slug": "530396-le-doulieu-steenwerc",
      "score": "0-3",
      "statut": "joué",
      "journee": "2ème tour",
-     "stade": "STADE MAURICE SALOMEZ 1"
+     "stade": "STADE MAURICE SALOMEZ 1",
+     "joue": true
     },
     {
      "date": "2026-04-05",
      "heure": "10:00",
      "domicile": false,
      "adversaire": "PERENCHIES USF 2",
+     "adversaire_slug": "500383-perenchies-usf-2",
      "score": "0-3",
      "statut": "joué",
      "journee": "8ème de finale",
-     "stade": "STADE DONAT AGACHE 1"
+     "stade": "STADE DONAT AGACHE 1",
+     "joue": true
     },
     {
      "date": "2026-04-05",
      "heure": "10:00",
      "domicile": false,
      "adversaire": "LA GORGUE CS",
+     "adversaire_slug": "501298-la-gorgue-cs",
      "score": null,
      "statut": "à venir",
      "journee": "8ème de finale",
-     "stade": null
+     "stade": null,
+     "joue": false
     },
     {
      "date": "2026-04-18",
      "heure": "18:00",
      "domicile": false,
      "adversaire": "ENNEQUIN ES",
+     "adversaire_slug": "534171-ennequin-es",
      "score": "2-2",
      "statut": "joué",
      "journee": null,
-     "stade": "COMPLEXE SPORTIF 2"
+     "stade": "COMPLEXE SPORTIF 2",
+     "joue": true,
+     "tirs_au_but": true
     },
     {
      "date": "2026-05-24",
      "heure": "10:00",
      "domicile": true,
      "adversaire": "LOMME DELIVRANCE SR",
+     "adversaire_slug": "527898-lomme-delivrance-sr",
      "score": "1-4",
      "statut": "joué",
      "journee": "1/2 finales",
-     "stade": "STADE SAINT JOSEPH 1"
+     "stade": "STADE SAINT JOSEPH 1",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "444111",
+   "division": "Coupe des Flandres Vet A 11",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "HAUTS-DE-FRANCE",
+   "equipe_nom": "BOUSBECQUE CS",
+   "equipe_slug": "501330-bousbecque-cs",
+   "matchs": [
+    {
+     "date": "2025-10-19",
+     "heure": "09:30",
+     "domicile": false,
+     "adversaire": "ANNOEULLIN FC",
+     "adversaire_slug": "500930-annoeullin-fc",
+     "score": "2-3",
+     "statut": "joué",
+     "journee": null,
+     "stade": "STADE LÉO LAGRANGE N°2",
+     "joue": true
+    },
+    {
+     "date": "2026-02-01",
+     "heure": "08:30",
+     "domicile": false,
+     "adversaire": "ROUBAIX TCG PORTUGAI",
+     "adversaire_slug": "550189-roubaix-tcg-portugai",
+     "score": "5-1",
+     "statut": "joué",
+     "journee": null,
+     "stade": "Stade Antoine maillard",
+     "joue": true
     }
    ]
   }

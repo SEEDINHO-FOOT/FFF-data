@@ -7,74 +7,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "435203",
-   "division": "Coupe Nouvelle-Aquitaine U15",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U15",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "FC CANTON D¿ORADOUR",
-   "equipe_slug": "565181-fc-canton-d-oradour",
-   "matchs": [
-    {
-     "date": "2025-10-18",
-     "heure": "13:00",
-     "domicile": false,
-     "adversaire": "AURENCE-ROUSSILLON F",
-     "score": "12-0",
-     "statut": "joué",
-     "journee": "Tour 1",
-     "stade": "STADE DE LA DELIADE 1"
-    }
-   ]
-  },
-  {
-   "cpNo": "436020",
-   "division": "Coupe Consolante U17",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "U17",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NOUVELLE-AQUITAINE",
-   "equipe_nom": "GJ FCCO/SCS/FEUILLAR",
-   "equipe_slug": "565181-gj-fcco-scs-feuillar",
-   "matchs": [
-    {
-     "date": "2026-04-18",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "FUN 87 HL GJ",
-     "score": "3-0",
-     "statut": "joué",
-     "journee": "2ème tour",
-     "stade": "STADE MARCEL VILLATTE"
-    },
-    {
-     "date": "2026-05-02",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "PAYS AREDIEN FC",
-     "score": "3-4",
-     "statut": "joué",
-     "journee": "1/4 de Finale",
-     "stade": "STADE MARCEL VILLATTE"
-    }
-   ]
-  },
-  {
    "cpNo": "436021",
    "division": "Coupe U17",
    "niveau": "Départemental",
@@ -96,20 +28,24 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "FUN 87 HL GJ",
+     "adversaire_slug": "551395-fun-87-hl-gj",
      "score": "4-1",
      "statut": "joué",
      "journee": "Tour de régularisation",
-     "stade": "STADE MARCEL VILLATTE"
+     "stade": "STADE MARCEL VILLATTE",
+     "joue": true
     },
     {
      "date": "2026-04-04",
      "heure": "15:00",
      "domicile": true,
      "adversaire": "ROCHECHOUART OC",
+     "adversaire_slug": "517994-rochechouart-oc",
      "score": "2-7",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE MARCEL VILLATTE"
+     "stade": "STADE MARCEL VILLATTE",
+     "joue": true
     }
    ]
   },
@@ -135,10 +71,56 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "GJ EF PAYS NEXON",
+     "adversaire_slug": "553678-gj-ef-pays-nexon",
      "score": "1-1",
      "statut": "joué",
      "journee": "2ème tour",
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true,
+     "tirs_au_but": true
+    }
+   ]
+  },
+  {
+   "cpNo": "436020",
+   "division": "Coupe Consolante U17",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U17",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "GJ FCCO/SCS/FEUILLAR",
+   "equipe_slug": "565181-gj-fcco-scs-feuillar",
+   "matchs": [
+    {
+     "date": "2026-04-18",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "FUN 87 HL GJ",
+     "adversaire_slug": "551395-fun-87-hl-gj",
+     "score": "3-0",
+     "statut": "joué",
+     "journee": "2ème tour",
+     "stade": "STADE MARCEL VILLATTE",
+     "joue": true
+    },
+    {
+     "date": "2026-05-02",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "PAYS AREDIEN FC",
+     "adversaire_slug": "560189-pays-aredien-fc",
+     "score": "3-4",
+     "statut": "joué",
+     "journee": "1/4 de Finale",
+     "stade": "STADE MARCEL VILLATTE",
+     "joue": true
     }
    ]
   },
@@ -164,10 +146,43 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "OFC FOOTSUD ESLCL",
+     "adversaire_slug": "550210-ofc-footsud-eslcl",
      "score": "0-6",
      "statut": "joué",
      "journee": null,
-     "stade": "STADE MUNICIPAL"
+     "stade": "STADE MUNICIPAL",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "435203",
+   "division": "Coupe Nouvelle-Aquitaine U15",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "U15",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NOUVELLE-AQUITAINE",
+   "equipe_nom": "FC CANTON D¿ORADOUR",
+   "equipe_slug": "565181-fc-canton-d-oradour",
+   "matchs": [
+    {
+     "date": "2025-10-18",
+     "heure": "13:00",
+     "domicile": false,
+     "adversaire": "AURENCE-ROUSSILLON F",
+     "adversaire_slug": "561239-aurence-roussillon-f",
+     "score": "12-0",
+     "statut": "joué",
+     "journee": "Tour 1",
+     "stade": "STADE DE LA DELIADE 1",
+     "joue": true
     }
    ]
   }

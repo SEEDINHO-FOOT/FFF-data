@@ -7,84 +7,6 @@
  ],
  "competitions": [
   {
-   "cpNo": "445354",
-   "division": "Coupe Vétérans",
-   "niveau": "Départemental",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "BRETAGNE",
-   "equipe_nom": "US PONTORSON",
-   "equipe_slug": "500184-us-pontorson",
-   "matchs": [
-    {
-     "date": "2025-10-03",
-     "heure": "20:30",
-     "domicile": true,
-     "adversaire": "BAGUER PICAN JS",
-     "score": "6-2",
-     "statut": "joué",
-     "journee": "1er tour",
-     "stade": "Stade François Boucey"
-    },
-    {
-     "date": "2025-10-24",
-     "heure": "20:30",
-     "domicile": true,
-     "adversaire": "LA RICHARDAIS CS",
-     "score": "1-1",
-     "statut": "joué",
-     "journee": "32èmes de finale",
-     "stade": "Stade François Boucey"
-    }
-   ]
-  },
-  {
-   "cpNo": "440177",
-   "division": "COUPE DE NORMANDIE SENIORS",
-   "niveau": "Régional",
-   "echelon": null,
-   "forme": "Coupe",
-   "categorie": {
-    "age": "Seniors",
-    "genre": "M",
-    "discipline": "Football"
-   },
-   "type": "coupe",
-   "scope": "regional",
-   "region": "NORMANDIE",
-   "equipe_nom": "US PONTORSON",
-   "equipe_slug": "500184-us-pontorson",
-   "matchs": [
-    {
-     "date": "2025-09-14",
-     "heure": "15:00",
-     "domicile": true,
-     "adversaire": "ES GOUVILLE/MER",
-     "score": "4-3",
-     "statut": "joué",
-     "journee": "1ER TOUR",
-     "stade": "Stade Municipal"
-    },
-    {
-     "date": "2025-12-14",
-     "heure": "14:30",
-     "domicile": true,
-     "adversaire": "FC AGON COUTAINVILLE",
-     "score": "1-1",
-     "statut": "joué",
-     "journee": "3eme TOUR",
-     "stade": "Stade Municipal"
-    }
-   ]
-  },
-  {
    "cpNo": "443435",
    "division": "COUPE DU CONSEIL DEPARTEMENTAL",
    "niveau": "Départemental",
@@ -106,10 +28,12 @@
      "heure": "14:30",
      "domicile": true,
      "adversaire": "SM HAYTILLON",
+     "adversaire_slug": "510449-sm-haytillon",
      "score": "1-8",
      "statut": "joué",
      "journee": null,
-     "stade": "Stade Municipal"
+     "stade": "Stade Municipal",
+     "joue": true
     }
    ]
   },
@@ -135,10 +59,12 @@
      "heure": "13:00",
      "domicile": true,
      "adversaire": "AS JULLOUVILLE SART 2",
+     "adversaire_slug": "549545-as-jullouville-sart-2",
      "score": "1-2",
      "statut": "joué",
      "journee": "1er Tour",
-     "stade": "Stade Municipal"
+     "stade": "Stade Municipal",
+     "joue": true
     }
    ]
   },
@@ -164,10 +90,100 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "US AVRANCHES MSM 2",
+     "adversaire_slug": "500105-us-avranches-msm-2",
      "score": "2-6",
      "statut": "joué",
      "journee": null,
-     "stade": "Stade Loumel - Vessey"
+     "stade": "Stade Loumel - Vessey",
+     "joue": true
+    }
+   ]
+  },
+  {
+   "cpNo": "440177",
+   "division": "COUPE DE NORMANDIE SENIORS",
+   "niveau": "Régional",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "NORMANDIE",
+   "equipe_nom": "US PONTORSON",
+   "equipe_slug": "500184-us-pontorson",
+   "matchs": [
+    {
+     "date": "2025-09-14",
+     "heure": "15:00",
+     "domicile": true,
+     "adversaire": "ES GOUVILLE/MER",
+     "adversaire_slug": "510725-es-gouville-mer",
+     "score": "4-3",
+     "statut": "joué",
+     "journee": "1ER TOUR",
+     "stade": "Stade Municipal",
+     "joue": true
+    },
+    {
+     "date": "2025-12-14",
+     "heure": "14:30",
+     "domicile": true,
+     "adversaire": "FC AGON COUTAINVILLE",
+     "adversaire_slug": "501508-fc-agon-coutainville",
+     "score": "1-1",
+     "statut": "joué",
+     "journee": "3eme TOUR",
+     "stade": "Stade Municipal",
+     "joue": true,
+     "tirs_au_but": true
+    }
+   ]
+  },
+  {
+   "cpNo": "445354",
+   "division": "Coupe Vétérans",
+   "niveau": "Départemental",
+   "echelon": null,
+   "forme": "Coupe",
+   "categorie": {
+    "age": "Seniors",
+    "genre": "M",
+    "discipline": "Football"
+   },
+   "type": "coupe",
+   "scope": "regional",
+   "region": "BRETAGNE",
+   "equipe_nom": "US PONTORSON",
+   "equipe_slug": "500184-us-pontorson",
+   "matchs": [
+    {
+     "date": "2025-10-03",
+     "heure": "20:30",
+     "domicile": true,
+     "adversaire": "BAGUER PICAN JS",
+     "adversaire_slug": "530243-baguer-pican-js",
+     "score": "6-2",
+     "statut": "joué",
+     "journee": "1er tour",
+     "stade": "Stade François Boucey",
+     "joue": true
+    },
+    {
+     "date": "2025-10-24",
+     "heure": "20:30",
+     "domicile": true,
+     "adversaire": "LA RICHARDAIS CS",
+     "adversaire_slug": "529819-la-richardais-cs",
+     "score": "1-1",
+     "statut": "joué",
+     "journee": "32èmes de finale",
+     "stade": "Stade François Boucey",
+     "joue": true,
+     "tirs_au_but": true
     }
    ]
   },
@@ -193,10 +209,12 @@
      "heure": "15:00",
      "domicile": true,
      "adversaire": "CS VILLEDIEU",
+     "adversaire_slug": "501439-cs-villedieu",
      "score": "0-3",
      "statut": "joué",
      "journee": "1er TOUR",
-     "stade": "Stade Municipal"
+     "stade": "Stade Municipal",
+     "joue": true
     }
    ]
   }
