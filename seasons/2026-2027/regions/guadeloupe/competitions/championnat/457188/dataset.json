@@ -34,6 +34,30 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC512723.jpg",
           "clNo": "4070",
           "slug": "512723-et-morne-eau"
+        },
+        "F.C D'OR": {
+          "nom": "F.C D'OR",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC765340.jpg",
+          "clNo": "205385",
+          "slug": "765340-f-c-d-or"
+        },
+        "C.S. CAPESTERRE BELL": {
+          "nom": "C.S. CAPESTERRE BELL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC512909.jpg",
+          "clNo": "4115",
+          "slug": "512909-c-s-capesterre-bell"
+        },
+        "ASC RENAISSANCE": {
+          "nom": "ASC RENAISSANCE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC765097.jpg",
+          "clNo": "204979",
+          "slug": "765097-asc-renaissance"
+        },
+        "SPORTING B/M": {
+          "nom": "SPORTING B/M",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC531612.jpg",
+          "clNo": "14327",
+          "slug": "531612-sporting-b-m"
         }
       },
       "stades": {
@@ -47,6 +71,20 @@
         "STADE DE BOISVIN_['BOISVIN', '97160 LE MOULE']": {
           "nom": "STADE DE BOISVIN",
           "adresse": "BOISVIN | 97160 LE MOULE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "Stade François xavier Durimel_['ROUTE DES RAISINS CLAIRS', '97118 ST FRANCOIS']": {
+          "nom": "Stade François xavier Durimel",
+          "adresse": "ROUTE DES RAISINS CLAIRS | 97118 ST FRANCOIS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE CYRANO ARRENDEL_['SAINTE AMELIE', 'PASSAGE DES SPORTIFS', '97131 PETIT CANAL']": {
+          "nom": "STADE CYRANO ARRENDEL",
+          "adresse": "SAINTE AMELIE | PASSAGE DES SPORTIFS | 97131 PETIT CANAL",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -80,6 +118,31 @@
         },
         "Anonyme_A2": {
           "nom": "Anonyme",
+          "role": "Arbitre assistant 2",
+          "role_cod": "A2"
+        },
+        "SCHNEIDER PIERRE_AC": {
+          "nom": "SCHNEIDER PIERRE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "LORRICK LANDOU_A1": {
+          "nom": "LORRICK LANDOU",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
+        },
+        "ARNAUD DAMIEN CURAL_AC": {
+          "nom": "ARNAUD DAMIEN CURAL",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ETHAN TURAM_A1": {
+          "nom": "ETHAN TURAM",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
+        },
+        "TAYRICK GASPARD_A2": {
+          "nom": "TAYRICK GASPARD",
           "role": "Arbitre assistant 2",
           "role_cod": "A2"
         }
@@ -268,10 +331,16 @@
           "heure": "15:30",
           "recevant": "F.C D'OR",
           "visiteur": "C.S. CAPESTERRE BELL",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "réserve"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade François xavier Durimel_['ROUTE DES RAISINS CLAIRS', '97118 ST FRANCOIS']",
+          "officiels": [
+            "SCHNEIDER PIERRE_AC",
+            "LORRICK LANDOU_A1",
+            "Anonyme_A2"
+          ]
         },
         {
           "id": 78786248,
@@ -514,10 +583,16 @@
           "heure": "15:30",
           "recevant": "ASC RENAISSANCE",
           "visiteur": "SPORTING B/M",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "réserve"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE CYRANO ARRENDEL_['SAINTE AMELIE', 'PASSAGE DES SPORTIFS', '97131 PETIT CANAL']",
+          "officiels": [
+            "ARNAUD DAMIEN CURAL_AC",
+            "ETHAN TURAM_A1",
+            "TAYRICK GASPARD_A2"
+          ]
         },
         {
           "id": 78786246,
