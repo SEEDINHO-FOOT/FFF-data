@@ -88,6 +88,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE PROVENCE 1_['1 RUE DU STADE', 'synthétique', '05000 GAP']": {
+          "nom": "STADE PROVENCE 1",
+          "adresse": "1 RUE DU STADE | synthétique | 05000 GAP",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -133,6 +140,21 @@
         },
         "LENNY LOCATELLI_A2": {
           "nom": "LENNY LOCATELLI",
+          "role": "Arbitre assistant 2",
+          "role_cod": "A2"
+        },
+        "Anonyme_AC": {
+          "nom": "Anonyme",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "CYRIL CREPIN_A1": {
+          "nom": "CYRIL CREPIN",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
+        },
+        "FELIX GIRARDIN_A2": {
+          "nom": "FELIX GIRARDIN",
           "role": "Arbitre assistant 2",
           "role_cod": "A2"
         }
@@ -613,11 +635,13 @@
           "heure": "11:00",
           "recevant": "EP MANOSQUE",
           "visiteur": "ENT. BUËCH FOOTBALL",
-          "buts_recevant": 0,
-          "buts_visiteur": 3,
-          "joue": true,
-          "statut": "joué",
-          "stade_id": "Stade Adrien Gilly 1 (Honneur)_['ALLEE DE LA PONSONNE', '04100 MANOSQUE']"
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "",
+          "stade_id": "Stade Adrien Gilly 1 (Honneur)_['ALLEE DE LA PONSONNE', '04100 MANOSQUE']",
+          "forfait": true,
+          "vainqueur_forfait": "ENT. BUËCH FOOTBALL"
         },
         {
           "id": 79439677,
@@ -775,7 +799,7 @@
         {
           "id": 79439679,
           "date": "2026-09-20",
-          "heure": "11:00",
+          "heure": "12:30",
           "recevant": "ENT. BUËCH FOOTBALL",
           "visiteur": "A.S. FORCALQUIER",
           "buts_recevant": null,
@@ -789,10 +813,16 @@
           "heure": "11:00",
           "recevant": "GAP FOOT 05 2",
           "visiteur": "F. C. MALIJAI",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PROVENCE 1_['1 RUE DU STADE', 'synthétique', '05000 GAP']",
+          "officiels": [
+            "Anonyme_AC",
+            "CYRIL CREPIN_A1",
+            "FELIX GIRARDIN_A2"
+          ]
         },
         {
           "id": 79439680,

@@ -76,6 +76,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC590568.jpg",
           "clNo": "167704",
           "slug": "590568-futsal-c-port-bouc"
+        },
+        "MANDELIEU FUTSAL": {
+          "nom": "MANDELIEU FUTSAL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC582024.jpg",
+          "clNo": "187563",
+          "slug": "582024-mandelieu-futsal"
         }
       },
       "stades": {
@@ -131,6 +137,13 @@
         "GYMNASE FRANCOIS BILLOUX_['Avenue du groupe MANOUCHIAN', '13110 PORT DE BOUC']": {
           "nom": "GYMNASE FRANCOIS BILLOUX",
           "adresse": "Avenue du groupe MANOUCHIAN | 13110 PORT DE BOUC",
+          "surface": "PVC",
+          "surface_jeu": "PVC",
+          "type_installation": "Futsal"
+        },
+        "GYMNASE PORT MARCHAND_['RUE DU PRESIDENT ROBERT SCHUMAN', '83000 TOULON']": {
+          "nom": "GYMNASE PORT MARCHAND",
+          "adresse": "RUE DU PRESIDENT ROBERT SCHUMAN | 83000 TOULON",
           "surface": "PVC",
           "surface_jeu": "PVC",
           "type_installation": "Futsal"
@@ -219,6 +232,16 @@
         },
         "ROLAND POIZE_A1": {
           "nom": "ROLAND POIZE",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
+        },
+        "ADRIEN NADDOUR_AC": {
+          "nom": "ADRIEN NADDOUR",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "NABIL BENAISSI_A1": {
+          "nom": "NABIL BENAISSI",
           "role": "Arbitre assistant 1",
           "role_cod": "A1"
         }
@@ -346,7 +369,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl9kSslmbY": {
           "nom": "BAPTISTE A.",
-          "maillot": 13,
+          "maillot": 3,
           "club": "ASM FUTSAL"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh8lCgtnb4": {
@@ -396,7 +419,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK15missmrc": {
           "nom": "MOHAMED B.",
-          "maillot": 8,
+          "maillot": 12,
           "club": "CSK OF VAL ROUGIERES"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt3kSohm7A": {
@@ -411,7 +434,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp4lyokmLA": {
           "nom": "VITOR D.",
-          "maillot": 3,
+          "maillot": 14,
           "club": "ASM FUTSAL"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl7liksmbE": {
@@ -1370,10 +1393,15 @@
           "heure": "13:00",
           "recevant": "TOULON EST FUTSAL",
           "visiteur": "MANDELIEU FUTSAL",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "GYMNASE PORT MARCHAND_['RUE DU PRESIDENT ROBERT SCHUMAN', '83000 TOULON']",
+          "officiels": [
+            "ADRIEN NADDOUR_AC",
+            "NABIL BENAISSI_A1"
+          ]
         },
         {
           "id": 56188093,

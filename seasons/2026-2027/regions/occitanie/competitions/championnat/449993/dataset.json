@@ -1155,8 +1155,8 @@
         },
         {
           "id": 55880624,
-          "date": "2026-09-20",
-          "heure": "10:30",
+          "date": "2026-09-19",
+          "heure": "14:30",
           "recevant": "CASTELNAU CRES FC",
           "visiteur": "CLERMONTAISE",
           "buts_recevant": null,
@@ -2549,6 +2549,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC517037.jpg",
           "clNo": "5236",
           "slug": "517037-balma-sc"
+        },
+        "GRPT OCSM / FCSA": {
+          "nom": "GRPT OCSM / FCSA",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565786.jpg",
+          "clNo": "206302",
+          "slug": "565786-grpt-ocsm-fcsa"
+        },
+        "GRPT GARONNA NORD T.": {
+          "nom": "GRPT GARONNA NORD T.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560891.jpg",
+          "clNo": "199108",
+          "slug": "560891-grpt-garonna-nord-t"
         }
       },
       "stades": {
@@ -2586,6 +2598,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['95 CHEMIN SAINTE VALIERE', '11120 ST NAZAIRE D AUDE']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "95 CHEMIN SAINTE VALIERE | 11120 ST NAZAIRE D AUDE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -2621,6 +2640,11 @@
         },
         "ABEL BELLAHCEN_AC": {
           "nom": "ABEL BELLAHCEN",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "YOHAN OUAHBI DAHL_AC": {
+          "nom": "YOHAN OUAHBI DAHL",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -3189,10 +3213,14 @@
           "heure": "15:30",
           "recevant": "GRPT OCSM / FCSA",
           "visiteur": "GRPT GARONNA NORD T.",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['95 CHEMIN SAINTE VALIERE', '11120 ST NAZAIRE D AUDE']",
+          "officiels": [
+            "YOHAN OUAHBI DAHL_AC"
+          ]
         },
         {
           "id": 55880752,
@@ -3587,7 +3615,7 @@
         {
           "id": 55880757,
           "date": "2026-09-20",
-          "heure": "12:00",
+          "heure": "13:00",
           "recevant": "BLAGNAC FC",
           "visiteur": "UJS TOULOUSE",
           "buts_recevant": null,

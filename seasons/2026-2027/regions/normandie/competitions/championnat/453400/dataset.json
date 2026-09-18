@@ -34,6 +34,30 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500075.jpg",
           "clNo": "217",
           "slug": "500075-sm-caen"
+        },
+        "AGNEAUX FC": {
+          "nom": "AGNEAUX FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC535796.jpg",
+          "clNo": "17124",
+          "slug": "535796-agneaux-fc"
+        },
+        "AVT G. CAEN FOOTBALL": {
+          "nom": "AVT G. CAEN FOOTBALL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC509857.jpg",
+          "clNo": "3520",
+          "slug": "509857-avt-g-caen-football"
+        },
+        "AS PTT CAEN": {
+          "nom": "AS PTT CAEN",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC501594.jpg",
+          "clNo": "1043",
+          "slug": "501594-as-ptt-caen"
+        },
+        "US AVRANCHES MSM": {
+          "nom": "US AVRANCHES MSM",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500105.jpg",
+          "clNo": "241",
+          "slug": "500105-us-avranches-msm"
         }
       },
       "stades": {
@@ -43,11 +67,35 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE DE LA FALAISE 1_['94 ROUTE DE COUTANCES', '50180 AGNEAUX']": {
+          "nom": "STADE DE LA FALAISE 1",
+          "adresse": "94 ROUTE DE COUTANCES | 50180 AGNEAUX",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MAURICE FOUQUE 1_['13 RUE DE LA HACHE', '14000 CAEN']": {
+          "nom": "STADE MAURICE FOUQUE 1",
+          "adresse": "13 RUE DE LA HACHE | 14000 CAEN",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
         "THIBAUD CAPELLE_AC": {
           "nom": "THIBAUD CAPELLE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ENZO AUVRAY_AC": {
+          "nom": "ENZO AUVRAY",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "RAPHAEL CHEVALIER_AC": {
+          "nom": "RAPHAEL CHEVALIER",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -127,10 +175,14 @@
           "heure": "11:30",
           "recevant": "AGNEAUX FC",
           "visiteur": "AVT G. CAEN FOOTBALL",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA FALAISE 1_['94 ROUTE DE COUTANCES', '50180 AGNEAUX']",
+          "officiels": [
+            "ENZO AUVRAY_AC"
+          ]
         },
         {
           "id": 79380112,
@@ -206,10 +258,14 @@
           "heure": "15:30",
           "recevant": "AS PTT CAEN",
           "visiteur": "US AVRANCHES MSM",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MAURICE FOUQUE 1_['13 RUE DE LA HACHE', '14000 CAEN']",
+          "officiels": [
+            "RAPHAEL CHEVALIER_AC"
+          ]
         },
         {
           "id": 79380115,
@@ -225,7 +281,7 @@
         {
           "id": 79380116,
           "date": "2026-09-19",
-          "heure": "15:30",
+          "heure": "13:00",
           "recevant": "FC ST LO MANCHE",
           "visiteur": "AS PTT CAEN",
           "buts_recevant": null,
@@ -236,7 +292,7 @@
         {
           "id": 79380117,
           "date": "2026-09-19",
-          "heure": "15:30",
+          "heure": "13:00",
           "recevant": "US AVRANCHES MSM",
           "visiteur": "AGNEAUX FC",
           "buts_recevant": null,
@@ -736,7 +792,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK19lC8tnbY": {
           "nom": "ABDOULAYE D.",
-          "maillot": 6,
+          "maillot": 5,
           "club": "SCH FOOTBALL"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK15lS0kmLU": {
@@ -756,12 +812,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx4lS8tn7c": {
           "nom": "ELIJAH N.",
-          "maillot": 14,
+          "maillot": 13,
           "club": "SCH FOOTBALL"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK18my4snL4": {
           "nom": "AXEL D.",
-          "maillot": 2,
+          "maillot": 12,
           "club": "US ALENCONNAISE 61"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK16lichnbU": {
@@ -771,7 +827,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK17ky0snrc": {
           "nom": "TIMEO L.",
-          "maillot": 9,
+          "maillot": 8,
           "club": "US ALENCONNAISE 61"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK17lS8lm7Q": {
@@ -796,7 +852,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK16lissm7I": {
           "nom": "MAHE L.",
-          "maillot": 10,
+          "maillot": 6,
           "club": "QRM"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt4kS0kl7E": {
@@ -806,17 +862,17 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK12kSsgmbI": {
           "nom": "SARO M.",
-          "maillot": 11,
+          "maillot": 14,
           "club": "QRM"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK16miokmrY": {
           "nom": "CRISTIANO E.",
-          "maillot": 13,
+          "maillot": 11,
           "club": "QRM"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx6liojlrM": {
           "nom": "JOSEPH M.",
-          "maillot": 5,
+          "maillot": 13,
           "club": "QRM"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK15lisll74": {
@@ -831,12 +887,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx3lyojm74": {
           "nom": "SACHA V.",
-          "maillot": 13,
+          "maillot": 12,
           "club": "FC ROUEN 1899"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK15miwhlrI": {
           "nom": "MARVELLOUS C.",
-          "maillot": 10,
+          "maillot": 7,
           "club": "FC ROUEN 1899"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx5kykhm7c": {
@@ -846,7 +902,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK12ly8hn7c": {
           "nom": "YOUVA S.",
-          "maillot": 7,
+          "maillot": 14,
           "club": "FC ROUEN 1899"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK19mywgn7E": {
@@ -856,7 +912,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK16misjnbc": {
           "nom": "TEO C.",
-          "maillot": 2,
+          "maillot": 12,
           "club": "CA LISIEUX PA"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK17ly4lmrU": {
@@ -886,12 +942,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp9kSkjn7M": {
           "nom": "SEMIH G.",
-          "maillot": 13,
+          "maillot": 12,
           "club": "FC FLERIEN"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx5ki8imLM": {
           "nom": "ANDREAS B.",
-          "maillot": 5,
+          "maillot": 14,
           "club": "FC FLERIEN"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt3kS0kmrY": {
@@ -906,7 +962,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK16lC8kmrA": {
           "nom": "TIAGO L.",
-          "maillot": 12,
+          "maillot": 13,
           "club": "FC FLERIEN"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK16ki4tmr4": {
@@ -926,12 +982,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK19kyokm78": {
           "nom": "YOUNES B.",
-          "maillot": 7,
+          "maillot": 12,
           "club": "AS VERSON"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK12kyslnrc": {
           "nom": "MOHAMED SANOU D.",
-          "maillot": 12,
+          "maillot": 7,
           "club": "AS VERSON"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx_lyktmrQ": {
@@ -966,7 +1022,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx_mi4tmbE": {
           "nom": "IZAAC W.",
-          "maillot": 13,
+          "maillot": 12,
           "club": "USON MONDEVILLE"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK17mystmrA": {
@@ -991,7 +1047,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK18lCwlmbM": {
           "nom": "MATHIAS M.",
-          "maillot": 4,
+          "maillot": 14,
           "club": "AS VERSON"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK16miwsl7c": {
@@ -1876,7 +1932,7 @@
         {
           "id": 56392220,
           "date": "2026-09-19",
-          "heure": "15:30",
+          "heure": "13:30",
           "recevant": "AS VERSON",
           "visiteur": "SCH FOOTBALL",
           "buts_recevant": null,
@@ -1898,7 +1954,7 @@
         {
           "id": 56392222,
           "date": "2026-09-19",
-          "heure": "15:30",
+          "heure": "13:00",
           "recevant": "FC ROUEN 1899",
           "visiteur": "FC FLERIEN",
           "buts_recevant": null,
@@ -1909,7 +1965,7 @@
         {
           "id": 56392223,
           "date": "2026-09-19",
-          "heure": "15:30",
+          "heure": "13:00",
           "recevant": "CA LISIEUX PA",
           "visiteur": "USON MONDEVILLE",
           "buts_recevant": null,
@@ -2251,7 +2307,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK12liwtlr4": {
           "nom": "SAMY K.",
-          "maillot": 6,
+          "maillot": 7,
           "club": "AL DEVILLE MAROMME"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt_myoln7Q": {
@@ -2271,7 +2327,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK18kSosm7U": {
           "nom": "CYREH S.",
-          "maillot": 14,
+          "maillot": 11,
           "club": "SC FRILEUSE"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK17my4kmbE": {
@@ -2286,7 +2342,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK16lSonmLQ": {
           "nom": "HERY E.",
-          "maillot": 12,
+          "maillot": 13,
           "club": "SC FRILEUSE"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK15mi8ll78": {
@@ -2301,7 +2357,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx8likkmbE": {
           "nom": "MELVIN G.",
-          "maillot": 11,
+          "maillot": 12,
           "club": "YVETOT AC"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd7myYklr4": {
@@ -2331,7 +2387,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK17lC4tmrc": {
           "nom": "NAEL M.",
-          "maillot": 12,
+          "maillot": 13,
           "club": "CS SERV.MUN.LE HAVRE"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK18liwlmbA": {
@@ -2341,7 +2397,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK14lS4gmr8": {
           "nom": "ISMAIL K.",
-          "maillot": 14,
+          "maillot": 7,
           "club": "CS SERV.MUN.LE HAVRE"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK15kS4km7A": {
@@ -2356,7 +2412,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt5lC8sn7M": {
           "nom": "ILYES M.",
-          "maillot": 8,
+          "maillot": 12,
           "club": "HAVRE CAUCRIAUV S"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK18lCcinbU": {
@@ -2366,12 +2422,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx4my0nn7U": {
           "nom": "ZAKARYA K.",
-          "maillot": 10,
+          "maillot": 13,
           "club": "HAVRE CAUCRIAUV S"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK18lS0gm7U": {
           "nom": "LIAM J.",
-          "maillot": 14,
+          "maillot": 10,
           "club": "HAVRE CAUCRIAUV S"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx7lyghmL4": {
@@ -2396,12 +2452,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK16mikimrA": {
           "nom": "IMRAN S.",
-          "maillot": 7,
+          "maillot": 11,
           "club": "HAVRE CAUCRIAUV S"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx7ky4slrU": {
           "nom": "AMADOU D.",
-          "maillot": 12,
+          "maillot": 4,
           "club": "HAVRE CAUCRIAUV S"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx-kikimLA": {
@@ -2416,12 +2472,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK18lywsmbM": {
           "nom": "CLEMENT B.",
-          "maillot": 8,
+          "maillot": 12,
           "club": "FC DIEPPE"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd6lS8jm7Y": {
           "nom": "NOLAN F.",
-          "maillot": 12,
+          "maillot": 13,
           "club": "FC DIEPPE"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK18my0slrQ": {
@@ -2431,7 +2487,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx-kyssmLA": {
           "nom": "LILY M.",
-          "maillot": 13,
+          "maillot": 4,
           "club": "FC DIEPPE"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK18licknrY": {
@@ -2456,7 +2512,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK12liYil7E": {
           "nom": "LOUIS A.",
-          "maillot": 10,
+          "maillot": 12,
           "club": "HAVRE AC"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK18kSoilrY": {
@@ -3159,7 +3215,7 @@
         {
           "id": 56191034,
           "date": "2026-09-19",
-          "heure": "15:30",
+          "heure": "13:00",
           "recevant": "HAVRE CAUCRIAUV S",
           "visiteur": "FC DIEPPE",
           "buts_recevant": null,
@@ -3451,6 +3507,20 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "Stade Jesse Owens 1_['CHAUSSEE DE RITTERHUDE', '27100 VAL DE REUIL']": {
+          "nom": "Stade Jesse Owens 1",
+          "adresse": "CHAUSSEE DE RITTERHUDE | 27100 VAL DE REUIL",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MARCEL BILLARD 4_[' AVENUE D ANDERTEN', 'TERRAIN DANIEL LEBOURG', '76350 OISSEL SUR SEINE']": {
+          "nom": "STADE MARCEL BILLARD 4",
+          "adresse": " AVENUE D ANDERTEN | TERRAIN DANIEL LEBOURG | 76350 OISSEL SUR SEINE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -3481,6 +3551,16 @@
         },
         "OSCAR RAVON_AC": {
           "nom": "OSCAR RAVON",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "PATRICK BANNIER_AC": {
+          "nom": "PATRICK BANNIER",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "NAEL BOUSNINA_AC": {
+          "nom": "NAEL BOUSNINA",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -3533,7 +3613,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt-kSgtmLE": {
           "nom": "BATOURA G.",
-          "maillot": 12,
+          "maillot": 13,
           "club": "ROUEN SAPINS FC"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt-lSYtl7Q": {
@@ -3543,7 +3623,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt_kSwknr8": {
           "nom": "KARIM F.",
-          "maillot": 14,
+          "maillot": 12,
           "club": "ROUEN SAPINS FC"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx3mi4nmbQ": {
@@ -3558,12 +3638,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK19kCwmnrQ": {
           "nom": "NOAM G.",
-          "maillot": 11,
+          "maillot": 13,
           "club": "PACY MENILLES RC"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx6lCkjnb4": {
           "nom": "MARCEL T.",
-          "maillot": 12,
+          "maillot": 14,
           "club": "PACY MENILLES RC"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK13ki8glrM": {
@@ -3653,7 +3733,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK16michmbY": {
           "nom": "THIAGO M.",
-          "maillot": 11,
+          "maillot": 7,
           "club": "G ELBE.CLEON.CAUDEBE"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK17kCcknb4": {
@@ -3713,7 +3793,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK13lS8hm7E": {
           "nom": "MATTHEW K.",
-          "maillot": 13,
+          "maillot": 7,
           "club": "EVREUX FC 27"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK16lSojl7M": {
@@ -3733,7 +3813,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx3mycnlr4": {
           "nom": "SHAHID H.",
-          "maillot": 12,
+          "maillot": 14,
           "club": "EVREUX FC 27"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK14kCojnrE": {
@@ -4090,10 +4170,14 @@
           "heure": "14:00",
           "recevant": "FC VAL DE REUIL",
           "visiteur": "US MESNIL ESNARD FRA",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Jesse Owens 1_['CHAUSSEE DE RITTERHUDE', '27100 VAL DE REUIL']",
+          "officiels": [
+            "PATRICK BANNIER_AC"
+          ]
         },
         {
           "id": 56191056,
@@ -4227,10 +4311,14 @@
           "heure": "15:30",
           "recevant": "CMS OISSEL",
           "visiteur": "FUSC BOISGUILLAUME",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MARCEL BILLARD 4_[' AVENUE D ANDERTEN', 'TERRAIN DANIEL LEBOURG', '76350 OISSEL SUR SEINE']",
+          "officiels": [
+            "NAEL BOUSNINA_AC"
+          ]
         },
         {
           "id": 56191060,
@@ -4246,7 +4334,7 @@
         {
           "id": 56191061,
           "date": "2026-09-19",
-          "heure": "15:30",
+          "heure": "13:30",
           "recevant": "US MESNIL ESNARD FRA",
           "visiteur": "PACY MENILLES RC",
           "buts_recevant": null,

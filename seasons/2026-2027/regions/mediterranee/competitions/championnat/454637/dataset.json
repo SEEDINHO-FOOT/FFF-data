@@ -34,6 +34,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC582524.jpg",
           "clNo": "191466",
           "slug": "582524-mvr-futsal"
+        },
+        "TM FUTSAL": {
+          "nom": "TM FUTSAL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565080.jpg",
+          "clNo": "204852",
+          "slug": "565080-tm-futsal"
+        },
+        "USC ROCASSIERE": {
+          "nom": "USC ROCASSIERE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560907.jpg",
+          "clNo": "199152",
+          "slug": "560907-usc-rocassiere"
         }
       },
       "stades": {
@@ -47,6 +59,13 @@
         "GYMNASE PIERRE GASSENDI_['FRAY REDON', 'LE COLLEGE', '83136 ROCBARON']": {
           "nom": "GYMNASE PIERRE GASSENDI",
           "adresse": "FRAY REDON | LE COLLEGE | 83136 ROCBARON",
+          "surface": "PVC",
+          "surface_jeu": "PVC",
+          "type_installation": "Futsal"
+        },
+        "GYMNASE PORT MARCHAND_['RUE DU PRESIDENT ROBERT SCHUMAN', '83000 TOULON']": {
+          "nom": "GYMNASE PORT MARCHAND",
+          "adresse": "RUE DU PRESIDENT ROBERT SCHUMAN | 83000 TOULON",
           "surface": "PVC",
           "surface_jeu": "PVC",
           "type_installation": "Futsal"
@@ -70,6 +89,16 @@
         },
         "Anonyme_A1": {
           "nom": "Anonyme",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
+        },
+        "MOUNIR REGAIEG_AC": {
+          "nom": "MOUNIR REGAIEG",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ADRIEN NADDOUR_A1": {
+          "nom": "ADRIEN NADDOUR",
           "role": "Arbitre assistant 1",
           "role_cod": "A1"
         }
@@ -98,10 +127,15 @@
           "heure": "16:00",
           "recevant": "TM FUTSAL",
           "visiteur": "USC ROCASSIERE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "GYMNASE PORT MARCHAND_['RUE DU PRESIDENT ROBERT SCHUMAN', '83000 TOULON']",
+          "officiels": [
+            "MOUNIR REGAIEG_AC",
+            "ADRIEN NADDOUR_A1"
+          ]
         },
         {
           "id": 79378534,
@@ -166,7 +200,7 @@
         {
           "id": 79378538,
           "date": "2026-09-19",
-          "heure": "16:00",
+          "heure": "13:00",
           "recevant": "F.C. ST VICTORET",
           "visiteur": "TM FUTSAL",
           "buts_recevant": null,
@@ -177,7 +211,7 @@
         {
           "id": 79378537,
           "date": "2026-09-19",
-          "heure": "17:00",
+          "heure": "13:00",
           "recevant": "USC ROCASSIERE",
           "visiteur": "U.S.C.MINOTS MLLE",
           "buts_recevant": null,

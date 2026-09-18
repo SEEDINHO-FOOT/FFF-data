@@ -70,6 +70,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC551488.jpg",
           "clNo": "113159",
           "slug": "551488-st-beaucairois-fc"
+        },
+        "ROUSSON AV S": {
+          "nom": "ROUSSON AV S",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC517872.jpg",
+          "clNo": "5624",
+          "slug": "517872-rousson-av-s"
+        },
+        "F.C. LAVERUNE": {
+          "nom": "F.C. LAVERUNE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC541831.jpg",
+          "clNo": "21574",
+          "slug": "541831-f-c-laverune"
         }
       },
       "stades": {
@@ -106,6 +118,13 @@
           "adresse": "AVENUE D HEIDELBERG | TERRAIN ANNEXE | 34000 MONTPELLIER",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE LAURENT BLANC 1_['AVENUE JUSTIN AGNIEL', '30340 ROUSSON']": {
+          "nom": "STADE LAURENT BLANC 1",
+          "adresse": "AVENUE JUSTIN AGNIEL | 30340 ROUSSON",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
         }
       },
@@ -187,6 +206,21 @@
         },
         "Anonyme_A2": {
           "nom": "Anonyme",
+          "role": "Arbitre assistant 2",
+          "role_cod": "A2"
+        },
+        "YAHYA HEDDOUN_AC": {
+          "nom": "YAHYA HEDDOUN",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ARTHUR ROUX_A1": {
+          "nom": "ARTHUR ROUX",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
+        },
+        "MATEIS HEYREND_A2": {
+          "nom": "MATEIS HEYREND",
           "role": "Arbitre assistant 2",
           "role_cod": "A2"
         }
@@ -600,10 +634,16 @@
           "heure": "15:00",
           "recevant": "ROUSSON AV S",
           "visiteur": "F.C. LAVERUNE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE LAURENT BLANC 1_['AVENUE JUSTIN AGNIEL', '30340 ROUSSON']",
+          "officiels": [
+            "YAHYA HEDDOUN_AC",
+            "ARTHUR ROUX_A1",
+            "MATEIS HEYREND_A2"
+          ]
         },
         {
           "id": 55872894,
@@ -967,8 +1007,7 @@
           "officiels": [
             "MOUAD SAID ALLAH_AC",
             "MOUNIR ERROUGI_A1",
-            "OUSSAMA MOUDAKKAR_A2",
-            "SAMY DEHISSI_CP"
+            "OUSSAMA MOUDAKKAR_A2"
           ]
         },
         {
@@ -2627,6 +2666,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC554286.jpg",
           "clNo": "2689",
           "slug": "554286-us-colomiers-2"
+        },
+        "CASTANET US": {
+          "nom": "CASTANET US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC510389.jpg",
+          "clNo": "3612",
+          "slug": "510389-castanet-us"
+        },
+        "AGDE RCO": {
+          "nom": "AGDE RCO",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC548146.jpg",
+          "clNo": "25270",
+          "slug": "548146-agde-rco"
         }
       },
       "stades": {
@@ -2663,6 +2714,13 @@
           "adresse": "95 CHEMIN SAINTE VALIERE | 11120 ST NAZAIRE D AUDE",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "COMPLEXE SPORTIF DE LAUTARD N°3_['3 RUE DES FRERES FEDOU', '31320 CASTANET TOLOSAN']": {
+          "nom": "COMPLEXE SPORTIF DE LAUTARD N°3",
+          "adresse": "3 RUE DES FRERES FEDOU | 31320 CASTANET TOLOSAN",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
         }
       },
@@ -2756,6 +2814,21 @@
           "nom": "ABDELHALIM DAOUDI",
           "role": "Observateur principal",
           "role_cod": "CP"
+        },
+        "ABDELHAQ AZIZI_AC": {
+          "nom": "ABDELHAQ AZIZI",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "GASPARD MAUDENS_A1": {
+          "nom": "GASPARD MAUDENS",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
+        },
+        "SWANN JOVIAL CUPAK_A2": {
+          "nom": "SWANN JOVIAL CUPAK",
+          "role": "Arbitre assistant 2",
+          "role_cod": "A2"
         }
       },
       "joueurs": {
@@ -3128,6 +3201,91 @@
           "nom": "NASIM M.",
           "maillot": 12,
           "club": "US COLOMIERS 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd8kSctmLA": {
+          "nom": "SOFIANE M.",
+          "maillot": 9,
+          "club": "CASTANET US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh-lCYjmLQ": {
+          "nom": "DIEGO D.",
+          "maillot": 10,
+          "club": "AGDE RCO"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh8lickmbM": {
+          "nom": "ALEXIS B.",
+          "maillot": 3,
+          "club": "CASTANET US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh9li0hn7M": {
+          "nom": "MATHEO B.",
+          "maillot": 5,
+          "club": "CASTANET US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh9kiwilrU": {
+          "nom": "DIEGO M.",
+          "maillot": 8,
+          "club": "CASTANET US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh2lCkjnbU": {
+          "nom": "AMINE S.",
+          "maillot": 12,
+          "club": "CASTANET US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh9li4lnbM": {
+          "nom": "ENZO F.",
+          "maillot": 11,
+          "club": "CASTANET US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh6kisgnbA": {
+          "nom": "ADAM N.",
+          "maillot": 14,
+          "club": "CASTANET US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh6lCohmrU": {
+          "nom": "SACHA L.",
+          "maillot": 4,
+          "club": "AGDE RCO"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh2lCcsnrE": {
+          "nom": "MARTIN L.",
+          "maillot": 14,
+          "club": "AGDE RCO"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd_miYhmbA": {
+          "nom": "AMJAD Y.",
+          "maillot": 8,
+          "club": "AGDE RCO"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh2kycim7Y": {
+          "nom": "NOA S.",
+          "maillot": 13,
+          "club": "AGDE RCO"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh-kSssnb8": {
+          "nom": "ANTHONY G.",
+          "maillot": 4,
+          "club": "CASTANET US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh9miwkl7U": {
+          "nom": "MATIS E.",
+          "maillot": 2,
+          "club": "AGDE RCO"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd_miosmrM": {
+          "nom": "ELYESSE E.",
+          "maillot": 12,
+          "club": "AGDE RCO"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh5my8tnbE": {
+          "nom": "TIMOTHEE H.",
+          "maillot": 13,
+          "club": "CASTANET US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd8myklmLc": {
+          "nom": "WEAN MAEL H.",
+          "maillot": 2,
+          "club": "CASTANET US"
         }
       },
       "matchs": [
@@ -3484,10 +3642,114 @@
           "heure": "17:15",
           "recevant": "CASTANET US",
           "visiteur": "AGDE RCO",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 32,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8kSctmLA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 32,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh-lCYjmLQ",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 44,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh8lickmbM",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 44,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh9li0hn7M",
+              "sanction": "J",
+              "sanction_detail": "J2",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh9kiwilrU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh2lCkjnbU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh9li4lnbM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh6kisgnbA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh6lCohmrU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh2lCcsnrE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 60,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd_miYhmbA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh2kycim7Y",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 62,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh-kSssnb8",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 66,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh9miwkl7U",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd_miosmrM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 69,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh2lCkjnbU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh5my8tnbE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 71,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8myklmLc",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 88,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8kSctmLA",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "COMPLEXE SPORTIF DE LAUTARD N°3_['3 RUE DES FRERES FEDOU', '31320 CASTANET TOLOSAN']",
+          "officiels": [
+            "ABDELHAQ AZIZI_AC",
+            "GASPARD MAUDENS_A1",
+            "SWANN JOVIAL CUPAK_A2"
+          ]
         },
         {
           "id": 55879939,
@@ -6397,7 +6659,7 @@
         },
         {
           "id": 55880074,
-          "date": "2026-09-19",
+          "date": "2026-09-20",
           "heure": "15:00",
           "recevant": "ARRATS GIMONE SAVE",
           "visiteur": "PAMIERS FC",

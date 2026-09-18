@@ -1503,6 +1503,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC526535.jpg",
           "clNo": "10908",
           "slug": "526535-fje-biguglia"
+        },
+        "PORTO VECCHIO": {
+          "nom": "PORTO VECCHIO",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC508031.jpg",
+          "clNo": "3229",
+          "slug": "508031-porto-vecchio"
+        },
+        "SUD F.C.": {
+          "nom": "SUD F.C.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC539991.jpg",
+          "clNo": "20190",
+          "slug": "539991-sud-f-c"
         }
       },
       "stades": {
@@ -1516,6 +1528,13 @@
         "STADE LAURENT FLORI_['PARATELLU', 'ROUTE DU STADE', '20117 ECCICA SUARELLA']": {
           "nom": "STADE LAURENT FLORI",
           "adresse": "PARATELLU | ROUTE DU STADE | 20117 ECCICA SUARELLA",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DU PRUNELLO_['Chemin de Quenza', '20137 PORTO VECCHIO']": {
+          "nom": "STADE DU PRUNELLO",
+          "adresse": "Chemin de Quenza | 20137 PORTO VECCHIO",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -1546,6 +1565,11 @@
           "nom": "FERNANDO DA COSTA MOREIRA",
           "role": "Arbitre assistant 1",
           "role_cod": "A1"
+        },
+        "EMIN MUZAFFARZADA_AC": {
+          "nom": "EMIN MUZAFFARZADA",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -1970,10 +1994,14 @@
           "heure": "15:00",
           "recevant": "PORTO VECCHIO",
           "visiteur": "SUD F.C.",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DU PRUNELLO_['Chemin de Quenza', '20137 PORTO VECCHIO']",
+          "officiels": [
+            "EMIN MUZAFFARZADA_AC"
+          ]
         },
         {
           "id": 79126310,

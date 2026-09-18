@@ -82,6 +82,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC563664.jpg",
           "clNo": "172696",
           "slug": "563664-u-s-la-regordane"
+        },
+        "ALES OL": {
+          "nom": "ALES OL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503029.jpg",
+          "clNo": "1608",
+          "slug": "503029-ales-ol"
+        },
+        "ACADEMIE UNIVERS": {
+          "nom": "ACADEMIE UNIVERS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560267.jpg",
+          "clNo": "194887",
+          "slug": "560267-academie-univers"
         }
       },
       "stades": {
@@ -126,6 +138,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE AUGUSTE DELAUNE_['1 RUE AUGUSTE DELAUNE', '30100 ALES']": {
+          "nom": "STADE AUGUSTE DELAUNE",
+          "adresse": "1 RUE AUGUSTE DELAUNE | 30100 ALES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -156,6 +175,11 @@
         },
         "ADAM MADAOUI DAHOUAR_AC": {
           "nom": "ADAM MADAOUI DAHOUAR",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "CHARAFDEN BELGHITI_AC": {
+          "nom": "CHARAFDEN BELGHITI",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -757,10 +781,14 @@
           "heure": "14:30",
           "recevant": "ALES OL",
           "visiteur": "ACADEMIE UNIVERS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE AUGUSTE DELAUNE_['1 RUE AUGUSTE DELAUNE', '30100 ALES']",
+          "officiels": [
+            "CHARAFDEN BELGHITI_AC"
+          ]
         },
         {
           "id": 55881781,
@@ -1150,8 +1178,8 @@
         },
         {
           "id": 55881793,
-          "date": "2026-09-20",
-          "heure": "10:30",
+          "date": "2026-09-19",
+          "heure": "17:00",
           "recevant": "NIMES OLYMPIQUE",
           "visiteur": "CASTRIES AV.",
           "buts_recevant": null,
