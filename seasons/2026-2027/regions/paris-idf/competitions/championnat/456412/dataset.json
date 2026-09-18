@@ -70,6 +70,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC580485.jpg",
           "clNo": "176559",
           "slug": "580485-villeneuve-ablon-u-s"
+        },
+        "TRAPPES ES": {
+          "nom": "TRAPPES ES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC508864.jpg",
+          "clNo": "3355",
+          "slug": "508864-trappes-es"
+        },
+        "LONGJUMEAU F.C.": {
+          "nom": "LONGJUMEAU F.C.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC517523.jpg",
+          "clNo": "5452",
+          "slug": "517523-longjumeau-f-c"
         }
       },
       "stades": {
@@ -107,6 +119,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE ROBERT GRAVAUD 2_[' RUE LOUIS ARAGON', '78190 TRAPPES']": {
+          "nom": "STADE ROBERT GRAVAUD 2",
+          "adresse": " RUE LOUIS ARAGON | 78190 TRAPPES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -122,6 +141,11 @@
         },
         "YOLDAS ORHAN_AC": {
           "nom": "YOLDAS ORHAN",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ETIENNE WILSON_AC": {
+          "nom": "ETIENNE WILSON",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -271,6 +295,41 @@
           "nom": "AURELIEN R.",
           "maillot": 13,
           "club": "BOULOGNE BIL. AC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh-li8sn7A": {
+          "nom": "RAFAEL O.",
+          "maillot": 10,
+          "club": "LONGJUMEAU F.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh-liYhmL8": {
+          "nom": "MOHAMED Y.",
+          "maillot": 12,
+          "club": "LONGJUMEAU F.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp-lS0jmrE": {
+          "nom": "MOHAMED K.",
+          "maillot": 6,
+          "club": "LONGJUMEAU F.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh2licllr4": {
+          "nom": "SERKAN N.",
+          "maillot": 14,
+          "club": "LONGJUMEAU F.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh-kisgn7Q": {
+          "nom": "ROMAIN D.",
+          "maillot": 2,
+          "club": "LONGJUMEAU F.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh5kCwhmLU": {
+          "nom": "AIMAN O.",
+          "maillot": 13,
+          "club": "LONGJUMEAU F.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh8kCkhn7c": {
+          "nom": "MOHAMED IDRISS D.",
+          "maillot": 11,
+          "club": "TRAPPES ES"
         }
       },
       "matchs": [
@@ -467,10 +526,53 @@
           "heure": "13:00",
           "recevant": "TRAPPES ES",
           "visiteur": "LONGJUMEAU F.C.",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 34,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh-li8sn7A",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh-liYhmL8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 42,
+              "type": "carton-rouge",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh-liYhmL8",
+              "sanction": "R",
+              "sanction_detail": "R1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 44,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp-lS0jmrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh2licllr4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 61,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh-kisgn7Q",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh5kCwhmLU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 72,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh8kCkhn7c",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE ROBERT GRAVAUD 2_[' RUE LOUIS ARAGON', '78190 TRAPPES']",
+          "officiels": [
+            "ETIENNE WILSON_AC"
+          ]
         },
         {
           "id": 55687251,
@@ -1935,6 +2037,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC518488.jpg",
           "clNo": "5883",
           "slug": "518488-st-ouen-l-aumone-as"
+        },
+        "OPB": {
+          "nom": "OPB",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC546942.jpg",
+          "clNo": "24408",
+          "slug": "546942-opb"
+        },
+        "ENFANTS GOUTTE D'OR": {
+          "nom": "ENFANTS GOUTTE D'OR",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC537678.jpg",
+          "clNo": "18470",
+          "slug": "537678-enfants-goutte-d-or"
         }
       },
       "stades": {
@@ -1972,6 +2086,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE MARCEL CERDAN 1_['170 AVENUE JEAN JAURES', '93500 PANTIN']": {
+          "nom": "STADE MARCEL CERDAN 1",
+          "adresse": "170 AVENUE JEAN JAURES | 93500 PANTIN",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -1987,6 +2108,11 @@
         },
         "DENIS REBERGUE_AC": {
           "nom": "DENIS REBERGUE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "OTHMANE BACCOUCHE_AC": {
+          "nom": "OTHMANE BACCOUCHE",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -2356,10 +2482,14 @@
           "heure": "13:00",
           "recevant": "OPB",
           "visiteur": "ENFANTS GOUTTE D'OR",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MARCEL CERDAN 1_['170 AVENUE JEAN JAURES', '93500 PANTIN']",
+          "officiels": [
+            "OTHMANE BACCOUCHE_AC"
+          ]
         },
         {
           "id": 55687386,

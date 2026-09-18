@@ -70,6 +70,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500706.jpg",
           "clNo": "673",
           "slug": "500706-issy-fc"
+        },
+        "ST MAUR VGA": {
+          "nom": "ST MAUR VGA",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC542396.jpg",
+          "clNo": "21943",
+          "slug": "542396-st-maur-vga"
+        },
+        "FC FLEURY 91 2": {
+          "nom": "FC FLEURY 91 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC524861.jpg",
+          "clNo": "9753",
+          "slug": "524861-fc-fleury-91-2"
         }
       },
       "stades": {
@@ -107,6 +119,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE FERNAND SASTRE_['50 AVENUE RASPAIL', '94100 ST MAUR DES FOSSES']": {
+          "nom": "STADE FERNAND SASTRE",
+          "adresse": "50 AVENUE RASPAIL | 94100 ST MAUR DES FOSSES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -132,6 +151,11 @@
         },
         "MEKTOUB OUMEZZAOUCHE_AC": {
           "nom": "MEKTOUB OUMEZZAOUCHE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "WACEM ABDEREMANI_AC": {
+          "nom": "WACEM ABDEREMANI",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -581,10 +605,14 @@
           "heure": "13:00",
           "recevant": "ST MAUR VGA",
           "visiteur": "FC FLEURY 91 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE FERNAND SASTRE_['50 AVENUE RASPAIL', '94100 ST MAUR DES FOSSES']",
+          "officiels": [
+            "WACEM ABDEREMANI_AC"
+          ]
         },
         {
           "id": 55689237,
@@ -5716,7 +5744,7 @@
         {
           "id": 55689762,
           "date": "2026-09-20",
-          "heure": "12:30",
+          "heure": "12:00",
           "recevant": "ST BRICE F.C.",
           "visiteur": "LILAS FC",
           "buts_recevant": null,

@@ -2217,6 +2217,30 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC507435.jpg",
           "clNo": "3162",
           "slug": "507435-mormant-f-c"
+        },
+        "BONNEUIL S/MARNE CSM": {
+          "nom": "BONNEUIL S/MARNE CSM",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC541437.jpg",
+          "clNo": "21279",
+          "slug": "541437-bonneuil-s-marne-csm"
+        },
+        "EVRY F.C.": {
+          "nom": "EVRY F.C.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC563603.jpg",
+          "clNo": "172394",
+          "slug": "563603-evry-f-c"
+        },
+        "OZOIR FC 77": {
+          "nom": "OZOIR FC 77",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC551942.jpg",
+          "clNo": "116693",
+          "slug": "551942-ozoir-fc-77"
+        },
+        "VELHA GUARDA PARIS": {
+          "nom": "VELHA GUARDA PARIS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC551153.jpg",
+          "clNo": "168789",
+          "slug": "551153-velha-guarda-paris"
         }
       },
       "stades": {
@@ -2247,6 +2271,20 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE LÉO LAGRANGE 2_[' RUE JEAN CATELAS', '94380 BONNEUIL SUR MARNE']": {
+          "nom": "STADE LÉO LAGRANGE 2",
+          "adresse": " RUE JEAN CATELAS | 94380 BONNEUIL SUR MARNE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DES 3 SAPINS 2_['AVENUE DU GENERAL DE GAULLE', 'TERRAIN ANNEXE', '77330 OZOIR LA FERRIERE']": {
+          "nom": "STADE DES 3 SAPINS 2",
+          "adresse": "AVENUE DU GENERAL DE GAULLE | TERRAIN ANNEXE | 77330 OZOIR LA FERRIERE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -2267,6 +2305,16 @@
         },
         "JORGE FERREIRA_AC": {
           "nom": "JORGE FERREIRA",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "JEAN PAUL DELAVEAU_AC": {
+          "nom": "JEAN PAUL DELAVEAU",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "PHILIPPE BATMAN_AC": {
+          "nom": "PHILIPPE BATMAN",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -2677,10 +2725,14 @@
           "heure": "09:30",
           "recevant": "BONNEUIL S/MARNE CSM",
           "visiteur": "EVRY F.C.",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE LÉO LAGRANGE 2_[' RUE JEAN CATELAS', '94380 BONNEUIL SUR MARNE']",
+          "officiels": [
+            "JEAN PAUL DELAVEAU_AC"
+          ]
         },
         {
           "id": 55692803,
@@ -2788,10 +2840,14 @@
           "heure": "09:30",
           "recevant": "OZOIR FC 77",
           "visiteur": "VELHA GUARDA PARIS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES 3 SAPINS 2_['AVENUE DU GENERAL DE GAULLE', 'TERRAIN ANNEXE', '77330 OZOIR LA FERRIERE']",
+          "officiels": [
+            "PHILIPPE BATMAN_AC"
+          ]
         },
         {
           "id": 55692795,

@@ -46,6 +46,42 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC561124.jpg",
           "clNo": "200712",
           "slug": "561124-gj-balme-lauze"
+        },
+        "FIRMINY INSERSPORT": {
+          "nom": "FIRMINY INSERSPORT",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC504278.jpg",
+          "clNo": "2190",
+          "slug": "504278-firminy-insersport"
+        },
+        "ST ETIENNE O.": {
+          "nom": "ST ETIENNE O.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC504383.jpg",
+          "clNo": "2252",
+          "slug": "504383-st-etienne-o"
+        },
+        "ST FONS CO": {
+          "nom": "ST FONS CO",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500361.jpg",
+          "clNo": "453",
+          "slug": "500361-st-fons-co"
+        },
+        "CHAPONNAY MARENNES": {
+          "nom": "CHAPONNAY MARENNES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC546317.jpg",
+          "clNo": "23953",
+          "slug": "546317-chaponnay-marennes"
+        },
+        "ENT.S. ST PRIEST": {
+          "nom": "ENT.S. ST PRIEST",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC533363.jpg",
+          "clNo": "15525",
+          "slug": "533363-ent-s-st-priest"
+        },
+        "VAULX OLYMPIQ": {
+          "nom": "VAULX OLYMPIQ",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC528353.jpg",
+          "clNo": "12127",
+          "slug": "528353-vaulx-olympiq"
         }
       },
       "stades": {
@@ -66,6 +102,27 @@
         "STADE IRÉNÉE LAURENT 1_['RUE DU STADE', '42340 VEAUCHE']": {
           "nom": "STADE IRÉNÉE LAURENT 1",
           "adresse": "RUE DU STADE | 42340 VEAUCHE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE FIRMAMENT_['2 RUE DORIAN', '42700 FIRMINY']": {
+          "nom": "STADE DE FIRMAMENT",
+          "adresse": "2 RUE DORIAN | 42700 FIRMINY",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE LA CRESSONNIÈRE 1_['RUE LOUIS GIRARDET', '69190 ST FONS']": {
+          "nom": "STADE DE LA CRESSONNIÈRE 1",
+          "adresse": "RUE LOUIS GIRARDET | 69190 ST FONS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE PIERRE MENDÈS FRANCE N°3_['AVENUE PIERRE MENDES FRANCE', '69800 ST PRIEST']": {
+          "nom": "STADE PIERRE MENDÈS FRANCE N°3",
+          "adresse": "AVENUE PIERRE MENDES FRANCE | 69800 ST PRIEST",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -114,6 +171,46 @@
         },
         "MATHIS AUCLAIR_A2": {
           "nom": "MATHIS AUCLAIR",
+          "role": "Arbitre assistant 2",
+          "role_cod": "A2"
+        },
+        "ILYES IDEMOUMOUN_AC": {
+          "nom": "ILYES IDEMOUMOUN",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "DJELLOUL ABBAS_A1": {
+          "nom": "DJELLOUL ABBAS",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
+        },
+        "JAMAA AITSY_A2": {
+          "nom": "JAMAA AITSY",
+          "role": "Arbitre assistant 2",
+          "role_cod": "A2"
+        },
+        "NOHE BOUAZIZ_AC": {
+          "nom": "NOHE BOUAZIZ",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "BAPTISTE FAURE_A2": {
+          "nom": "BAPTISTE FAURE",
+          "role": "Arbitre assistant 2",
+          "role_cod": "A2"
+        },
+        "KENZO JOLIVET_AC": {
+          "nom": "KENZO JOLIVET",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ADAM ZAMMOURI_A1": {
+          "nom": "ADAM ZAMMOURI",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
+        },
+        "MEHMET HALICIOGLU_A2": {
+          "nom": "MEHMET HALICIOGLU",
           "role": "Arbitre assistant 2",
           "role_cod": "A2"
         }
@@ -395,10 +492,16 @@
           "heure": "18:00",
           "recevant": "FIRMINY INSERSPORT",
           "visiteur": "ST ETIENNE O.",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE FIRMAMENT_['2 RUE DORIAN', '42700 FIRMINY']",
+          "officiels": [
+            "ILYES IDEMOUMOUN_AC",
+            "DJELLOUL ABBAS_A1",
+            "JAMAA AITSY_A2"
+          ]
         },
         {
           "id": 56079991,
@@ -476,10 +579,16 @@
           "heure": "12:30",
           "recevant": "ST FONS CO",
           "visiteur": "CHAPONNAY MARENNES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA CRESSONNIÈRE 1_['RUE LOUIS GIRARDET', '69190 ST FONS']",
+          "officiels": [
+            "NOHE BOUAZIZ_AC",
+            "YOHAN ROYER_A1",
+            "BAPTISTE FAURE_A2"
+          ]
         },
         {
           "id": 56079994,
@@ -556,10 +665,16 @@
           "heure": "15:00",
           "recevant": "ENT.S. ST PRIEST",
           "visiteur": "VAULX OLYMPIQ",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PIERRE MENDÈS FRANCE N°3_['AVENUE PIERRE MENDES FRANCE', '69800 ST PRIEST']",
+          "officiels": [
+            "KENZO JOLIVET_AC",
+            "ADAM ZAMMOURI_A1",
+            "MEHMET HALICIOGLU_A2"
+          ]
         },
         {
           "id": 56080000,
@@ -586,7 +701,7 @@
         {
           "id": 56079996,
           "date": "2026-09-19",
-          "heure": "18:00",
+          "heure": "19:00",
           "recevant": "ST ETIENNE O.",
           "visiteur": "ST FONS CO",
           "buts_recevant": null,
@@ -2012,6 +2127,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC548844.jpg",
           "clNo": "25770",
           "slug": "548844-f-c-du-nivolet"
+        },
+        "FC LYON CROIX ROUSSE": {
+          "nom": "FC LYON CROIX ROUSSE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564593.jpg",
+          "clNo": "202146",
+          "slug": "564593-fc-lyon-croix-rousse"
+        },
+        "ENT. S. REVERMONT": {
+          "nom": "ENT. S. REVERMONT",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC514055.jpg",
+          "clNo": "4389",
+          "slug": "514055-ent-s-revermont"
         }
       },
       "stades": {
@@ -2048,6 +2175,13 @@
           "adresse": "CHEMIN DE LA CROUZE | 69390 MILLERY",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE GRÉGORY COUPET_['CROIX ROUSSE', '106 RUE PHILIPPE DE LASSALLE', '69004 LYON']": {
+          "nom": "STADE GRÉGORY COUPET",
+          "adresse": "CROIX ROUSSE | 106 RUE PHILIPPE DE LASSALLE | 69004 LYON",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
         }
       },
@@ -2124,6 +2258,21 @@
         },
         "ZINE EL ABIDINE LANABI_A2": {
           "nom": "ZINE EL ABIDINE LANABI",
+          "role": "Arbitre assistant 2",
+          "role_cod": "A2"
+        },
+        "LUC FANGET_AC": {
+          "nom": "LUC FANGET",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "WAEL BOUGUILA_A1": {
+          "nom": "WAEL BOUGUILA",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
+        },
+        "Anonyme_A2": {
+          "nom": "Anonyme",
           "role": "Arbitre assistant 2",
           "role_cod": "A2"
         }
@@ -2653,10 +2802,16 @@
           "heure": "12:30",
           "recevant": "FC LYON CROIX ROUSSE",
           "visiteur": "ENT. S. REVERMONT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GRÉGORY COUPET_['CROIX ROUSSE', '106 RUE PHILIPPE DE LASSALLE', '69004 LYON']",
+          "officiels": [
+            "LUC FANGET_AC",
+            "WAEL BOUGUILA_A1",
+            "Anonyme_A2"
+          ]
         },
         {
           "id": 56080389,
