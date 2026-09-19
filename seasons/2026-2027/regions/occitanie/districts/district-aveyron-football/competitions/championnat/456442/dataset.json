@@ -490,10 +490,67 @@
     {
       "cp_slug": "456442-u15-d2/phase/1/5",
       "competition": "U15 D2",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "MARVEJOLS S.": {
+          "nom": "MARVEJOLS S.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503376.jpg",
+          "clNo": "1768",
+          "slug": "503376-marvejols-s"
+        },
+        "FOOT SUD LOZERE": {
+          "nom": "FOOT SUD LOZERE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC545503.jpg",
+          "clNo": "23401",
+          "slug": "545503-foot-sud-lozere"
+        }
+      },
+      "stades": {
+        "STADE DE PINETON_['ROUTE DU STADE', '48100 MARVEJOLS']": {
+          "nom": "STADE DE PINETON",
+          "adresse": "ROUTE DU STADE | 48100 MARVEJOLS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKpNEKd7kCglmrA": {
+          "nom": "ENZO L.",
+          "maillot": 3,
+          "club": "MARVEJOLS S."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK12mywnnbE": {
+          "nom": "LEO C.",
+          "maillot": 13,
+          "club": "MARVEJOLS S."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx5kygsn7I": {
+          "nom": "ENZO M.",
+          "maillot": 8,
+          "club": "FOOT SUD LOZERE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17lywsnrA": {
+          "nom": "HUGO P.",
+          "maillot": 12,
+          "club": "FOOT SUD LOZERE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx9kSsmlrM": {
+          "nom": "IMRAN M.",
+          "maillot": 10,
+          "club": "MARVEJOLS S."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx8kScnn7U": {
+          "nom": "ILAN D.",
+          "maillot": 9,
+          "club": "MARVEJOLS S."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp_kiYsm7M": {
+          "nom": "WAEL A.",
+          "maillot": 12,
+          "club": "MARVEJOLS S."
+        }
+      },
       "matchs": [
         {
           "id": 79301859,
@@ -501,16 +558,46 @@
           "heure": "10:30",
           "recevant": "MARVEJOLS S.",
           "visiteur": "FOOT SUD LOZERE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 12,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7kCglmrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK12mywnnbE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx5kygsn7I",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK17lywsnrA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 58,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx9kSsmlrM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 60,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8kScnn7U",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp_kiYsm7M",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE DE PINETON_['ROUTE DU STADE', '48100 MARVEJOLS']"
         },
         {
           "id": 79301858,
           "date": "2026-09-19",
           "heure": "15:00",
-          "recevant": "CHATEAUNEUF A",
+          "recevant": "ENT. ASR - FCGR",
           "visiteur": "ST LAURENT/BUISSON 2",
           "buts_recevant": null,
           "buts_visiteur": null,

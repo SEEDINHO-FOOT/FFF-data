@@ -1010,10 +1010,73 @@
     {
       "cp_slug": "456856-futsal-r3/phase/1/2",
       "competition": "Futsal R3",
-      "clubs": {},
-      "stades": {},
-      "officiels": {},
-      "joueurs": {},
+      "clubs": {
+        "BFC": {
+          "nom": "BFC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560861.jpg",
+          "clNo": "199048",
+          "slug": "560861-bfc"
+        },
+        "ROSNY FUTSAL CLUB": {
+          "nom": "ROSNY FUTSAL CLUB",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC561102.jpg",
+          "clNo": "200875",
+          "slug": "561102-rosny-futsal-club"
+        }
+      },
+      "stades": {
+        "GYMNASE MAURICE BACQUET_['12 rue julian grimau', '93170 BAGNOLET']": {
+          "nom": "GYMNASE MAURICE BACQUET",
+          "adresse": "12 rue julian grimau | 93170 BAGNOLET",
+          "surface": "PVC",
+          "surface_jeu": "PVC",
+          "type_installation": "Futsal"
+        }
+      },
+      "officiels": {
+        "Anonyme_AC": {
+          "nom": "Anonyme",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "JONATHAN DENAUX_A1": {
+          "nom": "JONATHAN DENAUX",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
+        }
+      },
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6my0kmbY": {
+          "nom": "SAMIR B.",
+          "maillot": 10,
+          "club": "ROSNY FUTSAL CLUB"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17kCokmrA": {
+          "nom": "SALIM B.",
+          "maillot": 9,
+          "club": "ROSNY FUTSAL CLUB"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd-kyonnb8": {
+          "nom": "SOFIANE B.",
+          "maillot": 7,
+          "club": "ROSNY FUTSAL CLUB"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp7lissnbE": {
+          "nom": "STANLEY T.",
+          "maillot": 11,
+          "club": "ROSNY FUTSAL CLUB"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17kyogmLI": {
+          "nom": "BABA D.",
+          "maillot": 12,
+          "club": "ROSNY FUTSAL CLUB"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp9ky8smbY": {
+          "nom": "MOHAMED D.",
+          "maillot": 2,
+          "club": "ROSNY FUTSAL CLUB"
+        }
+      },
       "matchs": [
         {
           "id": 55810421,
@@ -1021,10 +1084,38 @@
           "heure": "21:00",
           "recevant": "BFC",
           "visiteur": "ROSNY FUTSAL CLUB",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 1,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6my0kmbY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK17kCokmrA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 2,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd-kyonnb8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKp7lissnbE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 10,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK17kyogmLI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9ky8smbY",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "GYMNASE MAURICE BACQUET_['12 rue julian grimau', '93170 BAGNOLET']",
+          "officiels": [
+            "Anonyme_AC",
+            "JONATHAN DENAUX_A1"
+          ]
         },
         {
           "id": 55810419,
@@ -2019,7 +2110,7 @@
           "id": 55702582,
           "date": "2026-09-19",
           "heure": "18:30",
-          "recevant": "TORCY FUTSAL EU 2",
+          "recevant": "EVASION URBAINE SP. 2",
           "visiteur": "A.S.F.CHAVILLE 92",
           "buts_recevant": null,
           "buts_visiteur": null,

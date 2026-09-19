@@ -34,6 +34,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC581367.jpg",
           "clNo": "183567",
           "slug": "581367-tilles-f-c"
+        },
+        "PRECY": {
+          "nom": "PRECY",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC524957.jpg",
+          "clNo": "9826",
+          "slug": "524957-precy"
         }
       },
       "stades": {
@@ -47,6 +53,13 @@
         "PLAINE DE JEUX DE LA SAUSSAIE 2_['RUE DES CLEMATITES', 'ANNEXE 2', '21800 CHEVIGNY ST SAUVEUR']": {
           "nom": "PLAINE DE JEUX DE LA SAUSSAIE 2",
           "adresse": "RUE DES CLEMATITES | ANNEXE 2 | 21800 CHEVIGNY ST SAUVEUR",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MICHEL RATEL 2_['31 RUE DU STADE', 'TERRAIN ANNEXE', '21121 FONTAINE LES DIJON']": {
+          "nom": "STADE MICHEL RATEL 2",
+          "adresse": "31 RUE DU STADE | TERRAIN ANNEXE | 21121 FONTAINE LES DIJON",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -102,6 +115,46 @@
         "ir3_vj-lzPeINLfhzILsrKFOFKx9lygkmLA": {
           "nom": "OLTION U.",
           "maillot": 7,
+          "club": "FONTAINE LES DIJON F"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx8lCstl7Y": {
+          "nom": "EDEN R.",
+          "maillot": 8,
+          "club": "PRECY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt6ly0km7A": {
+          "nom": "NOA A.",
+          "maillot": 9,
+          "club": "PRECY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx8mi4hmLc": {
+          "nom": "EVAN J.",
+          "maillot": 7,
+          "club": "PRECY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt4lCYil7U": {
+          "nom": "YOHANN M.",
+          "maillot": 10,
+          "club": "PRECY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx7lCcgnrM": {
+          "nom": "SANDRO F.",
+          "maillot": 12,
+          "club": "FONTAINE LES DIJON F"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx_kSgln7M": {
+          "nom": "LOUIS C.",
+          "maillot": 8,
+          "club": "FONTAINE LES DIJON F"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6myYhnbA": {
+          "nom": "NAIM L.",
+          "maillot": 10,
+          "club": "FONTAINE LES DIJON F"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt6kSwjm7M": {
+          "nom": "LUKA E.",
+          "maillot": 9,
           "club": "FONTAINE LES DIJON F"
         }
       },
@@ -173,10 +226,41 @@
           "heure": "13:00",
           "recevant": "FONTAINE LES DIJON F",
           "visiteur": "PRECY",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 20,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8lCstl7Y",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt6ly0km7A",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8mi4hmLc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt4lCYil7U",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7lCcgnrM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_kSgln7M",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6myYhnbA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt6kSwjm7M",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MICHEL RATEL 2_['31 RUE DU STADE', 'TERRAIN ANNEXE', '21121 FONTAINE LES DIJON']"
         },
         {
           "id": 79294208,
@@ -346,10 +430,11 @@
           "heure": "13:30",
           "recevant": "ASPTT DIJON",
           "visiteur": "QUETIGNY AS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 8,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Centre Sportif Dijon Métropole 2_['RUE FRANCOIS MITTERRAND', 'TERRAIN ANNEXE', '21850 ST APOLLINAIRE']"
         },
         {
           "id": 79125641,
@@ -501,6 +586,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC526621.jpg",
           "clNo": "10955",
           "slug": "526621-fontaine-les-dijon-f-2"
+        },
+        "GENLIS AS": {
+          "nom": "GENLIS AS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC506803.jpg",
+          "clNo": "2970",
+          "slug": "506803-genlis-as"
         }
       },
       "stades": {
@@ -514,6 +605,20 @@
         "STADE DE LA RENTE LOGEROT 2_['RUE PIERRE DE COUBERTIN', 'ANNEXE SYLVAIN BELLEUDY', '21160 MARSANNAY LA COTE']": {
           "nom": "STADE DE LA RENTE LOGEROT 2",
           "adresse": "RUE PIERRE DE COUBERTIN | ANNEXE SYLVAIN BELLEUDY | 21160 MARSANNAY LA COTE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MICHEL RATEL 2_['31 RUE DU STADE', 'TERRAIN ANNEXE', '21121 FONTAINE LES DIJON']": {
+          "nom": "STADE MICHEL RATEL 2",
+          "adresse": "31 RUE DU STADE | TERRAIN ANNEXE | 21121 FONTAINE LES DIJON",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "COMPLEXE SPORTIF DE LOUZOLE 2_['LOUZOLE', '21850 ST APOLLINAIRE']": {
+          "nom": "COMPLEXE SPORTIF DE LOUZOLE 2",
+          "adresse": "LOUZOLE | 21850 ST APOLLINAIRE",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -606,10 +711,11 @@
           "heure": "13:00",
           "recevant": "FONTAINE LES DIJON F 2",
           "visiteur": "GENLIS AS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MICHEL RATEL 2_['31 RUE DU STADE', 'TERRAIN ANNEXE', '21121 FONTAINE LES DIJON']"
         },
         {
           "id": 79127816,
@@ -617,10 +723,11 @@
           "heure": "13:30",
           "recevant": "ST APOLLINAIRE",
           "visiteur": "MARSANNAY",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 10,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF DE LOUZOLE 2_['LOUZOLE', '21850 ST APOLLINAIRE']"
         },
         {
           "id": 79127817,
@@ -717,6 +824,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC506750.jpg",
           "clNo": "2955",
           "slug": "506750-beaune-a-s"
+        },
+        "GENLIS AS 2": {
+          "nom": "GENLIS AS 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC506803.jpg",
+          "clNo": "2970",
+          "slug": "506803-genlis-as-2"
         }
       },
       "stades": {
@@ -730,6 +843,13 @@
         "STADE GILBERT RUDE 2_['2 RUE GUISEPPE GARIBALDI', '21240 TALANT']": {
           "nom": "STADE GILBERT RUDE 2",
           "adresse": "2 RUE GUISEPPE GARIBALDI | 21240 TALANT",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DU CHÂTEAU 2_['RUE DES CHATEAUX', 'TERRAIN NERINO BERNARD', '21200 VIGNOLES']": {
+          "nom": "STADE DU CHÂTEAU 2",
+          "adresse": "RUE DES CHATEAUX | TERRAIN NERINO BERNARD | 21200 VIGNOLES",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -768,10 +888,11 @@
           "heure": "13:30",
           "recevant": "BEAUNE A.S.",
           "visiteur": "GENLIS AS 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 18,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DU CHÂTEAU 2_['RUE DES CHATEAUX', 'TERRAIN NERINO BERNARD', '21200 VIGNOLES']"
         },
         {
           "id": 79126018,
