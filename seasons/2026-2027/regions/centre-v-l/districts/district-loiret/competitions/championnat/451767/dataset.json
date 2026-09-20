@@ -10,8 +10,29 @@
     {
       "cp_slug": "451767-u13-a-8-departemental-3/phase/1/1",
       "competition": "U13 A 8 Départemental 3",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "ENT. 2": {
+          "nom": "ENT. 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC505379.jpg",
+          "clNo": "2568",
+          "slug": "505379-ent-2"
+        },
+        "NANCRAY CH.N. 2": {
+          "nom": "NANCRAY CH.N. 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC526955.jpg",
+          "clNo": "11181",
+          "slug": "526955-nancray-ch-n-2"
+        }
+      },
+      "stades": {
+        "STADE LIÈVRE D' OR_[\"RUE DU LIEVRE D'OR\", '45110 CHATEAUNEUF SUR LOIRE']": {
+          "nom": "STADE LIÈVRE D' OR",
+          "adresse": "RUE DU LIEVRE D'OR | 45110 CHATEAUNEUF SUR LOIRE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -19,12 +40,13 @@
           "id": 79539454,
           "date": "2026-09-19",
           "heure": "13:30",
-          "recevant": "U.S. CHATEAUNEUF S/L 2",
+          "recevant": "ENT. 2",
           "visiteur": "NANCRAY CH.N. 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 12,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE LIÈVRE D' OR_[\"RUE DU LIEVRE D'OR\", '45110 CHATEAUNEUF SUR LOIRE']"
         },
         {
           "id": 79539455,
@@ -340,12 +362,31 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC504865.jpg",
           "clNo": "2405",
           "slug": "504865-briare-us"
+        },
+        "CHATILLON FC LOING": {
+          "nom": "CHATILLON FC LOING",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC551112.jpg",
+          "clNo": "169286",
+          "slug": "551112-chatillon-fc-loing"
+        },
+        "CSM SULLY SUR LOIRE 2": {
+          "nom": "CSM SULLY SUR LOIRE 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC504951.jpg",
+          "clNo": "2461",
+          "slug": "504951-csm-sully-sur-loire-2"
         }
       },
       "stades": {
         "STADE MUNICIPAL 2_['ROUTE DE LA FORET', '45260 LORRIS']": {
           "nom": "STADE MUNICIPAL 2",
           "adresse": "ROUTE DE LA FORET | 45260 LORRIS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE HENRI LEVERNE_['PLACE DE LA MAIRIE', '45230 CHATILLON COLIGNY']": {
+          "nom": "STADE HENRI LEVERNE",
+          "adresse": "PLACE DE LA MAIRIE | 45230 CHATILLON COLIGNY",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -383,10 +424,11 @@
           "heure": "14:00",
           "recevant": "CHATILLON FC LOING",
           "visiteur": "CSM SULLY SUR LOIRE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE HENRI LEVERNE_['PLACE DE LA MAIRIE', '45230 CHATILLON COLIGNY']"
         },
         {
           "id": 79571493,
@@ -680,12 +722,69 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC505081.jpg",
           "clNo": "2511",
           "slug": "505081-chilleurs-coc"
+        },
+        "C.A. PITHIVIERS": {
+          "nom": "C.A. PITHIVIERS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500287.jpg",
+          "clNo": "392",
+          "slug": "500287-c-a-pithiviers"
+        },
+        "MARIGNY ES 2": {
+          "nom": "MARIGNY ES 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC529946.jpg",
+          "clNo": "13236",
+          "slug": "529946-marigny-es-2"
+        },
+        "AUGERVILLE AS 13": {
+          "nom": "AUGERVILLE AS 13",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC520294.jpg",
+          "clNo": "6840",
+          "slug": "520294-augerville-as-13"
+        },
+        "A.S. PUISEAUX 2": {
+          "nom": "A.S. PUISEAUX 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC505399.jpg",
+          "clNo": "2569",
+          "slug": "505399-a-s-puiseaux-2"
+        },
+        "ST LYE AS": {
+          "nom": "ST LYE AS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC530833.jpg",
+          "clNo": "13787",
+          "slug": "530833-st-lye-as"
+        },
+        "SERMAISES SS": {
+          "nom": "SERMAISES SS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC517468.jpg",
+          "clNo": "5428",
+          "slug": "517468-sermaises-ss"
         }
       },
       "stades": {
         "STADE MUNICIPAL_['RUE DE JEU DE PAUMES', '45480 BAZOCHES LES GALLERANDES']": {
           "nom": "STADE MUNICIPAL",
           "adresse": "RUE DE JEU DE PAUMES | 45480 BAZOCHES LES GALLERANDES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE PIERRE COMETS 1_['LE BOURG', '45300 PITHIVIERS']": {
+          "nom": "STADE PIERRE COMETS 1",
+          "adresse": "LE BOURG | 45300 PITHIVIERS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MAURICE VEILLARD_['LES TOURS DE BOULANCOURT', '45330 AUGERVILLE LA RIVIERE']": {
+          "nom": "STADE MAURICE VEILLARD",
+          "adresse": "LES TOURS DE BOULANCOURT | 45330 AUGERVILLE LA RIVIERE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE JEAN LISA_['MAIRIE DE ST LYE', '45170 ST LYE LA FORET']": {
+          "nom": "STADE JEAN LISA",
+          "adresse": "MAIRIE DE ST LYE | 45170 ST LYE LA FORET",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -712,10 +811,11 @@
           "heure": "13:30",
           "recevant": "C.A. PITHIVIERS",
           "visiteur": "MARIGNY ES 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 9,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PIERRE COMETS 1_['LE BOURG', '45300 PITHIVIERS']"
         },
         {
           "id": 79539510,
@@ -723,10 +823,11 @@
           "heure": "14:00",
           "recevant": "AUGERVILLE AS 13",
           "visiteur": "A.S. PUISEAUX 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 14,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MAURICE VEILLARD_['LES TOURS DE BOULANCOURT', '45330 AUGERVILLE LA RIVIERE']"
         },
         {
           "id": 79539512,
@@ -734,10 +835,11 @@
           "heure": "14:00",
           "recevant": "ST LYE AS",
           "visiteur": "SERMAISES SS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JEAN LISA_['MAIRIE DE ST LYE', '45170 ST LYE LA FORET']"
         },
         {
           "id": 79539517,
@@ -1008,8 +1110,48 @@
     {
       "cp_slug": "451767-u13-a-8-departemental-3/phase/1/4",
       "competition": "U13 A 8 Départemental 3",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "BEAUGEN.USBVL 2": {
+          "nom": "BEAUGEN.USBVL 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC505375.jpg",
+          "clNo": "2567",
+          "slug": "505375-beaugen-usbvl-2"
+        },
+        "FC ML INGRE 3": {
+          "nom": "FC ML INGRE 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC528298.jpg",
+          "clNo": "12086",
+          "slug": "528298-fc-ml-ingre-3"
+        },
+        "CHAINGY ST AY": {
+          "nom": "CHAINGY ST AY",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC553261.jpg",
+          "clNo": "128884",
+          "slug": "553261-chaingy-st-ay"
+        },
+        "FOOTBALL CLUB BRICY 2": {
+          "nom": "FOOTBALL CLUB BRICY 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564806.jpg",
+          "clNo": "202975",
+          "slug": "564806-football-club-bricy-2"
+        }
+      },
+      "stades": {
+        "STADE DE BEL AIR_[' AVENUE PIERRE DE FELICE', '45190 BEAUGENCY']": {
+          "nom": "STADE DE BEL AIR",
+          "adresse": " AVENUE PIERRE DE FELICE | 45190 BEAUGENCY",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE LUCIEN GRIGNOUX 1_[\"RUE DU CHATEAU D'EAU\", '45380 CHAINGY']": {
+          "nom": "STADE LUCIEN GRIGNOUX 1",
+          "adresse": "RUE DU CHATEAU D'EAU | 45380 CHAINGY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -1030,10 +1172,11 @@
           "heure": "14:00",
           "recevant": "BEAUGEN.USBVL 2",
           "visiteur": "FC ML INGRE 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 22,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE BEL AIR_[' AVENUE PIERRE DE FELICE', '45190 BEAUGENCY']"
         },
         {
           "id": 79539540,
@@ -1041,10 +1184,11 @@
           "heure": "15:30",
           "recevant": "CHAINGY ST AY",
           "visiteur": "FOOTBALL CLUB BRICY 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE LUCIEN GRIGNOUX 1_[\"RUE DU CHATEAU D'EAU\", '45380 CHAINGY']"
         },
         {
           "id": 79539547,
@@ -1350,6 +1494,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC514523.jpg",
           "clNo": "4538",
           "slug": "514523-us-la-ferte-st-aubin-2"
+        },
+        "U.S. MLE OLIVET 2": {
+          "nom": "U.S. MLE OLIVET 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC518551.jpg",
+          "clNo": "5911",
+          "slug": "518551-u-s-mle-olivet-2"
+        },
+        "F.C. ST DENIS EN VAL": {
+          "nom": "F.C. ST DENIS EN VAL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC523153.jpg",
+          "clNo": "8661",
+          "slug": "523153-f-c-st-denis-en-val"
         }
       },
       "stades": {
@@ -1366,10 +1522,78 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "COMPLEXE SPORTIF DU DONJON 1_['DOMAINE DU DONJON', 'RUE DE LA TRESORERIE', '45160 OLIVET']": {
+          "nom": "COMPLEXE SPORTIF DU DONJON 1",
+          "adresse": "DOMAINE DU DONJON | RUE DE LA TRESORERIE | 45160 OLIVET",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6lCchnr4": {
+          "nom": "YANIS K.",
+          "maillot": 6,
+          "club": "U.S. MLE OLIVET 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6lysglr8": {
+          "nom": "SAMY K.",
+          "maillot": 10,
+          "club": "U.S. MLE OLIVET 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt7kCYhmbI": {
+          "nom": "KAIS G.",
+          "maillot": 7,
+          "club": "U.S. MLE OLIVET 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt7kCYjn7M": {
+          "nom": "HENRI V.",
+          "maillot": 9,
+          "club": "U.S. MLE OLIVET 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp_kSwmmrU": {
+          "nom": "RAYANE P.",
+          "maillot": 4,
+          "club": "U.S. MLE OLIVET 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx7kSkimr4": {
+          "nom": "OUSSEYD H.",
+          "maillot": 11,
+          "club": "U.S. MLE OLIVET 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp-lScsl7I": {
+          "nom": "KARIFALADJI D.",
+          "maillot": 4,
+          "club": "F.C. ST DENIS EN VAL"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp-kS0nmbE": {
+          "nom": "ABDALLAH B.",
+          "maillot": 11,
+          "club": "F.C. ST DENIS EN VAL"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt4miwnmb4": {
+          "nom": "NOE M.",
+          "maillot": 6,
+          "club": "F.C. ST DENIS EN VAL"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt-ki0snL4": {
+          "nom": "AYOUB M.",
+          "maillot": 9,
+          "club": "F.C. ST DENIS EN VAL"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx-lioilrc": {
+          "nom": "MOHAMED M.",
+          "maillot": 8,
+          "club": "F.C. ST DENIS EN VAL"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt5kiskl7E": {
+          "nom": "TIMEO P.",
+          "maillot": 10,
+          "club": "F.C. ST DENIS EN VAL"
+        }
+      },
       "matchs": [
         {
           "id": 79539978,
@@ -1401,10 +1625,55 @@
           "heure": "14:00",
           "recevant": "U.S. MLE OLIVET 2",
           "visiteur": "F.C. ST DENIS EN VAL",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 11,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 1,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6lCchnr4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6lysglr8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7kCYhmbI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7kCYjn7M",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp_kSwmmrU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7kSkimr4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp-lScsl7I",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp-kS0nmbE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 23,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt4miwnmb4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-ki0snL4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx-lioilrc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt5kiskl7E",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "COMPLEXE SPORTIF DU DONJON 1_['DOMAINE DU DONJON', 'RUE DE LA TRESORERIE', '45160 OLIVET']"
         },
         {
           "id": 79539981,

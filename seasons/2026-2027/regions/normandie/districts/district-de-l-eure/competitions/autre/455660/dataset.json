@@ -444,6 +444,83 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE INTERCOMMUNAL 1_['CHEMIN DES FORRIERES', '27370 ST PIERRE DES FLEURS']": {
+          "nom": "STADE INTERCOMMUNAL 1",
+          "adresse": "CHEMIN DES FORRIERES | 27370 ST PIERRE DES FLEURS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MAURICE RABASSE_['RUE DE STADE', '27560 LIEUREY']": {
+          "nom": "STADE MAURICE RABASSE",
+          "adresse": "RUE DE STADE | 27560 LIEUREY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE LA LIBÉRATION 1_['RUE DE LA LIBERATION', 'TERRAIN A', '27150 ETREPAGNY']": {
+          "nom": "STADE DE LA LIBÉRATION 1",
+          "adresse": "RUE DE LA LIBERATION | TERRAIN A | 27150 ETREPAGNY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE DES MARRONNIERS_[' RUE DES MARRONNIERS', '27000 EVREUX']": {
+          "nom": "STADE DES MARRONNIERS",
+          "adresse": " RUE DES MARRONNIERS | 27000 EVREUX",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE VERNONNET 2_['2 ROUTE DE GIVERNY', 'TERRAIN ANNEXE', '27200 VERNON']": {
+          "nom": "STADE DE VERNONNET 2",
+          "adresse": "2 ROUTE DE GIVERNY | TERRAIN ANNEXE | 27200 VERNON",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "PARC DES SPORTS ALEXIS VASTINE 8_[' AVENUE DES SPORTS', 'TERRAIN SYNTHÉTIQUE', '27500 PONT AUDEMER']": {
+          "nom": "PARC DES SPORTS ALEXIS VASTINE 8",
+          "adresse": " AVENUE DES SPORTS | TERRAIN SYNTHÉTIQUE | 27500 PONT AUDEMER",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['RUE DU CHATEAU', '27930 AVIRON']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "RUE DU CHATEAU | 27930 AVIRON",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 1_[\"RUE DE L'EGLISE\", '27930 NORMANVILLE']": {
+          "nom": "STADE MUNICIPAL 1",
+          "adresse": "RUE DE L'EGLISE | 27930 NORMANVILLE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 1_['453 ROUTE DE L ESTUAIRE', '27210 CONTEVILLE']": {
+          "nom": "STADE MUNICIPAL 1",
+          "adresse": "453 ROUTE DE L ESTUAIRE | 27210 CONTEVILLE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['RUE DE LA VALLEE', '27730 BUEIL']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "RUE DE LA VALLEE | 27730 BUEIL",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE JEAN VOISIN 1_['RUE DU STADE', '27230 THIBERVILLE']": {
+          "nom": "STADE JEAN VOISIN 1",
+          "adresse": "RUE DU STADE | 27230 THIBERVILLE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -504,6 +581,16 @@
         },
         "MAXIME SAMSON_AC": {
           "nom": "MAXIME SAMSON",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "MATHIEU RENAUDIN_AC": {
+          "nom": "MATHIEU RENAUDIN",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "JEAN DIAMONIKA_AC": {
+          "nom": "JEAN DIAMONIKA",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -1161,10 +1248,14 @@
           "heure": "15:30",
           "recevant": "SAINT SEBASTIEN FOOT 2",
           "visiteur": "ES VALLEE DE L'OISON",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE INTERCOMMUNAL 1_['CHEMIN DES FORRIERES', '27370 ST PIERRE DES FLEURS']",
+          "officiels": [
+            "MATHIEU RENAUDIN_AC"
+          ]
         },
         {
           "id": 79413168,
@@ -1172,10 +1263,11 @@
           "heure": "15:30",
           "recevant": "US CORMEILLES LIEURE",
           "visiteur": "FA DU ROUMOIS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MAURICE RABASSE_['RUE DE STADE', '27560 LIEUREY']"
         },
         {
           "id": 79413392,
@@ -1220,10 +1312,11 @@
           "heure": "15:30",
           "recevant": "US ETREPAGNY",
           "visiteur": "GRPT ACMIE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA LIBÉRATION 1_['RUE DE LA LIBERATION', 'TERRAIN A', '27150 ETREPAGNY']"
         },
         {
           "id": 79413467,
@@ -1231,10 +1324,14 @@
           "heure": "15:30",
           "recevant": "US GASNY",
           "visiteur": "SC BERNAY",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ROGER DESMYTTERE 1_['1 RUE ROBERT SCHUMAN', '27620 GASNY']",
+          "officiels": [
+            "JEAN DIAMONIKA_AC"
+          ]
         },
         {
           "id": 79413617,
@@ -1275,10 +1372,14 @@
           "heure": "15:30",
           "recevant": "NFC NAVARRE FC",
           "visiteur": "FAC ALIZAY",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES MARRONNIERS_[' RUE DES MARRONNIERS', '27000 EVREUX']",
+          "officiels": [
+            "SEBASTIEN LONGVAL_AC"
+          ]
         },
         {
           "id": 79413899,
@@ -1297,10 +1398,14 @@
           "heure": "15:30",
           "recevant": "SPN VERNON",
           "visiteur": "FC VAL DE RISLE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE VERNONNET 2_['2 ROUTE DE GIVERNY', 'TERRAIN ANNEXE', '27200 VERNON']",
+          "officiels": [
+            "ROMAIN LOUTREL_AC"
+          ]
         },
         {
           "id": 79414197,
@@ -1319,10 +1424,14 @@
           "heure": "15:30",
           "recevant": "CA PONT AUDEMER",
           "visiteur": "FC GISORS VEXIN 27 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "PARC DES SPORTS ALEXIS VASTINE 8_[' AVENUE DES SPORTS', 'TERRAIN SYNTHÉTIQUE', '27500 PONT AUDEMER']",
+          "officiels": [
+            "BILAL REKHIS_AC"
+          ]
         },
         {
           "id": 79414397,
@@ -1352,10 +1461,11 @@
           "heure": "16:20",
           "recevant": "ES VALLEE DE L'OISON",
           "visiteur": "FC SERQUIGNY NASSAND",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE INTERCOMMUNAL 1_['CHEMIN DES FORRIERES', '27370 ST PIERRE DES FLEURS']"
         },
         {
           "id": 79413166,
@@ -1363,10 +1473,11 @@
           "heure": "16:20",
           "recevant": "CS BEAUMONT",
           "visiteur": "FA DU ROUMOIS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MAURICE RABASSE_['RUE DE STADE', '27560 LIEUREY']"
         },
         {
           "id": 79413391,
@@ -1397,10 +1508,11 @@
           "heure": "16:20",
           "recevant": "FC DU ROUMOIS NORD",
           "visiteur": "PACY MENILLES RC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['RUE DU CHATEAU', '27930 AVIRON']"
         },
         {
           "id": 79413456,
@@ -1408,10 +1520,11 @@
           "heure": "16:20",
           "recevant": "GRPT ACMIE 2",
           "visiteur": "US ANDELLE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA LIBÉRATION 1_['RUE DE LA LIBERATION', 'TERRAIN A', '27150 ETREPAGNY']"
         },
         {
           "id": 79413466,
@@ -1419,10 +1532,11 @@
           "heure": "16:20",
           "recevant": "SC BERNAY",
           "visiteur": "ES NORMANVILLE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ROGER DESMYTTERE 1_['1 RUE ROBERT SCHUMAN', '27620 GASNY']"
         },
         {
           "id": 79413619,
@@ -1430,10 +1544,11 @@
           "heure": "16:20",
           "recevant": "US CORMEILLES LIEURE 2",
           "visiteur": "FC PAYS DU NEUBOURG",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_[\"RUE DE L'EGLISE\", '27930 NORMANVILLE']"
         },
         {
           "id": 79413700,
@@ -1452,10 +1567,11 @@
           "heure": "16:20",
           "recevant": "SC THIBERVILLE",
           "visiteur": "FC SEINE EURE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['453 ROUTE DE L ESTUAIRE', '27210 CONTEVILLE']"
         },
         {
           "id": 79413895,
@@ -1463,10 +1579,11 @@
           "heure": "16:20",
           "recevant": "FC SERQUIGNY NASSAND 2",
           "visiteur": "FAC ALIZAY",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES MARRONNIERS_[' RUE DES MARRONNIERS', '27000 EVREUX']"
         },
         {
           "id": 79413898,
@@ -1474,10 +1591,11 @@
           "heure": "16:20",
           "recevant": "CHARLEVAL FC",
           "visiteur": "LA CROIX VALLEE EURE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['RUE DE LA VALLEE', '27730 BUEIL']"
         },
         {
           "id": 79414051,
@@ -1485,10 +1603,11 @@
           "heure": "16:20",
           "recevant": "FC DE PREY",
           "visiteur": "FC VAL DE RISLE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE VERNONNET 2_['2 ROUTE DE GIVERNY', 'TERRAIN ANNEXE', '27200 VERNON']"
         },
         {
           "id": 79414195,
@@ -1507,10 +1626,11 @@
           "heure": "16:20",
           "recevant": "AC BEUZEVILLE",
           "visiteur": "FC GISORS VEXIN 27 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "PARC DES SPORTS ALEXIS VASTINE 8_[' AVENUE DES SPORTS', 'TERRAIN SYNTHÉTIQUE', '27500 PONT AUDEMER']"
         },
         {
           "id": 79414396,
@@ -1529,10 +1649,11 @@
           "heure": "16:20",
           "recevant": "US CONCHOISE",
           "visiteur": "FC EURE MADRIE SEINE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JEAN VOISIN 1_['RUE DU STADE', '27230 THIBERVILLE']"
         },
         {
           "id": 79412958,
@@ -1551,10 +1672,11 @@
           "heure": "17:10",
           "recevant": "US CORMEILLES LIEURE",
           "visiteur": "CS BEAUMONT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MAURICE RABASSE_['RUE DE STADE', '27560 LIEUREY']"
         },
         {
           "id": 79413393,
@@ -1596,10 +1718,11 @@
           "heure": "17:10",
           "recevant": "US ETREPAGNY",
           "visiteur": "US ANDELLE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA LIBÉRATION 1_['RUE DE LA LIBERATION', 'TERRAIN A', '27150 ETREPAGNY']"
         },
         {
           "id": 79413468,
@@ -1607,10 +1730,11 @@
           "heure": "17:10",
           "recevant": "US GASNY",
           "visiteur": "ES NORMANVILLE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ROGER DESMYTTERE 1_['1 RUE ROBERT SCHUMAN', '27620 GASNY']"
         },
         {
           "id": 79413618,
@@ -1651,10 +1775,11 @@
           "heure": "17:10",
           "recevant": "NFC NAVARRE FC",
           "visiteur": "FC SERQUIGNY NASSAND 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES MARRONNIERS_[' RUE DES MARRONNIERS', '27000 EVREUX']"
         },
         {
           "id": 79413900,
@@ -1673,10 +1798,11 @@
           "heure": "17:10",
           "recevant": "SPN VERNON",
           "visiteur": "FC DE PREY",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE VERNONNET 2_['2 ROUTE DE GIVERNY', 'TERRAIN ANNEXE', '27200 VERNON']"
         },
         {
           "id": 79414196,
@@ -1695,10 +1821,11 @@
           "heure": "17:10",
           "recevant": "CA PONT AUDEMER",
           "visiteur": "AC BEUZEVILLE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "PARC DES SPORTS ALEXIS VASTINE 8_[' AVENUE DES SPORTS', 'TERRAIN SYNTHÉTIQUE', '27500 PONT AUDEMER']"
         },
         {
           "id": 79414398,
@@ -2279,10 +2406,11 @@
           "heure": "17:10",
           "recevant": "SC THIBERVILLE 2",
           "visiteur": "US CONCHOISE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JEAN VOISIN 1_['RUE DU STADE', '27230 THIBERVILLE']"
         }
       ]
     }

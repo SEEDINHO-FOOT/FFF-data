@@ -7267,6 +7267,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE GUSTAVE KITZINGER_['3B AVENUE PIERRE MENDES FRANCE', '67300 SCHILTIGHEIM']": {
+          "nom": "STADE GUSTAVE KITZINGER",
+          "adresse": "3B AVENUE PIERRE MENDES FRANCE | 67300 SCHILTIGHEIM",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -7287,6 +7294,11 @@
         },
         "Anonyme_AC": {
           "nom": "Anonyme",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "RECAI KURTAR_AC": {
+          "nom": "RECAI KURTAR",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -7581,6 +7593,16 @@
           "nom": "FREDERIC P.",
           "maillot": 12,
           "club": "LA WANTZENAU F.C 51"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLFKx2kS8imw": {
+          "nom": "LUDOVIC V.",
+          "maillot": 2,
+          "club": "LA WANTZENAU F.C 51"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlNFaZ7kyghlr8": {
+          "nom": "CHRISTOPHE N.",
+          "maillot": 12,
+          "club": "LA WANTZENAU F.C 51"
         }
       },
       "matchs": [
@@ -7777,10 +7799,23 @@
           "heure": "20:30",
           "recevant": "SCHILTIGHEIM SC 51",
           "visiteur": "LA WANTZENAU F.C 51",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLFKx2kS8imw",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlNFaZ7kyghlr8",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE GUSTAVE KITZINGER_['3B AVENUE PIERRE MENDES FRANCE', '67300 SCHILTIGHEIM']",
+          "officiels": [
+            "RECAI KURTAR_AC"
+          ]
         },
         {
           "id": 79302334,

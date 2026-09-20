@@ -22,12 +22,50 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC528772.jpg",
           "clNo": "12395",
           "slug": "528772-dijon-u-l-f-e-2"
+        },
+        "NEUILLY CRIM SENNECE": {
+          "nom": "NEUILLY CRIM SENNECE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560501.jpg",
+          "clNo": "197189",
+          "slug": "560501-neuilly-crim-sennece"
+        },
+        "CHEVIGNY ST SAUVEUR 2": {
+          "nom": "CHEVIGNY ST SAUVEUR 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC521525.jpg",
+          "clNo": "7629",
+          "slug": "521525-chevigny-st-sauveur-2"
+        },
+        "ENT.FCAB/ESVO": {
+          "nom": "ENT.FCAB/ESVO",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC506864.jpg",
+          "clNo": "2984",
+          "slug": "506864-ent-fcab-esvo"
+        },
+        "MARSANNAY 2": {
+          "nom": "MARSANNAY 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC524184.jpg",
+          "clNo": "9323",
+          "slug": "524184-marsannay-2"
         }
       },
       "stades": {
         "STADE MUNICIPAL 1_['RUE PASTEUR', 'TERRAIN HONNEUR', '21140 SEMUR EN AUXOIS']": {
           "nom": "STADE MUNICIPAL 1",
           "adresse": "RUE PASTEUR | TERRAIN HONNEUR | 21140 SEMUR EN AUXOIS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE PATRICK EDDY 1_['2 RUE JEAN DORAIN', '21800 SENNECEY LES DIJON']": {
+          "nom": "STADE PATRICK EDDY 1",
+          "adresse": "2 RUE JEAN DORAIN | 21800 SENNECEY LES DIJON",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE SAINT MICHEL 1_['ROUTE DE DUESMES - D101H', 'TERRAIN HONNEUR', '21510 AIGNAY LE DUC']": {
+          "nom": "STADE SAINT MICHEL 1",
+          "adresse": "ROUTE DE DUESMES - D101H | TERRAIN HONNEUR | 21510 AIGNAY LE DUC",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -142,10 +180,11 @@
           "heure": "15:00",
           "recevant": "NEUILLY CRIM SENNECE",
           "visiteur": "CHEVIGNY ST SAUVEUR 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PATRICK EDDY 1_['2 RUE JEAN DORAIN', '21800 SENNECEY LES DIJON']"
         },
         {
           "id": 79567612,
@@ -153,10 +192,11 @@
           "heure": "15:00",
           "recevant": "ENT.FCAB/ESVO",
           "visiteur": "MARSANNAY 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 8,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE SAINT MICHEL 1_['ROUTE DE DUESMES - D101H', 'TERRAIN HONNEUR', '21510 AIGNAY LE DUC']"
         },
         {
           "id": 79567610,
@@ -855,8 +895,67 @@
     {
       "cp_slug": "450375-u15-d3/phase/1/3",
       "competition": "U15 D3",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "FAUVERNEY ROUVRES 2": {
+          "nom": "FAUVERNEY ROUVRES 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC522500.jpg",
+          "clNo": "8259",
+          "slug": "522500-fauverney-rouvres-2"
+        },
+        "TART HAUT VARANGES": {
+          "nom": "TART HAUT VARANGES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC550838.jpg",
+          "clNo": "104889",
+          "slug": "550838-tart-haut-varanges"
+        },
+        "SEURRE/PLAINE39/RAHO": {
+          "nom": "SEURRE/PLAINE39/RAHO",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC540450.jpg",
+          "clNo": "20497",
+          "slug": "540450-seurre-plaine39-raho"
+        },
+        "ECHENON": {
+          "nom": "ECHENON",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC525430.jpg",
+          "clNo": "10171",
+          "slug": "525430-echenon"
+        },
+        "BEAUNE A.S. 2": {
+          "nom": "BEAUNE A.S. 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC506750.jpg",
+          "clNo": "2955",
+          "slug": "506750-beaune-a-s-2"
+        },
+        "MEURSAULT US": {
+          "nom": "MEURSAULT US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC511636.jpg",
+          "clNo": "3848",
+          "slug": "511636-meursault-us"
+        }
+      },
+      "stades": {
+        "STADE DU TEMPLE 2_['LE BOURG', 'TERRAIN ANNEXE 1', '21110 FAUVERNEY']": {
+          "nom": "STADE DU TEMPLE 2",
+          "adresse": "LE BOURG | TERRAIN ANNEXE 1 | 21110 FAUVERNEY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE RAIE MIGNOT 1_[' RUE DE LA RAIE MIGNOT', '21250 SEURRE']": {
+          "nom": "STADE RAIE MIGNOT 1",
+          "adresse": " RUE DE LA RAIE MIGNOT | 21250 SEURRE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE DU CHÂTEAU 2_['RUE DES CHATEAUX', 'TERRAIN NERINO BERNARD', '21200 VIGNOLES']": {
+          "nom": "STADE DU CHÂTEAU 2",
+          "adresse": "RUE DES CHATEAUX | TERRAIN NERINO BERNARD | 21200 VIGNOLES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -866,10 +965,11 @@
           "heure": "14:30",
           "recevant": "FAUVERNEY ROUVRES 2",
           "visiteur": "TART HAUT VARANGES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DU TEMPLE 2_['LE BOURG', 'TERRAIN ANNEXE 1', '21110 FAUVERNEY']"
         },
         {
           "id": 79577098,
@@ -877,10 +977,11 @@
           "heure": "15:00",
           "recevant": "SEURRE/PLAINE39/RAHO",
           "visiteur": "ECHENON",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE RAIE MIGNOT 1_[' RUE DE LA RAIE MIGNOT', '21250 SEURRE']"
         },
         {
           "id": 79577173,
@@ -899,10 +1000,11 @@
           "heure": "16:00",
           "recevant": "BEAUNE A.S. 2",
           "visiteur": "MEURSAULT US",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DU CHÂTEAU 2_['RUE DES CHATEAUX', 'TERRAIN NERINO BERNARD', '21200 VIGNOLES']"
         },
         {
           "id": 79577100,

@@ -88,10 +88,62 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE VALLIÈRES_[' CHEMIN DES TILLEULS', '39130 CLAIRVAUX LES LACS']": {
+          "nom": "STADE VALLIÈRES",
+          "adresse": " CHEMIN DES TILLEULS | 39130 CLAIRVAUX LES LACS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 3_['RUE DU STADE', 'ANNEXE 2 (À 7 OU À 9)', '39210 DOMBLANS']": {
+          "nom": "STADE MUNICIPAL 3",
+          "adresse": "RUE DU STADE | ANNEXE 2 (À 7 OU À 9) | 39210 DOMBLANS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football réduit"
+        },
+        "STADE ÉDOUARD GUILLON 2_['CHAMBOUILLES', ' ROUTE DE LYON', 'Terrain annexe 1', '39360 CHASSAL MOLINGES']": {
+          "nom": "STADE ÉDOUARD GUILLON 2",
+          "adresse": "CHAMBOUILLES |  ROUTE DE LYON | Terrain annexe 1 | 39360 CHASSAL MOLINGES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFKp8misnlrA": {
+          "nom": "LUCAS R.",
+          "maillot": 3,
+          "club": "COTEAUX DE SEILLE 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt7lSojmLM": {
+          "nom": "LILIAN R.",
+          "maillot": 9,
+          "club": "COTEAUX DE SEILLE 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15kSwnmb4": {
+          "nom": "BASTIEN M.",
+          "maillot": 8,
+          "club": "COTEAUX DE SEILLE 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt4lCkllrY": {
+          "nom": "YANN M.",
+          "maillot": 10,
+          "club": "COTEAUX DE SEILLE 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6kCghmrM": {
+          "nom": "ANTOINE C.",
+          "maillot": 1,
+          "club": "COTEAUX DE SEILLE 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx7lSosm74": {
+          "nom": "TYMEO B.",
+          "maillot": 11,
+          "club": "COTEAUX DE SEILLE 2"
+        }
+      },
       "matchs": [
         {
           "id": 79347058,
@@ -147,10 +199,11 @@
           "heure": "14:30",
           "recevant": "JURA LACS F. 2",
           "visiteur": "MACORNAY 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE VALLIÈRES_[' CHEMIN DES TILLEULS', '39130 CLAIRVAUX LES LACS']"
         },
         {
           "id": 79347061,
@@ -158,10 +211,34 @@
           "heure": "14:30",
           "recevant": "COTEAUX DE SEILLE 2",
           "visiteur": "PETITE MONTAGNE FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp8misnlrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7lSojmLM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 17,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK15kSwnmb4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt4lCkllrY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6kCghmrM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7lSosm74",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL 3_['RUE DU STADE', 'ANNEXE 2 (À 7 OU À 9)', '39210 DOMBLANS']"
         },
         {
           "id": 79347062,
@@ -169,10 +246,11 @@
           "heure": "14:30",
           "recevant": "GRANDVAUX FOOT",
           "visiteur": "MONTMOROT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['BOURG', '39150 ST LAURENT EN GRANDVAUX']"
         },
         {
           "id": 79347063,
@@ -180,10 +258,11 @@
           "heure": "14:30",
           "recevant": "JURA SUD FOOT 3",
           "visiteur": "GJ PORTE DU JURA 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 8,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ÉDOUARD GUILLON 2_['CHAMBOUILLES', ' ROUTE DE LYON', 'Terrain annexe 1', '39360 CHASSAL MOLINGES']"
         },
         {
           "id": 79347066,
@@ -502,6 +581,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE ABBÉ MELCOT 3_['rue du Doulbs', 'TERRAIN FOOT A 7', '39700 FRAISANS']": {
+          "nom": "STADE ABBÉ MELCOT 3",
+          "adresse": "rue du Doulbs | TERRAIN FOOT A 7 | 39700 FRAISANS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football réduit"
         }
       },
       "officiels": {},
@@ -634,10 +720,11 @@
           "heure": "14:30",
           "recevant": "JURA NORD FEM. 3",
           "visiteur": "PLATEAU FC 39",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ABBÉ MELCOT 3_['rue du Doulbs', 'TERRAIN FOOT A 7', '39700 FRAISANS']"
         },
         {
           "id": 79347175,
@@ -645,10 +732,11 @@
           "heure": "14:30",
           "recevant": "AIGLEPIERRE",
           "visiteur": "RAHON/PLAINE39 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES BRISOTS_[' RUE DU STADE', '39110 AIGLEPIERRE']"
         },
         {
           "id": 79347178,
@@ -899,6 +987,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC582410.jpg",
           "clNo": "190042",
           "slug": "582410-plaine-39-rahon"
+        },
+        "PLEURE/BRENNE ORAIN 2": {
+          "nom": "PLEURE/BRENNE ORAIN 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC521560.jpg",
+          "clNo": "7653",
+          "slug": "521560-pleure-brenne-orain-2"
         }
       },
       "stades": {
@@ -912,6 +1006,13 @@
         "STADE MUNICIPAL_[' RUE DES FONTAINES', '39100 GEVRY']": {
           "nom": "STADE MUNICIPAL",
           "adresse": " RUE DES FONTAINES | 39100 GEVRY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['Rue du stade', '39120 PETIT NOIR']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "Rue du stade | 39120 PETIT NOIR",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -1060,10 +1161,11 @@
           "heure": "14:30",
           "recevant": "GEVRY",
           "visiteur": "MOISS/ARCHE/ROCHE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_[' RUE DES FONTAINES', '39100 GEVRY']"
         },
         {
           "id": 79347379,
@@ -1071,10 +1173,11 @@
           "heure": "14:30",
           "recevant": "PLAINE 39/RAHON",
           "visiteur": "PLEURE/BRENNE ORAIN 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 18,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['Rue du stade', '39120 PETIT NOIR']"
         },
         {
           "id": 79347381,

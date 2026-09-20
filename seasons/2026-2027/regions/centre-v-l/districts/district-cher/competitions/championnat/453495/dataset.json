@@ -10,8 +10,86 @@
     {
       "cp_slug": "453495-criterium-u13-departemental-1/phase/1/1",
       "competition": "Critérium U13 Départemental 1",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "BOURGES PORTUGAIS AS": {
+          "nom": "BOURGES PORTUGAIS AS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC524968.jpg",
+          "clNo": "9836",
+          "slug": "524968-bourges-portugais-as"
+        },
+        "BOURGES MOULON ES": {
+          "nom": "BOURGES MOULON ES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC514340.jpg",
+          "clNo": "4473",
+          "slug": "514340-bourges-moulon-es"
+        },
+        "HENRICH MENETOU US": {
+          "nom": "HENRICH MENETOU US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC553691.jpg",
+          "clNo": "137141",
+          "slug": "553691-henrich-menetou-us"
+        },
+        "ST GERMAIN AS": {
+          "nom": "ST GERMAIN AS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC511286.jpg",
+          "clNo": "3754",
+          "slug": "511286-st-germain-as"
+        },
+        "ST DOULCHARD FC": {
+          "nom": "ST DOULCHARD FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC505015.jpg",
+          "clNo": "2488",
+          "slug": "505015-st-doulchard-fc"
+        },
+        "TROUY ES": {
+          "nom": "TROUY ES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC519060.jpg",
+          "clNo": "6170",
+          "slug": "519060-trouy-es"
+        },
+        "BOURGES GAZÉLEC S.": {
+          "nom": "BOURGES GAZÉLEC S.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC501541.jpg",
+          "clNo": "1025",
+          "slug": "501541-bourges-gazElec-s"
+        },
+        "BOURGES FC 2": {
+          "nom": "BOURGES FC 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560729.jpg",
+          "clNo": "198773",
+          "slug": "560729-bourges-fc-2"
+        }
+      },
+      "stades": {
+        "STADE MARINETTE PICHON_['122 ROUTE DE LA CHAPELLE', '18000 BOURGES']": {
+          "nom": "STADE MARINETTE PICHON",
+          "adresse": "122 ROUTE DE LA CHAPELLE | 18000 BOURGES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DU PRINCE D'ARENBERG 2_[\"ROUTE D'HENRICHEMONT\", '18510 MENETOU SALON']": {
+          "nom": "STADE DU PRINCE D'ARENBERG 2",
+          "adresse": "ROUTE D'HENRICHEMONT | 18510 MENETOU SALON",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE DES VERDINS 2_['AVENUE DU GENERAL DE GAULLE', 'TERRAIN ANNEXE', '18230 ST DOULCHARD']": {
+          "nom": "STADE DES VERDINS 2",
+          "adresse": "AVENUE DU GENERAL DE GAULLE | TERRAIN ANNEXE | 18230 ST DOULCHARD",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE VAUVERT 2_['RUE GABRIEL FAURE', '18000 BOURGES']": {
+          "nom": "STADE DE VAUVERT 2",
+          "adresse": "RUE GABRIEL FAURE | 18000 BOURGES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -21,10 +99,11 @@
           "heure": "13:30",
           "recevant": "HENRICH MENETOU US",
           "visiteur": "ST GERMAIN AS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DU PRINCE D'ARENBERG 2_[\"ROUTE D'HENRICHEMONT\", '18510 MENETOU SALON']"
         },
         {
           "id": 79601173,
@@ -32,10 +111,11 @@
           "heure": "14:00",
           "recevant": "ST DOULCHARD FC",
           "visiteur": "TROUY ES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES VERDINS 2_['AVENUE DU GENERAL DE GAULLE', 'TERRAIN ANNEXE', '18230 ST DOULCHARD']"
         },
         {
           "id": 79601174,
@@ -43,10 +123,11 @@
           "heure": "13:00",
           "recevant": "BOURGES PORTUGAIS AS",
           "visiteur": "BOURGES MOULON ES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MARINETTE PICHON_['122 ROUTE DE LA CHAPELLE', '18000 BOURGES']"
         },
         {
           "id": 79601176,
@@ -54,10 +135,11 @@
           "heure": "14:00",
           "recevant": "BOURGES GAZÉLEC S.",
           "visiteur": "BOURGES FC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE VAUVERT 2_['RUE GABRIEL FAURE', '18000 BOURGES']"
         },
         {
           "id": 79601177,

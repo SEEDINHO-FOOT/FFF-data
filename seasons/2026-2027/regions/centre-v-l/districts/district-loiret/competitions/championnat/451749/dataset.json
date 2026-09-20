@@ -22,6 +22,30 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC504865.jpg",
           "clNo": "2405",
           "slug": "504865-briare-us"
+        },
+        "CERDON COULLONS FC": {
+          "nom": "CERDON COULLONS FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC547227.jpg",
+          "clNo": "24639",
+          "slug": "547227-cerdon-coullons-fc"
+        },
+        "BELLEG. LADON": {
+          "nom": "BELLEG. LADON",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC553733.jpg",
+          "clNo": "137701",
+          "slug": "553733-belleg-ladon"
+        },
+        "A.S. PUISEAUX": {
+          "nom": "A.S. PUISEAUX",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC505399.jpg",
+          "clNo": "2569",
+          "slug": "505399-a-s-puiseaux"
+        },
+        "CHILLEURS COC": {
+          "nom": "CHILLEURS COC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC505081.jpg",
+          "clNo": "2511",
+          "slug": "505081-chilleurs-coc"
         }
       },
       "stades": {
@@ -31,10 +55,45 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 1_['ROUTE DE CERDON', '45720 COULLONS']": {
+          "nom": "STADE MUNICIPAL 1",
+          "adresse": "ROUTE DE CERDON | 45720 COULLONS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE DUMESNIL GONDINET_['Route de Montargis', '45390 PUISEAUX']": {
+          "nom": "STADE DUMESNIL GONDINET",
+          "adresse": "Route de Montargis | 45390 PUISEAUX",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFK16lCklmrE": {
+          "nom": "EVAN A.",
+          "maillot": 6,
+          "club": "A.S. PUISEAUX"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt_lSwgmLI": {
+          "nom": "ENZO F.",
+          "maillot": 11,
+          "club": "CHILLEURS COC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt-lS0il7A": {
+          "nom": "EVEN B.",
+          "maillot": 4,
+          "club": "CHILLEURS COC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16kS8hmbE": {
+          "nom": "AUBIN D.",
+          "maillot": 7,
+          "club": "A.S. PUISEAUX"
+        }
+      },
       "matchs": [
         {
           "id": 79538824,
@@ -54,10 +113,11 @@
           "heure": "16:00",
           "recevant": "CERDON COULLONS FC",
           "visiteur": "BELLEG. LADON",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['ROUTE DE CERDON', '45720 COULLONS']"
         },
         {
           "id": 79538803,
@@ -65,10 +125,43 @@
           "heure": "16:00",
           "recevant": "A.S. PUISEAUX",
           "visiteur": "CHILLEURS COC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 15,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16lCklmrE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt_lSwgmLI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 40,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-lS0il7A",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 55,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16kS8hmbE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 60,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16lCklmrE",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE DUMESNIL GONDINET_['Route de Montargis', '45390 PUISEAUX']"
         },
         {
           "id": 79538804,

@@ -22,6 +22,30 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC524184.jpg",
           "clNo": "9323",
           "slug": "524184-marsannay"
+        },
+        "FONTAINE LES DIJON F": {
+          "nom": "FONTAINE LES DIJON F",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC526621.jpg",
+          "clNo": "10955",
+          "slug": "526621-fontaine-les-dijon-f"
+        },
+        "NEUILLY CRIM SENNECE": {
+          "nom": "NEUILLY CRIM SENNECE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560501.jpg",
+          "clNo": "197189",
+          "slug": "560501-neuilly-crim-sennece"
+        },
+        "CERCLE TALANT": {
+          "nom": "CERCLE TALANT",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560159.jpg",
+          "clNo": "194370",
+          "slug": "560159-cercle-talant"
+        },
+        "FONTAINE  D'OUCHE AS": {
+          "nom": "FONTAINE  D'OUCHE AS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC526918.jpg",
+          "clNo": "11154",
+          "slug": "526918-fontaine-d-ouche-as"
         }
       },
       "stades": {
@@ -31,10 +55,35 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE PORTE FEUILLES_['2 rue des Porte-Feuilles', '21121 FONTAINE LES DIJON']": {
+          "nom": "STADE PORTE FEUILLES",
+          "adresse": "2 rue des Porte-Feuilles | 21121 FONTAINE LES DIJON",
+          "surface": "Stabilisé",
+          "surface_jeu": "Stabilisé",
+          "type_installation": "Football à 11"
+        },
+        "STADE GILBERT RUDE 2_['2 RUE GUISEPPE GARIBALDI', '21240 TALANT']": {
+          "nom": "STADE GILBERT RUDE 2",
+          "adresse": "2 RUE GUISEPPE GARIBALDI | 21240 TALANT",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFKp4lyYtm7Q": {
+          "nom": "AYLA A.",
+          "maillot": 5,
+          "club": "CERCLE TALANT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp_lywkm7E": {
+          "nom": "PETRINA GRACE N.",
+          "maillot": 8,
+          "club": "CERCLE TALANT"
+        }
+      },
       "matchs": [
         {
           "id": 79554438,
@@ -65,10 +114,11 @@
           "heure": "13:30",
           "recevant": "FONTAINE LES DIJON F",
           "visiteur": "NEUILLY CRIM SENNECE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PORTE FEUILLES_['2 rue des Porte-Feuilles', '21121 FONTAINE LES DIJON']"
         },
         {
           "id": 79554439,
@@ -87,10 +137,20 @@
           "heure": "14:30",
           "recevant": "CERCLE TALANT",
           "visiteur": "FONTAINE  D'OUCHE AS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4lyYtm7Q",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp_lywkm7E",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE GILBERT RUDE 2_['2 RUE GUISEPPE GARIBALDI', '21240 TALANT']"
         },
         {
           "id": 79554353,

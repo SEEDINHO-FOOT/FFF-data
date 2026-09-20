@@ -46,6 +46,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC529968.jpg",
           "clNo": "13255",
           "slug": "529968-st-sulpice-de-cognac"
+        },
+        "ALLIANCE FOOT 3B 2": {
+          "nom": "ALLIANCE FOOT 3B 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560188.jpg",
+          "clNo": "194470",
+          "slug": "560188-alliance-foot-3b-2"
         }
       },
       "stades": {
@@ -66,6 +72,27 @@
         "STADE GOUMARD DUMOULIN 2_['ALLEE DU STADE', 'ANNEXE', '16190 MONTMOREAU ST CYBARD']": {
           "nom": "STADE GOUMARD DUMOULIN 2",
           "adresse": "ALLEE DU STADE | ANNEXE | 16190 MONTMOREAU ST CYBARD",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE PAUL VOLLAUD_['LE POPELAUD', 'RUE DES MALASTIERS', '16130 SEGONZAC']": {
+          "nom": "STADE PAUL VOLLAUD",
+          "adresse": "LE POPELAUD | RUE DES MALASTIERS | 16130 SEGONZAC",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE JO PORTET_['-', '16370 ST SULPICE DE COGNAC']": {
+          "nom": "STADE JO PORTET",
+          "adresse": "- | 16370 ST SULPICE DE COGNAC",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE PIERRE JAULIN 2_['LE PLEIN', 'TERRAIN ANNEXE', '16360 BAIGNES STE RADEGONDE']": {
+          "nom": "STADE PIERRE JAULIN 2",
+          "adresse": "LE PLEIN | TERRAIN ANNEXE | 16360 BAIGNES STE RADEGONDE",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -131,6 +158,31 @@
         "ir3_vj-lzPeINLfhzILsrKFOFKt-kiginrQ": {
           "nom": "NATHAN B.",
           "maillot": 4,
+          "club": "ST BRICE 16 AL"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx4lSonm7Y": {
+          "nom": "AXEL B.",
+          "maillot": 8,
+          "club": "GRANDE CHAMPAGNE JS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp-lSwnl7Y": {
+          "nom": "AUGUSTIN M.",
+          "maillot": 11,
+          "club": "GRANDE CHAMPAGNE JS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx5miwtm7M": {
+          "nom": "TITOUAN P.",
+          "maillot": 9,
+          "club": "GRANDE CHAMPAGNE JS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt4kCYtnrA": {
+          "nom": "WESLEY V.",
+          "maillot": 6,
+          "club": "GRANDE CHAMPAGNE JS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt-ly8nnrU": {
+          "nom": "MATYS F.",
+          "maillot": 11,
           "club": "ST BRICE 16 AL"
         }
       },
@@ -230,10 +282,34 @@
           "heure": "13:00",
           "recevant": "GRANDE CHAMPAGNE JS",
           "visiteur": "ENT.FCA.ESSP.FCSC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 10,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4kCYhmbU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7lyktm7M",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 11,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4lSonm7Y",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp-lSwnl7Y",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx5miwtm7M",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt4kCYtnrA",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE PAUL VOLLAUD_['LE POPELAUD', 'RUE DES MALASTIERS', '16130 SEGONZAC']"
         },
         {
           "id": 79084020,
@@ -241,10 +317,11 @@
           "heure": "13:00",
           "recevant": "ST SULPICE DE COGNAC",
           "visiteur": "VILLEBOIS HTE BOEME",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JO PORTET_['-', '16370 ST SULPICE DE COGNAC']"
         },
         {
           "id": 79084021,
@@ -252,10 +329,27 @@
           "heure": "13:00",
           "recevant": "ALLIANCE FOOT 3B 2",
           "visiteur": "ST BRICE 16 AL",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 11,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp_lSYgn7Y",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-ly8nnrU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 23,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp-kygimbY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4kSsnnrU",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE PIERRE JAULIN 2_['LE PLEIN', 'TERRAIN ANNEXE', '16360 BAIGNES STE RADEGONDE']"
         },
         {
           "id": 79084024,
@@ -505,6 +599,20 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE LÉONIDE LACROIX 2_['RUE ROBERT JOLLY', 'TERRAIN ANNEXE', '16000 ANGOULEME']": {
+          "nom": "STADE LÉONIDE LACROIX 2",
+          "adresse": "RUE ROBERT JOLLY | TERRAIN ANNEXE | 16000 ANGOULEME",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football réduit"
+        },
+        "STADE RAYMOND ARRIVÉ_['LE BOURG', '16110 RIVIERES']": {
+          "nom": "STADE RAYMOND ARRIVÉ",
+          "adresse": "LE BOURG | 16110 RIVIERES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -575,10 +683,11 @@
           "heure": "14:00",
           "recevant": "GJ ETC",
           "visiteur": "ST MICHEL CS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['-', '16330 VARS']"
         },
         {
           "id": 79084130,
@@ -586,10 +695,11 @@
           "heure": "13:00",
           "recevant": "ANGOULEME LEROY CS 2",
           "visiteur": "LIN. NERSAC FLEAC GJ 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE LÉONIDE LACROIX 2_['RUE ROBERT JOLLY', 'TERRAIN ANNEXE', '16000 ANGOULEME']"
         },
         {
           "id": 79084128,
@@ -597,10 +707,11 @@
           "heure": "14:15",
           "recevant": "LA ROCHE-RIVIERES FC 3",
           "visiteur": "MORNAC ES 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE RAYMOND ARRIVÉ_['LE BOURG', '16110 RIVIERES']"
         },
         {
           "id": 79084131,
@@ -863,6 +974,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC581814.jpg",
           "clNo": "186762",
           "slug": "581814-ent-foot16-rouillac"
+        },
+        "RUFFECOIS STADE 2": {
+          "nom": "RUFFECOIS STADE 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC526779.jpg",
+          "clNo": "11068",
+          "slug": "526779-ruffecois-stade-2"
         }
       },
       "stades": {
@@ -886,10 +1003,45 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football réduit"
+        },
+        "Stade Municipal_['LE BOURG', '16560 ANAIS']": {
+          "nom": "Stade Municipal",
+          "adresse": "LE BOURG | 16560 ANAIS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE DES GRANDS SABLES_['-', '16570 MARSAC']": {
+          "nom": "STADE DES GRANDS SABLES",
+          "adresse": "- | 16570 MARSAC",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFKt_liginLY": {
+          "nom": "AUDREY U.",
+          "maillot": 5,
+          "club": "CHASSENEUIL 16 US 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK12lSgtnL8": {
+          "nom": "YANNIS D.",
+          "maillot": 12,
+          "club": "CHASSENEUIL 16 US 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp-lSoglrA": {
+          "nom": "CELYAN V.",
+          "maillot": 2,
+          "club": "GFB"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK12miksn7U": {
+          "nom": "LOUIS S.",
+          "maillot": 9,
+          "club": "GFB"
+        }
+      },
       "matchs": [
         {
           "id": 79084193,
@@ -933,10 +1085,27 @@
           "heure": "13:00",
           "recevant": "CHASSENEUIL 16 US 2",
           "visiteur": "GFB",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt_liginLY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK12lSgtnL8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp-lSoglrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK12miksn7U",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE ANDRÉ ROCHEREAU 2_['ROUTE DE MONTEMBOEUF', 'TERRAIN ANNEXE', '16260 CHASSENEUIL SUR BONNIEURE']"
         },
         {
           "id": 79084200,
@@ -944,10 +1113,11 @@
           "heure": "13:00",
           "recevant": "ENT.MANSLE_ANAIS 2",
           "visiteur": "RUFFECOIS STADE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 10,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Municipal_['LE BOURG', '16560 ANAIS']"
         },
         {
           "id": 79084197,
@@ -955,10 +1125,11 @@
           "heure": "15:00",
           "recevant": "ENT FOOT16/ ROUILLAC",
           "visiteur": "HAUTE CHARENTE FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 8,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES GRANDS SABLES_['-', '16570 MARSAC']"
         },
         {
           "id": 79084201,

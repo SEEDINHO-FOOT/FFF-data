@@ -52,6 +52,24 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC547578.jpg",
           "clNo": "24876",
           "slug": "547578-u-s-cadierenne"
+        },
+        "U.S. CUERS PIERREFEU": {
+          "nom": "U.S. CUERS PIERREFEU",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC545621.jpg",
+          "clNo": "23501",
+          "slug": "545621-u-s-cuers-pierrefeu"
+        },
+        "ASPTT HYERES": {
+          "nom": "ASPTT HYERES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC520691.jpg",
+          "clNo": "7083",
+          "slug": "520691-asptt-hyeres"
+        },
+        "F.C. REVESTOIS": {
+          "nom": "F.C. REVESTOIS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC521151.jpg",
+          "clNo": "7382",
+          "slug": "521151-f-c-revestois"
         }
       },
       "stades": {
@@ -79,6 +97,27 @@
         "STADE MUNICIPAL_['BOULEVARD DU 8 MAI 1945', '83330 LE BEAUSSET']": {
           "nom": "STADE MUNICIPAL",
           "adresse": "BOULEVARD DU 8 MAI 1945 | 83330 LE BEAUSSET",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE PAUL ROCOFORT_['CHEMIN DE FOUAN DE BROQUIER', '83390 CUERS']": {
+          "nom": "STADE PAUL ROCOFORT",
+          "adresse": "CHEMIN DE FOUAN DE BROQUIER | 83390 CUERS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE ALBERT ESTUBLIER 1_['(EX SERINETTE)', 'CHEMIN DE LA BARRE', 'TERRAIN HONNEUR', '83000 TOULON']": {
+          "nom": "STADE ALBERT ESTUBLIER 1",
+          "adresse": "(EX SERINETTE) | CHEMIN DE LA BARRE | TERRAIN HONNEUR | 83000 TOULON",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE LA COLLINE_['CHEMIN DU RIGADU', '83200 LE REVEST LES EAUX']": {
+          "nom": "STADE DE LA COLLINE",
+          "adresse": "CHEMIN DU RIGADU | 83200 LE REVEST LES EAUX",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -174,10 +213,11 @@
           "heure": "18:00",
           "recevant": "U.S. CUERS PIERREFEU",
           "visiteur": "ASPTT HYERES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 9,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PAUL ROCOFORT_['CHEMIN DE FOUAN DE BROQUIER', '83390 CUERS']"
         },
         {
           "id": 56292154,
@@ -185,10 +225,11 @@
           "heure": "09:00",
           "recevant": "ENT PIVOTTE SERINET",
           "visiteur": "AS. LA BEAUCAIRE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ALBERT ESTUBLIER 1_['(EX SERINETTE)', 'CHEMIN DE LA BARRE', 'TERRAIN HONNEUR', '83000 TOULON']"
         },
         {
           "id": 56292155,
@@ -196,10 +237,11 @@
           "heure": "09:30",
           "recevant": "F.C. REVESTOIS",
           "visiteur": "USAM TOULON",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA COLLINE_['CHEMIN DU RIGADU', '83200 LE REVEST LES EAUX']"
         },
         {
           "id": 56292162,
@@ -1306,8 +1348,48 @@
     {
       "cp_slug": "454842-champ-u14-d3/phase/1/2",
       "competition": "Champ  U14 D3",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "ST.O. LONDAIS": {
+          "nom": "ST.O. LONDAIS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503092.jpg",
+          "clNo": "1654",
+          "slug": "503092-st-o-londais"
+        },
+        "A. S. LES VALLONS": {
+          "nom": "A. S. LES VALLONS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC553845.jpg",
+          "clNo": "139281",
+          "slug": "553845-a-s-les-vallons"
+        },
+        "ET CLARET LA RODE 2": {
+          "nom": "ET CLARET LA RODE 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC536133.jpg",
+          "clNo": "17403",
+          "slug": "536133-et-claret-la-rode-2"
+        },
+        "US CARQUEIRANNE CRAU 2": {
+          "nom": "US CARQUEIRANNE CRAU 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC554251.jpg",
+          "clNo": "149921",
+          "slug": "554251-us-carqueiranne-crau-2"
+        }
+      },
+      "stades": {
+        "STADE GUILLAUMONT_['RUE ANDRE BORAGNO', '83250 LA LONDE LES MAURES']": {
+          "nom": "STADE GUILLAUMONT",
+          "adresse": "RUE ANDRE BORAGNO | 83250 LA LONDE LES MAURES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DES LICES_['BOULEVARD LOUVOIS', '83000 TOULON']": {
+          "nom": "STADE DES LICES",
+          "adresse": "BOULEVARD LOUVOIS | 83000 TOULON",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -1328,10 +1410,11 @@
           "heure": "15:45",
           "recevant": "ST.O. LONDAIS",
           "visiteur": "A. S. LES VALLONS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GUILLAUMONT_['RUE ANDRE BORAGNO', '83250 LA LONDE LES MAURES']"
         },
         {
           "id": 79097924,
@@ -1350,10 +1433,11 @@
           "heure": "11:30",
           "recevant": "ET CLARET LA RODE 2",
           "visiteur": "US CARQUEIRANNE CRAU 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES LICES_['BOULEVARD LOUVOIS', '83000 TOULON']"
         },
         {
           "id": 79097930,
@@ -2108,10 +2192,179 @@
     {
       "cp_slug": "454842-champ-u14-d3/phase/1/3",
       "competition": "Champ  U14 D3",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "A.S. ARCOISE": {
+          "nom": "A.S. ARCOISE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503035.jpg",
+          "clNo": "1612",
+          "slug": "503035-a-s-arcoise"
+        },
+        "F.C. PAYS DE FAYENCE": {
+          "nom": "F.C. PAYS DE FAYENCE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC548270.jpg",
+          "clNo": "25374",
+          "slug": "548270-f-c-pays-de-fayence"
+        },
+        "ENT. AUPS SALERNES": {
+          "nom": "ENT. AUPS SALERNES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503095.jpg",
+          "clNo": "1657",
+          "slug": "503095-ent-aups-salernes"
+        },
+        "C.A. ROQUEBRUNOIS 2": {
+          "nom": "C.A. ROQUEBRUNOIS 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503060.jpg",
+          "clNo": "1631",
+          "slug": "503060-c-a-roquebrunois-2"
+        },
+        "S. C. DRAGUIGNAN 2": {
+          "nom": "S. C. DRAGUIGNAN 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC553782.jpg",
+          "clNo": "138421",
+          "slug": "553782-s-c-draguignan-2"
+        },
+        "F.C SAINTE ANASTASIE": {
+          "nom": "F.C SAINTE ANASTASIE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC552716.jpg",
+          "clNo": "156601",
+          "slug": "552716-f-c-sainte-anastasie"
+        },
+        "F.C. VIDAUBAN": {
+          "nom": "F.C. VIDAUBAN",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503105.jpg",
+          "clNo": "1663",
+          "slug": "503105-f-c-vidauban"
+        },
+        "A.S. CALLAS CANTON": {
+          "nom": "A.S. CALLAS CANTON",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC547131.jpg",
+          "clNo": "24573",
+          "slug": "547131-a-s-callas-canton"
+        }
+      },
+      "stades": {
+        "STADE GILLES ROUVIER_['QUARTIER DE LA GARE', 'CHATEAU MORARD', '83460 LES ARCS']": {
+          "nom": "STADE GILLES ROUVIER",
+          "adresse": "QUARTIER DE LA GARE | CHATEAU MORARD | 83460 LES ARCS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE GILLES PAGLIARDINI_['QUARTIER DU PIN BERNARD', 'ROUTE DE DRAGUIGNAN', '83690 SALERNES']": {
+          "nom": "STADE GILLES PAGLIARDINI",
+          "adresse": "QUARTIER DU PIN BERNARD | ROUTE DE DRAGUIGNAN | 83690 SALERNES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE LOUIS GILLY 2_['CHEMIN DU PETIT PLAN', 'TERRAIN ANNEXE', '83300 DRAGUIGNAN']": {
+          "nom": "STADE LOUIS GILLY 2",
+          "adresse": "CHEMIN DU PETIT PLAN | TERRAIN ANNEXE | 83300 DRAGUIGNAN",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE ÉDOUARD BERNARD 2_['BOULEVARD COUA DE CAN', 'TERRAIN ANNEXE', '83550 VIDAUBAN']": {
+          "nom": "STADE ÉDOUARD BERNARD 2",
+          "adresse": "BOULEVARD COUA DE CAN | TERRAIN ANNEXE | 83550 VIDAUBAN",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFK16liwnmLA": {
+          "nom": "RODRIGUE B.",
+          "maillot": 11,
+          "club": "ENT. AUPS SALERNES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx4ly0knbU": {
+          "nom": "SIMON D.",
+          "maillot": 12,
+          "club": "ENT. AUPS SALERNES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx3ly8km78": {
+          "nom": "GABIN A.",
+          "maillot": 8,
+          "club": "ENT. AUPS SALERNES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt-kCssnrc": {
+          "nom": "TIMEO P.",
+          "maillot": 13,
+          "club": "ENT. AUPS SALERNES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx_lykln7A": {
+          "nom": "ROMANE M.",
+          "maillot": 6,
+          "club": "ENT. AUPS SALERNES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt7ky0im7U": {
+          "nom": "LUCAS B.",
+          "maillot": 14,
+          "club": "ENT. AUPS SALERNES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK13ly8hmb4": {
+          "nom": "ALAN D.",
+          "maillot": 11,
+          "club": "S. C. DRAGUIGNAN 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17mi0ll74": {
+          "nom": "SOFIANE M.",
+          "maillot": 12,
+          "club": "S. C. DRAGUIGNAN 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt7mygmmbA": {
+          "nom": "YMRAN M.",
+          "maillot": 10,
+          "club": "S. C. DRAGUIGNAN 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp6kSsnn7Q": {
+          "nom": "AMMANUEL K.",
+          "maillot": 13,
+          "club": "S. C. DRAGUIGNAN 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK12kyYknbE": {
+          "nom": "SERWAN L.",
+          "maillot": 9,
+          "club": "S. C. DRAGUIGNAN 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx8kykln74": {
+          "nom": "VALENTIN O.",
+          "maillot": 14,
+          "club": "S. C. DRAGUIGNAN 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx8ki0knbQ": {
+          "nom": "MATTEO W.",
+          "maillot": 11,
+          "club": "F.C SAINTE ANASTASIE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK12lSkjmbc": {
+          "nom": "LIVIO F.",
+          "maillot": 12,
+          "club": "F.C SAINTE ANASTASIE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK13kSkmnL4": {
+          "nom": "TOM P.",
+          "maillot": 10,
+          "club": "F.C SAINTE ANASTASIE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd7liYnmr4": {
+          "nom": "HUGO H.",
+          "maillot": 13,
+          "club": "F.C SAINTE ANASTASIE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK13kSghnbM": {
+          "nom": "AARON C.",
+          "maillot": 9,
+          "club": "F.C SAINTE ANASTASIE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp9migmmbQ": {
+          "nom": "THOMAS L.",
+          "maillot": 14,
+          "club": "F.C SAINTE ANASTASIE"
+        }
+      },
       "matchs": [
         {
           "id": 56560063,
@@ -2119,10 +2372,11 @@
           "heure": "16:00",
           "recevant": "A.S. ARCOISE",
           "visiteur": "F.C. PAYS DE FAYENCE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GILLES ROUVIER_['QUARTIER DE LA GARE', 'CHATEAU MORARD', '83460 LES ARCS']"
         },
         {
           "id": 56560067,
@@ -2130,10 +2384,34 @@
           "heure": "16:00",
           "recevant": "ENT. AUPS SALERNES",
           "visiteur": "C.A. ROQUEBRUNOIS 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 8,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 19,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16liwnmLA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4ly0knbU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3ly8km78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-kCssnrc",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 76,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_lykln7A",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7ky0im7U",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE GILLES PAGLIARDINI_['QUARTIER DU PIN BERNARD', 'ROUTE DE DRAGUIGNAN', '83690 SALERNES']"
         },
         {
           "id": 56560065,
@@ -2141,10 +2419,55 @@
           "heure": "17:30",
           "recevant": "S. C. DRAGUIGNAN 2",
           "visiteur": "F.C SAINTE ANASTASIE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK13ly8hmb4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK17mi0ll74",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7mygmmbA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp6kSsnn7Q",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12kyYknbE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8kykln74",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8ki0knbQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK12lSkjmbc",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK13kSkmnL4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7liYnmr4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK13kSghnbM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9migmmbQ",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE LOUIS GILLY 2_['CHEMIN DU PETIT PLAN', 'TERRAIN ANNEXE', '83300 DRAGUIGNAN']"
         },
         {
           "id": 56560064,
@@ -2152,10 +2475,11 @@
           "heure": "13:30",
           "recevant": "F.C. VIDAUBAN",
           "visiteur": "A.S. CALLAS CANTON",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ÉDOUARD BERNARD 2_['BOULEVARD COUA DE CAN', 'TERRAIN ANNEXE', '83550 VIDAUBAN']"
         },
         {
           "id": 56560071,

@@ -58,6 +58,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC526779.jpg",
           "clNo": "11068",
           "slug": "526779-ruffecois-stade"
+        },
+        "CHAMPNIERS ES": {
+          "nom": "CHAMPNIERS ES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC514428.jpg",
+          "clNo": "4507",
+          "slug": "514428-champniers-es"
         }
       },
       "stades": {
@@ -95,6 +101,20 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football réduit"
+        },
+        "STADE MAURY LARIBIÈRE_['RUE DU CLOS DU BEAU', '16270 TERRES DE HAUTE CHARENTE']": {
+          "nom": "STADE MAURY LARIBIÈRE",
+          "adresse": "RUE DU CLOS DU BEAU | 16270 TERRES DE HAUTE CHARENTE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football réduit"
+        },
+        "STADE ANDRÉ ROCHEREAU 2_['ROUTE DE MONTEMBOEUF', 'TERRAIN ANNEXE', '16260 CHASSENEUIL SUR BONNIEURE']": {
+          "nom": "STADE ANDRÉ ROCHEREAU 2",
+          "adresse": "ROUTE DE MONTEMBOEUF | TERRAIN ANNEXE | 16260 CHASSENEUIL SUR BONNIEURE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -148,6 +168,36 @@
           "nom": "GABRIEL V.",
           "maillot": 12,
           "club": "AIGRE AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx7mionnbA": {
+          "nom": "KEYLIAN S.",
+          "maillot": 3,
+          "club": "CHTE LIMOUSINE GJ"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx5ly8mn78": {
+          "nom": "TOM S.",
+          "maillot": 14,
+          "club": "CHTE LIMOUSINE GJ"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx4lCohm7c": {
+          "nom": "DENIZ B.",
+          "maillot": 10,
+          "club": "CHTE LIMOUSINE GJ"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt4lC0mnbU": {
+          "nom": "EDEN L.",
+          "maillot": 12,
+          "club": "CHTE LIMOUSINE GJ"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx5ly8mmr4": {
+          "nom": "EDEN A.",
+          "maillot": 9,
+          "club": "CHTE LIMOUSINE GJ"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx5ly8mnbE": {
+          "nom": "PAUL C.",
+          "maillot": 13,
+          "club": "CHTE LIMOUSINE GJ"
         }
       },
       "matchs": [
@@ -276,10 +326,34 @@
           "heure": "15:00",
           "recevant": "CHTE LIMOUSINE GJ",
           "visiteur": "J.A. BEL-AIR 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 10,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7mionnbA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx5ly8mn78",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 10,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4lCohm7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt4lC0mnbU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 10,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx5ly8mmr4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx5ly8mnbE",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MAURY LARIBIÈRE_['RUE DU CLOS DU BEAU', '16270 TERRES DE HAUTE CHARENTE']"
         },
         {
           "id": 79083108,
@@ -287,10 +361,11 @@
           "heure": "15:00",
           "recevant": "CHASSENEUIL 16 US",
           "visiteur": "LA ROCHE-RIVIERES FC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 9,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ANDRÉ ROCHEREAU 2_['ROUTE DE MONTEMBOEUF', 'TERRAIN ANNEXE', '16260 CHASSENEUIL SUR BONNIEURE']"
         },
         {
           "id": 79083109,
@@ -298,10 +373,11 @@
           "heure": "15:00",
           "recevant": "ENT.MANSLE_ANAIS",
           "visiteur": "CHAMPNIERS ES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Municipal_['LE BOURG', '16560 ANAIS']"
         },
         {
           "id": 79083112,
@@ -797,6 +873,34 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE DES GRANDS CHAMPS_['RUE LEO LAGRANGE', '16600 RUELLE SUR TOUVRE']": {
+          "nom": "STADE DES GRANDS CHAMPS",
+          "adresse": "RUE LEO LAGRANGE | 16600 RUELLE SUR TOUVRE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE DES ROCHERS 3_['RUE DU 19 MARS 1962', 'TERRAIN DU COLLEGE', '16800 SOYAUX']": {
+          "nom": "STADE DES ROCHERS 3",
+          "adresse": "RUE DU 19 MARS 1962 | TERRAIN DU COLLEGE | 16800 SOYAUX",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football réduit"
+        },
+        "STADE MUNICIPAL_['ROUTE DU STADE', '16410 DIRAC']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "ROUTE DU STADE | 16410 DIRAC",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "Stade Du Petit MairaT_[' RUE DU PETIT MAIRAT', 'RUE DU STADE', '16600 MORNAC']": {
+          "nom": "Stade Du Petit MairaT",
+          "adresse": " RUE DU PETIT MAIRAT | RUE DU STADE | 16600 MORNAC",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -951,10 +1055,11 @@
           "heure": "13:00",
           "recevant": "RUELLE OFC 2",
           "visiteur": "ENT.EJPPP-BOUEX",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 9,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES GRANDS CHAMPS_['RUE LEO LAGRANGE', '16600 RUELLE SUR TOUVRE']"
         },
         {
           "id": 79083233,
@@ -962,10 +1067,11 @@
           "heure": "13:00",
           "recevant": "AS SOYAUX",
           "visiteur": "GJ M2CR 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES ROCHERS 3_['RUE DU 19 MARS 1962', 'TERRAIN DU COLLEGE', '16800 SOYAUX']"
         },
         {
           "id": 79083235,
@@ -973,10 +1079,11 @@
           "heure": "13:00",
           "recevant": "VALLEE ECHELLE GJ",
           "visiteur": "PUYMOYEN AS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['ROUTE DU STADE', '16410 DIRAC']"
         },
         {
           "id": 79083234,
@@ -984,10 +1091,11 @@
           "heure": "15:00",
           "recevant": "MORNAC ES",
           "visiteur": "ALLIANCE FOOT 3B",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Du Petit MairaT_[' RUE DU PETIT MAIRAT', 'RUE DU STADE', '16600 MORNAC']"
         },
         {
           "id": 79083236,
@@ -1490,6 +1598,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['LA VENAUD VIEILLE', 'D36', '16260 LES PINS']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "LA VENAUD VIEILLE | D36 | 16260 LES PINS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -1795,10 +1910,11 @@
           "heure": "14:00",
           "recevant": "AGRIS SC",
           "visiteur": "COGNAC FOOTBALL UA 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['LA VENAUD VIEILLE', 'D36', '16260 LES PINS']"
         },
         {
           "id": 79083392,

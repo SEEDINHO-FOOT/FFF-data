@@ -10,10 +10,81 @@
     {
       "cp_slug": "450371-u18-d3/phase/1/1",
       "competition": "U18 D3",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "AS D.D.O.M": {
+          "nom": "AS D.D.O.M",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC542181.jpg",
+          "clNo": "21796",
+          "slug": "542181-as-d-d-o-m"
+        },
+        "ENT IS SELONGEY AJSL": {
+          "nom": "ENT IS SELONGEY AJSL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC552199.jpg",
+          "clNo": "117383",
+          "slug": "552199-ent-is-selongey-ajsl"
+        },
+        "DIJON U.L.F.E. 2": {
+          "nom": "DIJON U.L.F.E. 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC528772.jpg",
+          "clNo": "12395",
+          "slug": "528772-dijon-u-l-f-e-2"
+        },
+        "AISEREY IZEURE FC": {
+          "nom": "AISEREY IZEURE FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC552004.jpg",
+          "clNo": "116743",
+          "slug": "552004-aiserey-izeure-fc"
+        }
+      },
+      "stades": {
+        "STADE PAUL DOUMER_['BOULEVARD PAUL DOUMER', '21000 DIJON']": {
+          "nom": "STADE PAUL DOUMER",
+          "adresse": "BOULEVARD PAUL DOUMER | 21000 DIJON",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE TRIMOLET_['BOULEVARD TRIMOLET', '21000 DIJON']": {
+          "nom": "STADE TRIMOLET",
+          "adresse": "BOULEVARD TRIMOLET | 21000 DIJON",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKpNEKd8ky8hmbM": {
+          "nom": "AMINE K.",
+          "maillot": 11,
+          "club": "DIJON U.L.F.E. 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd7liwsmLM": {
+          "nom": "TAYM M.",
+          "maillot": 13,
+          "club": "DIJON U.L.F.E. 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16ky0klrA": {
+          "nom": "LOUIS N.",
+          "maillot": 11,
+          "club": "AISEREY IZEURE FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19lCcgn7Y": {
+          "nom": "LUCAS A.",
+          "maillot": 12,
+          "club": "AISEREY IZEURE FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd7kigkmrA": {
+          "nom": "AMIR A.",
+          "maillot": 12,
+          "club": "DIJON U.L.F.E. 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19kiYhnbc": {
+          "nom": "SOFIANE L.",
+          "maillot": 4,
+          "club": "DIJON U.L.F.E. 2"
+        }
+      },
       "matchs": [
         {
           "id": 79566272,
@@ -21,10 +92,11 @@
           "heure": "15:00",
           "recevant": "AS D.D.O.M",
           "visiteur": "ENT IS SELONGEY AJSL",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PAUL DOUMER_['BOULEVARD PAUL DOUMER', '21000 DIJON']"
         },
         {
           "id": 79564340,
@@ -32,10 +104,41 @@
           "heure": "17:30",
           "recevant": "DIJON U.L.F.E. 2",
           "visiteur": "AISEREY IZEURE FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 12,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8ky8hmbM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7liwsmLM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 23,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16ky0klrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK19lCcgn7Y",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 29,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7liwsmLM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7kigkmrA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK19kiYhnbc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7kigkmrA",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE TRIMOLET_['BOULEVARD TRIMOLET', '21000 DIJON']"
         },
         {
           "id": 79565379,
@@ -328,10 +431,120 @@
     {
       "cp_slug": "450371-u18-d3/phase/1/2",
       "competition": "U18 D3",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "ECHENON": {
+          "nom": "ECHENON",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC525430.jpg",
+          "clNo": "10171",
+          "slug": "525430-echenon"
+        },
+        "AISEREY IZEURE FC 2": {
+          "nom": "AISEREY IZEURE FC 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC552004.jpg",
+          "clNo": "116743",
+          "slug": "552004-aiserey-izeure-fc-2"
+        },
+        "RUFFEY  STE MARIE FC": {
+          "nom": "RUFFEY  STE MARIE FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC531711.jpg",
+          "clNo": "14407",
+          "slug": "531711-ruffey-ste-marie-fc"
+        },
+        "GEVREY 2": {
+          "nom": "GEVREY 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC521167.jpg",
+          "clNo": "7395",
+          "slug": "521167-gevrey-2"
+        },
+        "TART HAUT VARANGES": {
+          "nom": "TART HAUT VARANGES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC550838.jpg",
+          "clNo": "104889",
+          "slug": "550838-tart-haut-varanges"
+        },
+        "A.S. SEURRE P.B.": {
+          "nom": "A.S. SEURRE P.B.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC540450.jpg",
+          "clNo": "20497",
+          "slug": "540450-a-s-seurre-p-b"
+        }
+      },
+      "stades": {
+        "STADE DE SEVES_['Rue du stade', '21170 ECHENON']": {
+          "nom": "STADE DE SEVES",
+          "adresse": "Rue du stade | 21170 ECHENON",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE PIERRE JOIGNEAUX_['route de seurre', '21200 RUFFEY LES BEAUNE']": {
+          "nom": "STADE PIERRE JOIGNEAUX",
+          "adresse": "route de seurre | 21200 RUFFEY LES BEAUNE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE ERWIN EVRA_['10 RUE DU CANAL', '21110 VARANGES']": {
+          "nom": "STADE ERWIN EVRA",
+          "adresse": "10 RUE DU CANAL | 21110 VARANGES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFK12kiosnLY": {
+          "nom": "TONY H.",
+          "maillot": 9,
+          "club": "A.S. SEURRE P.B."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp5kycgl7A": {
+          "nom": "LUCAS V.",
+          "maillot": 15,
+          "club": "A.S. SEURRE P.B."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh6kSoimLY": {
+          "nom": "AURELIEN C.",
+          "maillot": 11,
+          "club": "TART HAUT VARANGES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16kickmrA": {
+          "nom": "MAEL L.",
+          "maillot": 4,
+          "club": "TART HAUT VARANGES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd6lSslmL8": {
+          "nom": "BAPTISTE B.",
+          "maillot": 10,
+          "club": "TART HAUT VARANGES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh2lS8gmrE": {
+          "nom": "JULIAN S.",
+          "maillot": 8,
+          "club": "TART HAUT VARANGES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK18likhm7I": {
+          "nom": "MAEL C.",
+          "maillot": 6,
+          "club": "A.S. SEURRE P.B."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd6lioln7c": {
+          "nom": "SEBASTIEN L.",
+          "maillot": 13,
+          "club": "A.S. SEURRE P.B."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17kCgln78": {
+          "nom": "MATTEO B.",
+          "maillot": 12,
+          "club": "A.S. SEURRE P.B."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd7ky4mmLc": {
+          "nom": "HUGO B.",
+          "maillot": 14,
+          "club": "A.S. SEURRE P.B."
+        }
+      },
       "matchs": [
         {
           "id": 79567660,
@@ -339,10 +552,11 @@
           "heure": "15:00",
           "recevant": "ECHENON",
           "visiteur": "AISEREY IZEURE FC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE SEVES_['Rue du stade', '21170 ECHENON']"
         },
         {
           "id": 79567661,
@@ -350,10 +564,11 @@
           "heure": "10:00",
           "recevant": "RUFFEY  STE MARIE FC",
           "visiteur": "GEVREY 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PIERRE JOIGNEAUX_['route de seurre', '21200 RUFFEY LES BEAUNE']"
         },
         {
           "id": 79567663,
@@ -361,10 +576,48 @@
           "heure": "10:00",
           "recevant": "TART HAUT VARANGES",
           "visiteur": "A.S. SEURRE P.B.",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12kiosnLY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5kycgl7A",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh6kSoimLY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK16kickmrA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6lSslmL8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh2lS8gmrE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK18likhm7I",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6lioln7c",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 36,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK17kCgln78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7ky4mmLc",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE ERWIN EVRA_['10 RUE DU CANAL', '21110 VARANGES']"
         },
         {
           "id": 79567667,

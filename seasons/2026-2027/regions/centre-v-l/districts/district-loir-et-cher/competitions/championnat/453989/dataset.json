@@ -10,10 +10,81 @@
     {
       "cp_slug": "453989-u13-departemental-3/phase/1/1",
       "competition": "U13 Départemental 3",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "ENT.  JEUNES NORD 41 2": {
+          "nom": "ENT.  JEUNES NORD 41 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC504880.jpg",
+          "clNo": "2412",
+          "slug": "504880-ent-jeunes-nord-41-2"
+        },
+        "HAUT VEND. FC": {
+          "nom": "HAUT VEND. FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC549456.jpg",
+          "clNo": "26194",
+          "slug": "549456-haut-vend-fc"
+        },
+        "E.S.SM-SM 2": {
+          "nom": "E.S.SM-SM 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565205.jpg",
+          "clNo": "205141",
+          "slug": "565205-e-s-sm-sm-2"
+        },
+        "A.S. LA PERCHERONNE": {
+          "nom": "A.S. LA PERCHERONNE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC514337.jpg",
+          "clNo": "4470",
+          "slug": "514337-a-s-la-percheronne"
+        }
+      },
+      "stades": {
+        "STADE DES PÂTIS 1_['RUE PATIS', '41360 SAVIGNY SUR BRAYE']": {
+          "nom": "STADE DES PÂTIS 1",
+          "adresse": "RUE PATIS | 41360 SAVIGNY SUR BRAYE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 1_['RUE DU GENERAL DE GAULLE', '41800 MONTOIRE SUR LE LOIR']": {
+          "nom": "STADE MUNICIPAL 1",
+          "adresse": "RUE DU GENERAL DE GAULLE | 41800 MONTOIRE SUR LE LOIR",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFK15kC0tn7I": {
+          "nom": "LEANDRO L.",
+          "maillot": 8,
+          "club": "ENT.  JEUNES NORD 41 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx_lychmbc": {
+          "nom": "TIMEO B.",
+          "maillot": 9,
+          "club": "ENT.  JEUNES NORD 41 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp-licmnbE": {
+          "nom": "LUCAS P.",
+          "maillot": 11,
+          "club": "HAUT VEND. FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx_lSsgmbY": {
+          "nom": "LAYVIN T.",
+          "maillot": 12,
+          "club": "HAUT VEND. FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt4ly4hm7c": {
+          "nom": "MATTHIAS J.",
+          "maillot": 10,
+          "club": "HAUT VEND. FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp2ki8jmrE": {
+          "nom": "ENZO L.",
+          "maillot": 13,
+          "club": "HAUT VEND. FC"
+        }
+      },
       "matchs": [
         {
           "id": 79492464,
@@ -21,10 +92,34 @@
           "heure": "14:30",
           "recevant": "ENT.  JEUNES NORD 41 2",
           "visiteur": "HAUT VEND. FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK15kC0tn7I",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_lychmbc",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp-licmnbE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_lSsgmbY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt4ly4hm7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp2ki8jmrE",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE DES PÂTIS 1_['RUE PATIS', '41360 SAVIGNY SUR BRAYE']"
         },
         {
           "id": 79492465,
@@ -32,10 +127,11 @@
           "heure": "14:30",
           "recevant": "E.S.SM-SM 2",
           "visiteur": "A.S. LA PERCHERONNE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['RUE DU GENERAL DE GAULLE', '41800 MONTOIRE SUR LE LOIR']"
         },
         {
           "id": 79492466,
@@ -98,6 +194,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC561194.jpg",
           "clNo": "200823",
           "slug": "561194-us-petite-beauce-2"
+        },
+        "U.S. VENDOME 2": {
+          "nom": "U.S. VENDOME 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC504817.jpg",
+          "clNo": "2389",
+          "slug": "504817-u-s-vendome-2"
+        },
+        "ST OUEN AL": {
+          "nom": "ST OUEN AL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC534010.jpg",
+          "clNo": "15927",
+          "slug": "534010-st-ouen-al"
         }
       },
       "stades": {
@@ -107,6 +215,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football réduit"
+        },
+        "STADE DES MAILLETTES_['8 RUE DES MAILLETTES', '41100 VENDOME']": {
+          "nom": "STADE DES MAILLETTES",
+          "adresse": "8 RUE DES MAILLETTES | 41100 VENDOME",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -130,10 +245,11 @@
           "heure": "12:30",
           "recevant": "U.S. VENDOME 2",
           "visiteur": "ST OUEN AL",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 10,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES MAILLETTES_['8 RUE DES MAILLETTES', '41100 VENDOME']"
         },
         {
           "id": 79492523,
@@ -184,8 +300,48 @@
     {
       "cp_slug": "453989-u13-departemental-3/phase/1/3",
       "competition": "U13 Départemental 3",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "A.S. CHAILLES CANDE": {
+          "nom": "A.S. CHAILLES CANDE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC548236.jpg",
+          "clNo": "25343",
+          "slug": "548236-a-s-chailles-cande"
+        },
+        "CHOUZY/ONZAIN 2": {
+          "nom": "CHOUZY/ONZAIN 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC541188.jpg",
+          "clNo": "21052",
+          "slug": "541188-chouzy-onzain-2"
+        },
+        "U.S. CHITENAY CELLET 2": {
+          "nom": "U.S. CHITENAY CELLET 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC514336.jpg",
+          "clNo": "4469",
+          "slug": "514336-u-s-chitenay-cellet-2"
+        },
+        "ENT. CORMERAY 2": {
+          "nom": "ENT. CORMERAY 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC505208.jpg",
+          "clNo": "2540",
+          "slug": "505208-ent-cormeray-2"
+        }
+      },
+      "stades": {
+        "STADE DES PATUREAUX_['ROUTE DE VALAIRE', '41120 CANDE SUR BEUVRON']": {
+          "nom": "STADE DES PATUREAUX",
+          "adresse": "ROUTE DE VALAIRE | 41120 CANDE SUR BEUVRON",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "COMPLEXE SPORTIF ÉTANG FRILEUX 3_['Route de Cellettes', '41120 CHITENAY']": {
+          "nom": "COMPLEXE SPORTIF ÉTANG FRILEUX 3",
+          "adresse": "Route de Cellettes | 41120 CHITENAY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football réduit"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -195,10 +351,11 @@
           "heure": "14:30",
           "recevant": "A.S. CHAILLES CANDE",
           "visiteur": "CHOUZY/ONZAIN 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES PATUREAUX_['ROUTE DE VALAIRE', '41120 CANDE SUR BEUVRON']"
         },
         {
           "id": 79492577,
@@ -206,10 +363,11 @@
           "heure": "14:30",
           "recevant": "U.S. CHITENAY CELLET 2",
           "visiteur": "ENT. CORMERAY 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF ÉTANG FRILEUX 3_['Route de Cellettes', '41120 CHITENAY']"
         },
         {
           "id": 79492578,
@@ -370,6 +528,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC520018.jpg",
           "clNo": "6669",
           "slug": "520018-chaussee-asj-3"
+        },
+        "ET.S. VILLEBAROU 2": {
+          "nom": "ET.S. VILLEBAROU 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC518553.jpg",
+          "clNo": "5913",
+          "slug": "518553-et-s-villebarou-2"
+        },
+        "ENT.SUD LOIRE FOOT 2": {
+          "nom": "ENT.SUD LOIRE FOOT 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC542757.jpg",
+          "clNo": "22185",
+          "slug": "542757-ent-sud-loire-foot-2"
         }
       },
       "stades": {
@@ -378,6 +548,13 @@
           "adresse": " RUE DU STADE | 41350 VINEUIL",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE GASTON LECOEUR 2_['RUE DES ECOLES', '41000 VILLEBAROU']": {
+          "nom": "STADE GASTON LECOEUR 2",
+          "adresse": "RUE DES ECOLES | 41000 VILLEBAROU",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
         }
       },
@@ -439,10 +616,11 @@
           "heure": "14:00",
           "recevant": "ET.S. VILLEBAROU 2",
           "visiteur": "ENT.SUD LOIRE FOOT 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GASTON LECOEUR 2_['RUE DES ECOLES', '41000 VILLEBAROU']"
         },
         {
           "id": 79492709,
@@ -654,8 +832,29 @@
     {
       "cp_slug": "453989-u13-departemental-3/phase/1/8",
       "competition": "U13 Départemental 3",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "ESTR": {
+          "nom": "ESTR",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565853.jpg",
+          "clNo": "206372",
+          "slug": "565853-estr"
+        },
+        "ENT. ST AIGNAN": {
+          "nom": "ENT. ST AIGNAN",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC505176.jpg",
+          "clNo": "2536",
+          "slug": "505176-ent-st-aignan"
+        }
+      },
+      "stades": {
+        "STADE GEORGES METAIS 3_['78 RUE NATIONALE', '41120 CHAILLES']": {
+          "nom": "STADE GEORGES METAIS 3",
+          "adresse": "78 RUE NATIONALE | 41120 CHAILLES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -664,11 +863,12 @@
           "date": "2026-09-19",
           "heure": "14:30",
           "recevant": "ESTR",
-          "visiteur": "U.S. ST AIGNAN NOYER",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "visiteur": "ENT. ST AIGNAN",
+          "buts_recevant": 8,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GEORGES METAIS 3_['78 RUE NATIONALE', '41120 CHAILLES']"
         },
         {
           "id": 79492869,
@@ -697,8 +897,48 @@
     {
       "cp_slug": "453989-u13-departemental-3/phase/1/9",
       "competition": "U13 Départemental 3",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "CSF 2": {
+          "nom": "CSF 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560140.jpg",
+          "clNo": "194269",
+          "slug": "560140-csf-2"
+        },
+        "SFR41 3": {
+          "nom": "SFR41 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500338.jpg",
+          "clNo": "434",
+          "slug": "500338-sfr41-3"
+        },
+        "ENT. SOINGS": {
+          "nom": "ENT. SOINGS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC505430.jpg",
+          "clNo": "2571",
+          "slug": "505430-ent-soings"
+        },
+        "PRUNIERS US 2": {
+          "nom": "PRUNIERS US 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC518434.jpg",
+          "clNo": "5836",
+          "slug": "518434-pruniers-us-2"
+        }
+      },
+      "stades": {
+        "STADE DES PINS 2_['RUE DE LA TUNISIE', '41130 CHATILLON SUR CHER']": {
+          "nom": "STADE DES PINS 2",
+          "adresse": "RUE DE LA TUNISIE | 41130 CHATILLON SUR CHER",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE ROGER BRIOLET 1_['ROUTE DE GY EN SOLOGNE', '41230 SOINGS EN SOLOGNE']": {
+          "nom": "STADE ROGER BRIOLET 1",
+          "adresse": "ROUTE DE GY EN SOLOGNE | 41230 SOINGS EN SOLOGNE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -708,10 +948,11 @@
           "heure": "14:00",
           "recevant": "CSF 2",
           "visiteur": "SFR41 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES PINS 2_['RUE DE LA TUNISIE', '41130 CHATILLON SUR CHER']"
         },
         {
           "id": 79548328,
@@ -719,10 +960,11 @@
           "heure": "14:30",
           "recevant": "ENT. SOINGS",
           "visiteur": "PRUNIERS US 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 14,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ROGER BRIOLET 1_['ROUTE DE GY EN SOLOGNE', '41230 SOINGS EN SOLOGNE']"
         },
         {
           "id": 79548330,
@@ -773,8 +1015,48 @@
     {
       "cp_slug": "453989-u13-departemental-3/phase/1/10",
       "competition": "U13 Départemental 3",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "CHAUMONT/THAR": {
+          "nom": "CHAUMONT/THAR",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC512415.jpg",
+          "clNo": "4017",
+          "slug": "512415-chaumont-thar"
+        },
+        "ENT. SOLOGNE DES RIV 2": {
+          "nom": "ENT. SOLOGNE DES RIV 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC504920.jpg",
+          "clNo": "2442",
+          "slug": "504920-ent-sologne-des-riv-2"
+        },
+        "NOUAN LAMOTTE": {
+          "nom": "NOUAN LAMOTTE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC552107.jpg",
+          "clNo": "117057",
+          "slug": "552107-nouan-lamotte"
+        },
+        "COEUR DE SOLOGNE": {
+          "nom": "COEUR DE SOLOGNE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC550400.jpg",
+          "clNo": "176200",
+          "slug": "550400-coeur-de-sologne"
+        }
+      },
+      "stades": {
+        "STADE MUNICIPAL_['ROUTE DE ROMORANTIN', '41600 CHAUMONT SUR THARONNE']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "ROUTE DE ROMORANTIN | 41600 CHAUMONT SUR THARONNE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE LA BAIGNARDERIE 1_['LA BAIGNARDERIE', 'CHEMIN DE CORDY', '41600 NOUAN LE FUZELIER']": {
+          "nom": "STADE DE LA BAIGNARDERIE 1",
+          "adresse": "LA BAIGNARDERIE | CHEMIN DE CORDY | 41600 NOUAN LE FUZELIER",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -784,10 +1066,11 @@
           "heure": "14:00",
           "recevant": "CHAUMONT/THAR",
           "visiteur": "ENT. SOLOGNE DES RIV 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['ROUTE DE ROMORANTIN', '41600 CHAUMONT SUR THARONNE']"
         },
         {
           "id": 79492931,
@@ -795,10 +1078,11 @@
           "heure": "14:30",
           "recevant": "NOUAN LAMOTTE",
           "visiteur": "COEUR DE SOLOGNE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA BAIGNARDERIE 1_['LA BAIGNARDERIE', 'CHEMIN DE CORDY', '41600 NOUAN LE FUZELIER']"
         },
         {
           "id": 79492933,

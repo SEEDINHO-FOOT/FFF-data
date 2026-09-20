@@ -50,6 +50,13 @@
           "surface": "Synthétique",
           "surface_jeu": "",
           "type_installation": ""
+        },
+        "STADE MUNICIPAL N°1 - JUST FONTAINE_['2 RUE DU PLATANE', '51390 GUEUX']": {
+          "nom": "STADE MUNICIPAL N°1 - JUST FONTAINE",
+          "adresse": "2 RUE DU PLATANE | 51390 GUEUX",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -60,6 +67,11 @@
         },
         "Anonyme_AC": {
           "nom": "Anonyme",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "THOMAS RAOUL_AC": {
+          "nom": "THOMAS RAOUL",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -194,6 +206,46 @@
           "nom": "ALANAH C.",
           "maillot": 14,
           "club": "SEDAN ARDENNES CS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh9lycin7A": {
+          "nom": "LENA L.",
+          "maillot": 5,
+          "club": "GUEUX AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh4myshm74": {
+          "nom": "Anonyme",
+          "maillot": 14,
+          "club": "GUEUX AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19kycnmLI": {
+          "nom": "KAILY W.",
+          "maillot": 9,
+          "club": "FLIZE US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15kC8ln7E": {
+          "nom": "SAMARA M.",
+          "maillot": 11,
+          "club": "FLIZE US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh7kygknL8": {
+          "nom": "ROSIE G.",
+          "maillot": 14,
+          "club": "FLIZE US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt7li4gm7I": {
+          "nom": "EMMA C.",
+          "maillot": 13,
+          "club": "GUEUX AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx7mi4tnrA": {
+          "nom": "MATHILDE G.",
+          "maillot": 7,
+          "club": "GUEUX AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19kC8nmrc": {
+          "nom": "LOUKIA R.",
+          "maillot": 12,
+          "club": "GUEUX AS"
         }
       },
       "matchs": [
@@ -392,10 +444,58 @@
           "heure": "10:00",
           "recevant": "GUEUX AS",
           "visiteur": "FLIZE US",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 9,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 27,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh9lycin7A",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4myshm74",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7likimLA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK19lSwgmL8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK19kycnmLI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh5lyYimrY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK15kC8ln7E",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh7kygknL8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 54,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7ky8km7I",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7li4gm7I",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 54,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7mi4tnrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK19kC8nmrc",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL N°1 - JUST FONTAINE_['2 RUE DU PLATANE', '51390 GUEUX']",
+          "officiels": [
+            "THOMAS RAOUL_AC"
+          ]
         },
         {
           "id": 56342053,
@@ -1316,6 +1416,20 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL BENJAMIN BATTISTEL_[' AVENUE DE L EUROPE', '52200 LANGRES']": {
+          "nom": "STADE MUNICIPAL BENJAMIN BATTISTEL",
+          "adresse": " AVENUE DE L EUROPE | 52200 LANGRES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE BARDIN GOUSSEREY 2_['RUE MAGENTA PROLONGEE', 'TERRAIN ANNEXE 1', '10100 ROMILLY SUR SEINE']": {
+          "nom": "STADE BARDIN GOUSSEREY 2",
+          "adresse": "RUE MAGENTA PROLONGEE | TERRAIN ANNEXE 1 | 10100 ROMILLY SUR SEINE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -1331,6 +1445,16 @@
         },
         "DANIEL LOUREIRO MOTA_AC": {
           "nom": "DANIEL LOUREIRO MOTA",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "YANN CHEVALLEY_AC": {
+          "nom": "YANN CHEVALLEY",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "KEMAL DEMIR_AC": {
+          "nom": "KEMAL DEMIR",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -1395,6 +1519,166 @@
           "nom": "ANAIS V.",
           "maillot": 8,
           "club": "ST GILLES F.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx5ky0tn7A": {
+          "nom": "JULIE P.",
+          "maillot": 4,
+          "club": "ASM2RA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl5lComnb4": {
+          "nom": "MARIE J.",
+          "maillot": 9,
+          "club": "VAUDOISE JS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl2micim7Q": {
+          "nom": "CARLA C.",
+          "maillot": 14,
+          "club": "VAUDOISE JS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx_my4hl78": {
+          "nom": "NOEMIE P.",
+          "maillot": 13,
+          "club": "ASM2RA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx5kicmnbI": {
+          "nom": "JOANNA E.",
+          "maillot": 8,
+          "club": "ASM2RA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl7li4imLU": {
+          "nom": "OCEANE L.",
+          "maillot": 12,
+          "club": "ASM2RA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx4kSwsmrY": {
+          "nom": "ORANE C.",
+          "maillot": 12,
+          "club": "VAUDOISE JS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx_lCYklrA": {
+          "nom": "OLIVIA R.",
+          "maillot": 7,
+          "club": "VAUDOISE JS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh3likhlr4": {
+          "nom": "ELENA E.",
+          "maillot": 13,
+          "club": "VAUDOISE JS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15kC4ll7c": {
+          "nom": "MELYNE M.",
+          "maillot": 6,
+          "club": "VAUDOISE JS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt_mywnnrM": {
+          "nom": "LOUISE G.",
+          "maillot": 10,
+          "club": "VAUDOISE JS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl5lScmmbY": {
+          "nom": "ROMANE B.",
+          "maillot": 11,
+          "club": "VAUDOISE JS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh8kC8in7A": {
+          "nom": "CLEMENCE M.",
+          "maillot": 93,
+          "club": "ST GILLES F.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt_licimLU": {
+          "nom": "LEA P.",
+          "maillot": 97,
+          "club": "ST GILLES F.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15mygnmb4": {
+          "nom": "LAURYNE D.",
+          "maillot": 27,
+          "club": "ST GILLES F.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd-mygtmrA": {
+          "nom": "LILOU F.",
+          "maillot": 24,
+          "club": "ST GILLES F.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh-lSsnl7U": {
+          "nom": "SABRINA B.",
+          "maillot": 9,
+          "club": "CHAPELAINS RCS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl3kS8sm74": {
+          "nom": "LAURA V.",
+          "maillot": 8,
+          "club": "ROMILLY CHAMPAGNE FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh-kS4jm74": {
+          "nom": "MANUELA F.",
+          "maillot": 7,
+          "club": "ROMILLY CHAMPAGNE FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp8lCgkmrI": {
+          "nom": "LOUBNA B.",
+          "maillot": 10,
+          "club": "ROMILLY CHAMPAGNE FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl4liohm7Q": {
+          "nom": "CLEMENCE P.",
+          "maillot": 14,
+          "club": "ROMILLY CHAMPAGNE FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpIFq97li4nnLc": {
+          "nom": "CHRISTELLE S.",
+          "maillot": 12,
+          "club": "ROMILLY CHAMPAGNE FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK13lCgslrE": {
+          "nom": "ERINE S.",
+          "maillot": 4,
+          "club": "ROMILLY CHAMPAGNE FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx2lSwnnbA": {
+          "nom": "CHARLENE D.",
+          "maillot": 13,
+          "club": "ROMILLY CHAMPAGNE FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt3kS4jlrI": {
+          "nom": "MARILOU S.",
+          "maillot": 14,
+          "club": "ST ANDRE FOOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt_lyckmrM": {
+          "nom": "ANAIS R.",
+          "maillot": 12,
+          "club": "ST ANDRE FOOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16lictmb8": {
+          "nom": "SARAH M.",
+          "maillot": 9,
+          "club": "ST ANDRE FOOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt5ly4jmLU": {
+          "nom": "EVE B.",
+          "maillot": 13,
+          "club": "ST ANDRE FOOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl5mi0lmLc": {
+          "nom": "MANON L.",
+          "maillot": 4,
+          "club": "ST ANDRE FOOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh3liYgn7I": {
+          "nom": "KEINA T.",
+          "maillot": 7,
+          "club": "ST ANDRE FOOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6lykgnbA": {
+          "nom": "TATIANA M.",
+          "maillot": 3,
+          "club": "ST ANDRE FOOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl9my0snbc": {
+          "nom": "MAELLE L.",
+          "maillot": 10,
+          "club": "ST ANDRE FOOT"
         }
       },
       "matchs": [
@@ -1502,10 +1786,103 @@
           "heure": "12:00",
           "recevant": "ROMILLY CHAMPAGNE FC",
           "visiteur": "ST ANDRE FOOT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 3,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl3kS8sm74",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 5,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl3kS8sm74",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl3kS8sm74",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 42,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh-kS4jm74",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp8lCgkmrI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl4liohm7Q",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh-kS4jm74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpIFq97li4nnLc",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK13lCgslrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx2lSwnnbA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3kS4jlrI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt_lyckmrM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16lictmb8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt5ly4jmLU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl5mi0lmLc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3liYgn7I",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 65,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6lykgnbA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 65,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh-kS4jm74",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 70,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl9my0snbc",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 85,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp8lCgkmrI",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE BARDIN GOUSSEREY 2_['RUE MAGENTA PROLONGEE', 'TERRAIN ANNEXE 1', '10100 ROMILLY SUR SEINE']"
         },
         {
           "id": 56343266,
@@ -1513,10 +1890,104 @@
           "heure": "10:30",
           "recevant": "ASM2RA",
           "visiteur": "VAUDOISE JS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 21,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx5ky0tn7A",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl5lComnb4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl2micim7Q",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 36,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt3my8lm7A",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_my4hl78",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 36,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx5kicmnbI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh8lyYnmbI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 39,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl3kyckmLI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl7li4imLU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl5lComnb4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4kSwsmrY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_lCYklrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3likhlr4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 67,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK15kC4ll7c",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 75,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt_mywnnrM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 78,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl5lScmmbY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 88,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_lCYklrA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 88,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl5lScmmbY",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 90,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl2micim7Q",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL_['12 RUE DU GRAND PATIS', '52140 SARREY']",
+          "officiels": [
+            "YANN CHEVALLEY_AC"
+          ]
         },
         {
           "id": 56343264,
@@ -1524,10 +1995,38 @@
           "heure": "11:30",
           "recevant": "ST GILLES F.C.",
           "visiteur": "CHAPELAINS RCS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 15,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 33,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh8kC8in7A",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt_licimLU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 33,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK15mygnmb4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd-mygtmrA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 41,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh-lSsnl7U",
+              "sanction": "J",
+              "sanction_detail": "J7",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL BENJAMIN BATTISTEL_[' AVENUE DE L EUROPE', '52200 LANGRES']",
+          "officiels": [
+            "KEMAL DEMIR_AC"
+          ]
         },
         {
           "id": 56343267,
@@ -1857,6 +2356,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE ARMAND LEDERLIN_['9 AVENUE ARMAND LEDERLIN', '88150 THAON LES VOSGES']": {
+          "nom": "STADE ARMAND LEDERLIN",
+          "adresse": "9 AVENUE ARMAND LEDERLIN | 88150 THAON LES VOSGES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -1872,6 +2378,11 @@
         },
         "HANANE WAJIL_AC": {
           "nom": "HANANE WAJIL",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "EMILIEN CLERC_AC": {
+          "nom": "EMILIEN CLERC",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -2061,6 +2572,36 @@
           "nom": "CLEMENCE L.",
           "maillot": 4,
           "club": "ENT. EGE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd9lCcmmb4": {
+          "nom": "LUCILE M.",
+          "maillot": 13,
+          "club": "THAON ES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6lSstnLM": {
+          "nom": "LAURA J.",
+          "maillot": 7,
+          "club": "THAON ES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl3mi8lnLA": {
+          "nom": "LUCIE M.",
+          "maillot": 4,
+          "club": "THAON ES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK18lSsmn7I": {
+          "nom": "JADE M.",
+          "maillot": 14,
+          "club": "THAON ES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp_lC4lnrE": {
+          "nom": "KATIA T.",
+          "maillot": 8,
+          "club": "DOMBASLE FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx3kS0tlrM": {
+          "nom": "LOLA S.",
+          "maillot": 13,
+          "club": "DOMBASLE FC"
         }
       },
       "matchs": [
@@ -2288,10 +2829,44 @@
           "heure": "10:00",
           "recevant": "THAON ES",
           "visiteur": "DOMBASLE FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 28,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK14lScnmbY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9lCcmmb4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 28,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6lSstnLM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7kCotnrA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl3mi8lnLA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK18lSsmn7I",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 55,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp_lC4lnrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3kS0tlrM",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE ARMAND LEDERLIN_['9 AVENUE ARMAND LEDERLIN', '88150 THAON LES VOSGES']",
+          "officiels": [
+            "EMILIEN CLERC_AC"
+          ]
         },
         {
           "id": 56344106,
@@ -2308,7 +2883,7 @@
           "id": 56344107,
           "date": "2026-09-20",
           "heure": "15:00",
-          "recevant": "ENT. EGE",
+          "recevant": "ENT GOLBEY EPINAL",
           "visiteur": "HEILLECOURT ES",
           "buts_recevant": null,
           "buts_visiteur": null,

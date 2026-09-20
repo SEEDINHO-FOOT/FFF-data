@@ -126,6 +126,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE PAUL VOZELLE_['AVENUE DE VERDUN', '23700 AUZANCES']": {
+          "nom": "STADE PAUL VOZELLE",
+          "adresse": "AVENUE DE VERDUN | 23700 AUZANCES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -156,6 +163,11 @@
         },
         "DAVID CHASSAGNE_AC": {
           "nom": "DAVID CHASSAGNE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ROMAIN MONDON_AC": {
+          "nom": "ROMAIN MONDON",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -263,7 +275,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKx6kycnlr8": {
           "nom": "JOHAN N.",
-          "maillot": 11,
+          "maillot": 13,
           "club": "AUZANCES US"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKx7lSwhm7Y": {
@@ -543,7 +555,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt8kiksnbY": {
           "nom": "KAIS B.",
-          "maillot": 14,
+          "maillot": 11,
           "club": "BOURGANEUF USC 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl-kSoin7U": {
@@ -564,6 +576,41 @@
         "ir3_vj-lzPeINLfhzILsrKpNEKl_kCslnbc": {
           "nom": "ROMAN R.",
           "maillot": 11,
+          "club": "BOURGANEUF USC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlJEa16kyYmm7Y": {
+          "nom": "QUENTIN C.",
+          "maillot": 13,
+          "club": "BOURGANEUF USC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt6ky0tmbE": {
+          "nom": "IBRAHIM M.",
+          "maillot": 9,
+          "club": "BOURGANEUF USC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt7kictnLQ": {
+          "nom": "ANTHONY P.",
+          "maillot": 12,
+          "club": "BOURGANEUF USC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlJFqZ9kSgsmr4": {
+          "nom": "CEDRIC D.",
+          "maillot": 12,
+          "club": "AUZANCES US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl5lC4kmrM": {
+          "nom": "MAXIME B.",
+          "maillot": 8,
+          "club": "AUZANCES US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh5lCstmbY": {
+          "nom": "YVON P.",
+          "maillot": 14,
+          "club": "AUZANCES US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlJFKZ9kywhm7c": {
+          "nom": "DIMITRI G.",
+          "maillot": 4,
           "club": "BOURGANEUF USC 2"
         }
       },
@@ -1087,10 +1134,59 @@
           "heure": "19:00",
           "recevant": "AUZANCES US",
           "visiteur": "BOURGANEUF USC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 23,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlJEa16kyYmm7Y",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt6ky0tmbE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt8kiksnbY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt7kictnLQ",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlJFq16lCktnrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlJFqZ9kSgsmr4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8miwsnrQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx6kycnlr8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 53,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl5lC4kmrM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh5lCstmbY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 72,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlJFKZ9kywhm7c",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE PAUL VOZELLE_['AVENUE DE VERDUN', '23700 AUZANCES']",
+          "officiels": [
+            "ROMAIN MONDON_AC"
+          ]
         },
         {
           "id": 56345253,

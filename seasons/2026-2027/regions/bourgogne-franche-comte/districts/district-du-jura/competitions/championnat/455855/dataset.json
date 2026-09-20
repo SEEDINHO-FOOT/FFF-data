@@ -657,6 +657,30 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC518714.jpg",
           "clNo": "5994",
           "slug": "518714-mont-sous-vaudrey-va"
+        },
+        "PLEURE/BRENNE ORAIN": {
+          "nom": "PLEURE/BRENNE ORAIN",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC521560.jpg",
+          "clNo": "7653",
+          "slug": "521560-pleure-brenne-orain"
+        },
+        "PLAINE39/RAHON": {
+          "nom": "PLAINE39/RAHON",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC582410.jpg",
+          "clNo": "190042",
+          "slug": "582410-plaine39-rahon"
+        },
+        "PLATEAU FC 39": {
+          "nom": "PLATEAU FC 39",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC548972.jpg",
+          "clNo": "25885",
+          "slug": "548972-plateau-fc-39"
+        },
+        "GJ PORTE DU JURA": {
+          "nom": "GJ PORTE DU JURA",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC561098.jpg",
+          "clNo": "200658",
+          "slug": "561098-gj-porte-du-jura"
         }
       },
       "stades": {
@@ -666,10 +690,45 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football réduit"
+        },
+        "STADE MUNICIPAL_['Rue du stade', '39120 PLEURE']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "Rue du stade | 39120 PLEURE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE JÉRÉMY CRINQUAND_[' ROUTE DE MIREBEL', '39210 LA MARRE']": {
+          "nom": "STADE JÉRÉMY CRINQUAND",
+          "adresse": " ROUTE DE MIREBEL | 39210 LA MARRE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFKt-mi4snr8": {
+          "nom": "THIAGO D.",
+          "maillot": 8,
+          "club": "GJ PORTE DU JURA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx3myslnLI": {
+          "nom": "AUGUSTIN K.",
+          "maillot": 9,
+          "club": "GJ PORTE DU JURA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx7kSwkmbI": {
+          "nom": "ENZO C.",
+          "maillot": 6,
+          "club": "GJ PORTE DU JURA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp6likml74": {
+          "nom": "LEA F.",
+          "maillot": 10,
+          "club": "GJ PORTE DU JURA"
+        }
+      },
       "matchs": [
         {
           "id": 79549827,
@@ -711,10 +770,11 @@
           "heure": "14:30",
           "recevant": "PLEURE/BRENNE ORAIN",
           "visiteur": "PLAINE39/RAHON",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['Rue du stade', '39120 PLEURE']"
         },
         {
           "id": 79549829,
@@ -722,10 +782,27 @@
           "heure": "14:30",
           "recevant": "PLATEAU FC 39",
           "visiteur": "GJ PORTE DU JURA",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-mi4snr8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3myslnLI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7kSwkmbI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp6likml74",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE JÉRÉMY CRINQUAND_[' ROUTE DE MIREBEL', '39210 LA MARRE']"
         },
         {
           "id": 79549832,

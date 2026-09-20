@@ -34,12 +34,31 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC534716.jpg",
           "clNo": "16358",
           "slug": "534716-hiriburuko-ainhara-s-2"
+        },
+        "MBFC": {
+          "nom": "MBFC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565976.jpg",
+          "clNo": "206526",
+          "slug": "565976-mbfc"
+        },
+        "BAYONNE CROISES 2": {
+          "nom": "BAYONNE CROISES 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC514041.jpg",
+          "clNo": "4386",
+          "slug": "514041-bayonne-croises-2"
         }
       },
       "stades": {
         "STADE LIZARAZU_[' BOULEVARD DU GENERAL LECLERC', '64700 HENDAYE']": {
           "nom": "STADE LIZARAZU",
           "adresse": " BOULEVARD DU GENERAL LECLERC | 64700 HENDAYE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['RUE DU STADE', '64230 UZEIN']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "RUE DU STADE | 64230 UZEIN",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -77,10 +96,11 @@
           "heure": "13:00",
           "recevant": "MBFC",
           "visiteur": "BAYONNE CROISES 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['RUE DU STADE', '64230 UZEIN']"
         },
         {
           "id": 79103546,
@@ -384,8 +404,67 @@
     {
       "cp_slug": "450991-u13-excellence/phase/1/2",
       "competition": "U13 EXCELLENCE",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "BAYONNE AVIRON 2": {
+          "nom": "BAYONNE AVIRON 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC505684.jpg",
+          "clNo": "2625",
+          "slug": "505684-bayonne-aviron-2"
+        },
+        "ESMAN": {
+          "nom": "ESMAN",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC550698.jpg",
+          "clNo": "104649",
+          "slug": "550698-esman"
+        },
+        "ANGLET GENETS FOOT 3": {
+          "nom": "ANGLET GENETS FOOT 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC505788.jpg",
+          "clNo": "2647",
+          "slug": "505788-anglet-genets-foot-3"
+        },
+        "COEUR DU BÉARN": {
+          "nom": "COEUR DU BÉARN",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565272.jpg",
+          "clNo": "205220",
+          "slug": "565272-coeur-du-bEarn"
+        },
+        "HASPARREN FC 2": {
+          "nom": "HASPARREN FC 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC524058.jpg",
+          "clNo": "9244",
+          "slug": "524058-hasparren-fc-2"
+        },
+        "LONS FC": {
+          "nom": "LONS FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC524438.jpg",
+          "clNo": "9499",
+          "slug": "524438-lons-fc"
+        }
+      },
+      "stades": {
+        "STADE DIDIER DESCHAMPS 2_['AVENUE DE PLANTOUM', 'TERRAIN ANNEXE N°2', '64100 BAYONNE']": {
+          "nom": "STADE DIDIER DESCHAMPS 2",
+          "adresse": "AVENUE DE PLANTOUM | TERRAIN ANNEXE N°2 | 64100 BAYONNE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE CHOISY_['29 RUE de HAUSQUETTE', '64600 ANGLET']": {
+          "nom": "STADE CHOISY",
+          "adresse": "29 RUE de HAUSQUETTE | 64600 ANGLET",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE CHAPITALÉA 1_['2 AVENUE CHARLES DE GAULLE', 'XAPITALEA FOOT/RUGBY', '64240 HASPARREN']": {
+          "nom": "STADE CHAPITALÉA 1",
+          "adresse": "2 AVENUE CHARLES DE GAULLE | XAPITALEA FOOT/RUGBY | 64240 HASPARREN",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -395,10 +474,11 @@
           "heure": "13:00",
           "recevant": "BAYONNE AVIRON 2",
           "visiteur": "ESMAN",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DIDIER DESCHAMPS 2_['AVENUE DE PLANTOUM', 'TERRAIN ANNEXE N°2', '64100 BAYONNE']"
         },
         {
           "id": 79103574,
@@ -406,10 +486,11 @@
           "heure": "13:00",
           "recevant": "ANGLET GENETS FOOT 3",
           "visiteur": "COEUR DU BÉARN",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 12,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE CHOISY_['29 RUE de HAUSQUETTE', '64600 ANGLET']"
         },
         {
           "id": 79103575,
@@ -417,10 +498,11 @@
           "heure": "13:00",
           "recevant": "HASPARREN FC 2",
           "visiteur": "LONS FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE CHAPITALÉA 1_['2 AVENUE CHARLES DE GAULLE', 'XAPITALEA FOOT/RUGBY', '64240 HASPARREN']"
         },
         {
           "id": 79103578,
@@ -736,6 +818,30 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC540182.jpg",
           "clNo": "20336",
           "slug": "540182-asptt-pau"
+        },
+        "ANGLET GENETS FOOT 2": {
+          "nom": "ANGLET GENETS FOOT 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC505788.jpg",
+          "clNo": "2647",
+          "slug": "505788-anglet-genets-foot-2"
+        },
+        "MAZERES UZOS RONTIGN 3": {
+          "nom": "MAZERES UZOS RONTIGN 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC524114.jpg",
+          "clNo": "9286",
+          "slug": "524114-mazeres-uzos-rontign-3"
+        },
+        "LESCARIEN FC 2": {
+          "nom": "LESCARIEN FC 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC530332.jpg",
+          "clNo": "13518",
+          "slug": "530332-lescarien-fc-2"
+        },
+        "HIRIBURUKO AINHARA S": {
+          "nom": "HIRIBURUKO AINHARA S",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC534716.jpg",
+          "clNo": "16358",
+          "slug": "534716-hiriburuko-ainhara-s"
         }
       },
       "stades": {
@@ -745,10 +851,95 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE CHOISY_['29 RUE de HAUSQUETTE', '64600 ANGLET']": {
+          "nom": "STADE CHOISY",
+          "adresse": "29 RUE de HAUSQUETTE | 64600 ANGLET",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE BERNARD MASSEILLOU_['rue du Lt de Vaisseau GARNUCHOT', '64230 LESCAR']": {
+          "nom": "STADE BERNARD MASSEILLOU",
+          "adresse": "rue du Lt de Vaisseau GARNUCHOT | 64230 LESCAR",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFKx8ky0sl7E": {
+          "nom": "ALEXANDRE M.",
+          "maillot": 3,
+          "club": "ANGLET GENETS FOOT 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15likgn7I": {
+          "nom": "XALBAT A.",
+          "maillot": 2,
+          "club": "ANGLET GENETS FOOT 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt3licjnrM": {
+          "nom": "XAN B.",
+          "maillot": 7,
+          "club": "ANGLET GENETS FOOT 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt7kyginrc": {
+          "nom": "CLEMENT H.",
+          "maillot": 8,
+          "club": "ANGLET GENETS FOOT 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx4lycjmrA": {
+          "nom": "LEANDRO C.",
+          "maillot": 3,
+          "club": "MAZERES UZOS RONTIGN 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx8lygsl74": {
+          "nom": "BAPTISTE L.",
+          "maillot": 4,
+          "club": "MAZERES UZOS RONTIGN 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6lS0jmb4": {
+          "nom": "THEMYS C.",
+          "maillot": 5,
+          "club": "MAZERES UZOS RONTIGN 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx9lCsknrM": {
+          "nom": "LEO B.",
+          "maillot": 6,
+          "club": "MAZERES UZOS RONTIGN 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx8lygjm7E": {
+          "nom": "JULES H.",
+          "maillot": 11,
+          "club": "MAZERES UZOS RONTIGN 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx8mi8jmbQ": {
+          "nom": "NAHEL M.",
+          "maillot": 8,
+          "club": "MAZERES UZOS RONTIGN 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK12kiwlm7A": {
+          "nom": "ESTEBAN P.",
+          "maillot": 10,
+          "club": "ANGLET GENETS FOOT 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt_ky8hlrU": {
+          "nom": "NATHAN B.",
+          "maillot": 11,
+          "club": "ANGLET GENETS FOOT 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15my4hm7U": {
+          "nom": "MEHDI C.",
+          "maillot": 9,
+          "club": "ANGLET GENETS FOOT 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt-lywsnLU": {
+          "nom": "Anonyme",
+          "maillot": 12,
+          "club": "ANGLET GENETS FOOT 2"
+        }
+      },
       "matchs": [
         {
           "id": 79103605,
@@ -768,10 +959,62 @@
           "heure": "13:00",
           "recevant": "ANGLET GENETS FOOT 2",
           "visiteur": "MAZERES UZOS RONTIGN 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 18,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8ky0sl7E",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK15likgn7I",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 18,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3licjnrM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7kyginrc",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 18,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4lycjmrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8lygsl74",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 18,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6lS0jmb4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx9lCsknrM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 18,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8lygjm7E",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8mi8jmbQ",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12kiwlm7A",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt_ky8hlrU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 53,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK15my4hm7U",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-lywsnLU",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE CHOISY_['29 RUE de HAUSQUETTE', '64600 ANGLET']"
         },
         {
           "id": 79103604,
@@ -779,10 +1022,11 @@
           "heure": "13:00",
           "recevant": "LESCARIEN FC 2",
           "visiteur": "HIRIBURUKO AINHARA S",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 9,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE BERNARD MASSEILLOU_['rue du Lt de Vaisseau GARNUCHOT', '64230 LESCAR']"
         },
         {
           "id": 79103606,
@@ -1086,8 +1330,48 @@
     {
       "cp_slug": "450991-u13-excellence/phase/1/4",
       "competition": "U13 EXCELLENCE",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "MAZERES UZOS RONTIGN 2": {
+          "nom": "MAZERES UZOS RONTIGN 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC524114.jpg",
+          "clNo": "9286",
+          "slug": "524114-mazeres-uzos-rontign-2"
+        },
+        "BIARRITZ JEANNE ARC 2": {
+          "nom": "BIARRITZ JEANNE ARC 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC505689.jpg",
+          "clNo": "2626",
+          "slug": "505689-biarritz-jeanne-arc-2"
+        },
+        "FC BAAL": {
+          "nom": "FC BAAL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564879.jpg",
+          "clNo": "203850",
+          "slug": "564879-fc-baal"
+        },
+        "LUY DE BEARN FC 2": {
+          "nom": "LUY DE BEARN FC 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC544159.jpg",
+          "clNo": "22467",
+          "slug": "544159-luy-de-bearn-fc-2"
+        }
+      },
+      "stades": {
+        "STADE MUNICIPAL 2_[' RUE DU 8 MAI 1945', '64110 MAZERES LEZONS']": {
+          "nom": "STADE MUNICIPAL 2",
+          "adresse": " RUE DU 8 MAI 1945 | 64110 MAZERES LEZONS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "COMPLEXE SPORTIF 2_[' RUE MOZART', 'TERRAIN ANNEXE ARREPEAU', '64170 ARTIX']": {
+          "nom": "COMPLEXE SPORTIF 2",
+          "adresse": " RUE MOZART | TERRAIN ANNEXE ARREPEAU | 64170 ARTIX",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football réduit"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -1097,10 +1381,11 @@
           "heure": "13:00",
           "recevant": "MAZERES UZOS RONTIGN 2",
           "visiteur": "BIARRITZ JEANNE ARC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 2_[' RUE DU 8 MAI 1945', '64110 MAZERES LEZONS']"
         },
         {
           "id": 79103634,
@@ -1108,10 +1393,11 @@
           "heure": "14:00",
           "recevant": "FC BAAL",
           "visiteur": "LUY DE BEARN FC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF 2_[' RUE MOZART', 'TERRAIN ANNEXE ARREPEAU', '64170 ARTIX']"
         },
         {
           "id": 79103636,

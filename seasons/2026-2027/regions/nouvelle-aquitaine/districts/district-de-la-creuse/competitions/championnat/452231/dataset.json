@@ -46,6 +46,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC552611.jpg",
           "clNo": "121422",
           "slug": "552611-royere-vassiviere"
+        },
+        "FELLETIN US": {
+          "nom": "FELLETIN US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC513245.jpg",
+          "clNo": "4185",
+          "slug": "513245-felletin-us"
+        },
+        "AUZANCES US 2": {
+          "nom": "AUZANCES US 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC513542.jpg",
+          "clNo": "4245",
+          "slug": "513542-auzances-us-2"
         }
       },
       "stades": {
@@ -66,6 +78,27 @@
         "STADE MUNICIPAL_['ROUTE DE GOUZON', '23130 CHENERAILLES']": {
           "nom": "STADE MUNICIPAL",
           "adresse": "ROUTE DE GOUZON | 23130 CHENERAILLES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_[' LE BOUEIX', '23120 VALLIERE']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": " LE BOUEIX | 23120 VALLIERE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE DU LAC_[' ROUTE DE FAUX LA MONTAGNE', '23460 ROYERE DE VASSIVIERE']": {
+          "nom": "STADE DU LAC",
+          "adresse": " ROUTE DE FAUX LA MONTAGNE | 23460 ROYERE DE VASSIVIERE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE PIERRE DESVILLETTES_['Rue du 19 mars', '23800 NAILLAT']": {
+          "nom": "STADE PIERRE DESVILLETTES",
+          "adresse": "Rue du 19 mars | 23800 NAILLAT",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -102,6 +135,16 @@
           "nom": "JOANE P.",
           "maillot": 10,
           "club": "FG 2000-CHENERAILLES 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp5kCoinrE": {
+          "nom": "LAURIANA F.",
+          "maillot": 8,
+          "club": "VALLIERE US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp5lyYgm7Y": {
+          "nom": "JULIE C.",
+          "maillot": 9,
+          "club": "VALLIERE US"
         }
       },
       "matchs": [
@@ -170,10 +213,20 @@
           "heure": "15:30",
           "recevant": "VALLIERE US",
           "visiteur": "FG 2000-CHENERAILLES 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5kCoinrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5lyYgm7Y",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL_[' LE BOUEIX', '23120 VALLIERE']"
         },
         {
           "id": 56422648,
@@ -181,10 +234,11 @@
           "heure": "15:30",
           "recevant": "ROYERE VASSIVIERE",
           "visiteur": "FELLETIN US",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DU LAC_[' ROUTE DE FAUX LA MONTAGNE', '23460 ROYERE DE VASSIVIERE']"
         },
         {
           "id": 56422650,
@@ -192,10 +246,11 @@
           "heure": "15:30",
           "recevant": "DUN-NAILLAT ES",
           "visiteur": "AUZANCES US 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PIERRE DESVILLETTES_['Rue du 19 mars', '23800 NAILLAT']"
         },
         {
           "id": 56422655,

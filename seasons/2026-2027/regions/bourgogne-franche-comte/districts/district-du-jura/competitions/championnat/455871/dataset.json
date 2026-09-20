@@ -10,10 +10,61 @@
     {
       "cp_slug": "455871-criterium-u13-f/phase/1/1",
       "competition": "CRITERIUM U13 F",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "TRIANGLE D'OR JURA": {
+          "nom": "TRIANGLE D'OR JURA",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC563831.jpg",
+          "clNo": "173024",
+          "slug": "563831-triangle-d-or-jura"
+        },
+        "COTEAUX DE SEILLE": {
+          "nom": "COTEAUX DE SEILLE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC506720.jpg",
+          "clNo": "2943",
+          "slug": "506720-coteaux-de-seille"
+        },
+        "LA JOUX NOZEROY": {
+          "nom": "LA JOUX NOZEROY",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC506641.jpg",
+          "clNo": "2924",
+          "slug": "506641-la-joux-nozeroy"
+        },
+        "POLIGNY GRIMONT": {
+          "nom": "POLIGNY GRIMONT",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC580579.jpg",
+          "clNo": "176792",
+          "slug": "580579-poligny-grimont"
+        }
+      },
+      "stades": {
+        "STADE MUNICIPAL 2_['AV DU MARECHAL LECLERC', '39600 ARBOIS']": {
+          "nom": "STADE MUNICIPAL 2",
+          "adresse": "AV DU MARECHAL LECLERC | 39600 ARBOIS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "Stade Municipal A8_[' RUE DU PROCESSIONAL', '39250 MIGNOVILLARD']": {
+          "nom": "Stade Municipal A8",
+          "adresse": " RUE DU PROCESSIONAL | 39250 MIGNOVILLARD",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football réduit"
+        }
+      },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFKp9liosnbQ": {
+          "nom": "THAIS P.",
+          "maillot": 8,
+          "club": "TRIANGLE D'OR JURA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp4kSYhmLY": {
+          "nom": "MANON L.",
+          "maillot": 9,
+          "club": "TRIANGLE D'OR JURA"
+        }
+      },
       "matchs": [
         {
           "id": 79571132,
@@ -32,10 +83,20 @@
           "heure": "14:30",
           "recevant": "TRIANGLE D'OR JURA",
           "visiteur": "COTEAUX DE SEILLE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9liosnbQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4kSYhmLY",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL 2_['AV DU MARECHAL LECLERC', '39600 ARBOIS']"
         },
         {
           "id": 79571134,
@@ -43,10 +104,11 @@
           "heure": "16:00",
           "recevant": "LA JOUX NOZEROY",
           "visiteur": "POLIGNY GRIMONT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Municipal A8_[' RUE DU PROCESSIONAL', '39250 MIGNOVILLARD']"
         },
         {
           "id": 79571135,

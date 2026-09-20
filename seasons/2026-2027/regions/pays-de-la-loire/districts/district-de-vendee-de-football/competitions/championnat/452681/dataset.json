@@ -10,10 +10,81 @@
     {
       "cp_slug": "452681-departemental-3-u15/phase/1/1",
       "competition": "Départemental 3 U15",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "GJ FALLERON FR ST C 2": {
+          "nom": "GJ FALLERON FR ST C 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565218.jpg",
+          "clNo": "205156",
+          "slug": "565218-gj-falleron-fr-st-c-2"
+        },
+        "ST GILLES ST HILAIRE 2": {
+          "nom": "ST GILLES ST HILAIRE 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC580443.jpg",
+          "clNo": "176382",
+          "slug": "580443-st-gilles-st-hilaire-2"
+        },
+        "LA GARNACHE FC": {
+          "nom": "LA GARNACHE FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC524753.jpg",
+          "clNo": "9689",
+          "slug": "524753-la-garnache-fc"
+        },
+        "GJ BOUIN USMB ASSG 2": {
+          "nom": "GJ BOUIN USMB ASSG 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565228.jpg",
+          "clNo": "205166",
+          "slug": "565228-gj-bouin-usmb-assg-2"
+        }
+      },
+      "stades": {
+        "STADE PHILIPPE VIOLEAU_['RTE DE ST ETIENNE MER MORTE', '85300 FROIDFOND']": {
+          "nom": "STADE PHILIPPE VIOLEAU",
+          "adresse": "RTE DE ST ETIENNE MER MORTE | 85300 FROIDFOND",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "COMPLEXE SPORTIF 2_[' RUE DE NANTES', '85710 LA GARNACHE']": {
+          "nom": "COMPLEXE SPORTIF 2",
+          "adresse": " RUE DE NANTES | 85710 LA GARNACHE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFKp5lishmbY": {
+          "nom": "SWAN D.",
+          "maillot": 11,
+          "club": "LA GARNACHE FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd6ly8kmr4": {
+          "nom": "SACHA G.",
+          "maillot": 13,
+          "club": "LA GARNACHE FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16miginL4": {
+          "nom": "CONSTAN L.",
+          "maillot": 8,
+          "club": "LA GARNACHE FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx5kCcsm7M": {
+          "nom": "LIAM L.",
+          "maillot": 12,
+          "club": "LA GARNACHE FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx7kS4kmrE": {
+          "nom": "JUSTIN C.",
+          "maillot": 7,
+          "club": "LA GARNACHE FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6ky4nnLU": {
+          "nom": "ALBIN O.",
+          "maillot": 14,
+          "club": "LA GARNACHE FC"
+        }
+      },
       "matchs": [
         {
           "id": 79148028,
@@ -21,10 +92,11 @@
           "heure": "10:00",
           "recevant": "GJ FALLERON FR ST C 2",
           "visiteur": "ST GILLES ST HILAIRE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PHILIPPE VIOLEAU_['RTE DE ST ETIENNE MER MORTE', '85300 FROIDFOND']"
         },
         {
           "id": 79148029,
@@ -43,10 +115,34 @@
           "heure": "10:00",
           "recevant": "LA GARNACHE FC",
           "visiteur": "GJ BOUIN USMB ASSG 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5lishmbY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6ly8kmr4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16miginL4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx5kCcsm7M",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7kS4kmrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6ky4nnLU",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "COMPLEXE SPORTIF 2_[' RUE DE NANTES', '85710 LA GARNACHE']"
         },
         {
           "id": 79148031,
@@ -185,10 +281,161 @@
     {
       "cp_slug": "452681-departemental-3-u15/phase/1/2",
       "competition": "Départemental 3 U15",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "LE POIRE/VIE VF 3": {
+          "nom": "LE POIRE/VIE VF 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC516561.jpg",
+          "clNo": "5087",
+          "slug": "516561-le-poire-vie-vf-3"
+        },
+        "PAYS DE PALLUAU FC 2": {
+          "nom": "PAYS DE PALLUAU FC 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC540458.jpg",
+          "clNo": "20505",
+          "slug": "540458-pays-de-palluau-fc-2"
+        },
+        "GJ BROUZIL CHAVAGRAB 2": {
+          "nom": "GJ BROUZIL CHAVAGRAB 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC552082.jpg",
+          "clNo": "116974",
+          "slug": "552082-gj-brouzil-chavagrab-2"
+        },
+        "ROCHESERVIERE BOUAIN 2": {
+          "nom": "ROCHESERVIERE BOUAIN 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC580592.jpg",
+          "clNo": "176843",
+          "slug": "580592-rocheserviere-bouain-2"
+        }
+      },
+      "stades": {
+        "STADE DE L' IDONNIÈRE N° 2_['RUE DU STADE', 'TERRAIN ANNEXE - RUE DU STADE', '85170 LE POIRE SUR VIE']": {
+          "nom": "STADE DE L' IDONNIÈRE N° 2",
+          "adresse": "RUE DU STADE | TERRAIN ANNEXE - RUE DU STADE | 85170 LE POIRE SUR VIE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE GRASLA N°2_['1 rue du stade', '85260 LES BROUZILS']": {
+          "nom": "STADE DE GRASLA N°2",
+          "adresse": "1 rue du stade | 85260 LES BROUZILS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFK18kCotm7A": {
+          "nom": "MARIUS G.",
+          "maillot": 2,
+          "club": "LE POIRE/VIE VF 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt2kCgsnbA": {
+          "nom": "NATHAEL M.",
+          "maillot": 12,
+          "club": "LE POIRE/VIE VF 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp9kC0gmr8": {
+          "nom": "LUBIN P.",
+          "maillot": 11,
+          "club": "LE POIRE/VIE VF 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt9kSssm78": {
+          "nom": "ALEXIS M.",
+          "maillot": 13,
+          "club": "LE POIRE/VIE VF 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK18ly8gn7A": {
+          "nom": "TONI F.",
+          "maillot": 1,
+          "club": "PAYS DE PALLUAU FC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt7ki0tm7I": {
+          "nom": "NOLAN V.",
+          "maillot": 12,
+          "club": "PAYS DE PALLUAU FC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx4lysimL8": {
+          "nom": "YOUNES T.",
+          "maillot": 3,
+          "club": "PAYS DE PALLUAU FC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15kScsl7A": {
+          "nom": "MILAN H.",
+          "maillot": 13,
+          "club": "PAYS DE PALLUAU FC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt9ki8nm7Q": {
+          "nom": "LORENZO C.",
+          "maillot": 11,
+          "club": "PAYS DE PALLUAU FC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt-lS4km7c": {
+          "nom": "LUCAS M.",
+          "maillot": 14,
+          "club": "PAYS DE PALLUAU FC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK14lCYknrE": {
+          "nom": "LUIS G.",
+          "maillot": 5,
+          "club": "ROCHESERVIERE BOUAIN 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK14lCsjmrY": {
+          "nom": "CHARLY H.",
+          "maillot": 13,
+          "club": "ROCHESERVIERE BOUAIN 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6lSwmn7c": {
+          "nom": "LOIS M.",
+          "maillot": 9,
+          "club": "ROCHESERVIERE BOUAIN 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx-lS0sl7c": {
+          "nom": "MAHO C.",
+          "maillot": 14,
+          "club": "ROCHESERVIERE BOUAIN 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx4lC4km78": {
+          "nom": "EMILIEN V.",
+          "maillot": 10,
+          "club": "GJ BROUZIL CHAVAGRAB 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15lS8hmLM": {
+          "nom": "DORIAN B.",
+          "maillot": 13,
+          "club": "GJ BROUZIL CHAVAGRAB 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17mywmmbQ": {
+          "nom": "LOUIS M.",
+          "maillot": 9,
+          "club": "GJ BROUZIL CHAVAGRAB 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17miknl7Y": {
+          "nom": "ANTON K.",
+          "maillot": 14,
+          "club": "GJ BROUZIL CHAVAGRAB 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd9liwhm78": {
+          "nom": "OWEN G.",
+          "maillot": 11,
+          "club": "GJ BROUZIL CHAVAGRAB 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK18lyohmLY": {
+          "nom": "ERWAN M.",
+          "maillot": 12,
+          "club": "GJ BROUZIL CHAVAGRAB 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK18lyonnbQ": {
+          "nom": "ARTHUR L.",
+          "maillot": 10,
+          "club": "ROCHESERVIERE BOUAIN 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17lCslnbU": {
+          "nom": "LOUISON C.",
+          "maillot": 12,
+          "club": "ROCHESERVIERE BOUAIN 2"
+        }
+      },
       "matchs": [
         {
           "id": 79149290,
@@ -196,10 +443,48 @@
           "heure": "10:00",
           "recevant": "LE POIRE/VIE VF 3",
           "visiteur": "PAYS DE PALLUAU FC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK18kCotm7A",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt2kCgsnbA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9kC0gmr8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt9kSssm78",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK18ly8gn7A",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7ki0tm7I",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 41,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4lysimL8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK15kScsl7A",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt9ki8nm7Q",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-lS4km7c",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE DE L' IDONNIÈRE N° 2_['RUE DU STADE', 'TERRAIN ANNEXE - RUE DU STADE', '85170 LE POIRE SUR VIE']"
         },
         {
           "id": 79149291,
@@ -207,10 +492,55 @@
           "heure": "10:00",
           "recevant": "GJ BROUZIL CHAVAGRAB 2",
           "visiteur": "ROCHESERVIERE BOUAIN 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK14lCYknrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK14lCsjmrY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6lSwmn7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx-lS0sl7c",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 41,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4lC4km78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK15lS8hmLM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 42,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK17mywmmbQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK17miknl7Y",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9liwhm78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK18lyohmLY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 50,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK18lyonnbQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK17lCslnbU",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE DE GRASLA N°2_['1 rue du stade', '85260 LES BROUZILS']"
         },
         {
           "id": 79149289,
@@ -360,10 +690,121 @@
     {
       "cp_slug": "452681-departemental-3-u15/phase/1/3",
       "competition": "Départemental 3 U15",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "GJ 13SEPTIERS BRUF 3": {
+          "nom": "GJ 13SEPTIERS BRUF 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC550772.jpg",
+          "clNo": "104430",
+          "slug": "550772-gj-13septiers-bruf-3"
+        },
+        "GJ ST DENIS-CHAU-COP 3": {
+          "nom": "GJ ST DENIS-CHAU-COP 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC552081.jpg",
+          "clNo": "116973",
+          "slug": "552081-gj-st-denis-chau-cop-3"
+        },
+        "GJ BOUFFERE S2GFC 3": {
+          "nom": "GJ BOUFFERE S2GFC 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560411.jpg",
+          "clNo": "196890",
+          "slug": "560411-gj-bouffere-s2gfc-3"
+        },
+        "GJ HERBERGEMENT USSA 2": {
+          "nom": "GJ HERBERGEMENT USSA 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC582145.jpg",
+          "clNo": "189230",
+          "slug": "582145-gj-herbergement-ussa-2"
+        }
+      },
+      "stades": {
+        "STADE MUNICIPAL 1_['RUE DU STADE', '36', '85530 LA BRUFFIERE']": {
+          "nom": "STADE MUNICIPAL 1",
+          "adresse": "RUE DU STADE | 36 | 85530 LA BRUFFIERE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "COMPLEXE SPORTIF DU GRAND LOGIS 1_['RUE DES PEUPLIERS', '85600 ST GEORGES DE MONTAIGU']": {
+          "nom": "COMPLEXE SPORTIF DU GRAND LOGIS 1",
+          "adresse": "RUE DES PEUPLIERS | 85600 ST GEORGES DE MONTAIGU",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFKp7kCkimbA": {
+          "nom": "TAO M.",
+          "maillot": 8,
+          "club": "GJ ST DENIS-CHAU-COP 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx-myotm7I": {
+          "nom": "EDEN A.",
+          "maillot": 12,
+          "club": "GJ ST DENIS-CHAU-COP 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19kCYnn7Y": {
+          "nom": "SACHA I.",
+          "maillot": 10,
+          "club": "GJ ST DENIS-CHAU-COP 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx3kiYtmrQ": {
+          "nom": "SOLAL J.",
+          "maillot": 13,
+          "club": "GJ ST DENIS-CHAU-COP 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6kiYhm7c": {
+          "nom": "BAPTISTE B.",
+          "maillot": 2,
+          "club": "GJ 13SEPTIERS BRUF 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd9kioin7c": {
+          "nom": "MAEL M.",
+          "maillot": 12,
+          "club": "GJ 13SEPTIERS BRUF 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd9mi0sn74": {
+          "nom": "ROMAIN R.",
+          "maillot": 8,
+          "club": "GJ HERBERGEMENT USSA 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd9kyYinrU": {
+          "nom": "JULIAN J.",
+          "maillot": 12,
+          "club": "GJ HERBERGEMENT USSA 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK18liYnm7M": {
+          "nom": "PABLO B.",
+          "maillot": 11,
+          "club": "GJ HERBERGEMENT USSA 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt9lCYtl78": {
+          "nom": "MAXIME P.",
+          "maillot": 13,
+          "club": "GJ HERBERGEMENT USSA 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK18lCgklrY": {
+          "nom": "ADRIEN P.",
+          "maillot": 9,
+          "club": "GJ HERBERGEMENT USSA 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16myonmbc": {
+          "nom": "LOANN B.",
+          "maillot": 14,
+          "club": "GJ HERBERGEMENT USSA 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp4kC4tn7U": {
+          "nom": "RAPHAEL P.",
+          "maillot": 11,
+          "club": "GJ BOUFFERE S2GFC 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6kignmr8": {
+          "nom": "NAEL B.",
+          "maillot": 12,
+          "club": "GJ BOUFFERE S2GFC 3"
+        }
+      },
       "matchs": [
         {
           "id": 79149377,
@@ -371,10 +812,34 @@
           "heure": "10:00",
           "recevant": "GJ 13SEPTIERS BRUF 3",
           "visiteur": "GJ ST DENIS-CHAU-COP 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 8,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp7kCkimbA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx-myotm7I",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK19kCYnn7Y",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3kiYtmrQ",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6kiYhm7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9kioin7c",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL 1_['RUE DU STADE', '36', '85530 LA BRUFFIERE']"
         },
         {
           "id": 79149378,
@@ -382,10 +847,41 @@
           "heure": "10:00",
           "recevant": "GJ BOUFFERE S2GFC 3",
           "visiteur": "GJ HERBERGEMENT USSA 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 11,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 5,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9mi0sn74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9kyYinrU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK18liYnm7M",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt9lCYtl78",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK18lCgklrY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK16myonmbc",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4kC4tn7U",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6kignmr8",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "COMPLEXE SPORTIF DU GRAND LOGIS 1_['RUE DES PEUPLIERS', '85600 ST GEORGES DE MONTAIGU']"
         },
         {
           "id": 79149380,
@@ -480,10 +976,106 @@
     {
       "cp_slug": "452681-departemental-3-u15/phase/1/4",
       "competition": "Départemental 3 U15",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "LES HERBIERS FEM 2": {
+          "nom": "LES HERBIERS FEM 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC507748.jpg",
+          "clNo": "3192",
+          "slug": "507748-les-herbiers-fem-2"
+        },
+        "ST LAURENT MALVENT 3": {
+          "nom": "ST LAURENT MALVENT 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC580852.jpg",
+          "clNo": "180168",
+          "slug": "580852-st-laurent-malvent-3"
+        },
+        "GJ ST FULGENT USBB U 2": {
+          "nom": "GJ ST FULGENT USBB U 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC582144.jpg",
+          "clNo": "189231",
+          "slug": "582144-gj-st-fulgent-usbb-u-2"
+        },
+        "GJ TIFFAUGES BOCAGE 2": {
+          "nom": "GJ TIFFAUGES BOCAGE 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC550769.jpg",
+          "clNo": "104427",
+          "slug": "550769-gj-tiffauges-bocage-2"
+        }
+      },
+      "stades": {
+        "PARC DES SPORTS MASSABIELLE 3_['AVENUE DE MASSABIELLE', 'TERRAIN ANNEXE', '85500 LES HERBIERS']": {
+          "nom": "PARC DES SPORTS MASSABIELLE 3",
+          "adresse": "AVENUE DE MASSABIELLE | TERRAIN ANNEXE | 85500 LES HERBIERS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL N°2_['RUE DES MAUGES', 'TERRAIN SYNTHETIQUE', '85250 ST FULGENT']": {
+          "nom": "STADE MUNICIPAL N°2",
+          "adresse": "RUE DES MAUGES | TERRAIN SYNTHETIQUE | 85250 ST FULGENT",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFKx9my8im7A": {
+          "nom": "PAULINE M.",
+          "maillot": 11,
+          "club": "LES HERBIERS FEM 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx_kiwhmbM": {
+          "nom": "ELONA D.",
+          "maillot": 14,
+          "club": "LES HERBIERS FEM 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK14lCggl7c": {
+          "nom": "ALEXIS C.",
+          "maillot": 11,
+          "club": "ST LAURENT MALVENT 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6kC8hmrY": {
+          "nom": "LORIS M.",
+          "maillot": 13,
+          "club": "ST LAURENT MALVENT 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK13kSYnnL8": {
+          "nom": "LUKAS V.",
+          "maillot": 10,
+          "club": "ST LAURENT MALVENT 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp7lSokm7A": {
+          "nom": "GABIN A.",
+          "maillot": 12,
+          "club": "ST LAURENT MALVENT 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx2myotm7c": {
+          "nom": "ARMONY C.",
+          "maillot": 8,
+          "club": "LES HERBIERS FEM 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt8miosnb4": {
+          "nom": "CONSTANCE B.",
+          "maillot": 12,
+          "club": "LES HERBIERS FEM 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx2lyktmrQ": {
+          "nom": "MILA F.",
+          "maillot": 9,
+          "club": "LES HERBIERS FEM 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx9my8inrE": {
+          "nom": "VIOLETTE A.",
+          "maillot": 13,
+          "club": "LES HERBIERS FEM 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17lismnrY": {
+          "nom": "TESSA G.",
+          "maillot": 1,
+          "club": "LES HERBIERS FEM 2"
+        }
+      },
       "matchs": [
         {
           "id": 79149766,
@@ -491,10 +1083,60 @@
           "heure": "10:00",
           "recevant": "LES HERBIERS FEM 2",
           "visiteur": "ST LAURENT MALVENT 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx9my8im7A",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_kiwhmbM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK14lCggl7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6kC8hmrY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK13kSYnnL8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp7lSokm7A",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 41,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx2myotm7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt8miosnb4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 41,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx2lyktmrQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx9my8inrE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 65,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK17lismnrY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 75,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6kC8hmrY",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "PARC DES SPORTS MASSABIELLE 3_['AVENUE DE MASSABIELLE', 'TERRAIN ANNEXE', '85500 LES HERBIERS']"
         },
         {
           "id": 79149767,
@@ -513,10 +1155,11 @@
           "heure": "11:00",
           "recevant": "GJ ST FULGENT USBB U 2",
           "visiteur": "GJ TIFFAUGES BOCAGE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL N°2_['RUE DES MAUGES', 'TERRAIN SYNTHETIQUE', '85250 ST FULGENT']"
         },
         {
           "id": 79149769,
@@ -830,10 +1473,82 @@
     {
       "cp_slug": "452681-departemental-3-u15/phase/1/6",
       "competition": "Départemental 3 U15",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "LES ACHARDS FC 2": {
+          "nom": "LES ACHARDS FC 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC542301.jpg",
+          "clNo": "21862",
+          "slug": "542301-les-achards-fc-2"
+        },
+        "GJ BEAULIEU LAND-SG 2": {
+          "nom": "GJ BEAULIEU LAND-SG 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC561054.jpg",
+          "clNo": "200553",
+          "slug": "561054-gj-beaulieu-land-sg-2"
+        }
+      },
+      "stades": {
+        "STADE LE GITE DU BOIS_['RUE DU STADE', '85150 LA CHAPELLE ACHARD']": {
+          "nom": "STADE LE GITE DU BOIS",
+          "adresse": "RUE DU STADE | 85150 LA CHAPELLE ACHARD",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFK16kCosn7I": {
+          "nom": "THIBAULT B.",
+          "maillot": 7,
+          "club": "LES ACHARDS FC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx4kCYgl7Y": {
+          "nom": "SACHA N.",
+          "maillot": 12,
+          "club": "LES ACHARDS FC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK18lyokn7I": {
+          "nom": "MAEL R.",
+          "maillot": 11,
+          "club": "GJ BEAULIEU LAND-SG 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp4lC4imL4": {
+          "nom": "EDINE D.",
+          "maillot": 12,
+          "club": "GJ BEAULIEU LAND-SG 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15mycjnLY": {
+          "nom": "NATAN D.",
+          "maillot": 9,
+          "club": "LES ACHARDS FC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6kiotnbQ": {
+          "nom": "EMIN A.",
+          "maillot": 13,
+          "club": "LES ACHARDS FC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx4lCstn7E": {
+          "nom": "THIAGO B.",
+          "maillot": 8,
+          "club": "GJ BEAULIEU LAND-SG 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt9my8hnLc": {
+          "nom": "TELIO L.",
+          "maillot": 13,
+          "club": "GJ BEAULIEU LAND-SG 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6ky0hnLY": {
+          "nom": "NATHAN B.",
+          "maillot": 6,
+          "club": "GJ BEAULIEU LAND-SG 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx-ki4ml78": {
+          "nom": "LIAM F.",
+          "maillot": 14,
+          "club": "GJ BEAULIEU LAND-SG 2"
+        }
+      },
       "matchs": [
         {
           "id": 79149866,
@@ -863,10 +1578,48 @@
           "heure": "10:00",
           "recevant": "LES ACHARDS FC 2",
           "visiteur": "GJ BEAULIEU LAND-SG 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 50,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16kCosn7I",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4kCYgl7Y",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 50,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK18lyokn7I",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4lC4imL4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 55,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK15mycjnLY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6kiotnbQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 70,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4lCstn7E",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt9my8hnLc",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 72,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6ky0hnLY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx-ki4ml78",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE LE GITE DU BOIS_['RUE DU STADE', '85150 LA CHAPELLE ACHARD']"
         },
         {
           "id": 79149871,
@@ -1005,10 +1758,91 @@
     {
       "cp_slug": "452681-departemental-3-u15/phase/1/7",
       "competition": "Départemental 3 U15",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "GJ STE CECILE OIE 2": {
+          "nom": "GJ STE CECILE OIE 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC581100.jpg",
+          "clNo": "182808",
+          "slug": "581100-gj-ste-cecile-oie-2"
+        },
+        "FERRIERE DOMPIERRE U": {
+          "nom": "FERRIERE DOMPIERRE U",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560846.jpg",
+          "clNo": "199031",
+          "slug": "560846-ferriere-dompierre-u"
+        },
+        "GJF CHANTONNAY 3": {
+          "nom": "GJF CHANTONNAY 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC552276.jpg",
+          "clNo": "162061",
+          "slug": "552276-gjf-chantonnay-3"
+        },
+        "LA ROCHE ROBRETIERE 2": {
+          "nom": "LA ROCHE ROBRETIERE 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC525247.jpg",
+          "clNo": "10030",
+          "slug": "525247-la-roche-robretiere-2"
+        }
+      },
+      "stades": {
+        "Stade Municipal 1 (l Oie)_[' RUE DES HAUTEURS', '85140 L OIE']": {
+          "nom": "Stade Municipal 1 (l Oie)",
+          "adresse": " RUE DES HAUTEURS | 85140 L OIE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['ROUTE DE ST MARS DES PRES', '85110 SIGOURNAIS']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "ROUTE DE ST MARS DES PRES | 85110 SIGOURNAIS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFK12li8gmLA": {
+          "nom": "RAPHAEL P.",
+          "maillot": 7,
+          "club": "FERRIERE DOMPIERRE U"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15mi4slrc": {
+          "nom": "THIBO P.",
+          "maillot": 14,
+          "club": "FERRIERE DOMPIERRE U"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp4lSkinrE": {
+          "nom": "HUGO L.",
+          "maillot": 9,
+          "club": "FERRIERE DOMPIERRE U"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19kiwgmLU": {
+          "nom": "MAXIME J.",
+          "maillot": 12,
+          "club": "FERRIERE DOMPIERRE U"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6my0tmrY": {
+          "nom": "LLOY B.",
+          "maillot": 11,
+          "club": "FERRIERE DOMPIERRE U"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15myYtmbI": {
+          "nom": "EDEN M.",
+          "maillot": 13,
+          "club": "FERRIERE DOMPIERRE U"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK18licnnLc": {
+          "nom": "DEVY F.",
+          "maillot": 10,
+          "club": "GJ STE CECILE OIE 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16lC4hmr4": {
+          "nom": "GABRIEL S.",
+          "maillot": 12,
+          "club": "GJ STE CECILE OIE 2"
+        }
+      },
       "matchs": [
         {
           "id": 79149896,
@@ -1016,10 +1850,41 @@
           "heure": "10:00",
           "recevant": "GJ STE CECILE OIE 2",
           "visiteur": "FERRIERE DOMPIERRE U",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 8,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12li8gmLA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK15mi4slrc",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4lSkinrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK19kiwgmLU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 38,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6my0tmrY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK15myYtmbI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK18licnnLc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK16lC4hmr4",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "Stade Municipal 1 (l Oie)_[' RUE DES HAUTEURS', '85140 L OIE']"
         },
         {
           "id": 79149897,
@@ -1038,10 +1903,11 @@
           "heure": "10:00",
           "recevant": "GJF CHANTONNAY 3",
           "visiteur": "LA ROCHE ROBRETIERE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['ROUTE DE ST MARS DES PRES', '85110 SIGOURNAIS']"
         },
         {
           "id": 79149899,
@@ -1180,10 +2046,62 @@
     {
       "cp_slug": "452681-departemental-3-u15/phase/1/8",
       "competition": "Départemental 3 U15",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "GJ PAYS CHATAIGNERAI 2": {
+          "nom": "GJ PAYS CHATAIGNERAI 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC551373.jpg",
+          "clNo": "112950",
+          "slug": "551373-gj-pays-chataignerai-2"
+        },
+        "BENET DAMVIX MAILLE 2": {
+          "nom": "BENET DAMVIX MAILLE 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC552656.jpg",
+          "clNo": "121666",
+          "slug": "552656-benet-damvix-maille-2"
+        }
+      },
+      "stades": {
+        "STADE MUNICIPAL 1_['ROUTE DE VOUVANT', '85390 MOUILLERON ST GERMAIN']": {
+          "nom": "STADE MUNICIPAL 1",
+          "adresse": "ROUTE DE VOUVANT | 85390 MOUILLERON ST GERMAIN",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKpNEKd7mi8nm78": {
+          "nom": "ETANN F.",
+          "maillot": 11,
+          "club": "GJ PAYS CHATAIGNERAI 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17kigmmrY": {
+          "nom": "ANTONIN B.",
+          "maillot": 12,
+          "club": "GJ PAYS CHATAIGNERAI 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17mi0hnrQ": {
+          "nom": "CAMILLE G.",
+          "maillot": 10,
+          "club": "GJ PAYS CHATAIGNERAI 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK13kywnlrA": {
+          "nom": "CASSIEN B.",
+          "maillot": 13,
+          "club": "GJ PAYS CHATAIGNERAI 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx7lychmLI": {
+          "nom": "LEANDRE B.",
+          "maillot": 7,
+          "club": "BENET DAMVIX MAILLE 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17mi0jnb8": {
+          "nom": "TIAGO P.",
+          "maillot": 12,
+          "club": "BENET DAMVIX MAILLE 2"
+        }
+      },
       "matchs": [
         {
           "id": 79155336,
@@ -1191,10 +2109,34 @@
           "heure": "10:00",
           "recevant": "GJ PAYS CHATAIGNERAI 2",
           "visiteur": "BENET DAMVIX MAILLE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7mi8nm78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK17kigmmrY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK17mi0hnrQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK13kywnlrA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7lychmLI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK17mi0jnb8",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL 1_['ROUTE DE VOUVANT', '85390 MOUILLERON ST GERMAIN']"
         },
         {
           "id": 79155337,
@@ -1355,10 +2297,82 @@
     {
       "cp_slug": "452681-departemental-3-u15/phase/1/9",
       "competition": "Départemental 3 U15",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "E*LONGEVIL LUCON MAG": {
+          "nom": "E*LONGEVIL LUCON MAG",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC506934.jpg",
+          "clNo": "3013",
+          "slug": "506934-e-longevil-lucon-mag"
+        },
+        "CHAMPSTPERE F.C.V.G.": {
+          "nom": "CHAMPSTPERE F.C.V.G.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560517.jpg",
+          "clNo": "197254",
+          "slug": "560517-champstpere-f-c-v-g"
+        }
+      },
+      "stades": {
+        "Plaine Des Sports du Sourdy 1_['ROUTE DES SABLES', '85400 LUCON']": {
+          "nom": "Plaine Des Sports du Sourdy 1",
+          "adresse": "ROUTE DES SABLES | 85400 LUCON",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFK12kywil7U": {
+          "nom": "NOAM G.",
+          "maillot": 5,
+          "club": "E*LONGEVIL LUCON MAG"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx8lygmmbE": {
+          "nom": "VALENTIN M.",
+          "maillot": 12,
+          "club": "E*LONGEVIL LUCON MAG"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15liglmbE": {
+          "nom": "JULES A.",
+          "maillot": 11,
+          "club": "E*LONGEVIL LUCON MAG"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp2ky8sm7c": {
+          "nom": "LUHAN P.",
+          "maillot": 13,
+          "club": "E*LONGEVIL LUCON MAG"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx7kSomm7I": {
+          "nom": "CAMILLE R.",
+          "maillot": 9,
+          "club": "E*LONGEVIL LUCON MAG"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK18mysjm7c": {
+          "nom": "THEO B.",
+          "maillot": 14,
+          "club": "E*LONGEVIL LUCON MAG"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt7liwtn7M": {
+          "nom": "MARTIN F.",
+          "maillot": 9,
+          "club": "CHAMPSTPERE F.C.V.G."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16kyYgnbM": {
+          "nom": "ENZO R.",
+          "maillot": 12,
+          "club": "CHAMPSTPERE F.C.V.G."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd7liggn7Y": {
+          "nom": "ILYESS H.",
+          "maillot": 7,
+          "club": "CHAMPSTPERE F.C.V.G."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15li4im7Q": {
+          "nom": "RAPHAEL V.",
+          "maillot": 13,
+          "club": "CHAMPSTPERE F.C.V.G."
+        }
+      },
       "matchs": [
         {
           "id": 79155402,
@@ -1366,10 +2380,48 @@
           "heure": "10:00",
           "recevant": "E*LONGEVIL LUCON MAG",
           "visiteur": "CHAMPSTPERE F.C.V.G.",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12kywil7U",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8lygmmbE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK15liglmbE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp2ky8sm7c",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7kSomm7I",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK18mysjm7c",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7liwtn7M",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK16kyYgnbM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7liggn7Y",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK15li4im7Q",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "Plaine Des Sports du Sourdy 1_['ROUTE DES SABLES', '85400 LUCON']"
         },
         {
           "id": 79155403,
@@ -1475,10 +2527,160 @@
     {
       "cp_slug": "452681-departemental-3-u15/phase/1/10",
       "competition": "Départemental 3 U15",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "GJF NIEUL RSC USA 2": {
+          "nom": "GJF NIEUL RSC USA 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565220.jpg",
+          "clNo": "205158",
+          "slug": "565220-gjf-nieul-rsc-usa-2"
+        },
+        "JARD AVR MOUT SA FC 3": {
+          "nom": "JARD AVR MOUT SA FC 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC554370.jpg",
+          "clNo": "152481",
+          "slug": "554370-jard-avr-mout-sa-fc-3"
+        },
+        "TALMONT ST HILAIRE 2": {
+          "nom": "TALMONT ST HILAIRE 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC542543.jpg",
+          "clNo": "22054",
+          "slug": "542543-talmont-st-hilaire-2"
+        },
+        "LES SABLES VF 3": {
+          "nom": "LES SABLES VF 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560129.jpg",
+          "clNo": "194252",
+          "slug": "560129-les-sables-vf-3"
+        },
+        "GJ NDRIEZ VIE MARAIS 3": {
+          "nom": "GJ NDRIEZ VIE MARAIS 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC550371.jpg",
+          "clNo": "179484",
+          "slug": "550371-gj-ndriez-vie-marais-3"
+        },
+        "GJF NESMY BOISSIERE": {
+          "nom": "GJF NESMY BOISSIERE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565670.jpg",
+          "clNo": "206149",
+          "slug": "565670-gjf-nesmy-boissiere"
+        }
+      },
+      "stades": {
+        "STADE MUNICIPAL_[' RUE DES SPORTS', 'Les clouzeaux', '85430 AUBIGNY LES CLOUZEAUX']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": " RUE DES SPORTS | Les clouzeaux | 85430 AUBIGNY LES CLOUZEAUX",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE DES RIBANDEAUX 3_[' AVENUE DES SPORTS', '85440 TALMONT ST HILAIRE']": {
+          "nom": "STADE DES RIBANDEAUX 3",
+          "adresse": " AVENUE DES SPORTS | 85440 TALMONT ST HILAIRE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_[' ROUTE DE SAINT MAIXENT', '85220 COMMEQUIERS']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": " ROUTE DE SAINT MAIXENT | 85220 COMMEQUIERS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFK16lCknnrA": {
+          "nom": "NATHAN L.",
+          "maillot": 10,
+          "club": "JARD AVR MOUT SA FC 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx2kC0sm7Q": {
+          "nom": "ALIX R.",
+          "maillot": 9,
+          "club": "JARD AVR MOUT SA FC 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK12mysinbM": {
+          "nom": "MATHEO R.",
+          "maillot": 8,
+          "club": "GJF NIEUL RSC USA 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK14kyktl78": {
+          "nom": "ESTEBAN G.",
+          "maillot": 14,
+          "club": "GJF NIEUL RSC USA 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15lygknrc": {
+          "nom": "NOHAM R.",
+          "maillot": 10,
+          "club": "GJF NIEUL RSC USA 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6lSwhm7c": {
+          "nom": "PIERRE G.",
+          "maillot": 13,
+          "club": "GJF NIEUL RSC USA 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19lSwtmLQ": {
+          "nom": "JOSHUA F.",
+          "maillot": 6,
+          "club": "GJF NIEUL RSC USA 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx_likhnrU": {
+          "nom": "TIM C.",
+          "maillot": 12,
+          "club": "GJF NIEUL RSC USA 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15kiwsl7I": {
+          "nom": "LOIS L.",
+          "maillot": 10,
+          "club": "LES SABLES VF 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19lygtnLM": {
+          "nom": "NATHAN B.",
+          "maillot": 12,
+          "club": "LES SABLES VF 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx_kS0mm7M": {
+          "nom": "TOM P.",
+          "maillot": 7,
+          "club": "LES SABLES VF 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx7mykmmrM": {
+          "nom": "GASPARD V.",
+          "maillot": 13,
+          "club": "LES SABLES VF 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17micmlrM": {
+          "nom": "LOUIS G.",
+          "maillot": 4,
+          "club": "LES SABLES VF 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx5kCwmmbY": {
+          "nom": "THEO R.",
+          "maillot": 14,
+          "club": "LES SABLES VF 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx3lC4mm74": {
+          "nom": "NATHAN R.",
+          "maillot": 3,
+          "club": "GJ NDRIEZ VIE MARAIS 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd7lyssn7I": {
+          "nom": "MALO P.",
+          "maillot": 13,
+          "club": "GJ NDRIEZ VIE MARAIS 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15ly8nn7c": {
+          "nom": "ETHAN P.",
+          "maillot": 6,
+          "club": "GJF NESMY BOISSIERE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6kCkjm7E": {
+          "nom": "ETHAN C.",
+          "maillot": 12,
+          "club": "GJF NESMY BOISSIERE"
+        }
+      },
       "matchs": [
         {
           "id": 79149966,
@@ -1486,10 +2688,52 @@
           "heure": "10:00",
           "recevant": "GJF NIEUL RSC USA 2",
           "visiteur": "JARD AVR MOUT SA FC 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 8,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 5,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16lCknnrA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 10,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16lCknnrA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 30,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx2kC0sm7Q",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12mysinbM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK14kyktl78",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK15lygknrc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6lSwhm7c",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK19lSwtmLQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_likhnrU",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL_[' RUE DES SPORTS', 'Les clouzeaux', '85430 AUBIGNY LES CLOUZEAUX']"
         },
         {
           "id": 79149967,
@@ -1497,10 +2741,34 @@
           "heure": "10:00",
           "recevant": "TALMONT ST HILAIRE 2",
           "visiteur": "LES SABLES VF 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK15kiwsl7I",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK19lygtnLM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 41,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_kS0mm7M",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7mykmmrM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 41,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK17micmlrM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx5kCwmmbY",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE DES RIBANDEAUX 3_[' AVENUE DES SPORTS', '85440 TALMONT ST HILAIRE']"
         },
         {
           "id": 79149968,
@@ -1508,10 +2776,27 @@
           "heure": "10:00",
           "recevant": "GJ NDRIEZ VIE MARAIS 3",
           "visiteur": "GJF NESMY BOISSIERE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 16,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3lC4mm74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7lyssn7I",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK15ly8nn7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6kCkjm7E",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL_[' ROUTE DE SAINT MAIXENT', '85220 COMMEQUIERS']"
         },
         {
           "id": 79149969,

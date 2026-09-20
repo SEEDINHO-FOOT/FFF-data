@@ -22,12 +22,50 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500358.jpg",
           "clNo": "450",
           "slug": "500358-amboise-ac-2"
+        },
+        "ST PIERRE DES CORPS 2": {
+          "nom": "ST PIERRE DES CORPS 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC504935.jpg",
+          "clNo": "2452",
+          "slug": "504935-st-pierre-des-corps-2"
+        },
+        "CHAMBRAY FC 2": {
+          "nom": "CHAMBRAY FC 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC520240.jpg",
+          "clNo": "6813",
+          "slug": "520240-chambray-fc-2"
+        },
+        "VAL DE CHER FC": {
+          "nom": "VAL DE CHER FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC582647.jpg",
+          "clNo": "191923",
+          "slug": "582647-val-de-cher-fc"
+        },
+        "TOURS ACP": {
+          "nom": "TOURS ACP",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC522955.jpg",
+          "clNo": "8539",
+          "slug": "522955-tours-acp"
         }
       },
       "stades": {
         "STADE DES GRANDS CHAMPS 2_['RUE JULES ROMAIN', 'TERRAIN ANNEXE', '37550 ST AVERTIN']": {
           "nom": "STADE DES GRANDS CHAMPS 2",
           "adresse": "RUE JULES ROMAIN | TERRAIN ANNEXE | 37550 ST AVERTIN",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE CAMÉLINAT 3_['RUE DANIELLE CASANOVA', 'TERRAIN ANNEXE', '37700 ST PIERRE DES CORPS']": {
+          "nom": "STADE CAMÉLINAT 3",
+          "adresse": "RUE DANIELLE CASANOVA | TERRAIN ANNEXE | 37700 ST PIERRE DES CORPS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "COMPLEXE SPORTIF DES LONGERONS_['RUE DU STADE', '37150 LA CROIX EN TOURAINE']": {
+          "nom": "COMPLEXE SPORTIF DES LONGERONS",
+          "adresse": "RUE DU STADE | 37150 LA CROIX EN TOURAINE",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -54,10 +92,11 @@
           "heure": "11:00",
           "recevant": "ST PIERRE DES CORPS 2",
           "visiteur": "CHAMBRAY FC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 13,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE CAMÉLINAT 3_['RUE DANIELLE CASANOVA', 'TERRAIN ANNEXE', '37700 ST PIERRE DES CORPS']"
         },
         {
           "id": 79611818,
@@ -65,10 +104,11 @@
           "heure": "12:30",
           "recevant": "VAL DE CHER FC",
           "visiteur": "TOURS ACP",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF DES LONGERONS_['RUE DU STADE', '37150 LA CROIX EN TOURAINE']"
         },
         {
           "id": 79520242,
@@ -362,6 +402,42 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC554357.jpg",
           "clNo": "152221",
           "slug": "554357-union-foot-touraine-4"
+        },
+        "BOURGUEILLOIS AVF": {
+          "nom": "BOURGUEILLOIS AVF",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC563699.jpg",
+          "clNo": "172765",
+          "slug": "563699-bourgueillois-avf"
+        },
+        "ETOILE VERTE ENT": {
+          "nom": "ETOILE VERTE ENT",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC581867.jpg",
+          "clNo": "186925",
+          "slug": "581867-etoile-verte-ent"
+        },
+        "VALLEE DU LYS ASVL": {
+          "nom": "VALLEE DU LYS ASVL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC511766.jpg",
+          "clNo": "3878",
+          "slug": "511766-vallee-du-lys-asvl"
+        },
+        "DESCARTES SG": {
+          "nom": "DESCARTES SG",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC590283.jpg",
+          "clNo": "162981",
+          "slug": "590283-descartes-sg"
+        },
+        "VAL DE VEUDE ES": {
+          "nom": "VAL DE VEUDE ES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560533.jpg",
+          "clNo": "197286",
+          "slug": "560533-val-de-veude-es"
+        },
+        "RICHE RACING 3": {
+          "nom": "RICHE RACING 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC544106.jpg",
+          "clNo": "22417",
+          "slug": "544106-riche-racing-3"
         }
       },
       "stades": {
@@ -371,10 +447,72 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE JEAN CAUSERET 2_['Allée du Stade', '37140 BOURGUEIL']": {
+          "nom": "STADE JEAN CAUSERET 2",
+          "adresse": "Allée du Stade | 37140 BOURGUEIL",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE WILLIAM LAMBERT 2_['22 RUE DE LA CHATAIGNERAIE', '37260 PONT DE RUAN']": {
+          "nom": "STADE WILLIAM LAMBERT 2",
+          "adresse": "22 RUE DE LA CHATAIGNERAIE | 37260 PONT DE RUAN",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL1_['LES CHIGNOLETS', '37500 ANCHE']": {
+          "nom": "STADE MUNICIPAL1",
+          "adresse": "LES CHIGNOLETS | 37500 ANCHE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFKt_li4tlr8": {
+          "nom": "CORENTIN B.",
+          "maillot": 8,
+          "club": "BOURGUEILLOIS AVF"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp9kSgnl74": {
+          "nom": "ETHAN R.",
+          "maillot": 9,
+          "club": "BOURGUEILLOIS AVF"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt7lSsmn7M": {
+          "nom": "CLEMENT G.",
+          "maillot": 7,
+          "club": "BOURGUEILLOIS AVF"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt8kiommLM": {
+          "nom": "LIAM P.",
+          "maillot": 11,
+          "club": "BOURGUEILLOIS AVF"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt-myYsmrA": {
+          "nom": "TIAGO R.",
+          "maillot": 8,
+          "club": "ETOILE VERTE ENT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt_lyojmbY": {
+          "nom": "AXEL R.",
+          "maillot": 11,
+          "club": "ETOILE VERTE ENT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp6ly4tmb4": {
+          "nom": "SACHA F.",
+          "maillot": 4,
+          "club": "BOURGUEILLOIS AVF"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp_kCogn74": {
+          "nom": "ALANIC G.",
+          "maillot": 10,
+          "club": "BOURGUEILLOIS AVF"
+        }
+      },
       "matchs": [
         {
           "id": 79520269,
@@ -394,10 +532,41 @@
           "heure": "11:00",
           "recevant": "BOURGUEILLOIS AVF",
           "visiteur": "ETOILE VERTE ENT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 8,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 12,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt_li4tlr8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9kSgnl74",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7lSsmn7M",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt8kiommLM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-myYsmrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt_lyojmbY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 17,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp6ly4tmb4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp_kCogn74",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE JEAN CAUSERET 2_['Allée du Stade', '37140 BOURGUEIL']"
         },
         {
           "id": 79520268,
@@ -405,10 +574,11 @@
           "heure": "14:00",
           "recevant": "VALLEE DU LYS ASVL",
           "visiteur": "DESCARTES SG",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 8,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE WILLIAM LAMBERT 2_['22 RUE DE LA CHATAIGNERAIE', '37260 PONT DE RUAN']"
         },
         {
           "id": 79520270,
@@ -416,10 +586,11 @@
           "heure": "14:30",
           "recevant": "VAL DE VEUDE ES",
           "visiteur": "RICHE RACING 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL1_['LES CHIGNOLETS', '37500 ANCHE']"
         },
         {
           "id": 79520272,
@@ -1030,8 +1201,67 @@
     {
       "cp_slug": "457917-u11-niveau-2/phase/1/4",
       "competition": "U11 Niveau 2",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "TOURS SUD AS 2": {
+          "nom": "TOURS SUD AS 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC550520.jpg",
+          "clNo": "173320",
+          "slug": "550520-tours-sud-as-2"
+        },
+        "RENAUDINE US": {
+          "nom": "RENAUDINE US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500375.jpg",
+          "clNo": "465",
+          "slug": "500375-renaudine-us"
+        },
+        "PAYS LANGEAISIEN FC": {
+          "nom": "PAYS LANGEAISIEN FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC551760.jpg",
+          "clNo": "162961",
+          "slug": "551760-pays-langeaisien-fc"
+        },
+        "GATINE CHOISILLES FC": {
+          "nom": "GATINE CHOISILLES FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC582286.jpg",
+          "clNo": "189609",
+          "slug": "582286-gatine-choisilles-fc"
+        },
+        "SOUVIGNE VILLIERS LA": {
+          "nom": "SOUVIGNE VILLIERS LA",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC512278.jpg",
+          "clNo": "3981",
+          "slug": "512278-souvigne-villiers-la"
+        },
+        "PERNAY AMBILLOU US": {
+          "nom": "PERNAY AMBILLOU US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC527844.jpg",
+          "clNo": "11782",
+          "slug": "527844-pernay-ambillou-us"
+        }
+      },
+      "stades": {
+        "STADE DES FONTAINES_['4 PLACE DEGAS', '37200 TOURS']": {
+          "nom": "STADE DES FONTAINES",
+          "adresse": "4 PLACE DEGAS | 37200 TOURS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football réduit"
+        },
+        "STADE DES VARENNES_[' LES VARENNES', '37130 CINQ MARS LA PILE']": {
+          "nom": "STADE DES VARENNES",
+          "adresse": " LES VARENNES | 37130 CINQ MARS LA PILE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_[\"PLACE D'AREMBOUR DE STE MORE\", 'GRANDE RUE', '37330 ST LAURENT DE LIN']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "PLACE D'AREMBOUR DE STE MORE | GRANDE RUE | 37330 ST LAURENT DE LIN",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -1041,10 +1271,11 @@
           "heure": "12:30",
           "recevant": "TOURS SUD AS 2",
           "visiteur": "RENAUDINE US",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 10,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES FONTAINES_['4 PLACE DEGAS', '37200 TOURS']"
         },
         {
           "id": 79520337,
@@ -1063,10 +1294,11 @@
           "heure": "14:00",
           "recevant": "PAYS LANGEAISIEN FC",
           "visiteur": "GATINE CHOISILLES FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES VARENNES_[' LES VARENNES', '37130 CINQ MARS LA PILE']"
         },
         {
           "id": 79520336,
@@ -1074,10 +1306,11 @@
           "heure": "14:00",
           "recevant": "SOUVIGNE VILLIERS LA",
           "visiteur": "PERNAY AMBILLOU US",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_[\"PLACE D'AREMBOUR DE STE MORE\", 'GRANDE RUE', '37330 ST LAURENT DE LIN']"
         },
         {
           "id": 79520339,
