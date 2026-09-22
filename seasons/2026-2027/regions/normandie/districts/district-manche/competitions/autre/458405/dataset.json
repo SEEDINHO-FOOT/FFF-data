@@ -106,6 +106,30 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC547673.jpg",
           "clNo": "24958",
           "slug": "547673-ent-aspc-uslg"
+        },
+        "ES COUTANCAISE": {
+          "nom": "ES COUTANCAISE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500476.jpg",
+          "clNo": "548",
+          "slug": "500476-es-coutancaise"
+        },
+        "US GRANVILLAISE": {
+          "nom": "US GRANVILLAISE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC501489.jpg",
+          "clNo": "996",
+          "slug": "501489-us-granvillaise"
+        },
+        "FC 3 RIVIERES": {
+          "nom": "FC 3 RIVIERES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC581303.jpg",
+          "clNo": "183394",
+          "slug": "581303-fc-3-rivieres"
+        },
+        "FC AGON COUTAINVILLE": {
+          "nom": "FC AGON COUTAINVILLE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC501508.jpg",
+          "clNo": "1007",
+          "slug": "501508-fc-agon-coutainville"
         }
       },
       "stades": {
@@ -164,6 +188,20 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "PARC DES SPORTS PAUL MAUNDRELL 4_['RUE DE SAINT MALO', '50200 COUTANCES']": {
+          "nom": "PARC DES SPORTS PAUL MAUNDRELL 4",
+          "adresse": "RUE DE SAINT MALO | 50200 COUTANCES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "Stade De Gourfaleur _['GOURFALEUR ', '18 RUE DU HAMEL', '50750 BOURGVALLEES']": {
+          "nom": "Stade De Gourfaleur ",
+          "adresse": "GOURFALEUR  | 18 RUE DU HAMEL | 50750 BOURGVALLEES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -184,6 +222,16 @@
         },
         "MAEL PICOT_AC": {
           "nom": "MAEL PICOT",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ETHAN LECARPENTIER_AC": {
+          "nom": "ETHAN LECARPENTIER",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "NOA GUISLAIN MARIE_AC": {
+          "nom": "NOA GUISLAIN MARIE",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -783,10 +831,14 @@
           "heure": "15:00",
           "recevant": "ES COUTANCAISE",
           "visiteur": "US GRANVILLAISE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "PARC DES SPORTS PAUL MAUNDRELL 4_['RUE DE SAINT MALO', '50200 COUTANCES']",
+          "officiels": [
+            "ETHAN LECARPENTIER_AC"
+          ]
         },
         {
           "id": 79449731,
@@ -794,10 +846,14 @@
           "heure": "15:00",
           "recevant": "FC 3 RIVIERES",
           "visiteur": "FC AGON COUTAINVILLE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade De Gourfaleur _['GOURFALEUR ', '18 RUE DU HAMEL', '50750 BOURGVALLEES']",
+          "officiels": [
+            "NOA GUISLAIN MARIE_AC"
+          ]
         }
       ]
     }

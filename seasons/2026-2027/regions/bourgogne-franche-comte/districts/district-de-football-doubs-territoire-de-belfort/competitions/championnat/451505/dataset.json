@@ -46,6 +46,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500553.jpg",
           "clNo": "605",
           "slug": "500553-audincourt-as-2"
+        },
+        "SOCHAUX MONTB. FC 2": {
+          "nom": "SOCHAUX MONTB. FC 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500303.jpg",
+          "clNo": "405",
+          "slug": "500303-sochaux-montb-fc-2"
+        },
+        "BELFORTAINE ASM FC 2": {
+          "nom": "BELFORTAINE ASM FC 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500236.jpg",
+          "clNo": "355",
+          "slug": "500236-belfortaine-asm-fc-2"
         }
       },
       "stades": {
@@ -66,6 +78,27 @@
         "STADE HENRI JORAN_['CHEMIN DES JOURNAUX', '25000 BESANCON']": {
           "nom": "STADE HENRI JORAN",
           "adresse": "CHEMIN DES JOURNAUX | 25000 BESANCON",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "Stade du Centre de Formation A8_[' RUE COTE MANCIN', '25230 SELONCOURT']": {
+          "nom": "Stade du Centre de Formation A8",
+          "adresse": " RUE COTE MANCIN | 25230 SELONCOURT",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football réduit"
+        },
+        "STADE MUNICIPAL_[' RUE DU TILLEUL', '25770 SERRE LES SAPINS']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": " RUE DU TILLEUL | 25770 SERRE LES SAPINS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football réduit"
+        },
+        "STADE DES CANTONS 2_['RUE DES CANTONS', 'TERRAIN ANNEXE', '25400 AUDINCOURT']": {
+          "nom": "STADE DES CANTONS 2",
+          "adresse": "RUE DES CANTONS | TERRAIN ANNEXE | 25400 AUDINCOURT",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -116,10 +149,11 @@
           "heure": "12:00",
           "recevant": "SOCHAUX MONTB. FC 2",
           "visiteur": "RACING BESANCON 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade du Centre de Formation A8_[' RUE COTE MANCIN', '25230 SELONCOURT']"
         },
         {
           "id": 79065764,
@@ -127,10 +161,11 @@
           "heure": "12:00",
           "recevant": "GRAND BESANCON FC 2",
           "visiteur": "BELFORTAINE ASM FC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 9,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_[' RUE DU TILLEUL', '25770 SERRE LES SAPINS']"
         },
         {
           "id": 79065765,
@@ -150,10 +185,11 @@
           "heure": "15:00",
           "recevant": "AUDINCOURT AS 2",
           "visiteur": "VALDAHON-VERCEL 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES CANTONS 2_['RUE DES CANTONS', 'TERRAIN ANNEXE', '25400 AUDINCOURT']"
         },
         {
           "id": 79065761,
@@ -469,6 +505,20 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "Stade du Centre de Formation A8_[' RUE COTE MANCIN', '25230 SELONCOURT']": {
+          "nom": "Stade du Centre de Formation A8",
+          "adresse": " RUE COTE MANCIN | 25230 SELONCOURT",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football réduit"
+        },
+        "STADE ESPACE LOISIRS SPORT 2_['RUE DU STADE', 'TERRAIN ANNEXE', '25150 PONT DE ROIDE VERMONDANS']": {
+          "nom": "STADE ESPACE LOISIRS SPORT 2",
+          "adresse": "RUE DU STADE | TERRAIN ANNEXE | 25150 PONT DE ROIDE VERMONDANS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -519,8 +569,7 @@
           "buts_recevant": 3,
           "buts_visiteur": 8,
           "joue": true,
-          "statut": "joué",
-          "stade_id": "CS ROBERT DEMUTH - STADE MUNICIPAL 2_['1 RUE DU STADE', 'TERRAIN ANNEXE', '90120 MEZIRE']"
+          "statut": "joué"
         },
         {
           "id": 79066219,
@@ -528,10 +577,11 @@
           "heure": "14:00",
           "recevant": "EXINCOURT 2",
           "visiteur": "SOCHAUX MONTB. FC 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 9,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade du Centre de Formation A8_[' RUE COTE MANCIN', '25230 SELONCOURT']"
         },
         {
           "id": 79066216,
@@ -539,10 +589,11 @@
           "heure": "15:00",
           "recevant": "PONT ROIDE VERMONDAN",
           "visiteur": "CHATENOIS LES FORGES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 23,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ESPACE LOISIRS SPORT 2_['RUE DU STADE', 'TERRAIN ANNEXE', '25150 PONT DE ROIDE VERMONDANS']"
         },
         {
           "id": 79066217,
@@ -550,10 +601,11 @@
           "heure": "15:00",
           "recevant": "SOCHAUX US",
           "visiteur": "MEZIRE FESCHES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "PARC DES SPORTS 2_['PROMENADE DE LA REVERIE', 'TERRAIN ANNEXE', '25600 SOCHAUX']"
         },
         {
           "id": 79066218,
@@ -870,6 +922,20 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE DE LA PLAINE 2_['RUE DES ECOLES', 'TERRAIN ANNEXE', '90800 BAVILLIERS']": {
+          "nom": "STADE DE LA PLAINE 2",
+          "adresse": "RUE DES ECOLES | TERRAIN ANNEXE | 90800 BAVILLIERS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 1_['ROUTE DE LA POUCHOTTE', 'TERRAIN HONNEUR', '90300 SERMAMAGNY']": {
+          "nom": "STADE MUNICIPAL 1",
+          "adresse": "ROUTE DE LA POUCHOTTE | TERRAIN HONNEUR | 90300 SERMAMAGNY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -929,10 +995,11 @@
           "heure": "15:00",
           "recevant": "BAVILLIERS AS 2",
           "visiteur": "BESSONCOU ROPPE LARI",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA PLAINE 2_['RUE DES ECOLES', 'TERRAIN ANNEXE', '90800 BAVILLIERS']"
         },
         {
           "id": 79066377,
@@ -940,10 +1007,11 @@
           "heure": "15:00",
           "recevant": "ROUGEGOUTTE CHAUX",
           "visiteur": "GIRO LEPUIX",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['ROUTE DE LA POUCHOTTE', 'TERRAIN HONNEUR', '90300 SERMAMAGNY']"
         },
         {
           "id": 79066378,
@@ -951,10 +1019,11 @@
           "heure": "15:00",
           "recevant": "ESSERT",
           "visiteur": "BELFORTAINE ASM FC 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JEAN NEUHAUSER 1_['RUE DES COMMANDOS DE FRANCE', '90850 ESSERT']"
         },
         {
           "id": 79066379,
@@ -1271,6 +1340,27 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_[' RUE DU STADE', '25420 COURCELLES LES MONTBELIARD']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": " RUE DU STADE | 25420 COURCELLES LES MONTBELIARD",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE LA BERGE 3_['.', '25550 BAVANS']": {
+          "nom": "STADE DE LA BERGE 3",
+          "adresse": ". | 25550 BAVANS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football réduit"
+        },
+        "STADE DU RUPT 2_['RUE DE DUNG', '25420 BART']": {
+          "nom": "STADE DU RUPT 2",
+          "adresse": "RUE DE DUNG | 25420 BART",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football réduit"
         }
       },
       "officiels": {},
@@ -1342,10 +1432,11 @@
           "heure": "15:00",
           "recevant": "COURCELLES MONTBE",
           "visiteur": "DANJOUTIN ANDELNANS 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 8,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_[' RUE DU STADE', '25420 COURCELLES LES MONTBELIARD']"
         },
         {
           "id": 79066958,
@@ -1353,10 +1444,11 @@
           "heure": "15:00",
           "recevant": "E. VOUJEAU BAVANS",
           "visiteur": "GJ DU LOMONT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 24,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA BERGE 3_['.', '25550 BAVANS']"
         },
         {
           "id": 79066960,
@@ -1364,10 +1456,11 @@
           "heure": "15:00",
           "recevant": "BART",
           "visiteur": "ARCEY",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DU RUPT 2_['RUE DE DUNG', '25420 BART']"
         },
         {
           "id": 79066961,
@@ -1686,6 +1779,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['LE BOURG', '25380 BELLEHERBE']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "LE BOURG | 25380 BELLEHERBE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -1745,10 +1845,11 @@
           "heure": "13:30",
           "recevant": "BELLEHERBE SANCEY",
           "visiteur": "VILLERS LE LAC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 9,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['LE BOURG', '25380 BELLEHERBE']"
         },
         {
           "id": 79067188,
@@ -1768,10 +1869,11 @@
           "heure": "15:00",
           "recevant": "ORCHAMPS VAL VENNES",
           "visiteur": "LES FINS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PAUL MAGNAC 2_['RUE DU STADE', 'TERRAIN ANNEXE', '25390 ORCHAMPS VENNES']"
         },
         {
           "id": 79067191,
@@ -2095,6 +2197,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE ANDRÉ HAMMERLI_['AVENUE DU STADE', 'TERRAIN ANNEXE 2', '25300 PONTARLIER']": {
+          "nom": "STADE ANDRÉ HAMMERLI",
+          "adresse": "AVENUE DU STADE | TERRAIN ANNEXE 2 | 25300 PONTARLIER",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -2154,10 +2263,11 @@
           "heure": "12:00",
           "recevant": "PONTARLIER CA 3",
           "visiteur": "DOUBS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ANDRÉ HAMMERLI_['AVENUE DU STADE', 'TERRAIN ANNEXE 2', '25300 PONTARLIER']"
         },
         {
           "id": 79068346,
@@ -2165,10 +2275,11 @@
           "heure": "14:30",
           "recevant": "LEVIER",
           "visiteur": "LES SAPINS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 11,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GEORGES SAULNIER 3_['17 RUE DE CHAMPAGNOLE', '25270 LEVIER']"
         },
         {
           "id": 79068344,
@@ -2179,7 +2290,7 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "à venir"
+          "statut": "réserve"
         },
         {
           "id": 79068345,
@@ -2503,6 +2614,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE GASTON RAGUIN N° 2_[\"RUE DE L'HELVETIE\", 'TERRAIN ANNEXE', '25110 BAUME LES DAMES']": {
+          "nom": "STADE GASTON RAGUIN N° 2",
+          "adresse": "RUE DE L'HELVETIE | TERRAIN ANNEXE | 25110 BAUME LES DAMES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -2562,10 +2680,11 @@
           "heure": "15:00",
           "recevant": "BAUME LES DAMES 2",
           "visiteur": "UNION FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GASTON RAGUIN N° 2_[\"RUE DE L'HELVETIE\", 'TERRAIN ANNEXE', '25110 BAUME LES DAMES']"
         },
         {
           "id": 79068691,
@@ -2905,6 +3024,20 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 1_['ROUTE DE BONNAY', 'TERRAIN HONNEUR', '25870 DEVECEY']": {
+          "nom": "STADE MUNICIPAL 1",
+          "adresse": "ROUTE DE BONNAY | TERRAIN HONNEUR | 25870 DEVECEY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "COMPLEXE SPORTIF DU ROSEMONT 3_['24 BIS RUE DES VIGNERONS', '25000 BESANCON']": {
+          "nom": "COMPLEXE SPORTIF DU ROSEMONT 3",
+          "adresse": "24 BIS RUE DES VIGNERONS | 25000 BESANCON",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -2964,10 +3097,11 @@
           "heure": "13:00",
           "recevant": "CHATILLON DEVECEY",
           "visiteur": "EMAGNY PIN",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 8,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['ROUTE DE BONNAY', 'TERRAIN HONNEUR', '25870 DEVECEY']"
         },
         {
           "id": 79069051,
@@ -2975,10 +3109,11 @@
           "heure": "13:30",
           "recevant": "SC PLANOISE",
           "visiteur": "VELOTTE BESANCON 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF DU ROSEMONT 3_['24 BIS RUE DES VIGNERONS', '25000 BESANCON']"
         },
         {
           "id": 79069053,
@@ -2986,10 +3121,11 @@
           "heure": "13:30",
           "recevant": "ST VIT 2",
           "visiteur": "VAL DE LOUE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE CHRISTIAN DOUSSOT 2_['RUE JEAN CORNET', 'TERRAIN ANNEXE', '25410 ST VIT']"
         },
         {
           "id": 79069054,
@@ -3312,6 +3448,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE JEAN BINET_['ROUTE DE BESANCON', '25360 PASSAVANT']": {
+          "nom": "STADE JEAN BINET",
+          "adresse": "ROUTE DE BESANCON | 25360 PASSAVANT",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -3382,10 +3525,11 @@
           "heure": "15:00",
           "recevant": "PASSAVANT",
           "visiteur": "ST VIT 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JEAN BINET_['ROUTE DE BESANCON', '25360 PASSAVANT']"
         },
         {
           "id": 79234672,
@@ -3714,6 +3858,20 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE INTERCOMMUNAL 2_[' CHEMIN AU DESSUS DES ROCHES', '25220 NOVILLARS']": {
+          "nom": "STADE INTERCOMMUNAL 2",
+          "adresse": " CHEMIN AU DESSUS DES ROCHES | 25220 NOVILLARS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_[' RUE DU TILLEUL', '25770 SERRE LES SAPINS']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": " RUE DU TILLEUL | 25770 SERRE LES SAPINS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football réduit"
         }
       },
       "officiels": {},
@@ -3773,10 +3931,11 @@
           "heure": "13:30",
           "recevant": "ROCHE NOVILLARS 2",
           "visiteur": "BESANCON FOOTBALL 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE INTERCOMMUNAL 2_[' CHEMIN AU DESSUS DES ROCHES', '25220 NOVILLARS']"
         },
         {
           "id": 79235819,
@@ -3784,10 +3943,11 @@
           "heure": "14:00",
           "recevant": "GRAND BESANCON FC 3",
           "visiteur": "DANNEMARIE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 9,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_[' RUE DU TILLEUL', '25770 SERRE LES SAPINS']"
         },
         {
           "id": 79235820,
@@ -3806,10 +3966,11 @@
           "heure": "15:00",
           "recevant": "UNION FC 2",
           "visiteur": "E. 1ER PLAT NAISEY 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 2_['Rue du Stade', 'TERRAIN ANNEXE', '25870 LES AUXONS']"
         },
         {
           "id": 79235826,
@@ -4072,6 +4233,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC551671.jpg",
           "clNo": "113616",
           "slug": "551671-aigremont-montoille"
+        },
+        "DANNEMARIE 2": {
+          "nom": "DANNEMARIE 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC521087.jpg",
+          "clNo": "7341",
+          "slug": "521087-dannemarie-2"
         }
       },
       "stades": {
@@ -4092,6 +4259,13 @@
         "STADE GASTON RAGUIN N° 2_[\"RUE DE L'HELVETIE\", 'TERRAIN ANNEXE', '25110 BAUME LES DAMES']": {
           "nom": "STADE GASTON RAGUIN N° 2",
           "adresse": "RUE DE L'HELVETIE | TERRAIN ANNEXE | 25110 BAUME LES DAMES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE INTERCOMMUNAL 2_[' CHEMIN AU DESSUS DES ROCHES', '25220 NOVILLARS']": {
+          "nom": "STADE INTERCOMMUNAL 2",
+          "adresse": " CHEMIN AU DESSUS DES ROCHES | 25220 NOVILLARS",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -4142,10 +4316,11 @@
           "heure": "13:30",
           "recevant": "ROCHE NOVILLARS 3",
           "visiteur": "CHATILLON DEVECEY 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE INTERCOMMUNAL 2_[' CHEMIN AU DESSUS DES ROCHES', '25220 NOVILLARS']"
         },
         {
           "id": 79070429,
@@ -4175,10 +4350,11 @@
           "heure": "15:00",
           "recevant": "BESANCON FOOTBALL 3",
           "visiteur": "DANNEMARIE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 20,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF SAINT CLAUDE 2_['9 CHEMIN DES TORCOLS', 'TERRAIN N° 2', '25000 BESANCON']"
         },
         {
           "id": 79070433,
@@ -4495,6 +4671,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE DE LA COMBE BOURDON 2_['RUE DU STADE', 'TERRAIN ANNEXE', '25800 VALDAHON']": {
+          "nom": "STADE DE LA COMBE BOURDON 2",
+          "adresse": "RUE DU STADE | TERRAIN ANNEXE | 25800 VALDAHON",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -4542,10 +4725,11 @@
           "heure": "13:30",
           "recevant": "VALDAHON-VERCEL 4",
           "visiteur": "E. 1ER PLAT NAISEY",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA COMBE BOURDON 2_['RUE DU STADE', 'TERRAIN ANNEXE', '25800 VALDAHON']"
         },
         {
           "id": 79070720,
@@ -4826,6 +5010,20 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "COMPLEXE SPORTIF LA COURPÉE 2_[' ROUTE DE LA CLOISON', '25130 VILLERS LE LAC']": {
+          "nom": "COMPLEXE SPORTIF LA COURPÉE 2",
+          "adresse": " ROUTE DE LA CLOISON | 25130 VILLERS LE LAC",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE VILLENEUVE_['BOURG', '25190 ST HIPPOLYTE']": {
+          "nom": "STADE VILLENEUVE",
+          "adresse": "BOURG | 25190 ST HIPPOLYTE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -4897,10 +5095,11 @@
           "heure": "15:00",
           "recevant": "VILLERS LE LAC 2",
           "visiteur": "MORTEAU MONTLEBON FC 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF LA COURPÉE 2_[' ROUTE DE LA CLOISON', '25130 VILLERS LE LAC']"
         },
         {
           "id": 79070844,
@@ -4908,10 +5107,11 @@
           "heure": "15:00",
           "recevant": "FRAMBOUHANS",
           "visiteur": "GJ JEUNES SAUGEAIS 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE SERGE PANNE_['6, RUE DU STADE', '25140 FRAMBOUHANS']"
         },
         {
           "id": 79070845,
@@ -4919,10 +5119,11 @@
           "heure": "15:00",
           "recevant": "ST HIPPOLYTE",
           "visiteur": "PAYS MAICHOIS 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE VILLENEUVE_['BOURG', '25190 ST HIPPOLYTE']"
         },
         {
           "id": 79070849,
@@ -5510,6 +5711,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC561097.jpg",
           "clNo": "200890",
           "slug": "561097-arche-fc-2"
+        },
+        "FC MOUTHE": {
+          "nom": "FC MOUTHE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC525297.jpg",
+          "clNo": "10073",
+          "slug": "525297-fc-mouthe"
         }
       },
       "stades": {
@@ -5537,6 +5744,13 @@
         "STADE GEORGES SAULNIER 3_['17 RUE DE CHAMPAGNOLE', '25270 LEVIER']": {
           "nom": "STADE GEORGES SAULNIER 3",
           "adresse": "17 RUE DE CHAMPAGNOLE | 25270 LEVIER",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 1_['RUE DU STADE', 'TERRAIN HONNEUR', '25240 MOUTHE']": {
+          "nom": "STADE MUNICIPAL 1",
+          "adresse": "RUE DU STADE | TERRAIN HONNEUR | 25240 MOUTHE",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -5599,10 +5813,11 @@
           "heure": "15:00",
           "recevant": "FC MOUTHE",
           "visiteur": "LAC REMO.VAUX 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['RUE DU STADE', 'TERRAIN HONNEUR', '25240 MOUTHE']"
         },
         {
           "id": 79071003,
@@ -5613,7 +5828,7 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "à venir"
+          "statut": "réserve"
         },
         {
           "id": 79071006,
@@ -5863,6 +6078,27 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE DE LA SAVOUREUSE 2_['RUE DE BROGNARD', 'TERRAIN ANNEXE', '25600 VIEUX CHARMONT']": {
+          "nom": "STADE DE LA SAVOUREUSE 2",
+          "adresse": "RUE DE BROGNARD | TERRAIN ANNEXE | 25600 VIEUX CHARMONT",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football réduit"
+        },
+        "STADE DES LONGINES 1_['RUE DE LA VILLEDIEU', '25700 VALENTIGNEY']": {
+          "nom": "STADE DES LONGINES 1",
+          "adresse": "RUE DE LA VILLEDIEU | 25700 VALENTIGNEY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "Stade du Centre de Formation A8_[' RUE COTE MANCIN', '25230 SELONCOURT']": {
+          "nom": "Stade du Centre de Formation A8",
+          "adresse": " RUE COTE MANCIN | 25230 SELONCOURT",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football réduit"
         }
       },
       "officiels": {},
@@ -5922,10 +6158,11 @@
           "heure": "15:00",
           "recevant": "NOMMAY VIEUX CH",
           "visiteur": "E. JSM GRAND CHA",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 11,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA SAVOUREUSE 2_['RUE DE BROGNARD', 'TERRAIN ANNEXE', '25600 VIEUX CHARMONT']"
         },
         {
           "id": 79071128,
@@ -5945,10 +6182,11 @@
           "heure": "15:00",
           "recevant": "VALENTIGNEY A.S.",
           "visiteur": "PONT ROIDE VERMONDAN 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 10,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES LONGINES 1_['RUE DE LA VILLEDIEU', '25700 VALENTIGNEY']"
         },
         {
           "id": 79071126,
@@ -5956,10 +6194,11 @@
           "heure": "16:00",
           "recevant": "SOCHAUX MONTB. FC 4",
           "visiteur": "SOUS ROCHES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade du Centre de Formation A8_[' RUE COTE MANCIN', '25230 SELONCOURT']"
         },
         {
           "id": 79071130,
@@ -6210,6 +6449,24 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC512165.jpg",
           "clNo": "3960",
           "slug": "512165-bart-2"
+        },
+        "3 CANTONS": {
+          "nom": "3 CANTONS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC551071.jpg",
+          "clNo": "109909",
+          "slug": "551071-3-cantons"
+        },
+        "E. VOUJEAU BAVANS 2": {
+          "nom": "E. VOUJEAU BAVANS 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC506577.jpg",
+          "clNo": "2886",
+          "slug": "506577-e-voujeau-bavans-2"
+        },
+        "ARCEY 2": {
+          "nom": "ARCEY 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC514992.jpg",
+          "clNo": "4677",
+          "slug": "514992-arcey-2"
         }
       },
       "stades": {
@@ -6223,6 +6480,20 @@
         "STADE ANNEQUIN 1_['STADE DE LA CHIFFOGNE', ' BD 21E BTN DE CHASSEURS A PIED', 'TERRAIN HONNEUR', '25200 MONTBELIARD']": {
           "nom": "STADE ANNEQUIN 1",
           "adresse": "STADE DE LA CHIFFOGNE |  BD 21E BTN DE CHASSEURS A PIED | TERRAIN HONNEUR | 25200 MONTBELIARD",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE WALTER BAUMANN 1_['46 RUE DU STADE', '25260 COLOMBIER FONTAINE']": {
+          "nom": "STADE WALTER BAUMANN 1",
+          "adresse": "46 RUE DU STADE | 25260 COLOMBIER FONTAINE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE PAUL ET PIERRE MAGNIN_[' RUE DES DAHLIAS', '25750 ARCEY']": {
+          "nom": "STADE PAUL ET PIERRE MAGNIN",
+          "adresse": " RUE DES DAHLIAS | 25750 ARCEY",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -6260,10 +6531,11 @@
           "heure": "10:00",
           "recevant": "3 CANTONS",
           "visiteur": "E. VOUJEAU BAVANS 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE WALTER BAUMANN 1_['46 RUE DU STADE', '25260 COLOMBIER FONTAINE']"
         },
         {
           "id": 79071352,
@@ -6271,10 +6543,11 @@
           "heure": "15:00",
           "recevant": "ARCEY 2",
           "visiteur": "MONTBELIARD ASC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PAUL ET PIERRE MAGNIN_[' RUE DES DAHLIAS', '25750 ARCEY']"
         },
         {
           "id": 79071355,
@@ -6282,8 +6555,8 @@
           "heure": "15:00",
           "recevant": "E. JSM GRAND CHA 2",
           "visiteur": "BART 2",
-          "buts_recevant": 7,
-          "buts_visiteur": 0,
+          "buts_recevant": 0,
+          "buts_visiteur": 7,
           "joue": true,
           "statut": "joué",
           "stade_id": "STADE ANNEQUIN 1_['STADE DE LA CHIFFOGNE', ' BD 21E BTN DE CHASSEURS A PIED', 'TERRAIN HONNEUR', '25200 MONTBELIARD']"
@@ -6533,6 +6806,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC506611.jpg",
           "clNo": "2906",
           "slug": "506611-montreux-chateau"
+        },
+        "ESSERT 2": {
+          "nom": "ESSERT 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC529381.jpg",
+          "clNo": "12814",
+          "slug": "529381-essert-2"
         }
       },
       "stades": {
@@ -6569,6 +6848,13 @@
           "adresse": "28 RUE DES EYGRAS | TERRAIN HONNEUR | 90300 OFFEMONT",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE DES TROIS CHÊNES_[' AVENUE DES USINES', '90000 BELFORT']": {
+          "nom": "STADE DES TROIS CHÊNES",
+          "adresse": " AVENUE DES USINES | 90000 BELFORT",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
         }
       },
@@ -6628,10 +6914,11 @@
           "heure": "13:30",
           "recevant": "BELFORT SUD 2",
           "visiteur": "ESSERT 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 15,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES TROIS CHÊNES_[' AVENUE DES USINES', '90000 BELFORT']"
         },
         {
           "id": 79071404,
@@ -6651,10 +6938,11 @@
           "heure": "15:00",
           "recevant": "SUARCE",
           "visiteur": "DELLE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['Rue Principale', '.', '90100 SUARCE']"
         },
         {
           "id": 79071407,
@@ -6923,6 +7211,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC580519.jpg",
           "clNo": "176629",
           "slug": "580519-mezire-fesches-2"
+        },
+        "VALDOIE SC 2": {
+          "nom": "VALDOIE SC 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC506581.jpg",
+          "clNo": "2889",
+          "slug": "506581-valdoie-sc-2"
         }
       },
       "stades": {
@@ -6945,6 +7239,13 @@
           "adresse": "1 RUE DU STADE | TERRAIN ANNEXE | 90120 MEZIRE",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DU MONCEAU 1_['(EX R. TAPIN)', 'RUE AUGUSTE RENOIR', 'CS DU MONCEAU', '90300 VALDOIE']": {
+          "nom": "STADE DU MONCEAU 1",
+          "adresse": "(EX R. TAPIN) | RUE AUGUSTE RENOIR | CS DU MONCEAU | 90300 VALDOIE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
         }
       },
@@ -6981,10 +7282,11 @@
           "heure": "15:00",
           "recevant": "SOCHAUX US 2",
           "visiteur": "GRANDVILLARS 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 13,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "PARC DES SPORTS 2_['PROMENADE DE LA REVERIE', 'TERRAIN ANNEXE', '25600 SOCHAUX']"
         },
         {
           "id": 79071434,
@@ -7004,10 +7306,11 @@
           "heure": "15:00",
           "recevant": "VALDOIE SC 2",
           "visiteur": "BART 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DU MONCEAU 1_['(EX R. TAPIN)', 'RUE AUGUSTE RENOIR', 'CS DU MONCEAU', '90300 VALDOIE']"
         },
         {
           "id": 79071437,
@@ -7236,6 +7539,24 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC527254.jpg",
           "clNo": "11378",
           "slug": "527254-forges-audincourt"
+        },
+        "PONT ROIDE VERMONDAN 3": {
+          "nom": "PONT ROIDE VERMONDAN 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC550959.jpg",
+          "clNo": "106410",
+          "slug": "550959-pont-roide-vermondan-3"
+        },
+        "HERIMONCOURT ABBEVIL": {
+          "nom": "HERIMONCOURT ABBEVIL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565197.jpg",
+          "clNo": "205132",
+          "slug": "565197-herimoncourt-abbevil"
+        },
+        "BELLEHERBE SANCEY 2": {
+          "nom": "BELLEHERBE SANCEY 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560203.jpg",
+          "clNo": "194487",
+          "slug": "560203-belleherbe-sancey-2"
         }
       },
       "stades": {
@@ -7252,6 +7573,20 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE ESPACE LOISIRS SPORT 2_['RUE DU STADE', 'TERRAIN ANNEXE', '25150 PONT DE ROIDE VERMONDANS']": {
+          "nom": "STADE ESPACE LOISIRS SPORT 2",
+          "adresse": "RUE DU STADE | TERRAIN ANNEXE | 25150 PONT DE ROIDE VERMONDANS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE CHARLES PRUDAT_['RUE DU STADE', '25310 HERIMONCOURT']": {
+          "nom": "STADE CHARLES PRUDAT",
+          "adresse": "RUE DU STADE | 25310 HERIMONCOURT",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football réduit"
         }
       },
       "officiels": {},
@@ -7310,10 +7645,11 @@
           "heure": "15:00",
           "recevant": "PONT ROIDE VERMONDAN 3",
           "visiteur": "FORGES AUDINCOURT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 9,
+          "buts_visiteur": 10,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ESPACE LOISIRS SPORT 2_['RUE DU STADE', 'TERRAIN ANNEXE', '25150 PONT DE ROIDE VERMONDANS']"
         },
         {
           "id": 79071743,
@@ -7321,10 +7657,11 @@
           "heure": "15:00",
           "recevant": "HERIMONCOURT ABBEVIL",
           "visiteur": "BELLEHERBE SANCEY 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 17,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE CHARLES PRUDAT_['RUE DU STADE', '25310 HERIMONCOURT']"
         },
         {
           "id": 79071747,

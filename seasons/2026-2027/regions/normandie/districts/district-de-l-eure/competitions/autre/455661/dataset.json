@@ -592,6 +592,20 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE MATHIEU BODMER 4_['BOULEVARD DU 14 JUILLET', 'Cochet', '27000 EVREUX']": {
+          "nom": "STADE MATHIEU BODMER 4",
+          "adresse": "BOULEVARD DU 14 JUILLET | Cochet | 27000 EVREUX",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE CLAUDE GITTON 1_[' RUE SAINT MARC', '27470 SERQUIGNY']": {
+          "nom": "STADE CLAUDE GITTON 1",
+          "adresse": " RUE SAINT MARC | 27470 SERQUIGNY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -712,6 +726,41 @@
         },
         "FRANCK MATHIEU_AC": {
           "nom": "FRANCK MATHIEU",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ARTHUR COLLIN DANTARD_AC": {
+          "nom": "ARTHUR COLLIN DANTARD",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ELISE SANCHEZ_AC": {
+          "nom": "ELISE SANCHEZ",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "MAXIME SAMSON_A1": {
+          "nom": "MAXIME SAMSON",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
+        },
+        "SEBASTIEN VALENTI_AC": {
+          "nom": "SEBASTIEN VALENTI",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "HUGO MARTIN_AC": {
+          "nom": "HUGO MARTIN",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "RAPHAEL PETIT_A1": {
+          "nom": "RAPHAEL PETIT",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
+        },
+        "FOUAD LAABOUDI_AC": {
+          "nom": "FOUAD LAABOUDI",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -1398,10 +1447,14 @@
           "heure": "15:30",
           "recevant": "EVREUX FC 27 2",
           "visiteur": "FC BRIONNE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 10,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MATHIEU BODMER 4_['BOULEVARD DU 14 JUILLET', 'Cochet', '27000 EVREUX']",
+          "officiels": [
+            "ABDELLATIF ZENASNI_AC"
+          ]
         },
         {
           "id": 79396874,
@@ -1409,10 +1462,15 @@
           "heure": "15:30",
           "recevant": "FC SERQUIGNY NASSAND",
           "visiteur": "FC GISORS VEXIN 27 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE CLAUDE GITTON 1_[' RUE SAINT MARC', '27470 SERQUIGNY']",
+          "officiels": [
+            "ARTHUR COLLIN DANTARD_AC",
+            "Anonyme_A1"
+          ]
         },
         {
           "id": 79396919,
@@ -1420,10 +1478,14 @@
           "heure": "15:30",
           "recevant": "AS DE VESLY",
           "visiteur": "GRPT ACMIE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE_[' RUE DES BOULEAUX', '27150 LE THIL EN VEXIN']",
+          "officiels": [
+            "FABIEN BERNARD_AC"
+          ]
         },
         {
           "id": 79396962,
@@ -1431,10 +1493,15 @@
           "heure": "15:30",
           "recevant": "ES DAMVILLE",
           "visiteur": "FC DU ROUMOIS NORD",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JEAN RONGÈRE 1_[' ROUTE DE CONCHES', '27240 MESNILS SUR ITON']",
+          "officiels": [
+            "ELISE SANCHEZ_AC",
+            "MAXIME SAMSON_A1"
+          ]
         },
         {
           "id": 79396966,
@@ -1442,10 +1509,14 @@
           "heure": "15:30",
           "recevant": "FC VAL DE RISLE",
           "visiteur": "US CORMEILLES LIEURE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JEAN DUQUESNE 1_['LA MOTTE', '97 RUE SAINT PIERRE', 'TERRAIN A', '27290 MONTFORT SUR RISLE']",
+          "officiels": [
+            "JUSTIN MORILLON_AC"
+          ]
         },
         {
           "id": 79397064,
@@ -1468,10 +1539,14 @@
           "heure": "15:30",
           "recevant": "AS ROUTOT",
           "visiteur": "US GASNY",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Complexe Sportif Multisports_['RUE DU COLLEGE', 'TERRAIN MAURICE DURAME', '27350 ROUTOT']",
+          "officiels": [
+            "SEBASTIEN VALENTI_AC"
+          ]
         },
         {
           "id": 79397113,
@@ -1479,10 +1554,15 @@
           "heure": "15:30",
           "recevant": "FC SEINE EURE",
           "visiteur": "ENT.CONCHES ST ELIER 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PAUL COUDRAY_['AVENUE WINSTON CHURCHILL', '27400 LOUVIERS']",
+          "officiels": [
+            "HUGO MARTIN_AC",
+            "RAPHAEL PETIT_A1"
+          ]
         },
         {
           "id": 79397158,
@@ -1501,7 +1581,7 @@
           "heure": "15:30",
           "recevant": "ES VALLEE DE L'OISON",
           "visiteur": "GROUPEMENT C.O.C.F.C",
-          "buts_recevant": 4,
+          "buts_recevant": 0,
           "buts_visiteur": 0,
           "joue": true,
           "statut": "joué",
@@ -1593,10 +1673,15 @@
           "heure": "15:30",
           "recevant": "PACY MENILLES RC 2",
           "visiteur": "FC GARENNES BUEIL CB 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PACY MÉNILLES 3_['RUE DE LA MALADRERIE', '27120 MENILLES']",
+          "officiels": [
+            "FOUAD LAABOUDI_AC",
+            "MAHBOUBA HELAL_A1"
+          ]
         },
         {
           "id": 79397401,
@@ -1655,10 +1740,11 @@
           "heure": "16:20",
           "recevant": "FC BRIONNE",
           "visiteur": "FC PLAT NORD AVIRON",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MATHIEU BODMER 4_['BOULEVARD DU 14 JUILLET', 'Cochet', '27000 EVREUX']"
         },
         {
           "id": 79396917,
@@ -1726,10 +1812,11 @@
           "heure": "16:20",
           "recevant": "ENT.CONCHES ST ELIER 2",
           "visiteur": "ES ANGERVILLE BPGV",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PAUL COUDRAY_['AVENUE WINSTON CHURCHILL', '27400 LOUVIERS']"
         },
         {
           "id": 79397157,
@@ -1819,10 +1906,11 @@
           "heure": "16:20",
           "recevant": "FC PAYS DU NEUBOURG",
           "visiteur": "ENT. FCSN/FCSA 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Max Fournier 1_['RUE ROGER BONNET', 'TERRAIN ANNEXE A (FORÊT)', '27340 PONT DE L ARCHE']"
         },
         {
           "id": 79395551,
@@ -1854,10 +1942,11 @@
           "heure": "17:10",
           "recevant": "EVREUX FC 27 2",
           "visiteur": "FC PLAT NORD AVIRON",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MATHIEU BODMER 4_['BOULEVARD DU 14 JUILLET', 'Cochet', '27000 EVREUX']"
         },
         {
           "id": 79396918,
@@ -1865,10 +1954,11 @@
           "heure": "17:10",
           "recevant": "AS DE VESLY",
           "visiteur": "US ETREPAGNY",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 13,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE_[' RUE DES BOULEAUX', '27150 LE THIL EN VEXIN']"
         },
         {
           "id": 79396963,
@@ -1876,10 +1966,11 @@
           "heure": "17:10",
           "recevant": "ES DAMVILLE",
           "visiteur": "FC SEINE EURE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JEAN RONGÈRE 1_[' ROUTE DE CONCHES', '27240 MESNILS SUR ITON']"
         },
         {
           "id": 79396965,
@@ -1915,10 +2006,11 @@
           "heure": "17:10",
           "recevant": "AS ROUTOT",
           "visiteur": "US LOUVIERS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Complexe Sportif Multisports_['RUE DU COLLEGE', 'TERRAIN MAURICE DURAME', '27350 ROUTOT']"
         },
         {
           "id": 79397112,
@@ -1926,10 +2018,11 @@
           "heure": "17:10",
           "recevant": "FC SEINE EURE",
           "visiteur": "ES ANGERVILLE BPGV",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PAUL COUDRAY_['AVENUE WINSTON CHURCHILL', '27400 LOUVIERS']"
         },
         {
           "id": 79397156,
@@ -1948,7 +2041,7 @@
           "heure": "17:10",
           "recevant": "ES VALLEE DE L'OISON",
           "visiteur": "FC HARCOURT",
-          "buts_recevant": 0,
+          "buts_recevant": 4,
           "buts_visiteur": 0,
           "joue": true,
           "statut": "joué",
@@ -2641,10 +2734,11 @@
           "heure": "17:10",
           "recevant": "PACY MENILLES RC 2",
           "visiteur": "SPN VERNON 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PACY MÉNILLES 3_['RUE DE LA MALADRERIE', '27120 MENILLES']"
         },
         {
           "id": 79397403,

@@ -46,6 +46,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC548860.jpg",
           "clNo": "25782",
           "slug": "548860-dammarie-bercheres"
+        },
+        "DREUX FC DROU 2": {
+          "nom": "DREUX FC DROU 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC542198.jpg",
+          "clNo": "21807",
+          "slug": "542198-dreux-fc-drou-2"
+        },
+        "MONTARGIS USM F": {
+          "nom": "MONTARGIS USM F",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500113.jpg",
+          "clNo": "249",
+          "slug": "500113-montargis-usm-f"
         }
       },
       "stades": {
@@ -66,6 +78,13 @@
         "STADE MARCEL THOMAS_['RUE DU PETIT BOIS', '45800 ST JEAN DE BRAYE']": {
           "nom": "STADE MARCEL THOMAS",
           "adresse": "RUE DU PETIT BOIS | 45800 ST JEAN DE BRAYE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE HAMEAUX DE PAUL BERT 2_['CHAMPTIER DU COLOMBIER', 'Rue Roger Couderc', '28100 DREUX']": {
+          "nom": "STADE HAMEAUX DE PAUL BERT 2",
+          "adresse": "CHAMPTIER DU COLOMBIER | Rue Roger Couderc | 28100 DREUX",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -180,10 +199,11 @@
           "heure": "13:00",
           "recevant": "DREUX FC DROU 2",
           "visiteur": "MONTARGIS USM F",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 12,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE HAMEAUX DE PAUL BERT 2_['CHAMPTIER DU COLOMBIER', 'Rue Roger Couderc', '28100 DREUX']"
         },
         {
           "id": 79381531,
@@ -774,12 +794,50 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500386.jpg",
           "clNo": "476",
           "slug": "500386-azay-cheille"
+        },
+        "U.S. CLOYES DROUE": {
+          "nom": "U.S. CLOYES DROUE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC544959.jpg",
+          "clNo": "23052",
+          "slug": "544959-u-s-cloyes-droue"
+        },
+        "A.C. AMBOISIEN AMBOI": {
+          "nom": "A.C. AMBOISIEN AMBOI",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500358.jpg",
+          "clNo": "450",
+          "slug": "500358-a-c-amboisien-amboi"
+        },
+        "AVOINE O. CHINON C.": {
+          "nom": "AVOINE O. CHINON C.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC580508.jpg",
+          "clNo": "176618",
+          "slug": "580508-avoine-o-chinon-c"
+        },
+        "ST GEORGES US": {
+          "nom": "ST GEORGES US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC525259.jpg",
+          "clNo": "10041",
+          "slug": "525259-st-georges-us"
         }
       },
       "stades": {
         "ESPACE MARINE COTTEREAU_['25 RUE D ARMILLY', '37360 NEUILLE PONT PIERRE']": {
           "nom": "ESPACE MARINE COTTEREAU",
           "adresse": "25 RUE D ARMILLY | 37360 NEUILLE PONT PIERRE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE ALAIN LALLIOT_['RUE DE CLOYES', '41270 DROUE']": {
+          "nom": "STADE ALAIN LALLIOT",
+          "adresse": "RUE DE CLOYES | 41270 DROUE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE LA PLAINE DES VAUX 1_[\"LE PEU D' OLIVET\", 'RUE DE LA BAISSE OREILLE', '37500 CHINON']": {
+          "nom": "STADE DE LA PLAINE DES VAUX 1",
+          "adresse": "LE PEU D' OLIVET | RUE DE LA BAISSE OREILLE | 37500 CHINON",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -852,6 +910,21 @@
           "nom": "KLARISSE C.",
           "maillot": 5,
           "club": "F.C.G.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd9lColmbA": {
+          "nom": "SHANA B.",
+          "maillot": 9,
+          "club": "ST GEORGES US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx_licimLY": {
+          "nom": "INES R.",
+          "maillot": 2,
+          "club": "ST GEORGES US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd8kicnm7U": {
+          "nom": "HANNAH D.",
+          "maillot": 8,
+          "club": "ST GEORGES US"
         }
       },
       "matchs": [
@@ -930,10 +1003,11 @@
           "heure": "16:00",
           "recevant": "U.S. CLOYES DROUE",
           "visiteur": "A.C. AMBOISIEN AMBOI",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ALAIN LALLIOT_['RUE DE CLOYES', '41270 DROUE']"
         },
         {
           "id": 79381353,
@@ -952,10 +1026,31 @@
           "heure": "12:30",
           "recevant": "AVOINE O. CHINON C.",
           "visiteur": "ST GEORGES US",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 13,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9lColmbA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 35,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_licimLY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 60,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8kicnm7U",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE DE LA PLAINE DES VAUX 1_[\"LE PEU D' OLIVET\", 'RUE DE LA BAISSE OREILLE', '37500 CHINON']"
         },
         {
           "id": 79381356,

@@ -136,6 +136,30 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC849926.jpg",
           "clNo": "100249",
           "slug": "849926-lille-petit-terrain-5"
+        },
+        "BETHUNE ESSARS FUT": {
+          "nom": "BETHUNE ESSARS FUT",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564876.jpg",
+          "clNo": "203846",
+          "slug": "564876-bethune-essars-fut"
+        },
+        "MERICOURT FUTSAL A.": {
+          "nom": "MERICOURT FUTSAL A.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC852823.jpg",
+          "clNo": "122758",
+          "slug": "852823-mericourt-futsal-a"
+        },
+        "LILLE FUTSAL": {
+          "nom": "LILLE FUTSAL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC590399.jpg",
+          "clNo": "163663",
+          "slug": "590399-lille-futsal"
+        },
+        "MONS EN BAROEUL FC": {
+          "nom": "MONS EN BAROEUL FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC512540.jpg",
+          "clNo": "4040",
+          "slug": "512540-mons-en-baroeul-fc"
         }
       },
       "stades": {
@@ -208,6 +232,20 @@
           "surface": "Parquet",
           "surface_jeu": "Parquet",
           "type_installation": "Futsal"
+        },
+        "SALLE PDS HENRI LOUCHART_['912 RUE DE LILLE', '62400 BETHUNE']": {
+          "nom": "SALLE PDS HENRI LOUCHART",
+          "adresse": "912 RUE DE LILLE | 62400 BETHUNE",
+          "surface": "PVC",
+          "surface_jeu": "PVC",
+          "type_installation": "Futsal"
+        },
+        "SALLE ANTOINE BLONDIN_['3, RUE FRANCOIS COPPEE', '59000 LILLE']": {
+          "nom": "SALLE ANTOINE BLONDIN",
+          "adresse": "3, RUE FRANCOIS COPPEE | 59000 LILLE",
+          "surface": "Autre",
+          "surface_jeu": "Autre",
+          "type_installation": "Futsal"
         }
       },
       "officiels": {
@@ -238,6 +276,16 @@
         },
         "OUSSAMA BOUDOUYA_A1": {
           "nom": "OUSSAMA BOUDOUYA",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
+        },
+        "ARTHUR LESTIENNE_AC": {
+          "nom": "ARTHUR LESTIENNE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "Anonyme_A1": {
+          "nom": "Anonyme",
           "role": "Arbitre assistant 1",
           "role_cod": "A1"
         }
@@ -836,10 +884,15 @@
           "heure": "09:30",
           "recevant": "BETHUNE ESSARS FUT",
           "visiteur": "MERICOURT FUTSAL A.",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 11,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "SALLE PDS HENRI LOUCHART_['912 RUE DE LILLE', '62400 BETHUNE']",
+          "officiels": [
+            "ARTHUR LESTIENNE_AC",
+            "Anonyme_A1"
+          ]
         },
         {
           "id": 79342149,
@@ -847,10 +900,11 @@
           "heure": "16:00",
           "recevant": "LILLE FUTSAL",
           "visiteur": "MONS EN BAROEUL FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 9,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "SALLE ANTOINE BLONDIN_['3, RUE FRANCOIS COPPEE', '59000 LILLE']"
         }
       ]
     }

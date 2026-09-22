@@ -46,6 +46,30 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC518019.jpg",
           "clNo": "5667",
           "slug": "518019-s-o-velleronnais"
+        },
+        "U.S. AUTRE PROVENCE 2": {
+          "nom": "U.S. AUTRE PROVENCE 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC551902.jpg",
+          "clNo": "116503",
+          "slug": "551902-u-s-autre-provence-2"
+        },
+        "SCJ 2": {
+          "nom": "SCJ 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC561161.jpg",
+          "clNo": "200787",
+          "slug": "561161-scj-2"
+        },
+        "LFC": {
+          "nom": "LFC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564996.jpg",
+          "clNo": "204235",
+          "slug": "564996-lfc"
+        },
+        "AVIGNON CFC": {
+          "nom": "AVIGNON CFC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC525402.jpg",
+          "clNo": "10148",
+          "slug": "525402-avignon-cfc"
         }
       },
       "stades": {
@@ -66,6 +90,20 @@
         "STADE MUNICIPAL_['129 PLACE DU MARCHE', '84190 BEAUMES DE VENISE']": {
           "nom": "STADE MUNICIPAL",
           "adresse": "129 PLACE DU MARCHE | 84190 BEAUMES DE VENISE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MARCEL FARE_['1 AVENUE DE VERDUN', '84110 PUYMERAS']": {
+          "nom": "STADE MARCEL FARE",
+          "adresse": "1 AVENUE DE VERDUN | 84110 PUYMERAS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['AVENUE DU STADE', '84870 LORIOL DU COMTAT']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "AVENUE DU STADE | 84870 LORIOL DU COMTAT",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -91,6 +129,11 @@
           "nom": "Anonyme",
           "role": "Observateur principal",
           "role_cod": "CP"
+        },
+        "Anonyme_AC": {
+          "nom": "Anonyme",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -167,10 +210,11 @@
           "heure": "16:30",
           "recevant": "U.S. AUTRE PROVENCE 2",
           "visiteur": "SCJ 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MARCEL FARE_['1 AVENUE DE VERDUN', '84110 PUYMERAS']"
         },
         {
           "id": 79541171,
@@ -295,10 +339,14 @@
           "heure": "10:30",
           "recevant": "LFC",
           "visiteur": "AVIGNON CFC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['AVENUE DU STADE', '84870 LORIOL DU COMTAT']",
+          "officiels": [
+            "Anonyme_AC"
+          ]
         },
         {
           "id": 79541182,
@@ -1739,6 +1787,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC526491.jpg",
           "clNo": "10884",
           "slug": "526491-f-c-cheval-blanc"
+        },
+        "FC ALPILLES": {
+          "nom": "FC ALPILLES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564474.jpg",
+          "clNo": "201985",
+          "slug": "564474-fc-alpilles"
+        },
+        "BOXELAND C. ISLOIS": {
+          "nom": "BOXELAND C. ISLOIS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503332.jpg",
+          "clNo": "1754",
+          "slug": "503332-boxeland-c-islois"
         }
       },
       "stades": {
@@ -1769,6 +1829,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE SIMON BARBIER_['AVENUE DE LA VALLEE DES BAUX', '13520 MAUSSANE']": {
+          "nom": "STADE SIMON BARBIER",
+          "adresse": "AVENUE DE LA VALLEE DES BAUX | 13520 MAUSSANE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -1781,6 +1848,11 @@
           "nom": "Anonyme",
           "role": "Observateur principal",
           "role_cod": "CP"
+        },
+        "JESSIM DJELASSI_AC": {
+          "nom": "JESSIM DJELASSI",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -2002,10 +2074,14 @@
           "heure": "10:30",
           "recevant": "FC ALPILLES",
           "visiteur": "BOXELAND C. ISLOIS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 10,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE SIMON BARBIER_['AVENUE DE LA VALLEE DES BAUX', '13520 MAUSSANE']",
+          "officiels": [
+            "JESSIM DJELASSI_AC"
+          ]
         },
         {
           "id": 79654366,

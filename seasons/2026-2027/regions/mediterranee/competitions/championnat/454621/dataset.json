@@ -46,6 +46,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503183.jpg",
           "clNo": "1697",
           "slug": "503183-gardia-c"
+        },
+        "FCL MALPASSE": {
+          "nom": "FCL MALPASSE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC563526.jpg",
+          "clNo": "171891",
+          "slug": "563526-fcl-malpasse"
+        },
+        "SC MONTRE-BONNEVEINE": {
+          "nom": "SC MONTRE-BONNEVEINE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500381.jpg",
+          "clNo": "471",
+          "slug": "500381-sc-montre-bonneveine"
         }
       },
       "stades": {
@@ -66,6 +78,13 @@
         "STADE LÉON DULCY_['AVENUE DE LA CROIX ROUGE', '84000 AVIGNON']": {
           "nom": "STADE LÉON DULCY",
           "adresse": "AVENUE DE LA CROIX ROUGE | 84000 AVIGNON",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MALPASSE_['63 BOULEVARD LAVERAN', '13013 MARSEILLE']": {
+          "nom": "STADE MALPASSE",
+          "adresse": "63 BOULEVARD LAVERAN | 13013 MARSEILLE",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -134,6 +153,31 @@
         },
         "KHALID GHAJDAOUI ALAOUI_CP": {
           "nom": "KHALID GHAJDAOUI ALAOUI",
+          "role": "Observateur principal",
+          "role_cod": "CP"
+        },
+        "ADRIEN GEORGETON_AC": {
+          "nom": "ADRIEN GEORGETON",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "Anonyme_A1": {
+          "nom": "Anonyme",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
+        },
+        "MATT DELETTRE_A2": {
+          "nom": "MATT DELETTRE",
+          "role": "Arbitre assistant 2",
+          "role_cod": "A2"
+        },
+        "FREDERIC BELTRANDO_DP": {
+          "nom": "FREDERIC BELTRANDO",
+          "role": "Délégué principal",
+          "role_cod": "DP"
+        },
+        "THIERRY BUTTEGEG_CP": {
+          "nom": "THIERRY BUTTEGEG",
           "role": "Observateur principal",
           "role_cod": "CP"
         }
@@ -467,10 +511,18 @@
           "heure": "17:00",
           "recevant": "FCL MALPASSE",
           "visiteur": "SC MONTRE-BONNEVEINE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MALPASSE_['63 BOULEVARD LAVERAN', '13013 MARSEILLE']",
+          "officiels": [
+            "ADRIEN GEORGETON_AC",
+            "Anonyme_A1",
+            "MATT DELETTRE_A2",
+            "FREDERIC BELTRANDO_DP",
+            "THIERRY BUTTEGEG_CP"
+          ]
         },
         {
           "id": 56102180,

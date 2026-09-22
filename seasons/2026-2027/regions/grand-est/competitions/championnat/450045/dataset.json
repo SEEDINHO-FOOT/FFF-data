@@ -63,11 +63,23 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE GÉO ANDRÉ 1_['AVENUE FRANCOIS MAURIAC', '51100 REIMS']": {
+          "nom": "STADE GÉO ANDRÉ 1",
+          "adresse": "AVENUE FRANCOIS MAURIAC | 51100 REIMS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
         "NORAH FLORYDA PAMPHILE_AC": {
           "nom": "NORAH FLORYDA PAMPHILE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ANA LUCIA BROWN_AC": {
+          "nom": "ANA LUCIA BROWN",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -347,10 +359,14 @@
           "heure": "16:00",
           "recevant": "OLYMPIQUE RÉMOISE",
           "visiteur": "CORMONTREUIL FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GÉO ANDRÉ 1_['AVENUE FRANCOIS MAURIAC', '51100 REIMS']",
+          "officiels": [
+            "ANA LUCIA BROWN_AC"
+          ]
         },
         {
           "id": 56347793,
@@ -2860,8 +2876,8 @@
           "heure": "16:00",
           "recevant": "HAGUENAU FCSR",
           "visiteur": "VENDENHEIM FC 2",
-          "buts_recevant": 5,
-          "buts_visiteur": 0,
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
           "joue": true,
           "statut": "joué",
           "moments": [

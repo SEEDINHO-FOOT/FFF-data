@@ -685,6 +685,42 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC548191.jpg",
           "clNo": "25307",
           "slug": "548191-trapel-fc-3"
+        },
+        "RC MALEPERE": {
+          "nom": "RC MALEPERE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564937.jpg",
+          "clNo": "204005",
+          "slug": "564937-rc-malepere"
+        },
+        "FC CAZILHAC 2": {
+          "nom": "FC CAZILHAC 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC590237.jpg",
+          "clNo": "179868",
+          "slug": "590237-fc-cazilhac-2"
+        },
+        "LIMOUX FOOTBALL CLUB 2": {
+          "nom": "LIMOUX FOOTBALL CLUB 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC517815.jpg",
+          "clNo": "5581",
+          "slug": "517815-limoux-football-club-2"
+        },
+        "FC QUILLAN 2": {
+          "nom": "FC QUILLAN 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC524095.jpg",
+          "clNo": "9274",
+          "slug": "524095-fc-quillan-2"
+        },
+        "ENT LAUQUET PIEUSSE": {
+          "nom": "ENT LAUQUET PIEUSSE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC553414.jpg",
+          "clNo": "131801",
+          "slug": "553414-ent-lauquet-pieusse"
+        },
+        "A.S. ESPERAZA": {
+          "nom": "A.S. ESPERAZA",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564150.jpg",
+          "clNo": "193546",
+          "slug": "564150-a-s-esperaza"
         }
       },
       "stades": {
@@ -694,9 +730,46 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['BOURG', '11290 LAVALETTE']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "BOURG | 11290 LAVALETTE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE DU CES_['RUE DES ROSEAUX', '11300 LIMOUX']": {
+          "nom": "STADE DU CES",
+          "adresse": "RUE DES ROSEAUX | 11300 LIMOUX",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['CHEMIN PLE', '11250 ST HILAIRE']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "CHEMIN PLE | 11250 ST HILAIRE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
-      "officiels": {},
+      "officiels": {
+        "LILA BELHADJ_AC": {
+          "nom": "LILA BELHADJ",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "MATHIS OBIN_AC": {
+          "nom": "MATHIS OBIN",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "Anonyme_AC": {
+          "nom": "Anonyme",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        }
+      },
       "joueurs": {},
       "matchs": [
         {
@@ -705,10 +778,14 @@
           "heure": "13:30",
           "recevant": "RC MALEPERE",
           "visiteur": "FC CAZILHAC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 13,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['BOURG', '11290 LAVALETTE']",
+          "officiels": [
+            "LILA BELHADJ_AC"
+          ]
         },
         {
           "id": 79555350,
@@ -716,10 +793,14 @@
           "heure": "14:00",
           "recevant": "LIMOUX FOOTBALL CLUB 2",
           "visiteur": "FC QUILLAN 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DU CES_['RUE DES ROSEAUX', '11300 LIMOUX']",
+          "officiels": [
+            "MATHIS OBIN_AC"
+          ]
         },
         {
           "id": 79555489,
@@ -739,10 +820,14 @@
           "heure": "14:00",
           "recevant": "ENT LAUQUET PIEUSSE",
           "visiteur": "A.S. ESPERAZA",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['CHEMIN PLE', '11250 ST HILAIRE']",
+          "officiels": [
+            "Anonyme_AC"
+          ]
         },
         {
           "id": 79554728,
@@ -1037,6 +1122,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC533424.jpg",
           "clNo": "15577",
           "slug": "533424-montreal-ol"
+        },
+        "ST PAPOUL OS 2": {
+          "nom": "ST PAPOUL OS 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC520185.jpg",
+          "clNo": "6778",
+          "slug": "520185-st-papoul-os-2"
+        },
+        "CASTELNAUDARY": {
+          "nom": "CASTELNAUDARY",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC540546.jpg",
+          "clNo": "20586",
+          "slug": "540546-castelnaudary"
         }
       },
       "stades": {
@@ -1050,6 +1147,13 @@
         "STADE LOUIS GELIS_['ROUTE DE LA GARE', '11170 ALZONNE']": {
           "nom": "STADE LOUIS GELIS",
           "adresse": "ROUTE DE LA GARE | 11170 ALZONNE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['ROUTE DE CASTELNAUDARY', '11400 ST PAPOUL']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "ROUTE DE CASTELNAUDARY | 11400 ST PAPOUL",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -1106,10 +1210,11 @@
           "heure": "13:00",
           "recevant": "ST PAPOUL OS 2",
           "visiteur": "CASTELNAUDARY",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 11,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['ROUTE DE CASTELNAUDARY', '11400 ST PAPOUL']"
         },
         {
           "id": 79555851,
@@ -1474,6 +1579,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565269.jpg",
           "clNo": "205216",
           "slug": "565269-fc-coursan"
+        },
+        "PIEGE LAURAG MALEPER 2": {
+          "nom": "PIEGE LAURAG MALEPER 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC581405.jpg",
+          "clNo": "183692",
+          "slug": "581405-piege-laurag-maleper-2"
+        },
+        "SCNARBONNE MONTPL 3": {
+          "nom": "SCNARBONNE MONTPL 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC581800.jpg",
+          "clNo": "186683",
+          "slug": "581800-scnarbonne-montpl-3"
         }
       },
       "stades": {
@@ -1498,13 +1615,13 @@
         {
           "id": 79555508,
           "date": "2026-09-19",
-          "heure": "14:00",
+          "heure": "00:00",
           "recevant": "PIEGE LAURAG MALEPER 2",
           "visiteur": "SCNARBONNE MONTPL 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué"
         },
         {
           "id": 79555509,

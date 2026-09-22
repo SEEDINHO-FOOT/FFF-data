@@ -22,12 +22,31 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC533979.jpg",
           "clNo": "15901",
           "slug": "533979-ent-asv-asn-usg"
+        },
+        "RIGNY": {
+          "nom": "RIGNY",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC531719.jpg",
+          "clNo": "14415",
+          "slug": "531719-rigny"
+        },
+        "SC AUTUN": {
+          "nom": "SC AUTUN",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC861190.jpg",
+          "clNo": "201007",
+          "slug": "861190-sc-autun"
         }
       },
       "stades": {
         "STADE SAINT DENIS 2_['80 AV. EMILE ET CLAUDE PUZENAT', 'TERRAIN ANNEXE 1', '71140 BOURBON LANCY']": {
           "nom": "STADE SAINT DENIS 2",
           "adresse": "80 AV. EMILE ET CLAUDE PUZENAT | TERRAIN ANNEXE 1 | 71140 BOURBON LANCY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE DES VARENNES_['ROUTE DU VERDIER', '71160 RIGNY SUR ARROUX']": {
+          "nom": "STADE DES VARENNES",
+          "adresse": "ROUTE DU VERDIER | 71160 RIGNY SUR ARROUX",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -65,10 +84,11 @@
           "heure": "15:00",
           "recevant": "RIGNY",
           "visiteur": "SC AUTUN",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES VARENNES_['ROUTE DU VERDIER', '71160 RIGNY SUR ARROUX']"
         },
         {
           "id": 79542295,
@@ -396,6 +416,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC528873.jpg",
           "clNo": "12472",
           "slug": "528873-la-roche"
+        },
+        "JSVG": {
+          "nom": "JSVG",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560456.jpg",
+          "clNo": "197059",
+          "slug": "560456-jsvg"
+        },
+        "HLS 2": {
+          "nom": "HLS 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564466.jpg",
+          "clNo": "201975",
+          "slug": "564466-hls-2"
         }
       },
       "stades": {
@@ -409,6 +441,13 @@
         "STADE MUNICIPAL_['Rue du stade', '71520 DOMPIERRE LES ORMES']": {
           "nom": "STADE MUNICIPAL",
           "adresse": "Rue du stade | 71520 DOMPIERRE LES ORMES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE GARANDEAU_['LE BOURG', '71460 JONCY']": {
+          "nom": "STADE GARANDEAU",
+          "adresse": "LE BOURG | 71460 JONCY",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -495,6 +534,56 @@
           "nom": "ARTHUR M.",
           "maillot": 12,
           "club": "LA ROCHE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK14kicknbE": {
+          "nom": "GASPARD S.",
+          "maillot": 2,
+          "club": "JSVG"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16ki4tnrA": {
+          "nom": "YANIS G.",
+          "maillot": 14,
+          "club": "JSVG"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd6kyYmlr4": {
+          "nom": "NAIM A.",
+          "maillot": 3,
+          "club": "HLS 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK18lSojlrY": {
+          "nom": "JORIS B.",
+          "maillot": 12,
+          "club": "HLS 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt2kSknnbQ": {
+          "nom": "ARTHUR C.",
+          "maillot": 2,
+          "club": "HLS 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx3kCkkmL8": {
+          "nom": "ARTHUR C.",
+          "maillot": 14,
+          "club": "HLS 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16kS8llrI": {
+          "nom": "FRANCISCO C.",
+          "maillot": 8,
+          "club": "HLS 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd9ky0inbM": {
+          "nom": "AXEL H.",
+          "maillot": 9,
+          "club": "JSVG"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15lCotl7Q": {
+          "nom": "ARTHUR P.",
+          "maillot": 12,
+          "club": "JSVG"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx-ki4gm7M": {
+          "nom": "PAUL S.",
+          "maillot": 13,
+          "club": "JSVG"
         }
       },
       "matchs": [
@@ -546,10 +635,55 @@
           "heure": "15:00",
           "recevant": "JSVG",
           "visiteur": "HLS 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 1,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK14kicknbE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK16ki4tnrA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 28,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6kyYmlr4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK18lSojlrY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 28,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt2kSknnbQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3kCkkmL8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 28,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16kS8llrI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK18lSojlrY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 37,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9ky0inbM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK15lCotl7Q",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 37,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16ki4tnrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx-ki4gm7M",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE GARANDEAU_['LE BOURG', '71460 JONCY']"
         },
         {
           "id": 79542348,
@@ -1228,6 +1362,815 @@
           "heure": "14:30",
           "recevant": "LUX",
           "visiteur": "ENT. CHALON ACF/ACAD 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        }
+      ]
+    },
+    {
+      "cp_slug": "451943-u15-d3/phase/1/4",
+      "competition": "U15 D3",
+      "clubs": {
+        "VERDUN": {
+          "nom": "VERDUN",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC524962.jpg",
+          "clNo": "9831",
+          "slug": "524962-verdun"
+        },
+        "BRESSE C2S 2": {
+          "nom": "BRESSE C2S 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565221.jpg",
+          "clNo": "205159",
+          "slug": "565221-bresse-c2s-2"
+        },
+        "ENT. USSM JSAC 2 2": {
+          "nom": "ENT. USSM JSAC 2 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC521300.jpg",
+          "clNo": "7489",
+          "slug": "521300-ent-ussm-jsac-2-2"
+        },
+        "ENT.RCBS/AST 2": {
+          "nom": "ENT.RCBS/AST 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560212.jpg",
+          "clNo": "194548",
+          "slug": "560212-ent-rcbs-ast-2"
+        }
+      },
+      "stades": {
+        "STADE MICHEL RAGONDET_[' AVENUE VALERY GISCARD D ESTAING', '71350 VERDUN CIEL']": {
+          "nom": "STADE MICHEL RAGONDET",
+          "adresse": " AVENUE VALERY GISCARD D ESTAING | 71350 VERDUN CIEL",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE LA MALTIÈRE 1_['BOURG', '71620 ST MARTIN EN BRESSE']": {
+          "nom": "STADE LA MALTIÈRE 1",
+          "adresse": "BOURG | 71620 ST MARTIN EN BRESSE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
+      "officiels": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFKt4kConn78": {
+          "nom": "TIMEO P.",
+          "maillot": 9,
+          "club": "VERDUN"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx_lCwmlrA": {
+          "nom": "ZACHARIE G.",
+          "maillot": 12,
+          "club": "VERDUN"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK12lywtmr8": {
+          "nom": "ENZO M.",
+          "maillot": 11,
+          "club": "BRESSE C2S 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx4kiYtnLA": {
+          "nom": "ENZO M.",
+          "maillot": 13,
+          "club": "BRESSE C2S 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16my0tmbY": {
+          "nom": "JULES L.",
+          "maillot": 8,
+          "club": "BRESSE C2S 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp4misin74": {
+          "nom": "TIMEO L.",
+          "maillot": 12,
+          "club": "BRESSE C2S 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp_mi8kn7M": {
+          "nom": "BERTIN B.",
+          "maillot": 7,
+          "club": "ENT.RCBS/AST 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK12my0jm7U": {
+          "nom": "KENAN A.",
+          "maillot": 12,
+          "club": "ENT.RCBS/AST 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx3mickl7A": {
+          "nom": "OMAR A.",
+          "maillot": 11,
+          "club": "ENT.RCBS/AST 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16ly0ml7A": {
+          "nom": "ENZO P.",
+          "maillot": 13,
+          "club": "ENT.RCBS/AST 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx2lS0ll78": {
+          "nom": "DORIAN B.",
+          "maillot": 3,
+          "club": "ENT.RCBS/AST 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK18lycmmrM": {
+          "nom": "NINO B.",
+          "maillot": 14,
+          "club": "ENT.RCBS/AST 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19kyskn7U": {
+          "nom": "ETHANE D.",
+          "maillot": 2,
+          "club": "ENT. USSM JSAC 2 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp9liYgnr8": {
+          "nom": "MATEO H.",
+          "maillot": 12,
+          "club": "ENT. USSM JSAC 2 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt4kyoknbA": {
+          "nom": "RAFAEL B.",
+          "maillot": 9,
+          "club": "ENT. USSM JSAC 2 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx4kC0kn78": {
+          "nom": "ENZO C.",
+          "maillot": 13,
+          "club": "ENT. USSM JSAC 2 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19kS0smbA": {
+          "nom": "LOUIS D.",
+          "maillot": 6,
+          "club": "ENT. USSM JSAC 2 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19kSwsnbI": {
+          "nom": "ADRIEN X.",
+          "maillot": 14,
+          "club": "ENT. USSM JSAC 2 2"
+        }
+      },
+      "matchs": [
+        {
+          "id": 79542553,
+          "date": "2026-09-19",
+          "heure": "15:00",
+          "recevant": "VERDUN",
+          "visiteur": "BRESSE C2S 2",
+          "buts_recevant": 7,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt4kConn78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_lCwmlrA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12lywtmr8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4kiYtnLA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 50,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16my0tmbY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4misin74",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MICHEL RAGONDET_[' AVENUE VALERY GISCARD D ESTAING', '71350 VERDUN CIEL']"
+        },
+        {
+          "id": 79542594,
+          "date": "2026-09-19",
+          "heure": "15:00",
+          "recevant": "ENT. USSM JSAC 2 2",
+          "visiteur": "ENT.RCBS/AST 2",
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp_mi8kn7M",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK12my0jm7U",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3mickl7A",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK16ly0ml7A",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx2lS0ll78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK18lycmmrM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK19kyskn7U",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9liYgnr8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt4kyoknbA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4kC0kn78",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK19kS0smbA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK19kSwsnbI",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE LA MALTIÈRE 1_['BOURG', '71620 ST MARTIN EN BRESSE']"
+        },
+        {
+          "id": 79542595,
+          "date": "2026-09-26",
+          "heure": "12:30",
+          "recevant": "ENT.RCBS/AST 2",
+          "visiteur": "BRESSE C2S 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79542596,
+          "date": "2026-09-26",
+          "heure": "15:00",
+          "recevant": "ENT.SGP/LESSARD/ESEO 2",
+          "visiteur": "VERDUN",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79542597,
+          "date": "2026-10-03",
+          "heure": "15:00",
+          "recevant": "ENT. USSM JSAC 2 2",
+          "visiteur": "ENT.SGP/LESSARD/ESEO 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79542598,
+          "date": "2026-10-03",
+          "heure": "15:00",
+          "recevant": "VERDUN",
+          "visiteur": "ENT.RCBS/AST 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79542562,
+          "date": "2026-10-10",
+          "heure": "15:00",
+          "recevant": "ENT. USSM JSAC 2 2",
+          "visiteur": "VERDUN",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79542600,
+          "date": "2026-10-10",
+          "heure": "15:00",
+          "recevant": "ENT.SGP/LESSARD/ESEO 2",
+          "visiteur": "BRESSE C2S 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79542563,
+          "date": "2026-10-17",
+          "heure": "15:00",
+          "recevant": "BRESSE C2S 2",
+          "visiteur": "ENT. USSM JSAC 2 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79542601,
+          "date": "2026-10-17",
+          "heure": "15:00",
+          "recevant": "ENT.RCBS/AST 2",
+          "visiteur": "ENT.SGP/LESSARD/ESEO 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79542602,
+          "date": "2026-10-31",
+          "heure": "15:00",
+          "recevant": "BRESSE C2S 2",
+          "visiteur": "ENT.RCBS/AST 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79542603,
+          "date": "2026-10-31",
+          "heure": "15:00",
+          "recevant": "VERDUN",
+          "visiteur": "ENT.SGP/LESSARD/ESEO 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79542604,
+          "date": "2026-11-07",
+          "heure": "14:30",
+          "recevant": "ENT.SGP/LESSARD/ESEO 2",
+          "visiteur": "ENT. USSM JSAC 2 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79542605,
+          "date": "2026-11-07",
+          "heure": "14:30",
+          "recevant": "ENT.RCBS/AST 2",
+          "visiteur": "VERDUN",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79542574,
+          "date": "2026-11-14",
+          "heure": "14:30",
+          "recevant": "VERDUN",
+          "visiteur": "ENT. USSM JSAC 2 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79542607,
+          "date": "2026-11-14",
+          "heure": "14:30",
+          "recevant": "BRESSE C2S 2",
+          "visiteur": "ENT.SGP/LESSARD/ESEO 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79542575,
+          "date": "2026-11-28",
+          "heure": "14:30",
+          "recevant": "ENT. USSM JSAC 2 2",
+          "visiteur": "BRESSE C2S 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79542608,
+          "date": "2026-11-28",
+          "heure": "14:30",
+          "recevant": "ENT.SGP/LESSARD/ESEO 2",
+          "visiteur": "ENT.RCBS/AST 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79542580,
+          "date": "2026-12-05",
+          "heure": "14:30",
+          "recevant": "BRESSE C2S 2",
+          "visiteur": "VERDUN",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79542610,
+          "date": "2026-12-05",
+          "heure": "14:30",
+          "recevant": "ENT.RCBS/AST 2",
+          "visiteur": "ENT. USSM JSAC 2 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        }
+      ]
+    },
+    {
+      "cp_slug": "451943-u15-d3/phase/1/5",
+      "competition": "U15 D3",
+      "clubs": {
+        "BLANZY USB FOOT": {
+          "nom": "BLANZY USB FOOT",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC580428.jpg",
+          "clNo": "176278",
+          "slug": "580428-blanzy-usb-foot"
+        },
+        "ENT.BUXY 2": {
+          "nom": "ENT.BUXY 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC511248.jpg",
+          "clNo": "3746",
+          "slug": "511248-ent-buxy-2"
+        },
+        "ST REMY FC": {
+          "nom": "ST REMY FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC527840.jpg",
+          "clNo": "11779",
+          "slug": "527840-st-remy-fc"
+        },
+        "JSVG 2": {
+          "nom": "JSVG 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560456.jpg",
+          "clNo": "197059",
+          "slug": "560456-jsvg-2"
+        }
+      },
+      "stades": {
+        "Stade Guillaume Warmuz 2_['RUE DU 11 NOVEMBRE 1918', 'TERRAIN ANNEXE', '71450 BLANZY']": {
+          "nom": "Stade Guillaume Warmuz 2",
+          "adresse": "RUE DU 11 NOVEMBRE 1918 | TERRAIN ANNEXE | 71450 BLANZY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "Complexe Sportif M. Jeremiasz Etang 1_['RUE ALPHONSE BONNOT', '11', '71100 ST REMY']": {
+          "nom": "Complexe Sportif M. Jeremiasz Etang 1",
+          "adresse": "RUE ALPHONSE BONNOT | 11 | 71100 ST REMY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
+      "officiels": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFKp-miYhmr4": {
+          "nom": "TIMOTHE M.",
+          "maillot": 10,
+          "club": "ENT.BUXY 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt7miYgmrM": {
+          "nom": "LOIS M.",
+          "maillot": 12,
+          "club": "ENT.BUXY 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx_mioinLA": {
+          "nom": "NATHAN G.",
+          "maillot": 11,
+          "club": "BLANZY USB FOOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16kicmn7c": {
+          "nom": "MAELYEN F.",
+          "maillot": 12,
+          "club": "BLANZY USB FOOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6ki8in7I": {
+          "nom": "LOUANN S.",
+          "maillot": 2,
+          "club": "BLANZY USB FOOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx9kiwklr4": {
+          "nom": "BILAL M.",
+          "maillot": 13,
+          "club": "BLANZY USB FOOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt8kCgknLc": {
+          "nom": "VIRGILE M.",
+          "maillot": 3,
+          "club": "ST REMY FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx3lyktmLQ": {
+          "nom": "WASSIM A.",
+          "maillot": 13,
+          "club": "ST REMY FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6kiwinrE": {
+          "nom": "TIMEO T.",
+          "maillot": 7,
+          "club": "ST REMY FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx3lCstlrA": {
+          "nom": "THIAGO L.",
+          "maillot": 12,
+          "club": "ST REMY FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd9lScsnbY": {
+          "nom": "NOA P.",
+          "maillot": 11,
+          "club": "ST REMY FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx7li8nm7M": {
+          "nom": "AARON S.",
+          "maillot": 14,
+          "club": "ST REMY FC"
+        }
+      },
+      "matchs": [
+        {
+          "id": 79542728,
+          "date": "2026-09-19",
+          "heure": "15:00",
+          "recevant": "BLANZY USB FOOT",
+          "visiteur": "ENT.BUXY 2",
+          "buts_recevant": 12,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp-miYhmr4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7miYgmrM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 23,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_mioinLA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK16kicmn7c",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 23,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6ki8in7I",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx9kiwklr4",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "Stade Guillaume Warmuz 2_['RUE DU 11 NOVEMBRE 1918', 'TERRAIN ANNEXE', '71450 BLANZY']"
+        },
+        {
+          "id": 79542729,
+          "date": "2026-09-19",
+          "heure": "15:00",
+          "recevant": "ST REMY FC",
+          "visiteur": "JSVG 2",
+          "buts_recevant": 7,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt8kCgknLc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3lyktmLQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6kiwinrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3lCstlrA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9lScsnbY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7li8nm7M",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "Complexe Sportif M. Jeremiasz Etang 1_['RUE ALPHONSE BONNOT', '11', '71100 ST REMY']"
+        },
+        {
+          "id": 79542730,
+          "date": "2026-09-26",
+          "heure": "15:00",
+          "recevant": "ENT.USBG.ASV.USC",
+          "visiteur": "JSVG 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79542731,
+          "date": "2026-09-26",
+          "heure": "15:00",
+          "recevant": "BLANZY USB FOOT",
+          "visiteur": "ST REMY FC",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79542706,
+          "date": "2026-10-03",
+          "heure": "15:00",
+          "recevant": "ST REMY FC",
+          "visiteur": "ENT.USBG.ASV.USC",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79542733,
+          "date": "2026-10-03",
+          "heure": "15:00",
+          "recevant": "JSVG 2",
+          "visiteur": "ENT.BUXY 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79542707,
+          "date": "2026-10-10",
+          "heure": "15:00",
+          "recevant": "ENT.BUXY 2",
+          "visiteur": "ENT.USBG.ASV.USC",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79542734,
+          "date": "2026-10-10",
+          "heure": "15:00",
+          "recevant": "BLANZY USB FOOT",
+          "visiteur": "JSVG 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79542712,
+          "date": "2026-10-17",
+          "heure": "15:00",
+          "recevant": "ENT.BUXY 2",
+          "visiteur": "ST REMY FC",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79542736,
+          "date": "2026-10-17",
+          "heure": "15:00",
+          "recevant": "ENT.USBG.ASV.USC",
+          "visiteur": "BLANZY USB FOOT",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79542737,
+          "date": "2026-10-31",
+          "heure": "15:00",
+          "recevant": "JSVG 2",
+          "visiteur": "ENT.USBG.ASV.USC",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79542738,
+          "date": "2026-10-31",
+          "heure": "15:00",
+          "recevant": "ST REMY FC",
+          "visiteur": "BLANZY USB FOOT",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79542718,
+          "date": "2026-11-07",
+          "heure": "14:30",
+          "recevant": "ENT.USBG.ASV.USC",
+          "visiteur": "ST REMY FC",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79542740,
+          "date": "2026-11-07",
+          "heure": "14:30",
+          "recevant": "ENT.BUXY 2",
+          "visiteur": "JSVG 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79542719,
+          "date": "2026-11-14",
+          "heure": "14:30",
+          "recevant": "ENT.USBG.ASV.USC",
+          "visiteur": "ENT.BUXY 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79542741,
+          "date": "2026-11-14",
+          "heure": "14:30",
+          "recevant": "JSVG 2",
+          "visiteur": "BLANZY USB FOOT",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79542724,
+          "date": "2026-11-28",
+          "heure": "14:30",
+          "recevant": "ST REMY FC",
+          "visiteur": "ENT.BUXY 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79542743,
+          "date": "2026-11-28",
+          "heure": "14:30",
+          "recevant": "BLANZY USB FOOT",
+          "visiteur": "ENT.USBG.ASV.USC",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79542744,
+          "date": "2026-12-05",
+          "heure": "14:30",
+          "recevant": "ENT.BUXY 2",
+          "visiteur": "BLANZY USB FOOT",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79542745,
+          "date": "2026-12-05",
+          "heure": "14:30",
+          "recevant": "JSVG 2",
+          "visiteur": "ST REMY FC",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,

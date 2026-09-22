@@ -1892,6 +1892,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 1_['RUE DU MOULIN', '67670 MOMMENHEIM']": {
+          "nom": "STADE MUNICIPAL 1",
+          "adresse": "RUE DU MOULIN | 67670 MOMMENHEIM",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -2135,10 +2142,11 @@
           "heure": "15:00",
           "recevant": "EJ LA VALLEE WITT",
           "visiteur": "ALLIANCE BASSE ZORN 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['RUE DU MOULIN', '67670 MOMMENHEIM']"
         },
         {
           "id": 56455189,
@@ -5237,6 +5245,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC504186.jpg",
           "clNo": "2128",
           "slug": "504186-rhinau-ent-du-rhin"
+        },
+        "NORDHOUSE ENT HIPSH": {
+          "nom": "NORDHOUSE ENT HIPSH",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC512196.jpg",
+          "clNo": "3965",
+          "slug": "512196-nordhouse-ent-hipsh"
         }
       },
       "stades": {
@@ -5274,6 +5288,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE DE LA FORÊT 1_[' LIEU DIT MUHLWASSEN', 'le bourg', '67150 HIPSHEIM']": {
+          "nom": "STADE DE LA FORÊT 1",
+          "adresse": " LIEU DIT MUHLWASSEN | le bourg | 67150 HIPSHEIM",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -5284,6 +5305,16 @@
         },
         "DAVID LARCHEVEQUE_DA": {
           "nom": "DAVID LARCHEVEQUE",
+          "role": "Délégué accompagnateur",
+          "role_cod": "DA"
+        },
+        "CHARLES DAVOUS_AC": {
+          "nom": "CHARLES DAVOUS",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "DANIEL MUNCH_DA": {
+          "nom": "DANIEL MUNCH",
           "role": "Délégué accompagnateur",
           "role_cod": "DA"
         }
@@ -5484,10 +5515,11 @@
           "heure": "16:00",
           "recevant": "AS WESTHOUSE",
           "visiteur": "ENT. ZELLWILLER BARR",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 10,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_[' RUE DU 20 NOVEMBRE', '67230 WESTHOUSE']"
         },
         {
           "id": 56455393,
@@ -5495,10 +5527,15 @@
           "heure": "16:00",
           "recevant": "NORDHOUSE ENT HIPSH",
           "visiteur": "STOTZHEIM ENT. EPIEM",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA FORÊT 1_[' LIEU DIT MUHLWASSEN', 'le bourg', '67150 HIPSHEIM']",
+          "officiels": [
+            "CHARLES DAVOUS_AC",
+            "DANIEL MUNCH_DA"
+          ]
         },
         {
           "id": 56455394,
@@ -5938,6 +5975,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565738.jpg",
           "clNo": "206254",
           "slug": "565738-aca-fc-2"
+        },
+        "JEBSHEIM ENT DU RIED 2": {
+          "nom": "JEBSHEIM ENT DU RIED 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC546897.jpg",
+          "clNo": "24371",
+          "slug": "546897-jebsheim-ent-du-ried-2"
         }
       },
       "stades": {
@@ -5982,11 +6025,23 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE DU SPONECK_['HR 1/3', '65A rue du Sponeck', '68320 ARTZENHEIM']": {
+          "nom": "STADE DU SPONECK",
+          "adresse": "HR 1/3 | 65A rue du Sponeck | 68320 ARTZENHEIM",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
         "CLEMENT EKONO AMOUGOU_AC": {
           "nom": "CLEMENT EKONO AMOUGOU",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "LUC OGUIDOU_AC": {
+          "nom": "LUC OGUIDOU",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -6097,10 +6152,14 @@
           "heure": "16:00",
           "recevant": "JEBSHEIM ENT DU RIED 2",
           "visiteur": "RACING HW 96 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 10,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DU SPONECK_['HR 1/3', '65A rue du Sponeck', '68320 ARTZENHEIM']",
+          "officiels": [
+            "LUC OGUIDOU_AC"
+          ]
         },
         {
           "id": 56455441,
