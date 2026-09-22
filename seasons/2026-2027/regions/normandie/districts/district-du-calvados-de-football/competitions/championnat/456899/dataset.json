@@ -699,9 +699,60 @@
     {
       "cp_slug": "456899-departemental-u16/phase/1/2",
       "competition": "DEPARTEMENTAL U16",
-      "clubs": {},
-      "stades": {},
-      "officiels": {},
+      "clubs": {
+        "FC VITAL ACDC": {
+          "nom": "FC VITAL ACDC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564016.jpg",
+          "clNo": "192206",
+          "slug": "564016-fc-vital-acdc"
+        },
+        "CL COLOMBELLOIS": {
+          "nom": "CL COLOMBELLOIS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC518783.jpg",
+          "clNo": "6025",
+          "slug": "518783-cl-colombellois"
+        },
+        "SCH FOOTBALL 2": {
+          "nom": "SCH FOOTBALL 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC520839.jpg",
+          "clNo": "7179",
+          "slug": "520839-sch-football-2"
+        },
+        "FC BAVENTAIS": {
+          "nom": "FC BAVENTAIS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC546445.jpg",
+          "clNo": "24070",
+          "slug": "546445-fc-baventais"
+        }
+      },
+      "stades": {
+        "STADE ROGER LEROYER_['RUE DU MANOIR', '14840 CUVERVILLE']": {
+          "nom": "STADE ROGER LEROYER",
+          "adresse": "RUE DU MANOIR | 14840 CUVERVILLE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE HENRY PRESTAVOINE_['14 RUE GUYON DE GUERCHEVILLE', '14200 HEROUVILLE ST CLAIR']": {
+          "nom": "STADE HENRY PRESTAVOINE",
+          "adresse": "14 RUE GUYON DE GUERCHEVILLE | 14200 HEROUVILLE ST CLAIR",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
+      "officiels": {
+        "ANTHONY LEBEGUE_AC": {
+          "nom": "ANTHONY LEBEGUE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "JEAN MARC COUGE_AC": {
+          "nom": "JEAN MARC COUGE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        }
+      },
       "joueurs": {},
       "matchs": [
         {
@@ -710,17 +761,21 @@
           "heure": "15:30",
           "recevant": "FC VITAL ACDC",
           "visiteur": "CL COLOMBELLOIS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ROGER LEROYER_['RUE DU MANOIR', '14840 CUVERVILLE']",
+          "officiels": [
+            "ANTHONY LEBEGUE_AC"
+          ]
         },
         {
           "id": 79601541,
           "date": "2026-09-19",
           "heure": "15:30",
           "recevant": "CS ORBECQUOIS VESP.",
-          "visiteur": "ASL CHEMIN VERT",
+          "visiteur": "CHEMINVERT-AG CAEN E",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
@@ -732,10 +787,14 @@
           "heure": "15:30",
           "recevant": "SCH FOOTBALL 2",
           "visiteur": "FC BAVENTAIS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 20,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE HENRY PRESTAVOINE_['14 RUE GUYON DE GUERCHEVILLE', '14200 HEROUVILLE ST CLAIR']",
+          "officiels": [
+            "JEAN MARC COUGE_AC"
+          ]
         },
         {
           "id": 79601544,

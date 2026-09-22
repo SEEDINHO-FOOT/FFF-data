@@ -34,6 +34,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC529624.jpg",
           "clNo": "12988",
           "slug": "529624-u-s-de-sauvigny-les"
+        },
+        "LA CHARITE US 2": {
+          "nom": "LA CHARITE US 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC506426.jpg",
+          "clNo": "2846",
+          "slug": "506426-la-charite-us-2"
+        },
+        "PREMERY": {
+          "nom": "PREMERY",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC506442.jpg",
+          "clNo": "2851",
+          "slug": "506442-premery"
         }
       },
       "stades": {
@@ -47,6 +59,13 @@
         "STADE DE LA SIMONNERIE_['RUE DE LA SIMONNERIE', '58180 MARZY']": {
           "nom": "STADE DE LA SIMONNERIE",
           "adresse": "RUE DE LA SIMONNERIE | 58180 MARZY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE ANDRÉ JOMIER 1_['ROUTE NATIONALE 151', '90 AV. JACQUES COEUR', 'TERRAIN HONNEUR', '18140 LA CHAPELLE MONTLINARD']": {
+          "nom": "STADE ANDRÉ JOMIER 1",
+          "adresse": "ROUTE NATIONALE 151 | 90 AV. JACQUES COEUR | TERRAIN HONNEUR | 18140 LA CHAPELLE MONTLINARD",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -178,10 +197,11 @@
           "heure": "12:30",
           "recevant": "LA CHARITE US 2",
           "visiteur": "PREMERY",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ANDRÉ JOMIER 1_['ROUTE NATIONALE 151', '90 AV. JACQUES COEUR', 'TERRAIN HONNEUR', '18140 LA CHAPELLE MONTLINARD']"
         },
         {
           "id": 79347280,
@@ -978,8 +998,48 @@
     {
       "cp_slug": "452502-departemental-4/phase/1/2",
       "competition": "Départemental 4",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "CS CHATILLON 2": {
+          "nom": "CS CHATILLON 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC514521.jpg",
+          "clNo": "4537",
+          "slug": "514521-cs-chatillon-2"
+        },
+        "ENT. POUGUES FOURCH 3": {
+          "nom": "ENT. POUGUES FOURCH 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC518970.jpg",
+          "clNo": "6115",
+          "slug": "518970-ent-pougues-fourch-3"
+        },
+        "FR LUTHENAY 2": {
+          "nom": "FR LUTHENAY 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC514050.jpg",
+          "clNo": "4388",
+          "slug": "514050-fr-luthenay-2"
+        },
+        "A.S. COSSAYE": {
+          "nom": "A.S. COSSAYE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560457.jpg",
+          "clNo": "197060",
+          "slug": "560457-a-s-cossaye"
+        }
+      },
+      "stades": {
+        "STADE MUNICIPAL_['Rue du stade', '58110 CHATILLON EN BAZOIS']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "Rue du stade | 58110 CHATILLON EN BAZOIS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE R.CHAUMEREUIL_['PRINCIPAL', '58240 LUTHENAY']": {
+          "nom": "STADE R.CHAUMEREUIL",
+          "adresse": "PRINCIPAL | 58240 LUTHENAY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -989,10 +1049,11 @@
           "heure": "12:30",
           "recevant": "CS CHATILLON 2",
           "visiteur": "ENT. POUGUES FOURCH 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['Rue du stade', '58110 CHATILLON EN BAZOIS']"
         },
         {
           "id": 79349450,
@@ -1000,10 +1061,11 @@
           "heure": "15:00",
           "recevant": "FR LUTHENAY 2",
           "visiteur": "A.S. COSSAYE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE R.CHAUMEREUIL_['PRINCIPAL', '58240 LUTHENAY']"
         },
         {
           "id": 79349483,

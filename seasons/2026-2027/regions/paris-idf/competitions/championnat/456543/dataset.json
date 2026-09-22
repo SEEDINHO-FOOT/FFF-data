@@ -58,6 +58,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC536993.jpg",
           "clNo": "17971",
           "slug": "536993-philippe-garnier"
+        },
+        "SCPO FOOTBALL": {
+          "nom": "SCPO FOOTBALL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC612321.jpg",
+          "clNo": "30577",
+          "slug": "612321-scpo-football"
+        },
+        "NEW TEAM VINCE. AU C": {
+          "nom": "NEW TEAM VINCE. AU C",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC615997.jpg",
+          "clNo": "116772",
+          "slug": "615997-new-team-vince-au-c"
         }
       },
       "stades": {
@@ -85,6 +97,13 @@
         "PARC DES SPORTS LÉO LAGRANGE 4_['RUE LEO LAGRANGE', 'TERRAIN ANNEXE 2', '91700 STE GENEVIEVE DES BOIS']": {
           "nom": "PARC DES SPORTS LÉO LAGRANGE 4",
           "adresse": "RUE LEO LAGRANGE | TERRAIN ANNEXE 2 | 91700 STE GENEVIEVE DES BOIS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "PARC DES SPORTS PLAINE NORD N°1_['PARC INTERDEPARTEMENTAL', 'CARREFOUR POMPADOUR', '94600 CHOISY LE ROI']": {
+          "nom": "PARC DES SPORTS PLAINE NORD N°1",
+          "adresse": "PARC INTERDEPARTEMENTAL | CARREFOUR POMPADOUR | 94600 CHOISY LE ROI",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -128,6 +147,11 @@
         },
         "ANDREAS GAUTHIER MONGEOT_AC": {
           "nom": "ANDREAS GAUTHIER MONGEOT",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "MARWAN ZOGHEIB_AC": {
+          "nom": "MARWAN ZOGHEIB",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -407,10 +431,14 @@
           "heure": "15:00",
           "recevant": "SCPO FOOTBALL",
           "visiteur": "NEW TEAM VINCE. AU C",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "PARC DES SPORTS PLAINE NORD N°1_['PARC INTERDEPARTEMENTAL', 'CARREFOUR POMPADOUR', '94600 CHOISY LE ROI']",
+          "officiels": [
+            "MARWAN ZOGHEIB_AC"
+          ]
         },
         {
           "id": 55685017,
@@ -1610,6 +1638,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC553573.jpg",
           "clNo": "135581",
           "slug": "553573-tsidje-genelia-eng"
+        },
+        "MAISONS ALFORT COMMU": {
+          "nom": "MAISONS ALFORT COMMU",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC690600.jpg",
+          "clNo": "32824",
+          "slug": "690600-maisons-alfort-commu"
+        },
+        "CONSEIL DEPART. 92": {
+          "nom": "CONSEIL DEPART. 92",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC607715.jpg",
+          "clNo": "27886",
+          "slug": "607715-conseil-depart-92"
         }
       },
       "stades": {
@@ -1640,6 +1680,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE AUGUSTE DELAUNE_['RUE DU 11 NOVEMBRE 1918', '94700 MAISONS ALFORT']": {
+          "nom": "STADE AUGUSTE DELAUNE",
+          "adresse": "RUE DU 11 NOVEMBRE 1918 | 94700 MAISONS ALFORT",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -1657,6 +1704,21 @@
           "nom": "MAMADOU SIBY",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "GUILLAUME EISCHEN_AC": {
+          "nom": "GUILLAUME EISCHEN",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "OUSSAMA CHIKHI_A1": {
+          "nom": "OUSSAMA CHIKHI",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
+        },
+        "THIERRY YGE_A2": {
+          "nom": "THIERRY YGE",
+          "role": "Arbitre assistant 2",
+          "role_cod": "A2"
         }
       },
       "joueurs": {
@@ -2085,10 +2147,16 @@
           "heure": "16:00",
           "recevant": "MAISONS ALFORT COMMU",
           "visiteur": "CONSEIL DEPART. 92",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE AUGUSTE DELAUNE_['RUE DU 11 NOVEMBRE 1918', '94700 MAISONS ALFORT']",
+          "officiels": [
+            "GUILLAUME EISCHEN_AC",
+            "OUSSAMA CHIKHI_A1",
+            "THIERRY YGE_A2"
+          ]
         },
         {
           "id": 55685109,

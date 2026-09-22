@@ -40,6 +40,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560686.jpg",
           "clNo": "198609",
           "slug": "560686-as-la-ciotat"
+        },
+        "J.S. DES PENNES MIRA 2": {
+          "nom": "J.S. DES PENNES MIRA 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC541774.jpg",
+          "clNo": "21526",
+          "slug": "541774-j-s-des-pennes-mira-2"
         }
       },
       "stades": {
@@ -63,6 +69,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "Stade Valentin Magri (ex :stade Abeille)_['100 AVENUE ALBERT RITT', '13600 LA CIOTAT']": {
+          "nom": "Stade Valentin Magri (ex :stade Abeille)",
+          "adresse": "100 AVENUE ALBERT RITT | 13600 LA CIOTAT",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -83,6 +96,11 @@
         },
         "BRAHIM REDJIMI_AC": {
           "nom": "BRAHIM REDJIMI",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "NAIS TAZAMOUCHT_AC": {
+          "nom": "NAIS TAZAMOUCHT",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -239,10 +257,14 @@
           "heure": "16:00",
           "recevant": "AS LA CIOTAT",
           "visiteur": "J.S. DES PENNES MIRA 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Valentin Magri (ex :stade Abeille)_['100 AVENUE ALBERT RITT', '13600 LA CIOTAT']",
+          "officiels": [
+            "NAIS TAZAMOUCHT_AC"
+          ]
         },
         {
           "id": 79436725,
@@ -1774,7 +1796,7 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "à venir"
+          "statut": "arrêté"
         },
         {
           "id": 79437140,
@@ -2860,58 +2882,10 @@
           "heure": "15:00",
           "recevant": "A.S.M SAINT LOUP 10E",
           "visiteur": "MGCB FC 2",
-          "buts_recevant": 3,
-          "buts_visiteur": 6,
-          "joue": true,
-          "statut": "joué",
-          "moments": [
-            {
-              "minute": 15,
-              "type": "remplacement",
-              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3kC8tnbU",
-              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt4lCginbc",
-              "club_type": "recevant"
-            },
-            {
-              "minute": 20,
-              "type": "remplacement",
-              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12kC0jmLc",
-              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK13kiksmLE",
-              "club_type": "recevant"
-            },
-            {
-              "minute": 25,
-              "type": "remplacement",
-              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3lC0gnrc",
-              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5ly0nnrI",
-              "club_type": "visiteur"
-            },
-            {
-              "minute": 25,
-              "type": "remplacement",
-              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx-kyYglrA",
-              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6kygjl74",
-              "club_type": "visiteur"
-            },
-            {
-              "minute": 26,
-              "type": "remplacement",
-              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK13kCkgn7M",
-              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK12lC4kmb4",
-              "club_type": "visiteur"
-            },
-            {
-              "minute": 28,
-              "type": "remplacement",
-              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp-miclm7Q",
-              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK13lS4gm7A",
-              "club_type": "visiteur"
-            }
-          ],
-          "stade_id": "STADE SAINT LOUP 1_['70 AVENUE CENTRALE', 'TERRAIN (A)', '13010 MARSEILLE']",
-          "officiels": [
-            "Anonyme_AC"
-          ]
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "réserve"
         },
         {
           "id": 79437970,
@@ -3118,6 +3092,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC525769.jpg",
           "clNo": "10394",
           "slug": "525769-f-c-st-victoret"
+        },
+        "ET.S. DE LA CIOTAT": {
+          "nom": "ET.S. DE LA CIOTAT",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503033.jpg",
+          "clNo": "1611",
+          "slug": "503033-et-s-de-la-ciotat"
         }
       },
       "stades": {
@@ -3141,6 +3121,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 1_['BLD CHARLES DE GAULLE', 'TERRAIN HONNEUR A', '13730 ST VICTORET']": {
+          "nom": "STADE MUNICIPAL 1",
+          "adresse": "BLD CHARLES DE GAULLE | TERRAIN HONNEUR A | 13730 ST VICTORET",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -3156,6 +3143,11 @@
         },
         "HEDI DZIRI_AC": {
           "nom": "HEDI DZIRI",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "SOILIHI SOUMAILA_AC": {
+          "nom": "SOILIHI SOUMAILA",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -3303,10 +3295,14 @@
           "heure": "14:00",
           "recevant": "F.C. ST VICTORET",
           "visiteur": "ET.S. DE LA CIOTAT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['BLD CHARLES DE GAULLE', 'TERRAIN HONNEUR A', '13730 ST VICTORET']",
+          "officiels": [
+            "SOILIHI SOUMAILA_AC"
+          ]
         },
         {
           "id": 79438352,

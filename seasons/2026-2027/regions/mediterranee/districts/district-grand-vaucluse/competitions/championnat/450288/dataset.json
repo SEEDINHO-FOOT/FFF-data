@@ -134,6 +134,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE LÉON DULCY_['AVENUE DE LA CROIX ROUGE', '84000 AVIGNON']": {
+          "nom": "STADE LÉON DULCY",
+          "adresse": "AVENUE DE LA CROIX ROUGE | 84000 AVIGNON",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -199,6 +206,11 @@
         },
         "MOHAMED SAHBI_AC": {
           "nom": "MOHAMED SAHBI",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "IMRANE BENALI_AC": {
+          "nom": "IMRANE BENALI",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -613,6 +625,26 @@
           "nom": "AMADOU SARA B.",
           "maillot": 2,
           "club": "LES ANGLES EMAF"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp7kC4sn74": {
+          "nom": "SAMIR A.",
+          "maillot": 9,
+          "club": "AV. C. AVIGNONNAIS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh7miksmb8": {
+          "nom": "Anonyme",
+          "maillot": 12,
+          "club": "AV. C. AVIGNONNAIS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd6mygglrM": {
+          "nom": "MOHAMED Q.",
+          "maillot": 8,
+          "club": "AV. C. AVIGNONNAIS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6lSolmr8": {
+          "nom": "RHEDA A.",
+          "maillot": 13,
+          "club": "AV. C. AVIGNONNAIS"
         }
       },
       "matchs": [
@@ -1243,10 +1275,38 @@
           "heure": "11:00",
           "recevant": "AV. C. AVIGNONNAIS",
           "visiteur": "S.O. VELLERONNAIS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 18,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp7kC4sn74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh7miksmb8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6mygglrM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6lSolmr8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 57,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16ly4hnr8",
+              "sanction": "J",
+              "sanction_detail": "J3",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE LÉON DULCY_['AVENUE DE LA CROIX ROUGE', '84000 AVIGNON']",
+          "officiels": [
+            "IMRANE BENALI_AC"
+          ]
         },
         {
           "id": 78831320,

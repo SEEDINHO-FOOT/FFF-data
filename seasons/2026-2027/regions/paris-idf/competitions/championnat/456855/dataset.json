@@ -58,6 +58,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC554236.jpg",
           "clNo": "149461",
           "slug": "554236-evasion-urbaine-sp"
+        },
+        "SOFA 93": {
+          "nom": "SOFA 93",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC582416.jpg",
+          "clNo": "190103",
+          "slug": "582416-sofa-93"
+        },
+        "CHAMPS FFC": {
+          "nom": "CHAMPS FFC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC580983.jpg",
+          "clNo": "180685",
+          "slug": "580983-champs-ffc"
         }
       },
       "stades": {
@@ -85,6 +97,20 @@
         "GYMNASE DU BOIS DU LYS_['380 chemin du clocher', '77190 DAMMARIE LES LYS']": {
           "nom": "GYMNASE DU BOIS DU LYS",
           "adresse": "380 chemin du clocher | 77190 DAMMARIE LES LYS",
+          "surface": "Parquet",
+          "surface_jeu": "Parquet",
+          "type_installation": "Futsal"
+        },
+        "GYMNASE DU GRAND PARC_['7 RUE GISELE HALIMI', '93400 ST OUEN']": {
+          "nom": "GYMNASE DU GRAND PARC",
+          "adresse": "7 RUE GISELE HALIMI | 93400 ST OUEN",
+          "surface": "Autre",
+          "surface_jeu": "Autre",
+          "type_installation": "Futsal"
+        },
+        "SALLE ARENA TEDDY RINER_['63 AVENUE LA REDOUTE', '92600 ASNIERES SUR SEINE']": {
+          "nom": "SALLE ARENA TEDDY RINER",
+          "adresse": "63 AVENUE LA REDOUTE | 92600 ASNIERES SUR SEINE",
           "surface": "Parquet",
           "surface_jeu": "Parquet",
           "type_installation": "Futsal"
@@ -130,6 +156,31 @@
           "nom": "NORDINE CHABANE",
           "role": "Arbitre assistant 1",
           "role_cod": "A1"
+        },
+        "ONUR DUMLU_AC": {
+          "nom": "ONUR DUMLU",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ELHADJI CISSE_A1": {
+          "nom": "ELHADJI CISSE",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
+        },
+        "CARL MULER VICTOR_AC": {
+          "nom": "CARL MULER VICTOR",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ADRIEN GONZALEZ_A1": {
+          "nom": "ADRIEN GONZALEZ",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
+        },
+        "PIERRE BOUREZ_CP": {
+          "nom": "PIERRE BOUREZ",
+          "role": "Observateur principal",
+          "role_cod": "CP"
         }
       },
       "joueurs": {
@@ -381,6 +432,16 @@
         "ir3_vj-lzPeINLfhzILsrKpNEKh9myglmLQ": {
           "nom": "AUGUSTE K.",
           "maillot": 11,
+          "club": "JOLIOT GROOM'S"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt7lSgtnbE": {
+          "nom": "HAMZA M.",
+          "maillot": 5,
+          "club": "JOLIOT GROOM'S"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt-kCctmb8": {
+          "nom": "KEVIN K.",
+          "maillot": 7,
           "club": "JOLIOT GROOM'S"
         }
       },
@@ -745,10 +806,15 @@
           "heure": "20:00",
           "recevant": "SOFA 93",
           "visiteur": "CHAMPS FFC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "GYMNASE DU GRAND PARC_['7 RUE GISELE HALIMI', '93400 ST OUEN']",
+          "officiels": [
+            "ONUR DUMLU_AC",
+            "ELHADJI CISSE_A1"
+          ]
         },
         {
           "id": 55702199,
@@ -814,10 +880,50 @@
           "heure": "20:40",
           "recevant": "ASNIERES FUTSAL 92",
           "visiteur": "JOLIOT GROOM'S",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 19,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt7lSgtnbE",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 35,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh-mywmmbM",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 40,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLF6d_liomlrc",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 45,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt-kCctmb8",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "SALLE ARENA TEDDY RINER_['63 AVENUE LA REDOUTE', '92600 ASNIERES SUR SEINE']",
+          "officiels": [
+            "CARL MULER VICTOR_AC",
+            "ADRIEN GONZALEZ_A1",
+            "PIERRE BOUREZ_CP"
+          ]
         },
         {
           "id": 55702205,
@@ -1784,6 +1890,30 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC580632.jpg",
           "clNo": "177000",
           "slug": "580632-vue-d-ensemble"
+        },
+        "LA COURNEUVE AS": {
+          "nom": "LA COURNEUVE AS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500653.jpg",
+          "clNo": "658",
+          "slug": "500653-la-courneuve-as"
+        },
+        "GOUSSAINVILLE FC": {
+          "nom": "GOUSSAINVILLE FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC581364.jpg",
+          "clNo": "183557",
+          "slug": "581364-goussainville-fc"
+        },
+        "NEUILLY FC 92": {
+          "nom": "NEUILLY FC 92",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC563778.jpg",
+          "clNo": "172904",
+          "slug": "563778-neuilly-fc-92"
+        },
+        "ABF": {
+          "nom": "ABF",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560298.jpg",
+          "clNo": "195248",
+          "slug": "560298-abf"
         }
       },
       "stades": {
@@ -1806,6 +1936,20 @@
           "adresse": "61, rue Auguste Renoir | 93600 AULNAY SOUS BOIS",
           "surface": "PVC",
           "surface_jeu": "PVC",
+          "type_installation": "Futsal"
+        },
+        "GYMNASE BÉATRICE HESS_['43 AVENUE DU GENERAL LECLERC', '93120 LA COURNEUVE']": {
+          "nom": "GYMNASE BÉATRICE HESS",
+          "adresse": "43 AVENUE DU GENERAL LECLERC | 93120 LA COURNEUVE",
+          "surface": "PVC",
+          "surface_jeu": "PVC",
+          "type_installation": "Futsal"
+        },
+        "GYMNASE THÉOPHILE GAUTIER_['39 RUE DE LONGCHAMP', '92200 NEUILLY SUR SEINE']": {
+          "nom": "GYMNASE THÉOPHILE GAUTIER",
+          "adresse": "39 RUE DE LONGCHAMP | 92200 NEUILLY SUR SEINE",
+          "surface": "Lino",
+          "surface_jeu": "Lino",
           "type_installation": "Futsal"
         }
       },
@@ -1837,6 +1981,21 @@
         },
         "Anonyme_A1": {
           "nom": "Anonyme",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
+        },
+        "ADRIEN GONZALEZ_AC": {
+          "nom": "ADRIEN GONZALEZ",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "Anonyme_AC": {
+          "nom": "Anonyme",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ELHADJI CISSE_A1": {
+          "nom": "ELHADJI CISSE",
           "role": "Arbitre assistant 1",
           "role_cod": "A1"
         }
@@ -2091,6 +2250,106 @@
           "nom": "ABDALLAH F.",
           "maillot": 10,
           "club": "AULNAY FUTSAL"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt8my8jmbE": {
+          "nom": "NICOLAS G.",
+          "maillot": 13,
+          "club": "NEUILLY FC 92"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK18lCwgl7A": {
+          "nom": "JOSEPH RAYAN D.",
+          "maillot": 19,
+          "club": "NEUILLY FC 92"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx5kCkimrE": {
+          "nom": "SOFIANE B.",
+          "maillot": 10,
+          "club": "NEUILLY FC 92"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt8li8jm7M": {
+          "nom": "LEO L.",
+          "maillot": 16,
+          "club": "NEUILLY FC 92"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt5lC0nl74": {
+          "nom": "ADALBERTO V.",
+          "maillot": 9,
+          "club": "NEUILLY FC 92"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp7kC0glr8": {
+          "nom": "ENZO D.",
+          "maillot": 11,
+          "club": "NEUILLY FC 92"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp6kyYklrc": {
+          "nom": "JEREMIE M.",
+          "maillot": 6,
+          "club": "NEUILLY FC 92"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLFqd-lSYgmLc": {
+          "nom": "BENJAMIN H.",
+          "maillot": 8,
+          "club": "NEUILLY FC 92"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh6lCcnn7M": {
+          "nom": "ENAOUIS Y.",
+          "maillot": 7,
+          "club": "NEUILLY FC 92"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh7kS4nmr8": {
+          "nom": "IBRAHIM L.",
+          "maillot": 11,
+          "club": "ABF"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh2kS8nmLc": {
+          "nom": "DJIGUI MANFA C.",
+          "maillot": 10,
+          "club": "ABF"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt_kSYtmbA": {
+          "nom": "TIBO JUNIOR G.",
+          "maillot": 9,
+          "club": "ABF"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt6mi4jm7A": {
+          "nom": "MELVIN R.",
+          "maillot": 8,
+          "club": "ABF"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd8kCwjn7c": {
+          "nom": "AHMED AMINE L.",
+          "maillot": 2,
+          "club": "ABF"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh6kSstnrA": {
+          "nom": "RAIANE G.",
+          "maillot": 7,
+          "club": "ABF"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl6kSYmnLY": {
+          "nom": "ABOULAYE D.",
+          "maillot": 5,
+          "club": "ABF"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp-kicnn7Y": {
+          "nom": "ESTEBAN M.",
+          "maillot": 4,
+          "club": "ABF"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl6kSksnLU": {
+          "nom": "BILAL B.",
+          "maillot": 6,
+          "club": "ABF"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl-kicnl7U": {
+          "nom": "FLORIAN D.",
+          "maillot": 5,
+          "club": "NEUILLY FC 92"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp9mikmmr4": {
+          "nom": "HAKAN U.",
+          "maillot": null,
+          "club": ""
         }
       },
       "matchs": [
@@ -2190,10 +2449,15 @@
           "heure": "16:00",
           "recevant": "LA COURNEUVE AS",
           "visiteur": "GOUSSAINVILLE FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "GYMNASE BÉATRICE HESS_['43 AVENUE DU GENERAL LECLERC', '93120 LA COURNEUVE']",
+          "officiels": [
+            "ADRIEN GONZALEZ_AC",
+            "Anonyme_A1"
+          ]
         },
         {
           "id": 55802337,
@@ -2201,10 +2465,126 @@
           "heure": "16:30",
           "recevant": "NEUILLY FC 92",
           "visiteur": "ABF",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 1,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt8my8jmbE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK18lCwgl7A",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 1,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx5kCkimrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt8li8jm7M",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 1,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt5lC0nl74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKp7kC0glr8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 1,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp6kyYklrc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpLFqd-lSYgmLc",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 1,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt8my8jmbE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh6lCcnn7M",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 1,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh7kS4nmr8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh2kS8nmLc",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 1,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt_kSYtmbA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt6mi4jm7A",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 1,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8kCwjn7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh6kSstnrA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 1,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl6kSYmnLY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKp-kicnn7Y",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 2,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8kCwjn7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl6kSksnLU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 3,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx5kCkimrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl-kicnl7U",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 29,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh6kSstnrA",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 37,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp9mikmmr4",
+              "sanction": "J",
+              "sanction_detail": "JS4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 40,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh6kSstnrA",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 40,
+              "type": "carton-rouge",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh6kSstnrA",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "GYMNASE THÉOPHILE GAUTIER_['39 RUE DE LONGCHAMP', '92200 NEUILLY SUR SEINE']",
+          "officiels": [
+            "Anonyme_AC",
+            "ELHADJI CISSE_A1"
+          ]
         },
         {
           "id": 55802340,
