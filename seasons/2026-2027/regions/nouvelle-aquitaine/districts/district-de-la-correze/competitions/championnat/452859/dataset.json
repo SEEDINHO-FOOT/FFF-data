@@ -1990,7 +1990,7 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "à venir"
+          "statut": "reporté"
         },
         {
           "id": 56539900,
@@ -3450,6 +3450,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE LOUIS TEREYGEOL_[' ROUTE DE LA FONT JOLIE', '19450 CHAMBOULIVE']": {
+          "nom": "STADE LOUIS TEREYGEOL",
+          "adresse": " ROUTE DE LA FONT JOLIE | 19450 CHAMBOULIVE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -3500,6 +3507,11 @@
         },
         "KAIMBA KOUROUMA_AC": {
           "nom": "KAIMBA KOUROUMA",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "REMI BONNET_AC": {
+          "nom": "REMI BONNET",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -4684,10 +4696,14 @@
           "heure": "15:00",
           "recevant": "MONEDIERES ES 2",
           "visiteur": "ST CLEMENT US 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE LOUIS TEREYGEOL_[' ROUTE DE LA FONT JOLIE', '19450 CHAMBOULIVE']",
+          "officiels": [
+            "REMI BONNET_AC"
+          ]
         },
         {
           "id": 56540200,

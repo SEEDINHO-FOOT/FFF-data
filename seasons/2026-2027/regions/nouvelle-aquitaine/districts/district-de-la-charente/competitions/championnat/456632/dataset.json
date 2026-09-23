@@ -2211,6 +2211,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['LE BOURG', '16230 VILLOGNON']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "LE BOURG | 16230 VILLOGNON",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -2231,6 +2238,11 @@
         },
         "ABDEL RANI BOUAZZA_AC": {
           "nom": "ABDEL RANI BOUAZZA",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "HERVE GEAY_AC": {
+          "nom": "HERVE GEAY",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -2428,7 +2440,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKlJE616kC0jmbQ": {
           "nom": "AYMERIC R.",
-          "maillot": 12,
+          "maillot": 13,
           "club": "FC VILLOGNON"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp5kCkhnrQ": {
@@ -2545,6 +2557,46 @@
           "nom": "KENNY S.",
           "maillot": 10,
           "club": "RACING CLUB AUNAC SU"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlJFa94li8nn78": {
+          "nom": "CHRISTIAN B.",
+          "maillot": 8,
+          "club": "TAIZE AIZ.LES ADJOTS 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt-liwknb4": {
+          "nom": "ALEXIS D.",
+          "maillot": 13,
+          "club": "TAIZE AIZ.LES ADJOTS 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx6kykinrY": {
+          "nom": "ALEXANDRE P.",
+          "maillot": 10,
+          "club": "TAIZE AIZ.LES ADJOTS 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlJHK16kywmnL4": {
+          "nom": "MICKAEL B.",
+          "maillot": 12,
+          "club": "TAIZE AIZ.LES ADJOTS 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlJFa16ly4gl78": {
+          "nom": "CLEMENT B.",
+          "maillot": 14,
+          "club": "FC VILLOGNON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd7mi8nnb4": {
+          "nom": "LOUIS L.",
+          "maillot": 3,
+          "club": "FC VILLOGNON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh9mi0nm7U": {
+          "nom": "NOA C.",
+          "maillot": 12,
+          "club": "FC VILLOGNON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlJFaZ9ki4gl7M": {
+          "nom": "LUDOVIC O.",
+          "maillot": 3,
+          "club": "TAIZE AIZ.LES ADJOTS 2"
         }
       },
       "matchs": [
@@ -3000,10 +3052,59 @@
           "heure": "15:00",
           "recevant": "FC VILLOGNON",
           "visiteur": "TAIZE AIZ.LES ADJOTS 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 14,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlJFa94li8nn78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt-liwknb4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 27,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx6kykinrY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlJHK16kywmnL4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 36,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5kCkhnrQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlJFa16ly4gl78",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5kS4knb8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlJE616kC0jmbQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 66,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7mi8nnb4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh9mi0nm7U",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 81,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlJFaZ9ki4gl7M",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL_['LE BOURG', '16230 VILLOGNON']",
+          "officiels": [
+            "HERVE GEAY_AC"
+          ]
         },
         {
           "id": 56544581,
@@ -4780,7 +4881,7 @@
         },
         {
           "id": 56544897,
-          "date": "2026-09-19",
+          "date": "2026-09-26",
           "heure": "18:00",
           "recevant": "LA ROCHE-RIVIERES FC 4",
           "visiteur": "MONTBRON USA 3",
@@ -12476,6 +12577,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC529968.jpg",
           "clNo": "13255",
           "slug": "529968-st-sulpice-de-cognac"
+        },
+        "ST BRICE 16 AL": {
+          "nom": "ST BRICE 16 AL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC529685.jpg",
+          "clNo": "13035",
+          "slug": "529685-st-brice-16-al"
         }
       },
       "stades": {
@@ -12534,6 +12641,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE ROBERT THIBAUD 1_['DERRIERE LA MAIRIE', 'AVENUE DE MONTIGNAC', '16100 MERPINS']": {
+          "nom": "STADE ROBERT THIBAUD 1",
+          "adresse": "DERRIERE LA MAIRIE | AVENUE DE MONTIGNAC | 16100 MERPINS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -12559,6 +12673,11 @@
         },
         "RAPHAEL LOGEAIS_AC": {
           "nom": "RAPHAEL LOGEAIS",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "FAYCAL EL HIMASS_AC": {
+          "nom": "FAYCAL EL HIMASS",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -13159,10 +13278,14 @@
           "heure": "13:00",
           "recevant": "MERPINS AS 2",
           "visiteur": "ST BRICE 16 AL",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ROBERT THIBAUD 1_['DERRIERE LA MAIRIE', 'AVENUE DE MONTIGNAC', '16100 MERPINS']",
+          "officiels": [
+            "FAYCAL EL HIMASS_AC"
+          ]
         },
         {
           "id": 56545504,

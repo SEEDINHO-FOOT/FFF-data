@@ -10,8 +10,29 @@
     {
       "cp_slug": "453961-coupe-haute-saone-u15/phase/1/1",
       "competition": "COUPE HAUTE SAONE U15",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "FCVFM": {
+          "nom": "FCVFM",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC509186.jpg",
+          "clNo": "3403",
+          "slug": "509186-fcvfm"
+        },
+        "LURONNES": {
+          "nom": "LURONNES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC506615.jpg",
+          "clNo": "2908",
+          "slug": "506615-luronnes"
+        }
+      },
+      "stades": {
+        "STADE MUNICIPAL 1_['RUE AUGUSTE GUYARD', 'TERRAIN HONNEUR', '70000 FROTEY LES VESOUL']": {
+          "nom": "STADE MUNICIPAL 1",
+          "adresse": "RUE AUGUSTE GUYARD | TERRAIN HONNEUR | 70000 FROTEY LES VESOUL",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -32,10 +53,11 @@
           "heure": "16:00",
           "recevant": "FCVFM",
           "visiteur": "LURONNES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['RUE AUGUSTE GUYARD', 'TERRAIN HONNEUR', '70000 FROTEY LES VESOUL']"
         },
         {
           "id": 79485027,
@@ -128,7 +150,7 @@
         {
           "id": 79485036,
           "date": "2026-09-26",
-          "heure": "16:00",
+          "heure": "18:00",
           "recevant": "PAYS MINIER",
           "visiteur": "GROUPEMENT VV",
           "buts_recevant": null,

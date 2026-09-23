@@ -70,6 +70,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC553448.jpg",
           "clNo": "153701",
           "slug": "553448-fc-buslaurs-gatine-2"
+        },
+        "PAYS DE L OUIN FC 3": {
+          "nom": "PAYS DE L OUIN FC 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC590241.jpg",
+          "clNo": "179873",
+          "slug": "590241-pays-de-l-ouin-fc-3"
+        },
+        "INTER BOCAGE FC 3": {
+          "nom": "INTER BOCAGE FC 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560535.jpg",
+          "clNo": "197288",
+          "slug": "560535-inter-bocage-fc-3"
         }
       },
       "stades": {
@@ -100,6 +112,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE PIERRE MARTIN_['21 RUE DU MOULIN DES CHAMPS', '79700 MAULEON']": {
+          "nom": "STADE PIERRE MARTIN",
+          "adresse": "21 RUE DU MOULIN DES CHAMPS | 79700 MAULEON",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -125,6 +144,11 @@
         },
         "CLOVIS RIGAUDEAU_AC": {
           "nom": "CLOVIS RIGAUDEAU",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "CHRISTOPHE CHERON_AC": {
+          "nom": "CHRISTOPHE CHERON",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -638,10 +662,14 @@
           "heure": "12:30",
           "recevant": "PAYS DE L OUIN FC 3",
           "visiteur": "INTER BOCAGE FC 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PIERRE MARTIN_['21 RUE DU MOULIN DES CHAMPS', '79700 MAULEON']",
+          "officiels": [
+            "CHRISTOPHE CHERON_AC"
+          ]
         },
         {
           "id": 56282409,
@@ -6950,61 +6978,10 @@
           "heure": "20:00",
           "recevant": "NIORT SOUCHEEN SA 2",
           "visiteur": "AIFFRES FORS PRAHECQ 3",
-          "buts_recevant": 1,
-          "buts_visiteur": 2,
-          "joue": true,
-          "statut": "joué",
-          "moments": [
-            {
-              "minute": 30,
-              "type": "remplacement",
-              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp7lScknbc",
-              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx5kCojm7E",
-              "club_type": "visiteur"
-            },
-            {
-              "minute": 55,
-              "type": "carton-jaune",
-              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_kSwnnrY",
-              "sanction": "J",
-              "sanction_detail": "J1",
-              "club_type": "recevant"
-            },
-            {
-              "minute": 55,
-              "type": "remplacement",
-              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl6myYhmrU",
-              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh-ly0jmLM",
-              "club_type": "visiteur"
-            },
-            {
-              "minute": 55,
-              "type": "remplacement",
-              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp3ky8mn74",
-              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3lC8nnL8",
-              "club_type": "visiteur"
-            },
-            {
-              "minute": 78,
-              "type": "carton-jaune",
-              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlJEq16kysnlrM",
-              "sanction": "J",
-              "sanction_detail": "J2",
-              "club_type": "visiteur"
-            },
-            {
-              "minute": 90,
-              "type": "carton-rouge",
-              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh-ly0jmLM",
-              "sanction": "R",
-              "sanction_detail": "R2",
-              "club_type": "visiteur"
-            }
-          ],
-          "stade_id": "STADE DE SOUCHÉ_['SOUCHE', '79000 NIORT']",
-          "officiels": [
-            "PHILIPPE PILLOT_AC"
-          ]
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "réserve"
         },
         {
           "id": 56281763,

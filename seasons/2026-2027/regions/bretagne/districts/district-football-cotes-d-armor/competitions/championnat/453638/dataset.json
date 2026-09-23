@@ -10,8 +10,86 @@
     {
       "cp_slug": "453638-district-2-f/phase/1/1",
       "competition": "DISTRICT 2 F",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "PERROS LOUANNEC US": {
+          "nom": "PERROS LOUANNEC US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC550087.jpg",
+          "clNo": "100236",
+          "slug": "550087-perros-louannec-us"
+        },
+        "REGR FÉMININ DU GUIC": {
+          "nom": "REGR FÉMININ DU GUIC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC764465.jpg",
+          "clNo": "201976",
+          "slug": "764465-regr-fEminin-du-guic"
+        },
+        "PLEDRAN CS": {
+          "nom": "PLEDRAN CS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC510281.jpg",
+          "clNo": "3597",
+          "slug": "510281-pledran-cs"
+        },
+        "TREGUEUX AS": {
+          "nom": "TREGUEUX AS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC520171.jpg",
+          "clNo": "6772",
+          "slug": "520171-tregueux-as"
+        },
+        "US PAYS ROCHOIS LANG": {
+          "nom": "US PAYS ROCHOIS LANG",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560514.jpg",
+          "clNo": "197250",
+          "slug": "560514-us-pays-rochois-lang"
+        },
+        "US TREMEL": {
+          "nom": "US TREMEL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC537831.jpg",
+          "clNo": "18607",
+          "slug": "537831-us-tremel"
+        },
+        "PLEHEDEL SPORTS 3": {
+          "nom": "PLEHEDEL SPORTS 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC561025.jpg",
+          "clNo": "200369",
+          "slug": "561025-plehedel-sports-3"
+        },
+        "PLOUGONVER US": {
+          "nom": "PLOUGONVER US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC519106.jpg",
+          "clNo": "6198",
+          "slug": "519106-plougonver-us"
+        }
+      },
+      "stades": {
+        "STADE YVES LE JANNOU_['16 RUE DU SERGENT L HEVEDER', '22700 PERROS GUIREC']": {
+          "nom": "STADE YVES LE JANNOU",
+          "adresse": "16 RUE DU SERGENT L HEVEDER | 22700 PERROS GUIREC",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "COMPLEXE SPORTIF HORIZON 1_['RUE JACQUES PREVERT', '22960 PLEDRAN']": {
+          "nom": "COMPLEXE SPORTIF HORIZON 1",
+          "adresse": "RUE JACQUES PREVERT | 22960 PLEDRAN",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE FRANÇOIS BONNIEC 2_['RUE DES ETANGS', '22450 LANGOAT']": {
+          "nom": "STADE FRANÇOIS BONNIEC 2",
+          "adresse": "RUE DES ETANGS | 22450 LANGOAT",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 1_['2 KERHAMON', '22290 PLEHEDEL']": {
+          "nom": "STADE MUNICIPAL 1",
+          "adresse": "2 KERHAMON | 22290 PLEHEDEL",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -21,10 +99,11 @@
           "heure": "13:30",
           "recevant": "PERROS LOUANNEC US",
           "visiteur": "REGR FÉMININ DU GUIC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE YVES LE JANNOU_['16 RUE DU SERGENT L HEVEDER', '22700 PERROS GUIREC']"
         },
         {
           "id": 56677062,
@@ -32,10 +111,11 @@
           "heure": "13:30",
           "recevant": "PLEDRAN CS",
           "visiteur": "TREGUEUX AS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 11,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF HORIZON 1_['RUE JACQUES PREVERT', '22960 PLEDRAN']"
         },
         {
           "id": 56677061,
@@ -43,10 +123,11 @@
           "heure": "15:30",
           "recevant": "US PAYS ROCHOIS LANG",
           "visiteur": "US TREMEL",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE FRANÇOIS BONNIEC 2_['RUE DES ETANGS', '22450 LANGOAT']"
         },
         {
           "id": 56677063,
@@ -54,10 +135,11 @@
           "heure": "15:30",
           "recevant": "PLEHEDEL SPORTS 3",
           "visiteur": "PLOUGONVER US",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 11,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['2 KERHAMON', '22290 PLEHEDEL']"
         },
         {
           "id": 56677065,
@@ -636,10 +718,100 @@
     {
       "cp_slug": "453638-district-2-f/phase/1/2",
       "competition": "DISTRICT 2 F",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "PLEUDIHEN STADE": {
+          "nom": "PLEUDIHEN STADE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC515582.jpg",
+          "clNo": "4815",
+          "slug": "515582-pleudihen-stade"
+        },
+        "CAULNES RANCE FC": {
+          "nom": "CAULNES RANCE FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC542054.jpg",
+          "clNo": "21711",
+          "slug": "542054-caulnes-rance-fc"
+        },
+        "HILLION AS": {
+          "nom": "HILLION AS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC520431.jpg",
+          "clNo": "6909",
+          "slug": "520431-hillion-as"
+        },
+        "ST ALBAN FCCP": {
+          "nom": "ST ALBAN FCCP",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC581819.jpg",
+          "clNo": "186778",
+          "slug": "581819-st-alban-fccp"
+        },
+        "LOUDEAC OSC": {
+          "nom": "LOUDEAC OSC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC549518.jpg",
+          "clNo": "26250",
+          "slug": "549518-loudeac-osc"
+        },
+        "PLOUASNE ST JUVAT US": {
+          "nom": "PLOUASNE ST JUVAT US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC542512.jpg",
+          "clNo": "22034",
+          "slug": "542512-plouasne-st-juvat-us"
+        }
+      },
+      "stades": {
+        "STADE MUNICIPAL 2_[\"RUE DU VAL D'ORIENT\", '22690 PLEUDIHEN SUR RANCE']": {
+          "nom": "STADE MUNICIPAL 2",
+          "adresse": "RUE DU VAL D'ORIENT | 22690 PLEUDIHEN SUR RANCE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE ALEXANDRE ROBERT 1_['LA CHOUANNIERE', 'SAINT RENE', '22120 HILLION']": {
+          "nom": "STADE ALEXANDRE ROBERT 1",
+          "adresse": "LA CHOUANNIERE | SAINT RENE | 22120 HILLION",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "PARC DES SPORTS DE SAINT BUGAN 1_['Rue Charles le Goffic', '22600 LOUDEAC']": {
+          "nom": "PARC DES SPORTS DE SAINT BUGAN 1",
+          "adresse": "Rue Charles le Goffic | 22600 LOUDEAC",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFKt3kCkimr4": {
+          "nom": "LAURENCE B.",
+          "maillot": 11,
+          "club": "ST ALBAN FCCP"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp_kS8hmrI": {
+          "nom": "LINA F.",
+          "maillot": 12,
+          "club": "ST ALBAN FCCP"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh4lCwgmLM": {
+          "nom": "LEA B.",
+          "maillot": 8,
+          "club": "ST ALBAN FCCP"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp4lC4slrc": {
+          "nom": "NOA T.",
+          "maillot": 13,
+          "club": "ST ALBAN FCCP"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl4liwjmbE": {
+          "nom": "SERENA R.",
+          "maillot": 7,
+          "club": "ST ALBAN FCCP"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl4myknmbc": {
+          "nom": "ANA B.",
+          "maillot": 14,
+          "club": "ST ALBAN FCCP"
+        }
+      },
       "matchs": [
         {
           "id": 56677138,
@@ -647,10 +819,11 @@
           "heure": "13:00",
           "recevant": "PLEUDIHEN STADE",
           "visiteur": "CAULNES RANCE FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 2_[\"RUE DU VAL D'ORIENT\", '22690 PLEUDIHEN SUR RANCE']"
         },
         {
           "id": 56677139,
@@ -658,10 +831,34 @@
           "heure": "13:30",
           "recevant": "HILLION AS",
           "visiteur": "ST ALBAN FCCP",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 12,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3kCkimr4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp_kS8hmrI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4lCwgmLM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4lC4slrc",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 55,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl4liwjmbE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl4myknmbc",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE ALEXANDRE ROBERT 1_['LA CHOUANNIERE', 'SAINT RENE', '22120 HILLION']"
         },
         {
           "id": 56677140,
@@ -669,10 +866,11 @@
           "heure": "13:30",
           "recevant": "LOUDEAC OSC",
           "visiteur": "PLOUASNE ST JUVAT US",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "PARC DES SPORTS DE SAINT BUGAN 1_['Rue Charles le Goffic', '22600 LOUDEAC']"
         },
         {
           "id": 56677141,

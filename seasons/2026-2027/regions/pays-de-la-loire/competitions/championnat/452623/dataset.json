@@ -58,6 +58,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC516561.jpg",
           "clNo": "5087",
           "slug": "516561-le-poire-vie-vf"
+        },
+        "BEAUCOUZE SC": {
+          "nom": "BEAUCOUZE SC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC522033.jpg",
+          "clNo": "7973",
+          "slug": "522033-beaucouze-sc"
+        },
+        "LA ROCHE ESO VENDEE": {
+          "nom": "LA ROCHE ESO VENDEE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC512163.jpg",
+          "clNo": "3959",
+          "slug": "512163-la-roche-eso-vendee"
         }
       },
       "stades": {
@@ -88,6 +100,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE JACQUES AUBINEAU 1_['AVENUE DE LA GRANGES AUX BELLES', '49070 BEAUCOUZE']": {
+          "nom": "STADE JACQUES AUBINEAU 1",
+          "adresse": "AVENUE DE LA GRANGES AUX BELLES | 49070 BEAUCOUZE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -113,6 +132,11 @@
         },
         "NOAM ARRIAL_AC": {
           "nom": "NOAM ARRIAL",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "CLEMENT ROBERT_AC": {
+          "nom": "CLEMENT ROBERT",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -387,6 +411,61 @@
           "nom": "MAXENCE C.",
           "maillot": 12,
           "club": "LA POMMERAYE POMJ."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd7li8smbU": {
+          "nom": "TIMEO B.",
+          "maillot": 2,
+          "club": "LA ROCHE ESO VENDEE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19mismnr4": {
+          "nom": "TIMEO M.",
+          "maillot": 12,
+          "club": "LA ROCHE ESO VENDEE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd-kysmnrQ": {
+          "nom": "TENESSEE B.",
+          "maillot": 7,
+          "club": "LA ROCHE ESO VENDEE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17myosnrI": {
+          "nom": "GABIN P.",
+          "maillot": 11,
+          "club": "BEAUCOUZE SC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh3kCwllrM": {
+          "nom": "RAFAEL B.",
+          "maillot": 12,
+          "club": "BEAUCOUZE SC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd6kykjlrE": {
+          "nom": "ZAID B.",
+          "maillot": 11,
+          "club": "LA ROCHE ESO VENDEE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd6kSkmmLM": {
+          "nom": "MAYRON S.",
+          "maillot": 13,
+          "club": "LA ROCHE ESO VENDEE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh5kS4gnLA": {
+          "nom": "AYMERIC C.",
+          "maillot": 3,
+          "club": "BEAUCOUZE SC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd9kikjm7A": {
+          "nom": "LOUKA P.",
+          "maillot": 13,
+          "club": "BEAUCOUZE SC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh4kisnm7Q": {
+          "nom": "PAULIN P.",
+          "maillot": 9,
+          "club": "BEAUCOUZE SC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh3kS4tnL4": {
+          "nom": "GASPARD A.",
+          "maillot": 14,
+          "club": "BEAUCOUZE SC"
         }
       },
       "matchs": [
@@ -783,10 +862,71 @@
           "heure": "11:00",
           "recevant": "BEAUCOUZE SC",
           "visiteur": "LA ROCHE ESO VENDEE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 31,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7li8smbU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK19mismnr4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 44,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd-kysmnrQ",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK17myosnrI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3kCwllrM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6kykjlrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6kSkmmLM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 53,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh5kS4gnLA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9kikjm7A",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 53,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4kisnm7Q",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3kS4tnL4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 61,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6kSkmmLM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 87,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3kCwllrM",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE JACQUES AUBINEAU 1_['AVENUE DE LA GRANGES AUX BELLES', '49070 BEAUCOUZE']",
+          "officiels": [
+            "CLEMENT ROBERT_AC"
+          ]
         },
         {
           "id": 56169477,
@@ -802,7 +942,7 @@
         {
           "id": 56169475,
           "date": "2026-09-26",
-          "heure": "15:00",
+          "heure": "14:00",
           "recevant": "LES SABLES VF",
           "visiteur": "ST ETIEN CORDEM TEMP",
           "buts_recevant": null,

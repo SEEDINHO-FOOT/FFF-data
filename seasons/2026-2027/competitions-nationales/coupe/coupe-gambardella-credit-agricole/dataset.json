@@ -1042,6 +1042,30 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560792.jpg",
           "clNo": "198950",
           "slug": "560792-porte-d-aquitaine-47"
+        },
+        "RUELLE OFC": {
+          "nom": "RUELLE OFC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500089.jpg",
+          "clNo": "228",
+          "slug": "500089-ruelle-ofc"
+        },
+        "GUERETOISE ES": {
+          "nom": "GUERETOISE ES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC542564.jpg",
+          "clNo": "22071",
+          "slug": "542564-gueretoise-es"
+        },
+        "GJ EBO-ESP": {
+          "nom": "GJ EBO-ESP",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564519.jpg",
+          "clNo": "202047",
+          "slug": "564519-gj-ebo-esp"
+        },
+        "HASPARREN FC 21": {
+          "nom": "HASPARREN FC 21",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC524058.jpg",
+          "clNo": "9244",
+          "slug": "524058-hasparren-fc-21"
         }
       },
       "stades": {
@@ -1660,6 +1684,20 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['LE BOURG', '17800 CHADENAC']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "LE BOURG | 17800 CHADENAC",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE PREVILLE 1_['RUE LABESTAA', '64300 ORTHEZ']": {
+          "nom": "STADE DE PREVILLE 1",
+          "adresse": "RUE LABESTAA | 64300 ORTHEZ",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -2135,6 +2173,16 @@
         },
         "RAPHAEL JAQUET_AC": {
           "nom": "RAPHAEL JAQUET",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ARDA YAZAR_AC": {
+          "nom": "ARDA YAZAR",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "THEO MONGABURE_AC": {
+          "nom": "THEO MONGABURE",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -7958,10 +8006,11 @@
           "heure": "13:00",
           "recevant": "TREFLE SP. REAUX 4",
           "visiteur": "RUELLE OFC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['LE BOURG', '17800 CHADENAC']"
         },
         {
           "id": 79525601,
@@ -9393,10 +9442,14 @@
           "heure": "15:00",
           "recevant": "OCCITANE FC",
           "visiteur": "GUERETOISE ES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['ROUTE DE CHATEAUNEUF LA FORET', '87130 LINARDS']",
+          "officiels": [
+            "ARDA YAZAR_AC"
+          ]
         },
         {
           "id": 79523197,
@@ -11168,10 +11221,14 @@
           "heure": "15:00",
           "recevant": "GJ EBO-ESP",
           "visiteur": "HASPARREN FC 21",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE PREVILLE 1_['RUE LABESTAA', '64300 ORTHEZ']",
+          "officiels": [
+            "THEO MONGABURE_AC"
+          ]
         },
         {
           "id": 79523369,
@@ -48845,6 +48902,105 @@
           "joue": true,
           "statut": "joué",
           "stade_id": "STADE GEORGES FARSY 1_['RUE SULLY', '41350 ST GERVAIS LA FORET']"
+        },
+        {
+          "id": 79596056,
+          "date": "2026-09-26",
+          "heure": "13:30",
+          "recevant": "NEUVILLE SPORTS",
+          "visiteur": "CS MAINVILLIERS",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79596392,
+          "date": "2026-09-26",
+          "heure": "15:00",
+          "recevant": "RICHELAIS JS",
+          "visiteur": "ESPOIR BOISCHAUT SUD",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79596394,
+          "date": "2026-09-26",
+          "heure": "15:00",
+          "recevant": "ES BORDS DE CREUSE",
+          "visiteur": "AVOINE O. CHINON C.",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79596049,
+          "date": "2026-09-26",
+          "heure": "15:30",
+          "recevant": "FC ML INGRE",
+          "visiteur": "JARGEAU ST.DENIS",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79596058,
+          "date": "2026-09-26",
+          "heure": "16:00",
+          "recevant": "F.A. ST SYMPHORIEN T",
+          "visiteur": "FJ VALLÉE DUNOISE",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79596400,
+          "date": "2026-09-26",
+          "heure": "17:30",
+          "recevant": "MONTS AS",
+          "visiteur": "BOURGES FC",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79596051,
+          "date": "2026-09-26",
+          "heure": "18:00",
+          "recevant": "DAMMARIE / BERCHERES",
+          "visiteur": "VINEUIL SP.",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79596053,
+          "date": "2026-09-26",
+          "heure": "18:00",
+          "recevant": "FCO ST J.RUELLE",
+          "visiteur": "U.S. VENDOME",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79596396,
+          "date": "2026-09-26",
+          "heure": "18:00",
+          "recevant": "F.C. SAO",
+          "visiteur": "AZAY CHEILLE",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
         }
       ]
     },
@@ -50821,9 +50977,9 @@
         },
         "RIGNY": {
           "nom": "RIGNY",
-          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC531719.jpg",
-          "clNo": "14415",
-          "slug": "531719-rigny"
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC524383.jpg",
+          "clNo": "9460",
+          "slug": "524383-rigny"
         },
         "SUD FOOT 71": {
           "nom": "SUD FOOT 71",
@@ -62898,6 +63054,127 @@
           "officiels": [
             "MAXIME SOCRATE_AC"
           ]
+        },
+        {
+          "id": 79607768,
+          "date": "2026-09-26",
+          "heure": "10:45",
+          "recevant": "ENT. MERVANS/ISBN",
+          "visiteur": "MACON 71",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79607761,
+          "date": "2026-09-26",
+          "heure": "15:00",
+          "recevant": "ENT.ASMM-USGSD 1",
+          "visiteur": "GUEUGNON",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79607764,
+          "date": "2026-09-26",
+          "heure": "15:00",
+          "recevant": "QUETIGNY AS",
+          "visiteur": "AS CHATENOY LE ROYAL",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79608677,
+          "date": "2026-09-26",
+          "heure": "15:00",
+          "recevant": "JURA SUD FOOT",
+          "visiteur": "CHAMPAGNOLE",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79608680,
+          "date": "2026-09-26",
+          "heure": "16:00",
+          "recevant": "MOISS/ARCHE/ROCHE",
+          "visiteur": "CHEMINOTS DIJON US",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79607433,
+          "date": "2026-09-26",
+          "heure": "16:30",
+          "recevant": "RIGNY",
+          "visiteur": "AUXERRE STADE",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79607766,
+          "date": "2026-09-26",
+          "heure": "16:30",
+          "recevant": "FAUVERNEY ROUVRES",
+          "visiteur": "JSVG",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79608681,
+          "date": "2026-09-26",
+          "heure": "16:30",
+          "recevant": "SOUS ROCHES",
+          "visiteur": "GRANDVILLARS",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79608688,
+          "date": "2026-09-26",
+          "heure": "16:30",
+          "recevant": "VOUJEAUCOURT",
+          "visiteur": "NOIDANAIS",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79608872,
+          "date": "2026-09-26",
+          "heure": "18:00",
+          "recevant": "COSNE UCS FOOTBALL",
+          "visiteur": "CLAYETTOIS S REUNIS",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79607765,
+          "date": "2026-09-26",
+          "heure": "18:30",
+          "recevant": "CHEVIGNY ST SAUVEUR",
+          "visiteur": "MONTCEAU",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
         }
       ]
     },
@@ -83562,6 +83839,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503073.jpg",
           "clNo": "1640",
           "slug": "503073-euga-ardziv"
+        },
+        "A. .S. DE L'ESTEREL": {
+          "nom": "A. .S. DE L'ESTEREL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC563802.jpg",
+          "clNo": "172958",
+          "slug": "563802-a-s-de-l-esterel"
+        },
+        "TOULON TREMPLIN": {
+          "nom": "TOULON TREMPLIN",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC582354.jpg",
+          "clNo": "189783",
+          "slug": "582354-toulon-tremplin"
         }
       },
       "stades": {
@@ -83918,6 +84207,13 @@
         "STADE ANGELIN SEGOND_['CHEMIN DES TERRES ROUGES', '83160 LA VALETTE DU VAR']": {
           "nom": "STADE ANGELIN SEGOND",
           "adresse": "CHEMIN DES TERRES ROUGES | 83160 LA VALETTE DU VAR",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DES MANONS_['QUARTIER DES MANONS', '83600 LES ADRETS DE L ESTEREL']": {
+          "nom": "STADE DES MANONS",
+          "adresse": "QUARTIER DES MANONS | 83600 LES ADRETS DE L ESTEREL",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -84616,6 +84912,21 @@
         },
         "SONIA KARAR_A2": {
           "nom": "SONIA KARAR",
+          "role": "Arbitre assistant 2",
+          "role_cod": "A2"
+        },
+        "YASSIN BALLOUTI_AC": {
+          "nom": "YASSIN BALLOUTI",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "WILLIAMS CHAPPUT_A1": {
+          "nom": "WILLIAMS CHAPPUT",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
+        },
+        "ADAME BOUKHARI_A2": {
+          "nom": "ADAME BOUKHARI",
           "role": "Arbitre assistant 2",
           "role_cod": "A2"
         }
@@ -91604,10 +91915,16 @@
           "heure": "11:00",
           "recevant": "A. .S. DE L'ESTEREL",
           "visiteur": "TOULON TREMPLIN",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES MANONS_['QUARTIER DES MANONS', '83600 LES ADRETS DE L ESTEREL']",
+          "officiels": [
+            "YASSIN BALLOUTI_AC",
+            "WILLIAMS CHAPPUT_A1",
+            "ADAME BOUKHARI_A2"
+          ]
         },
         {
           "id": 79506075,
@@ -104128,6 +104445,138 @@
           "officiels": [
             "SOULEIMAN GAOUI_AC"
           ]
+        },
+        {
+          "id": 79586455,
+          "date": "2026-09-26",
+          "heure": "15:00",
+          "recevant": "U.S. PIBRACAISE",
+          "visiteur": "RODEZ AF",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79586466,
+          "date": "2026-09-26",
+          "heure": "15:00",
+          "recevant": "ASM34",
+          "visiteur": "ST GELY-FESC",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79586467,
+          "date": "2026-09-26",
+          "heure": "15:30",
+          "recevant": "NIMES MAS DE MINGUE",
+          "visiteur": "S.PERPIGNAN NORD",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79586446,
+          "date": "2026-09-26",
+          "heure": "16:00",
+          "recevant": "A.S.L.L",
+          "visiteur": "L'U.S.J. FC",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79586448,
+          "date": "2026-09-26",
+          "heure": "16:00",
+          "recevant": "FIGEAC CAPDENAC QFC",
+          "visiteur": "U.S.FRONTON",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79586453,
+          "date": "2026-09-26",
+          "heure": "16:00",
+          "recevant": "SAINT-ORENS F.C.",
+          "visiteur": "US ALBI",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79586464,
+          "date": "2026-09-26",
+          "heure": "16:00",
+          "recevant": "BAILLARGUES ST BRES",
+          "visiteur": "CLERMONTAISE",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79586457,
+          "date": "2026-09-26",
+          "heure": "17:00",
+          "recevant": "LEGUEVIN US",
+          "visiteur": "PAMIERS FC",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79586447,
+          "date": "2026-09-26",
+          "heure": "18:00",
+          "recevant": "REVEL",
+          "visiteur": "MONTAUBAN FC TG",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79586461,
+          "date": "2026-09-26",
+          "heure": "18:00",
+          "recevant": "AF BIARS BRETENOUX",
+          "visiteur": "UJS TOULOUSE",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79586473,
+          "date": "2026-09-26",
+          "heure": "18:00",
+          "recevant": "NIMES OLYMPIQUE",
+          "visiteur": "CASTRIES AV.",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79586474,
+          "date": "2026-09-26",
+          "heure": "18:00",
+          "recevant": "LUNEL GC",
+          "visiteur": "MONT. ATLAS PAILLADE",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
         }
       ]
     },
@@ -131534,7 +131983,7 @@
         {
           "id": 79612350,
           "date": "2026-09-26",
-          "heure": "15:00",
+          "heure": "15:30",
           "recevant": "USON MONDEVILLE",
           "visiteur": "FC ARGENTAN",
           "buts_recevant": null,
@@ -131578,7 +132027,7 @@
         {
           "id": 79612354,
           "date": "2026-09-26",
-          "heure": "15:00",
+          "heure": "15:30",
           "recevant": "ES COUTANCAISE",
           "visiteur": "CS VILLEDIEU",
           "buts_recevant": null,
@@ -131677,7 +132126,7 @@
         {
           "id": 79612363,
           "date": "2026-09-26",
-          "heure": "15:00",
+          "heure": "14:00",
           "recevant": "BAYEUX FC",
           "visiteur": "ST HILAIRE VIREY LAN",
           "buts_recevant": null,
@@ -131754,7 +132203,7 @@
         {
           "id": 79612594,
           "date": "2026-09-26",
-          "heure": "15:00",
+          "heure": "16:00",
           "recevant": "AS DE MONTIVILLIERS",
           "visiteur": "FC DES VILLAGES",
           "buts_recevant": null,
@@ -131985,6 +132434,28 @@
           "officiels": [
             "GABRIEL BLOCH_AC"
           ]
+        },
+        {
+          "id": 79670164,
+          "date": "2026-09-26",
+          "heure": "15:00",
+          "recevant": "GROUPEMENT USL-CSG",
+          "visiteur": "SC FRILEUSE",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79670925,
+          "date": "2026-09-26",
+          "heure": "15:00",
+          "recevant": "CANY FC",
+          "visiteur": "FALAISES DU TALOU",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
         }
       ]
     },
@@ -144476,7 +144947,7 @@
         {
           "id": 79610193,
           "date": "2026-09-26",
-          "heure": "15:00",
+          "heure": "16:15",
           "recevant": "PLOUVORN AG",
           "visiteur": "VANNES OC",
           "buts_recevant": null,
@@ -144498,7 +144969,7 @@
         {
           "id": 79610195,
           "date": "2026-09-26",
-          "heure": "15:00",
+          "heure": "14:00",
           "recevant": "GUIPAVAS COAT AL",
           "visiteur": "DOUARNENEZ STELLA",
           "buts_recevant": null,
@@ -144520,7 +144991,7 @@
         {
           "id": 79610197,
           "date": "2026-09-26",
-          "heure": "15:00",
+          "heure": "14:45",
           "recevant": "US CONCARNEAU",
           "visiteur": "LANNION FC",
           "buts_recevant": null,
@@ -144553,7 +145024,7 @@
         {
           "id": 79610200,
           "date": "2026-09-26",
-          "heure": "15:00",
+          "heure": "16:00",
           "recevant": "US SAINT MALO",
           "visiteur": "REDON ATL VILAINE",
           "buts_recevant": null,
@@ -144608,7 +145079,7 @@
         {
           "id": 79610205,
           "date": "2026-09-26",
-          "heure": "15:00",
+          "heure": "16:00",
           "recevant": "TRELIVAN AS 18",
           "visiteur": "CPB BREQUIGNY RENNES",
           "buts_recevant": null,
@@ -154329,8 +154800,8 @@
         "Stade Gérard Farison-1_['44 AVENUE DU PILAT', '42100 ST ETIENNE']": {
           "nom": "Stade Gérard Farison-1",
           "adresse": "44 AVENUE DU PILAT | 42100 ST ETIENNE",
-          "surface": "Pelouse Naturelle",
-          "surface_jeu": "Pelouse Naturelle",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
         },
         "STADE JOSEPH GUETAT 2_['AVENUE PIERRE DE COUBERTIN', 'TERRAIN ANNEXE 2', '38170 SEYSSINET PARISET']": {
