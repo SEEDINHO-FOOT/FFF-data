@@ -70,6 +70,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500420.jpg",
           "clNo": "505",
           "slug": "500420-r-c-grasse"
+        },
+        "USONAC ST ROCH VN": {
+          "nom": "USONAC ST ROCH VN",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC582699.jpg",
+          "clNo": "192000",
+          "slug": "582699-usonac-st-roch-vn"
+        },
+        "SP.C. MOUANS SARTOUX": {
+          "nom": "SP.C. MOUANS SARTOUX",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC514073.jpg",
+          "clNo": "4395",
+          "slug": "514073-sp-c-mouans-sartoux"
         }
       },
       "stades": {
@@ -107,6 +119,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE LA LAUVETTE N° 4_['PLATEAU SUPERIEUR LA LAUVETTE', 'TERRAIN ASPTT NICE', '06200 NICE']": {
+          "nom": "STADE LA LAUVETTE N° 4",
+          "adresse": "PLATEAU SUPERIEUR LA LAUVETTE | TERRAIN ASPTT NICE | 06200 NICE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -132,6 +151,11 @@
         },
         "ALEXIS BARY_AC": {
           "nom": "ALEXIS BARY",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "MEHDI MENASRI_AC": {
+          "nom": "MEHDI MENASRI",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -434,10 +458,14 @@
           "heure": "17:00",
           "recevant": "USONAC ST ROCH VN",
           "visiteur": "SP.C. MOUANS SARTOUX",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE LA LAUVETTE N° 4_['PLATEAU SUPERIEUR LA LAUVETTE', 'TERRAIN ASPTT NICE', '06200 NICE']",
+          "officiels": [
+            "MEHDI MENASRI_AC"
+          ]
         },
         {
           "id": 56475674,
@@ -684,8 +712,8 @@
         },
         {
           "id": 56475681,
-          "date": "2026-09-26",
-          "heure": "15:30",
+          "date": "2026-09-27",
+          "heure": "17:00",
           "recevant": "USONAC ST ROCH VN",
           "visiteur": "AS FONTONNE ANT",
           "buts_recevant": null,

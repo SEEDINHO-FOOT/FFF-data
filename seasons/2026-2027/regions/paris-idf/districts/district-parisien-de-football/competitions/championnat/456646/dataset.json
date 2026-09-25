@@ -58,6 +58,30 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565135.jpg",
           "clNo": "205061",
           "slug": "565135-co-lutece"
+        },
+        "MFC 1871 2": {
+          "nom": "MFC 1871 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC580887.jpg",
+          "clNo": "180246",
+          "slug": "580887-mfc-1871-2"
+        },
+        "PETITS ANGES ES 2": {
+          "nom": "PETITS ANGES ES 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC546466.jpg",
+          "clNo": "24088",
+          "slug": "546466-petits-anges-es-2"
+        },
+        "ESC XVÈME 2": {
+          "nom": "ESC XVÈME 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC526713.jpg",
+          "clNo": "11022",
+          "slug": "526713-esc-xvEme-2"
+        },
+        "JS PARIS 10 3": {
+          "nom": "JS PARIS 10 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564571.jpg",
+          "clNo": "203877",
+          "slug": "564571-js-paris-10-3"
         }
       },
       "stades": {
@@ -88,6 +112,20 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "Complexe Sportif Louis Lumière N° 1_['30 RUE LOUIS LUMIERE', '75020 PARIS']": {
+          "nom": "Complexe Sportif Louis Lumière N° 1",
+          "adresse": "30 RUE LOUIS LUMIERE | 75020 PARIS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "COMPLEXE SPORTIF DE LA PLAINE_['13 RUE DU GENERAL GUILLAUMAT', '75015 PARIS']": {
+          "nom": "COMPLEXE SPORTIF DE LA PLAINE",
+          "adresse": "13 RUE DU GENERAL GUILLAUMAT | 75015 PARIS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -108,6 +146,16 @@
         },
         "ISMAEL BENJAMIN LATT_AC": {
           "nom": "ISMAEL BENJAMIN LATT",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "JOREL TCHAMGOUE TATCHOM_AC": {
+          "nom": "JOREL TCHAMGOUE TATCHOM",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "Anonyme_AC": {
+          "nom": "Anonyme",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -321,10 +369,14 @@
           "heure": "19:30",
           "recevant": "MFC 1871 2",
           "visiteur": "PETITS ANGES ES 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Complexe Sportif Louis Lumière N° 1_['30 RUE LOUIS LUMIERE', '75020 PARIS']",
+          "officiels": [
+            "JOREL TCHAMGOUE TATCHOM_AC"
+          ]
         },
         {
           "id": 56595413,
@@ -414,10 +466,14 @@
           "heure": "15:00",
           "recevant": "ESC XVÈME 2",
           "visiteur": "JS PARIS 10 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF DE LA PLAINE_['13 RUE DU GENERAL GUILLAUMAT', '75015 PARIS']",
+          "officiels": [
+            "Anonyme_AC"
+          ]
         },
         {
           "id": 56595410,
@@ -663,7 +719,7 @@
         {
           "id": 56595418,
           "date": "2026-09-27",
-          "heure": "15:00",
+          "heure": "13:00",
           "recevant": "PETITS ANGES ES 2",
           "visiteur": "ESC XVÈME 2",
           "buts_recevant": null,
@@ -2054,6 +2110,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564384.jpg",
           "clNo": "201820",
           "slug": "564384-fc-grand-paris-21"
+        },
+        "CO Lutèce 2": {
+          "nom": "CO Lutèce 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565135.jpg",
+          "clNo": "205061",
+          "slug": "565135-co-lutece-2"
+        },
+        "PETITS ANGES ES": {
+          "nom": "PETITS ANGES ES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC546466.jpg",
+          "clNo": "24088",
+          "slug": "546466-petits-anges-es"
         }
       },
       "stades": {
@@ -2070,6 +2138,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "PARC DES SPORTS DU TREMBLAY N°03_['161 BLD STALINGRAD', 'TERRAIN N° 3', '94500 CHAMPIGNY SUR MARNE']": {
+          "nom": "PARC DES SPORTS DU TREMBLAY N°03",
+          "adresse": "161 BLD STALINGRAD | TERRAIN N° 3 | 94500 CHAMPIGNY SUR MARNE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -2085,6 +2160,11 @@
         },
         "SAMI HEDHIRI_AC": {
           "nom": "SAMI HEDHIRI",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "Anonyme_AC": {
+          "nom": "Anonyme",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -2472,10 +2552,14 @@
           "heure": "15:30",
           "recevant": "CO Lutèce 2",
           "visiteur": "PETITS ANGES ES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "PARC DES SPORTS DU TREMBLAY N°03_['161 BLD STALINGRAD', 'TERRAIN N° 3', '94500 CHAMPIGNY SUR MARNE']",
+          "officiels": [
+            "Anonyme_AC"
+          ]
         },
         {
           "id": 56595547,
@@ -2502,7 +2586,7 @@
         {
           "id": 56595549,
           "date": "2026-09-27",
-          "heure": "13:00",
+          "heure": "15:00",
           "recevant": "JS PARIS 10 2",
           "visiteur": "MMFC",
           "buts_recevant": null,

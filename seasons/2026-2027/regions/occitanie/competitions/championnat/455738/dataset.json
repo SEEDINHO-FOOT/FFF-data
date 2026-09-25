@@ -34,6 +34,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC554286.jpg",
           "clNo": "2689",
           "slug": "554286-us-colomiers"
+        },
+        "BLAGNAC": {
+          "nom": "BLAGNAC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC519456.jpg",
+          "clNo": "6329",
+          "slug": "519456-blagnac"
+        },
+        "AGDE RCO": {
+          "nom": "AGDE RCO",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC548146.jpg",
+          "clNo": "25270",
+          "slug": "548146-agde-rco"
         }
       },
       "stades": {
@@ -47,6 +59,13 @@
         "STADE JOSEPH BLANC_['400 AVENUE DE MIREVAL', '34750 VILLENEUVE LES MAGUELONE']": {
           "nom": "STADE JOSEPH BLANC",
           "adresse": "400 AVENUE DE MIREVAL | 34750 VILLENEUVE LES MAGUELONE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "COMPLEXE SPORTIF ANDROMÈDE 5_['CHEMIN DU FERRADOU', '31700 BLAGNAC']": {
+          "nom": "COMPLEXE SPORTIF ANDROMÈDE 5",
+          "adresse": "CHEMIN DU FERRADOU | 31700 BLAGNAC",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -67,6 +86,16 @@
           "nom": "ASSIA SIDI YAKOUB",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "ZOE EGO_AC": {
+          "nom": "ZOE EGO",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "NOURDINE BERQACH_CP": {
+          "nom": "NOURDINE BERQACH",
+          "role": "Observateur principal",
+          "role_cod": "CP"
         }
       },
       "joueurs": {
@@ -198,10 +227,15 @@
           "heure": "14:00",
           "recevant": "BLAGNAC",
           "visiteur": "AGDE RCO",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 18,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF ANDROMÈDE 5_['CHEMIN DU FERRADOU', '31700 BLAGNAC']",
+          "officiels": [
+            "ZOE EGO_AC",
+            "NOURDINE BERQACH_CP"
+          ]
         },
         {
           "id": 79068875,

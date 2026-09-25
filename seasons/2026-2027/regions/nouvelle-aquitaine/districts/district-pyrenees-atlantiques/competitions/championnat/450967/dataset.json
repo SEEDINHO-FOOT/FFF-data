@@ -2250,6 +2250,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565976.jpg",
           "clNo": "206526",
           "slug": "565976-mbfc-2"
+        },
+        "ENT. GAN UJ USOF": {
+          "nom": "ENT. GAN UJ USOF",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC533039.jpg",
+          "clNo": "15316",
+          "slug": "533039-ent-gan-uj-usof"
         }
       },
       "stades": {
@@ -2273,6 +2279,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_[\"Place d'Anchet\", '4, rue du Stade', '64400 GURMENCON']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "Place d'Anchet | 4, rue du Stade | 64400 GURMENCON",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -2283,6 +2296,11 @@
         },
         "THEO GARCIA SIMON_AC": {
           "nom": "THEO GARCIA SIMON",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ADAM EL JADIRI_AC": {
+          "nom": "ADAM EL JADIRI",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -2661,10 +2679,14 @@
           "heure": "15:30",
           "recevant": "ENT. EHB / ASL",
           "visiteur": "ENT. GAN UJ USOF",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_[\"Place d'Anchet\", '4, rue du Stade', '64400 GURMENCON']",
+          "officiels": [
+            "ADAM EL JADIRI_AC"
+          ]
         },
         {
           "id": 79103068,
@@ -2681,7 +2703,7 @@
         {
           "id": 79103069,
           "date": "2026-09-26",
-          "heure": "15:30",
+          "heure": "15:00",
           "recevant": "ENT. GAN UJ USOF",
           "visiteur": "CASTETIS GOUZE US",
           "buts_recevant": null,

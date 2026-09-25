@@ -22,12 +22,50 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC512981.jpg",
           "clNo": "4128",
           "slug": "512981-ent-coc-passais-and"
+        },
+        "ES PLAIN": {
+          "nom": "ES PLAIN",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC563667.jpg",
+          "clNo": "172699",
+          "slug": "563667-es-plain"
+        },
+        "SM HAYTILLON": {
+          "nom": "SM HAYTILLON",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC510449.jpg",
+          "clNo": "3622",
+          "slug": "510449-sm-haytillon"
+        },
+        "FC DIGOSVILLE": {
+          "nom": "FC DIGOSVILLE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC534781.jpg",
+          "clNo": "16398",
+          "slug": "534781-fc-digosville"
+        },
+        "US COTE DES ILES": {
+          "nom": "US COTE DES ILES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC548912.jpg",
+          "clNo": "25831",
+          "slug": "548912-us-cote-des-iles"
         }
       },
       "stades": {
         "PARC DES SPORTS & LOISIRS 2_['LA METAIRIE', ' RUE MAXIME DE CONIAC', '50240 ST JAMES']": {
           "nom": "PARC DES SPORTS & LOISIRS 2",
           "adresse": "LA METAIRIE |  RUE MAXIME DE CONIAC | 50240 ST JAMES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE GUY VIGIER 2_['LE LONG BOIS', 'RUE DE LA MORLANDE', '50360 PICAUVILLE']": {
+          "nom": "STADE GUY VIGIER 2",
+          "adresse": "LE LONG BOIS | RUE DE LA MORLANDE | 50360 PICAUVILLE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['5 CHEMIN DU STADE', '50110 DIGOSVILLE']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "5 CHEMIN DU STADE | 50110 DIGOSVILLE",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -142,10 +180,11 @@
           "heure": "16:00",
           "recevant": "FC DIGOSVILLE",
           "visiteur": "US COTE DES ILES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['5 CHEMIN DU STADE', '50110 DIGOSVILLE']"
         },
         {
           "id": 79631805,
@@ -164,10 +203,11 @@
           "heure": "15:00",
           "recevant": "ES PLAIN",
           "visiteur": "SM HAYTILLON",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GUY VIGIER 2_['LE LONG BOIS', 'RUE DE LA MORLANDE', '50360 PICAUVILLE']"
         },
         {
           "id": 79631807,
@@ -692,6 +732,17 @@
           "heure": "15:00",
           "recevant": "FC AVRAIS NONANCOURT",
           "visiteur": "CS LES ANDELYS",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79632512,
+          "date": "2026-09-27",
+          "heure": "13:00",
+          "recevant": "SAINT SEBASTIEN FOOT",
+          "visiteur": "FC EURE MADRIE SEINE",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,

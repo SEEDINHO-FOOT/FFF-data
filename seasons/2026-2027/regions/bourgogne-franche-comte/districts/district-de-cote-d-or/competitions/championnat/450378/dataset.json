@@ -126,7 +126,7 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "à venir"
+          "statut": "reporté"
         },
         {
           "id": 79566229,
@@ -645,6 +645,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC528772.jpg",
           "clNo": "12395",
           "slug": "528772-dijon-u-l-f-e-2"
+        },
+        "ENT.USSE ST REMY 1": {
+          "nom": "ENT.USSE ST REMY 1",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC550839.jpg",
+          "clNo": "105090",
+          "slug": "550839-ent-usse-st-remy-1"
+        },
+        "FCJM DIJON": {
+          "nom": "FCJM DIJON",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC681034.jpg",
+          "clNo": "181407",
+          "slug": "681034-fcjm-dijon"
         }
       },
       "stades": {
@@ -672,6 +684,13 @@
         "Stade Du Suaps 2 Synthétique_[' AVENUE DU 21E SIECLE', '21000 DIJON']": {
           "nom": "Stade Du Suaps 2 Synthétique",
           "adresse": " AVENUE DU 21E SIECLE | 21000 DIJON",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['RUE DU STADE', '21460 EPOISSES']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "RUE DU STADE | 21460 EPOISSES",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -780,10 +799,11 @@
           "heure": "14:30",
           "recevant": "ENT.USSE ST REMY 1",
           "visiteur": "FCJM DIJON",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['RUE DU STADE', '21460 EPOISSES']"
         },
         {
           "id": 79567408,
@@ -1315,6 +1335,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC516657.jpg",
           "clNo": "5107",
           "slug": "516657-auxonnais-c-s"
+        },
+        "CHAMPDOTRE LONGEAULT 2": {
+          "nom": "CHAMPDOTRE LONGEAULT 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC553297.jpg",
+          "clNo": "129403",
+          "slug": "553297-champdotre-longeault-2"
+        },
+        "NEUILLY CRIM SENNECE 2": {
+          "nom": "NEUILLY CRIM SENNECE 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560501.jpg",
+          "clNo": "197189",
+          "slug": "560501-neuilly-crim-sennece-2"
         }
       },
       "stades": {
@@ -1330,6 +1362,13 @@
           "adresse": "5 AVENUE DU 8 MAI 1945 | TERRAIN ANNEXE 2 | 21800 QUETIGNY",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE NAVILLON_['Rue du stade', '21130 CHAMPDOTRE']": {
+          "nom": "STADE NAVILLON",
+          "adresse": "Rue du stade | 21130 CHAMPDOTRE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
         }
       },
@@ -1363,8 +1402,8 @@
           "heure": "12:00",
           "recevant": "QUETIGNY AS",
           "visiteur": "AUXONNAIS C.S.",
-          "buts_recevant": 3,
-          "buts_visiteur": 0,
+          "buts_recevant": 17,
+          "buts_visiteur": 1,
           "joue": true,
           "statut": "joué",
           "stade_id": "STADE DES CÈDRES 3_['5 AVENUE DU 8 MAI 1945', 'TERRAIN ANNEXE 2', '21800 QUETIGNY']"
@@ -1375,10 +1414,11 @@
           "heure": "13:00",
           "recevant": "CHAMPDOTRE LONGEAULT 2",
           "visiteur": "NEUILLY CRIM SENNECE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 11,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE NAVILLON_['Rue du stade', '21130 CHAMPDOTRE']"
         },
         {
           "id": 79566669,
@@ -1434,8 +1474,8 @@
           "id": 79566565,
           "date": "2026-09-26",
           "heure": "13:30",
-          "recevant": "NEUILLY CRIM SENNECE 2",
-          "visiteur": "MIR PONT LAM  FC 2",
+          "recevant": "MIR PONT LAM  FC 2",
+          "visiteur": "NEUILLY CRIM SENNECE 2",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
@@ -1953,6 +1993,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE DES LAUCHÈRES 1_[' CHEMIN DES LAUCHERES', '21550 LADOIX SERRIGNY']": {
+          "nom": "STADE DES LAUCHÈRES 1",
+          "adresse": " CHEMIN DES LAUCHERES | 21550 LADOIX SERRIGNY",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -2045,10 +2092,11 @@
           "heure": "14:00",
           "recevant": "FC2C",
           "visiteur": "GRESILLES F.C 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES LAUCHÈRES 1_[' CHEMIN DES LAUCHERES', '21550 LADOIX SERRIGNY']"
         },
         {
           "id": 79567456,

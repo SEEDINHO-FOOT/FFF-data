@@ -46,6 +46,42 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC615114.jpg",
           "clNo": "32293",
           "slug": "615114-com-bastelica"
+        },
+        "AFA FE": {
+          "nom": "AFA FE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC666000.jpg",
+          "clNo": "206554",
+          "slug": "666000-afa-fe"
+        },
+        "USC": {
+          "nom": "USC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC664846.jpg",
+          "clNo": "203848",
+          "slug": "664846-usc"
+        },
+        "AJA": {
+          "nom": "AJA",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC664416.jpg",
+          "clNo": "201886",
+          "slug": "664416-aja"
+        },
+        "VAL. PRUNELLI": {
+          "nom": "VAL. PRUNELLI",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC661058.jpg",
+          "clNo": "200559",
+          "slug": "661058-val-prunelli"
+        },
+        "A.S.CALCATOGGIO": {
+          "nom": "A.S.CALCATOGGIO",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC650374.jpg",
+          "clNo": "179486",
+          "slug": "650374-a-s-calcatoggio"
+        },
+        "FC FINUSELLU": {
+          "nom": "FC FINUSELLU",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC666005.jpg",
+          "clNo": "206565",
+          "slug": "666005-fc-finusellu"
         }
       },
       "stades": {
@@ -59,6 +95,13 @@
         "STADE ANGE CAMILLI_['MEZZAVIA', 'ROUTE DU STILETTO - D31', '20167 MEZZAVIA']": {
           "nom": "STADE ANGE CAMILLI",
           "adresse": "MEZZAVIA | ROUTE DU STILETTO - D31 | 20167 MEZZAVIA",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_[' CASA MARTINU', '20167 AFA']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": " CASA MARTINU | 20167 AFA",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -215,6 +258,26 @@
           "nom": "SERGE A.",
           "maillot": 25,
           "club": "SQUADRA AIACCINA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt7lSckm7U": {
+          "nom": "HUGO G.",
+          "maillot": 9,
+          "club": "A.S.CALCATOGGIO"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx5lSYinLA": {
+          "nom": "DENIS D.",
+          "maillot": 7,
+          "club": "A.S.CALCATOGGIO"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt-lyctmbU": {
+          "nom": "PIERRE LOUIS M.",
+          "maillot": 13,
+          "club": "A.S.CALCATOGGIO"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlKHa15ky4inLI": {
+          "nom": "SEBASTIANU V.",
+          "maillot": 13,
+          "club": "FC FINUSELLU"
         }
       },
       "matchs": [
@@ -457,10 +520,11 @@
           "heure": "21:00",
           "recevant": "AFA FE",
           "visiteur": "USC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_[' CASA MARTINU', '20167 AFA']"
         },
         {
           "id": 79394409,
@@ -468,10 +532,11 @@
           "heure": "21:00",
           "recevant": "AJA",
           "visiteur": "VAL. PRUNELLI",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ANGE CAMILLI_['MEZZAVIA', 'ROUTE DU STILETTO - D31', '20167 MEZZAVIA']"
         },
         {
           "id": 79394406,
@@ -479,10 +544,55 @@
           "heure": "21:30",
           "recevant": "A.S.CALCATOGGIO",
           "visiteur": "FC FINUSELLU",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 21,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt7lSckm7U",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 27,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx5lSYinLA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 36,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt7lSckm7U",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 60,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx5lSYinLA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 77,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt-lyctmbU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 81,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlKHa15ky4inLI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 86,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt7lSckm7U",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE ANGE CAMILLI_['MEZZAVIA', 'ROUTE DU STILETTO - D31', '20167 MEZZAVIA']"
         },
         {
           "id": 79394417,

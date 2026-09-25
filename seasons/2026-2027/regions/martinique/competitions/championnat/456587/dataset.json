@@ -2296,12 +2296,31 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC526709.jpg",
           "clNo": "11019",
           "slug": "526709-effort"
+        },
+        "ETENDARD": {
+          "nom": "ETENDARD",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC516231.jpg",
+          "clNo": "4986",
+          "slug": "516231-etendard"
+        },
+        "RC BOKANNAL": {
+          "nom": "RC BOKANNAL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564409.jpg",
+          "clNo": "201875",
+          "slug": "564409-rc-bokannal"
         }
       },
       "stades": {
         "STADE DE TARTANE_['POINTE DE TARTANE', '97220 LA TRINITE']": {
           "nom": "STADE DE TARTANE",
           "adresse": "POINTE DE TARTANE | 97220 LA TRINITE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['QUARTIER BELLE EVENT', '97226 LE MORNE VERT']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "QUARTIER BELLE EVENT | 97226 LE MORNE VERT",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -2325,6 +2344,26 @@
         },
         "JULES ETIENNE MONTROP HIPPOLYTE_DP": {
           "nom": "JULES ETIENNE MONTROP HIPPOLYTE",
+          "role": "Délégué principal",
+          "role_cod": "DP"
+        },
+        "THEODORE FAUSTIN MONIQUE_AC": {
+          "nom": "THEODORE FAUSTIN MONIQUE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "LOIC LUCIEN QUIQUELY_A1": {
+          "nom": "LOIC LUCIEN QUIQUELY",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
+        },
+        "FREDERIC LINISE_A2": {
+          "nom": "FREDERIC LINISE",
+          "role": "Arbitre assistant 2",
+          "role_cod": "A2"
+        },
+        "FRANTZ SAINT JUST_DP": {
+          "nom": "FRANTZ SAINT JUST",
           "role": "Délégué principal",
           "role_cod": "DP"
         }
@@ -2497,10 +2536,17 @@
           "heure": "15:30",
           "recevant": "ETENDARD",
           "visiteur": "RC BOKANNAL",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['QUARTIER BELLE EVENT', '97226 LE MORNE VERT']",
+          "officiels": [
+            "THEODORE FAUSTIN MONIQUE_AC",
+            "LOIC LUCIEN QUIQUELY_A1",
+            "FREDERIC LINISE_A2",
+            "FRANTZ SAINT JUST_DP"
+          ]
         },
         {
           "id": 55707944,
@@ -2515,8 +2561,8 @@
         },
         {
           "id": 55707945,
-          "date": "2026-09-26",
-          "heure": "15:30",
+          "date": "2026-09-25",
+          "heure": "20:00",
           "recevant": "ASCEF",
           "visiteur": "J.S. MARIGOT",
           "buts_recevant": null,

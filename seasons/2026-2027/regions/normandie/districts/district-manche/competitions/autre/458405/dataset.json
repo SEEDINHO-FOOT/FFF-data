@@ -202,6 +202,20 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "PARC DES SPORTS & LOISIRS 2_['LA METAIRIE', ' RUE MAXIME DE CONIAC', '50240 ST JAMES']": {
+          "nom": "PARC DES SPORTS & LOISIRS 2",
+          "adresse": "LA METAIRIE |  RUE MAXIME DE CONIAC | 50240 ST JAMES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE DU DOCTEUR MARQUEZ_['1 LE MARAIS', 'TERRAIN ANNEXE', '50230 AGON COUTAINVILLE']": {
+          "nom": "STADE DU DOCTEUR MARQUEZ",
+          "adresse": "1 LE MARAIS | TERRAIN ANNEXE | 50230 AGON COUTAINVILLE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -232,6 +246,16 @@
         },
         "NOA GUISLAIN MARIE_AC": {
           "nom": "NOA GUISLAIN MARIE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "LUC TESNIERE_AC": {
+          "nom": "LUC TESNIERE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "STANISLAS POCZATEK_AC": {
+          "nom": "STANISLAS POCZATEK",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -872,10 +896,14 @@
           "heure": "15:00",
           "recevant": "PATRIOTE TERREGATTE",
           "visiteur": "CS VILLEDIEU",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "PARC DES SPORTS & LOISIRS 2_['LA METAIRIE', ' RUE MAXIME DE CONIAC', '50240 ST JAMES']",
+          "officiels": [
+            "LUC TESNIERE_AC"
+          ]
         },
         {
           "id": 79664994,
@@ -902,7 +930,7 @@
         {
           "id": 79664996,
           "date": "2026-09-26",
-          "heure": "15:00",
+          "heure": "13:00",
           "recevant": "ES COUTANCAISE",
           "visiteur": "ENT. ESPH / VALOGNES",
           "buts_recevant": null,
@@ -960,10 +988,14 @@
           "heure": "15:00",
           "recevant": "FC AGON COUTAINVILLE",
           "visiteur": "PL OCTEVILLE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DU DOCTEUR MARQUEZ_['1 LE MARAIS', 'TERRAIN ANNEXE', '50230 AGON COUTAINVILLE']",
+          "officiels": [
+            "STANISLAS POCZATEK_AC"
+          ]
         }
       ]
     }

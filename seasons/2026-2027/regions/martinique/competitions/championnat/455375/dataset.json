@@ -46,6 +46,30 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC513648.jpg",
           "clNo": "4266",
           "slug": "513648-aiglon"
+        },
+        "R.C. RIVIÈRE PILOTE": {
+          "nom": "R.C. RIVIÈRE PILOTE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC519126.jpg",
+          "clNo": "6210",
+          "slug": "519126-r-c-riviEre-pilote"
+        },
+        "GOLDEN LION FC": {
+          "nom": "GOLDEN LION FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC520004.jpg",
+          "clNo": "6664",
+          "slug": "520004-golden-lion-fc"
+        },
+        "U.S. ROBERT": {
+          "nom": "U.S. ROBERT",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC513596.jpg",
+          "clNo": "4255",
+          "slug": "513596-u-s-robert"
+        },
+        "C. COLONIAL": {
+          "nom": "C. COLONIAL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC513588.jpg",
+          "clNo": "4249",
+          "slug": "513588-c-colonial"
         }
       },
       "stades": {
@@ -69,11 +93,30 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "Stade Alfred Marie jeanne_['CITE CAMEE', '97211 RIVIERE PILOTE']": {
+          "nom": "Stade Alfred Marie jeanne",
+          "adresse": "CITE CAMEE | 97211 RIVIERE PILOTE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE GEORGES SPITZ_['RUE DU COURBARIL', '97231 LE ROBERT']": {
+          "nom": "STADE GEORGES SPITZ",
+          "adresse": "RUE DU COURBARIL | 97231 LE ROBERT",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
         "SOHAN MARIAN_AC": {
           "nom": "SOHAN MARIAN",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "SORAN BRIGITTE_AC": {
+          "nom": "SORAN BRIGITTE",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -477,10 +520,14 @@
           "heure": "07:30",
           "recevant": "R.C. RIVIÈRE PILOTE",
           "visiteur": "GOLDEN LION FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Alfred Marie jeanne_['CITE CAMEE', '97211 RIVIERE PILOTE']",
+          "officiels": [
+            "SORAN BRIGITTE_AC"
+          ]
         },
         {
           "id": 79070082,
@@ -488,10 +535,12 @@
           "heure": "07:30",
           "recevant": "U.S. ROBERT",
           "visiteur": "C. COLONIAL",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GEORGES SPITZ_['RUE DU COURBARIL', '97231 LE ROBERT']",
+          "tirs_au_but": true
         },
         {
           "id": 79070083,
@@ -2195,9 +2244,36 @@
     {
       "cp_slug": "455375-championnat-u17/phase/1/7",
       "competition": "Championnat U17",
-      "clubs": {},
-      "stades": {},
-      "officiels": {},
+      "clubs": {
+        "REVEIL SPORTIF": {
+          "nom": "REVEIL SPORTIF",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC513592.jpg",
+          "clNo": "4252",
+          "slug": "513592-reveil-sportif"
+        },
+        "RAPID CLUB": {
+          "nom": "RAPID CLUB",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC517046.jpg",
+          "clNo": "5239",
+          "slug": "517046-rapid-club"
+        }
+      },
+      "stades": {
+        "Complexe sportif de rivière-lézarde_[' QUARTIER RIVIERE LEZARDE 1', '97213 GROS MORNE']": {
+          "nom": "Complexe sportif de rivière-lézarde",
+          "adresse": " QUARTIER RIVIERE LEZARDE 1 | 97213 GROS MORNE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
+      "officiels": {
+        "THOMAS NICOLAS DACLINAT_AC": {
+          "nom": "THOMAS NICOLAS DACLINAT",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        }
+      },
       "joueurs": {},
       "matchs": [
         {
@@ -2206,10 +2282,14 @@
           "heure": "07:30",
           "recevant": "REVEIL SPORTIF",
           "visiteur": "RAPID CLUB",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Complexe sportif de rivière-lézarde_[' QUARTIER RIVIERE LEZARDE 1', '97213 GROS MORNE']",
+          "officiels": [
+            "THOMAS NICOLAS DACLINAT_AC"
+          ]
         },
         {
           "id": 79560069,

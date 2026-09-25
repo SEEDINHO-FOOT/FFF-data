@@ -152,6 +152,11 @@
           "nom": "MATHIAS POREE",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "LEO DUVAL_AC": {
+          "nom": "LEO DUVAL",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -509,6 +514,41 @@
           "nom": "LEO J.",
           "maillot": 13,
           "club": "AVT G. CAEN FOOTBALL"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK12my4tlrM": {
+          "nom": "EDEN C.",
+          "maillot": 7,
+          "club": "AS PTT CAEN"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK18kC8km7c": {
+          "nom": "HUGUES H.",
+          "maillot": 5,
+          "club": "AGNEAUX FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt5ky8ilrM": {
+          "nom": "JANILSON D.",
+          "maillot": 4,
+          "club": "AGNEAUX FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt7mysmnLE": {
+          "nom": "ADAM C.",
+          "maillot": 9,
+          "club": "AGNEAUX FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK13kS0tmLU": {
+          "nom": "NATNAEL T.",
+          "maillot": 13,
+          "club": "AGNEAUX FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK13kyskmrQ": {
+          "nom": "MAEL S.",
+          "maillot": 11,
+          "club": "AGNEAUX FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16lyckm7I": {
+          "nom": "JOSEPH L.",
+          "maillot": 14,
+          "club": "AGNEAUX FC"
         }
       },
       "matchs": [
@@ -1057,10 +1097,82 @@
           "heure": "15:30",
           "recevant": "AGNEAUX FC",
           "visiteur": "AS PTT CAEN",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 6,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK14lSYsnr4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK13my0knLY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 30,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12my4tlrM",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 32,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK18kC8km7c",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK19mycll7U",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK15lyoklrI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12kSklmrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK19lS4mmbc",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 48,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt5ky8ilrM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK17lSwnnLQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 60,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7mysmnLE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK13kS0tmLU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 65,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK13kyskmrQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK16lyckm7I",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 80,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK17ly4lnrY",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE DE LA FALAISE 1_['94 ROUTE DE COUTANCES', '50180 AGNEAUX']",
+          "officiels": [
+            "LEO DUVAL_AC"
+          ]
         },
         {
           "id": 79380130,
@@ -2980,7 +3092,7 @@
         {
           "id": 56392234,
           "date": "2026-09-26",
-          "heure": "15:30",
+          "heure": "14:00",
           "recevant": "AS VERSON",
           "visiteur": "CA LISIEUX PA",
           "buts_recevant": null,

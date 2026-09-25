@@ -58,6 +58,30 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC523264.jpg",
           "clNo": "8738",
           "slug": "523264-paris-13-atletico-2"
+        },
+        "AFP 18 2": {
+          "nom": "AFP 18 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC581402.jpg",
+          "clNo": "183689",
+          "slug": "581402-afp-18-2"
+        },
+        "PARIS UNIVERS. CLUB 2": {
+          "nom": "PARIS UNIVERS. CLUB 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500025.jpg",
+          "clNo": "175",
+          "slug": "500025-paris-univers-club-2"
+        },
+        "PARIS 19E ANTILLAIS": {
+          "nom": "PARIS 19E ANTILLAIS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC540374.jpg",
+          "clNo": "20425",
+          "slug": "540374-paris-19e-antillais"
+        },
+        "MACCABI PARIS METRO 2": {
+          "nom": "MACCABI PARIS METRO 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC563601.jpg",
+          "clNo": "172434",
+          "slug": "563601-maccabi-paris-metro-2"
         }
       },
       "stades": {
@@ -88,6 +112,20 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "Stade Poissonniers N° 2_['2 RUE JEAN COCTEAU', 'TERRAIN ANNEXE', '75018 PARIS']": {
+          "nom": "Stade Poissonniers N° 2",
+          "adresse": "2 RUE JEAN COCTEAU | TERRAIN ANNEXE | 75018 PARIS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "PARC DES SPORTS INTERDÉPART N°03_['40/102, AV. DIVISION LECLERC', 'TERRAIN 3', '93000 BOBIGNY']": {
+          "nom": "PARC DES SPORTS INTERDÉPART N°03",
+          "adresse": "40/102, AV. DIVISION LECLERC | TERRAIN 3 | 93000 BOBIGNY",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -103,6 +141,16 @@
         },
         "MOUHAMMAD ANES BENKHOUFACHE_AC": {
           "nom": "MOUHAMMAD ANES BENKHOUFACHE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "Anonyme_AC": {
+          "nom": "Anonyme",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "AYMEN ZKAZKA_AC": {
+          "nom": "AYMEN ZKAZKA",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -241,10 +289,14 @@
           "heure": "11:00",
           "recevant": "AFP 18 2",
           "visiteur": "PARIS UNIVERS. CLUB 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 11,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Poissonniers N° 2_['2 RUE JEAN COCTEAU', 'TERRAIN ANNEXE', '75018 PARIS']",
+          "officiels": [
+            "Anonyme_AC"
+          ]
         },
         {
           "id": 56703521,
@@ -372,10 +424,14 @@
           "heure": "13:00",
           "recevant": "PARIS 19E ANTILLAIS",
           "visiteur": "MACCABI PARIS METRO 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "PARC DES SPORTS INTERDÉPART N°03_['40/102, AV. DIVISION LECLERC', 'TERRAIN 3', '93000 BOBIGNY']",
+          "officiels": [
+            "AYMEN ZKAZKA_AC"
+          ]
         },
         {
           "id": 56703522,

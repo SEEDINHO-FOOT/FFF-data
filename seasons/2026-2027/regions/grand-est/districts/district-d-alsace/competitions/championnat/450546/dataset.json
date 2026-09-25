@@ -58,6 +58,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500204.jpg",
           "clNo": "330",
           "slug": "500204-bischwiller-fc"
+        },
+        "USAO 2": {
+          "nom": "USAO 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC566175.jpg",
+          "clNo": "206836",
+          "slug": "566175-usao-2"
         }
       },
       "stades": {
@@ -102,6 +108,20 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "TERRAIN SYNTHÉTIQUE DU COMPLEXE SPORTIF_['RUE DU STADE', 'TERRAIN ANNEXE 1', '67490 DETTWILLER']": {
+          "nom": "TERRAIN SYNTHÉTIQUE DU COMPLEXE SPORTIF",
+          "adresse": "RUE DU STADE | TERRAIN ANNEXE 1 | 67490 DETTWILLER",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE PAUL WEBER 1_['ZONE DE LOISIRS DU MONTROUGE', 'RUE DES ABRICOTIERS', '67110 NIEDERBRONN LES BAINS']": {
+          "nom": "STADE PAUL WEBER 1",
+          "adresse": "ZONE DE LOISIRS DU MONTROUGE | RUE DES ABRICOTIERS | 67110 NIEDERBRONN LES BAINS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -117,6 +137,11 @@
         },
         "TRISTAN LEVEQUE GARCIA_AC": {
           "nom": "TRISTAN LEVEQUE GARCIA",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "FABIEN ADOLFF_AC": {
+          "nom": "FABIEN ADOLFF",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -189,7 +214,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd6lSYjmrA": {
           "nom": "NOLHAN B.",
-          "maillot": 14,
+          "maillot": 8,
           "club": "DURRENBACH F.C 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh5kC0nmbI": {
@@ -366,6 +391,31 @@
           "nom": "LOIC F.",
           "maillot": 14,
           "club": "BETSCHDORF ENT SJSB"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp_ky8inLE": {
+          "nom": "GABRIEL T.",
+          "maillot": 3,
+          "club": "USAO 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK18lSsgmbQ": {
+          "nom": "LEON S.",
+          "maillot": 13,
+          "club": "DURRENBACH F.C 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd8kCwll7M": {
+          "nom": "NOLAN T.",
+          "maillot": 14,
+          "club": "DURRENBACH F.C 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19mycjl7Q": {
+          "nom": "ANTONY A.",
+          "maillot": 10,
+          "club": "DURRENBACH F.C 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh3lCYimr8": {
+          "nom": "MATHIS G.",
+          "maillot": 12,
+          "club": "DURRENBACH F.C 2"
         }
       },
       "matchs": [
@@ -708,15 +758,50 @@
           "heure": "16:00",
           "recevant": "USAO 2",
           "visiteur": "DURRENBACH F.C 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 7,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp_ky8inLE",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 24,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12misnmLI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK18lSsgmbQ",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 24,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6lSYjmrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8kCwll7M",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 32,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK19mycjl7Q",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3lCYimr8",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "TERRAIN SYNTHÉTIQUE DU COMPLEXE SPORTIF_['RUE DU STADE', 'TERRAIN ANNEXE 1', '67490 DETTWILLER']",
+          "officiels": [
+            "FABIEN ADOLFF_AC"
+          ]
         },
         {
           "id": 56450612,
           "date": "2026-09-26",
-          "heure": "13:00",
+          "heure": "14:30",
           "recevant": "A2HM 2",
           "visiteur": "BETSCHDORF ENT SJSB",
           "buts_recevant": null,
@@ -730,10 +815,11 @@
           "heure": "16:00",
           "recevant": "NIEDERBRONN ALVN",
           "visiteur": "USAO 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PAUL WEBER 1_['ZONE DE LOISIRS DU MONTROUGE', 'RUE DES ABRICOTIERS', '67110 NIEDERBRONN LES BAINS']"
         },
         {
           "id": 56450610,
@@ -1145,6 +1231,13 @@
         "STADE ZONE DE LOISIRS_[' RUE DU MOULIN', '67205 OBERHAUSBERGEN']": {
           "nom": "STADE ZONE DE LOISIRS",
           "adresse": " RUE DU MOULIN | 67205 OBERHAUSBERGEN",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "ESP. FOOTBALLISTIQUE L. SPECHT 2_['20 RUE STRIETH', '67500 WEITBRUCH']": {
+          "nom": "ESP. FOOTBALLISTIQUE L. SPECHT 2",
+          "adresse": "20 RUE STRIETH | 67500 WEITBRUCH",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -1856,10 +1949,11 @@
           "heure": "17:30",
           "recevant": "ALLIANCE BASSE ZORN 2",
           "visiteur": "HOHEN WILLGO ENT 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "ESP. FOOTBALLISTIQUE L. SPECHT 2_['20 RUE STRIETH', '67500 WEITBRUCH']"
         },
         {
           "id": 56450655,
@@ -8582,27 +8676,10 @@
           "heure": "16:00",
           "recevant": "HUNINGUE A.S",
           "visiteur": "SCHLIERBACH A.S.",
-          "buts_recevant": 0,
-          "buts_visiteur": 5,
-          "joue": true,
-          "statut": "joué",
-          "moments": [
-            {
-              "minute": 20,
-              "type": "remplacement",
-              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9ly4gl7A",
-              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9lS8tnL8",
-              "club_type": "visiteur"
-            },
-            {
-              "minute": 70,
-              "type": "remplacement",
-              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_ki0gmLQ",
-              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx9kioln7M",
-              "club_type": "visiteur"
-            }
-          ],
-          "stade_id": "STADE MUNICIPAL 2_['HR 3/3', 'RUE DE MICHELFELDEN', 'TERRAIN ANNEXE', '68330 HUNINGUE']"
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "réserve"
         },
         {
           "id": 56451608,
