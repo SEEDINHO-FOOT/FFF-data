@@ -22,6 +22,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC563663.jpg",
           "clNo": "172695",
           "slug": "563663-croix-fic"
+        },
+        "VUC": {
+          "nom": "VUC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565921.jpg",
+          "clNo": "206443",
+          "slug": "565921-vuc"
+        },
+        "ASSEVENT BOUSSOIS US": {
+          "nom": "ASSEVENT BOUSSOIS US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500900.jpg",
+          "clNo": "745",
+          "slug": "500900-assevent-boussois-us"
         }
       },
       "stades": {
@@ -30,6 +42,13 @@
           "adresse": " BOULEVARD DU GENERAL MAISTRE | 62290 NOEUX LES MINES",
           "surface": "Parquet",
           "surface_jeu": "Parquet",
+          "type_installation": "Futsal"
+        },
+        "GYMNASE LOUISE D’EPINAY_[' RES UNVT JULES MOUSSERON', '59300 AULNOY LEZ VALENCIENNES']": {
+          "nom": "GYMNASE LOUISE D’EPINAY",
+          "adresse": " RES UNVT JULES MOUSSERON | 59300 AULNOY LEZ VALENCIENNES",
+          "surface": "Lino",
+          "surface_jeu": "Lino",
           "type_installation": "Futsal"
         }
       },
@@ -43,9 +62,65 @@
           "nom": "JEREMY DUFOUR",
           "role": "Arbitre assistant 1",
           "role_cod": "A1"
+        },
+        "PASCAL LANGLET_AC": {
+          "nom": "PASCAL LANGLET",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKpNEKl3kCgimbI": {
+          "nom": "SLAVIKA V.",
+          "maillot": 5,
+          "club": "VUC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh7my4llrI": {
+          "nom": "MANON M.",
+          "maillot": 10,
+          "club": "VUC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh3liksnbc": {
+          "nom": "ELOISE M.",
+          "maillot": 8,
+          "club": "VUC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp-lSwsn7A": {
+          "nom": "MARGAUX B.",
+          "maillot": 6,
+          "club": "VUC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt7lSgkn7E": {
+          "nom": "SAHRA O.",
+          "maillot": 12,
+          "club": "ASSEVENT BOUSSOIS US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx2kywjlrc": {
+          "nom": "CHARLOTTE D.",
+          "maillot": 11,
+          "club": "ASSEVENT BOUSSOIS US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl6mi0tm7Y": {
+          "nom": "CELESTE P.",
+          "maillot": 7,
+          "club": "VUC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh4lC8hl7I": {
+          "nom": "KASSY D.",
+          "maillot": 3,
+          "club": "VUC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh8lC0mlrY": {
+          "nom": "CAMILLE D.",
+          "maillot": 2,
+          "club": "VUC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh4lykgnLM": {
+          "nom": "LAURIANNE V.",
+          "maillot": 9,
+          "club": "VUC"
+        }
+      },
       "matchs": [
         {
           "id": 79539887,
@@ -72,7 +147,7 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "à venir"
+          "statut": "reporté"
         },
         {
           "id": 79539662,
@@ -80,17 +155,107 @@
           "heure": "20:00",
           "recevant": "VUC",
           "visiteur": "ASSEVENT BOUSSOIS US",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 3,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl3kCgimbI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 4,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh7my4llrI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 7,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3liksnbc",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 11,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl3kCgimbI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh7my4llrI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 12,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl3kCgimbI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKp-lSwsn7A",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 12,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt7lSgkn7E",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx2kywjlrc",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 13,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl6mi0tm7Y",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 17,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl3kCgimbI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 21,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4lC8hl7I",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 23,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4lC8hl7I",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl6mi0tm7Y",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 25,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl3kCgimbI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh8lC0mlrY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4lykgnLM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 32,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4lC8hl7I",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3liksnbc",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "GYMNASE LOUISE D’EPINAY_[' RES UNVT JULES MOUSSERON', '59300 AULNOY LEZ VALENCIENNES']",
+          "officiels": [
+            "PASCAL LANGLET_AC"
+          ]
         },
         {
           "id": 79539619,
           "date": "2026-09-26",
-          "heure": "10:30",
-          "recevant": "LILLE AFS GUINEE",
-          "visiteur": "MOUVAUX FUTSAL C. 2",
+          "heure": "20:00",
+          "recevant": "MOUVAUX FUTSAL C. 2",
+          "visiteur": "LILLE AFS GUINEE",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,

@@ -70,6 +70,42 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC513660.jpg",
           "clNo": "4268",
           "slug": "513660-romainville-ca"
+        },
+        "ASCCFC": {
+          "nom": "ASCCFC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564628.jpg",
+          "clNo": "202932",
+          "slug": "564628-asccfc"
+        },
+        "PARIS 13 ATLETICO": {
+          "nom": "PARIS 13 ATLETICO",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC523264.jpg",
+          "clNo": "8738",
+          "slug": "523264-paris-13-atletico"
+        },
+        "ISSY FC": {
+          "nom": "ISSY FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500706.jpg",
+          "clNo": "673",
+          "slug": "500706-issy-fc"
+        },
+        "DAMMARIE CITY": {
+          "nom": "DAMMARIE CITY",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560605.jpg",
+          "clNo": "197716",
+          "slug": "560605-dammarie-city"
+        },
+        "TREMBLAY F.C.": {
+          "nom": "TREMBLAY F.C.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC544872.jpg",
+          "clNo": "22975",
+          "slug": "544872-tremblay-f-c"
+        },
+        "ESC XVÈME": {
+          "nom": "ESC XVÈME",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC526713.jpg",
+          "clNo": "11022",
+          "slug": "526713-esc-xvEme"
         }
       },
       "stades": {
@@ -107,9 +143,36 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE ESPACE ALPHONSE DAUDET 2_['26 RUE DU MOULIN A VENT', '78310 COIGNIERES']": {
+          "nom": "STADE ESPACE ALPHONSE DAUDET 2",
+          "adresse": "26 RUE DU MOULIN A VENT | 78310 COIGNIERES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE ÎLE BILLANCOURT_['44 AVENUE DU BAS MEUDON', '92130 ISSY LES MOULINEAUX']": {
+          "nom": "STADE ÎLE BILLANCOURT",
+          "adresse": "44 AVENUE DU BAS MEUDON | 92130 ISSY LES MOULINEAUX",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "PARC DES SPORTS G. PRUDHOMME N°2_['10 RUE JULES FERRY', 'TERRAIN ANNEXE', '93290 TREMBLAY EN FRANCE']": {
+          "nom": "PARC DES SPORTS G. PRUDHOMME N°2",
+          "adresse": "10 RUE JULES FERRY | TERRAIN ANNEXE | 93290 TREMBLAY EN FRANCE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
-      "officiels": {},
+      "officiels": {
+        "NICOLAS SIHL_AC": {
+          "nom": "NICOLAS SIHL",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        }
+      },
       "joueurs": {},
       "matchs": [
         {
@@ -223,7 +286,10 @@
           "buts_visiteur": 0,
           "joue": true,
           "statut": "joué",
-          "stade_id": "Complexe Paul Poisson Ter Jeremy Peyraud_['1 RUE DU CHEMIN VERT', 'TERRAIN JEREMY PEYRAULT', '91100 VILLABE']"
+          "stade_id": "Complexe Paul Poisson Ter Jeremy Peyraud_['1 RUE DU CHEMIN VERT', 'TERRAIN JEREMY PEYRAULT', '91100 VILLABE']",
+          "officiels": [
+            "NICOLAS SIHL_AC"
+          ]
         },
         {
           "id": 79613594,
@@ -386,10 +452,11 @@
           "heure": "13:00",
           "recevant": "ASCCFC",
           "visiteur": "PARIS 13 ATLETICO",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ESPACE ALPHONSE DAUDET 2_['26 RUE DU MOULIN A VENT', '78310 COIGNIERES']"
         },
         {
           "id": 79613613,
@@ -442,10 +509,11 @@
           "heure": "14:00",
           "recevant": "ISSY FC",
           "visiteur": "DAMMARIE CITY",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ÎLE BILLANCOURT_['44 AVENUE DU BAS MEUDON', '92130 ISSY LES MOULINEAUX']"
         },
         {
           "id": 79613604,
@@ -463,7 +531,7 @@
           "date": "2026-09-27",
           "heure": "14:00",
           "recevant": "EPINAY ACADEMIE",
-          "visiteur": "OPB",
+          "visiteur": "ENT. OPB FC 93",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
@@ -483,7 +551,7 @@
         {
           "id": 79613569,
           "date": "2026-09-27",
-          "heure": "15:00",
+          "heure": "17:00",
           "recevant": "PONTHIERRY US",
           "visiteur": "BRETIGNY FCS",
           "buts_recevant": null,
@@ -552,10 +620,11 @@
           "heure": "15:00",
           "recevant": "TREMBLAY F.C.",
           "visiteur": "ESC XVÈME",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "PARC DES SPORTS G. PRUDHOMME N°2_['10 RUE JULES FERRY', 'TERRAIN ANNEXE', '93290 TREMBLAY EN FRANCE']"
         },
         {
           "id": 79613597,

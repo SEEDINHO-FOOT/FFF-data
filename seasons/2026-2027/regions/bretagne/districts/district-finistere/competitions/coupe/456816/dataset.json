@@ -1481,8 +1481,8 @@
         },
         {
           "id": 56651552,
-          "date": "2026-09-27",
-          "heure": "13:00",
+          "date": "2026-09-26",
+          "heure": "18:30",
           "recevant": "GUIPAVAS GDR 3",
           "visiteur": "BOURG BLANC GAS 2",
           "buts_recevant": null,
@@ -1947,7 +1947,7 @@
         {
           "id": 56651601,
           "date": "2026-09-27",
-          "heure": "13:00",
+          "heure": "12:30",
           "recevant": "ST RENAN EA 3",
           "visiteur": "LE RELECQ KERHUON FC 2",
           "buts_recevant": null,
@@ -2576,6 +2576,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['ROUTE DE SIZUN - D33', '29450 LE TREHOU']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "ROUTE DE SIZUN - D33 | 29450 LE TREHOU",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -3051,10 +3058,11 @@
           "heure": "13:00",
           "recevant": "SIZUN LE TREHOU AS 2",
           "visiteur": "ST THEGONNEC ET S 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['ROUTE DE SIZUN - D33', '29450 LE TREHOU']"
         }
       ]
     },
@@ -3428,9 +3436,22 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE IME 1 - KERAMPUILH_['rue du stade Poul Riou', '29270 CARHAIX PLOUGUER']": {
+          "nom": "STADE IME 1 - KERAMPUILH",
+          "adresse": "rue du stade Poul Riou | 29270 CARHAIX PLOUGUER",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
-      "officiels": {},
+      "officiels": {
+        "NICOLAS THOMAS_AC": {
+          "nom": "NICOLAS THOMAS",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        }
+      },
       "joueurs": {},
       "matchs": [
         {
@@ -3458,14 +3479,18 @@
         },
         {
           "id": 56651710,
-          "date": "2026-09-27",
-          "heure": "13:00",
+          "date": "2026-09-25",
+          "heure": "18:30",
           "recevant": "CARHAIX DC 2",
           "visiteur": "CHATEAULIN FC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE IME 1 - KERAMPUILH_['rue du stade Poul Riou', '29270 CARHAIX PLOUGUER']",
+          "officiels": [
+            "NICOLAS THOMAS_AC"
+          ]
         }
       ]
     },
@@ -5091,7 +5116,7 @@
         {
           "id": 56651801,
           "date": "2026-09-27",
-          "heure": "13:00",
+          "heure": "15:00",
           "recevant": "TREGUNC US 3",
           "visiteur": "QUIMPER KERFEUNTEUN 2",
           "buts_recevant": null,

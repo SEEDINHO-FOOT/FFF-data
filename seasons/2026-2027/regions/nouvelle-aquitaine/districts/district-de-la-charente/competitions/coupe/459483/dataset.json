@@ -10,10 +10,85 @@
     {
       "cp_slug": "459483-cpe-cr7-ca-gilles-rouffignat/phase/1/1",
       "competition": "CPE CR7 CA - GILLES ROUFFIGNAT",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "ST MICHEL CS 4": {
+          "nom": "ST MICHEL CS 4",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC507081.jpg",
+          "clNo": "3088",
+          "slug": "507081-st-michel-cs-4"
+        },
+        "LA ROCHE-RIVIERES FC 5": {
+          "nom": "LA ROCHE-RIVIERES FC 5",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC563725.jpg",
+          "clNo": "172803",
+          "slug": "563725-la-roche-rivieres-fc-5"
+        },
+        "LESSAC US 3": {
+          "nom": "LESSAC US 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC530358.jpg",
+          "clNo": "13537",
+          "slug": "530358-lessac-us-3"
+        },
+        "CHAMPNIERS ES 3": {
+          "nom": "CHAMPNIERS ES 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC514428.jpg",
+          "clNo": "4507",
+          "slug": "514428-champniers-es-3"
+        },
+        "ASPTT DIRAC": {
+          "nom": "ASPTT DIRAC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC528883.jpg",
+          "clNo": "12479",
+          "slug": "528883-asptt-dirac"
+        },
+        "OF. COURBILLAC 2": {
+          "nom": "OF. COURBILLAC 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560437.jpg",
+          "clNo": "196989",
+          "slug": "560437-of-courbillac-2"
+        }
+      },
+      "stades": {
+        "STADE DES BRANDES_['11 Boulevard de Bretagne', '16470 ST MICHEL']": {
+          "nom": "STADE DES BRANDES",
+          "adresse": "11 Boulevard de Bretagne | 16470 ST MICHEL",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE PASCAL SAULNIER_['LE BOURG', '16500 LESSAC']": {
+          "nom": "STADE PASCAL SAULNIER",
+          "adresse": "LE BOURG | 16500 LESSAC",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "COMPLEXE SPORTIF PTT_['ROUTE DU STADE', '16410 DIRAC']": {
+          "nom": "COMPLEXE SPORTIF PTT",
+          "adresse": "ROUTE DU STADE | 16410 DIRAC",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football réduit"
+        }
+      },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKpNEKt-ky4jm7M": {
+          "nom": "JEREMY V.",
+          "maillot": 9,
+          "club": "ST MICHEL CS 4"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlJF616kS4kl78": {
+          "nom": "ARNAUD C.",
+          "maillot": 8,
+          "club": "ST MICHEL CS 4"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlJFa92my4nnrY": {
+          "nom": "CEDRIC F.",
+          "maillot": 2,
+          "club": "ST MICHEL CS 4"
+        }
+      },
       "matchs": [
         {
           "id": 79652145,
@@ -21,10 +96,27 @@
           "heure": "20:00",
           "recevant": "ST MICHEL CS 4",
           "visiteur": "LA ROCHE-RIVIERES FC 5",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 8,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt-ky4jm7M",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlJF616kS4kl78",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 14,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlJFa92my4nnrY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt-ky4jm7M",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE DES BRANDES_['11 Boulevard de Bretagne', '16470 ST MICHEL']"
         },
         {
           "id": 79652144,
@@ -43,15 +135,16 @@
           "heure": "13:00",
           "recevant": "LESSAC US 3",
           "visiteur": "CHAMPNIERS ES 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PASCAL SAULNIER_['LE BOURG', '16500 LESSAC']"
         },
         {
           "id": 79652149,
           "date": "2026-09-27",
-          "heure": "13:00",
+          "heure": "15:00",
           "recevant": "ST BRICE 16 AL 2",
           "visiteur": "NERCILLAC REPARSAC E 3",
           "buts_recevant": null,
@@ -65,10 +158,11 @@
           "heure": "15:00",
           "recevant": "ASPTT DIRAC",
           "visiteur": "OF. COURBILLAC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF PTT_['ROUTE DU STADE', '16410 DIRAC']"
         },
         {
           "id": 79652148,
