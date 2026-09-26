@@ -34,6 +34,24 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC552942.jpg",
           "clNo": "154202",
           "slug": "552942-jura-sud-foot-3"
+        },
+        "MONT NOIR/MOUTHE": {
+          "nom": "MONT NOIR/MOUTHE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564547.jpg",
+          "clNo": "202095",
+          "slug": "564547-mont-noir-mouthe"
+        },
+        "SEPTMONCEL": {
+          "nom": "SEPTMONCEL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC551566.jpg",
+          "clNo": "164444",
+          "slug": "551566-septmoncel"
+        },
+        "GRANDVAUX FOOT": {
+          "nom": "GRANDVAUX FOOT",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC561119.jpg",
+          "clNo": "200691",
+          "slug": "561119-grandvaux-foot"
         }
       },
       "stades": {
@@ -50,10 +68,52 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE CHAMP DE L' ÉGLISE_['GRANDE RUE - D62', '39150 FORT DU PLASNE']": {
+          "nom": "STADE CHAMP DE L' ÉGLISE",
+          "adresse": "GRANDE RUE - D62 | 39150 FORT DU PLASNE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['BOURG', '39170 RAVILLOLES']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "BOURG | 39170 RAVILLOLES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['BOURG', '39150 ST LAURENT EN GRANDVAUX']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "BOURG | 39150 ST LAURENT EN GRANDVAUX",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFKt6migllrI": {
+          "nom": "LIAM B.",
+          "maillot": 8,
+          "club": "MONT NOIR/MOUTHE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt-lCclmrY": {
+          "nom": "SANDRO C.",
+          "maillot": 9,
+          "club": "MONT NOIR/MOUTHE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt4kSokmLE": {
+          "nom": "TIAGO R.",
+          "maillot": 7,
+          "club": "MONT NOIR/MOUTHE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt-lCclnL4": {
+          "nom": "NATHAN J.",
+          "maillot": 10,
+          "club": "MONT NOIR/MOUTHE"
+        }
+      },
       "matchs": [
         {
           "id": 79550397,
@@ -61,10 +121,27 @@
           "heure": "10:30",
           "recevant": "MONT NOIR/MOUTHE",
           "visiteur": "SEPTMONCEL",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt6migllrI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-lCclmrY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt4kSokmLE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-lCclnL4",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE CHAMP DE L' ÉGLISE_['GRANDE RUE - D62', '39150 FORT DU PLASNE']"
         },
         {
           "id": 79550398,
@@ -107,10 +184,11 @@
           "heure": "10:30",
           "recevant": "RAVILLOLES CROZETS",
           "visiteur": "JURA SUD FOOT 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 8,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['BOURG', '39170 RAVILLOLES']"
         },
         {
           "id": 79550401,
@@ -140,10 +218,11 @@
           "heure": "14:30",
           "recevant": "GRANDVAUX FOOT",
           "visiteur": "MONT NOIR/MOUTHE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['BOURG', '39150 ST LAURENT EN GRANDVAUX']"
         },
         {
           "id": 79550404,
@@ -467,6 +546,27 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "Stade Municipal A8_[' RUE DU PROCESSIONAL', '39250 MIGNOVILLARD']": {
+          "nom": "Stade Municipal A8",
+          "adresse": " RUE DU PROCESSIONAL | 39250 MIGNOVILLARD",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football réduit"
+        },
+        "Complexe Sportif Pierre Tinguely 1_['ROUTE DE LONS', '39800 POLIGNY']": {
+          "nom": "Complexe Sportif Pierre Tinguely 1",
+          "adresse": "ROUTE DE LONS | 39800 POLIGNY",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 2_['ROUTE DE VERS', '39230 SELLIERES']": {
+          "nom": "STADE MUNICIPAL 2",
+          "adresse": "ROUTE DE VERS | 39230 SELLIERES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football réduit"
         }
       },
       "officiels": {},
@@ -509,6 +609,16 @@
         "ir3_vj-lzPeINLfhzILsrKFOFKt8myklnrU": {
           "nom": "MALICIA D.",
           "maillot": 11,
+          "club": "AIGLEPIERRE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp6kSshnbQ": {
+          "nom": "ARTHUR J.",
+          "maillot": 7,
+          "club": "AIGLEPIERRE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp4micmnbA": {
+          "nom": "GABRIEL V.",
+          "maillot": 1,
           "club": "AIGLEPIERRE"
         }
       },
@@ -609,10 +719,11 @@
           "heure": "14:30",
           "recevant": "BRENNE ORAIN/PLEURE 2",
           "visiteur": "ANGILLON RC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 8,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 2_['ROUTE DE VERS', '39230 SELLIERES']"
         },
         {
           "id": 79550508,
@@ -620,10 +731,11 @@
           "heure": "10:30",
           "recevant": "CROTENAY/NEY",
           "visiteur": "CHAMPAGNOLE 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['BOURG', '39300 CROTENAY']"
         },
         {
           "id": 79550825,
@@ -642,10 +754,34 @@
           "heure": "10:30",
           "recevant": "LA JOUX NOZEROY 2",
           "visiteur": "AIGLEPIERRE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5lS4hnb4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4kSwml7Y",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp6kSshnbQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt4kicsl7M",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 31,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4micmnbA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3lCwnl7c",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "Stade Municipal A8_[' RUE DU PROCESSIONAL', '39250 MIGNOVILLARD']"
         },
         {
           "id": 79553342,
@@ -653,10 +789,11 @@
           "heure": "10:30",
           "recevant": "GJ COEUR DU JURA 4",
           "visiteur": "PLATEAU FC 39 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Complexe Sportif Pierre Tinguely 1_['ROUTE DE LONS', '39800 POLIGNY']"
         },
         {
           "id": 79550511,
@@ -1084,6 +1221,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC506698.jpg",
           "clNo": "2937",
           "slug": "506698-lons-rc-2"
+        },
+        "MACORNAY 2": {
+          "nom": "MACORNAY 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC532472.jpg",
+          "clNo": "14937",
+          "slug": "532472-macornay-2"
+        },
+        "GJ COEUR DU JURA 3": {
+          "nom": "GJ COEUR DU JURA 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC561092.jpg",
+          "clNo": "200652",
+          "slug": "561092-gj-coeur-du-jura-3"
         }
       },
       "stades": {
@@ -1106,6 +1255,20 @@
           "adresse": "AVENUE CARDINAL MERCIER | 39500 TAVAUX",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['RUE DU CHATEAU', '39570 COURLAOUX']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "RUE DU CHATEAU | 39570 COURLAOUX",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE LA SARRE_['RUE DU STADE', '39570 MACORNAY']": {
+          "nom": "STADE DE LA SARRE",
+          "adresse": "RUE DU STADE | 39570 MACORNAY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
         }
       },
@@ -1213,10 +1376,11 @@
           "heure": "10:30",
           "recevant": "COURLAOUX",
           "visiteur": "COTEAUX DE SEILLE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 10,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['RUE DU CHATEAU', '39570 COURLAOUX']"
         },
         {
           "id": 79550768,
@@ -1235,10 +1399,11 @@
           "heure": "10:30",
           "recevant": "MACORNAY 2",
           "visiteur": "GJ COEUR DU JURA 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 9,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA SARRE_['RUE DU STADE', '39570 MACORNAY']"
         },
         {
           "id": 79550770,
@@ -1701,10 +1866,11 @@
           "heure": "14:30",
           "recevant": "JURA NORD FOOT 3",
           "visiteur": "CHOISEY",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 11,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ABBÉ MELCOT 3_['rue du Doulbs', 'TERRAIN FOOT A 7', '39700 FRAISANS']"
         },
         {
           "id": 79554423,

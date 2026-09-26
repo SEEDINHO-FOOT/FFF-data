@@ -381,6 +381,21 @@
           "nom": "TOM CLAUDE",
           "role": "Arbitre assistant 2",
           "role_cod": "A2"
+        },
+        "LILIAN THINUS_A1": {
+          "nom": "LILIAN THINUS",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
+        },
+        "KYLIAN THOUPLET_A2": {
+          "nom": "KYLIAN THOUPLET",
+          "role": "Arbitre assistant 2",
+          "role_cod": "A2"
+        },
+        "FELIX ANDRIVON_CP": {
+          "nom": "FELIX ANDRIVON",
+          "role": "Observateur principal",
+          "role_cod": "CP"
         }
       },
       "joueurs": {
@@ -2558,10 +2573,77 @@
           "heure": "15:00",
           "recevant": "AMNEVILLE CSO",
           "visiteur": "EPERNAY CHAMPAGNE RC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 24,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12kS4jm7E",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh5miwjn78",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 55,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3lC8knbE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8ky0snbM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 57,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4miYmnrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8kycknrU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 58,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16my4kn7Q",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx5lygmnb8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 60,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh2ki0nn74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd-kCcinL4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 75,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK18miwmnrM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9kiglm7c",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 79,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8kycknrU",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 90,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4miYmnrA",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "Stade Andre Valentin 2_['RUE CLEMENCEAU', 'TERRAIN ANNEXE DU C.S.O.', '57360 AMNEVILLE LES THERMES']",
+          "officiels": [
+            "MATHEO MENNEL_AC",
+            "LILIAN THINUS_A1",
+            "KYLIAN THOUPLET_A2",
+            "FELIX ANDRIVON_CP"
+          ]
         },
         {
           "id": 56296251,
@@ -4187,6 +4269,16 @@
           "nom": "ANDRE HABY",
           "role": "Arbitre assistant 2",
           "role_cod": "A2"
+        },
+        "MATHIEU KUHN_AC": {
+          "nom": "MATHIEU KUHN",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "LUC WEBER_A1": {
+          "nom": "LUC WEBER",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
         }
       },
       "joueurs": {
@@ -4878,6 +4970,16 @@
         "ir3_vj-lzPeINLfhzILsrKpNEKh4kikklrY": {
           "nom": "FABIO F.",
           "maillot": 13,
+          "club": "BERRWILLER AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh5li0gm78": {
+          "nom": "BILEL K.",
+          "maillot": 13,
+          "club": "KOMETRIB SJ"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd-miohmbA": {
+          "nom": "NOE B.",
+          "maillot": 12,
           "club": "BERRWILLER AS"
         }
       },
@@ -6382,10 +6484,68 @@
           "heure": "14:30",
           "recevant": "KOMETRIB SJ",
           "visiteur": "BERRWILLER AS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 26,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9lSkhn7I",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh5mygil7M",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6mi8jmbI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4kikklrY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 44,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh2kC4jn7U",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh5li0gm78",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd_kykknb4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh7mi8tnLA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 51,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_myYsm78",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 55,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8lSYmn7M",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4li8llrY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 60,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_myYsm78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd-miohmbA",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE DES DEUX AIGLES 2_['RUE DU STADE', 'TERRAIN ANNEXE', '67350 ETTENDORF']",
+          "officiels": [
+            "MATHIEU KUHN_AC",
+            "LUC WEBER_A1",
+            "THEO ESCH_A2"
+          ]
         },
         {
           "id": 56061298,

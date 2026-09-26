@@ -107,6 +107,34 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 3_['2 RUE DU CHATEAU', '39270 ORGELET']": {
+          "nom": "STADE MUNICIPAL 3",
+          "adresse": "2 RUE DU CHATEAU | 39270 ORGELET",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football réduit"
+        },
+        "STADE MUNICIPAL 3_['RUE DU STADE', 'ANNEXE 2 (À 7 OU À 9)', '39210 DOMBLANS']": {
+          "nom": "STADE MUNICIPAL 3",
+          "adresse": "RUE DU STADE | ANNEXE 2 (À 7 OU À 9) | 39210 DOMBLANS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football réduit"
+        },
+        "COMPLEXE SPORTIF DES LOUAITAUX 1_['RUE LEON BLUM', '39300 CHAMPAGNOLE']": {
+          "nom": "COMPLEXE SPORTIF DES LOUAITAUX 1",
+          "adresse": "RUE LEON BLUM | 39300 CHAMPAGNOLE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE L' AUBE_['ROUTE DU LAC', '39220 LES ROUSSES']": {
+          "nom": "STADE DE L' AUBE",
+          "adresse": "ROUTE DU LAC | 39220 LES ROUSSES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -160,6 +188,26 @@
           "nom": "HONORE G.",
           "maillot": 10,
           "club": "MACORNAY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt-liwmmrA": {
+          "nom": "ALI G.",
+          "maillot": 7,
+          "club": "LONS RC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp4miosmrU": {
+          "nom": "URAS O.",
+          "maillot": 9,
+          "club": "LONS RC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt5kyssm7I": {
+          "nom": "NOHAM B.",
+          "maillot": 7,
+          "club": "JURA LACS F."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx7lycmlrc": {
+          "nom": "AARON L.",
+          "maillot": 9,
+          "club": "JURA LACS F."
         }
       },
       "matchs": [
@@ -266,10 +314,27 @@
           "heure": "10:30",
           "recevant": "JURA LACS F.",
           "visiteur": "LONS RC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 10,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-liwmmrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4miosmrU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt5kyssm7I",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7lycmlrc",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL 3_['2 RUE DU CHATEAU', '39270 ORGELET']"
         },
         {
           "id": 79549667,
@@ -288,10 +353,11 @@
           "heure": "10:30",
           "recevant": "COTEAUX DE SEILLE",
           "visiteur": "JURA SUD FOOT 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 3_['RUE DU STADE', 'ANNEXE 2 (À 7 OU À 9)', '39210 DOMBLANS']"
         },
         {
           "id": 79552845,
@@ -299,10 +365,11 @@
           "heure": "10:30",
           "recevant": "CHAMPAGNOLE 2",
           "visiteur": "PETITE MONTAGNE FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF DES LOUAITAUX 1_['RUE LEON BLUM', '39300 CHAMPAGNOLE']"
         },
         {
           "id": 79552870,
@@ -310,10 +377,11 @@
           "heure": "10:30",
           "recevant": "HAUT JURA",
           "visiteur": "MACORNAY",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE L' AUBE_['ROUTE DU LAC', '39220 LES ROUSSES']"
         },
         {
           "id": 79549670,
@@ -741,6 +809,30 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC561098.jpg",
           "clNo": "200658",
           "slug": "561098-gj-porte-du-jura"
+        },
+        "GJ COEUR DU JURA": {
+          "nom": "GJ COEUR DU JURA",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC561092.jpg",
+          "clNo": "200652",
+          "slug": "561092-gj-coeur-du-jura"
+        },
+        "ARCHE/MOISS/ROCHE": {
+          "nom": "ARCHE/MOISS/ROCHE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC532273.jpg",
+          "clNo": "14803",
+          "slug": "532273-arche-moiss-roche"
+        },
+        "JURA DOLOIS FOOTBALL 2": {
+          "nom": "JURA DOLOIS FOOTBALL 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC541407.jpg",
+          "clNo": "21250",
+          "slug": "541407-jura-dolois-football-2"
+        },
+        "MOUCHARD/MONTBARREY": {
+          "nom": "MOUCHARD/MONTBARREY",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC506624.jpg",
+          "clNo": "2915",
+          "slug": "506624-mouchard-montbarrey"
         }
       },
       "stades": {
@@ -761,6 +853,34 @@
         "STADE JÉRÉMY CRINQUAND_[' ROUTE DE MIREBEL', '39210 LA MARRE']": {
           "nom": "STADE JÉRÉMY CRINQUAND",
           "adresse": " ROUTE DE MIREBEL | 39210 LA MARRE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MAURICE PICQUAND 3_['LA CONDAMINE', 'AVENUE DES SPORTS', '39160 ST AMOUR']": {
+          "nom": "STADE MAURICE PICQUAND 3",
+          "adresse": "LA CONDAMINE | AVENUE DES SPORTS | 39160 ST AMOUR",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football réduit"
+        },
+        "STADE MUNICIPAL_['BOURG', '39100 JOUHE']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "BOURG | 39100 JOUHE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE PAUL MARTIN 1_['AVENUE CARDINAL MERCIER', '39500 TAVAUX']": {
+          "nom": "STADE PAUL MARTIN 1",
+          "adresse": "AVENUE CARDINAL MERCIER | 39500 TAVAUX",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['Rue du stade', '39120 PETIT NOIR']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "Rue du stade | 39120 PETIT NOIR",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -787,6 +907,46 @@
           "nom": "LEA F.",
           "maillot": 10,
           "club": "GJ PORTE DU JURA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp5mygnnLI": {
+          "nom": "MALIA B.",
+          "maillot": 8,
+          "club": "PLEURE/BRENNE ORAIN"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp_kSghn74": {
+          "nom": "MOHAMED AMIR A.",
+          "maillot": 9,
+          "club": "PLEURE/BRENNE ORAIN"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx4lS8nl74": {
+          "nom": "LENNY O.",
+          "maillot": 8,
+          "club": "ARCHE/MOISS/ROCHE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt-kiksnLE": {
+          "nom": "JOHANN S.",
+          "maillot": 9,
+          "club": "ARCHE/MOISS/ROCHE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp-kyssn74": {
+          "nom": "ELYO G.",
+          "maillot": 7,
+          "club": "ARCHE/MOISS/ROCHE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt3kS4nmLM": {
+          "nom": "HUGO G.",
+          "maillot": 10,
+          "club": "ARCHE/MOISS/ROCHE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx2kScgmrI": {
+          "nom": "KILLIAN R.",
+          "maillot": 6,
+          "club": "ARCHE/MOISS/ROCHE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp_lSktmbA": {
+          "nom": "YSELIO Z.",
+          "maillot": 11,
+          "club": "ARCHE/MOISS/ROCHE"
         }
       },
       "matchs": [
@@ -870,10 +1030,11 @@
           "heure": "10:30",
           "recevant": "GJ PORTE DU JURA",
           "visiteur": "GJ COEUR DU JURA",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MAURICE PICQUAND 3_['LA CONDAMINE', 'AVENUE DES SPORTS', '39160 ST AMOUR']"
         },
         {
           "id": 79549833,
@@ -881,10 +1042,41 @@
           "heure": "10:30",
           "recevant": "ARCHE/MOISS/ROCHE",
           "visiteur": "PLEURE/BRENNE ORAIN",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 8,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5mygnnLI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp_kSghn74",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 23,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4lS8nl74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-kiksnLE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 36,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp-kyssn74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3kS4nmLM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 53,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx2kScgmrI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp_lSktmbA",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL_['BOURG', '39100 JOUHE']"
         },
         {
           "id": 79549835,
@@ -892,10 +1084,11 @@
           "heure": "10:30",
           "recevant": "JURA DOLOIS FOOTBALL 2",
           "visiteur": "MONT SOUS VAUDREY VA",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PAUL MARTIN 1_['AVENUE CARDINAL MERCIER', '39500 TAVAUX']"
         },
         {
           "id": 79549834,
@@ -903,10 +1096,11 @@
           "heure": "14:30",
           "recevant": "PLAINE39/RAHON",
           "visiteur": "MOUCHARD/MONTBARREY",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 10,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['Rue du stade', '39120 PETIT NOIR']"
         },
         {
           "id": 79549836,

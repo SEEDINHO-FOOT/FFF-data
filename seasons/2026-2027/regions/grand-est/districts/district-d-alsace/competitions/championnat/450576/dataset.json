@@ -64,6 +64,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560685.jpg",
           "clNo": "198608",
           "slug": "560685-erno-fc"
+        },
+        "ENT. ERNO BREUSCH": {
+          "nom": "ENT. ERNO BREUSCH",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560685.jpg",
+          "clNo": "198608",
+          "slug": "560685-ent-erno-breusch"
         }
       },
       "stades": {
@@ -115,10 +121,69 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE BARINA 2_['HR 2/3', 'RUE JULES VERNE', '68200 MULHOUSE']": {
+          "nom": "STADE BARINA 2",
+          "adresse": "HR 2/3 | RUE JULES VERNE | 68200 MULHOUSE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
-      "officiels": {},
-      "joueurs": {},
+      "officiels": {
+        "LINDA BENKEMOUCHE_AC": {
+          "nom": "LINDA BENKEMOUCHE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "MOHAMED BENKEMOUCHE_DA": {
+          "nom": "MOHAMED BENKEMOUCHE",
+          "role": "Délégué accompagnateur",
+          "role_cod": "DA"
+        }
+      },
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFK15ki4mmbM": {
+          "nom": "ALICE H.",
+          "maillot": 9,
+          "club": "ENT. ERNO BREUSCH"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt5kCwllrI": {
+          "nom": "CLARA C.",
+          "maillot": 11,
+          "club": "ENT. ERNO BREUSCH"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx_myYjmrc": {
+          "nom": "DIYA T.",
+          "maillot": 7,
+          "club": "ENT. ERNO BREUSCH"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp5ky0jl7M": {
+          "nom": "MARGOT B.",
+          "maillot": 6,
+          "club": "ENT. ERNO BREUSCH"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6mycjmrA": {
+          "nom": "LYSIA H.",
+          "maillot": 7,
+          "club": "PFASTATT F.C"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt5myknnrE": {
+          "nom": "JULLIANA A.",
+          "maillot": 3,
+          "club": "PFASTATT F.C"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt2myghnL4": {
+          "nom": "ASSYL A.",
+          "maillot": 8,
+          "club": "PFASTATT F.C"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp6mycsl78": {
+          "nom": "YSALINE G.",
+          "maillot": 4,
+          "club": "PFASTATT F.C"
+        }
+      },
       "matchs": [
         {
           "id": 56463672,
@@ -242,11 +307,46 @@
           "date": "2026-09-26",
           "heure": "14:00",
           "recevant": "PFASTATT F.C",
-          "visiteur": "ERNO FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "visiteur": "ENT. ERNO BREUSCH",
+          "buts_recevant": 4,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK15ki4mmbM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt5kCwllrI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_myYjmrc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5ky0jl7M",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6mycjmrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt5myknnrE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 29,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt2myghnL4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp6mycsl78",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL 2_['10 RUE ANDRE LICHTLE', '68120 PFASTATT']",
+          "officiels": [
+            "LINDA BENKEMOUCHE_AC",
+            "MOHAMED BENKEMOUCHE_DA"
+          ]
         },
         {
           "id": 56463684,
@@ -254,10 +354,11 @@
           "heure": "14:00",
           "recevant": "VENDENHEIM FC",
           "visiteur": "AS ILLZACH MODENHEIM",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 8,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DU WALDECK 2_['12 RUE DE LA FORET', '67550 VENDENHEIM']"
         },
         {
           "id": 56463686,
@@ -265,10 +366,11 @@
           "heure": "14:00",
           "recevant": "MULHOUSE COTEAUX A.S",
           "visiteur": "HABSHEIM FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 8,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE BARINA 2_['HR 2/3', 'RUE JULES VERNE', '68200 MULHOUSE']"
         },
         {
           "id": 56463682,

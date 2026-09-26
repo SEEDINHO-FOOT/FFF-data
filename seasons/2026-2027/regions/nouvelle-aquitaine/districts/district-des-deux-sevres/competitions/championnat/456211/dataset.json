@@ -69,6 +69,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE DE CLAZAY_['CLAZAY', 'C D 938 Ter', '79300 BRESSUIRE']": {
+          "nom": "STADE DE CLAZAY",
+          "adresse": "CLAZAY | C D 938 Ter | 79300 BRESSUIRE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -151,10 +158,11 @@
           "heure": "13:00",
           "recevant": "BRESSUIRE FC 3",
           "visiteur": "CHÂTELLERAULT FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE CLAZAY_['CLAZAY', 'C D 938 Ter', '79300 BRESSUIRE']"
         },
         {
           "id": 79114146,
@@ -171,7 +179,7 @@
           "id": 79114568,
           "date": "2026-09-26",
           "heure": "15:00",
-          "recevant": "LOUDUN FC",
+          "recevant": "LOUDUN.SAM.NV.STLEG",
           "visiteur": "GJ ESP. N-E 79",
           "buts_recevant": null,
           "buts_visiteur": null,
@@ -490,7 +498,28 @@
         }
       },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFKx8lygsnbY": {
+          "nom": "CARLA P.",
+          "maillot": 7,
+          "club": "ENT.ASESG/CHAURAY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx4kCokmL8": {
+          "nom": "ZOE G.",
+          "maillot": 10,
+          "club": "ENT.ASESG/CHAURAY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16kyknnbI": {
+          "nom": "MARYAM D.",
+          "maillot": 5,
+          "club": "ENT.ASESG/CHAURAY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd7kC4jnrU": {
+          "nom": "ROSE B.",
+          "maillot": 9,
+          "club": "ENT.ASESG/CHAURAY"
+        }
+      },
       "matchs": [
         {
           "id": 79114589,
@@ -569,10 +598,27 @@
           "heure": "10:00",
           "recevant": "ENT.ASESG/CHAURAY",
           "visiteur": "MONCOUTANT SA",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8lygsnbY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4kCokmL8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16kyknnbI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7kC4jnrU",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL 3_['RUE DU STADE', 'ANNEXE 2', '79180 CHAURAY']"
         },
         {
           "id": 79114595,
@@ -905,10 +951,78 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['Rue du stade', '86250 LA CHAPELLE BATON']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "Rue du stade | 86250 LA CHAPELLE BATON",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFKx_myYmmLE": {
+          "nom": "MANON B.",
+          "maillot": 8,
+          "club": "ENT. PNC-ARC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt3kSkmnLI": {
+          "nom": "ALICE D.",
+          "maillot": 10,
+          "club": "ENT. PNC-ARC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK12mywjnLI": {
+          "nom": "CAMILLE A.",
+          "maillot": 6,
+          "club": "U.S. LA CHAPELLE BAT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx8lSskmLE": {
+          "nom": "AMANDINE G.",
+          "maillot": 9,
+          "club": "U.S. LA CHAPELLE BAT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK13lS0hnbU": {
+          "nom": "ENOLA B.",
+          "maillot": 7,
+          "club": "ENT. PNC-ARC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15lSstm74": {
+          "nom": "MILANE T.",
+          "maillot": 11,
+          "club": "ENT. PNC-ARC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt-kCknnrA": {
+          "nom": "JADE D.",
+          "maillot": 5,
+          "club": "ENT. PNC-ARC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp4kSgtmL8": {
+          "nom": "NAOMI M.",
+          "maillot": 9,
+          "club": "ENT. PNC-ARC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt4kSginrA": {
+          "nom": "MAEVA C.",
+          "maillot": 8,
+          "club": "NIEUIL L ESPOIR JS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp5miwgl7A": {
+          "nom": "ANISSA K.",
+          "maillot": 9,
+          "club": "NIEUIL L ESPOIR JS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp2kignn7A": {
+          "nom": "SOLYNE J.",
+          "maillot": 7,
+          "club": "NIEUIL L ESPOIR JS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx_lSYhm7M": {
+          "nom": "LUCILE M.",
+          "maillot": 10,
+          "club": "NIEUIL L ESPOIR JS"
+        }
+      },
       "matchs": [
         {
           "id": 79115084,
@@ -988,10 +1102,41 @@
           "heure": "13:00",
           "recevant": "U.S. LA CHAPELLE BAT",
           "visiteur": "ENT. PNC-ARC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_myYmmLE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3kSkmnLI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 36,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12mywjnLI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8lSskmLE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK13lS0hnbU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK15lSstm74",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 50,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-kCknnrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4kSgtmL8",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL_['Rue du stade', '86250 LA CHAPELLE BATON']"
         },
         {
           "id": 79115090,
@@ -999,10 +1144,27 @@
           "heure": "15:00",
           "recevant": "NIEUIL L ESPOIR JS",
           "visiteur": "GJ Sud Haut Poitou",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt4kSginrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5miwgl7A",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp2kignn7A",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_lSYhm7M",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL 3_['CHEMIN DU BOIS PICAULT', 'TERRAIN ANNEXE', '86340 NIEUIL L ESPOIR']"
         },
         {
           "id": 79115092,

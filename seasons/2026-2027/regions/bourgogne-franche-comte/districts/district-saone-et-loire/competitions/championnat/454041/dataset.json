@@ -62,6 +62,20 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE DES ALOUETTES 2_['LA SABLIERE', 'RUE DU STADE', 'TERRAIN ANNEXE 1', '71300 MONTCEAU LES MINES']": {
+          "nom": "STADE DES ALOUETTES 2",
+          "adresse": "LA SABLIERE | RUE DU STADE | TERRAIN ANNEXE 1 | 71300 MONTCEAU LES MINES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DES OEILLETS : ESLAG_['AVENUE PARIS 2024', 'STADE DES OEILLETS', '71000 MACON']": {
+          "nom": "STADE DES OEILLETS : ESLAG",
+          "adresse": "AVENUE PARIS 2024 | STADE DES OEILLETS | 71000 MACON",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -170,6 +184,21 @@
           "nom": "CHELSY T.",
           "maillot": 10,
           "club": "MONTCEAU"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx7kC4imLE": {
+          "nom": "ROSE H.",
+          "maillot": 11,
+          "club": "AS CHATENOY LE ROYAL"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK14kiktlr8": {
+          "nom": "APOLLINE J.",
+          "maillot": 3,
+          "club": "AS CHATENOY LE ROYAL"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15kicjnLQ": {
+          "nom": "ELENA B.",
+          "maillot": 9,
+          "club": "AS CHATENOY LE ROYAL"
         }
       },
       "matchs": [
@@ -293,13 +322,14 @@
         {
           "id": 79538768,
           "date": "2026-09-26",
-          "heure": "12:30",
+          "heure": "10:00",
           "recevant": "MONTCEAU",
           "visiteur": "ENT.ESBS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES ALOUETTES 2_['LA SABLIERE', 'RUE DU STADE', 'TERRAIN ANNEXE 1', '71300 MONTCEAU LES MINES']"
         },
         {
           "id": 79538767,
@@ -307,10 +337,34 @@
           "heure": "13:00",
           "recevant": "MACON FC",
           "visiteur": "AS CHATENOY LE ROYAL",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4kisnnrU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7kC4imLE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK14kiktlr8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3mioll7Q",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 60,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12lygjnLM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK15kicjnLQ",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE DES OEILLETS : ESLAG_['AVENUE PARIS 2024', 'STADE DES OEILLETS', '71000 MACON']"
         },
         {
           "id": 79538769,
@@ -318,10 +372,11 @@
           "heure": "15:00",
           "recevant": "J.S. CRECHOISE",
           "visiteur": "ENT.ESBS 2 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE CHRISTIANE FAVIER 1_['Les Bruyères', '488 ROUTE DU STADE', '71570 CHANES']"
         },
         {
           "id": 79538771,

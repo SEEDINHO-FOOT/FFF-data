@@ -83,6 +83,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE DE LA SAUER 1_['1 RUE DU FOYER', '67930 BEINHEIM']": {
+          "nom": "STADE DE LA SAUER 1",
+          "adresse": "1 RUE DU FOYER | 67930 BEINHEIM",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -166,10 +173,11 @@
           "heure": "10:00",
           "recevant": "SCHEIB. ENT. ESPOIR",
           "visiteur": "SURBOURG ENT.SJSB",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA LAUTER 1_['RUE DU GENERAL MITELHAUSER', '67630 LAUTERBOURG']"
         },
         {
           "id": 56456504,
@@ -177,10 +185,11 @@
           "heure": "14:00",
           "recevant": "EPR 3",
           "visiteur": "ALSACE DU NORD GJ 4",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA SAUER 1_['1 RUE DU FOYER', '67930 BEINHEIM']"
         },
         {
           "id": 56456503,
@@ -188,10 +197,11 @@
           "heure": "14:00",
           "recevant": "GVS",
           "visiteur": "JSOF SOULTZ SF 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['ROUTE DE NEHWILLER', '67360 LANGENSOULTZBACH']"
         },
         {
           "id": 56456507,
@@ -495,6 +505,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 2_['2 RUE DU STADE', 'TERRAIN ANNEXE', '67110 REICHSHOFFEN']": {
+          "nom": "STADE MUNICIPAL 2",
+          "adresse": "2 RUE DU STADE | TERRAIN ANNEXE | 67110 REICHSHOFFEN",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -506,7 +523,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx3mycsnrU": {
           "nom": "THEO K.",
-          "maillot": 9,
+          "maillot": 12,
           "club": "KOMETRIB SJ 4"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt5lCkjm7I": {
@@ -531,12 +548,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt8ky0gmrI": {
           "nom": "FLAVIO L.",
-          "maillot": 8,
+          "maillot": 3,
           "club": "KOMETRIB SJ 4"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx4lisinrU": {
           "nom": "MATEO K.",
-          "maillot": 10,
+          "maillot": 2,
           "club": "KOMETRIB SJ 4"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx2mykjl74": {
@@ -546,8 +563,38 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx3kywtnbc": {
           "nom": "TIMEO N.",
+          "maillot": 9,
+          "club": "KOMETRIB SJ 4"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt6mi0hn7E": {
+          "nom": "MATEO L.",
+          "maillot": 4,
+          "club": "KOMETRIB SJ 4"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt9lisjmrQ": {
+          "nom": "LEO S.",
           "maillot": 11,
           "club": "KOMETRIB SJ 4"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK13lSojmbI": {
+          "nom": "HUGO F.",
+          "maillot": 7,
+          "club": "MERTZWILLER VALMODER"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx_lyglmr8": {
+          "nom": "LORENZO R.",
+          "maillot": 8,
+          "club": "MERTZWILLER VALMODER"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK13kS8sn7A": {
+          "nom": "YANIS S.",
+          "maillot": 4,
+          "club": "MERTZWILLER VALMODER"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx_ki8hnrE": {
+          "nom": "ENZO J.",
+          "maillot": 6,
+          "club": "MERTZWILLER VALMODER"
         }
       },
       "matchs": [
@@ -654,10 +701,48 @@
           "heure": "14:00",
           "recevant": "KOMETRIB SJ 4",
           "visiteur": "MERTZWILLER VALMODER",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt6mi0hn7E",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4lisinrU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt9lisjmrQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3mycsnrU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3kywtnbc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt8ky0gmrI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK13lSojmbI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_lyglmr8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK13kS8sn7A",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_ki8hnrE",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL 1_['RUE DU STADE', '67330 BOUXWILLER']"
         },
         {
           "id": 56456533,
@@ -665,10 +750,11 @@
           "heure": "14:30",
           "recevant": "REICHSHOFFEN F.C",
           "visiteur": "BISCHWILLER TURCS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 2_['2 RUE DU STADE', 'TERRAIN ANNEXE', '67110 REICHSHOFFEN']"
         },
         {
           "id": 56456534,
@@ -1001,6 +1087,20 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['RUE DU STADE', '67290 WIMMENAU']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "RUE DU STADE | 67290 WIMMENAU",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 1_['2 RUE DU STADE', '67330 DOSSENHEIM SUR ZINSEL']": {
+          "nom": "STADE MUNICIPAL 1",
+          "adresse": "2 RUE DU STADE | 67330 DOSSENHEIM SUR ZINSEL",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -1017,22 +1117,22 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt9miwgl7E": {
           "nom": "ELIAS K.",
-          "maillot": 8,
+          "maillot": 5,
           "club": "A2HM 2"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK12mi0nlrM": {
           "nom": "ZACK K.",
-          "maillot": 12,
+          "maillot": 10,
           "club": "A2HM 2"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK15ky4ml7Q": {
           "nom": "FLAVIAN C.",
-          "maillot": 7,
+          "maillot": 4,
           "club": "A2HM 2"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx7myghmbU": {
           "nom": "ALBAN S.",
-          "maillot": 10,
+          "maillot": 11,
           "club": "A2HM 2"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt9kiYgmLU": {
@@ -1052,7 +1152,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx-my8kn7E": {
           "nom": "FLORIAN C.",
-          "maillot": 11,
+          "maillot": 7,
           "club": "A2HM 2"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt6kC8jnrU": {
@@ -1064,6 +1164,21 @@
           "nom": "TOM R.",
           "maillot": 10,
           "club": "USAO"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt9lS8gnbU": {
+          "nom": "ANTOINE C.",
+          "maillot": 8,
+          "club": "A2HM 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp8lCgmlrA": {
+          "nom": "THIBAUT F.",
+          "maillot": 9,
+          "club": "A2HM 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15kCknlrc": {
+          "nom": "LEO R.",
+          "maillot": 12,
+          "club": "A2HM 2"
         }
       },
       "matchs": [
@@ -1189,10 +1304,41 @@
           "heure": "13:30",
           "recevant": "A2HM 2",
           "visiteur": "SARRE UNION EHSU",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 12,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt9miwgl7E",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7myghmbU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 14,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt9lS8gnbU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp8lCgmlrA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx-my8kn7E",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK12mi0nlrM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 24,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK15ky4ml7Q",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK15kCknlrc",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL_['RUE DU STADE', '67290 WIMMENAU']"
         },
         {
           "id": 56456562,
@@ -1200,10 +1346,11 @@
           "heure": "14:00",
           "recevant": "ZORNTHAL FC 2",
           "visiteur": "MONSWILLER FC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['RUE DU STADE', '67270 ALTECKENDORF']"
         },
         {
           "id": 56456564,
@@ -1211,10 +1358,11 @@
           "heure": "14:00",
           "recevant": "USAO",
           "visiteur": "ESPOIR16",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 10,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['2 RUE DU STADE', '67330 DOSSENHEIM SUR ZINSEL']"
         },
         {
           "id": 56456565,
@@ -1518,6 +1666,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE BERNARD DECKER 1_['COTE DE WEINBOURG', 'TERRAIN BANNHOLTZ', '67340 INGWILLER']": {
+          "nom": "STADE BERNARD DECKER 1",
+          "adresse": "COTE DE WEINBOURG | TERRAIN BANNHOLTZ | 67340 INGWILLER",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -1599,10 +1754,11 @@
           "heure": "13:30",
           "recevant": "A2HM",
           "visiteur": "TROIS MAISONS US 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE BERNARD DECKER 1_['COTE DE WEINBOURG', 'TERRAIN BANNHOLTZ', '67340 INGWILLER']"
         },
         {
           "id": 56456592,
@@ -1610,10 +1766,11 @@
           "heure": "14:30",
           "recevant": "MERTZWILLER VALMODER 2",
           "visiteur": "MONSWILLER FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 2 UBERACH_[' CHEMIN DE LA MODER', '67350 VAL DE MODER']"
         },
         {
           "id": 56456594,
@@ -1921,6 +2078,27 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE DOCTEUR PFLIEGER 1_['RUE DE LA FORET', '67630 NIEDERLAUTERBACH']": {
+          "nom": "STADE DOCTEUR PFLIEGER 1",
+          "adresse": "RUE DE LA FORET | 67630 NIEDERLAUTERBACH",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['16 RUE DE LA FORET', '67240 OBERHOFFEN SUR MODER']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "16 RUE DE LA FORET | 67240 OBERHOFFEN SUR MODER",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 1_['ROUTE DE WOERTH', '67360 DURRENBACH']": {
+          "nom": "STADE MUNICIPAL 1",
+          "adresse": "ROUTE DE WOERTH | 67360 DURRENBACH",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -1990,10 +2168,11 @@
           "heure": "14:30",
           "recevant": "ALSACE DU NORD GJ 3",
           "visiteur": "DRUSENHEIM F.C 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DOCTEUR PFLIEGER 1_['RUE DE LA FORET', '67630 NIEDERLAUTERBACH']"
         },
         {
           "id": 56456801,
@@ -2001,10 +2180,11 @@
           "heure": "14:30",
           "recevant": "OBERHOFFEN FC",
           "visiteur": "SCHIRRHEIN F.C.E 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['16 RUE DE LA FORET', '67240 OBERHOFFEN SUR MODER']"
         },
         {
           "id": 56456799,
@@ -2012,10 +2192,11 @@
           "heure": "15:00",
           "recevant": "JEUNES EDH ENT",
           "visiteur": "HERRLISHEIM F.C 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['ROUTE DE WOERTH', '67360 DURRENBACH']"
         },
         {
           "id": 56456803,
@@ -2324,6 +2505,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE DE LA FORÊT 2_[' ROUTE DE HOERDT', '67170 GEUDERTHEIM']": {
+          "nom": "STADE DE LA FORÊT 2",
+          "adresse": " ROUTE DE HOERDT | 67170 GEUDERTHEIM",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -2383,10 +2571,11 @@
           "heure": "10:00",
           "recevant": "HERRLISHEIM F.C",
           "visiteur": "KALTENHOUSE MAR. US 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GANZWEID 3_[' RUE DE DRUSENHEIM', '67850 HERRLISHEIM']"
         },
         {
           "id": 56456830,
@@ -2394,10 +2583,11 @@
           "heure": "16:00",
           "recevant": "ALLIANCE BASSE ZORN 4",
           "visiteur": "DRUSENHEIM F.C",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA FORÊT 2_[' ROUTE DE HOERDT', '67170 GEUDERTHEIM']"
         },
         {
           "id": 56456833,
@@ -2611,6 +2801,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE CONCORDIA_['21-19 RUE DE LA GARE MARIENTHAL', '67500 HAGUENAU']": {
+          "nom": "STADE CONCORDIA",
+          "adresse": "21-19 RUE DE LA GARE MARIENTHAL | 67500 HAGUENAU",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -2670,10 +2867,11 @@
           "heure": "13:30",
           "recevant": "KALTENHOUSE MAR. US",
           "visiteur": "SCHWEIGHOUSE FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE CONCORDIA_['21-19 RUE DE LA GARE MARIENTHAL', '67500 HAGUENAU']"
         },
         {
           "id": 56456861,
@@ -2681,10 +2879,11 @@
           "heure": "14:30",
           "recevant": "EJ LA VALLEE BERNO",
           "visiteur": "ZORNTHAL FC 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE INTERCOMMUNAL 1_['WAHLENHEIM BERNOLSHEIM', ' RUE PRINCIPALE', '67170 BERNOLSHEIM']"
         },
         {
           "id": 56456863,
@@ -2918,6 +3117,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 2_['RUE DES SPORTS', '67590 OHLUNGEN']": {
+          "nom": "STADE MUNICIPAL 2",
+          "adresse": "RUE DES SPORTS | 67590 OHLUNGEN",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -3038,10 +3244,11 @@
           "heure": "14:30",
           "recevant": "EJ LA VALLEE WITT 2",
           "visiteur": "ALLIANCE BASSE ZORN 5",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['2 RUE DU STADE', '67670 WITTERSHEIM']"
         },
         {
           "id": 56456890,
@@ -3049,10 +3256,11 @@
           "heure": "14:30",
           "recevant": "OHLUNGEN ENT. UHLW.",
           "visiteur": "WILLGO HOHEN ENT. 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 15,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 2_['RUE DES SPORTS', '67590 OHLUNGEN']"
         },
         {
           "id": 56456891,
@@ -3060,10 +3268,11 @@
           "heure": "14:30",
           "recevant": "LAMPERTHEIM F.C.",
           "visiteur": "WINGERSHEIM F.C",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 10,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['RUE DU STADE', '67450 LAMPERTHEIM']"
         },
         {
           "id": 56456893,
@@ -3367,6 +3576,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE NOTRE DAME_['RUE DU STADE', '67310 DANGOLSHEIM']": {
+          "nom": "STADE NOTRE DAME",
+          "adresse": "RUE DU STADE | 67310 DANGOLSHEIM",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -3449,10 +3665,11 @@
           "heure": "13:30",
           "recevant": "TRUCHTERSHEIM FC 2",
           "visiteur": "SAVERNE F.C",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DU KOCHERSBERG 1_[' RUE GODOFREDO PEREZ', '67370 TRUCHTERSHEIM']"
         },
         {
           "id": 56456920,
@@ -3460,10 +3677,11 @@
           "heure": "14:00",
           "recevant": "PORTE DU VIGNOBLE 09 3",
           "visiteur": "WASSELONNE EMOSS 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 8,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE NOTRE DAME_['RUE DU STADE', '67310 DANGOLSHEIM']"
         },
         {
           "id": 56456919,
@@ -3471,10 +3689,11 @@
           "heure": "14:30",
           "recevant": "HOHEN WILLGO ENT.",
           "visiteur": "BRUCHE ACKERLAND 4",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MAURICE SCHAEFFER_['RUE DU STADE', '67310 HOHENGOEFT']"
         },
         {
           "id": 56456922,
@@ -3771,6 +3990,20 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE POURTALÈS 3_['120 RUE KEMPF', 'TERRAIN ANNEXE', '67000 STRASBOURG']": {
+          "nom": "STADE POURTALÈS 3",
+          "adresse": "120 RUE KEMPF | TERRAIN ANNEXE | 67000 STRASBOURG",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE LA THUR 2_['RUE DE LA DOLLER', '67000 STRASBOURG']": {
+          "nom": "STADE DE LA THUR 2",
+          "adresse": "RUE DE LA DOLLER | 67000 STRASBOURG",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -3841,10 +4074,11 @@
           "heure": "13:00",
           "recevant": "STRG ROBERTSAU A.S.L 2",
           "visiteur": "MUNDOLSHEIM A.S 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 12,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE POURTALÈS 3_['120 RUE KEMPF', 'TERRAIN ANNEXE', '67000 STRASBOURG']"
         },
         {
           "id": 56456989,
@@ -3863,10 +4097,11 @@
           "heure": "14:45",
           "recevant": "STRG CITE DE L ILL",
           "visiteur": "LA WANTZENAU FC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 10,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA THUR 2_['RUE DE LA DOLLER', '67000 STRASBOURG']"
         },
         {
           "id": 56456992,
@@ -4181,6 +4416,20 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE MARCEL DIEBOLD 2_['Rue des Vergers', 'COMPLEXE SPORTIF', '67610 LA WANTZENAU']": {
+          "nom": "STADE MARCEL DIEBOLD 2",
+          "adresse": "Rue des Vergers | COMPLEXE SPORTIF | 67610 LA WANTZENAU",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE ERNEST ROMENS_[' AVENUE DE LA 2E DIVISION BLINDEE', '67300 SCHILTIGHEIM']": {
+          "nom": "STADE ERNEST ROMENS",
+          "adresse": " AVENUE DE LA 2E DIVISION BLINDEE | 67300 SCHILTIGHEIM",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -4263,10 +4512,11 @@
           "heure": "14:30",
           "recevant": "LA WANTZENAU FC",
           "visiteur": "STRG SUC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MARCEL DIEBOLD 2_['Rue des Vergers', 'COMPLEXE SPORTIF', '67610 LA WANTZENAU']"
         },
         {
           "id": 56457061,
@@ -4285,10 +4535,11 @@
           "heure": "15:00",
           "recevant": "SCHILT/BISC EC 2",
           "visiteur": "HOENHEIM S.R 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ERNEST ROMENS_[' AVENUE DE LA 2E DIVISION BLINDEE', '67300 SCHILTIGHEIM']"
         },
         {
           "id": 56457063,
@@ -4688,10 +4939,11 @@
           "heure": "12:30",
           "recevant": "SCHILTIGHEIM SC 3",
           "visiteur": "STRG VAUBAN U.S 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 16,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GUSTAVE KITZINGER_['3B AVENUE PIERRE MENDES FRANCE', '67300 SCHILTIGHEIM']"
         },
         {
           "id": 56457113,
@@ -5108,10 +5360,11 @@
           "heure": "14:30",
           "recevant": "STRG VAUBAN U.S 3",
           "visiteur": "STRG A.S. 4",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ÉMILE STAHL 2_['5 PLACE DE KEHL', 'TERRAIN ANNEXE', '67000 STRASBOURG']"
         },
         {
           "id": 56457141,
@@ -5130,10 +5383,11 @@
           "heure": "14:30",
           "recevant": "HAUTEPIERRE AFJ",
           "visiteur": "MUSAU STRASBOURG 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE HAUTEPIERRE 2_[' RUE BADEN POWELL', 'TERRAIN FOOT / RUGBY', '67000 STRASBOURG']"
         },
         {
           "id": 56457143,
@@ -5462,6 +5716,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "COMPLEXE SPORTIF 1_['RUE DE HOLTZHEIM', '67204 ACHENHEIM']": {
+          "nom": "COMPLEXE SPORTIF 1",
+          "adresse": "RUE DE HOLTZHEIM | 67204 ACHENHEIM",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -5650,10 +5911,11 @@
           "heure": "14:30",
           "recevant": "STUTZHEIM F.C",
           "visiteur": "PORTE DU VIGNOBLE 09 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 11,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_[' CHEMIN DE LA SOUFFEL', '67370 STUTZHEIM OFFENHEIM']"
         },
         {
           "id": 56457221,
@@ -5661,10 +5923,11 @@
           "heure": "14:30",
           "recevant": "BRUCHE ACKERLAND 3",
           "visiteur": "TRUCHTERSHEIM FC 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF 1_['RUE DE HOLTZHEIM', '67204 ACHENHEIM']"
         },
         {
           "id": 56457222,
@@ -5672,10 +5935,11 @@
           "heure": "14:30",
           "recevant": "DINGSHEIM E. SOUFFEL",
           "visiteur": "PFULGRIESHEIM A.S",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE INTERCOMMUNAL_['RUE DU STADE', '67370 DINGSHEIM']"
         },
         {
           "id": 56457223,
@@ -5986,6 +6250,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 1_['RUE DU MOULIN', '67460 SOUFFELWEYERSHEIM']": {
+          "nom": "STADE MUNICIPAL 1",
+          "adresse": "RUE DU MOULIN | 67460 SOUFFELWEYERSHEIM",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -6069,10 +6340,11 @@
           "heure": "13:30",
           "recevant": "BRUMATH S.S 2",
           "visiteur": "NIEDERHAUSBERGEN F.C",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DINGOLFING_['5 RUE DU STADE', '67170 BRUMATH']"
         },
         {
           "id": 56457271,
@@ -6080,10 +6352,11 @@
           "heure": "14:30",
           "recevant": "SOUFFELWEYERSHEIM SC",
           "visiteur": "OBERHAUSBERGEN F.C",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 10,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['RUE DU MOULIN', '67460 SOUFFELWEYERSHEIM']"
         },
         {
           "id": 56457270,
@@ -6091,10 +6364,11 @@
           "heure": "16:00",
           "recevant": "BISCHHEIM SOLEIL FC 3",
           "visiteur": "STRG A.S. 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 14,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF OUEST_['RUE ANDRE MARIE AMPERE', '67800 BISCHHEIM']"
         },
         {
           "id": 56457273,
@@ -6499,10 +6773,11 @@
           "heure": "16:00",
           "recevant": "ECKBOLSHEIM F.C",
           "visiteur": "NIEDERHAUSBERGEN F.C 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 10,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ROBERT LIENHARDT_['RUE NIEDERHOLZ', 'TERRAIN FOOT A8', '67201 ECKBOLSHEIM']"
         },
         {
           "id": 56457302,
@@ -6510,10 +6785,11 @@
           "heure": "16:00",
           "recevant": "HOLTZHEIM AS",
           "visiteur": "OBERHAUSBERGEN F.C 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA BRUCHE 3_[' RUE DE LA BRUCHE', '67810 HOLTZHEIM']"
         },
         {
           "id": 56457304,
@@ -6817,10 +7093,65 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE PACO MATÉO 2_['20 RUE COLETTE', 'TERRAIN DE HOCKEY SUR GAZON', '67000 STRASBOURG']": {
+          "nom": "STADE PACO MATÉO 2",
+          "adresse": "20 RUE COLETTE | TERRAIN DE HOCKEY SUR GAZON | 67000 STRASBOURG",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE OMNISPORTS NACHTWEID 2_['RUE D ILLKIRCH', 'TERRAIN ANNEXE - QUAI OLIDA', '67540 OSTWALD']": {
+          "nom": "STADE OMNISPORTS NACHTWEID 2",
+          "adresse": "RUE D ILLKIRCH | TERRAIN ANNEXE - QUAI OLIDA | 67540 OSTWALD",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFKt5liotmbI": {
+          "nom": "ELIAN S.",
+          "maillot": 9,
+          "club": "STRG JSK 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx2mi4nnbY": {
+          "nom": "ALTAN Y.",
+          "maillot": 8,
+          "club": "STRG JSK 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6ki8jm7Q": {
+          "nom": "SOFIANE T.",
+          "maillot": 19,
+          "club": "STRG JSK 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx_kCcgmbY": {
+          "nom": "MOHAMED M.",
+          "maillot": 2,
+          "club": "STRG JSK 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt8mycsn7U": {
+          "nom": "OBOSE I.",
+          "maillot": 17,
+          "club": "STRG JSK 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx_mycnmbE": {
+          "nom": "ZEYD E.",
+          "maillot": 15,
+          "club": "STRG JSK 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt9migjnLI": {
+          "nom": "NAIM S.",
+          "maillot": 11,
+          "club": "STRG JSK 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6my4ll7Q": {
+          "nom": "ISAAC B.",
+          "maillot": 7,
+          "club": "STRG JSK 2"
+        }
+      },
       "matchs": [
         {
           "id": 56457326,
@@ -6887,10 +7218,41 @@
           "heure": "13:00",
           "recevant": "STRG JSK 2",
           "visiteur": "ENTZHEIM F.C",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 22,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt5liotmbI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx2mi4nnbY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 23,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6ki8jm7Q",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_kCcgmbY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt8mycsn7U",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_mycnmbE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt9migjnLI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6my4ll7Q",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE PACO MATÉO 2_['20 RUE COLETTE', 'TERRAIN DE HOCKEY SUR GAZON', '67000 STRASBOURG']"
         },
         {
           "id": 56457331,
@@ -6898,10 +7260,11 @@
           "heure": "14:30",
           "recevant": "OSTWALD F.C",
           "visiteur": "SCHILTIGHEIM SC 4",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE OMNISPORTS NACHTWEID 2_['RUE D ILLKIRCH', 'TERRAIN ANNEXE - QUAI OLIDA', '67540 OSTWALD']"
         },
         {
           "id": 56457332,
@@ -7227,6 +7590,20 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE DE LA CANARDIÈRE_['2 RUE DE PROVENCE', '67100 STRASBOURG']": {
+          "nom": "STADE DE LA CANARDIÈRE",
+          "adresse": "2 RUE DE PROVENCE | 67100 STRASBOURG",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE LA GANZAU 2_['10 RUE AMEDEE CAILLIOT', \"TERRAIN D'HONNEUR\", '67000 STRASBOURG']": {
+          "nom": "STADE DE LA GANZAU 2",
+          "adresse": "10 RUE AMEDEE CAILLIOT | TERRAIN D'HONNEUR | 67000 STRASBOURG",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -7298,10 +7675,11 @@
           "heure": "13:00",
           "recevant": "STRASBOURG FC 2",
           "visiteur": "MUSAU STRASBOURG",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 16,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA CANARDIÈRE_['2 RUE DE PROVENCE', '67100 STRASBOURG']"
         },
         {
           "id": 56457492,
@@ -7309,10 +7687,11 @@
           "heure": "14:30",
           "recevant": "STRG NEUHOF C.S",
           "visiteur": "OSTWALD F.C 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 11,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MICHEL WALTER 2_['40, RUE DE LA KLEBSAU', 'TERRAIN ANNEXE', '67000 STRASBOURG']"
         },
         {
           "id": 56457493,
@@ -7320,10 +7699,11 @@
           "heure": "14:30",
           "recevant": "STRG STOCKFELD",
           "visiteur": "ILLKIRCH GRAFF. F.A 4",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 10,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA GANZAU 2_['10 RUE AMEDEE CAILLIOT', \"TERRAIN D'HONNEUR\", '67000 STRASBOURG']"
         },
         {
           "id": 56457495,
@@ -7645,6 +8025,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 2_[' RUE DE L ETANG', 'ANNEXE', '67640 FEGERSHEIM']": {
+          "nom": "STADE MUNICIPAL 2",
+          "adresse": " RUE DE L ETANG | ANNEXE | 67640 FEGERSHEIM",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -7728,10 +8115,11 @@
           "heure": "13:30",
           "recevant": "FEGERSHEIM CS",
           "visiteur": "STRG NEUHOF C.S 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 2_[' RUE DE L ETANG', 'ANNEXE', '67640 FEGERSHEIM']"
         },
         {
           "id": 56457564,
@@ -7739,10 +8127,11 @@
           "heure": "14:30",
           "recevant": "PLOBSHEIM C.A",
           "visiteur": "STRG NEUDORF AS 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 16,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF DU LANGENSAND_['RUE DU RHIN', '67115 PLOBSHEIM']"
         },
         {
           "id": 56457565,
@@ -7750,10 +8139,11 @@
           "heure": "14:30",
           "recevant": "ESCHAU F.C",
           "visiteur": "STRASBOURG FC 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 13,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF 2_['BAERLACHE', 'Rue de la Place des Fêtes', '67114 ESCHAU']"
         },
         {
           "id": 56457567,
@@ -8139,10 +8529,11 @@
           "heure": "13:45",
           "recevant": "BREUSCHWICKERSHEIM 2",
           "visiteur": "DACHSTEIN U.S",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DU MUHLBACH 1_['Chemin du Schwall', '67112 BREUSCHWICKERSHEIM']"
         },
         {
           "id": 56457684,
@@ -8161,10 +8552,11 @@
           "heure": "14:30",
           "recevant": "ILLKIRCH GRAFF. F.A 5",
           "visiteur": "ERNO F.C",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 10,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA SCHLOSSMATT_['1 RUE DU FOOTBALL', '67400 ILLKIRCH GRAFFENSTADEN']"
         },
         {
           "id": 56457687,
@@ -8475,6 +8867,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 1_['RUE DE KRAUTERGERSHEIM', '67870 BISCHOFFSHEIM']": {
+          "nom": "STADE MUNICIPAL 1",
+          "adresse": "RUE DE KRAUTERGERSHEIM | 67870 BISCHOFFSHEIM",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -8646,10 +9045,11 @@
           "heure": "13:30",
           "recevant": "STILL MUTZ. ENT SMD 2",
           "visiteur": "LINGOLSHEIM F.C 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 15,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ROGER LEISSNER 2_['RUE DU DOCTEUR SCHWEITZER', 'TERRAIN ANNEXE', '67190 MUTZIG']"
         },
         {
           "id": 56457714,
@@ -8657,10 +9057,11 @@
           "heure": "14:30",
           "recevant": "WOLXH. ENT. BERGB.",
           "visiteur": "GEISPOLSHEIM FC 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA BRUCHE_[\"RUE D'AVOLSHEIM\", '67120 WOLXHEIM']"
         },
         {
           "id": 56457715,
@@ -8668,10 +9069,11 @@
           "heure": "14:30",
           "recevant": "GRPT KILBS",
           "visiteur": "DUPPI ENT. DUTT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['RUE DE KRAUTERGERSHEIM', '67870 BISCHOFFSHEIM']"
         },
         {
           "id": 56457718,
@@ -9076,10 +9478,11 @@
           "heure": "14:30",
           "recevant": "VALFF ENT. PIEMONT",
           "visiteur": "ESCHAU F.C 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA KIRNECK 1_['ROUTE DE WESTHOUSE', '67210 VALFF']"
         },
         {
           "id": 56457746,
@@ -9087,10 +9490,11 @@
           "heure": "14:30",
           "recevant": "HAUTE BRUCHE AS",
           "visiteur": "BARR FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 9,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES GRIVES_['3 RUE DES GRIVES', '67130 BAREMBACH']"
         },
         {
           "id": 56457748,
@@ -9401,6 +9805,20 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE DU PIÉMONT 1_['ROUTE DE GOXWILLER', '67210 NIEDERNAI']": {
+          "nom": "STADE DU PIÉMONT 1",
+          "adresse": "ROUTE DE GOXWILLER | 67210 NIEDERNAI",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE LA FORÊT 2_['RUE DU STADE', 'TERRAIN ANNEXE', '67150 NORDHOUSE']": {
+          "nom": "STADE DE LA FORÊT 2",
+          "adresse": "RUE DU STADE | TERRAIN ANNEXE | 67150 NORDHOUSE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -9484,10 +9902,11 @@
           "heure": "14:30",
           "recevant": "NIED ENT ELANDSBERG",
           "visiteur": "GRPT KILBS 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DU PIÉMONT 1_['ROUTE DE GOXWILLER', '67210 NIEDERNAI']"
         },
         {
           "id": 56500059,
@@ -9495,10 +9914,11 @@
           "heure": "14:30",
           "recevant": "NORDHOUSE ENT HIPSH",
           "visiteur": "DAMBACH VILLE U.S",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA FORÊT 2_['RUE DU STADE', 'TERRAIN ANNEXE', '67150 NORDHOUSE']"
         },
         {
           "id": 56500060,
@@ -9506,10 +9926,11 @@
           "heure": "14:30",
           "recevant": "SELESTAT S.C",
           "visiteur": "OBERNAI FCSR 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "PARC DES SPORTS 2 TERRAIN SYNTHÉTIQUE_['2 ESPACE GEORGES LEVY', '2 RUE BRIGADE ALSACE LORRAINE', '67600 SELESTAT']"
         },
         {
           "id": 56500061,
@@ -9820,6 +10241,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['ROUTE DE FRIESENHEIM', '67230 DIEBOLSHEIM']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "ROUTE DE FRIESENHEIM | 67230 DIEBOLSHEIM",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -10008,10 +10436,11 @@
           "heure": "14:30",
           "recevant": "SUNDHOUSE U.S",
           "visiteur": "MATZENHEIM ROSSFELD 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE  MUNICIPAL 1_['7 RUE DU STADE', '67920 SUNDHOUSE']"
         },
         {
           "id": 56457971,
@@ -10019,10 +10448,11 @@
           "heure": "14:30",
           "recevant": "RHINAU ENT. DU RHIN",
           "visiteur": "SELESTAT S.C 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['ROUTE DE FRIESENHEIM', '67230 DIEBOLSHEIM']"
         },
         {
           "id": 56457972,
@@ -10030,10 +10460,11 @@
           "heure": "14:30",
           "recevant": "MUTTERSHOLTZ AS",
           "visiteur": "NIED ENT ELANDSBERG 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['RUE DE WITTISHEIM - D21', '67600 MUTTERSHOLTZ']"
         },
         {
           "id": 56457974,
@@ -10427,10 +10858,11 @@
           "heure": "13:30",
           "recevant": "MARCKOLSHEIM A.S 2",
           "visiteur": "ENT. HT KOENIGSBOURG",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 11,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL N°1_[' RUE DE LA GARONNE', '67390 MARCKOLSHEIM']"
         },
         {
           "id": 56458001,
@@ -10438,10 +10870,11 @@
           "heure": "13:30",
           "recevant": "MATZENHEIM ROSSFELD 2",
           "visiteur": "ENT.BALD/MUSS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 8,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 2_['RUE DU STADE', '67230 ROSSFELD']"
         },
         {
           "id": 56458002,
@@ -10449,10 +10882,10 @@
           "heure": "13:30",
           "recevant": "ARTO SCHOENAU ENT",
           "visiteur": "KERTZFELD ENT SCHEER",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué"
         },
         {
           "id": 56458003,
@@ -10756,6 +11189,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 2_['TERRAIN REDUIT FOOT A7-A9', '67600 KINTZHEIM']": {
+          "nom": "STADE MUNICIPAL 2",
+          "adresse": "TERRAIN REDUIT FOOT A7-A9 | 67600 KINTZHEIM",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football réduit"
         }
       },
       "officiels": {},
@@ -10839,10 +11279,11 @@
           "heure": "13:30",
           "recevant": "VALLEE DE VILLE ENT. 2",
           "visiteur": "SELESTAT PORTUGAIS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE INTERCOMMUNAL DU GIESSEN_['RUE DU GIESSEN', '67220 TRIEMBACH AU VAL']"
         },
         {
           "id": 56458163,
@@ -10850,10 +11291,11 @@
           "heure": "14:30",
           "recevant": "ENT. HT KOENIGSBOURG 2",
           "visiteur": "EBERSHEIM ENT.SCHEER 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 2_['TERRAIN REDUIT FOOT A7-A9', '67600 KINTZHEIM']"
         },
         {
           "id": 56458164,

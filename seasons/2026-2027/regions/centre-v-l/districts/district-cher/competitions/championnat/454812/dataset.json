@@ -10,8 +10,48 @@
     {
       "cp_slug": "454812-criterium-u13-departemental-2/phase/1/1",
       "competition": "Critérium U13 Départemental 2",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "VIERZON FC 2": {
+          "nom": "VIERZON FC 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC581331.jpg",
+          "clNo": "183507",
+          "slug": "581331-vierzon-fc-2"
+        },
+        "VIGNOUX CS": {
+          "nom": "VIGNOUX CS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC542367.jpg",
+          "clNo": "21916",
+          "slug": "542367-vignoux-cs"
+        },
+        "BOURGES GAZÉLEC S. 2": {
+          "nom": "BOURGES GAZÉLEC S. 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC501541.jpg",
+          "clNo": "1025",
+          "slug": "501541-bourges-gazElec-s-2"
+        },
+        "ENT. CHER NORD": {
+          "nom": "ENT. CHER NORD",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC504976.jpg",
+          "clNo": "2470",
+          "slug": "504976-ent-cher-nord"
+        }
+      },
+      "stades": {
+        "STADE DE BROUHOT 2_['RUE HENRI BARBUSSE', '18100 VIERZON']": {
+          "nom": "STADE DE BROUHOT 2",
+          "adresse": "RUE HENRI BARBUSSE | 18100 VIERZON",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE VAUVERT 2_['RUE GABRIEL FAURE', '18000 BOURGES']": {
+          "nom": "STADE DE VAUVERT 2",
+          "adresse": "RUE GABRIEL FAURE | 18000 BOURGES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -32,10 +72,11 @@
           "heure": "14:00",
           "recevant": "VIERZON FC 2",
           "visiteur": "VIGNOUX CS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE BROUHOT 2_['RUE HENRI BARBUSSE', '18100 VIERZON']"
         },
         {
           "id": 79632874,
@@ -43,10 +84,11 @@
           "heure": "14:00",
           "recevant": "BOURGES GAZÉLEC S. 2",
           "visiteur": "ENT. CHER NORD",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE VAUVERT 2_['RUE GABRIEL FAURE', '18000 BOURGES']"
         },
         {
           "id": 79632875,
@@ -251,8 +293,67 @@
     {
       "cp_slug": "454812-criterium-u13-departemental-2/phase/1/2",
       "competition": "Critérium U13 Départemental 2",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "BOURGES JUSTICES ES": {
+          "nom": "BOURGES JUSTICES ES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC525137.jpg",
+          "clNo": "9967",
+          "slug": "525137-bourges-justices-es"
+        },
+        "BOURGES FC 3": {
+          "nom": "BOURGES FC 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560729.jpg",
+          "clNo": "198773",
+          "slug": "560729-bourges-fc-3"
+        },
+        "LOIRE VAL AUBOIS O.": {
+          "nom": "LOIRE VAL AUBOIS O.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC544759.jpg",
+          "clNo": "36440",
+          "slug": "544759-loire-val-aubois-o"
+        },
+        "DUN S/ AURON US": {
+          "nom": "DUN S/ AURON US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC504867.jpg",
+          "clNo": "2406",
+          "slug": "504867-dun-s-auron-us"
+        },
+        "TROUY ES 2": {
+          "nom": "TROUY ES 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC519060.jpg",
+          "clNo": "6170",
+          "slug": "519060-trouy-es-2"
+        },
+        "LES AIX/RIANS US": {
+          "nom": "LES AIX/RIANS US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC548848.jpg",
+          "clNo": "25772",
+          "slug": "548848-les-aix-rians-us"
+        }
+      },
+      "stades": {
+        "STADE DE LA ROTTÉE 1_['250 AVENUE DE DUN', '18000 BOURGES']": {
+          "nom": "STADE DE LA ROTTÉE 1",
+          "adresse": "250 AVENUE DE DUN | 18000 BOURGES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE GUY DUBOIS_['LE BOURG', '18320 MARSEILLES LES AUBIGNY']": {
+          "nom": "STADE GUY DUBOIS",
+          "adresse": "LE BOURG | 18320 MARSEILLES LES AUBIGNY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['ROUTE DE LA CHAPELLE', '18570 TROUY']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "ROUTE DE LA CHAPELLE | 18570 TROUY",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -262,10 +363,11 @@
           "heure": "14:00",
           "recevant": "BOURGES JUSTICES ES",
           "visiteur": "BOURGES FC 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA ROTTÉE 1_['250 AVENUE DE DUN', '18000 BOURGES']"
         },
         {
           "id": 79623720,
@@ -273,10 +375,11 @@
           "heure": "14:00",
           "recevant": "LOIRE VAL AUBOIS O.",
           "visiteur": "DUN S/ AURON US",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GUY DUBOIS_['LE BOURG', '18320 MARSEILLES LES AUBIGNY']"
         },
         {
           "id": 79623722,
@@ -284,10 +387,11 @@
           "heure": "14:00",
           "recevant": "TROUY ES 2",
           "visiteur": "LES AIX/RIANS US",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['ROUTE DE LA CHAPELLE', '18570 TROUY']"
         },
         {
           "id": 79623724,
@@ -492,10 +596,81 @@
     {
       "cp_slug": "454812-criterium-u13-departemental-2/phase/1/3",
       "competition": "Critérium U13 Départemental 2",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "F.C.S.A.O": {
+          "nom": "F.C.S.A.O",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564660.jpg",
+          "clNo": "203875",
+          "slug": "564660-f-c-s-a-o"
+        },
+        "ST DOULCHARD FC 2": {
+          "nom": "ST DOULCHARD FC 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC505015.jpg",
+          "clNo": "2488",
+          "slug": "505015-st-doulchard-fc-2"
+        },
+        "ST FLORENT US": {
+          "nom": "ST FLORENT US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC505026.jpg",
+          "clNo": "2492",
+          "slug": "505026-st-florent-us"
+        },
+        "BOURGES GAZÉLEC S. 3": {
+          "nom": "BOURGES GAZÉLEC S. 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC501541.jpg",
+          "clNo": "1025",
+          "slug": "501541-bourges-gazElec-s-3"
+        }
+      },
+      "stades": {
+        "STADE DU PRÉ DES JONCS 1_['RUE JACQUES TISSIER', '18200 ST AMAND MONTROND']": {
+          "nom": "STADE DU PRÉ DES JONCS 1",
+          "adresse": "RUE JACQUES TISSIER | 18200 ST AMAND MONTROND",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE ALBERT SOUBIRAN 2_[\"L'ILE ROBINSON\", 'AVENUE JEAN JAURES', '18400 ST FLORENT SUR CHER']": {
+          "nom": "STADE ALBERT SOUBIRAN 2",
+          "adresse": "L'ILE ROBINSON | AVENUE JEAN JAURES | 18400 ST FLORENT SUR CHER",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFKx8lysjnb8": {
+          "nom": "HICHAM S.",
+          "maillot": 6,
+          "club": "ST FLORENT US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt3kSYklrU": {
+          "nom": "JORIS C.",
+          "maillot": 9,
+          "club": "ST FLORENT US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6lCkhm7c": {
+          "nom": "IMRAN S.",
+          "maillot": 5,
+          "club": "ST FLORENT US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt7kiohnbE": {
+          "nom": "SOANN B.",
+          "maillot": 10,
+          "club": "ST FLORENT US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx8kywln78": {
+          "nom": "SAMI B.",
+          "maillot": 7,
+          "club": "BOURGES GAZÉLEC S. 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp5kC8lmbM": {
+          "nom": "TYNO S.",
+          "maillot": 9,
+          "club": "BOURGES GAZÉLEC S. 3"
+        }
+      },
       "matchs": [
         {
           "id": 79623798,
@@ -503,10 +678,11 @@
           "heure": "14:00",
           "recevant": "F.C.S.A.O",
           "visiteur": "ST DOULCHARD FC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DU PRÉ DES JONCS 1_['RUE JACQUES TISSIER', '18200 ST AMAND MONTROND']"
         },
         {
           "id": 79623799,
@@ -525,10 +701,34 @@
           "heure": "14:00",
           "recevant": "ST FLORENT US",
           "visiteur": "BOURGES GAZÉLEC S. 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8lysjnb8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3kSYklrU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6lCkhm7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7kiohnbE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8kywln78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5kC8lmbM",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE ALBERT SOUBIRAN 2_[\"L'ILE ROBINSON\", 'AVENUE JEAN JAURES', '18400 ST FLORENT SUR CHER']"
         },
         {
           "id": 79623805,

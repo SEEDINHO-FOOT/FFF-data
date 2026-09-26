@@ -10,8 +10,48 @@
     {
       "cp_slug": "458895-u10-niveau-2/phase/1/1",
       "competition": "U10 Niveau 2",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "AVT.G. BOIGNY CHECY": {
+          "nom": "AVT.G. BOIGNY CHECY",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560105.jpg",
+          "clNo": "194120",
+          "slug": "560105-avt-g-boigny-checy"
+        },
+        "ETOILE SPORTIVE MB": {
+          "nom": "ETOILE SPORTIVE MB",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565173.jpg",
+          "clNo": "205105",
+          "slug": "565173-etoile-sportive-mb"
+        },
+        "CJF FLEURY LES AUB. 2": {
+          "nom": "CJF FLEURY LES AUB. 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC525701.jpg",
+          "clNo": "10346",
+          "slug": "525701-cjf-fleury-les-aub-2"
+        },
+        "ST PRYVE ST HILAIRE 2": {
+          "nom": "ST PRYVE ST HILAIRE 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC548861.jpg",
+          "clNo": "25783",
+          "slug": "548861-st-pryve-st-hilaire-2"
+        }
+      },
+      "stades": {
+        "TERRAIN ANNEXE_['CHEMIN DU PORT', '45430 CHECY']": {
+          "nom": "TERRAIN ANNEXE",
+          "adresse": "CHEMIN DU PORT | 45430 CHECY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE BENOIT FRACHON_['140 RUE MARCELIN BERTHELOT', '45400 FLEURY LES AUBRAIS']": {
+          "nom": "STADE BENOIT FRACHON",
+          "adresse": "140 RUE MARCELIN BERTHELOT | 45400 FLEURY LES AUBRAIS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -21,10 +61,11 @@
           "heure": "10:00",
           "recevant": "AVT.G. BOIGNY CHECY",
           "visiteur": "ETOILE SPORTIVE MB",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "TERRAIN ANNEXE_['CHEMIN DU PORT', '45430 CHECY']"
         },
         {
           "id": 79655194,
@@ -32,10 +73,11 @@
           "heure": "14:00",
           "recevant": "CJF FLEURY LES AUB. 2",
           "visiteur": "ST PRYVE ST HILAIRE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE BENOIT FRACHON_['140 RUE MARCELIN BERTHELOT', '45400 FLEURY LES AUBRAIS']"
         },
         {
           "id": 79655195,
@@ -185,10 +227,91 @@
     {
       "cp_slug": "458895-u10-niveau-2/phase/1/2",
       "competition": "U10 Niveau 2",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "SARAN FC 2": {
+          "nom": "SARAN FC 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC524215.jpg",
+          "clNo": "9341",
+          "slug": "524215-saran-fc-2"
+        },
+        "ORLEANS METROPOLE AC": {
+          "nom": "ORLEANS METROPOLE AC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC511656.jpg",
+          "clNo": "3855",
+          "slug": "511656-orleans-metropole-ac"
+        },
+        "MARIGNY ES": {
+          "nom": "MARIGNY ES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC529946.jpg",
+          "clNo": "13236",
+          "slug": "529946-marigny-es"
+        },
+        "ST CYR EN VAL": {
+          "nom": "ST CYR EN VAL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC527554.jpg",
+          "clNo": "11575",
+          "slug": "527554-st-cyr-en-val"
+        }
+      },
+      "stades": {
+        "STADE DES C.R.S._['ANCIENNE ROUTE DE CHARTRES', '45770 SARAN']": {
+          "nom": "STADE DES C.R.S.",
+          "adresse": "ANCIENNE ROUTE DE CHARTRES | 45770 SARAN",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE DES USAGES 2_[' RUE DE LA GARE', '45760 MARIGNY LES USAGES']": {
+          "nom": "STADE DES USAGES 2",
+          "adresse": " RUE DE LA GARE | 45760 MARIGNY LES USAGES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football réduit"
+        }
+      },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFKx3kysmlrY": {
+          "nom": "PAUL R.",
+          "maillot": 8,
+          "club": "MARIGNY ES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt-kyoimLE": {
+          "nom": "ALOIS L.",
+          "maillot": 9,
+          "club": "MARIGNY ES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt3my4inrY": {
+          "nom": "MAXIME F.",
+          "maillot": 7,
+          "club": "MARIGNY ES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp-lS8hl7U": {
+          "nom": "MAEL P.",
+          "maillot": 10,
+          "club": "MARIGNY ES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt_kSkhnLc": {
+          "nom": "ILYAS A.",
+          "maillot": 6,
+          "club": "MARIGNY ES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx3lS8hnbQ": {
+          "nom": "ENZO T.",
+          "maillot": 11,
+          "club": "MARIGNY ES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt6lCcinL8": {
+          "nom": "ETHAN H.",
+          "maillot": 5,
+          "club": "MARIGNY ES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt8kC8jn7A": {
+          "nom": "GABRIEL A.",
+          "maillot": 12,
+          "club": "MARIGNY ES"
+        }
+      },
       "matchs": [
         {
           "id": 79655209,
@@ -361,10 +484,11 @@
           "heure": "11:00",
           "recevant": "SARAN FC 2",
           "visiteur": "ORLEANS METROPOLE AC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 8,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES C.R.S._['ANCIENNE ROUTE DE CHARTRES', '45770 SARAN']"
         },
         {
           "id": 79706370,
@@ -372,10 +496,41 @@
           "heure": "14:00",
           "recevant": "MARIGNY ES",
           "visiteur": "ST CYR EN VAL",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 9,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3kysmlrY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-kyoimLE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3my4inrY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp-lS8hl7U",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt_kSkhnLc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3lS8hnbQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt6lCcinL8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt8kC8jn7A",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE DES USAGES 2_[' RUE DE LA GARE', '45760 MARIGNY LES USAGES']"
         }
       ]
     }

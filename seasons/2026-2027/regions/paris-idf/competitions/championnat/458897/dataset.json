@@ -10,10 +10,82 @@
     {
       "cp_slug": "458897-foot-loisir-samedi-matin/phase/1/1",
       "competition": "Foot Loisir Samedi Matin",
-      "clubs": {},
-      "stades": {},
-      "officiels": {},
-      "joueurs": {},
+      "clubs": {
+        "LUDOPIA AS": {
+          "nom": "LUDOPIA AS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC615439.jpg",
+          "clNo": "32601",
+          "slug": "615439-ludopia-as"
+        },
+        "TROMBLONS DU MIDI": {
+          "nom": "TROMBLONS DU MIDI",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC844495.jpg",
+          "clNo": "34909",
+          "slug": "844495-tromblons-du-midi"
+        },
+        "PARIS XIII E.S.": {
+          "nom": "PARIS XIII E.S.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC551989.jpg",
+          "clNo": "116775",
+          "slug": "551989-paris-xiii-e-s"
+        },
+        "RED STAR DE CRETEIL": {
+          "nom": "RED STAR DE CRETEIL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC861118.jpg",
+          "clNo": "201047",
+          "slug": "861118-red-star-de-creteil"
+        }
+      },
+      "stades": {
+        "COMPLEXE SPORTIF DIDOT_['20 AVENUE MARC SANGNIER', '75014 PARIS']": {
+          "nom": "COMPLEXE SPORTIF DIDOT",
+          "adresse": "20 AVENUE MARC SANGNIER | 75014 PARIS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE POTERNE DES PEUPLIERS_['3 RUE MAX JACOB', '75013 PARIS']": {
+          "nom": "STADE POTERNE DES PEUPLIERS",
+          "adresse": "3 RUE MAX JACOB | 75013 PARIS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
+      "officiels": {
+        "AHMED MEBARKI_AC": {
+          "nom": "AHMED MEBARKI",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "MOHAMMED EL MALEM_AC": {
+          "nom": "MOHAMMED EL MALEM",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        }
+      },
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKpNEKh7migmnb4": {
+          "nom": "BRAYAN T.",
+          "maillot": 3,
+          "club": "PARIS XIII E.S."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLFqd_kCwkmLc": {
+          "nom": "AISSAM Z.",
+          "maillot": 12,
+          "club": "PARIS XIII E.S."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl7lCsjnL4": {
+          "nom": "AMIR G.",
+          "maillot": 6,
+          "club": "PARIS XIII E.S."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLFKd_kCslnbE": {
+          "nom": "JEROME A.",
+          "maillot": 14,
+          "club": "PARIS XIII E.S."
+        }
+      },
       "matchs": [
         {
           "id": 79524454,
@@ -32,10 +104,14 @@
           "heure": "09:00",
           "recevant": "LUDOPIA AS",
           "visiteur": "TROMBLONS DU MIDI",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF DIDOT_['20 AVENUE MARC SANGNIER', '75014 PARIS']",
+          "officiels": [
+            "AHMED MEBARKI_AC"
+          ]
         },
         {
           "id": 79524457,
@@ -43,10 +119,30 @@
           "heure": "09:00",
           "recevant": "PARIS XIII E.S.",
           "visiteur": "RED STAR DE CRETEIL",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 28,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh7migmnb4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpLFqd_kCwkmLc",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 28,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl7lCsjnL4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpLFKd_kCslnbE",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE POTERNE DES PEUPLIERS_['3 RUE MAX JACOB', '75013 PARIS']",
+          "officiels": [
+            "MOHAMMED EL MALEM_AC"
+          ]
         },
         {
           "id": 79524455,
@@ -340,6 +436,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC552355.jpg",
           "clNo": "161863",
           "slug": "552355-chennevieres-louv-fc"
+        },
+        "SOCRATES CLUB A.": {
+          "nom": "SOCRATES CLUB A.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC846975.jpg",
+          "clNo": "35462",
+          "slug": "846975-socrates-club-a"
+        },
+        "USBC": {
+          "nom": "USBC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC861119.jpg",
+          "clNo": "201048",
+          "slug": "861119-usbc"
         }
       },
       "stades": {
@@ -349,10 +457,64 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "COMPLEXE SPORTIF BIANCOTTO_['6, AV. DE LA PORTE DE CLICHY', '75017 PARIS']": {
+          "nom": "COMPLEXE SPORTIF BIANCOTTO",
+          "adresse": "6, AV. DE LA PORTE DE CLICHY | 75017 PARIS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
-      "officiels": {},
-      "joueurs": {},
+      "officiels": {
+        "Anonyme_AC": {
+          "nom": "Anonyme",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        }
+      },
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKlNFap4kyYkm7E": {
+          "nom": "GAUTIER B.",
+          "maillot": 5,
+          "club": "SOCRATES CLUB A."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp4lS4jnLU": {
+          "nom": "JOE N.",
+          "maillot": 18,
+          "club": "SOCRATES CLUB A."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp_lC4mnLI": {
+          "nom": "RODRIGO D.",
+          "maillot": 8,
+          "club": "SOCRATES CLUB A."
+        },
+        "ir3_vj-lzPeINLfhzILsrKlBEal2kCwinbQ": {
+          "nom": "JEAN FRANCOIS L.",
+          "maillot": 17,
+          "club": "SOCRATES CLUB A."
+        },
+        "ir3_vj-lzPeINLfhzILsrK1AFKZ_mi4imA": {
+          "nom": "JEREMY L.",
+          "maillot": 13,
+          "club": "SOCRATES CLUB A."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp-lSwnm7Q": {
+          "nom": "GABIN L.",
+          "maillot": 11,
+          "club": "USBC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLHad-lysknLE": {
+          "nom": "ALEXANDRE B.",
+          "maillot": 12,
+          "club": "USBC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx5liojnrU": {
+          "nom": "VIANNEY M.",
+          "maillot": 3,
+          "club": "USBC"
+        }
+      },
       "matchs": [
         {
           "id": 79490174,
@@ -372,10 +534,53 @@
           "heure": "09:00",
           "recevant": "SOCRATES CLUB A.",
           "visiteur": "USBC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 43,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlNFap4kyYkm7E",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp4lS4jnLU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp_lC4mnLI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlBEal2kCwinbQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrK1AFKZ_mi4imA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 53,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp-lSwnm7Q",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpLHad-lysknLE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 85,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx5liojnrU",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "COMPLEXE SPORTIF BIANCOTTO_['6, AV. DE LA PORTE DE CLICHY', '75017 PARIS']",
+          "officiels": [
+            "Anonyme_AC"
+          ]
         },
         {
           "id": 79490173,

@@ -10,10 +10,83 @@
     {
       "cp_slug": "454702-coupe-u18-credit-agricole/phase/1/1",
       "competition": "Coupe U18 Crédit Agricole",
-      "clubs": {},
-      "stades": {},
-      "officiels": {},
-      "joueurs": {},
+      "clubs": {
+        "FC DECIZE": {
+          "nom": "FC DECIZE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC551038.jpg",
+          "clNo": "107390",
+          "slug": "551038-fc-decize"
+        },
+        "SENS FC": {
+          "nom": "SENS FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500555.jpg",
+          "clNo": "607",
+          "slug": "500555-sens-fc"
+        }
+      },
+      "stades": {
+        "STADE DES HALLES 1_['AVENUE MARCEL MERLE', '58300 DECIZE']": {
+          "nom": "STADE DES HALLES 1",
+          "adresse": "AVENUE MARCEL MERLE | 58300 DECIZE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
+      "officiels": {
+        "NOLANN VILLIERS_AC": {
+          "nom": "NOLANN VILLIERS",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        }
+      },
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFKp7lSYnn78": {
+          "nom": "MOUSSA S.",
+          "maillot": 13,
+          "club": "SENS FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh4ki8kmrQ": {
+          "nom": "BILAL G.",
+          "maillot": 12,
+          "club": "SENS FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh5kC8mmLE": {
+          "nom": "MILAN M.",
+          "maillot": 10,
+          "club": "SENS FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd8kSkmm7Q": {
+          "nom": "NOA D.",
+          "maillot": 9,
+          "club": "FC DECIZE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh3my0hlr4": {
+          "nom": "ARTHUR D.",
+          "maillot": 12,
+          "club": "FC DECIZE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKBMFad8ki4llg": {
+          "nom": "Anonyme",
+          "maillot": null,
+          "club": ""
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd7lSklnLM": {
+          "nom": "ABDALLAH MOHAMMAD B.",
+          "maillot": 11,
+          "club": "FC DECIZE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh6mywjnLU": {
+          "nom": "GAEL M.",
+          "maillot": 13,
+          "club": "FC DECIZE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh4kCwjlrU": {
+          "nom": "MATHIS B.",
+          "maillot": 8,
+          "club": "FC DECIZE"
+        }
+      },
       "matchs": [
         {
           "id": 79609497,
@@ -21,10 +94,61 @@
           "heure": "12:00",
           "recevant": "FC DECIZE",
           "visiteur": "SENS FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 9,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 41,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp7lSYnn78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4ki8kmrQ",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 42,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh5kC8mmLE",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 60,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8kSkmm7Q",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3my0hlr4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 63,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKBMFad8ki4llg",
+              "sanction": "J",
+              "sanction_detail": "JS4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 65,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7lSklnLM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh6mywjnLU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 81,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4kCwjlrU",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE DES HALLES 1_['AVENUE MARCEL MERLE', '58300 DECIZE']",
+          "officiels": [
+            "NOLANN VILLIERS_AC"
+          ]
         },
         {
           "id": 79609496,
