@@ -142,6 +142,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE PIERRE DE COUBERTIN 1_['rue Pierre de Coubertin', '10200 BAR SUR AUBE']": {
+          "nom": "STADE PIERRE DE COUBERTIN 1",
+          "adresse": "rue Pierre de Coubertin | 10200 BAR SUR AUBE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -194,6 +201,11 @@
           "nom": "BRYAN AUDIGER",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "JEAN MICHEL MAINGAUT_CP": {
+          "nom": "JEAN MICHEL MAINGAUT",
+          "role": "Observateur principal",
+          "role_cod": "CP"
         }
       },
       "joueurs": {
@@ -631,6 +643,21 @@
           "nom": "DJOEY M.",
           "maillot": 3,
           "club": "ECOLE MARNE RONGEANT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt_myognr8": {
+          "nom": "CLEMENT C.",
+          "maillot": 14,
+          "club": "BAR-SUR-AUBE FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK14misjnr4": {
+          "nom": "AMAURY B.",
+          "maillot": 5,
+          "club": "BAR-SUR-AUBE FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19lywgmLU": {
+          "nom": "NOAH L.",
+          "maillot": 4,
+          "club": "BAR-SUR-AUBE FC"
         }
       },
       "matchs": [
@@ -1642,10 +1669,53 @@
           "heure": "17:30",
           "recevant": "BAR-SUR-AUBE FC",
           "visiteur": "NORD AUBOIS ES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 12,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx9kyksn7A",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt_myognr8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 17,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-likhnrc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK19mi8knrc",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK14misjnr4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt_myognr8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 55,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4kCgklrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4lS4jnbI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 65,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK19lywgmLU",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE PIERRE DE COUBERTIN 1_['rue Pierre de Coubertin', '10200 BAR SUR AUBE']",
+          "officiels": [
+            "NARJIS CHOUKRI_AC",
+            "JEAN MICHEL MAINGAUT_CP"
+          ]
         },
         {
           "id": 56689308,

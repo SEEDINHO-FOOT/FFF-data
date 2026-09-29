@@ -96,6 +96,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE DES BLEUETS_['21 AVENUE DE BUROS', '64000 PAU']": {
+          "nom": "STADE DES BLEUETS",
+          "adresse": "21 AVENUE DE BUROS | 64000 PAU",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -106,6 +113,11 @@
         },
         "JEROME JAY_AC": {
           "nom": "JEROME JAY",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "TIMEO KHALIFI_AC": {
+          "nom": "TIMEO KHALIFI",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -297,10 +309,14 @@
           "heure": "17:30",
           "recevant": "P.P.F.F.",
           "visiteur": "POLE FEMININ MONTOIS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES BLEUETS_['21 AVENUE DE BUROS', '64000 PAU']",
+          "officiels": [
+            "TIMEO KHALIFI_AC"
+          ]
         },
         {
           "id": 79248209,
@@ -486,6 +502,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC531930.jpg",
           "clNo": "14578",
           "slug": "531930-st-palais-64-us"
+        },
+        "JA DAX": {
+          "nom": "JA DAX",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC505739.jpg",
+          "clNo": "2637",
+          "slug": "505739-ja-dax"
         }
       },
       "stades": {
@@ -823,10 +845,11 @@
           "heure": "17:00",
           "recevant": "MAULEONAIS SA",
           "visiteur": "JA DAX",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JEAN LASSERRE 1_['AVENUE DU STADE', 'TERRAIN MAULETARRAK', '64130 MAULEON SOULE']"
         },
         {
           "id": 79248184,

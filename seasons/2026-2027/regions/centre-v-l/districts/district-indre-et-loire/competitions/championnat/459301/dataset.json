@@ -34,6 +34,24 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC521070.jpg",
           "clNo": "7330",
           "slug": "521070-fondettes-ent"
+        },
+        "ST.NICOLAS BO": {
+          "nom": "ST.NICOLAS BO",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC525565.jpg",
+          "clNo": "10268",
+          "slug": "525565-st-nicolas-bo"
+        },
+        "CLERE LES PINS US": {
+          "nom": "CLERE LES PINS US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565123.jpg",
+          "clNo": "205033",
+          "slug": "565123-clere-les-pins-us"
+        },
+        "VALLEE VERTE ES": {
+          "nom": "VALLEE VERTE ES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC551127.jpg",
+          "clNo": "169266",
+          "slug": "551127-vallee-verte-es"
         }
       },
       "stades": {
@@ -50,10 +68,52 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['LE MOULIN', '37800 MAILLE']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "LE MOULIN | 37800 MAILLE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MICHEL ET ÉLISE PEYTUREAU_['RUE DU MOULIN A VENT', 'TERRAIN HONNEUR', '37230 FONDETTES']": {
+          "nom": "STADE MICHEL ET ÉLISE PEYTUREAU",
+          "adresse": "RUE DU MOULIN A VENT | TERRAIN HONNEUR | 37230 FONDETTES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE PIERRE BOURBON 1_['12 RUE DE LA TUILERIE', '37320 CORMERY']": {
+          "nom": "STADE PIERRE BOURBON 1",
+          "adresse": "12 RUE DE LA TUILERIE | 37320 CORMERY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFKp5licil7c": {
+          "nom": "FRANCOISE G.",
+          "maillot": 9,
+          "club": "STE MAURE MAILLE FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp5lCkgnLA": {
+          "nom": "OCEANE D.",
+          "maillot": 6,
+          "club": "STE MAURE MAILLE FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp4lCwtnrU": {
+          "nom": "KARLA M.",
+          "maillot": 8,
+          "club": "ST.NICOLAS BO"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh9myghlrM": {
+          "nom": "CAROLINE G.",
+          "maillot": 9,
+          "club": "ST.NICOLAS BO"
+        }
+      },
       "matchs": [
         {
           "id": 79559515,
@@ -96,10 +156,27 @@
           "heure": "20:00",
           "recevant": "STE MAURE MAILLE FC",
           "visiteur": "ST.NICOLAS BO",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5licil7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5lCkgnLA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4lCwtnrU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh9myghlrM",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL_['LE MOULIN', '37800 MAILLE']"
         },
         {
           "id": 79559521,
@@ -107,10 +184,11 @@
           "heure": "20:00",
           "recevant": "FONDETTES ENT",
           "visiteur": "CLERE LES PINS US",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MICHEL ET ÉLISE PEYTUREAU_['RUE DU MOULIN A VENT', 'TERRAIN HONNEUR', '37230 FONDETTES']"
         },
         {
           "id": 79559519,
@@ -118,10 +196,11 @@
           "heure": "13:00",
           "recevant": "VALLEE VERTE ES",
           "visiteur": "VALLEE DU LYS ASVL",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 8,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PIERRE BOURBON 1_['12 RUE DE LA TUILERIE', '37320 CORMERY']"
         },
         {
           "id": 79559522,

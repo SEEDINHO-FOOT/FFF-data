@@ -109,6 +109,20 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE HENRI JOORIS N°1_['17 RUE DES MARTYRS', '59113 SECLIN']": {
+          "nom": "STADE HENRI JOORIS N°1",
+          "adresse": "17 RUE DES MARTYRS | 59113 SECLIN",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['2 RUE DE LA BASSE COUTURE', '59780 CAMPHIN EN PEVELE']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "2 RUE DE LA BASSE COUTURE | 59780 CAMPHIN EN PEVELE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -266,7 +280,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp9kystnLc": {
           "nom": "FANNY S.",
-          "maillot": 2,
+          "maillot": 12,
           "club": "PEVELE FC 3"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt6kystnrY": {
@@ -453,6 +467,16 @@
           "nom": "MAHOLYN P.",
           "maillot": 11,
           "club": "SECLIN FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK18kS8gmbU": {
+          "nom": "LEONA P.",
+          "maillot": 8,
+          "club": "SECLIN FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp9lSYhl78": {
+          "nom": "MAELIA P.",
+          "maillot": 13,
+          "club": "PEVELE FC 3"
         }
       },
       "matchs": [
@@ -947,8 +971,8 @@
         },
         {
           "id": 79098311,
-          "date": "2026-09-26",
-          "heure": "16:00",
+          "date": "2026-09-30",
+          "heure": "17:30",
           "recevant": "LEERS OS",
           "visiteur": "VILLENEUVE D'ASCQ FF 2",
           "buts_recevant": null,
@@ -962,10 +986,20 @@
           "heure": "16:00",
           "recevant": "SECLIN FC",
           "visiteur": "ROUBAIX WERVICQ RCF",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 9,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 33,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK18kS8gmbU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7kCglnLc",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE HENRI JOORIS N°1_['17 RUE DES MARTYRS', '59113 SECLIN']"
         },
         {
           "id": 79098322,
@@ -973,10 +1007,34 @@
           "heure": "10:30",
           "recevant": "HEM O.",
           "visiteur": "PEVELE FC 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7lyYhnr8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9lycgmrQ",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4lykmm78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9lSYhl78",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx-kioil7M",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9kystnLc",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MAISON DU FOOTBALL_['51 RUE DE LA LIONDERIE', 'TERRAIN MICHEL HIDALGO 2', '59510 HEM']"
         },
         {
           "id": 79098321,
@@ -984,10 +1042,11 @@
           "heure": "11:15",
           "recevant": "CAMPHIN PEVELE ECF",
           "visiteur": "NEUVILLE FERRAIN FAN",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['2 RUE DE LA BASSE COUTURE', '59780 CAMPHIN EN PEVELE']"
         },
         {
           "id": 79098225,
@@ -1205,6 +1264,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE DU LYCÉE COUTEAUX_['RUE EMILE SEIGNEURET', 'COMPLEXE OMNISPO JEAN VERDAVAINE', '59230 ST AMAND LES EAUX']": {
+          "nom": "STADE DU LYCÉE COUTEAUX",
+          "adresse": "RUE EMILE SEIGNEURET | COMPLEXE OMNISPO JEAN VERDAVAINE | 59230 ST AMAND LES EAUX",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -1225,6 +1291,11 @@
         },
         "ALEXIS PETERS_AC": {
           "nom": "ALEXIS PETERS",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "Anonyme_AC": {
+          "nom": "Anonyme",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -1292,7 +1363,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK13lyskmbM": {
           "nom": "CHARLINE D.",
-          "maillot": 9,
+          "maillot": 14,
           "club": "CAMBRAI AC"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx6lSgkmLQ": {
@@ -1317,7 +1388,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt5kisjnrc": {
           "nom": "LEANA G.",
-          "maillot": 12,
+          "maillot": 8,
           "club": "CAMBRAI AC"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK17kCwtnbU": {
@@ -1414,6 +1485,36 @@
           "nom": "MARGAUX F.",
           "maillot": 9,
           "club": "MARCQ EN BAROEUL O. 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK12lCklnbE": {
+          "nom": "ELOISE D.",
+          "maillot": 11,
+          "club": "CAMBRAI AC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp4kCotnbY": {
+          "nom": "LALY M.",
+          "maillot": 13,
+          "club": "CAMBRAI AC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp-mystnLQ": {
+          "nom": "ASHLEY P.",
+          "maillot": 7,
+          "club": "CAMBRAI AC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp9lSksnbE": {
+          "nom": "LENA L.",
+          "maillot": 12,
+          "club": "CAMBRAI AC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt4mionnr8": {
+          "nom": "LEA V.",
+          "maillot": 9,
+          "club": "CAMBRAI AC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx3kCYmnL8": {
+          "nom": "LEANE C.",
+          "maillot": 2,
+          "club": "CAMBRAI AC"
         }
       },
       "matchs": [
@@ -1697,10 +1798,68 @@
           "heure": "14:30",
           "recevant": "ST AMAND FC",
           "visiteur": "CAMBRAI AC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 12,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12lCklnbE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 18,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8mykmmr8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4kCotnbY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 24,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp-mystnLQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4kCotnbY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 24,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt5kisjnrc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9lSksnbE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 41,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt4mionnr8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 44,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8mykmmr8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 60,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3kCYmnL8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9lSksnbE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 63,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK13lyskmbM",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE DU LYCÉE COUTEAUX_['RUE EMILE SEIGNEURET', 'COMPLEXE OMNISPO JEAN VERDAVAINE', '59230 ST AMAND LES EAUX']",
+          "officiels": [
+            "Anonyme_AC"
+          ]
         },
         {
           "id": 79098842,
@@ -1708,10 +1867,11 @@
           "heure": "15:15",
           "recevant": "CROIX FIC",
           "visiteur": "MARCQ EN BAROEUL O. 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Campus Sportif Henri Seigneur 2_['Boulevard Emile Zola', '59170 CROIX']"
         },
         {
           "id": 79099007,
@@ -1719,10 +1879,11 @@
           "heure": "16:00",
           "recevant": "PERENCHIES USF",
           "visiteur": "LILLE MOULINS CARREL 5",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DONAT AGACHE 1_['RUE PHILIPPE DE GIRARD', 'TERRAIN HONNEUR', '59840 PERENCHIES']"
         },
         {
           "id": 79098933,
@@ -1920,6 +2081,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "COMPLEXE SPORTIF DU MAUBON 2_['347 CHEMIN DU MAUBON', '60750 CHOISY AU BAC']": {
+          "nom": "COMPLEXE SPORTIF DU MAUBON 2",
+          "adresse": "347 CHEMIN DU MAUBON | 60750 CHOISY AU BAC",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -1952,6 +2120,21 @@
           "nom": "LAURENT OUDINOT",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "MAXIME BOUTE_AC": {
+          "nom": "MAXIME BOUTE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "MELINA BOULANGER_AC": {
+          "nom": "MELINA BOULANGER",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "Anonyme_AC": {
+          "nom": "Anonyme",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -1977,7 +2160,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx4kyktmL4": {
           "nom": "LILY ROSE C.",
-          "maillot": 3,
+          "maillot": 12,
           "club": "CHOISY AU BAC US"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt_ly8sn78": {
@@ -2094,6 +2277,56 @@
           "nom": "LENAIG R.",
           "maillot": 6,
           "club": "RESSONS/LASSIGNY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp7ki0hmL4": {
+          "nom": "ANGELYS D.",
+          "maillot": 2,
+          "club": "RESSONS/LASSIGNY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt8misgmrA": {
+          "nom": "ROMANE L.",
+          "maillot": 12,
+          "club": "RESSONS/LASSIGNY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK18lyohnrY": {
+          "nom": "ZELIE D.",
+          "maillot": 3,
+          "club": "RESSONS/LASSIGNY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx7lisgmL4": {
+          "nom": "ESTRELLA C.",
+          "maillot": 13,
+          "club": "RESSONS/LASSIGNY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp7ly0jmrE": {
+          "nom": "LEANE C.",
+          "maillot": 14,
+          "club": "RESSONS/LASSIGNY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt7ky4nm7E": {
+          "nom": "YASMIN E.",
+          "maillot": 6,
+          "club": "ENT.NOGENT/LAIGNEVIL"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp6kSYin7M": {
+          "nom": "ALYA B.",
+          "maillot": 12,
+          "club": "ENT.NOGENT/LAIGNEVIL"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt-liosmbA": {
+          "nom": "LOU ANNE D.",
+          "maillot": 8,
+          "club": "ENT.NOGENT/LAIGNEVIL"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx-kicknbA": {
+          "nom": "DANYA C.",
+          "maillot": 13,
+          "club": "ENT.NOGENT/LAIGNEVIL"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt5migml7U": {
+          "nom": "KHADJIDIATOU S.",
+          "maillot": 5,
+          "club": "CHOISY AU BAC US"
         }
       },
       "matchs": [
@@ -2367,10 +2600,14 @@
           "heure": "16:00",
           "recevant": "ST QUENTIN O.",
           "visiteur": "SOISSONS IFC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PHILIPPE ROTH_['BOULEVARD RICHELIEU', '02100 ST QUENTIN']",
+          "officiels": [
+            "MAXIME BOUTE_AC"
+          ]
         },
         {
           "id": 79099664,
@@ -2378,10 +2615,51 @@
           "heure": "16:00",
           "recevant": "ENT.NOGENT/LAIGNEVIL",
           "visiteur": "RESSONS/LASSIGNY",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 9,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 14,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp7ki0hmL4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt8misgmrA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK18lyohnrY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7lisgmL4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 32,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7kC0gl7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp7ly0jmrE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7ky4nm7E",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp6kSYin7M",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 60,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-liosmbA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx-kicknbA",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "COMPLEXE SPORTIF DU MOUSTIER_[' RUE DU COMTE D ARCHIAC', '60180 NOGENT SUR OISE']",
+          "officiels": [
+            "MELINA BOULANGER_AC"
+          ]
         },
         {
           "id": 79099662,
@@ -2389,10 +2667,37 @@
           "heure": "10:00",
           "recevant": "CHOISY AU BAC US",
           "visiteur": "LE PAYS DU VALOIS US",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt4kSgnmbE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4kyktmL4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx9kiYimrI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4kyktmL4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt5migml7U",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3lyckmrA",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "COMPLEXE SPORTIF DU MAUBON 2_['347 CHEMIN DU MAUBON', '60750 CHOISY AU BAC']",
+          "officiels": [
+            "Anonyme_AC"
+          ]
         },
         {
           "id": 79099661,
@@ -2612,8 +2917,8 @@
         "STADE CITÉ SNCF 1_['74 ter RUE EDMOND FLAMENT', '59430 ST POL SUR MER']": {
           "nom": "STADE CITÉ SNCF 1",
           "adresse": "74 ter RUE EDMOND FLAMENT | 59430 ST POL SUR MER",
-          "surface": "Pelouse Naturelle",
-          "surface_jeu": "Pelouse Naturelle",
+          "surface": "Pelouse Système Hybride",
+          "surface_jeu": "Pelouse Système Hybride",
           "type_installation": "Football à 11"
         },
         "STADE MUNICIPAL N° 2_['RUE DE GODEWAERSVELDE', 'TERRAIN ANNEXE', '59114 STEENVOORDE']": {
@@ -2629,6 +2934,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE GEORGES DELFOSSE 1_['ALLEE GEORGES DELFOSSE', '59130 LAMBERSART']": {
+          "nom": "STADE GEORGES DELFOSSE 1",
+          "adresse": "ALLEE GEORGES DELFOSSE | 59130 LAMBERSART",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -2639,6 +2951,11 @@
         },
         "LIONEL BARUTI_AC": {
           "nom": "LIONEL BARUTI",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "OLIVIER DECLERCK_AC": {
+          "nom": "OLIVIER DECLERCK",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -2681,7 +2998,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt9lyskm7U": {
           "nom": "ZOE M.",
-          "maillot": 12,
+          "maillot": 10,
           "club": "LINSELLES FC"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK18lishnbI": {
@@ -2723,6 +3040,31 @@
           "nom": "EMMA S.",
           "maillot": 12,
           "club": "STEENVOORDE AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx5kictmLM": {
+          "nom": "SHANA L.",
+          "maillot": 3,
+          "club": "TETEGHEM UXEM"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6kSYml7E": {
+          "nom": "JADE G.",
+          "maillot": 12,
+          "club": "TETEGHEM UXEM"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd6lyYgl7Q": {
+          "nom": "LISA D.",
+          "maillot": 12,
+          "club": "LINSELLES FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd6migtmLU": {
+          "nom": "GABRIELLE S.",
+          "maillot": 9,
+          "club": "TETEGHEM UXEM"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6myYmnr4": {
+          "nom": "LILY ROSE T.",
+          "maillot": 13,
+          "club": "TETEGHEM UXEM"
         }
       },
       "matchs": [
@@ -2878,10 +3220,11 @@
           "heure": "14:00",
           "recevant": "LAMBERSART UF",
           "visiteur": "STEENVOORDE AS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GEORGES DELFOSSE 1_['ALLEE GEORGES DELFOSSE', '59130 LAMBERSART']"
         },
         {
           "id": 79099874,
@@ -2889,10 +3232,37 @@
           "heure": "14:30",
           "recevant": "TETEGHEM UXEM",
           "visiteur": "LINSELLES FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 22,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx5kictmLM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6kSYml7E",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 23,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt9lyskm7U",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6lyYgl7Q",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 29,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6migtmLU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6myYmnr4",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE DANIEL PROVOOST 1_[' RUE DU GENERAL LUCAS', '59229 TETEGHEM COUDEKERQUE VILLAGE']",
+          "officiels": [
+            "OLIVIER DECLERCK_AC"
+          ]
         },
         {
           "id": 79099875,
@@ -3096,6 +3466,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE LÉO LAGRANGE 1_['Entrée BOULEVARD DE LA FOSSE 4', '62980 VERMELLES']": {
+          "nom": "STADE LÉO LAGRANGE 1",
+          "adresse": "Entrée BOULEVARD DE LA FOSSE 4 | 62980 VERMELLES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -3128,6 +3505,26 @@
           "nom": "PIERRE TORCHY",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "ROMAIN LAZIC_AC": {
+          "nom": "ROMAIN LAZIC",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ROBIN LELEU_AC": {
+          "nom": "ROBIN LELEU",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "AXEL LEVRAY_C1": {
+          "nom": "AXEL LEVRAY",
+          "role": "Observateur adjoint 1",
+          "role_cod": "C1"
+        },
+        "FREDERIC LADOIRE_AC": {
+          "nom": "FREDERIC LADOIRE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -3148,7 +3545,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx3mishnbE": {
           "nom": "SHOGHAKAT M.",
-          "maillot": 11,
+          "maillot": 13,
           "club": "BETHUNE STADE"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK19kCkhlr4": {
@@ -3163,12 +3560,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK17kS0nnbU": {
           "nom": "CHLOE D.",
-          "maillot": 9,
+          "maillot": 14,
           "club": "BETHUNE STADE"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx5lyggmbI": {
           "nom": "FAUSTINE D.",
-          "maillot": 14,
+          "maillot": 2,
           "club": "BETHUNE STADE"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK13kiwsm7U": {
@@ -3329,6 +3726,101 @@
         "ir3_vj-lzPeINLfhzILsrKFOFKx6mi8inbU": {
           "nom": "ROMY H.",
           "maillot": 12,
+          "club": "ANZIN ST AUBIN ES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt_lCYtnLA": {
+          "nom": "LEINA P.",
+          "maillot": 4,
+          "club": "LILLERS FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx3lCohmrE": {
+          "nom": "LYLIA B.",
+          "maillot": 14,
+          "club": "LILLERS FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp9kSognL8": {
+          "nom": "KENZA A.",
+          "maillot": 11,
+          "club": "LILLERS FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp6kyklm78": {
+          "nom": "EMMA Y.",
+          "maillot": 12,
+          "club": "LILLERS FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19li4hnbc": {
+          "nom": "ELYNE W.",
+          "maillot": 10,
+          "club": "LILLERS FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp-mywhl7Q": {
+          "nom": "CLEMENCE G.",
+          "maillot": 13,
+          "club": "LILLERS FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp6ligtmb8": {
+          "nom": "MARGOT P.",
+          "maillot": 12,
+          "club": "GPT FEMININ BCV LAON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx9kyYsnrA": {
+          "nom": "LILLY S.",
+          "maillot": 11,
+          "club": "BETHUNE STADE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK13kyYinb8": {
+          "nom": "CHLOE G.",
+          "maillot": 12,
+          "club": "BETHUNE STADE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK12lS4tmrA": {
+          "nom": "JADE C.",
+          "maillot": 10,
+          "club": "VERMELLES US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx5kS4nl7Y": {
+          "nom": "CHARLOTTE R.",
+          "maillot": 4,
+          "club": "VERMELLES US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt9ly8hnLQ": {
+          "nom": "ANDREA D.",
+          "maillot": 12,
+          "club": "ANZIN ST AUBIN ES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt8kignmLM": {
+          "nom": "MAISSA G.",
+          "maillot": 13,
+          "club": "ANZIN ST AUBIN ES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt7lyoimLI": {
+          "nom": "MARIEM B.",
+          "maillot": 8,
+          "club": "ENT. USC-3 CHATEAU"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp6kictnbA": {
+          "nom": "SOLINE T.",
+          "maillot": 3,
+          "club": "ENT. USC-3 CHATEAU"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp8liwsmbQ": {
+          "nom": "JUDICAEL M.",
+          "maillot": 12,
+          "club": "ENT. USC-3 CHATEAU"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt2liwhmLc": {
+          "nom": "JOSEPHINE C.",
+          "maillot": 9,
+          "club": "ANZIN ST AUBIN ES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15kiosnbQ": {
+          "nom": "ELISA E.",
+          "maillot": 14,
+          "club": "ANZIN ST AUBIN ES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16lCohnLU": {
+          "nom": "CELIA M.",
+          "maillot": 5,
           "club": "ANZIN ST AUBIN ES"
         }
       },
@@ -3720,10 +4212,60 @@
           "heure": "15:00",
           "recevant": "VERMELLES US",
           "visiteur": "BETHUNE STADE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 13,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx9kyYsnrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK17kS0nnbU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx5lyggmbI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK13kyYinb8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 33,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx5lyggmbI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3mishnbE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 61,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12lS4tmrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK16myYnmrY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 67,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx5kS4nl7Y",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-kS8jmrA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 80,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt_lyshnbI",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE LÉO LAGRANGE 1_['Entrée BOULEVARD DE LA FOSSE 4', '62980 VERMELLES']",
+          "officiels": [
+            "ROBIN LELEU_AC",
+            "AXEL LEVRAY_C1"
+          ]
         },
         {
           "id": 79100122,
@@ -3731,10 +4273,51 @@
           "heure": "13:30",
           "recevant": "GPT FEMININ BCV LAON",
           "visiteur": "LILLERS FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt_lCYtnLA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3lCohmrE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9kSognL8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp6kyklm78",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 47,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK19li4hnbc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp-mywhl7Q",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 50,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt_kSYtmrM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp6ligtmb8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 55,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp6liYinLA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp-lCogn74",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MARCEL LEVINDREY N°4_['205 RUE MARCEL LEVINDREY', '02000 LAON']",
+          "officiels": [
+            "ROMAIN LAZIC_AC"
+          ]
         },
         {
           "id": 79100124,
@@ -3742,10 +4325,68 @@
           "heure": "16:00",
           "recevant": "ENT. USC-3 CHATEAU",
           "visiteur": "ANZIN ST AUBIN ES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 18,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6mi8inbU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt9ly8hnLQ",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 18,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx2lCkll7Q",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt8kignmLM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 20,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7lyoimLI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 26,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp6kictnbA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp8liwsmbQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 55,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7kC0hnLE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 55,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt2liwhmLc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK15kiosnbQ",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 68,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7kC0hnLE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 72,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16lCohnLU",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE LÉO LAGRANGE 1_['RUE GEO ANDRE', '02300 CHAUNY']",
+          "officiels": [
+            "FREDERIC LADOIRE_AC"
+          ]
         },
         {
           "id": 79100126,

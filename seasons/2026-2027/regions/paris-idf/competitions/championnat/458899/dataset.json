@@ -88,6 +88,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "Stade Des Fontaines_['12 RUE ALBERT DAMMOUSE', '92310 SEVRES']": {
+          "nom": "Stade Des Fontaines",
+          "adresse": "12 RUE ALBERT DAMMOUSE | 92310 SEVRES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -103,6 +110,11 @@
         },
         "Anonyme_AC": {
           "nom": "Anonyme",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ALBERT BERNARD_AC": {
+          "nom": "ALBERT BERNARD",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -237,6 +249,16 @@
           "nom": "JONATHAN R.",
           "maillot": 19,
           "club": "SUPPORTER PSG"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLEqd-ly4nlrY": {
+          "nom": "BENOIT P.",
+          "maillot": 14,
+          "club": "SEVRES F.C. 92"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt9kCcinbM": {
+          "nom": "GUIREC F.",
+          "maillot": 11,
+          "club": "SEVRES F.C. 92"
         }
       },
       "matchs": [
@@ -409,7 +431,7 @@
         {
           "id": 79526009,
           "date": "2026-09-28",
-          "heure": "20:00",
+          "heure": "20:35",
           "recevant": "RED STAR FC",
           "visiteur": "SUPP. OL",
           "buts_recevant": null,
@@ -434,10 +456,32 @@
           "heure": "20:30",
           "recevant": "SEVRES F.C. 92",
           "visiteur": "SUPPORTER PSG",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 38,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLEqd-ly4nlrY",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 88,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt9kCcinbM",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "Stade Des Fontaines_['12 RUE ALBERT DAMMOUSE', '92310 SEVRES']",
+          "officiels": [
+            "ALBERT BERNARD_AC"
+          ]
         },
         {
           "id": 79526015,
@@ -1470,6 +1514,11 @@
           "nom": "AHMED BOUDOUR",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "THIERRY CAPITAINE_AC": {
+          "nom": "THIERRY CAPITAINE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -1527,6 +1576,61 @@
           "nom": "MAXENCE B.",
           "maillot": 15,
           "club": "SOUM DE VANVES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLFaZ3kysjmbM": {
+          "nom": "LAURENT J.",
+          "maillot": 5,
+          "club": "TELECOM RECHERCHE AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpKFqZ4lyYmmbQ": {
+          "nom": "RONALD D.",
+          "maillot": 12,
+          "club": "TELECOM RECHERCHE AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt6mi4nmL4": {
+          "nom": "ANTOINE B.",
+          "maillot": 3,
+          "club": "ESC XVÈME"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlAHal7kC0ml7c": {
+          "nom": "MICHEL C.",
+          "maillot": 13,
+          "club": "ESC XVÈME"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt_kCkjnrI": {
+          "nom": "GUILLAUME C.",
+          "maillot": 7,
+          "club": "ESC XVÈME"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLHad-lycllrE": {
+          "nom": "PIERRE A.",
+          "maillot": 15,
+          "club": "ESC XVÈME"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLFad-lC8hn7Q": {
+          "nom": "SAMIR Z.",
+          "maillot": 13,
+          "club": "TELECOM RECHERCHE AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp6listm74": {
+          "nom": "GABRIEL C.",
+          "maillot": 2,
+          "club": "ESC XVÈME"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp7kS0hnL4": {
+          "nom": "HIPPOLYTE B.",
+          "maillot": 12,
+          "club": "ESC XVÈME"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpKHKh5kyYgnr4": {
+          "nom": "HUGO L.",
+          "maillot": 8,
+          "club": "ESC XVÈME"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLFaZ3kSwjm7M": {
+          "nom": "SEBASTIEN X.",
+          "maillot": 8,
+          "club": "TELECOM RECHERCHE AS"
         }
       },
       "matchs": [
@@ -1699,10 +1803,67 @@
           "heure": "20:30",
           "recevant": "TELECOM RECHERCHE AS",
           "visiteur": "ESC XVÈME",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 42,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLFaZ3kysjmbM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpKFqZ4lyYmmbQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt6mi4nmL4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlAHal7kC0ml7c",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt_kCkjnrI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpLHad-lycllrE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 55,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLEKd-kSgkmb4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpLFad-lC8hn7Q",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 60,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp6listm74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp7kS0hnL4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 70,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpKHKh5kyYgnr4",
+              "sanction": "J",
+              "sanction_detail": "J3",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 75,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLFaZ3kSwjm7M",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE DE LA TOUR AUX PARACHUTES_['5-7 AVENUE DE LA PORTE DE CHOISY', 'TERRAIN HONNEUR', '75013 PARIS']",
+          "officiels": [
+            "THIERRY CAPITAINE_AC"
+          ]
         },
         {
           "id": 79526218,
@@ -2899,6 +3060,20 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "COMPLEXE SPORTIF BIANCOTTO_['6, AV. DE LA PORTE DE CLICHY', '75017 PARIS']": {
+          "nom": "COMPLEXE SPORTIF BIANCOTTO",
+          "adresse": "6, AV. DE LA PORTE DE CLICHY | 75017 PARIS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "Stade Suzanne Lenglen N° 1_['2 RUE LOUIS ARMAND', '75015 PARIS']": {
+          "nom": "Stade Suzanne Lenglen N° 1",
+          "adresse": "2 RUE LOUIS ARMAND | 75015 PARIS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -2924,6 +3099,11 @@
         },
         "OMAR TALEB_AC": {
           "nom": "OMAR TALEB",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "KADDER LAMRIBEN_AC": {
+          "nom": "KADDER LAMRIBEN",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -2983,6 +3163,131 @@
           "nom": "ALI F.",
           "maillot": 15,
           "club": "CAN MINES JA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl7lS8sl7Q": {
+          "nom": "HUGO E.",
+          "maillot": 7,
+          "club": "ANCIENS ESCP FOOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLFad-kSshmbA": {
+          "nom": "ABRAHAM V.",
+          "maillot": 13,
+          "club": "ANCIENS ESCP FOOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrK1JFKZ_liommA": {
+          "nom": "JORIS L.",
+          "maillot": 11,
+          "club": "ANCIENS ESCP FOOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEqd4kCgmlrA": {
+          "nom": "PIERRE ALEXANDRE R.",
+          "maillot": 12,
+          "club": "ANCIENS ESCP FOOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLEKd-lycimL8": {
+          "nom": "VINCENT P.",
+          "maillot": 11,
+          "club": "SEVRES F.C. 92 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd6kicmmLI": {
+          "nom": "RODRIGUE M.",
+          "maillot": 12,
+          "club": "SEVRES F.C. 92 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx_kSgnmLA": {
+          "nom": "ARMAND L.",
+          "maillot": 11,
+          "club": "LANCIERS FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLHKd-lyskm7M": {
+          "nom": "THIBAULT E.",
+          "maillot": 13,
+          "club": "LANCIERS FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx6lywgm7E": {
+          "nom": "AMAURY A.",
+          "maillot": 10,
+          "club": "LANCIERS FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt-kSgml7M": {
+          "nom": "JULIEN D.",
+          "maillot": 14,
+          "club": "LANCIERS FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp6lCwlmr4": {
+          "nom": "SAMI A.",
+          "maillot": 9,
+          "club": "SEVRES F.C. 92 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx7kyglnLM": {
+          "nom": "ROMAIN T.",
+          "maillot": 13,
+          "club": "SEVRES F.C. 92 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx6lCYgn7U": {
+          "nom": "NICOLAS C.",
+          "maillot": 9,
+          "club": "LANCIERS FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl3kSgsm7A": {
+          "nom": "ELIOTT O.",
+          "maillot": 15,
+          "club": "LANCIERS FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp5my0sn74": {
+          "nom": "PAUL ANTOINE D.",
+          "maillot": 8,
+          "club": "SEVRES F.C. 92 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp5my0snL8": {
+          "nom": "REMI T.",
+          "maillot": 14,
+          "club": "SEVRES F.C. 92 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLFad-lykhn7I": {
+          "nom": "ERIC R.",
+          "maillot": 10,
+          "club": "CAN MINES JA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp9kS0lmrM": {
+          "nom": "AMADOU D.",
+          "maillot": 5,
+          "club": "LUXEMBOURG FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLFaZ3ki8mmbM": {
+          "nom": "ENZO A.",
+          "maillot": 12,
+          "club": "LUXEMBOURG FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKtKFKp9lS0nnw": {
+          "nom": "THEO G.",
+          "maillot": 11,
+          "club": "CAN MINES JA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpKFKt8kConmQ": {
+          "nom": "BAPTISTE B.",
+          "maillot": 12,
+          "club": "CAN MINES JA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl9mi8lnLM": {
+          "nom": "BENJAMIN L.",
+          "maillot": 9,
+          "club": "CAN MINES JA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlPHKl8li8lm7I": {
+          "nom": "YOANN D.",
+          "maillot": 14,
+          "club": "CAN MINES JA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp5kSonnrI": {
+          "nom": "MOHAMED S.",
+          "maillot": 10,
+          "club": "LUXEMBOURG FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp5kCcnmbE": {
+          "nom": "CHEIKH H.",
+          "maillot": 13,
+          "club": "LUXEMBOURG FC"
         }
       },
       "matchs": [
@@ -3111,10 +3416,30 @@
           "heure": "19:00",
           "recevant": "SPORT O SOLIDARITE",
           "visiteur": "ANCIENS ESCP FOOT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl7lS8sl7Q",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpLFad-kSshmbA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 78,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrK1JFKZ_liommA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEqd4kCgmlrA",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "COMPLEXE SPORTIF BIANCOTTO_['6, AV. DE LA PORTE DE CLICHY', '75017 PARIS']",
+          "officiels": [
+            "OMAR TALEB_AC"
+          ]
         },
         {
           "id": 79422772,
@@ -3122,10 +3447,58 @@
           "heure": "20:30",
           "recevant": "LANCIERS FC",
           "visiteur": "SEVRES F.C. 92 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLEKd-lycimL8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6kicmmLI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx_kSgnmLA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpLHKd-lyskm7M",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx6lywgm7E",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt-kSgml7M",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp6lCwlmr4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx7kyglnLM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx6lCYgn7U",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl3kSgsm7A",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5my0sn74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5my0snL8",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "Parc Des Sports Interdépart N° 5_['1 ALLEE DES SPORTS', '92800 PUTEAUX']",
+          "officiels": [
+            "KADDER LAMRIBEN_AC"
+          ]
         },
         {
           "id": 79422773,
@@ -3133,10 +3506,58 @@
           "heure": "20:30",
           "recevant": "CAN MINES JA",
           "visiteur": "LUXEMBOURG FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 8,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 34,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLE6d-kCgln7I",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpLFad-lykhn7I",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 56,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9kS0lmrM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpLFaZ3ki8mmbM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 60,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKtKFKp9lS0nnw",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpKFKt8kConmQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 78,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl9mi8lnLM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlPHKl8li8lm7I",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 80,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLHKd-li0gnbM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpLFKd_kyknmLM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 88,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp5kSonnrI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5kCcnmbE",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "Stade Suzanne Lenglen N° 1_['2 RUE LOUIS ARMAND', '75015 PARIS']",
+          "officiels": [
+            "YANIS BENYOUCEF_AC"
+          ]
         },
         {
           "id": 79570931,
@@ -4313,6 +4734,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC563777.jpg",
           "clNo": "172903",
           "slug": "563777-paris-xiv-fc"
+        },
+        "PETITS ANGES ES": {
+          "nom": "PETITS ANGES ES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC546466.jpg",
+          "clNo": "24088",
+          "slug": "546466-petits-anges-es"
+        },
+        "PETITS ANGES ES 2": {
+          "nom": "PETITS ANGES ES 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC546466.jpg",
+          "clNo": "24088",
+          "slug": "546466-petits-anges-es-2"
         }
       },
       "stades": {
@@ -4343,6 +4776,20 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE ÉMILE ANTHOINE_['9 RUE JEAN REY', '75015 PARIS']": {
+          "nom": "STADE ÉMILE ANTHOINE",
+          "adresse": "9 RUE JEAN REY | 75015 PARIS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE CHARPENTIER N° 2_['16 RUE CHARPENTIER', 'TERRAIN ANNEXE', '92340 BOURG LA REINE']": {
+          "nom": "STADE CHARPENTIER N° 2",
+          "adresse": "16 RUE CHARPENTIER | TERRAIN ANNEXE | 92340 BOURG LA REINE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -4363,6 +4810,26 @@
         },
         "THEO MASCATO_AC": {
           "nom": "THEO MASCATO",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "SALAH GHOULI_AC": {
+          "nom": "SALAH GHOULI",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "STEPHANE LANJRI_AC": {
+          "nom": "STEPHANE LANJRI",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "JEREMY DEMEULE_AC": {
+          "nom": "JEREMY DEMEULE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "MOHAMED ALI CHERGUI_AC": {
+          "nom": "MOHAMED ALI CHERGUI",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -4422,6 +4889,216 @@
           "nom": "CHARLES F.",
           "maillot": 15,
           "club": "LIONS MENILMONTANT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx7liwsmbc": {
+          "nom": "REMI L.",
+          "maillot": 15,
+          "club": "PETITS ANGES ES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpKFqh5lysmmrc": {
+          "nom": "CYRIL R.",
+          "maillot": 4,
+          "club": "PETITS ANGES ES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7misimb4": {
+          "nom": "ARTHUR B.",
+          "maillot": 8,
+          "club": "LIONS MENILMONTANT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx3ky0hmr8": {
+          "nom": "VICTOR M.",
+          "maillot": 13,
+          "club": "LIONS MENILMONTANT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp4ly4inrI": {
+          "nom": "DAVID K.",
+          "maillot": 10,
+          "club": "PARIS SC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd8lictnb4": {
+          "nom": "WINNER N.",
+          "maillot": 14,
+          "club": "PARIS SC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt-li0hm7Q": {
+          "nom": "THOMAS Q.",
+          "maillot": 29,
+          "club": "PETITS ANGES ES 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt8my8ml7A": {
+          "nom": "MAXIME D.",
+          "maillot": 21,
+          "club": "PETITS ANGES ES 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl5lSgsnbI": {
+          "nom": "LENNY C.",
+          "maillot": 6,
+          "club": "PARIS SC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp5lCYgnr4": {
+          "nom": "JOSE F.",
+          "maillot": 20,
+          "club": "PETITS ANGES ES 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK13lioslrc": {
+          "nom": "JOE H.",
+          "maillot": 13,
+          "club": "PETITS ANGES ES 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp5kCgimLY": {
+          "nom": "MATTHIEU L.",
+          "maillot": 17,
+          "club": "PETITS ANGES ES 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt4kSYlmLI": {
+          "nom": "ALEXANDRE M.",
+          "maillot": 27,
+          "club": "PETITS ANGES ES 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl4kyYhn7c": {
+          "nom": "MEHDI S.",
+          "maillot": 9,
+          "club": "PARIS SC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd_lC0kmbY": {
+          "nom": "TAREK B.",
+          "maillot": 13,
+          "club": "PARIS SC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLEKd-kSggnbY": {
+          "nom": "ALEXIS M.",
+          "maillot": 4,
+          "club": "FC BLR"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx_lSksnrQ": {
+          "nom": "FRANCESCO M.",
+          "maillot": 11,
+          "club": "FAISE A.S.LA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx3lycnl7Y": {
+          "nom": "NICOLA B.",
+          "maillot": 14,
+          "club": "FAISE A.S.LA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl9liggmbM": {
+          "nom": "CORENTIN G.",
+          "maillot": 16,
+          "club": "FC BLR"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpMFa94mighn7E": {
+          "nom": "DAVID P.",
+          "maillot": 5,
+          "club": "FC BLR"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd9lywkmbY": {
+          "nom": "EMMANUEL R.",
+          "maillot": 12,
+          "club": "FC BLR"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt2lSghmLI": {
+          "nom": "MICKAEL L.",
+          "maillot": 6,
+          "club": "FC BLR"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp7lCogmbc": {
+          "nom": "ENRICO L.",
+          "maillot": 11,
+          "club": "FC BLR"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt7liYtn7Q": {
+          "nom": "STEPHANE S.",
+          "maillot": 13,
+          "club": "FC BLR"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl9lCkjn7M": {
+          "nom": "ADAM L.",
+          "maillot": 9,
+          "club": "FC BLR"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLFaZ3ki0hmLU": {
+          "nom": "CEDRIC G.",
+          "maillot": 15,
+          "club": "FC BLR"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx3lSstmb4": {
+          "nom": "NICOLAS C.",
+          "maillot": 7,
+          "club": "FC BLR"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLE6d-lycjm74": {
+          "nom": "FRANCOIS P.",
+          "maillot": 14,
+          "club": "FC BLR"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlJFqZ9li8smLQ": {
+          "nom": "FLORENT B.",
+          "maillot": 2,
+          "club": "FC BLR"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp5mygsmbM": {
+          "nom": "TOMMASO V.",
+          "maillot": 3,
+          "club": "FAISE A.S.LA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp-lCcnm7Q": {
+          "nom": "GUILLAUME N.",
+          "maillot": 14,
+          "club": "JOINVILLE R.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt6lCktl7U": {
+          "nom": "CLAUDE P.",
+          "maillot": 12,
+          "club": "JOINVILLE R.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh7likgmLM": {
+          "nom": "AUGUSTIN B.",
+          "maillot": 12,
+          "club": "DENTISTES PARIS AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx_miwinL8": {
+          "nom": "AURELIEN B.",
+          "maillot": 13,
+          "club": "DENTISTES PARIS AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlNFK58lS8tmbc": {
+          "nom": "CHRISTOPHE L.",
+          "maillot": 5,
+          "club": "DENTISTES PARIS AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl9liwsmrM": {
+          "nom": "MARTIN W.",
+          "maillot": 14,
+          "club": "DENTISTES PARIS AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp8li4gn7A": {
+          "nom": "AMINE C.",
+          "maillot": 3,
+          "club": "JOINVILLE R.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl5kSksmbQ": {
+          "nom": "NINO ALEXANDRE G.",
+          "maillot": 2,
+          "club": "JOINVILLE R.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLE6d-kysknbM": {
+          "nom": "KEVIN R.",
+          "maillot": 6,
+          "club": "JOINVILLE R.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh-kyYsm7Q": {
+          "nom": "BENJAMIN C.",
+          "maillot": 7,
+          "club": "JOINVILLE R.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLF6d_li8knrE": {
+          "nom": "JOFFREY Q.",
+          "maillot": 9,
+          "club": "JOINVILLE R.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp9ly0nnrA": {
+          "nom": "MAXIME W.",
+          "maillot": 15,
+          "club": "JOINVILLE R.C."
         }
       },
       "matchs": [
@@ -4535,10 +5212,30 @@
           "heure": "19:00",
           "recevant": "LIONS MENILMONTANT",
           "visiteur": "PETITS ANGES ES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 56,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx7liwsmbc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpKFqh5lysmmrc",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 66,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7misimb4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx3ky0hmr8",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE JULES NOËL_[\"3 AVENUE MAURICE D'OCAGNE\", '75014 PARIS']",
+          "officiels": [
+            "SALAH GHOULI_AC"
+          ]
         },
         {
           "id": 79526865,
@@ -4557,10 +5254,58 @@
           "heure": "20:00",
           "recevant": "PETITS ANGES ES 2",
           "visiteur": "PARIS SC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 28,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4ly4inrI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8lictnb4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 56,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt-li0hm7Q",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt8my8ml7A",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 56,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl5lSgsnbI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8lictnb4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 58,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5lCYgnr4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK13lioslrc",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 58,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5kCgimLY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt4kSYlmLI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 58,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl4kyYhn7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd_lC0kmbY",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE ÉMILE ANTHOINE_['9 RUE JEAN REY', '75015 PARIS']",
+          "officiels": [
+            "STEPHANE LANJRI_AC"
+          ]
         },
         {
           "id": 79526861,
@@ -4568,10 +5313,82 @@
           "heure": "20:30",
           "recevant": "FC BLR",
           "visiteur": "FAISE A.S.LA",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 40,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLEKd-kSggnbY",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_lSksnrQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3lycnl7Y",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl9liggmbM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpMFa94mighn7E",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9lywkmbY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt2lSghmLI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp7lCogmbc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt7liYtn7Q",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl9lCkjn7M",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpLFaZ3ki0hmLU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx3lSstmb4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpLE6d-lycjm74",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 55,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlJFqZ9li8smLQ",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 75,
+              "type": "carton-rouge",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5mygsmbM",
+              "sanction": "R",
+              "sanction_detail": "R1",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE CHARPENTIER N° 2_['16 RUE CHARPENTIER', 'TERRAIN ANNEXE', '92340 BOURG LA REINE']",
+          "officiels": [
+            "JEREMY DEMEULE_AC"
+          ]
         },
         {
           "id": 79526866,
@@ -4579,10 +5396,58 @@
           "heure": "21:00",
           "recevant": "DENTISTES PARIS AS",
           "visiteur": "JOINVILLE R.C.",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp-lCcnm7Q",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt6lCktl7U",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh7likgmLM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx_miwinL8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlNFK58lS8tmbc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl9liwsmrM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 55,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp8li4gn7A",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl5kSksmbQ",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 67,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLE6d-kysknbM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh-kyYsm7Q",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 70,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLF6d_li8knrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9ly0nnrA",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "COMPLEXE SPORTIF ALAIN MIMOUN_['15 RUE DE LA NOUVELLE CALEDONIE', '75012 PARIS']",
+          "officiels": [
+            "MOHAMED ALI CHERGUI_AC"
+          ]
         },
         {
           "id": 79526868,
@@ -5528,6 +6393,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC682151.jpg",
           "clNo": "189227",
           "slug": "682151-asc-bnpp"
+        },
+        "NUAMCES": {
+          "nom": "NUAMCES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC850368.jpg",
+          "clNo": "179497",
+          "slug": "850368-nuamces"
         }
       },
       "stades": {
@@ -5558,6 +6429,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "Parc Des Sports Interdépart N° 5_['1 ALLEE DES SPORTS', '92800 PUTEAUX']": {
+          "nom": "Parc Des Sports Interdépart N° 5",
+          "adresse": "1 ALLEE DES SPORTS | 92800 PUTEAUX",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -5578,6 +6456,11 @@
         },
         "OMAR TALEB_AC": {
           "nom": "OMAR TALEB",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "KARIM BENRABAH_AC": {
+          "nom": "KARIM BENRABAH",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -6014,10 +6897,14 @@
           "heure": "19:00",
           "recevant": "ASC BNPP",
           "visiteur": "NUAMCES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Parc Des Sports Interdépart N° 5_['1 ALLEE DES SPORTS', '92800 PUTEAUX']",
+          "officiels": [
+            "KARIM BENRABAH_AC"
+          ]
         },
         {
           "id": 79527682,

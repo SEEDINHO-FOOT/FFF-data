@@ -58,6 +58,30 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC531035.jpg",
           "clNo": "13930",
           "slug": "531035-es-janvalaise"
+        },
+        "O. PAVILLAIS": {
+          "nom": "O. PAVILLAIS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500223.jpg",
+          "clNo": "347",
+          "slug": "500223-o-pavillais"
+        },
+        "US LILLEBONNAISE": {
+          "nom": "US LILLEBONNAISE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC501532.jpg",
+          "clNo": "1019",
+          "slug": "501532-us-lillebonnaise"
+        },
+        "G ELBE.CLEON.CAUDEBE": {
+          "nom": "G ELBE.CLEON.CAUDEBE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560133.jpg",
+          "clNo": "194256",
+          "slug": "560133-g-elbe-cleon-caudebe"
+        },
+        "OLYMPIA'CAUX FOOTBAL": {
+          "nom": "OLYMPIA'CAUX FOOTBAL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC561080.jpg",
+          "clNo": "200605",
+          "slug": "561080-olympia-caux-footbal"
         }
       },
       "stades": {
@@ -87,6 +111,20 @@
           "adresse": "4 rue john bost | 76133 EPOUVILLE",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE LUCIEN LÉCUYER 1_['RUE MAURICE GENEVOIX', '76570 PAVILLY']": {
+          "nom": "STADE LUCIEN LÉCUYER 1",
+          "adresse": "RUE MAURICE GENEVOIX | 76570 PAVILLY",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "Stade De La Cerisaie Emmanuel Petit_['1 RUE DES TRAITES', '76500 ELBEUF']": {
+          "nom": "Stade De La Cerisaie Emmanuel Petit",
+          "adresse": "1 RUE DES TRAITES | 76500 ELBEUF",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
         }
       },
@@ -162,10 +200,11 @@
           "heure": "15:30",
           "recevant": "O. PAVILLAIS",
           "visiteur": "US LILLEBONNAISE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE LUCIEN LÉCUYER 1_['RUE MAURICE GENEVOIX', '76570 PAVILLY']"
         },
         {
           "id": 79662742,
@@ -234,10 +273,11 @@
           "heure": "15:30",
           "recevant": "G ELBE.CLEON.CAUDEBE",
           "visiteur": "OLYMPIA'CAUX FOOTBAL",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade De La Cerisaie Emmanuel Petit_['1 RUE DES TRAITES', '76500 ELBEUF']"
         },
         {
           "id": 79662744,
@@ -245,11 +285,13 @@
           "heure": "16:00",
           "recevant": "US EPOUVILLE",
           "visiteur": "ES JANVALAISE",
-          "buts_recevant": 3,
-          "buts_visiteur": 0,
-          "joue": true,
-          "statut": "joué",
-          "stade_id": "Complexe Sportif De coupeauville 2_['4 rue john bost', '76133 EPOUVILLE']"
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "",
+          "stade_id": "Complexe Sportif De coupeauville 2_['4 rue john bost', '76133 EPOUVILLE']",
+          "forfait": true,
+          "vainqueur_forfait": "US EPOUVILLE"
         },
         {
           "id": 79662746,

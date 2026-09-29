@@ -57,6 +57,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "Stade Des Aravis_[' IMPASSE DU STADE', '154', '74450 LE GRAND BORNAND']": {
+          "nom": "Stade Des Aravis",
+          "adresse": " IMPASSE DU STADE | 154 | 74450 LE GRAND BORNAND",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -116,10 +123,11 @@
           "heure": "15:30",
           "recevant": "ARAVIS F.C.",
           "visiteur": "CHAVANOD C.O. 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Des Aravis_[' IMPASSE DU STADE', '154', '74450 LE GRAND BORNAND']"
         },
         {
           "id": 56008404,
@@ -127,10 +135,11 @@
           "heure": "15:30",
           "recevant": "DINGY ST-CLAIR F.C.",
           "visiteur": "CHERAN F.C 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 10,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['CHEF LIEU', '27 route du fier', '74230 DINGY-SAINT-CLAIR']"
         },
         {
           "id": 56008405,
@@ -247,6 +256,13 @@
         "Stade Municipal 2_['RUE DU STADE N°566', '74540 ST FELIX']": {
           "nom": "Stade Municipal 2",
           "adresse": "RUE DU STADE N°566 | 74540 ST FELIX",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['654 route de boisy', '74570 GROISY']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "654 route de boisy | 74570 GROISY",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -378,6 +394,16 @@
           "nom": "MOHAMED B.",
           "maillot": 14,
           "club": "SILLINGY AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh3kSslmLU": {
+          "nom": "SULYVAN C.",
+          "maillot": 1,
+          "club": "CHERAN F.C 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd_lC8tn7E": {
+          "nom": "CHRISTIAN D.",
+          "maillot": 13,
+          "club": "VALLEIRY E.S."
         }
       },
       "matchs": [
@@ -619,10 +645,29 @@
           "heure": "15:00",
           "recevant": "CHERAN F.C 2",
           "visiteur": "VALLEIRY E.S.",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 8,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 25,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3kSslmLU",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 80,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd_lC8tn7E",
+              "sanction": "J",
+              "sanction_detail": "J2",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "Stade Municipal 2_['RUE DU STADE N°566', '74540 ST FELIX']"
         },
         {
           "id": 56075930,
@@ -630,10 +675,11 @@
           "heure": "16:30",
           "recevant": "FILIERE (LA) F.C.",
           "visiteur": "SILLINGY AS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['654 route de boisy', '74570 GROISY']"
         },
         {
           "id": 56075932,
@@ -760,13 +806,20 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "COMPLEXE SPORTIF MULTISPORTS 1_['780 ROUTE DE MURY', '01170 ECHENEVEX']": {
+          "nom": "COMPLEXE SPORTIF MULTISPORTS 1",
+          "adresse": "780 ROUTE DE MURY | 01170 ECHENEVEX",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
       "joueurs": {
         "ir3_vj-lzPeINLfhzILsrKFOFKp-myonlr4": {
           "nom": "MATHEO C.",
-          "maillot": 11,
+          "maillot": 14,
           "club": "CHALLEX U.S."
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx3ky0mmLA": {
@@ -776,13 +829,68 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd9kSYln74": {
           "nom": "LIAM A.",
-          "maillot": 10,
+          "maillot": 11,
           "club": "CHALLEX U.S."
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd6kiwnmLE": {
           "nom": "YASSINE B.",
           "maillot": 12,
           "club": "CHALLEX U.S."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh4kiolmrQ": {
+          "nom": "LUCAS L.",
+          "maillot": 12,
+          "club": "CHALLEX U.S."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK18kCognLU": {
+          "nom": "MAXIME D.",
+          "maillot": 7,
+          "club": "DIVONNE U.S."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh3lisjm7I": {
+          "nom": "THOMAS T.",
+          "maillot": 14,
+          "club": "DIVONNE U.S."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd9kyojlrI": {
+          "nom": "ILAN M.",
+          "maillot": 8,
+          "club": "DIVONNE U.S."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19lC8slrU": {
+          "nom": "THEO B.",
+          "maillot": 13,
+          "club": "DIVONNE U.S."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd9kS4knrU": {
+          "nom": "LUCA V.",
+          "maillot": 3,
+          "club": "CHALLEX U.S."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19lSYnnLU": {
+          "nom": "SAMI C.",
+          "maillot": 4,
+          "club": "DIVONNE U.S."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19ki0nnLQ": {
+          "nom": "LUAY E.",
+          "maillot": 13,
+          "club": "CHALLEX U.S."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh3kCckmLA": {
+          "nom": "ADORIAN D.",
+          "maillot": 3,
+          "club": "DIVONNE U.S."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd-ky4km7I": {
+          "nom": "EVAN M.",
+          "maillot": 3,
+          "club": "E.S.C.OLYMPIQUE 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15ky4mlrA": {
+          "nom": "JOHANNY G.",
+          "maillot": 11,
+          "club": "GJ AALP 3"
         }
       },
       "matchs": [
@@ -856,10 +964,96 @@
           "heure": "15:30",
           "recevant": "CHALLEX U.S.",
           "visiteur": "DIVONNE U.S.",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 23,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9kSYln74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4kiolmrQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 27,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK18kCognLU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3lisjm7I",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4kiolmrQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp-myonlr4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9kyojlrI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK19lC8slrU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 66,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9kS4knrU",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 68,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4kiolmrQ",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 68,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK19lSYnnLU",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 70,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9kSYln74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK19ki0nnLQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 71,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3kCckmLA",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 88,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp-myonlr4",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 88,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3lisjm7I",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE SANFELY_['381 RUE DE LA MAIRIE', '01630 CHALLEX']"
         },
         {
           "id": 79496708,
@@ -867,10 +1061,29 @@
           "heure": "16:15",
           "recevant": "E.S.C.OLYMPIQUE 2",
           "visiteur": "GJ AALP 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 23,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd-ky4km7I",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 23,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK15ky4mlrA",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "COMPLEXE SPORTIF MULTISPORTS 1_['780 ROUTE DE MURY', '01170 ECHENEVEX']"
         },
         {
           "id": 79496711,
@@ -1170,10 +1383,11 @@
           "heure": "15:30",
           "recevant": "U.F. VOIRONS",
           "visiteur": "US AAG FC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MICHEL DEBOUVERE 1_['RUE LOUIS GUILLERMIN', '74420 BOEGE']"
         },
         {
           "id": 56008600,
@@ -1267,10 +1481,78 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE JOSEPH REVILLARD_['AVENUE DES EBEAUX', '74350 CRUSEILLES']": {
+          "nom": "STADE JOSEPH REVILLARD",
+          "adresse": "AVENUE DES EBEAUX | 74350 CRUSEILLES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFK18ly4inbY": {
+          "nom": "LENNY B.",
+          "maillot": 14,
+          "club": "CRUSEILLES F.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK18lCYlnrc": {
+          "nom": "LOAN P.",
+          "maillot": 9,
+          "club": "CRUSEILLES F.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19lionn78": {
+          "nom": "NOLANN B.",
+          "maillot": 11,
+          "club": "GC2S"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK18ligjmb4": {
+          "nom": "JACQUES P.",
+          "maillot": 12,
+          "club": "GC2S"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd_kygklrc": {
+          "nom": "NOLAN R.",
+          "maillot": 9,
+          "club": "GC2S"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd-lycgmrc": {
+          "nom": "MAEL R.",
+          "maillot": 13,
+          "club": "GC2S"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh4ki4tnLY": {
+          "nom": "ELIO P.",
+          "maillot": 8,
+          "club": "CRUSEILLES F.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK18lS0smrc": {
+          "nom": "NOAH H.",
+          "maillot": 13,
+          "club": "CRUSEILLES F.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd6kywkm7E": {
+          "nom": "NOLAN T.",
+          "maillot": 8,
+          "club": "GC2S"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19kC0tn7Y": {
+          "nom": "NOA M.",
+          "maillot": 14,
+          "club": "GC2S"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15kCctnrQ": {
+          "nom": "TOM C.",
+          "maillot": 3,
+          "club": "CRUSEILLES F.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd9lCkimLU": {
+          "nom": "MATHIEU D.",
+          "maillot": 12,
+          "club": "CRUSEILLES F.C."
+        }
+      },
       "matchs": [
         {
           "id": 56008628,
@@ -1326,10 +1608,55 @@
           "heure": "15:30",
           "recevant": "CRUSEILLES F.C.",
           "visiteur": "GC2S",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 1,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK18ly4inbY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK18lCYlnrc",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK19lionn78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK18ligjmb4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 28,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd_kygklrc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd-lycgmrc",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4ki4tnLY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK18lS0smrc",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 60,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6kywkm7E",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK19kC0tn7Y",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 85,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK15kCctnrQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9lCkimLU",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE JOSEPH REVILLARD_['AVENUE DES EBEAUX', '74350 CRUSEILLES']"
         },
         {
           "id": 56008633,
@@ -1337,10 +1664,11 @@
           "heure": "16:30",
           "recevant": "MEYTHET E.S.",
           "visiteur": "UNION SALEVE FOOT 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ANDRÉ BÉRARD 1_['CHEMIN DU VIEUX MEYTHET', '74960 MEYTHET']"
         },
         {
           "id": 56008634,
@@ -1574,6 +1902,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE DE LA BRIDE_['LA COUR', '74470 BELLEVAUX']": {
+          "nom": "STADE DE LA BRIDE",
+          "adresse": "LA COUR | 74470 BELLEVAUX",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -1645,10 +1980,11 @@
           "heure": "15:30",
           "recevant": "BREVON F.C.",
           "visiteur": "GJ AALP 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA BRIDE_['LA COUR', '74470 BELLEVAUX']"
         },
         {
           "id": 79337945,
@@ -1768,6 +2104,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE DE LA FOULAZ 1_['RUE DES VORZIERS', '74130 BONNEVILLE']": {
+          "nom": "STADE DE LA FOULAZ 1",
+          "adresse": "RUE DES VORZIERS | 74130 BONNEVILLE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -1827,10 +2170,11 @@
           "heure": "15:30",
           "recevant": "BONNEVILLE C.A.",
           "visiteur": "CHAMONIX C.S.",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA FOULAZ 1_['RUE DES VORZIERS', '74130 BONNEVILLE']"
         },
         {
           "id": 56569225,
@@ -1838,10 +2182,11 @@
           "heure": "15:30",
           "recevant": "CRAN OLYMPIQUE",
           "visiteur": "MARNAZ FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 8,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES GRÈVES 2_['12 CHEMIN DES GREVES', '74960 CRAN GEVRIER']"
         },
         {
           "id": 56569226,
@@ -1960,6 +2305,13 @@
           "adresse": "ROUTE DE PITEGNY | 01170 GEX",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE PAUL BONNEAU_[' ROUTE DE L EGLISE', '01220 SAUVERNY']": {
+          "nom": "STADE PAUL BONNEAU",
+          "adresse": " ROUTE DE L EGLISE | 01220 SAUVERNY",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
         }
       },
@@ -2116,10 +2468,11 @@
           "heure": "15:30",
           "recevant": "SAUVERNY A.S.",
           "visiteur": "PREVESSINS MOENS A.S",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PAUL BONNEAU_[' ROUTE DE L EGLISE', '01220 SAUVERNY']"
         },
         {
           "id": 56009186,
@@ -2127,10 +2480,11 @@
           "heure": "16:00",
           "recevant": "PAYS DE GEX FC 2",
           "visiteur": "FOOT SUD GESSIEN 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE CHAUVILLY_['ROUTE DE PITEGNY', '01170 GEX']"
         },
         {
           "id": 56009187,
@@ -2250,6 +2604,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE DU PLAT_['ROUTE DE LA COTE DES FRENES', '74570 EVIRES']": {
+          "nom": "STADE DU PLAT",
+          "adresse": "ROUTE DE LA COTE DES FRENES | 74570 EVIRES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -2308,10 +2669,11 @@
           "heure": "15:30",
           "recevant": "EVIRES A.S.",
           "visiteur": "GFA RV 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DU PLAT_['ROUTE DE LA COTE DES FRENES', '74570 EVIRES']"
         },
         {
           "id": 56009220,
@@ -2319,10 +2681,11 @@
           "heure": "16:00",
           "recevant": "VUACHE F.C. 2",
           "visiteur": "LAC BLEU A.S. 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF DU VUACHE 1_['ROUTE DE CHEZ COTIN', '74520 JONZIER EPAGNY']"
         },
         {
           "id": 56009221,

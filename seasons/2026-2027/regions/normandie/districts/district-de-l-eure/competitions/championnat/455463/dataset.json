@@ -50,6 +50,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['RUE DU STADE', '27260 EPAIGNES']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "RUE DU STADE | 27260 EPAIGNES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -60,6 +67,16 @@
         },
         "BRIAN OMONT_AC": {
           "nom": "BRIAN OMONT",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "MATHIEU BOITHEAUVILLE_AC": {
+          "nom": "MATHIEU BOITHEAUVILLE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "SEBASTIEN VALENTI_AC": {
+          "nom": "SEBASTIEN VALENTI",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -157,17 +174,17 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKx_kScklrI": {
           "nom": "ANTHONY B.",
-          "maillot": 3,
+          "maillot": 13,
           "club": "ES VALLEE DE L'OISON"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh6lC0sl7E": {
           "nom": "GEOFFREY L.",
-          "maillot": 14,
+          "maillot": 3,
           "club": "ES VALLEE DE L'OISON"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFah6ky0jm78": {
           "nom": "NICOLAS B.",
-          "maillot": 2,
+          "maillot": 15,
           "club": "ES VALLEE DE L'OISON"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh6myktmrY": {
@@ -214,6 +231,41 @@
           "nom": "EMMANUEL F.",
           "maillot": 14,
           "club": "US CORMEILLES LIEURE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7lSgnl7E": {
+          "nom": "GUILLAUME D.",
+          "maillot": 12,
+          "club": "AS EPAIGNES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLFq94kSstl78": {
+          "nom": "NICOLAS D.",
+          "maillot": 15,
+          "club": "AS EPAIGNES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7lSghl7E": {
+          "nom": "ALEXANDRE J.",
+          "maillot": 8,
+          "club": "ES VALLEE DE L'OISON"
+        },
+        "ir3_vj-lzPeINLfhzILsrK9KHKx_likimw": {
+          "nom": "NICOLAS C.",
+          "maillot": 14,
+          "club": "ES VALLEE DE L'OISON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7ky8tnL8": {
+          "nom": "Anonyme",
+          "maillot": 9,
+          "club": "ES VALLEE DE L'OISON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6mysnlr8": {
+          "nom": "CHRISTIAN M.",
+          "maillot": 12,
+          "club": "ES VALLEE DE L'OISON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd-liwsmb4": {
+          "nom": "JOHNNY M.",
+          "maillot": 6,
+          "club": "ES VALLEE DE L'OISON"
         }
       },
       "matchs": [
@@ -362,10 +414,67 @@
           "heure": "10:00",
           "recevant": "AS EPAIGNES",
           "visiteur": "ES VALLEE DE L'OISON",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6mismmb4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lSgnl7E",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 55,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLFq94kSstl78",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 56,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lSghl7E",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrK9KHKx_likimw",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 56,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7ky8tnL8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6mysnlr8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 65,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6lC0sl7E",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFah6ky0jm78",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 65,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd-liwsmb4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx_kScklrI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 88,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd-liwsmb4",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL_['RUE DU STADE', '27260 EPAIGNES']",
+          "officiels": [
+            "MATHIEU BOITHEAUVILLE_AC"
+          ]
         },
         {
           "id": 56567367,
@@ -373,10 +482,14 @@
           "heure": "10:00",
           "recevant": "AC BEUZEVILLE",
           "visiteur": "US CORMEILLES LIEURE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Lucien Bougon 1_['ROUTE DE CORMEILLES', '27210 BEUZEVILLE']",
+          "officiels": [
+            "SEBASTIEN VALENTI_AC"
+          ]
         },
         {
           "id": 56567368,
@@ -445,6 +558,20 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "PARC DES SPORTS ALEXIS VASTINE 8_[' AVENUE DES SPORTS', 'TERRAIN SYNTHÉTIQUE', '27500 PONT AUDEMER']": {
+          "nom": "PARC DES SPORTS ALEXIS VASTINE 8",
+          "adresse": " AVENUE DES SPORTS | TERRAIN SYNTHÉTIQUE | 27500 PONT AUDEMER",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MARCEL JACQUIN 2_[' RUE DU STADE', '27550 NASSANDRES SUR RISLE']": {
+          "nom": "STADE MARCEL JACQUIN 2",
+          "adresse": " RUE DU STADE | 27550 NASSANDRES SUR RISLE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -457,6 +584,11 @@
           "nom": "SEBASTIEN VALENTI",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "ERIC BOURDON_AC": {
+          "nom": "ERIC BOURDON",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -467,7 +599,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh6kykmnLc": {
           "nom": "YOHANN D.",
-          "maillot": 12,
+          "maillot": 6,
           "club": "CA PONT AUDEMER"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh6ky4sn7M": {
@@ -552,7 +684,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK17lSsmnbU": {
           "nom": "GREGORY B.",
-          "maillot": 11,
+          "maillot": 5,
           "club": "AS ROUTOT"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh6lSskmL8": {
@@ -562,7 +694,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh6kywjnL4": {
           "nom": "CHRISTOPHE D.",
-          "maillot": 8,
+          "maillot": 12,
           "club": "AS ROUTOT"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh6lS8sn7Y": {
@@ -587,7 +719,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh7li8tm7c": {
           "nom": "SAMUEL D.",
-          "maillot": 15,
+          "maillot": 3,
           "club": "FA DU ROUMOIS"
         },
         "ir3_vj-lzPeINLfhzILsrKpMFa59lCgin7Y": {
@@ -607,17 +739,97 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh7lCghmLM": {
           "nom": "TONY M.",
-          "maillot": 13,
+          "maillot": 11,
           "club": "FA DU ROUMOIS"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh6lSsglrc": {
           "nom": "DAMIEN C.",
-          "maillot": 2,
+          "maillot": 14,
           "club": "AS ROUTOT"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKx8kioll7M": {
           "nom": "JEAN PIERRE U.",
           "maillot": 15,
+          "club": "AS ROUTOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6mykimbE": {
+          "nom": "ALEXIS T.",
+          "maillot": 3,
+          "club": "CA PONT AUDEMER"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7kygjnbU": {
+          "nom": "NUMA B.",
+          "maillot": 13,
+          "club": "CA PONT AUDEMER"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6kCgmm7c": {
+          "nom": "WILFRIED H.",
+          "maillot": 8,
+          "club": "CA PONT AUDEMER"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7lCcimL4": {
+          "nom": "SAMUEL B.",
+          "maillot": 12,
+          "club": "CA PONT AUDEMER"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFah6ky0tmb8": {
+          "nom": "KEVIN C.",
+          "maillot": 9,
+          "club": "FA DU ROUMOIS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6li4nlrM": {
+          "nom": "BENJAMIN M.",
+          "maillot": 15,
+          "club": "CA PONT AUDEMER"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLFaZ3kyohmbI": {
+          "nom": "FREDERIC A.",
+          "maillot": 9,
+          "club": "CA PONT AUDEMER"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6miYmmLU": {
+          "nom": "MICKAEL E.",
+          "maillot": 14,
+          "club": "CA PONT AUDEMER"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7lS8sn7M": {
+          "nom": "JORDAN L.",
+          "maillot": 8,
+          "club": "FA DU ROUMOIS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6ky0in7U": {
+          "nom": "JEROME C.",
+          "maillot": 13,
+          "club": "FA DU ROUMOIS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6lCsjmLY": {
+          "nom": "SEBASTIEN D.",
+          "maillot": 15,
+          "club": "FA DU ROUMOIS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6migjmbI": {
+          "nom": "THOMAS H.",
+          "maillot": 5,
+          "club": "FA DU ROUMOIS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7kCkmmLE": {
+          "nom": "MATHIEU M.",
+          "maillot": 2,
+          "club": "AS ROUTOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7kSksnLQ": {
+          "nom": "VALENTIN S.",
+          "maillot": 8,
+          "club": "AS ROUTOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7lCchlrY": {
+          "nom": "ANTHONY B.",
+          "maillot": 13,
+          "club": "AS ROUTOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx8kC4in7M": {
+          "nom": "SEBASTIEN C.",
+          "maillot": 9,
           "club": "AS ROUTOT"
         }
       },
@@ -774,10 +986,81 @@
           "heure": "10:00",
           "recevant": "CA PONT AUDEMER",
           "visiteur": "FA DU ROUMOIS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 38,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6mykimbE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7kygjnbU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 38,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6kCgmm7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lCcimL4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 39,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFah6ky0tmb8",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 41,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6kykmnLc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6li4nlrM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 65,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLFaZ3kyohmbI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6miYmmLU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 73,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7li8tm7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6lyggnLU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 82,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lS8sn7M",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6ky0in7U",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 82,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lCghmLM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6lCsjmLY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 88,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6migjmbI",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "PARC DES SPORTS ALEXIS VASTINE 8_[' AVENUE DES SPORTS', 'TERRAIN SYNTHÉTIQUE', '27500 PONT AUDEMER']",
+          "officiels": [
+            "ERIC BOURDON_AC"
+          ]
         },
         {
           "id": 56567373,
@@ -785,10 +1068,41 @@
           "heure": "10:00",
           "recevant": "FC SERQUIGNY NASSAND",
           "visiteur": "AS ROUTOT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7kCkmmLE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6kywjnL4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7kSksnLQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lCchlrY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK17lSsmnbU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6lSsglrc",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx8kC4in7M",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6lSsglrc",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MARCEL JACQUIN 2_[' RUE DU STADE', '27550 NASSANDRES SUR RISLE']"
         },
         {
           "id": 56567374,
@@ -857,6 +1171,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "Stade Maxime Romain 1_['ROUTE VERS VIEUX PORT', '27680 TROUVILLE LA HAULE']": {
+          "nom": "Stade Maxime Romain 1",
+          "adresse": "ROUTE VERS VIEUX PORT | 27680 TROUVILLE LA HAULE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -869,17 +1190,22 @@
           "nom": "GREGORY HERBULOT",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "Anonyme_AC": {
+          "nom": "Anonyme",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
         "ir3_vj-lzPeINLfhzILsrKpNEKx6kCstl7U": {
           "nom": "PIERRICK M.",
-          "maillot": 3,
+          "maillot": 13,
           "club": "FCI DU BEL AIR"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh6kSosm7I": {
           "nom": "TONY L.",
-          "maillot": 16,
+          "maillot": 2,
           "club": "FCI DU BEL AIR"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKt9kionnrU": {
@@ -889,12 +1215,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKx-kissn7Y": {
           "nom": "VINCENT R.",
-          "maillot": 13,
+          "maillot": 10,
           "club": "FCI DU BEL AIR"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh6mi4jm7I": {
           "nom": "JEREMY C.",
-          "maillot": 11,
+          "maillot": 16,
           "club": "FCI DU BEL AIR"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh6mysslr4": {
@@ -999,7 +1325,72 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh7ly4lnLQ": {
           "nom": "BRICE C.",
+          "maillot": 16,
+          "club": "SC THIBERVILLE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7lCsmnLM": {
+          "nom": "JASON L.",
+          "maillot": 14,
+          "club": "FCI DU BEL AIR"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7lS4knLQ": {
+          "nom": "JULIEN L.",
+          "maillot": 9,
+          "club": "FCI DU BEL AIR"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFah6kykmm7I": {
+          "nom": "KEVIN M.",
+          "maillot": 4,
+          "club": "FCI DU BEL AIR"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6lSwhnL8": {
+          "nom": "ADRIEN A.",
+          "maillot": 12,
+          "club": "FCI DU BEL AIR"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlJHK16kC4hnbY": {
+          "nom": "CHARLY D.",
+          "maillot": 8,
+          "club": "SC THIBERVILLE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6lCkimLY": {
+          "nom": "CHARLES B.",
+          "maillot": 3,
+          "club": "SC THIBERVILLE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNE6d4kC0smLc": {
+          "nom": "TERENCE T.",
+          "maillot": 5,
+          "club": "SC THIBERVILLE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx2my8nlrM": {
+          "nom": "MATTHIEU C.",
+          "maillot": 11,
+          "club": "FCI DU BEL AIR"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6miojn78": {
+          "nom": "CEDRIC G.",
+          "maillot": 9,
+          "club": "SC THIBERVILLE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx3kSghlrY": {
+          "nom": "RUDOLPH N.",
+          "maillot": 11,
+          "club": "SC THIBERVILLE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6myctnL8": {
+          "nom": "JULIEN C.",
           "maillot": 15,
+          "club": "SC THIBERVILLE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx2my8nlrc": {
+          "nom": "YOHANN L.",
+          "maillot": 15,
+          "club": "FCI DU BEL AIR"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlJF616kC8smrE": {
+          "nom": "GUILLAUME S.",
+          "maillot": 12,
           "club": "SC THIBERVILLE"
         }
       },
@@ -1135,10 +1526,102 @@
           "heure": "10:00",
           "recevant": "FCI DU BEL AIR",
           "visiteur": "SC THIBERVILLE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6kSosm7I",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lCsmnLM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 40,
+              "type": "carton-blanc",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lS4knLQ",
+              "sanction": "B",
+              "sanction_detail": "B",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFah6kykmm7I",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx6kCstl7U",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx-kissn7Y",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6lSwhnL8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 50,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlJHK16kC4hnbY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7kCkimb8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 52,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6lCkimLY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl7lC4smb8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 70,
+              "type": "carton-blanc",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNE6d4kC0smLc",
+              "sanction": "B",
+              "sanction_detail": "B",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 70,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx2my8nlrM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6mi4jm7I",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 70,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6miojn78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7ly4lnLQ",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 73,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx3kSghlrY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6myctnL8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 75,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6lSwhnL8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx2my8nlrc",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 84,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNE6d4kC0smLc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlJF616kC8smrE",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "Stade Maxime Romain 1_['ROUTE VERS VIEUX PORT', '27680 TROUVILLE LA HAULE']",
+          "officiels": [
+            "Anonyme_AC"
+          ]
         },
         {
           "id": 56567380,
@@ -1383,6 +1866,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE PAUL COUDRAY_['AVENUE WINSTON CHURCHILL', '27400 LOUVIERS']": {
+          "nom": "STADE PAUL COUDRAY",
+          "adresse": "AVENUE WINSTON CHURCHILL | 27400 LOUVIERS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -1400,6 +1890,11 @@
           "nom": "Anonyme",
           "role": "Délégué accompagnateur",
           "role_cod": "DA"
+        },
+        "ABDELLATIF ZENASNI_AC": {
+          "nom": "ABDELLATIF ZENASNI",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -1462,6 +1957,71 @@
           "nom": "MEHDI D.",
           "maillot": 16,
           "club": "AS MATINAUX VAUDREUI"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp2kiwkmLQ": {
+          "nom": "YAO A.",
+          "maillot": 2,
+          "club": "US LOUVIERS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt9kS8nnrQ": {
+          "nom": "NABIL B.",
+          "maillot": 13,
+          "club": "US LOUVIERS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7kyokn7c": {
+          "nom": "KARIM O.",
+          "maillot": 9,
+          "club": "US LOUVIERS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7lC4mnbc": {
+          "nom": "JEROME E.",
+          "maillot": 16,
+          "club": "US LOUVIERS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp6lywhnLA": {
+          "nom": "GAETAN R.",
+          "maillot": 11,
+          "club": "US LOUVIERS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd8kC8imbU": {
+          "nom": "KARIM M.",
+          "maillot": 14,
+          "club": "US LOUVIERS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6my8hm7I": {
+          "nom": "MICKAEL B.",
+          "maillot": 5,
+          "club": "FC GISORS VEXIN 27"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7kiojn7Q": {
+          "nom": "ANTOINE D.",
+          "maillot": 6,
+          "club": "FC GISORS VEXIN 27"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt2my0smr4": {
+          "nom": "SALIF N.",
+          "maillot": 12,
+          "club": "FC GISORS VEXIN 27"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6lCojnb4": {
+          "nom": "NICOLAS H.",
+          "maillot": 4,
+          "club": "FC GISORS VEXIN 27"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpMHad9ky8nmb4": {
+          "nom": "CEDRIC A.",
+          "maillot": 14,
+          "club": "FC GISORS VEXIN 27"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7lSonm7M": {
+          "nom": "MICKAEL L.",
+          "maillot": 9,
+          "club": "FC GISORS VEXIN 27"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx7kC0tnrE": {
+          "nom": "JEROME A.",
+          "maillot": 13,
+          "club": "FC GISORS VEXIN 27"
         }
       },
       "matchs": [
@@ -1544,10 +2104,82 @@
           "heure": "10:00",
           "recevant": "US LOUVIERS",
           "visiteur": "FC GISORS VEXIN 27",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 10,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp2kiwkmLQ",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 34,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp2kiwkmLQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt9kS8nnrQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 34,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7kyokn7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lC4mnbc",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 50,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp6lywhnLA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8kC8imbU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 60,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6my8hm7I",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 62,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7kiojn7Q",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt2my0smr4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 70,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6lCojnb4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpMHad9ky8nmb4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 75,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lSonm7M",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx7kC0tnrE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 90,
+              "type": "carton-blanc",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lSonm7M",
+              "sanction": "B",
+              "sanction_detail": "B",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE PAUL COUDRAY_['AVENUE WINSTON CHURCHILL', '27400 LOUVIERS']",
+          "officiels": [
+            "ABDELLATIF ZENASNI_AC"
+          ]
         },
         {
           "id": 56567393,
@@ -1555,10 +2187,11 @@
           "heure": "10:00",
           "recevant": "RC LERY",
           "visiteur": "AS MATINAUX VAUDREUI",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Femel 1_['RUE DU 8 MAI', '27690 LERY']"
         },
         {
           "id": 56567394,
@@ -1627,6 +2260,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE DÉSIRÉ GOUGET_['CHEMIN DES ECOLIERS', '27400 SURVILLE']": {
+          "nom": "STADE DÉSIRÉ GOUGET",
+          "adresse": "CHEMIN DES ECOLIERS | 27400 SURVILLE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -1634,17 +2274,22 @@
           "nom": "Anonyme",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "RAYAN GENRE_AC": {
+          "nom": "RAYAN GENRE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
         "ir3_vj-lzPeINLfhzILsrKpJFqh6kCogl74": {
           "nom": "MICKAEL P.",
-          "maillot": 11,
+          "maillot": 10,
           "club": "AS VALLEE D'ANDELLE"
         },
         "ir3_vj-lzPeINLfhzILsrKpMFqh4kygnnbI": {
           "nom": "JEREMY D.",
-          "maillot": 13,
+          "maillot": 8,
           "club": "AS VALLEE D'ANDELLE"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh6kyokl7Y": {
@@ -1654,7 +2299,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh7lSgnnrU": {
           "nom": "GAETAN A.",
-          "maillot": 14,
+          "maillot": 11,
           "club": "RC MALHERBE SURVILLE"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh7kSojnrI": {
@@ -1669,7 +2314,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh6li8sl74": {
           "nom": "JEREMIE M.",
-          "maillot": 6,
+          "maillot": 9,
           "club": "AS VALLEE D'ANDELLE"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh6lScgn7Q": {
@@ -1709,7 +2354,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh7kigjmLM": {
           "nom": "THOMAS V.",
-          "maillot": 7,
+          "maillot": 3,
           "club": "C.ANDELLE PITRES"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh6micgmbU": {
@@ -1719,7 +2364,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrK9JFap_mywimg": {
           "nom": "SEBASTIEN M.",
-          "maillot": 6,
+          "maillot": 13,
           "club": "C.ANDELLE PITRES"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK12kCojmbM": {
@@ -1734,7 +2379,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp6lCcjnr4": {
           "nom": "BRUNO M.",
-          "maillot": 12,
+          "maillot": 13,
           "club": "US ETREPAGNY"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh6lCskmrM": {
@@ -1764,8 +2409,98 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh7mikgm78": {
           "nom": "Anonyme",
+          "maillot": 14,
+          "club": "US ETREPAGNY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFah6kyggnLc": {
+          "nom": "DJIBRIL B.",
+          "maillot": 8,
+          "club": "US ETREPAGNY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpIF6d4ki8il7M": {
+          "nom": "PAULO P.",
+          "maillot": 12,
+          "club": "US ETREPAGNY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlIFK1_li8jmb8": {
+          "nom": "MORGAN A.",
+          "maillot": 9,
+          "club": "US ETREPAGNY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6mickmLY": {
+          "nom": "MANUEL B.",
+          "maillot": 10,
+          "club": "US ETREPAGNY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6liYimbQ": {
+          "nom": "LAURENT R.",
           "maillot": 15,
           "club": "US ETREPAGNY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx9kyYtnbY": {
+          "nom": "SAMUEL F.",
+          "maillot": 12,
+          "club": "RC MALHERBE SURVILLE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh5kCotmbE": {
+          "nom": "ANASS T.",
+          "maillot": 13,
+          "club": "RC MALHERBE SURVILLE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLFad-lisnn7Q": {
+          "nom": "ADNAN B.",
+          "maillot": 11,
+          "club": "US ETREPAGNY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7lS4tm7U": {
+          "nom": "LUDOVIC H.",
+          "maillot": 5,
+          "club": "C.ANDELLE PITRES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6kiwmmLA": {
+          "nom": "JULIEN B.",
+          "maillot": 2,
+          "club": "AS VALLEE D'ANDELLE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt8lyohmbU": {
+          "nom": "STEPHANE B.",
+          "maillot": 12,
+          "club": "AS VALLEE D'ANDELLE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6ki4lm7Y": {
+          "nom": "HELDER A.",
+          "maillot": 6,
+          "club": "AS VALLEE D'ANDELLE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7kiwjnbI": {
+          "nom": "JEAN MICHEL A.",
+          "maillot": 5,
+          "club": "AS VALLEE D'ANDELLE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6mi0tlrc": {
+          "nom": "AYMERIC H.",
+          "maillot": 14,
+          "club": "AS VALLEE D'ANDELLE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6lyktnbU": {
+          "nom": "SYLVAIN L.",
+          "maillot": 15,
+          "club": "AS VALLEE D'ANDELLE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6li8mmLY": {
+          "nom": "GREGORY M.",
+          "maillot": 16,
+          "club": "AS VALLEE D'ANDELLE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7myYmnbI": {
+          "nom": "JEREMY B.",
+          "maillot": 12,
+          "club": "C.ANDELLE PITRES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6kCwnmbc": {
+          "nom": "NICOLAS G.",
+          "maillot": 13,
+          "club": "AS VALLEE D'ANDELLE"
         }
       },
       "matchs": [
@@ -1917,10 +2652,66 @@
           "heure": "10:00",
           "recevant": "RC MALHERBE SURVILLE",
           "visiteur": "US ETREPAGNY",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFah6kyggnLc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpIF6d4ki8il7M",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlIFK1_li8jmb8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7mikgm78",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6mickmLY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6liYimbQ",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lSgnnrU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx9kyYtnbY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 56,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7kSojnrI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh5kCotmbE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 59,
+              "type": "carton-blanc",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlIFK1_li8jmb8",
+              "sanction": "B",
+              "sanction_detail": "B",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 77,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLFad-lisnn7Q",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp6lCcjnr4",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE DÉSIRÉ GOUGET_['CHEMIN DES ECOLIERS', '27400 SURVILLE']",
+          "officiels": [
+            "Anonyme_AC"
+          ]
         },
         {
           "id": 56567400,
@@ -1928,10 +2719,73 @@
           "heure": "10:00",
           "recevant": "AS VALLEE D'ANDELLE",
           "visiteur": "C.ANDELLE PITRES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 19,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lS4tm7U",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrK9JFap_mywimg",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 21,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6kiwmmLA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt8lyohmbU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 35,
+              "type": "carton-blanc",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6ki4lm7Y",
+              "sanction": "B",
+              "sanction_detail": "B",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7kiwjnbI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6mi0tlrc",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6li8sl74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6lyktnbU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6kCogl74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6li8mmLY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 64,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7kigjmLM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7myYmnbI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 79,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpMFqh4kygnnbI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6kCwnmbc",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL_[' RUE DU GENERAL LECLERC', '27380 FLEURY SUR ANDELLE']",
+          "officiels": [
+            "RAYAN GENRE_AC"
+          ]
         },
         {
           "id": 56567401,
@@ -2000,6 +2854,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE HENRY LEROY_['Rue de la Noue', '27870 VESLY']": {
+          "nom": "STADE HENRY LEROY",
+          "adresse": "Rue de la Noue | 27870 VESLY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -2010,6 +2871,11 @@
         },
         "Anonyme_AC": {
           "nom": "Anonyme",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "CHRISTOPHE ROCQUIN_AC": {
+          "nom": "CHRISTOPHE ROCQUIN",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -2032,7 +2898,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh7migll78": {
           "nom": "SYLVAIN T.",
-          "maillot": 15,
+          "maillot": 7,
           "club": "AS CRIQUEBEUF FB"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh7kishm7Y": {
@@ -2052,7 +2918,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd9lC8sm74": {
           "nom": "STEVE L.",
-          "maillot": 4,
+          "maillot": 14,
           "club": "AS CRIQUEBEUF FB"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKp7lS0km78": {
@@ -2104,6 +2970,36 @@
           "nom": "KENAN D.",
           "maillot": 13,
           "club": "FAC ALIZAY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh4ki8mnrM": {
+          "nom": "ABDOUHILAH F.",
+          "maillot": 5,
+          "club": "FC SEINE EURE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx-ly4gmbQ": {
+          "nom": "MOHAMED K.",
+          "maillot": 12,
+          "club": "FC SEINE EURE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLE6d-lyshmrQ": {
+          "nom": "YAVUZ B.",
+          "maillot": 8,
+          "club": "FC SEINE EURE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6lScinrU": {
+          "nom": "JONATHAN N.",
+          "maillot": 13,
+          "club": "FC SEINE EURE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx-kikhnL4": {
+          "nom": "TANER T.",
+          "maillot": 10,
+          "club": "FC SEINE EURE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6miwnmb8": {
+          "nom": "OLIVIER C.",
+          "maillot": 15,
+          "club": "FC SEINE EURE"
         }
       },
       "matchs": [
@@ -2219,10 +3115,14 @@
           "heure": "10:00",
           "recevant": "AS DE VESLY",
           "visiteur": "FAC ALIZAY",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE HENRY LEROY_['Rue de la Noue', '27870 VESLY']",
+          "officiels": [
+            "CHRISTOPHE ROCQUIN_AC"
+          ]
         },
         {
           "id": 56567406,
@@ -2230,10 +3130,41 @@
           "heure": "10:00",
           "recevant": "AS CRIQUEBEUF FB",
           "visiteur": "FC SEINE EURE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7migll78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9lC8sm74",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh4ki8mnrM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx-ly4gmbQ",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 47,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLE6d-lyshmrQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6lScinrU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 50,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx-kikhnL4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6miwnmb8",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL 1_['ÎLE LAUNY', ' RUE DU PONT DES ALLIES', '27340 CRIQUEBEUF SUR SEINE']"
         },
         {
           "id": 56567407,
@@ -2274,6 +3205,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC540624.jpg",
           "clNo": "20660",
           "slug": "540624-romilly-pt-st-pierre"
+        },
+        "FC HENNEZIS VEXIN": {
+          "nom": "FC HENNEZIS VEXIN",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560442.jpg",
+          "clNo": "197026",
+          "slug": "560442-fc-hennezis-vexin"
         }
       },
       "stades": {
@@ -2283,11 +3220,23 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "Stade De Fourges_['FOURGES', ' ROUTE DE GASNY', '27510 VEXIN SUR EPTE']": {
+          "nom": "Stade De Fourges",
+          "adresse": "FOURGES |  ROUTE DE GASNY | 27510 VEXIN SUR EPTE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
         "ARIF OBERTINCA_AC": {
           "nom": "ARIF OBERTINCA",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "EMRE BUDAK_AC": {
+          "nom": "EMRE BUDAK",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -2462,10 +3411,14 @@
           "heure": "10:00",
           "recevant": "FC HENNEZIS VEXIN",
           "visiteur": "CS LES ANDELYS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade De Fourges_['FOURGES', ' ROUTE DE GASNY', '27510 VEXIN SUR EPTE']",
+          "officiels": [
+            "EMRE BUDAK_AC"
+          ]
         },
         {
           "id": 56567435,
@@ -2523,6 +3476,20 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['RUE DU CHATEAU', '27930 AVIRON']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "RUE DU CHATEAU | 27930 AVIRON",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE ALPHONSE PIERRE_['RUE DE LA ROCHETTE', 'Terrain Cambolle', '27000 EVREUX']": {
+          "nom": "STADE ALPHONSE PIERRE",
+          "adresse": "RUE DE LA ROCHETTE | Terrain Cambolle | 27000 EVREUX",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -2535,27 +3502,37 @@
           "nom": "MATHIEU BLOMMAERT",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "MARINE THILLIEZ_AC": {
+          "nom": "MARINE THILLIEZ",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "BERNARD LOPEZ_AC": {
+          "nom": "BERNARD LOPEZ",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
         "ir3_vj-lzPeINLfhzILsrKpJFqh7mi8im7I": {
           "nom": "JEREMY B.",
-          "maillot": 2,
+          "maillot": 6,
           "club": "FC PLAT NORD AVIRON"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh6kCohl7Y": {
           "nom": "JOFFREY G.",
-          "maillot": 13,
+          "maillot": 14,
           "club": "FC PLAT NORD AVIRON"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx4my8inrQ": {
           "nom": "DESTINY ANTHONY I.",
-          "maillot": 10,
+          "maillot": 6,
           "club": "NFC NAVARRE FC"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt7lywgmLA": {
           "nom": "AKEEM KAYODE B.",
-          "maillot": 13,
+          "maillot": 8,
           "club": "NFC NAVARRE FC"
         },
         "ir3_vj-lzPeINLfhzILsrKpLF69-kCginb4": {
@@ -2565,7 +3542,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpLEad-licmnbY": {
           "nom": "JEAN MARC J.",
-          "maillot": 15,
+          "maillot": 14,
           "club": "NFC NAVARRE FC"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh7kCgklr8": {
@@ -2585,12 +3562,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKp7kSokmrM": {
           "nom": "JOHNNY B.",
-          "maillot": 12,
+          "maillot": 15,
           "club": "NFC NAVARRE FC"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKx2kSwtmL8": {
           "nom": "MICKAEL A.",
-          "maillot": 4,
+          "maillot": 13,
           "club": "FC PLAT NORD AVIRON"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh7lCoimLc": {
@@ -2605,7 +3582,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh6lSkinrI": {
           "nom": "FREDERIC K.",
-          "maillot": 14,
+          "maillot": 2,
           "club": "FC PLAT NORD AVIRON"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh7lSohnbY": {
@@ -2635,7 +3612,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh7lS8km7A": {
           "nom": "NICOLAS F.",
-          "maillot": 12,
+          "maillot": 11,
           "club": "SC QUITTEBEUF"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh7lScnnLA": {
@@ -2672,6 +3649,71 @@
           "nom": "GREGORY L.",
           "maillot": 4,
           "club": "US BARROISE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7lS4mnLQ": {
+          "nom": "JASON B.",
+          "maillot": 12,
+          "club": "SC QUITTEBEUF"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7lCcgnrE": {
+          "nom": "SEBASTIEN H.",
+          "maillot": 7,
+          "club": "FC PLAT NORD AVIRON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6mysinLc": {
+          "nom": "CEDRIC H.",
+          "maillot": 10,
+          "club": "SC QUITTEBEUF"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7kCoinrA": {
+          "nom": "ANGELO T.",
+          "maillot": 13,
+          "club": "SC QUITTEBEUF"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp6liojmLc": {
+          "nom": "BENJAMIN K.",
+          "maillot": 4,
+          "club": "SC QUITTEBEUF"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6lCgimLQ": {
+          "nom": "CLEMENT R.",
+          "maillot": 14,
+          "club": "SC QUITTEBEUF"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7kignn7I": {
+          "nom": "MEHDI R.",
+          "maillot": 9,
+          "club": "FC PLAT NORD AVIRON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp9my4llrY": {
+          "nom": "SOBUNARITH C.",
+          "maillot": 12,
+          "club": "FC PLAT NORD AVIRON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlBF65_lywknrU": {
+          "nom": "NORMAN H.",
+          "maillot": 5,
+          "club": "FC PLAT NORD AVIRON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7li4in7U": {
+          "nom": "JULIEN L.",
+          "maillot": 2,
+          "club": "SC QUITTEBEUF"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl3ly0imrY": {
+          "nom": "SEBASTIEN L.",
+          "maillot": 3,
+          "club": "NFC NAVARRE FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt4kCkinLA": {
+          "nom": "CHRISTOPHE G.",
+          "maillot": 12,
+          "club": "NFC NAVARRE FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6kyggnLA": {
+          "nom": "NICOLAS D.",
+          "maillot": 1,
+          "club": "NFC NAVARRE FC"
         }
       },
       "matchs": [
@@ -2813,10 +3855,89 @@
           "heure": "10:00",
           "recevant": "FC PLAT NORD AVIRON",
           "visiteur": "SC QUITTEBEUF",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lS8km7A",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lS4mnLQ",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 28,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lCcgnrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6kCohl7Y",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 36,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6lSkinrI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lCoimLc",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 38,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7mi8im7I",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6mysinLc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7kCoinrA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 59,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp6liojmLc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6lCgimLQ",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 60,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7kignn7I",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9my4llrY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 60,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlBF65_lywknrU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx2kSwtmL8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 75,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6lCgimLQ",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 88,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7li4in7U",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL_['RUE DU CHATEAU', '27930 AVIRON']",
+          "officiels": [
+            "MARINE THILLIEZ_AC"
+          ]
         },
         {
           "id": 56567441,
@@ -2824,10 +3945,45 @@
           "heure": "10:00",
           "recevant": "NFC NAVARRE FC",
           "visiteur": "US BARROISE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 44,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4my8inrQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKp7kSokmrM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 80,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl3ly0imrY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpLEad-licmnbY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 81,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7lywgmLA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt4kCkinLA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 84,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6kyggnLA",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE ALPHONSE PIERRE_['RUE DE LA ROCHETTE', 'Terrain Cambolle', '27000 EVREUX']",
+          "officiels": [
+            "BERNARD LOPEZ_AC"
+          ]
         },
         {
           "id": 56567442,
@@ -2896,6 +4052,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE DU BOIS DES COMMUNES 1_['NETREVILLE', 'RUE CARNOT', '27000 EVREUX']": {
+          "nom": "STADE DU BOIS DES COMMUNES 1",
+          "adresse": "NETREVILLE | RUE CARNOT | 27000 EVREUX",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -2906,6 +4069,11 @@
         },
         "BILAL REKHIS_AC": {
           "nom": "BILAL REKHIS",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "MATHIEU BLOMMAERT_AC": {
+          "nom": "MATHIEU BLOMMAERT",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -2958,7 +4126,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh6missnLU": {
           "nom": "NICOLAS V.",
-          "maillot": 14,
+          "maillot": 11,
           "club": "FC PAYS DU NEUBOURG"
         },
         "ir3_vj-lzPeINLfhzILsrKpNFq98kSomnb8": {
@@ -3000,6 +4168,31 @@
           "nom": "YOANN A.",
           "maillot": 12,
           "club": "JS ARNIERES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpIFa5-lCYlnLc": {
+          "nom": "OLIVIER V.",
+          "maillot": 2,
+          "club": "FC PAYS DU NEUBOURG"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp_kSsnnbY": {
+          "nom": "FRANCK B.",
+          "maillot": 11,
+          "club": "CS BEAUMONT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7licmn7Y": {
+          "nom": "DAVID L.",
+          "maillot": 12,
+          "club": "FC PAYS DU NEUBOURG"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7kiwtmbM": {
+          "nom": "CESAR D.",
+          "maillot": 8,
+          "club": "CS BEAUMONT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7migjnrQ": {
+          "nom": "GUILLAUME V.",
+          "maillot": 13,
+          "club": "CS BEAUMONT"
         }
       },
       "matchs": [
@@ -3114,10 +4307,11 @@
           "heure": "10:00",
           "recevant": "ESJ MADELEINE EVREUX",
           "visiteur": "JS ARNIERES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DU BOIS DES COMMUNES 1_['NETREVILLE', 'RUE CARNOT', '27000 EVREUX']"
         },
         {
           "id": 56567447,
@@ -3125,10 +4319,45 @@
           "heure": "10:00",
           "recevant": "FC PAYS DU NEUBOURG",
           "visiteur": "CS BEAUMONT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 33,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpIFa5-lCYlnLc",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 41,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp_kSsnnbY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7mikmn7E",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6missnLU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7licmn7Y",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 66,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7kiwtmbM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7migjnrQ",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "COMPLEXE SPORTIF HIPPODROME 1_['ROUTE DE CONCHES D840', '27110 LE NEUBOURG']",
+          "officiels": [
+            "MATHIEU BLOMMAERT_AC"
+          ]
         },
         {
           "id": 56567448,
@@ -3197,6 +4426,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE ALPHONSE PIERRE_['RUE DE LA ROCHETTE', 'Terrain Cambolle', '27000 EVREUX']": {
+          "nom": "STADE ALPHONSE PIERRE",
+          "adresse": "RUE DE LA ROCHETTE | Terrain Cambolle | 27000 EVREUX",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -3219,6 +4455,11 @@
           "nom": "TOM GLATIGNY",
           "role": "Délégué accompagnateur",
           "role_cod": "DA"
+        },
+        "BILAL REKHIS_AC": {
+          "nom": "BILAL REKHIS",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -3229,7 +4470,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK15lCksnbA": {
           "nom": "LOIC YVES ERIC K.",
-          "maillot": 14,
+          "maillot": 12,
           "club": "ES DAMVILLE"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh7kSwnmLM": {
@@ -3244,12 +4485,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd6ky4jnbI": {
           "nom": "CEDRIC D.",
-          "maillot": 11,
+          "maillot": 12,
           "club": "EVREUX FC 27"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEqd4kS8gl7U": {
           "nom": "LAO V.",
-          "maillot": 12,
+          "maillot": 15,
           "club": "EVREUX FC 27"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKx_kCgimbU": {
@@ -3289,7 +4530,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh7kyYhnrI": {
           "nom": "NICOLAS H.",
-          "maillot": 6,
+          "maillot": 13,
           "club": "CS BONNEVILLOIS"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh6mi0tnLY": {
@@ -3304,17 +4545,17 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh7lS4kmLQ": {
           "nom": "GUY L.",
-          "maillot": 12,
+          "maillot": 8,
           "club": "SAINT SEBASTIEN FOOT"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh7mykhmbQ": {
           "nom": "SOFIANE L.",
-          "maillot": 11,
+          "maillot": 12,
           "club": "SAINT SEBASTIEN FOOT"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx6lSclm7Q": {
           "nom": "MAHDI C.",
-          "maillot": 14,
+          "maillot": 13,
           "club": "SAINT SEBASTIEN FOOT"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh6mykkl7Q": {
@@ -3329,7 +4570,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh7kC0ln7A": {
           "nom": "MAXENCE M.",
-          "maillot": 8,
+          "maillot": 6,
           "club": "SAINT SEBASTIEN FOOT"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKx4kS0mlrY": {
@@ -3341,6 +4582,71 @@
           "nom": "JOHANN A.",
           "maillot": 16,
           "club": "CS BONNEVILLOIS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx9micmm7Y": {
+          "nom": "MADJED K.",
+          "maillot": 8,
+          "club": "EVREUX FC 27"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLF69-kC8km7Q": {
+          "nom": "JULIEN L.",
+          "maillot": 14,
+          "club": "EVREUX FC 27"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6miwnmrE": {
+          "nom": "KEVIN G.",
+          "maillot": 11,
+          "club": "EVREUX FC 27"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx2kSwtmbI": {
+          "nom": "NICOLAS G.",
+          "maillot": 11,
+          "club": "SAINT SEBASTIEN FOOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6lScnmLc": {
+          "nom": "EDDY L.",
+          "maillot": 16,
+          "club": "SAINT SEBASTIEN FOOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLEKd-kCgimrc": {
+          "nom": "YOHAN R.",
+          "maillot": 4,
+          "club": "SAINT SEBASTIEN FOOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLFKd-miogmr4": {
+          "nom": "ALBINO D.",
+          "maillot": 9,
+          "club": "EVREUX FC 27"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx2ki8gmrE": {
+          "nom": "YAZID M.",
+          "maillot": 14,
+          "club": "SAINT SEBASTIEN FOOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7myYgl7I": {
+          "nom": "DJIBRIROU S.",
+          "maillot": 7,
+          "club": "EVREUX FC 27"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19mygnlr4": {
+          "nom": "YANNICK F.",
+          "maillot": 2,
+          "club": "ES DAMVILLE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt3myojl7M": {
+          "nom": "WILFRIED L.",
+          "maillot": 13,
+          "club": "ES DAMVILLE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6licklrM": {
+          "nom": "JULIEN R.",
+          "maillot": 6,
+          "club": "CS BONNEVILLOIS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlIEa1_kyomm7c": {
+          "nom": "ERIC B.",
+          "maillot": 7,
+          "club": "ES DAMVILLE"
         }
       },
       "matchs": [
@@ -3494,10 +4800,73 @@
           "heure": "10:00",
           "recevant": "EVREUX FC 27",
           "visiteur": "SAINT SEBASTIEN FOOT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx9micmm7Y",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpLF69-kC8km7Q",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6miwnmrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEqd4kS8gl7U",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lS4kmLQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7mykhmbQ",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx2kSwtmbI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6lScnmLc",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 64,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLEKd-kCgimrc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6lSclm7Q",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 65,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLFKd-miogmr4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6ky4jnbI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 68,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7kC0ln7A",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx2ki8gmrE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 82,
+              "type": "carton-blanc",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7myYgl7I",
+              "sanction": "B",
+              "sanction_detail": "B",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE ALPHONSE PIERRE_['RUE DE LA ROCHETTE', 'Terrain Cambolle', '27000 EVREUX']",
+          "officiels": [
+            "BILAL REKHIS_AC"
+          ]
         },
         {
           "id": 56567453,
@@ -3505,10 +4874,34 @@
           "heure": "10:00",
           "recevant": "ES DAMVILLE",
           "visiteur": "CS BONNEVILLOIS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK19mygnlr4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3myojl7M",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6licklrM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7kyYhnrI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 60,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlIEa1_kyomm7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK15lCksnbA",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE JEAN RONGÈRE 2_['Damville ', '5 AVENUE DE CONCHES', '27240 MESNILS SUR ITON']"
         },
         {
           "id": 56567454,
@@ -3549,12 +4942,25 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500359.jpg",
           "clNo": "451",
           "slug": "500359-stade-vernolien"
+        },
+        "US RUGLES LYRE": {
+          "nom": "US RUGLES LYRE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC582628.jpg",
+          "clNo": "191899",
+          "slug": "582628-us-rugles-lyre"
         }
       },
       "stades": {
         "STADE CLAUDE NESPOULOUS_['PARC DE LA MAIRIE - D313.1', '28350 ST LUBIN DES JONCHERETS']": {
           "nom": "STADE CLAUDE NESPOULOUS",
           "adresse": "PARC DE LA MAIRIE - D313.1 | 28350 ST LUBIN DES JONCHERETS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "Stade Bernard Mercier 1_['10 RUE PIERRE LEBOUCH', 'TERRAIN A', '27330 LA VIEILLE LYRE']": {
+          "nom": "Stade Bernard Mercier 1",
+          "adresse": "10 RUE PIERRE LEBOUCH | TERRAIN A | 27330 LA VIEILLE LYRE",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -3575,6 +4981,11 @@
           "nom": "YANNICK COLLEY",
           "role": "Délégué accompagnateur",
           "role_cod": "DA"
+        },
+        "MAXIME SAMSON_AC": {
+          "nom": "MAXIME SAMSON",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -3655,18 +5066,53 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl7kSkgnLc": {
           "nom": "STEEVE R.",
-          "maillot": 15,
+          "maillot": 3,
           "club": "FC LUBIN NONANCOURT"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh7lSomnLA": {
           "nom": "TARIK A.",
-          "maillot": 11,
+          "maillot": 2,
           "club": "FC LUBIN NONANCOURT"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh6lS4jn7U": {
           "nom": "DAVID L.",
           "maillot": 14,
           "club": "FC LUBIN NONANCOURT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7kSojnbY": {
+          "nom": "MICKAEL F.",
+          "maillot": 4,
+          "club": "US RUGLES LYRE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpMFa94micsmbM": {
+          "nom": "DAVID L.",
+          "maillot": 12,
+          "club": "US RUGLES LYRE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7lC4ml7Q": {
+          "nom": "ABDELKADER D.",
+          "maillot": 16,
+          "club": "FC LUBIN NONANCOURT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7ky0nnbE": {
+          "nom": "LAURENT D.",
+          "maillot": 11,
+          "club": "US RUGLES LYRE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6kC0smb8": {
+          "nom": "LOIC G.",
+          "maillot": 13,
+          "club": "US RUGLES LYRE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7li4hnb4": {
+          "nom": "ISMAIL A.",
+          "maillot": 12,
+          "club": "FC LUBIN NONANCOURT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx5lC0sl7Y": {
+          "nom": "JEROME J.",
+          "maillot": 7,
+          "club": "US RUGLES LYRE"
         }
       },
       "matchs": [
@@ -3758,10 +5204,52 @@
           "heure": "10:00",
           "recevant": "US RUGLES LYRE",
           "visiteur": "FC LUBIN NONANCOURT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 28,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7kSojnbY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpMFa94micsmbM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 44,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lSomnLA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lC4ml7Q",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7ky0nnbE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6kC0smb8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 57,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl7kSkgnLc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7li4hnb4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 88,
+              "type": "carton-blanc",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx5lC0sl7Y",
+              "sanction": "B",
+              "sanction_detail": "B",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "Stade Bernard Mercier 1_['10 RUE PIERRE LEBOUCH', 'TERRAIN A', '27330 LA VIEILLE LYRE']",
+          "officiels": [
+            "MAXIME SAMSON_AC"
+          ]
         },
         {
           "id": 56567460,
@@ -3819,11 +5307,28 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['RUE DE LA VALLEE', '27730 BUEIL']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "RUE DE LA VALLEE | 27730 BUEIL",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
         "Anonyme_AC": {
           "nom": "Anonyme",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "LUDOVIC DRUON_AC": {
+          "nom": "LUDOVIC DRUON",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ARMANDO DA SILVA_AC": {
+          "nom": "ARMANDO DA SILVA",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -3871,7 +5376,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpLF69-ky4lnrU": {
           "nom": "ALEXANDRE D.",
-          "maillot": 11,
+          "maillot": 12,
           "club": "FC GARENNES BUEIL CB"
         },
         "ir3_vj-lzPeINLfhzILsrKpLFaZ3kCsjmbU": {
@@ -3881,12 +5386,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh6ki8kn74": {
           "nom": "HASSAN A.",
-          "maillot": 16,
+          "maillot": 8,
           "club": "FC GARENNES BUEIL CB"
         },
         "ir3_vj-lzPeINLfhzILsrKpLHKd-lyktnbU": {
           "nom": "KAMEL I.",
-          "maillot": 8,
+          "maillot": 13,
           "club": "FC ILLIERS L'EVEQUE"
         },
         "ir3_vj-lzPeINLfhzILsrKlIHK1_kCcmnrI": {
@@ -3901,23 +5406,123 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl4ky4knLc": {
           "nom": "TSIORIMAMY A.",
-          "maillot": 13,
+          "maillot": 8,
           "club": "FC ILLIERS L'EVEQUE"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK17lScknrQ": {
           "nom": "Anonyme",
-          "maillot": 3,
+          "maillot": 15,
           "club": "FC GARENNES BUEIL CB"
         },
         "ir3_vj-lzPeINLfhzILsrKpLE6d-ky0ll7Y": {
           "nom": "THIERRY L.",
-          "maillot": 14,
+          "maillot": 3,
           "club": "FC GARENNES BUEIL CB"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh7my8ln7M": {
           "nom": "GUILLAUME S.",
           "maillot": 5,
           "club": "FC ILLIERS L'EVEQUE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp4mi0jmrM": {
+          "nom": "ALIOU D.",
+          "maillot": 7,
+          "club": "AS COURCELLOISE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp2liolmrQ": {
+          "nom": "AHMED A.",
+          "maillot": 13,
+          "club": "AS COURCELLOISE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp8kS8jmr4": {
+          "nom": "CIRE S.",
+          "maillot": 15,
+          "club": "AS COURCELLOISE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7lyssmrE": {
+          "nom": "JEREMY C.",
+          "maillot": 12,
+          "club": "AS COURCELLOISE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt_kiogl7A": {
+          "nom": "BENOIT L.",
+          "maillot": 4,
+          "club": "FC GARENNES BUEIL CB"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt7licmnbE": {
+          "nom": "DAVID S.",
+          "maillot": 10,
+          "club": "FC GARENNES BUEIL CB"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7lS0inbI": {
+          "nom": "WILLIAM A.",
+          "maillot": 14,
+          "club": "FC GARENNES BUEIL CB"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd6kiwll7c": {
+          "nom": "MANUEL B.",
+          "maillot": 13,
+          "club": "FC GARENNES BUEIL CB"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFah6kysjnrc": {
+          "nom": "FRANCOIS O.",
+          "maillot": 10,
+          "club": "FC ILLIERS L'EVEQUE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7lSwjnrU": {
+          "nom": "CHARLES A.",
+          "maillot": 3,
+          "club": "FC ILLIERS L'EVEQUE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6kSkjlrI": {
+          "nom": "BENOIT L.",
+          "maillot": 11,
+          "club": "US GRAVIGNY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh_kywlmL4": {
+          "nom": "SYLVAIN P.",
+          "maillot": 9,
+          "club": "US GRAVIGNY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7li4mmr4": {
+          "nom": "MATHIEU B.",
+          "maillot": 12,
+          "club": "US GRAVIGNY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp_lSolmLI": {
+          "nom": "LUDWIG Q.",
+          "maillot": 7,
+          "club": "FC ILLIERS L'EVEQUE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlIEq1_kyYtm7U": {
+          "nom": "ROMAIN G.",
+          "maillot": 14,
+          "club": "FC ILLIERS L'EVEQUE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLEqd-liYhnr8": {
+          "nom": "SAMI S.",
+          "maillot": 2,
+          "club": "US GRAVIGNY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6kCsinLM": {
+          "nom": "OLIVIER G.",
+          "maillot": 6,
+          "club": "US GRAVIGNY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6kS8tl78": {
+          "nom": "EMMANUEL L.",
+          "maillot": 13,
+          "club": "US GRAVIGNY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlPHK9_kCYnmA": {
+          "nom": "MARC C.",
+          "maillot": 10,
+          "club": "US GRAVIGNY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFah6kyosnrI": {
+          "nom": "BENJAMIN L.",
+          "maillot": 14,
+          "club": "US GRAVIGNY"
         }
       },
       "matchs": [
@@ -4027,10 +5632,58 @@
           "heure": "10:00",
           "recevant": "FC GARENNES BUEIL CB",
           "visiteur": "AS COURCELLOISE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 19,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4mi0jmrM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp2liolmrQ",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 29,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp8kS8jmr4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lyssmrE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt_kiogl7A",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7licmnbE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6ki8kn74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpLF69-ky4lnrU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lS0inbI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6kiwll7c",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLE6d-ky0ll7Y",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK17lScknrQ",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL_['RUE DE LA VALLEE', '27730 BUEIL']",
+          "officiels": [
+            "LUDOVIC DRUON_AC"
+          ]
         },
         {
           "id": 56567465,
@@ -4038,10 +5691,82 @@
           "heure": "10:00",
           "recevant": "FC ILLIERS L'EVEQUE",
           "visiteur": "US GRAVIGNY",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 20,
+              "type": "carton-rouge",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFah6kysjnrc",
+              "sanction": "R",
+              "sanction_detail": "R4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl4ky4knLc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlIHK1_kCcmnrI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lSwjnrU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpLHKd-lyktnbU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 58,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6kSkjlrI",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 58,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh_kywlmL4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7li4mmr4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 65,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp_lSolmLI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlIEq1_kyYtm7U",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 76,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLEqd-liYhnr8",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 78,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6kCsinLM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6kS8tl78",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 78,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlPHK9_kCYnmA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFah6kyosnrI",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL 1_['RUE BEAUNIEZ', 'TERRAIN A', '27770 ILLIERS L EVEQUE']",
+          "officiels": [
+            "ARMANDO DA SILVA_AC"
+          ]
         },
         {
           "id": 56567466,
@@ -4110,6 +5835,20 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE PACY MÉNILLES 3_['RUE DE LA MALADRERIE', '27120 MENILLES']": {
+          "nom": "STADE PACY MÉNILLES 3",
+          "adresse": "RUE DE LA MALADRERIE | 27120 MENILLES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['ROUTE DE DREUX', '27120 ST AQUILIN']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "ROUTE DE DREUX | 27120 ST AQUILIN",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -4127,6 +5866,16 @@
           "nom": "Anonyme",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "JEAN DIAMONIKA_AC": {
+          "nom": "JEAN DIAMONIKA",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "FRANCK MELLET_AC": {
+          "nom": "FRANCK MELLET",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -4137,7 +5886,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKlIFq1_lS8lm7Q": {
           "nom": "NOAM B.",
-          "maillot": 15,
+          "maillot": 10,
           "club": "PACY MENILLES RC"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh7lC8hmLc": {
@@ -4147,7 +5896,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh7lSYinLc": {
           "nom": "IBRAHIMA S.",
-          "maillot": 16,
+          "maillot": 7,
           "club": "PACY MENILLES RC"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh6listnr4": {
@@ -4162,7 +5911,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK15ky0mmbY": {
           "nom": "SEBASTIEN G.",
-          "maillot": 3,
+          "maillot": 2,
           "club": "ENT. DOUAINS ST AQUI"
         },
         "ir3_vj-lzPeINLfhzILsrKpLHKd-kSYil7M": {
@@ -4172,7 +5921,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx_lSkknbc": {
           "nom": "ARNAUD R.",
-          "maillot": 11,
+          "maillot": 8,
           "club": "ENT. DOUAINS ST AQUI"
         },
         "ir3_vj-lzPeINLfhzILsrKpPF69_kS0mlr8": {
@@ -4197,7 +5946,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpLF69-kygsnL8": {
           "nom": "BRUNO E.",
-          "maillot": 4,
+          "maillot": 9,
           "club": "PACY MENILLES RC"
         },
         "ir3_vj-lzPeINLfhzILsrKpLE6d-li8hmbA": {
@@ -4207,12 +5956,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpLEKd-kygjlrc": {
           "nom": "MATHIEU H.",
-          "maillot": 8,
+          "maillot": 13,
           "club": "PACY MENILLES RC"
         },
         "ir3_vj-lzPeINLfhzILsrKtKHaZ4kywgn7c": {
           "nom": "Anonyme",
-          "maillot": 14,
+          "maillot": 12,
           "club": "PACY MENILLES RC"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh6myokl7M": {
@@ -4267,7 +6016,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh6kCcslr4": {
           "nom": "MATHIEU J.",
-          "maillot": 8,
+          "maillot": 12,
           "club": "ST MARCEL F"
         },
         "ir3_vj-lzPeINLfhzILsrKpLHad-kCsnmrI": {
@@ -4282,7 +6031,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpLHKd-lS4hmbY": {
           "nom": "WENDY B.",
-          "maillot": 13,
+          "maillot": 15,
           "club": "LA CROIX VALLEE EURE"
         },
         "ir3_vj-lzPeINLfhzILsrKpLF69-ki4ln74": {
@@ -4294,6 +6043,91 @@
           "nom": "MICKAEL L.",
           "maillot": 14,
           "club": "LA CROIX VALLEE EURE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6lSYlmrE": {
+          "nom": "HOUSSINE S.",
+          "maillot": 2,
+          "club": "PACY MENILLES RC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6kigln74": {
+          "nom": "CYRIL B.",
+          "maillot": 14,
+          "club": "PACY MENILLES RC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6lCcinLE": {
+          "nom": "GUILLAUME P.",
+          "maillot": 4,
+          "club": "LA CROIX VALLEE EURE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlIHK1_ky0nn74": {
+          "nom": "JEROME C.",
+          "maillot": 16,
+          "club": "PACY MENILLES RC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7lSwtmbY": {
+          "nom": "SIMON P.",
+          "maillot": 11,
+          "club": "PACY MENILLES RC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6kSognrM": {
+          "nom": "THIERRY L.",
+          "maillot": 15,
+          "club": "PACY MENILLES RC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx7kystmLY": {
+          "nom": "YOHANN J.",
+          "maillot": 9,
+          "club": "LA CROIX VALLEE EURE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7lSstmrU": {
+          "nom": "MATHIEU L.",
+          "maillot": 3,
+          "club": "LA CROIX VALLEE EURE"
+        },
+        "ir3_vj-lzPeINLfhzILsrK9AFap_lSotnw": {
+          "nom": "JULIEN T.",
+          "maillot": 9,
+          "club": "ST MARCEL F"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpKEqh5kCgllrc": {
+          "nom": "CLEMENT G.",
+          "maillot": 15,
+          "club": "ST MARCEL F"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl6kysimbU": {
+          "nom": "JEAN MICHEL B.",
+          "maillot": 16,
+          "club": "ENT. DOUAINS ST AQUI"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7liwlnb8": {
+          "nom": "JEAN BAPTISTE C.",
+          "maillot": 8,
+          "club": "ST MARCEL F"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7mygmnLQ": {
+          "nom": "CHERIF G.",
+          "maillot": 12,
+          "club": "ENT. DOUAINS ST AQUI"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6ki8km7Y": {
+          "nom": "JAWAD A.",
+          "maillot": 10,
+          "club": "ST MARCEL F"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx3lCgkn7E": {
+          "nom": "REMI L.",
+          "maillot": 3,
+          "club": "ENT. DOUAINS ST AQUI"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7kigll7A": {
+          "nom": "DONALD M.",
+          "maillot": 9,
+          "club": "ENT. DOUAINS ST AQUI"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6kCwmnrA": {
+          "nom": "GREGORY G.",
+          "maillot": 10,
+          "club": "ENT. DOUAINS ST AQUI"
         }
       },
       "matchs": [
@@ -4456,10 +6290,80 @@
           "heure": "10:00",
           "recevant": "PACY MENILLES RC",
           "visiteur": "LA CROIX VALLEE EURE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 12,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6lSYlmrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpLEKd-kygjlrc",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 17,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6myokl7M",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 17,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlIFq1_lS8lm7Q",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6kigln74",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 21,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6lCcinLE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlIFK1_kSsnmbI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLF69-kygsnL8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlIHK1_ky0nn74",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 65,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lSYinLc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKtKHaZ4kywgn7c",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 72,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lSwtmbY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6kSognrM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 78,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx7kystmLY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpLHKd-lS4hmbY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 83,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lSstmrU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lisknLc",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE PACY MÉNILLES 3_['RUE DE LA MALADRERIE', '27120 MENILLES']",
+          "officiels": [
+            "JEAN DIAMONIKA_AC"
+          ]
         },
         {
           "id": 56567471,
@@ -4467,10 +6371,82 @@
           "heure": "10:00",
           "recevant": "ENT. DOUAINS ST AQUI",
           "visiteur": "ST MARCEL F",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 38,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrK9AFap_lSotnw",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpKEqh5kCgllrc",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 41,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lS0tnrM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lSoim78",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_lSkknbc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl6kysimbU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7liwlnb8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6kCcslr4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 54,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK15ky0mmbY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7mygmnLQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 66,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6ki8km7Y",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 70,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx3lCgkn7E",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpLHKd-kSYil7M",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 83,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7kigll7A",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 90,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6kCwmnrA",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL_['ROUTE DE DREUX', '27120 ST AQUILIN']",
+          "officiels": [
+            "FRANCK MELLET_AC"
+          ]
         },
         {
           "id": 56567472,
@@ -4539,6 +6515,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE DE VERNONNET 2_['2 ROUTE DE GIVERNY', 'TERRAIN ANNEXE', '27200 VERNON']": {
+          "nom": "STADE DE VERNONNET 2",
+          "adresse": "2 ROUTE DE GIVERNY | TERRAIN ANNEXE | 27200 VERNON",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -4551,6 +6534,16 @@
           "nom": "GREGORY JOUBERT",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "SEBASTIEN MOREL_AC": {
+          "nom": "SEBASTIEN MOREL",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "Anonyme_AC": {
+          "nom": "Anonyme",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -4561,12 +6554,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh4kCwmmbM": {
           "nom": "ABDELATIF L.",
-          "maillot": 14,
+          "maillot": 7,
           "club": "ES ANGERVILLE BPGV"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh7kSYgnbQ": {
           "nom": "JEAN BAPTISTE A.",
-          "maillot": 18,
+          "maillot": 4,
           "club": "SPN VERNON"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh6li8jnrA": {
@@ -4576,12 +6569,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh6ly8jn7Y": {
           "nom": "HAKAN S.",
-          "maillot": 10,
+          "maillot": 13,
           "club": "SPN VERNON"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh7lS8ln7Q": {
           "nom": "CLEMENT T.",
-          "maillot": 16,
+          "maillot": 14,
           "club": "SPN VERNON"
         },
         "ir3_vj-lzPeINLfhzILsrKpLHad-lyYmmLc": {
@@ -4606,7 +6599,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh6lSwhmbI": {
           "nom": "YOANN L.",
-          "maillot": 15,
+          "maillot": 12,
           "club": "ES ANGERVILLE BPGV"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh7kCojl7Q": {
@@ -4616,7 +6609,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh6kCcslrE": {
           "nom": "CHRISTOPHE J.",
-          "maillot": 7,
+          "maillot": 2,
           "club": "FC EURE MADRIE SEINE"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh7mykgnrE": {
@@ -4636,7 +6629,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh7lishmbA": {
           "nom": "CLEMENT L.",
-          "maillot": 12,
+          "maillot": 13,
           "club": "FC EURE MADRIE SEINE"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh7mywglrM": {
@@ -4651,7 +6644,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh7lSwnnLA": {
           "nom": "HAFID E.",
-          "maillot": 2,
+          "maillot": 12,
           "club": "FC EURE MADRIE SEINE"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh5kCwtnb8": {
@@ -4671,7 +6664,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKlIFa1_liYtl7Y": {
           "nom": "PIERRE J.",
-          "maillot": 8,
+          "maillot": 12,
           "club": "CS IVRY LA BATAILLE"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh6mi4hm7Q": {
@@ -4681,7 +6674,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh6kCwgmr4": {
           "nom": "NOUR EL KHALIL G.",
-          "maillot": 1,
+          "maillot": 16,
           "club": "FC EURE MADRIE SEINE"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh6ky8lnrQ": {
@@ -4693,6 +6686,121 @@
           "nom": "FREDERIC D.",
           "maillot": 4,
           "club": "FC EURE MADRIE SEINE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6mywll7E": {
+          "nom": "BIRAHIMA N.",
+          "maillot": 14,
+          "club": "FC EURE MADRIE SEINE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7myclnbc": {
+          "nom": "OUSSAMA I.",
+          "maillot": 7,
+          "club": "FC EURE MADRIE SEINE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp7ly4hmbY": {
+          "nom": "ALEXIS H.",
+          "maillot": 10,
+          "club": "SPN VERNON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLHad-kC0nl7Q": {
+          "nom": "TORRES L.",
+          "maillot": 12,
+          "club": "SPN VERNON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7lSsnm7Y": {
+          "nom": "HUMPHREY D.",
+          "maillot": 3,
+          "club": "FC EURE MADRIE SEINE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7lisnn7A": {
+          "nom": "MAXIME L.",
+          "maillot": 6,
+          "club": "SPN VERNON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6kywmm7c": {
+          "nom": "PAULO D.",
+          "maillot": 18,
+          "club": "SPN VERNON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLFaZ3kSgnnrY": {
+          "nom": "HUGO D.",
+          "maillot": 16,
+          "club": "SPN VERNON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6lCknl7A": {
+          "nom": "ALEXIS M.",
+          "maillot": 11,
+          "club": "FC EURE MADRIE SEINE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6kyYslrc": {
+          "nom": "TARIK E.",
+          "maillot": 8,
+          "club": "SPN VERNON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6kC8tnLQ": {
+          "nom": "JOSE F.",
+          "maillot": 15,
+          "club": "SPN VERNON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7mishlrA": {
+          "nom": "MOHAMED L.",
+          "maillot": 8,
+          "club": "FC EURE MADRIE SEINE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlIHa1_kyojmrI": {
+          "nom": "FLORENT B.",
+          "maillot": 5,
+          "club": "CS IVRY LA BATAILLE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh2kyommLY": {
+          "nom": "GUSTAVO F.",
+          "maillot": 3,
+          "club": "ES ANGERVILLE BPGV"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp9kSkml78": {
+          "nom": "AMINE I.",
+          "maillot": 16,
+          "club": "ES ANGERVILLE BPGV"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6ki0gmLc": {
+          "nom": "LAURENT B.",
+          "maillot": null,
+          "club": ""
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6licimb8": {
+          "nom": "MICKAEL R.",
+          "maillot": 10,
+          "club": "CS IVRY LA BATAILLE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6mycimLY": {
+          "nom": "MANUEL D.",
+          "maillot": 13,
+          "club": "ES ANGERVILLE BPGV"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7lC4hmrE": {
+          "nom": "ADRIEN G.",
+          "maillot": 14,
+          "club": "ES ANGERVILLE BPGV"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7lSchnrU": {
+          "nom": "DAMIEN C.",
+          "maillot": 2,
+          "club": "CS IVRY LA BATAILLE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7lSgjmbM": {
+          "nom": "MAXIME R.",
+          "maillot": 15,
+          "club": "ES ANGERVILLE BPGV"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlIFq1_lyYinrY": {
+          "nom": "JEAN FRANCOIS L.",
+          "maillot": 9,
+          "club": "CS IVRY LA BATAILLE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7lSYmlrI": {
+          "nom": "LOIC L.",
+          "maillot": 15,
+          "club": "CS IVRY LA BATAILLE"
         }
       },
       "matchs": [
@@ -4867,10 +6975,94 @@
           "heure": "10:00",
           "recevant": "SPN VERNON",
           "visiteur": "FC EURE MADRIE SEINE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 16,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6kCcslrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6mywll7E",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 24,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7myclnbc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6kCwgmr4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 39,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp7ly4hmbY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpLHad-kC0nl7Q",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lSsnm7Y",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lSwnnLA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 49,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lisnn7A",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lS8ln7Q",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 66,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6kywmm7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpLFaZ3kSgnnrY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 66,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6lCknl7A",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh5kCwtnb8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 70,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6kyYslrc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6ly8jn7Y",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 72,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7kSYgnbQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6kC8tnLQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 78,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6mywll7E",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lishmbA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 86,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7mishlrA",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE DE VERNONNET 2_['2 ROUTE DE GIVERNY', 'TERRAIN ANNEXE', '27200 VERNON']",
+          "officiels": [
+            "SEBASTIEN MOREL_AC"
+          ]
         },
         {
           "id": 56567477,
@@ -4878,10 +7070,111 @@
           "heure": "10:00",
           "recevant": "ES ANGERVILLE BPGV",
           "visiteur": "CS IVRY LA BATAILLE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 30,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlIHa1_kyojmrI",
+              "sanction": "J",
+              "sanction_detail": "J2",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh2kyommLY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9kSkml78",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 43,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6ki0gmLc",
+              "sanction": "J",
+              "sanction_detail": "JS4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlIF61_kCollrM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlIFa1_liYtl7Y",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6licimb8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpLEad-kycmmbY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 49,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7kCojl7Q",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6lSwhmbI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 54,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6lysmn7U",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6mycimLY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 69,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4kCwmmbM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lC4hmrE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 74,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lSchnrU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlIFa1_ly8knLI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 75,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlIFa1_ly8knLI",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 77,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6mygglrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lSgjmbM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 79,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlIFq1_lyYinrY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lSYmlrI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 89,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLEad-kycmmbY",
+              "sanction": "J",
+              "sanction_detail": "J4",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE CLAUDE MARIE_['GAREL', 'RUE DES BRUYERES', '..', '27180 LES BAUX STE CROIX']",
+          "officiels": [
+            "Anonyme_AC"
+          ]
         },
         {
           "id": 56567478,
@@ -4922,12 +7215,25 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC528206.jpg",
           "clNo": "12017",
           "slug": "528206-fc-de-prey"
+        },
+        "ENT.FCCM-ASA": {
+          "nom": "ENT.FCCM-ASA",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC536944.jpg",
+          "clNo": "17922",
+          "slug": "536944-ent-fccm-asa"
         }
       },
       "stades": {
         "Stade Jean baptiste Le Clair_[' RUE WILLIAM DIAN', '27620 GASNY']": {
           "nom": "Stade Jean baptiste Le Clair",
           "adresse": " RUE WILLIAM DIAN | 27620 GASNY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE LARISTO 1_['8 RUE DE FOUCRAINVILLE', '27220 ST ANDRE DE L EURE']": {
+          "nom": "STADE LARISTO 1",
+          "adresse": "8 RUE DE FOUCRAINVILLE | 27220 ST ANDRE DE L EURE",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -5003,7 +7309,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpJFqh7lCgglr8": {
           "nom": "YANNICK B.",
-          "maillot": 6,
+          "maillot": 9,
           "club": "US GASNY"
         },
         "ir3_vj-lzPeINLfhzILsrKpLF6d_kSwkmLQ": {
@@ -5018,18 +7324,58 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpLHad-kSohmLY": {
           "nom": "CEDRIC B.",
-          "maillot": 15,
+          "maillot": 14,
           "club": "US GASNY"
         },
         "ir3_vj-lzPeINLfhzILsrKpLEKd-lioim7U": {
           "nom": "PHILIPPE D.",
-          "maillot": 3,
+          "maillot": 12,
           "club": "US GASNY"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKx_kyYkmbM": {
           "nom": "ROMAIN G.",
+          "maillot": 2,
+          "club": "US GASNY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlIFq1_lCwtnrM": {
+          "nom": "YANN C.",
+          "maillot": 11,
+          "club": "ENT.FCCM-ASA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh7miYjmbE": {
+          "nom": "GEOFFREY V.",
+          "maillot": 13,
+          "club": "ENT.FCCM-ASA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx3kS8jl74": {
+          "nom": "ARNAUD H.",
+          "maillot": 8,
+          "club": "ENT.FCCM-ASA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLHad-kSsgnrA": {
+          "nom": "CEDRAC M.",
+          "maillot": 15,
+          "club": "ENT.FCCM-ASA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6kykknLE": {
+          "nom": "GUILLAUME D.",
           "maillot": 13,
           "club": "US GASNY"
+        },
+        "ir3_vj-lzPeINLfhzILsrK9PFap_kCwkmQ": {
+          "nom": "FREDERIC D.",
+          "maillot": 15,
+          "club": "US GASNY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6lS8hm74": {
+          "nom": "BENJAMIN P.",
+          "maillot": 6,
+          "club": "ENT.FCCM-ASA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx3kCcll7Q": {
+          "nom": "JEROME G.",
+          "maillot": 16,
+          "club": "ENT.FCCM-ASA"
         }
       },
       "matchs": [
@@ -5119,10 +7465,62 @@
           "heure": "10:00",
           "recevant": "ENT.FCCM-ASA",
           "visiteur": "US GASNY",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 26,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlIFq1_lCwtnrM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7miYjmbE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 39,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6kCknmb8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpLEKd-lioim7U",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 41,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx3kS8jl74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpLHad-kSsgnrA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx_kyYkmbM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6kykknLE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 49,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lCgglr8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpLHad-kSohmLY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 49,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx_kyYkmbM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrK9PFap_kCwkmQ",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 69,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6lS8hm74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx3kCcll7Q",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE LARISTO 1_['8 RUE DE FOUCRAINVILLE', '27220 ST ANDRE DE L EURE']"
         },
         {
           "id": 56567484,

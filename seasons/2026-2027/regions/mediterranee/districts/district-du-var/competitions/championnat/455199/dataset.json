@@ -63,6 +63,20 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE DES MANONS_['QUARTIER DES MANONS', '83600 LES ADRETS DE L ESTEREL']": {
+          "nom": "STADE DES MANONS",
+          "adresse": "QUARTIER DES MANONS | 83600 LES ADRETS DE L ESTEREL",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE ÉDOUARD BERNARD 2_['BOULEVARD COUA DE CAN', 'TERRAIN ANNEXE', '83550 VIDAUBAN']": {
+          "nom": "STADE ÉDOUARD BERNARD 2",
+          "adresse": "BOULEVARD COUA DE CAN | TERRAIN ANNEXE | 83550 VIDAUBAN",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -121,10 +135,11 @@
           "heure": "13:00",
           "recevant": "A. .S. DE L'ESTEREL 2",
           "visiteur": "ST. TRANSIAN",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 9,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES MANONS_['QUARTIER DES MANONS', '83600 LES ADRETS DE L ESTEREL']"
         },
         {
           "id": 79118655,
@@ -143,10 +158,11 @@
           "heure": "14:30",
           "recevant": "F.C. VIDAUBAN 2",
           "visiteur": "F.C. PAYS DE FAYENCE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 15,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ÉDOUARD BERNARD 2_['BOULEVARD COUA DE CAN', 'TERRAIN ANNEXE', '83550 VIDAUBAN']"
         },
         {
           "id": 79118658,
@@ -424,6 +440,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC509156.jpg",
           "clNo": "3400",
           "slug": "509156-j-s-beaussetanne-2"
+        },
+        "SIX FOURS LE BRUSC F 2": {
+          "nom": "SIX FOURS LE BRUSC F 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC523061.jpg",
+          "clNo": "8606",
+          "slug": "523061-six-fours-le-brusc-f-2"
+        },
+        "U.S. CADIERENNE": {
+          "nom": "U.S. CADIERENNE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC547578.jpg",
+          "clNo": "24876",
+          "slug": "547578-u-s-cadierenne"
         }
       },
       "stades": {
@@ -437,6 +465,13 @@
         "STADE MUNICIPAL_['BOULEVARD DU 8 MAI 1945', '83330 LE BEAUSSET']": {
           "nom": "STADE MUNICIPAL",
           "adresse": "BOULEVARD DU 8 MAI 1945 | 83330 LE BEAUSSET",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE FRANCIS ITRAC_['LE DEFENDS', 'CHEMIN DU STADE', '(EX DEFENDS)', '83740 LA CADIERE D AZUR']": {
+          "nom": "STADE FRANCIS ITRAC",
+          "adresse": "LE DEFENDS | CHEMIN DU STADE | (EX DEFENDS) | 83740 LA CADIERE D AZUR",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -511,7 +546,10 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "réserve"
+          "statut": "",
+          "stade_id": "STADE DE LA COLLINE_['CHEMIN DU RIGADU', '83200 LE REVEST LES EAUX']",
+          "forfait": true,
+          "vainqueur_forfait": "F.C. REVESTOIS 2"
         },
         {
           "id": 79118745,
@@ -519,10 +557,11 @@
           "heure": "14:30",
           "recevant": "F.C. REVESTOIS 2",
           "visiteur": "J.S. BEAUSSETANNE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA COLLINE_['CHEMIN DU RIGADU', '83200 LE REVEST LES EAUX']"
         },
         {
           "id": 79118743,
@@ -533,7 +572,10 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "réserve"
+          "statut": "",
+          "stade_id": "STADE FRANCIS ITRAC_['LE DEFENDS', 'CHEMIN DU STADE', '(EX DEFENDS)', '83740 LA CADIERE D AZUR']",
+          "forfait": true,
+          "vainqueur_forfait": "U.S. CADIERENNE"
         },
         {
           "id": 79118744,
@@ -816,6 +858,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE MARIE-THÉRÈSE PLANTEVIN_['QUARTIER LES CROUIS', '83170 CAMPS LA SOURCE']": {
+          "nom": "STADE MARIE-THÉRÈSE PLANTEVIN",
+          "adresse": "QUARTIER LES CROUIS | 83170 CAMPS LA SOURCE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -862,10 +911,11 @@
           "heure": "10:00",
           "recevant": "E.S. CAMPS",
           "visiteur": "O. TOULON HOSPITAL 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MARIE-THÉRÈSE PLANTEVIN_['QUARTIER LES CROUIS', '83170 CAMPS LA SOURCE']"
         },
         {
           "id": 79119644,
@@ -1066,6 +1116,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC582496.jpg",
           "clNo": "191142",
           "slug": "582496-littoral-sport-ac"
+        },
+        "SPORTING CLUB TOULON 2": {
+          "nom": "SPORTING CLUB TOULON 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC581717.jpg",
+          "clNo": "186503",
+          "slug": "581717-sporting-club-toulon-2"
         }
       },
       "stades": {
@@ -1082,6 +1138,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE JEAN BERTEAU 2_[\"L'AYGUADE\", 'CHEMIN SAINT LAZARE', 'TERRAIN FOOT A7/A9', '83400 HYERES']": {
+          "nom": "STADE JEAN BERTEAU 2",
+          "adresse": "L'AYGUADE | CHEMIN SAINT LAZARE | TERRAIN FOOT A7/A9 | 83400 HYERES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football réduit"
         }
       },
       "officiels": {},
@@ -1139,10 +1202,11 @@
           "heure": "14:00",
           "recevant": "ASPTT HYERES 2",
           "visiteur": "SPORTING CLUB TOULON 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JEAN BERTEAU 2_[\"L'AYGUADE\", 'CHEMIN SAINT LAZARE', 'TERRAIN FOOT A7/A9', '83400 HYERES']"
         },
         {
           "id": 79118688,

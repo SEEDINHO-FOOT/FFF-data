@@ -34,6 +34,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500902.jpg",
           "clNo": "746",
           "slug": "500902-biache-st-vaast-us"
+        },
+        "VIMY US": {
+          "nom": "VIMY US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500942.jpg",
+          "clNo": "773",
+          "slug": "500942-vimy-us"
         }
       },
       "stades": {
@@ -49,6 +55,20 @@
           "adresse": "RUE DE L ABBAYE | 62175 BOIRY STE RICTRUDE",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE JEAN JACQUES MOLO_['SAINT NICOLAS LES ARRAS', 'ZI LES ALOUETTES', '62223 ST NICOLAS']": {
+          "nom": "STADE JEAN JACQUES MOLO",
+          "adresse": "SAINT NICOLAS LES ARRAS | ZI LES ALOUETTES | 62223 ST NICOLAS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE BERNARD LEROY 1_['RUE DU 19 MARS 1962', '62118 BIACHE ST VAAST']": {
+          "nom": "STADE BERNARD LEROY 1",
+          "adresse": "RUE DU 19 MARS 1962 | 62118 BIACHE ST VAAST",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
         }
       },
@@ -111,6 +131,31 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx-kystnLI": {
           "nom": "EDEN J.",
+          "maillot": 11,
+          "club": "BIACHE ST VAAST US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx_lC8hl7A": {
+          "nom": "GIANNI C.",
+          "maillot": 8,
+          "club": "ST NICOLAS ARRAS SC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx8migsm7Q": {
+          "nom": "NOLAN G.",
+          "maillot": 2,
+          "club": "ARTOIS AJ"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK13kSoin7Q": {
+          "nom": "SACHA P.",
+          "maillot": 8,
+          "club": "VIMY US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK13mi8jnrE": {
+          "nom": "LIAM R.",
+          "maillot": 2,
+          "club": "BIACHE ST VAAST US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK13mykmm7U": {
+          "nom": "TOM P.",
           "maillot": 11,
           "club": "BIACHE ST VAAST US"
         }
@@ -228,10 +273,37 @@
           "heure": "13:15",
           "recevant": "ST NICOLAS ARRAS SC",
           "visiteur": "ARTOIS AJ",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 10,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt6kConmbc",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 36,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9kCgjm7U",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 60,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_lC8hl7A",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 61,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8migsm7Q",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE JEAN JACQUES MOLO_['SAINT NICOLAS LES ARRAS', 'ZI LES ALOUETTES', '62223 ST NICOLAS']"
         },
         {
           "id": 79553962,
@@ -239,10 +311,37 @@
           "heure": "14:00",
           "recevant": "BIACHE ST VAAST US",
           "visiteur": "VIMY US",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 5,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK13kSoin7Q",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 13,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK13mi8jnrE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 15,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK13mi8jnrE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 42,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK13mykmm7U",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE BERNARD LEROY 1_['RUE DU 19 MARS 1962', '62118 BIACHE ST VAAST']"
         },
         {
           "id": 79553965,
@@ -339,6 +438,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500148.jpg",
           "clNo": "282",
           "slug": "500148-bruay-labuissiere-us"
+        },
+        "NOEUX LES MINES US": {
+          "nom": "NOEUX LES MINES US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500182.jpg",
+          "clNo": "312",
+          "slug": "500182-noeux-les-mines-us"
         }
       },
       "stades": {
@@ -403,6 +508,61 @@
           "nom": "BAPTISTE J.",
           "maillot": 8,
           "club": "BRUAY LABUISSIERE US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx9liskmbc": {
+          "nom": "ARTHUR C.",
+          "maillot": 2,
+          "club": "BETHUNE STADE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx8kCwtnrM": {
+          "nom": "MARTIN B.",
+          "maillot": 3,
+          "club": "BETHUNE STADE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx2kS4mlr4": {
+          "nom": "LEHYAN L.",
+          "maillot": 4,
+          "club": "BETHUNE STADE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt-kysjnbU": {
+          "nom": "AMIR F.",
+          "maillot": 5,
+          "club": "BETHUNE STADE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK13ly0jnLM": {
+          "nom": "SIMON P.",
+          "maillot": 6,
+          "club": "BETHUNE STADE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx7miwnnbI": {
+          "nom": "FLORIAN D.",
+          "maillot": 11,
+          "club": "NOEUX LES MINES US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK12lCwhm7Q": {
+          "nom": "SACHA M.",
+          "maillot": 5,
+          "club": "AIRE SUR LA LYS OS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15misnmb8": {
+          "nom": "HUGO L.",
+          "maillot": 7,
+          "club": "VERMELLES US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6ly4lnb4": {
+          "nom": "MILAN F.",
+          "maillot": 6,
+          "club": "VERMELLES US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK12miYtnrE": {
+          "nom": "ARISTIDE P.",
+          "maillot": 5,
+          "club": "VERMELLES US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15lioll74": {
+          "nom": "GAUTHIER M.",
+          "maillot": 2,
+          "club": "VERMELLES US"
         }
       },
       "matchs": [
@@ -494,10 +654,54 @@
           "heure": "13:30",
           "recevant": "NOEUX LES MINES US",
           "visiteur": "BETHUNE STADE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 10,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx9liskmbc",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 15,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8kCwtnrM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 25,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx2kS4mlr4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 30,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-kysjnbU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 32,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK13ly0jnLM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 48,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12lCoklrE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 65,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7miwnnbI",
+              "club_type": "recevant"
+            }
+          ]
         },
         {
           "id": 79553868,
@@ -505,10 +709,43 @@
           "heure": "14:00",
           "recevant": "AIRE SUR LA LYS OS",
           "visiteur": "VERMELLES US",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 42,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12lCwhm7Q",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 50,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK15misnmb8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 55,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6ly4lnb4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 63,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12miYtnrE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 65,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK15lioll74",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE GERMAIN SPAËS 1_['RUE DE BRETAGNE', 'ANCIENNEMENT STADE LENGLET', '62120 AIRE SUR LA LYS']"
         },
         {
           "id": 79553870,
@@ -605,6 +842,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC512108.jpg",
           "clNo": "3944",
           "slug": "512108-billy-berclau-us"
+        },
+        "LIEVIN O.": {
+          "nom": "LIEVIN O.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC537287.jpg",
+          "clNo": "18206",
+          "slug": "537287-lievin-o"
         }
       },
       "stades": {
@@ -709,6 +952,26 @@
           "nom": "ROBIN D.",
           "maillot": 1,
           "club": "BILLY BERCLAU US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK18liskl7E": {
+          "nom": "NESTOR V.",
+          "maillot": 7,
+          "club": "LIEVIN O."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK12ly0km78": {
+          "nom": "FAYCAL B.",
+          "maillot": 5,
+          "club": "LIEVIN O."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx_lSYtmrc": {
+          "nom": "ASSIL O.",
+          "maillot": 8,
+          "club": "LIEVIN O."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx8lCsknrA": {
+          "nom": "ADAM B.",
+          "maillot": 9,
+          "club": "LIEVIN O."
         }
       },
       "matchs": [
@@ -904,8 +1167,8 @@
         },
         {
           "id": 79554129,
-          "date": "2026-09-26",
-          "heure": "13:30",
+          "date": "2026-09-30",
+          "heure": "16:30",
           "recevant": "RC LENS",
           "visiteur": "MONTIGNY GOHELLE FC",
           "buts_recevant": null,
@@ -919,10 +1182,48 @@
           "heure": "14:00",
           "recevant": "BILLY BERCLAU US",
           "visiteur": "LIEVIN O.",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 10,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK18liskl7E",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 12,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12ly0km78",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 15,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_lSYtmrc",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 20,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_lSYtmrc",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 38,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_lSYtmrc",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 50,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8lCsknrA",
+              "club_type": "visiteur"
+            }
+          ]
         },
         {
           "id": 79554132,
@@ -1035,6 +1336,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE RENÉ CORBELLE 4_['10-12 BOULEVARD ALFRED JOSIEN', 'Terrain André STRAPPE', '62160 BULLY LES MINES']": {
+          "nom": "STADE RENÉ CORBELLE 4",
+          "adresse": "10-12 BOULEVARD ALFRED JOSIEN | Terrain André STRAPPE | 62160 BULLY LES MINES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -1077,6 +1385,11 @@
         "ir3_vj-lzPeINLfhzILsrKFOFKx2kyokm7U": {
           "nom": "MAMADOU BALLA D.",
           "maillot": 8,
+          "club": "AVION CS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx4kSkgnL4": {
+          "nom": "RICHIE F.",
+          "maillot": 11,
           "club": "AVION CS"
         }
       },
@@ -1211,10 +1524,49 @@
           "heure": "14:00",
           "recevant": "BULLY LES MINES ES",
           "visiteur": "AVION CS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 3,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4kSkgnL4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 7,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4kSkgnL4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 45,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4kSkgnL4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 53,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4kSkgnL4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 56,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK14myklmLQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 61,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4kSkgnL4",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE RENÉ CORBELLE 4_['10-12 BOULEVARD ALFRED JOSIEN', 'Terrain André STRAPPE', '62160 BULLY LES MINES']"
         },
         {
           "id": 79554535,

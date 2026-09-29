@@ -168,10 +168,11 @@
           "heure": "10:00",
           "recevant": "CIBOURE FC",
           "visiteur": "BIDACHE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE J. POULOU_[' AVENUE JEAN POULOU', '64500 CIBOURE']"
         },
         {
           "id": 56657070,
@@ -179,10 +180,11 @@
           "heure": "10:00",
           "recevant": "ST PALAIS 64 US",
           "visiteur": "OSSES 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE INTERCOMMUNAL 2_[' ROUTE D ESQUILAMBORDE', '64120 ST PALAIS']"
         },
         {
           "id": 56657069,
@@ -503,6 +505,20 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE FRANCIS LAMONGESSE_['Bourg', '64300 ARGAGNON']": {
+          "nom": "STADE FRANCIS LAMONGESSE",
+          "adresse": "Bourg | 64300 ARGAGNON",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_[' CHEMIN DES CAMOUS', '64190 RIVEHAUTE']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": " CHEMIN DES CAMOUS | 64190 RIVEHAUTE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -546,6 +562,46 @@
           "nom": "BRUNO S.",
           "maillot": 9,
           "club": "STE SUZANNE ASC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd-li8mmbI": {
+          "nom": "NELSON G.",
+          "maillot": 2,
+          "club": "ARGAGNON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh6kygkmLY": {
+          "nom": "MICKAEL B.",
+          "maillot": 8,
+          "club": "ARGAGNON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp4miYsl7I": {
+          "nom": "LORIS D.",
+          "maillot": 7,
+          "club": "ARGAGNON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx4myYmnrI": {
+          "nom": "LUCAS E.",
+          "maillot": 9,
+          "club": "ARGAGNON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl8kScgl78": {
+          "nom": "MATTEO D.",
+          "maillot": 6,
+          "club": "NAVARRENX 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx7kiktnrE": {
+          "nom": "OYAN F.",
+          "maillot": 8,
+          "club": "NAVARRENX 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx2miYtl7U": {
+          "nom": "DAMIEN K.",
+          "maillot": 6,
+          "club": "ARGAGNON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp7li0glrc": {
+          "nom": "JEREMY J.",
+          "maillot": 10,
+          "club": "ARGAGNON"
         }
       },
       "matchs": [
@@ -669,10 +725,41 @@
           "heure": "19:00",
           "recevant": "ARGAGNON",
           "visiteur": "NAVARRENX 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 10,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd-li8mmbI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh6kygkmLY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4miYsl7I",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx4myYmnrI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl8kScgl78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7kiktnrE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx2miYtl7U",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKp7li0glrc",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE FRANCIS LAMONGESSE_['Bourg', '64300 ARGAGNON']"
         },
         {
           "id": 56600351,
@@ -680,10 +767,11 @@
           "heure": "10:00",
           "recevant": "MONEIN FC",
           "visiteur": "FC BBL",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Du Pont Du Lat 1_['13 RUE DU PONT LAT', '64360 MONEIN']"
         },
         {
           "id": 56600352,
@@ -691,10 +779,11 @@
           "heure": "10:00",
           "recevant": "OLORON BEARN FC",
           "visiteur": "STE SUZANNE ASC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE SAINT PÉE 4_[' BOULEVARD FRANCOIS MITTERRAND', 'TERRAIN ANNEXE N°4', '64400 OLORON STE MARIE']"
         },
         {
           "id": 56600353,
@@ -702,10 +791,11 @@
           "heure": "10:00",
           "recevant": "RIVEHAUTE S.",
           "visiteur": "PYRENEENNE ES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_[' CHEMIN DES CAMOUS', '64190 RIVEHAUTE']"
         },
         {
           "id": 56600356,
@@ -1099,6 +1189,20 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE PAUL ESCUDÉ_['AVENUE DU DOYEN R. POPLAWSKI', 'COMPLEXE ANDRE LAVIE', '64000 PAU']": {
+          "nom": "STADE PAUL ESCUDÉ",
+          "adresse": "AVENUE DU DOYEN R. POPLAWSKI | COMPLEXE ANDRE LAVIE | 64000 PAU",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE GUY RAVELO_[' CHEMIN DU STADE', '64230 ARTIGUELOUVE']": {
+          "nom": "STADE GUY RAVELO",
+          "adresse": " CHEMIN DU STADE | 64230 ARTIGUELOUVE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -1206,10 +1310,11 @@
           "heure": "10:00",
           "recevant": "L'AVAL",
           "visiteur": "GEUS D'ARZACQ",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 11,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['CHEMIN DE SERRES', '64300 SAULT DE NAVAILLES']"
         },
         {
           "id": 56600506,
@@ -1217,10 +1322,11 @@
           "heure": "10:00",
           "recevant": "PAU PORTUGAISE UNION",
           "visiteur": "PAU FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 8,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PAUL ESCUDÉ_['AVENUE DU DOYEN R. POPLAWSKI', 'COMPLEXE ANDRE LAVIE', '64000 PAU']"
         },
         {
           "id": 56600507,
@@ -1228,10 +1334,11 @@
           "heure": "10:00",
           "recevant": "ARTIGUEL.ARBUS.AUBER",
           "visiteur": "LONS FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GUY RAVELO_[' CHEMIN DU STADE', '64230 ARTIGUELOUVE']"
         },
         {
           "id": 56600508,
@@ -1239,10 +1346,11 @@
           "heure": "10:00",
           "recevant": "U.S SENDETS/IDRON 3",
           "visiteur": "L'ALERTE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['RUE CAMI DOU BOS', '64320 SENDETS']"
         },
         {
           "id": 56600509,
@@ -1611,6 +1719,20 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE PLAINE DES SPORTS_['6 IMPASSE LAVIGNE', 'TERRAIN RUGBY / FOOT A8', '64160 MORLAAS']": {
+          "nom": "STADE PLAINE DES SPORTS",
+          "adresse": "6 IMPASSE LAVIGNE | TERRAIN RUGBY / FOOT A8 | 64160 MORLAAS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football réduit"
+        },
+        "STADE  MUNICIPAL_['Impasse MENJOT', 'stade Jean Claude Peiry CAPERA', '64160 BARINQUE']": {
+          "nom": "STADE  MUNICIPAL",
+          "adresse": "Impasse MENJOT | stade Jean Claude Peiry CAPERA | 64160 BARINQUE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football réduit"
         }
       },
       "officiels": {},
@@ -1901,10 +2023,11 @@
           "heure": "10:00",
           "recevant": "F.C.2 VALLEES",
           "visiteur": "ENCLAVES DU PLATEAU 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MICHEL FROUTE_['Route de Vic', '64160 GABASTON']"
         },
         {
           "id": 56600550,
@@ -1912,10 +2035,11 @@
           "heure": "10:00",
           "recevant": "OUSSE F.C.",
           "visiteur": "U.S SENDETS/IDRON 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE BERNADETS_[' CHEMIN HENRI IV', '64320 OUSSE']"
         },
         {
           "id": 56600551,
@@ -1923,10 +2047,11 @@
           "heure": "10:00",
           "recevant": "MORLAAS EST BEARN FA",
           "visiteur": "PAU ESPAGNOL FC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PLAINE DES SPORTS_['6 IMPASSE LAVIGNE', 'TERRAIN RUGBY / FOOT A8', '64160 MORLAAS']"
         },
         {
           "id": 56600552,
@@ -1934,10 +2059,11 @@
           "heure": "10:00",
           "recevant": "BARINQUE",
           "visiteur": "F.C. RISCLOIS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE  MUNICIPAL_['Impasse MENJOT', 'stade Jean Claude Peiry CAPERA', '64160 BARINQUE']"
         },
         {
           "id": 56600555,
@@ -2261,6 +2387,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC882417.jpg",
           "clNo": "190104",
           "slug": "882417-angais-foyer-rural"
+        },
+        "ENCLAVES DU PLATEAU": {
+          "nom": "ENCLAVES DU PLATEAU",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC550537.jpg",
+          "clNo": "173318",
+          "slug": "550537-enclaves-du-plateau"
+        },
+        "PAPILLONS & ENCLAVES": {
+          "nom": "PAPILLONS & ENCLAVES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC532157.jpg",
+          "clNo": "14735",
+          "slug": "532157-papillons-enclaves"
         }
       },
       "stades": {
@@ -2302,6 +2440,20 @@
         "STADE MUNICIPAL A8_[' RUE DU STADE', '64510 MEILLON']": {
           "nom": "STADE MUNICIPAL A8",
           "adresse": " RUE DU STADE | 64510 MEILLON",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football réduit"
+        },
+        "STADE CORPS FRANC POMMIES 1_['AVENUE DU CORPS FRANC POMMIES', '64110 JURANCON']": {
+          "nom": "STADE CORPS FRANC POMMIES 1",
+          "adresse": "AVENUE DU CORPS FRANC POMMIES | 64110 JURANCON",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['RUE DU BOIS', '64510 ANGAIS']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "RUE DU BOIS | 64510 ANGAIS",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football réduit"
@@ -2388,21 +2540,23 @@
           "heure": "10:00",
           "recevant": "GANTOIS FC",
           "visiteur": "ENCLAVES DU PLATEAU",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE CORPS FRANC POMMIES 1_['AVENUE DU CORPS FRANC POMMIES', '64110 JURANCON']"
         },
         {
           "id": 56600618,
           "date": "2026-09-27",
           "heure": "10:00",
           "recevant": "REBENACQ",
-          "visiteur": "PONTACQ PAPILLONS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "visiteur": "PAPILLONS & ENCLAVES",
+          "buts_recevant": 2,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE COMMUNAL_[' CHEMIN DE MOUTES', '64260 REBENACQ']"
         },
         {
           "id": 56600619,
@@ -2410,10 +2564,11 @@
           "heure": "10:00",
           "recevant": "ANGAIS FOYER RURAL",
           "visiteur": "ENT. NAY ARTHEZ 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 10,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['RUE DU BOIS', '64510 ANGAIS']"
         },
         {
           "id": 56600621,

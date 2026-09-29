@@ -46,6 +46,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC582639.jpg",
           "clNo": "191911",
           "slug": "582639-charentonne-st-aubin"
+        },
+        "FC SERQUIGNY NASSAND": {
+          "nom": "FC SERQUIGNY NASSAND",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC550888.jpg",
+          "clNo": "105512",
+          "slug": "550888-fc-serquigny-nassand"
+        },
+        "ENT.CSB LE NEUBOURG ": {
+          "nom": "ENT.CSB LE NEUBOURG ",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC501387.jpg",
+          "clNo": "927",
+          "slug": "501387-ent-csb-le-neubourg"
         }
       },
       "stades": {
@@ -76,11 +88,30 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football réduit"
+        },
+        "STADE MARCEL JACQUIN 2_[' RUE DU STADE', '27550 NASSANDRES SUR RISLE']": {
+          "nom": "STADE MARCEL JACQUIN 2",
+          "adresse": " RUE DU STADE | 27550 NASSANDRES SUR RISLE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE RENÉ BAILLEAU 2_['RUE GEORGES CLEMENCEAU', '27190 CONCHES EN OUCHE']": {
+          "nom": "STADE RENÉ BAILLEAU 2",
+          "adresse": "RUE GEORGES CLEMENCEAU | 27190 CONCHES EN OUCHE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
         "CEDRIC LACOSTE_AC": {
           "nom": "CEDRIC LACOSTE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "GREGORY HERBULOT_AC": {
+          "nom": "GREGORY HERBULOT",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -140,6 +171,16 @@
           "nom": "STEPHANIE B.",
           "maillot": 7,
           "club": "ES VALLEE DE L'OISON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh4lCYsmL4": {
+          "nom": "CAMILLE G.",
+          "maillot": 4,
+          "club": "AS LONDAISE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx6kiklm7U": {
+          "nom": "ANAIS P.",
+          "maillot": 13,
+          "club": "AS LONDAISE"
         }
       },
       "matchs": [
@@ -255,10 +296,11 @@
           "heure": "13:00",
           "recevant": "FC SERQUIGNY NASSAND",
           "visiteur": "AS ROUTOT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MARCEL JACQUIN 2_[' RUE DU STADE', '27550 NASSANDRES SUR RISLE']"
         },
         {
           "id": 79376576,
@@ -266,10 +308,44 @@
           "heure": "13:00",
           "recevant": "FA DU ROUMOIS",
           "visiteur": "AS LONDAISE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 21,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl2mygsnr4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt4lyolm74",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4lCYsmL4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd-liwnnL4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx2kCwhmbI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx6kiklm7U",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh7lScglrM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl2ki0smrc",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE RENÉ BERTHELOT 3_[' RUE DE LA LONDE', '27670 ST OUEN DU TILLEUL']",
+          "officiels": [
+            "GREGORY HERBULOT_AC"
+          ]
         },
         {
           "id": 79376577,
@@ -277,10 +353,11 @@
           "heure": "13:00",
           "recevant": "US CONCHOISE",
           "visiteur": "ENT.CSB LE NEUBOURG ",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE RENÉ BAILLEAU 2_['RUE GEORGES CLEMENCEAU', '27190 CONCHES EN OUCHE']"
         },
         {
           "id": 79376578,
@@ -537,6 +614,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC550524.jpg",
           "clNo": "175938",
           "slug": "550524-fac-alizay"
+        },
+        "ES VALLEE DE L'OISON 2": {
+          "nom": "ES VALLEE DE L'OISON 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC547422.jpg",
+          "clNo": "24738",
+          "slug": "547422-es-vallee-de-l-oison-2"
+        },
+        "FC GISORS VEXIN 27": {
+          "nom": "FC GISORS VEXIN 27",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC580568.jpg",
+          "clNo": "176778",
+          "slug": "580568-fc-gisors-vexin-27"
         }
       },
       "stades": {
@@ -560,6 +649,20 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football réduit"
+        },
+        "STADE LUCIEN GOUBERT_['RUE de MARVILLE', '27700 LES ANDELYS']": {
+          "nom": "STADE LUCIEN GOUBERT",
+          "adresse": "RUE de MARVILLE | 27700 LES ANDELYS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "Stade Des étangs La Ballastière 2_['LA BALLASTIERE', 'RUE DES ETANGS', 'TERRAIN B', '27140 GISORS']": {
+          "nom": "Stade Des étangs La Ballastière 2",
+          "adresse": "LA BALLASTIERE | RUE DES ETANGS | TERRAIN B | 27140 GISORS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -570,6 +673,11 @@
         },
         "ARIF OBERTINCA_AC": {
           "nom": "ARIF OBERTINCA",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "Anonyme_AC": {
+          "nom": "Anonyme",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -674,6 +782,31 @@
           "nom": "MARINE F.",
           "maillot": 2,
           "club": "CS LES ANDELYS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp7lSYjlrI": {
+          "nom": "AICHA O.",
+          "maillot": 7,
+          "club": "FC EURE MADRIE SEINE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd7lC4tlrU": {
+          "nom": "FLAVIE R.",
+          "maillot": 2,
+          "club": "FC EURE MADRIE SEINE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15lCYhnbM": {
+          "nom": "MAEVA L.",
+          "maillot": 13,
+          "club": "FC EURE MADRIE SEINE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt6kSwjmbA": {
+          "nom": "AMEL A.",
+          "maillot": 8,
+          "club": "FC EURE MADRIE SEINE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp9ky4tnb4": {
+          "nom": "MAELYS R.",
+          "maillot": 3,
+          "club": "FC EURE MADRIE SEINE"
         }
       },
       "matchs": [
@@ -760,10 +893,14 @@
           "heure": "13:00",
           "recevant": "CS LES ANDELYS",
           "visiteur": "ES VALLEE DE L'OISON 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE LUCIEN GOUBERT_['RUE de MARVILLE', '27700 LES ANDELYS']",
+          "officiels": [
+            "Anonyme_AC"
+          ]
         },
         {
           "id": 79376735,
@@ -771,10 +908,41 @@
           "heure": "13:00",
           "recevant": "FC GISORS VEXIN 27",
           "visiteur": "FC EURE MADRIE SEINE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp7lSYjlrI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7lC4tlrU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK15lCYhnbM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK16li0kmrU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd-kS8sn7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK14mygmmLM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt6kSwjmbA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9ky4tnb4",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "Stade Des étangs La Ballastière 2_['LA BALLASTIERE', 'RUE DES ETANGS', 'TERRAIN B', '27140 GISORS']"
         },
         {
           "id": 79376737,
@@ -1028,6 +1196,20 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE ÉMILE LETORD 2_['LA CROIX SAINT LEUFROY', 'CHEMIN DES MURAILLES', 'TERRAIN B', '27490 CLEF VALLEE D EURE']": {
+          "nom": "STADE ÉMILE LETORD 2",
+          "adresse": "LA CROIX SAINT LEUFROY | CHEMIN DES MURAILLES | TERRAIN B | 27490 CLEF VALLEE D EURE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE ROGER DESMYTTERE 2_['1 RUE ROBERT SCHUMAN', 'TERRAIN ANNEXE', '27620 GASNY']": {
+          "nom": "STADE ROGER DESMYTTERE 2",
+          "adresse": "1 RUE ROBERT SCHUMAN | TERRAIN ANNEXE | 27620 GASNY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -1043,6 +1225,11 @@
         },
         "CYRIL CRAVIC_AC": {
           "nom": "CYRIL CRAVIC",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ARIF OBERTINCA_AC": {
+          "nom": "ARIF OBERTINCA",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -1107,6 +1294,81 @@
           "nom": "SANDRA D.",
           "maillot": 9,
           "club": "LA CROIX VALLEE EURE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx8kSctm7Q": {
+          "nom": "ALICIA D.",
+          "maillot": 10,
+          "club": "LA CROIX VALLEE EURE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp9li4sl7U": {
+          "nom": "MATHILDE A.",
+          "maillot": 7,
+          "club": "LA CROIX VALLEE EURE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx3liYml7Y": {
+          "nom": "MARGAUX C.",
+          "maillot": 9,
+          "club": "LA CROIX VALLEE EURE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp7kCktmbM": {
+          "nom": "LOUANN D.",
+          "maillot": 3,
+          "club": "FC GARENNES BUEIL CB"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt9ky8inb8": {
+          "nom": "ILONA V.",
+          "maillot": 11,
+          "club": "LA CROIX VALLEE EURE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt6kCcsmbA": {
+          "nom": "ELYNE B.",
+          "maillot": 9,
+          "club": "FC GARENNES BUEIL CB"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl7kisknbQ": {
+          "nom": "KELLY M.",
+          "maillot": 12,
+          "club": "LA CROIX VALLEE EURE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp4lSkkmr4": {
+          "nom": "SARAH E.",
+          "maillot": 4,
+          "club": "US GASNY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp4miYjlrI": {
+          "nom": "LUCIE C.",
+          "maillot": 6,
+          "club": "US GASNY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp4mygjmrM": {
+          "nom": "AGNES O.",
+          "maillot": 7,
+          "club": "US GASNY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt5lCsgmLY": {
+          "nom": "MAELYS D.",
+          "maillot": 8,
+          "club": "US GASNY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt7lCssnLc": {
+          "nom": "COLINE B.",
+          "maillot": 3,
+          "club": "US GASNY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp4myglmLY": {
+          "nom": "JESSICA D.",
+          "maillot": 11,
+          "club": "US GASNY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp3kSotmb4": {
+          "nom": "MARIE H.",
+          "maillot": 5,
+          "club": "US GASNY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx-kCcnl74": {
+          "nom": "JULIA L.",
+          "maillot": 13,
+          "club": "US GASNY"
         }
       },
       "matchs": [
@@ -1218,10 +1480,62 @@
           "heure": "13:00",
           "recevant": "LA CROIX VALLEE EURE",
           "visiteur": "FC GARENNES BUEIL CB",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp6mycmnb8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx8kSctm7Q",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9li4sl7U",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3liYml7Y",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt-lyYlmrI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx2mysklrQ",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7kS0mm74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp7kCktmbM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 55,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6lSYtmrQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt9ky8inb8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 60,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt6kCcsmbA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKp8kisslrE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 80,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx8kSctm7Q",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl7kisknbQ",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE ÉMILE LETORD 2_['LA CROIX SAINT LEUFROY', 'CHEMIN DES MURAILLES', 'TERRAIN B', '27490 CLEF VALLEE D EURE']"
         },
         {
           "id": 79376967,
@@ -1229,10 +1543,44 @@
           "heure": "15:00",
           "recevant": "US GASNY",
           "visiteur": "CS BONNEVILLOIS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 10,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 14,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4lSkkmr4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4miYjlrI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4mygjmrM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt5lCsgmLY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 44,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt7lCssnLc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4myglmLY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 50,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp3kSotmb4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx-kCcnl74",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE ROGER DESMYTTERE 2_['1 RUE ROBERT SCHUMAN', 'TERRAIN ANNEXE', '27620 GASNY']",
+          "officiels": [
+            "ARIF OBERTINCA_AC"
+          ]
         },
         {
           "id": 79376970,

@@ -58,6 +58,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500075.jpg",
           "clNo": "217",
           "slug": "500075-sm-caen"
+        },
+        "ASTDV": {
+          "nom": "ASTDV",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500058.jpg",
+          "clNo": "203",
+          "slug": "500058-astdv"
         }
       },
       "stades": {
@@ -87,6 +93,27 @@
           "adresse": "LA GRACE DE DIEU | RUE DU 19 MARS 1962 | 14123 FLEURY SUR ORNE",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE JOSEPH DÉTERVILLE 1_['11 RUE DU DESERT', '14000 CAEN']": {
+          "nom": "STADE JOSEPH DÉTERVILLE 1",
+          "adresse": "11 RUE DU DESERT | 14000 CAEN",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 1_[\"12 RUE DE L'AIGUILLON\", '14760 BRETTEVILLE SUR ODON']": {
+          "nom": "STADE MUNICIPAL 1",
+          "adresse": "12 RUE DE L'AIGUILLON | 14760 BRETTEVILLE SUR ODON",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "PARC DES SPORTS ET LOISIRS 1_['D27A', 'CHEMIN DE LA BRIQUETERIE', '14800 TOUQUES']": {
+          "nom": "PARC DES SPORTS ET LOISIRS 1",
+          "adresse": "D27A | CHEMIN DE LA BRIQUETERIE | 14800 TOUQUES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
         }
       },
@@ -147,10 +174,11 @@
           "heure": "10:00",
           "recevant": "MALADRERIE OS",
           "visiteur": "US VILLERS BOCAGE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JOSEPH DÉTERVILLE 1_['11 RUE DU DESERT', '14000 CAEN']"
         },
         {
           "id": 79077202,
@@ -158,10 +186,11 @@
           "heure": "10:00",
           "recevant": "BSO FOOTBALL",
           "visiteur": "AVT G. CAEN FOOTBALL",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_[\"12 RUE DE L'AIGUILLON\", '14760 BRETTEVILLE SUR ODON']"
         },
         {
           "id": 79077204,
@@ -169,10 +198,11 @@
           "heure": "10:00",
           "recevant": "ASTDV",
           "visiteur": "SM CAEN",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "PARC DES SPORTS ET LOISIRS 1_['D27A', 'CHEMIN DE LA BRIQUETERIE', '14800 TOUQUES']"
         },
         {
           "id": 79077205,
@@ -180,10 +210,11 @@
           "heure": "10:00",
           "recevant": "SCH FOOTBALL",
           "visiteur": "FC SUD OUEST CAEN",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE SALVADOR ALLENDE_['11 RUE GUYON DE GUERCHEVILLE', '14200 HEROUVILLE ST CLAIR']"
         },
         {
           "id": 79077206,
@@ -991,6 +1022,34 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE PIERRE MENDÈS FRANCE 3_['CHEMIN DU VAL', '14123 IFS']": {
+          "nom": "STADE PIERRE MENDÈS FRANCE 3",
+          "adresse": "CHEMIN DU VAL | 14123 IFS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE PIERRE COMPTE 6_['12 Bis Route de Caen', '14500 VIRE NORMANDIE']": {
+          "nom": "STADE PIERRE COMPTE 6",
+          "adresse": "12 Bis Route de Caen | 14500 VIRE NORMANDIE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 2_['RUE DU STADE', '14540 SOLIERS']": {
+          "nom": "STADE MUNICIPAL 2",
+          "adresse": "RUE DU STADE | 14540 SOLIERS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE BARON GÉRARD_['IMPASSE DU STADE', 'ENTREE RUE MONTFIQUET', '14400 BAYEUX']": {
+          "nom": "STADE BARON GÉRARD",
+          "adresse": "IMPASSE DU STADE | ENTREE RUE MONTFIQUET | 14400 BAYEUX",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -1062,10 +1121,11 @@
           "heure": "10:00",
           "recevant": "AS IFS",
           "visiteur": "HASTINGS FC RCSMN",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PIERRE MENDÈS FRANCE 3_['CHEMIN DU VAL', '14123 IFS']"
         },
         {
           "id": 79077967,
@@ -1073,10 +1133,11 @@
           "heure": "10:00",
           "recevant": "AF VIROIS",
           "visiteur": "FC THAON BRETTEVILLE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PIERRE COMPTE 6_['12 Bis Route de Caen', '14500 VIRE NORMANDIE']"
         },
         {
           "id": 79077968,
@@ -1084,10 +1145,11 @@
           "heure": "10:00",
           "recevant": "BOURGUEBUS SOLIERS F",
           "visiteur": "US AUTHIE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 2_['RUE DU STADE', '14540 SOLIERS']"
         },
         {
           "id": 79077969,
@@ -1095,10 +1157,11 @@
           "heure": "10:00",
           "recevant": "BAYEUX FC",
           "visiteur": "C.H.L. TERRE ET MER",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE BARON GÉRARD_['IMPASSE DU STADE', 'ENTREE RUE MONTFIQUET', '14400 BAYEUX']"
         },
         {
           "id": 79077970,
@@ -1106,10 +1169,11 @@
           "heure": "10:00",
           "recevant": "RSG COURSEULLES",
           "visiteur": "USON MONDEVILLE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DU VAL PICAN 1_['38 RUE DU VAL PICAN', '14470 COURSEULLES SUR MER']"
         },
         {
           "id": 79077971,
@@ -2100,6 +2164,27 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE FERNAND SASTRE 1_['AVENUE DE LA DIVETTE', '14390 CABOURG']": {
+          "nom": "STADE FERNAND SASTRE 1",
+          "adresse": "AVENUE DE LA DIVETTE | 14390 CABOURG",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['RUE DE BEAUMONT', '14250 FONTENAY LE PESNEL']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "RUE DE BEAUMONT | 14250 FONTENAY LE PESNEL",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE JEAN LECOUBLE_['AVENUE TOURNEBU', '14830 LANGRUNE SUR MER']": {
+          "nom": "STADE JEAN LECOUBLE",
+          "adresse": "AVENUE TOURNEBU | 14830 LANGRUNE SUR MER",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -2183,10 +2268,11 @@
           "heure": "10:00",
           "recevant": "SU DIVES CABOURG FB",
           "visiteur": "NGS VER SUR MER",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 16,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE FERNAND SASTRE 1_['AVENUE DE LA DIVETTE', '14390 CABOURG']"
         },
         {
           "id": 79374674,
@@ -2194,10 +2280,11 @@
           "heure": "10:00",
           "recevant": "AFTFC",
           "visiteur": "CAMBES EN PLAINE SP",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['RUE DE BEAUMONT', '14250 FONTENAY LE PESNEL']"
         },
         {
           "id": 79374676,
@@ -2205,10 +2292,11 @@
           "heure": "10:00",
           "recevant": "AS CÔTE DE NACRE",
           "visiteur": "ES  BARBERY",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JEAN LECOUBLE_['AVENUE TOURNEBU', '14830 LANGRUNE SUR MER']"
         },
         {
           "id": 79374677,
@@ -2216,10 +2304,11 @@
           "heure": "10:00",
           "recevant": "A. DES BAJOCASSES",
           "visiteur": "ES CARPIQUET FOOT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade de Nihault 1_['ROUTE DE BARBEVILLE', '14400 BAYEUX']"
         },
         {
           "id": 79374678,
@@ -3203,6 +3292,34 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "Stade Du GymnasE_[' RUE DU COLLEGE', 'D 108', '14410 VALDALLIERE']": {
+          "nom": "Stade Du GymnasE",
+          "adresse": " RUE DU COLLEGE | D 108 | 14410 VALDALLIERE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE JULES QUESNEL 1_[' IMPASSE DU STADE JULES QUESNEL', '14790 FONTAINE ETOUPEFOUR']": {
+          "nom": "STADE JULES QUESNEL 1",
+          "adresse": " IMPASSE DU STADE JULES QUESNEL | 14790 FONTAINE ETOUPEFOUR",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "Stade De Saint Germain De Tallevende_['SAINT GERMAIN DE TALLEVENDE', 'RUE DES PAGERIE', '14500 VIRE NORMANDIE']": {
+          "nom": "Stade De Saint Germain De Tallevende",
+          "adresse": "SAINT GERMAIN DE TALLEVENDE | RUE DES PAGERIE | 14500 VIRE NORMANDIE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE CAMPEAUX_['CAMPEAUX', 'ROUTE DE LANDELLES', '14350 SOULEUVRE EN BOCAGE']": {
+          "nom": "STADE CAMPEAUX",
+          "adresse": "CAMPEAUX | ROUTE DE LANDELLES | 14350 SOULEUVRE EN BOCAGE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -3274,10 +3391,11 @@
           "heure": "10:00",
           "recevant": "FCI DU BOCAGE",
           "visiteur": "IS CAUMONTAISE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Du GymnasE_[' RUE DU COLLEGE', 'D 108', '14410 VALDALLIERE']"
         },
         {
           "id": 79059940,
@@ -3285,10 +3403,11 @@
           "heure": "10:00",
           "recevant": "AS ARTISANS FONTAINE",
           "visiteur": "ASL AJON",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JULES QUESNEL 1_[' IMPASSE DU STADE JULES QUESNEL', '14790 FONTAINE ETOUPEFOUR']"
         },
         {
           "id": 79059942,
@@ -3296,10 +3415,11 @@
           "heure": "10:00",
           "recevant": "SUISSENOR-THURY E",
           "visiteur": "FCB2LC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Adolphe Martin_[' RUE ARSENE DELAVIGNE', '14570 CLECY']"
         },
         {
           "id": 79139659,
@@ -3307,10 +3427,11 @@
           "heure": "10:00",
           "recevant": "J.S DU BOCAGE",
           "visiteur": "USI LA GRAVERIE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade De Saint Germain De Tallevende_['SAINT GERMAIN DE TALLEVENDE', 'RUE DES PAGERIE', '14500 VIRE NORMANDIE']"
         },
         {
           "id": 79139660,
@@ -3318,10 +3439,11 @@
           "heure": "10:00",
           "recevant": "CAMP-BEN-TOUR E.",
           "visiteur": "US AUNAY/ODON",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE CAMPEAUX_['CAMPEAUX', 'ROUTE DE LANDELLES', '14350 SOULEUVRE EN BOCAGE']"
         },
         {
           "id": 79059943,
@@ -4244,6 +4366,24 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC540111.jpg",
           "clNo": "20290",
           "slug": "540111-fc-sud-ouest-caen-2"
+        },
+        "DOZULE FC": {
+          "nom": "DOZULE FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC548332.jpg",
+          "clNo": "25429",
+          "slug": "548332-dozule-fc"
+        },
+        "US MAISONS": {
+          "nom": "US MAISONS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC527338.jpg",
+          "clNo": "11423",
+          "slug": "527338-us-maisons"
+        },
+        "USC MEZIDON FB": {
+          "nom": "USC MEZIDON FB",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC550222.jpg",
+          "clNo": "100457",
+          "slug": "550222-usc-mezidon-fb"
         }
       },
       "stades": {
@@ -4264,6 +4404,27 @@
         "STADE MUNICIPAL_[' RUE DU DORSET', '14930 MALTOT']": {
           "nom": "STADE MUNICIPAL",
           "adresse": " RUE DU DORSET | 14930 MALTOT",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE HENRI SAMSON_['AVENUE GEORGE LANDRY', '14430 DOZULE']": {
+          "nom": "STADE HENRI SAMSON",
+          "adresse": "AVENUE GEORGE LANDRY | 14430 DOZULE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE FERNAND DEVINAST_['RUE DE LA VIGNE A LA DAME', '14940 SANNERVILLE']": {
+          "nom": "STADE FERNAND DEVINAST",
+          "adresse": "RUE DE LA VIGNE A LA DAME | 14940 SANNERVILLE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE ROGER LEROYER_['RUE DU MANOIR', '14840 CUVERVILLE']": {
+          "nom": "STADE ROGER LEROYER",
+          "adresse": "RUE DU MANOIR | 14840 CUVERVILLE",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -4436,10 +4597,11 @@
           "heure": "10:00",
           "recevant": "DOZULE FC",
           "visiteur": "FC BAVENTAIS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE HENRI SAMSON_['AVENUE GEORGE LANDRY', '14430 DOZULE']"
         },
         {
           "id": 79374465,
@@ -4447,10 +4609,11 @@
           "heure": "10:00",
           "recevant": "SANNERV-GIBERV ENT",
           "visiteur": "USM BLAINVILLE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE FERNAND DEVINAST_['RUE DE LA VIGNE A LA DAME', '14940 SANNERVILLE']"
         },
         {
           "id": 79374466,
@@ -4458,10 +4621,11 @@
           "heure": "10:00",
           "recevant": "FC VITAL ACDC",
           "visiteur": "US MAISONS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ROGER LEROYER_['RUE DU MANOIR', '14840 CUVERVILLE']"
         },
         {
           "id": 79374467,
@@ -4469,10 +4633,11 @@
           "heure": "10:00",
           "recevant": "INTER ODON FC",
           "visiteur": "USC MEZIDON FB",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_[' RUE DU DORSET', '14930 MALTOT']"
         },
         {
           "id": 79374469,
@@ -5291,10 +5456,79 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_[' RUE DES CANADIENS', '14420 USSY']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": " RUE DES CANADIENS | 14420 USSY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MARCEL ROUSSEAU_['ROCQUANCOURT', ' RUE PASTEUR', '14540 CASTINE EN PLAINE']": {
+          "nom": "STADE MARCEL ROUSSEAU",
+          "adresse": "ROCQUANCOURT |  RUE PASTEUR | 14540 CASTINE EN PLAINE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "Stade Guibray 2 _['Avenue de Verdun - D39', '14700 FALAISE']": {
+          "nom": "Stade Guibray 2 ",
+          "adresse": "Avenue de Verdun - D39 | 14700 FALAISE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "Stade Franck Dumas 1_[' RUE DU TRAITE DE ROME', '14370 MOULT CHICHEBOVILLE']": {
+          "nom": "Stade Franck Dumas 1",
+          "adresse": " RUE DU TRAITE DE ROME | 14370 MOULT CHICHEBOVILLE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrK9IFa5-kS0lmg": {
+          "nom": "EMMANUEL D.",
+          "maillot": 9,
+          "club": "ESFC FALAISE"
+        },
+        "ir3_vj-lzPeINLfhzILsrK9JHKx-lSYmmg": {
+          "nom": "PASCAL C.",
+          "maillot": 13,
+          "club": "ESFC FALAISE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt8my8snLE": {
+          "nom": "ROBIN M.",
+          "maillot": 2,
+          "club": "ESFC FALAISE"
+        },
+        "ir3_vj-lzPeINLfhzILsrK9NFap_kCklmA": {
+          "nom": "CHRISTOPHE K.",
+          "maillot": 12,
+          "club": "ESFC FALAISE"
+        },
+        "ir3_vj-lzPeINLfhzILsrK9BFap_kCcjmA": {
+          "nom": "VALENTIN G.",
+          "maillot": 11,
+          "club": "ESFC FALAISE"
+        },
+        "ir3_vj-lzPeINLfhzILsrK9IFap_mikgnA": {
+          "nom": "SEBASTIEN T.",
+          "maillot": 14,
+          "club": "ESFC FALAISE"
+        },
+        "ir3_vj-lzPeINLfhzILsrK9MFap_kSgmlg": {
+          "nom": "ARNAUD B.",
+          "maillot": 7,
+          "club": "ESFC FALAISE"
+        },
+        "ir3_vj-lzPeINLfhzILsrK9JFKd4migjlw": {
+          "nom": "LUDOVIC H.",
+          "maillot": 15,
+          "club": "ESFC FALAISE"
+        }
+      },
       "matchs": [
         {
           "id": 79060090,
@@ -5362,10 +5596,11 @@
           "heure": "10:00",
           "recevant": "AS POTIGNY V.C.U.",
           "visiteur": "FC BAIE DE L'ORNE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_[' RUE DES CANADIENS', '14420 USSY']"
         },
         {
           "id": 79060096,
@@ -5373,10 +5608,11 @@
           "heure": "10:00",
           "recevant": "FC ROCQUANCOURT",
           "visiteur": "CINGAL FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MARCEL ROUSSEAU_['ROCQUANCOURT', ' RUE PASTEUR', '14540 CASTINE EN PLAINE']"
         },
         {
           "id": 79060097,
@@ -5384,10 +5620,41 @@
           "heure": "10:00",
           "recevant": "ESFC FALAISE",
           "visiteur": "FCB2LC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrK9IFa5-kS0lmg",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrK9JHKx-lSYmmg",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt8my8snLE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrK9NFap_kCklmA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrK9BFap_kCcjmA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrK9IFap_mikgnA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 60,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrK9MFap_kSgmlg",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrK9JFKd4migjlw",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "Stade Guibray 2 _['Avenue de Verdun - D39', '14700 FALAISE']"
         },
         {
           "id": 79060098,
@@ -5395,10 +5662,11 @@
           "heure": "10:00",
           "recevant": "MUANCE-CAGNY E",
           "visiteur": "CASTELET FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Franck Dumas 1_[' RUE DU TRAITE DE ROME', '14370 MOULT CHICHEBOVILLE']"
         },
         {
           "id": 79060099,
@@ -5406,10 +5674,11 @@
           "heure": "10:00",
           "recevant": "ESI VALLEE ORNE",
           "visiteur": "MCONDE-PETRUV US E",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 8,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ANDRÉ LOUVEL_['RUE FLUORINE', '14320 MAY SUR ORNE']"
         },
         {
           "id": 79060100,
@@ -6332,6 +6601,30 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC501456.jpg",
           "clNo": "975",
           "slug": "501456-es-livarotaise"
+        },
+        "FC MOYAUX": {
+          "nom": "FC MOYAUX",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC582670.jpg",
+          "clNo": "191968",
+          "slug": "582670-fc-moyaux"
+        },
+        "US PONT L'EVEQUE": {
+          "nom": "US PONT L'EVEQUE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC522837.jpg",
+          "clNo": "8473",
+          "slug": "522837-us-pont-l-eveque"
+        },
+        "SC ST JULIEN FAUCON": {
+          "nom": "SC ST JULIEN FAUCON",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC520849.jpg",
+          "clNo": "7184",
+          "slug": "520849-sc-st-julien-faucon"
+        },
+        "AS OUILLY LE VICOMTE": {
+          "nom": "AS OUILLY LE VICOMTE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC548259.jpg",
+          "clNo": "25363",
+          "slug": "548259-as-ouilly-le-vicomte"
         }
       },
       "stades": {
@@ -6355,10 +6648,76 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "Stade Michel D' Ornano 1_[' ALLEE DES SPORTS', '14590 MOYAUX']": {
+          "nom": "Stade Michel D' Ornano 1",
+          "adresse": " ALLEE DES SPORTS | 14590 MOYAUX",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MICHEL D’ORNANO 3 _['6 RUE GUSTAVE FLAUBERT', '14130 PONT L EVEQUE']": {
+          "nom": "STADE MICHEL D’ORNANO 3 ",
+          "adresse": "6 RUE GUSTAVE FLAUBERT | 14130 PONT L EVEQUE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE GUY VIQUESNEL 1_['13 AVENUE DU BOIS', '14290 ORBEC']": {
+          "nom": "STADE GUY VIQUESNEL 1",
+          "adresse": "13 AVENUE DU BOIS | 14290 ORBEC",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "Stade Municipal 3 _['18 CHEMIN DE LA CROIX DE FER', '14100 ST DESIR']": {
+          "nom": "Stade Municipal 3 ",
+          "adresse": "18 CHEMIN DE LA CROIX DE FER | 14100 ST DESIR",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "Stade Jacques Descours Desacres 1_[' RUE DU STADE', '14100 OUILLY LE VICOMTE']": {
+          "nom": "Stade Jacques Descours Desacres 1",
+          "adresse": " RUE DU STADE | 14100 OUILLY LE VICOMTE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrK9JHKx-kyoglg": {
+          "nom": "AURELIEN S.",
+          "maillot": 3,
+          "club": "FC MOYAUX"
+        },
+        "ir3_vj-lzPeINLfhzILsrK9MFap8kyYsmg": {
+          "nom": "STANISLAS P.",
+          "maillot": 12,
+          "club": "FC MOYAUX"
+        },
+        "ir3_vj-lzPeINLfhzILsrK9MFap_mi0sng": {
+          "nom": "YVAN J.",
+          "maillot": 9,
+          "club": "FC MOYAUX"
+        },
+        "ir3_vj-lzPeINLfhzILsrK9JHKx-ki8gng": {
+          "nom": "VINCENT B.",
+          "maillot": 14,
+          "club": "FC MOYAUX"
+        },
+        "ir3_vj-lzPeINLfhzILsrK9JFKl_miclnQ": {
+          "nom": "DAVID T.",
+          "maillot": 6,
+          "club": "FC MOYAUX"
+        },
+        "ir3_vj-lzPeINLfhzILsrK9BFap_mi8hmQ": {
+          "nom": "RICHARD C.",
+          "maillot": 13,
+          "club": "FC MOYAUX"
+        }
+      },
       "matchs": [
         {
           "id": 79060271,
@@ -6378,10 +6737,11 @@
           "heure": "10:00",
           "recevant": "FC MOYAUX",
           "visiteur": "US PONT L'EVEQUE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Michel D' Ornano 1_[' ALLEE DES SPORTS', '14590 MOYAUX']"
         },
         {
           "id": 79060273,
@@ -6413,10 +6773,11 @@
           "heure": "10:00",
           "recevant": "US PONT L'EVEQUE",
           "visiteur": "ASTDV 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MICHEL D’ORNANO 3 _['6 RUE GUSTAVE FLAUBERT', '14130 PONT L EVEQUE']"
         },
         {
           "id": 79060276,
@@ -6424,10 +6785,11 @@
           "heure": "10:00",
           "recevant": "CS ORBECQUOIS VESP.",
           "visiteur": "ES COURTONNAISE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GUY VIQUESNEL 1_['13 AVENUE DU BOIS', '14290 ORBEC']"
         },
         {
           "id": 79060277,
@@ -6435,10 +6797,11 @@
           "heure": "10:00",
           "recevant": "AS ST DESIR",
           "visiteur": "SC ST JULIEN FAUCON",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Municipal 3 _['18 CHEMIN DE LA CROIX DE FER', '14100 ST DESIR']"
         },
         {
           "id": 79060278,
@@ -6446,10 +6809,11 @@
           "heure": "10:00",
           "recevant": "AS OUILLY LE VICOMTE",
           "visiteur": "ES LIVAROTAISE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Jacques Descours Desacres 1_[' RUE DU STADE', '14100 OUILLY LE VICOMTE']"
         },
         {
           "id": 79060279,
@@ -6457,10 +6821,34 @@
           "heure": "10:00",
           "recevant": "FC MOYAUX",
           "visiteur": "CA LISIEUX PA",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrK9JHKx-kyoglg",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrK9MFap8kyYsmg",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrK9MFap_mi0sng",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrK9JHKx-ki8gng",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 55,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrK9JFKl_miclnQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrK9BFap_mi8hmQ",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "Stade Michel D' Ornano 1_[' ALLEE DES SPORTS', '14590 MOYAUX']"
         },
         {
           "id": 79060280,

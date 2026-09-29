@@ -46,6 +46,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500902.jpg",
           "clNo": "746",
           "slug": "500902-biache-st-vaast-us-28"
+        },
+        "AUCHY LES MINES AS": {
+          "nom": "AUCHY LES MINES AS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC523106.jpg",
+          "clNo": "8634",
+          "slug": "523106-auchy-les-mines-as"
         }
       },
       "stades": {
@@ -68,6 +74,20 @@
           "adresse": "15 RUE JACQUES PREVERT | TERRAIN JACQUES CAPILLON | 62640 MONTIGNY EN GOHELLE",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE BERNARD LEROY 1_['RUE DU 19 MARS 1962', '62118 BIACHE ST VAAST']": {
+          "nom": "STADE BERNARD LEROY 1",
+          "adresse": "RUE DU 19 MARS 1962 | 62118 BIACHE ST VAAST",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 1_['RUE ACHILLE LARUE', 'Terrain annexe', '62113 LABOURSE']": {
+          "nom": "STADE MUNICIPAL 1",
+          "adresse": "RUE ACHILLE LARUE | Terrain annexe | 62113 LABOURSE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
         }
       },
@@ -132,6 +152,31 @@
           "nom": "ALEXIA M.",
           "maillot": 7,
           "club": "MONTIGNY GOHELLE FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd_licmnLU": {
+          "nom": "MAELLIA B.",
+          "maillot": 2,
+          "club": "BIACHE ST VAAST US 28"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt2li4lm7M": {
+          "nom": "MATTIE D.",
+          "maillot": 8,
+          "club": "BIACHE ST VAAST US 28"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp_mywimrI": {
+          "nom": "CAROLINE L.",
+          "maillot": 9,
+          "club": "BIACHE ST VAAST US 28"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp8liksm7I": {
+          "nom": "KARINE R.",
+          "maillot": 8,
+          "club": "AUCHY LES MINES AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh8miYmm7E": {
+          "nom": "KASSYANE R.",
+          "maillot": 3,
+          "club": "AUCHY LES MINES AS"
         }
       },
       "matchs": [
@@ -297,10 +342,43 @@
           "heure": "18:00",
           "recevant": "BIACHE ST VAAST US 28",
           "visiteur": "BOUVIGNY BOYEFFLES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 11,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx-mi4gm7E",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 17,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd_licmnLU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 41,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt2li4lm7M",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd_lyonnrY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 58,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp_mywimrI",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE BERNARD LEROY 1_['RUE DU 19 MARS 1962', '62118 BIACHE ST VAAST']"
         },
         {
           "id": 79139843,
@@ -330,10 +408,37 @@
           "heure": "11:00",
           "recevant": "LABOURSE RC",
           "visiteur": "AUCHY LES MINES AS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 15,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp8liksm7I",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 25,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx8lyYsnrM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx8lyYsnrM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 32,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh8miYmm7E",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL 1_['RUE ACHILLE LARUE', 'Terrain annexe', '62113 LABOURSE']"
         },
         {
           "id": 79139848,
@@ -1068,6 +1173,24 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC516889.jpg",
           "clNo": "5168",
           "slug": "516889-Etoile-racing-artois"
+        },
+        "GRENAY US": {
+          "nom": "GRENAY US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC551540.jpg",
+          "clNo": "168052",
+          "slug": "551540-grenay-us"
+        },
+        "LOOS EN GOHELLE USSM": {
+          "nom": "LOOS EN GOHELLE USSM",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC501299.jpg",
+          "clNo": "911",
+          "slug": "501299-loos-en-gohelle-ussm"
+        },
+        "SALOME AS": {
+          "nom": "SALOME AS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500979.jpg",
+          "clNo": "793",
+          "slug": "500979-salome-as"
         }
       },
       "stades": {
@@ -1081,6 +1204,27 @@
         "STADE JEAN MAGRE 1_['RUE PASTEUR', 'TERRAIN HONNEUR', '62138 DOUVRIN']": {
           "nom": "STADE JEAN MAGRE 1",
           "adresse": "RUE PASTEUR | TERRAIN HONNEUR | 62138 DOUVRIN",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE ADRIEN VISEUX 3_['BOULEVARD DE LA PLAINE', 'TERRAIN ARTHUR FAUVERGUE', '62160 GRENAY']": {
+          "nom": "STADE ADRIEN VISEUX 3",
+          "adresse": "BOULEVARD DE LA PLAINE | TERRAIN ARTHUR FAUVERGUE | 62160 GRENAY",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE RENÉ BERNARD 1_[' RUE D ETAING', '59259 LECLUSE']": {
+          "nom": "STADE RENÉ BERNARD 1",
+          "adresse": " RUE D ETAING | 59259 LECLUSE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL FRANCK QUEUDRUE_['AVENUE LOUIS ROMON', 'COMPLEXE RAYMOND NOWACKI', '59496 SALOME']": {
+          "nom": "STADE MUNICIPAL FRANCK QUEUDRUE",
+          "adresse": "AVENUE LOUIS ROMON | COMPLEXE RAYMOND NOWACKI | 59496 SALOME",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -1117,6 +1261,86 @@
           "nom": "AUDREY F.",
           "maillot": 10,
           "club": "DOUVRIN ES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh9lS0gmbY": {
+          "nom": "KENZA D.",
+          "maillot": 12,
+          "club": "LOOS EN GOHELLE USSM"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt-my8nl7A": {
+          "nom": "MELYNE D.",
+          "maillot": 7,
+          "club": "GRENAY US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh-ly8jnbE": {
+          "nom": "WENDY G.",
+          "maillot": 10,
+          "club": "GRENAY US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt3kCwgnbM": {
+          "nom": "ELODIE B.",
+          "maillot": 7,
+          "club": "DOURGES AAE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh9lCogmbY": {
+          "nom": "INES D.",
+          "maillot": 9,
+          "club": "DOURGES AAE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt6myshnbI": {
+          "nom": "ROMANE R.",
+          "maillot": 3,
+          "club": "SALOME AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl7lysklrY": {
+          "nom": "MARGOT D.",
+          "maillot": 5,
+          "club": "SALOME AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK18mi8knLA": {
+          "nom": "BETTY M.",
+          "maillot": 9,
+          "club": "SALOME AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl3kSYtl7I": {
+          "nom": "LEONIE L.",
+          "maillot": 6,
+          "club": "SALOME AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl-kyglmb4": {
+          "nom": "EMMA T.",
+          "maillot": 10,
+          "club": "SALOME AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh3lSolm7A": {
+          "nom": "ADELE O.",
+          "maillot": 10,
+          "club": "RICHEBOURG FC 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt8li8jmLU": {
+          "nom": "CATHIE S.",
+          "maillot": 6,
+          "club": "RICHEBOURG FC 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx2kSYnmLI": {
+          "nom": "DOMINIQUE G.",
+          "maillot": 4,
+          "club": "SALOME AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp6kScnnbU": {
+          "nom": "SEVERINE T.",
+          "maillot": 8,
+          "club": "SALOME AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd-lyojnLA": {
+          "nom": "Anonyme",
+          "maillot": 12,
+          "club": "SALOME AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx-kC0gnLE": {
+          "nom": "LILOU B.",
+          "maillot": 13,
+          "club": "SALOME AS"
         }
       },
       "matchs": [
@@ -1276,10 +1500,43 @@
           "heure": "10:00",
           "recevant": "GRENAY US",
           "visiteur": "LOOS EN GOHELLE USSM",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 28,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh9lS0gmbY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 30,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-my8nl7A",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 38,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-my8nl7A",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 43,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh-ly8jnbE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 55,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-my8nl7A",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE ADRIEN VISEUX 3_['BOULEVARD DE LA PLAINE', 'TERRAIN ARTHUR FAUVERGUE', '62160 GRENAY']"
         },
         {
           "id": 79143000,
@@ -1298,10 +1555,61 @@
           "heure": "10:00",
           "recevant": "ÉTOILE RACING ARTOIS",
           "visiteur": "DOURGES AAE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 8,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 10,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3kCwgnbM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 20,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3kCwgnbM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 20,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3kCwgnbM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 40,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3kCwgnbM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 47,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh9lCogmbY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 50,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh9lCogmbY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 58,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh9lCogmbY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 60,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3kCwgnbM",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE RENÉ BERNARD 1_[' RUE D ETAING', '59259 LECLUSE']"
         },
         {
           "id": 79143002,
@@ -1309,10 +1617,108 @@
           "heure": "10:30",
           "recevant": "SALOME AS",
           "visiteur": "RICHEBOURG FC 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 10,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 15,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt6myshnbI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl7lysklrY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK18mi8knLA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl3kSYtl7I",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl-kyglmb4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3lSolm7A",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt8li8jmLU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 22,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt6myshnbI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 25,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx2kSYnmLI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp6kScnnbU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp6kScnnbU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd-lyojnLA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt6myshnbI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx-kC0gnLE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 33,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl3kSYtl7I",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 44,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl3kSYtl7I",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK18mi8knLA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 50,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl-kyglmb4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 60,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx-kC0gnLE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 70,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx-kC0gnLE",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL FRANCK QUEUDRUE_['AVENUE LOUIS ROMON', 'COMPLEXE RAYMOND NOWACKI', '59496 SALOME']"
         },
         {
           "id": 79143004,
@@ -2047,12 +2453,44 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC524501.jpg",
           "clNo": "9544",
           "slug": "524501-haillicourt-es"
+        },
+        "BONNIERES HOUVIN AS": {
+          "nom": "BONNIERES HOUVIN AS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC540567.jpg",
+          "clNo": "20604",
+          "slug": "540567-bonnieres-houvin-as"
+        },
+        "BARLIN AS": {
+          "nom": "BARLIN AS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500525.jpg",
+          "clNo": "586",
+          "slug": "500525-barlin-as"
+        },
+        "HESDIGNEUL US": {
+          "nom": "HESDIGNEUL US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC518987.jpg",
+          "clNo": "6125",
+          "slug": "518987-hesdigneul-us"
         }
       },
       "stades": {
         "STADE VERDREL 1_['HAMEAU DE VERDREL', 'RUE DES LILLAS', '62150 FRESNICOURT LE DOLMEN']": {
           "nom": "STADE VERDREL 1",
           "adresse": "HAMEAU DE VERDREL | RUE DES LILLAS | 62150 FRESNICOURT LE DOLMEN",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE PIERRE HARDUIN_['RUE DES 2 ABBAYES', '62270 BONNIERES']": {
+          "nom": "STADE PIERRE HARDUIN",
+          "adresse": "RUE DES 2 ABBAYES | 62270 BONNIERES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE JEAN WATEL 1_['PLACE DU RIETZ', '62196 HESDIGNEUL LES BETHUNE']": {
+          "nom": "STADE JEAN WATEL 1",
+          "adresse": "PLACE DU RIETZ | 62196 HESDIGNEUL LES BETHUNE",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -2139,6 +2577,41 @@
           "nom": "CASSANDRA S.",
           "maillot": 11,
           "club": "HAILLICOURT ES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19ky4hlrU": {
+          "nom": "SARAH P.",
+          "maillot": 8,
+          "club": "BONNIERES HOUVIN AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd7mystnrA": {
+          "nom": "ADELIE D.",
+          "maillot": 6,
+          "club": "BONNIERES HOUVIN AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl2mygslrI": {
+          "nom": "SANDRA M.",
+          "maillot": 9,
+          "club": "BONNIERES HOUVIN AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt3kC4kl7E": {
+          "nom": "CHARLOTTE F.",
+          "maillot": 8,
+          "club": "SFFC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp4my4llr8": {
+          "nom": "GWLADYS B.",
+          "maillot": 9,
+          "club": "SFFC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlBFql2lC8jm78": {
+          "nom": "NATACHA B.",
+          "maillot": 4,
+          "club": "SFFC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx9lyYlnLM": {
+          "nom": "AURELIE M.",
+          "maillot": 5,
+          "club": "HESDIGNEUL US"
         }
       },
       "matchs": [
@@ -2303,10 +2776,38 @@
           "heure": "11:00",
           "recevant": "HESDIGNEUL US",
           "visiteur": "SFFC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3kC4kl7E",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4my4llr8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 30,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlBFql2lC8jm78",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 48,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx9lyYlnLM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 55,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx9lyYlnLM",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE JEAN WATEL 1_['PLACE DU RIETZ', '62196 HESDIGNEUL LES BETHUNE']"
         },
         {
           "id": 79143336,
@@ -2325,10 +2826,37 @@
           "heure": "10:00",
           "recevant": "BONNIERES HOUVIN AS",
           "visiteur": "BARLIN AS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 5,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK19ky4hlrU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 10,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK19ky4hlrU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 20,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7mystnrA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 50,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl2mygslrI",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE PIERRE HARDUIN_['RUE DES 2 ABBAYES', '62270 BONNIERES']"
         },
         {
           "id": 79143340,
@@ -3086,6 +3614,24 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC524884.jpg",
           "clNo": "9771",
           "slug": "524884-la-roupie-fc-2"
+        },
+        "HINGES FCAL": {
+          "nom": "HINGES FCAL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC522128.jpg",
+          "clNo": "8031",
+          "slug": "522128-hinges-fcal"
+        },
+        "VENDIN L/BETHUNE AS": {
+          "nom": "VENDIN L/BETHUNE AS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC534369.jpg",
+          "clNo": "16194",
+          "slug": "534369-vendin-l-bethune-as"
+        },
+        "LAVENTIE ES": {
+          "nom": "LAVENTIE ES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC501208.jpg",
+          "clNo": "884",
+          "slug": "501208-laventie-es"
         }
       },
       "stades": {
@@ -3106,6 +3652,34 @@
         "STADE BASLY 2_['RUE DE LA VICTOIRE', 'TERRAIN ANNEXE', '62330 ISBERGUES']": {
           "nom": "STADE BASLY 2",
           "adresse": "RUE DE LA VICTOIRE | TERRAIN ANNEXE | 62330 ISBERGUES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MARCEL DEPUTTE_['ST PIERRE LES AUCHEL', 'RUE LULLY', '62260 AUCHEL']": {
+          "nom": "STADE MARCEL DEPUTTE",
+          "adresse": "ST PIERRE LES AUCHEL | RUE LULLY | 62260 AUCHEL",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE LA ROUPIE1_['LA ROUPIE', 'RUE DE LA PISCINE', '62330 ISBERGUES']": {
+          "nom": "STADE LA ROUPIE1",
+          "adresse": "LA ROUPIE | RUE DE LA PISCINE | 62330 ISBERGUES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE ALBERT DELAHAYE 1_['AIRE DE LOISIRS', '9 RUE NEUVE', '62232 VENDIN LES BETHUNE']": {
+          "nom": "STADE ALBERT DELAHAYE 1",
+          "adresse": "AIRE DE LOISIRS | 9 RUE NEUVE | 62232 VENDIN LES BETHUNE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 2_['RUE DE LENGLET', '62920 GONNEHEM']": {
+          "nom": "STADE MUNICIPAL 2",
+          "adresse": "RUE DE LENGLET | 62920 GONNEHEM",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -3172,6 +3746,136 @@
           "nom": "AMELIE D.",
           "maillot": 7,
           "club": "ISBERGUES ESD"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl6lSkmlrA": {
+          "nom": "MANDY D.",
+          "maillot": 7,
+          "club": "AUCHEL FC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK13kC8tl7U": {
+          "nom": "LEA D.",
+          "maillot": 3,
+          "club": "AUCHEL FC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx8lScsmbY": {
+          "nom": "CHLOE I.",
+          "maillot": 2,
+          "club": "LA ROUPIE FC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh3lywsmrI": {
+          "nom": "LAURA P.",
+          "maillot": 9,
+          "club": "LA ROUPIE FC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh9kiknl7M": {
+          "nom": "ERINE P.",
+          "maillot": 7,
+          "club": "HINGES FCAL"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp3kS8kmrA": {
+          "nom": "GWENAELLE L.",
+          "maillot": 8,
+          "club": "LA ROUPIE FC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd7kS8hmrQ": {
+          "nom": "MANON M.",
+          "maillot": 10,
+          "club": "LA ROUPIE FC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlBHKl2kSYmn7M": {
+          "nom": "EUGENIE P.",
+          "maillot": 5,
+          "club": "LA ROUPIE FC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp_lCgsnrY": {
+          "nom": "CAMILLE D.",
+          "maillot": 2,
+          "club": "VENDIN L/BETHUNE AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp_kygimLI": {
+          "nom": "MANON D.",
+          "maillot": 5,
+          "club": "VENDIN L/BETHUNE AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp_kSolmLM": {
+          "nom": "PERRINE D.",
+          "maillot": 6,
+          "club": "VENDIN L/BETHUNE AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx9lSgmnrI": {
+          "nom": "LOLITA R.",
+          "maillot": 9,
+          "club": "VENDIN L/BETHUNE AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt6ky8il7Y": {
+          "nom": "ANGELINA L.",
+          "maillot": 4,
+          "club": "VENDIN L/BETHUNE AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp9lSohmLI": {
+          "nom": "MORGANE D.",
+          "maillot": 8,
+          "club": "VENDIN L/BETHUNE AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh8lC0smrA": {
+          "nom": "MARGAULT V.",
+          "maillot": 6,
+          "club": "LAVENTIE ES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt4kiknlrQ": {
+          "nom": "CHARLOTTE D.",
+          "maillot": 11,
+          "club": "GONNEHEM CHOCQUES US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt9mi8inLI": {
+          "nom": "LAETITIA D.",
+          "maillot": 1,
+          "club": "GONNEHEM CHOCQUES US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl7ki8tnrM": {
+          "nom": "AURORE S.",
+          "maillot": 4,
+          "club": "GONNEHEM CHOCQUES US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl_licjmbI": {
+          "nom": "VALERIE D.",
+          "maillot": 3,
+          "club": "GONNEHEM CHOCQUES US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp7mi0ilrQ": {
+          "nom": "CELINE D.",
+          "maillot": 8,
+          "club": "LAVENTIE ES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp9kioim7Y": {
+          "nom": "PAULINE B.",
+          "maillot": 10,
+          "club": "LAVENTIE ES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlBEal2kCwhmLU": {
+          "nom": "EMILIE P.",
+          "maillot": 12,
+          "club": "GONNEHEM CHOCQUES US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt6kCoslrc": {
+          "nom": "MANON S.",
+          "maillot": 5,
+          "club": "LAVENTIE ES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlBHal2kCclmLc": {
+          "nom": "JUSTINE C.",
+          "maillot": 9,
+          "club": "LAVENTIE ES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd-kCsjlrA": {
+          "nom": "LISE T.",
+          "maillot": 7,
+          "club": "LAVENTIE ES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLFqd_kCghmLQ": {
+          "nom": "JULIETTE B.",
+          "maillot": 10,
+          "club": "GONNEHEM CHOCQUES US"
         }
       },
       "matchs": [
@@ -3317,10 +4021,31 @@
           "heure": "10:00",
           "recevant": "AUCHEL FC 2",
           "visiteur": "ISBERGUES ESD",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 40,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt_kSoimr4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 44,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl6lSkmlrA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 55,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK13kC8tl7U",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MARCEL DEPUTTE_['ST PIERRE LES AUCHEL', 'RUE LULLY', '62260 AUCHEL']"
         },
         {
           "id": 79143504,
@@ -3328,10 +4053,39 @@
           "heure": "10:00",
           "recevant": "LA ROUPIE FC 2",
           "visiteur": "HINGES FCAL",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8lScsmbY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3lywsmrI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 20,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh9kiknl7M",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 38,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp3kS8kmrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7kS8hmrQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 68,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlBHKl2kSYmn7M",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE LA ROUPIE1_['LA ROUPIE', 'RUE DE LA PISCINE', '62330 ISBERGUES']"
         },
         {
           "id": 79143505,
@@ -3339,10 +4093,49 @@
           "heure": "10:00",
           "recevant": "VENDIN L/BETHUNE AS",
           "visiteur": "GUARBECQUE JF",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 5,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp_lCgsnrY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 12,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp_kygimLI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 18,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp_kSolmLM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 25,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx9lSgmnrI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 32,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt6ky8il7Y",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 35,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp9lSohmLI",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE ALBERT DELAHAYE 1_['AIRE DE LOISIRS', '9 RUE NEUVE', '62232 VENDIN LES BETHUNE']"
         },
         {
           "id": 79143506,
@@ -3350,10 +4143,105 @@
           "heure": "10:00",
           "recevant": "GONNEHEM CHOCQUES US",
           "visiteur": "LAVENTIE ES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 12,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh8lC0smrA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 15,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt4kiknlrQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt9mi8inLI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl7liwknL4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl7ki8tnrM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl_licjmbI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 16,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp7mi0ilrQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9kioim7Y",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 35,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlBFql2ly8hlrI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlBEal2kCwhmLU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlBFql2ly8hlrI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 36,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt6kCoslrc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlBHal2kCclmLc",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlBHKl2kSYtnLI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh9liksnbQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt6kCoslrc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9kioim7Y",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt6kCoslrc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd-kCsjlrA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 55,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9kioim7Y",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 55,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlBEal2kCwhmLU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 56,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLFqd_kCghmLQ",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL 2_['RUE DE LENGLET', '62920 GONNEHEM']"
         },
         {
           "id": 79143509,

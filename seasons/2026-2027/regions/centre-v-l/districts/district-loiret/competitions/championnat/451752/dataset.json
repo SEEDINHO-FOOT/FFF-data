@@ -362,12 +362,50 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC518551.jpg",
           "clNo": "5911",
           "slug": "518551-u-s-mle-olivet-2"
+        },
+        "CLERY AS": {
+          "nom": "CLERY AS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC505041.jpg",
+          "clNo": "2498",
+          "slug": "505041-clery-as"
+        },
+        "CHAINGY ST AY 2": {
+          "nom": "CHAINGY ST AY 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC553261.jpg",
+          "clNo": "128884",
+          "slug": "553261-chaingy-st-ay-2"
+        },
+        "ENT. ESMB-ASBH": {
+          "nom": "ENT. ESMB-ASBH",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565173.jpg",
+          "clNo": "205105",
+          "slug": "565173-ent-esmb-asbh"
+        },
+        "ENT. USS / JSDFC": {
+          "nom": "ENT. USS / JSDFC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC515177.jpg",
+          "clNo": "4731",
+          "slug": "515177-ent-uss-jsdfc"
         }
       },
       "stades": {
         "STADE AURÉLIEN HATTON 2_['RUE DE MONTELOUP', '45380 LA CHAPELLE ST MESMIN']": {
           "nom": "STADE AURÉLIEN HATTON 2",
           "adresse": "RUE DE MONTELOUP | 45380 LA CHAPELLE ST MESMIN",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL1_['ROUTE DE MEUNG SUR LOIRE', '45370 DRY']": {
+          "nom": "STADE MUNICIPAL1",
+          "adresse": "ROUTE DE MEUNG SUR LOIRE | 45370 DRY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_[\"Rue du Lièvre d'Or\", '45130 BAULE']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "Rue du Lièvre d'Or | 45130 BAULE",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -379,6 +417,36 @@
           "nom": "VALENTIN S.",
           "maillot": 9,
           "club": "U.S. MLE OLIVET 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK12li0hl7M": {
+          "nom": "LUC P.",
+          "maillot": 6,
+          "club": "CLERY AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19kC0tm7I": {
+          "nom": "JOSHUA D.",
+          "maillot": 12,
+          "club": "CLERY AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK18lS4smr4": {
+          "nom": "LOHAN D.",
+          "maillot": 11,
+          "club": "CLERY AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15ly8tmrA": {
+          "nom": "MYLAN L.",
+          "maillot": 13,
+          "club": "CLERY AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16lSognb8": {
+          "nom": "ABRIEL M.",
+          "maillot": 9,
+          "club": "ENT. ESMB-ASBH"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19ly0tnrM": {
+          "nom": "ARTHUR M.",
+          "maillot": 13,
+          "club": "ENT. USS / JSDFC"
         }
       },
       "matchs": [
@@ -410,10 +478,27 @@
           "heure": "15:30",
           "recevant": "CLERY AS",
           "visiteur": "CHAINGY ST AY 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12li0hl7M",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK19kC0tm7I",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK18lS4smr4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK15ly8tmrA",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL1_['ROUTE DE MEUNG SUR LOIRE', '45370 DRY']"
         },
         {
           "id": 79559032,
@@ -421,10 +506,29 @@
           "heure": "16:00",
           "recevant": "ENT. ESMB-ASBH",
           "visiteur": "ENT. USS / JSDFC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": "",
+              "type": "carton-vert",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16lSognb8",
+              "sanction": "V",
+              "sanction_detail": "V5",
+              "club_type": "recevant"
+            },
+            {
+              "minute": "",
+              "type": "carton-vert",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK19ly0tnrM",
+              "sanction": "V",
+              "sanction_detail": "V4",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL_[\"Rue du Lièvre d'Or\", '45130 BAULE']"
         },
         {
           "id": 79559038,

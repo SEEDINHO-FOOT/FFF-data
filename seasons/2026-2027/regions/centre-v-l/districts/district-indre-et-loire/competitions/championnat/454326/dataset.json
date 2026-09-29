@@ -1637,10 +1637,55 @@
           "heure": "12:30",
           "recevant": "ST BENOIT HUISMES F 2",
           "visiteur": "LIGNIERES BREHEMONT  2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "réserve"
+          "buts_recevant": 0,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh5myshm78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt4lS8imLM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 36,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx7lSskn78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh9kSsgnb8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 39,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlIEK1_kysjmrI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlIEK1_kCommrE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 54,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx7myolnbI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlIHK1_kyckn7Q",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 56,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl6lyglm78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlIHa1_kC8lmb8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 69,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl4lS8hmbE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt_lCwimrA",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE ROLLAND RAFFAULT_['ROUTE DE MOUZILLY', '37420 HUISMES']"
         },
         {
           "id": 56029450,
@@ -1793,7 +1838,7 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "réserve"
+          "statut": "arrêté"
         },
         {
           "id": 56208174,
@@ -3856,6 +3901,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC517327.jpg",
           "clNo": "5339",
           "slug": "517327-sepmes-drache"
+        },
+        "VILLEPERDUE 2": {
+          "nom": "VILLEPERDUE 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC529266.jpg",
+          "clNo": "12736",
+          "slug": "529266-villeperdue-2"
+        },
+        "YZEURES PREUILLY US 2": {
+          "nom": "YZEURES PREUILLY US 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC548238.jpg",
+          "clNo": "25345",
+          "slug": "548238-yzeures-preuilly-us-2"
         }
       },
       "stades": {
@@ -3876,6 +3933,13 @@
         "STADE RAYMOND POULIDOR_[' LA CROIX DE SAINT CYR', '37290 CHARNIZAY']": {
           "nom": "STADE RAYMOND POULIDOR",
           "adresse": " LA CROIX DE SAINT CYR | 37290 CHARNIZAY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MICHEL VAUGE_['RUE DU CARROI DU VIGNAU', '37260 VILLEPERDUE']": {
+          "nom": "STADE MICHEL VAUGE",
+          "adresse": "RUE DU CARROI DU VIGNAU | 37260 VILLEPERDUE",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -4015,10 +4079,11 @@
           "heure": "15:00",
           "recevant": "VILLEPERDUE 2",
           "visiteur": "YZEURES PREUILLY US 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "réserve"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MICHEL VAUGE_['RUE DU CARROI DU VIGNAU', '37260 VILLEPERDUE']"
         },
         {
           "id": 56184970,
@@ -4833,6 +4898,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC511974.jpg",
           "clNo": "3916",
           "slug": "511974-st-avertin-sp-2"
+        },
+        "PAYS MONTRESOROIS FC 2": {
+          "nom": "PAYS MONTRESOROIS FC 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC561148.jpg",
+          "clNo": "200863",
+          "slug": "561148-pays-montresorois-fc-2"
+        },
+        "VERETZ AZAY LARCAY 2": {
+          "nom": "VERETZ AZAY LARCAY 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC582552.jpg",
+          "clNo": "191764",
+          "slug": "582552-veretz-azay-larcay-2"
         }
       },
       "stades": {
@@ -4853,6 +4930,13 @@
         "STADE PIERRE BOURBON 1_['12 RUE DE LA TUILERIE', '37320 CORMERY']": {
           "nom": "STADE PIERRE BOURBON 1",
           "adresse": "12 RUE DE LA TUILERIE | 37320 CORMERY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['ROUTE DE VALENCAY', '37460 NOUANS LES FONTAINES']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "ROUTE DE VALENCAY | 37460 NOUANS LES FONTAINES",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -5182,10 +5266,11 @@
           "heure": "15:00",
           "recevant": "PAYS MONTRESOROIS FC 2",
           "visiteur": "VERETZ AZAY LARCAY 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "non joué"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['ROUTE DE VALENCAY', '37460 NOUANS LES FONTAINES']"
         },
         {
           "id": 56210193,

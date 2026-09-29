@@ -46,6 +46,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC581320.jpg",
           "clNo": "183455",
           "slug": "581320-e-b-s-v"
+        },
+        "BOURGES PORTUGAIS AS": {
+          "nom": "BOURGES PORTUGAIS AS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC524968.jpg",
+          "clNo": "9836",
+          "slug": "524968-bourges-portugais-as"
+        },
+        "ENT. ST FLORENT/C2L": {
+          "nom": "ENT. ST FLORENT/C2L",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC505026.jpg",
+          "clNo": "2492",
+          "slug": "505026-ent-st-florent-c2l"
         }
       },
       "stades": {
@@ -66,6 +78,20 @@
         "STADE MUNICIPAL 1_['RUE DE LA PAILLE', '18340 PLAIMPIED GIVAUDINS']": {
           "nom": "STADE MUNICIPAL 1",
           "adresse": "RUE DE LA PAILLE | 18340 PLAIMPIED GIVAUDINS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['RUE DU CLAIR AUX SAINTS', '18240 SAVIGNY EN SANCERRE']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "RUE DU CLAIR AUX SAINTS | 18240 SAVIGNY EN SANCERRE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE ALBERT SOUBIRAN 1_[\"L'ILE ROBINSON\", 'AVENUE JEAN JAURES', '18400 ST FLORENT SUR CHER']": {
+          "nom": "STADE ALBERT SOUBIRAN 1",
+          "adresse": "L'ILE ROBINSON | AVENUE JEAN JAURES | 18400 ST FLORENT SUR CHER",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -113,6 +139,36 @@
           "nom": "NOAH C.",
           "maillot": 8,
           "club": "VASSELAY ST ELOY FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd6mysil7I": {
+          "nom": "PAUL T.",
+          "maillot": 10,
+          "club": "ENT. ST FLORENT/C2L"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19myksl7c": {
+          "nom": "TOM C.",
+          "maillot": 12,
+          "club": "ENT. ST FLORENT/C2L"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx4mi8nnLA": {
+          "nom": "ELYES F.",
+          "maillot": 9,
+          "club": "ENT. ST FLORENT/C2L"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK12miwhm7c": {
+          "nom": "ENZO D.",
+          "maillot": 13,
+          "club": "ENT. ST FLORENT/C2L"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt3micim78": {
+          "nom": "MAMADOU D.",
+          "maillot": 9,
+          "club": "MASSAY SC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd-mywlmrA": {
+          "nom": "PABLO F.",
+          "maillot": 13,
+          "club": "MASSAY SC"
         }
       },
       "matchs": [
@@ -235,10 +291,34 @@
           "heure": "14:30",
           "recevant": "ENT. ST FLORENT/C2L",
           "visiteur": "MASSAY SC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6mysil7I",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK19myksl7c",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4mi8nnLA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK12miwhm7c",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3micim78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd-mywlmrA",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE ALBERT SOUBIRAN 1_[\"L'ILE ROBINSON\", 'AVENUE JEAN JAURES', '18400 ST FLORENT SUR CHER']"
         },
         {
           "id": 79578040,
@@ -246,10 +326,11 @@
           "heure": "14:30",
           "recevant": "E.B.S.V",
           "visiteur": "BOURGES PORTUGAIS AS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['RUE DU CLAIR AUX SAINTS', '18240 SAVIGNY EN SANCERRE']"
         },
         {
           "id": 79578042,

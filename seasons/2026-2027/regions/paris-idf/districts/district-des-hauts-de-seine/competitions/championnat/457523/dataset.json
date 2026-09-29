@@ -22,6 +22,42 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC553138.jpg",
           "clNo": "127585",
           "slug": "553138-csm-clamart-foot"
+        },
+        "VILLE D'AVRAY US": {
+          "nom": "VILLE D'AVRAY US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC511880.jpg",
+          "clNo": "3898",
+          "slug": "511880-ville-d-avray-us"
+        },
+        "BOULOGNE BIL. AC": {
+          "nom": "BOULOGNE BIL. AC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500051.jpg",
+          "clNo": "196",
+          "slug": "500051-boulogne-bil-ac"
+        },
+        "SEVRES F.C. 92": {
+          "nom": "SEVRES F.C. 92",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC527758.jpg",
+          "clNo": "11726",
+          "slug": "527758-sevres-f-c-92"
+        },
+        "PLESSIS ROBINSON FC": {
+          "nom": "PLESSIS ROBINSON FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC513925.jpg",
+          "clNo": "4352",
+          "slug": "513925-plessis-robinson-fc"
+        },
+        "CHAVILLE FC": {
+          "nom": "CHAVILLE FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC549265.jpg",
+          "clNo": "26034",
+          "slug": "549265-chaville-fc"
+        },
+        "FC BLR": {
+          "nom": "FC BLR",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC509795.jpg",
+          "clNo": "3513",
+          "slug": "509795-fc-blr"
         }
       },
       "stades": {
@@ -31,11 +67,47 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['12 RUE DE SEVRES', '92410 VILLE D AVRAY']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "12 RUE DE SEVRES | 92410 VILLE D AVRAY",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE JEAN WAGNER_['25 ROUTE DU PAVE DES GARDES', '92310 SEVRES']": {
+          "nom": "STADE JEAN WAGNER",
+          "adresse": "25 ROUTE DU PAVE DES GARDES | 92310 SEVRES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE JEAN JAURÈS_['2 RUE JEAN JAURES', '92370 CHAVILLE']": {
+          "nom": "STADE JEAN JAURÈS",
+          "adresse": "2 RUE JEAN JAURES | 92370 CHAVILLE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
         "Anonyme_AC": {
           "nom": "Anonyme",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "YOUNESS HAMASSI_AC": {
+          "nom": "YOUNESS HAMASSI",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "MAMOUDOU MANGANE_AC": {
+          "nom": "MAMOUDOU MANGANE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ELEA DIMIER NICAUD_AC": {
+          "nom": "ELEA DIMIER NICAUD",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -70,6 +142,26 @@
           "nom": "MAIA S.",
           "maillot": 13,
           "club": "CSM CLAMART FOOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp6mywlnbA": {
+          "nom": "CHARLOTTE C.",
+          "maillot": 5,
+          "club": "VILLE D'AVRAY US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp_kSojlrA": {
+          "nom": "CAPUCINE M.",
+          "maillot": 12,
+          "club": "VILLE D'AVRAY US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt7kCglnbI": {
+          "nom": "KOURA K.",
+          "maillot": 11,
+          "club": "PLESSIS ROBINSON FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt3lygkmbI": {
+          "nom": "VALENTINA L.",
+          "maillot": 14,
+          "club": "PLESSIS ROBINSON FC"
         }
       },
       "matchs": [
@@ -79,10 +171,23 @@
           "heure": "13:30",
           "recevant": "VILLE D'AVRAY US",
           "visiteur": "BOULOGNE BIL. AC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp6mywlnbA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp_kSojlrA",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL_['12 RUE DE SEVRES', '92410 VILLE D AVRAY']",
+          "officiels": [
+            "YOUNESS HAMASSI_AC"
+          ]
         },
         {
           "id": 55870301,
@@ -128,10 +233,30 @@
           "heure": "15:30",
           "recevant": "SEVRES F.C. 92",
           "visiteur": "PLESSIS ROBINSON FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 17,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7kCglnbI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3lygkmbI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 28,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7kCglnbI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3lygkmbI",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE JEAN WAGNER_['25 ROUTE DU PAVE DES GARDES', '92310 SEVRES']",
+          "officiels": [
+            "MAMOUDOU MANGANE_AC"
+          ]
         },
         {
           "id": 55870300,
@@ -139,10 +264,14 @@
           "heure": "17:30",
           "recevant": "CHAVILLE FC",
           "visiteur": "FC BLR",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JEAN JAURÈS_['2 RUE JEAN JAURES', '92370 CHAVILLE']",
+          "officiels": [
+            "ELEA DIMIER NICAUD_AC"
+          ]
         },
         {
           "id": 55870296,
@@ -513,6 +642,30 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC551497.jpg",
           "clNo": "113551",
           "slug": "551497-courbevoie-sports"
+        },
+        "GARENNE COLOMBES AF": {
+          "nom": "GARENNE COLOMBES AF",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500009.jpg",
+          "clNo": "161",
+          "slug": "500009-garenne-colombes-af"
+        },
+        "NANTERRE AJSC": {
+          "nom": "NANTERRE AJSC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC542423.jpg",
+          "clNo": "21967",
+          "slug": "542423-nanterre-ajsc"
+        },
+        "ASNIERES FC": {
+          "nom": "ASNIERES FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500038.jpg",
+          "clNo": "185",
+          "slug": "500038-asnieres-fc"
+        },
+        "RACING CLUB FRANCE": {
+          "nom": "RACING CLUB FRANCE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC539013.jpg",
+          "clNo": "19429",
+          "slug": "539013-racing-club-france"
         }
       },
       "stades": {
@@ -522,11 +675,35 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE MARCEL PAYEN_['132 AVENUE FRANCOIS ARAGO', '92000 NANTERRE']": {
+          "nom": "STADE MARCEL PAYEN",
+          "adresse": "132 AVENUE FRANCOIS ARAGO | 92000 NANTERRE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DOMINIQUE ROCHETEAU_['12 RUE LOUIS ARMAND', 'ANCIEN PAUL NICOLAS', '92600 ASNIERES SUR SEINE']": {
+          "nom": "STADE DOMINIQUE ROCHETEAU",
+          "adresse": "12 RUE LOUIS ARMAND | ANCIEN PAUL NICOLAS | 92600 ASNIERES SUR SEINE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
         "ANDRIAN MITREANU_AC": {
           "nom": "ANDRIAN MITREANU",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "YACINE ISKER_AC": {
+          "nom": "YACINE ISKER",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "Anonyme_AC": {
+          "nom": "Anonyme",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -586,6 +763,86 @@
           "nom": "LEHNA G.",
           "maillot": 14,
           "club": "COURBEVOIE SPORTS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt4kiosmrE": {
+          "nom": "RAMATOULAYE S.",
+          "maillot": 4,
+          "club": "NANTERRE AJSC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp7kCskmrE": {
+          "nom": "KENZA B.",
+          "maillot": 12,
+          "club": "NANTERRE AJSC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx9ki8nnL4": {
+          "nom": "CLOE B.",
+          "maillot": 6,
+          "club": "GARENNE COLOMBES AF"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt6lS0il74": {
+          "nom": "JOUDIA E.",
+          "maillot": 13,
+          "club": "GARENNE COLOMBES AF"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd7liskl7Q": {
+          "nom": "LISE M.",
+          "maillot": 4,
+          "club": "GARENNE COLOMBES AF"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt_kyYnmLU": {
+          "nom": "SELMA A.",
+          "maillot": 14,
+          "club": "GARENNE COLOMBES AF"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK12liwhnr4": {
+          "nom": "ZEYNEP E.",
+          "maillot": 9,
+          "club": "GARENNE COLOMBES AF"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp_myoinrQ": {
+          "nom": "VICTORIA D.",
+          "maillot": 12,
+          "club": "GARENNE COLOMBES AF"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp7lisinrc": {
+          "nom": "ASMA A.",
+          "maillot": 7,
+          "club": "RACING CLUB FRANCE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt-mi0nlrE": {
+          "nom": "LYNE A.",
+          "maillot": 12,
+          "club": "RACING CLUB FRANCE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6my4kmbU": {
+          "nom": "SELMA O.",
+          "maillot": 6,
+          "club": "ASNIERES FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt3lywjnLQ": {
+          "nom": "ZARA B.",
+          "maillot": 12,
+          "club": "ASNIERES FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK12liwglr4": {
+          "nom": "HIBA E.",
+          "maillot": 4,
+          "club": "ASNIERES FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp9kC8mnbU": {
+          "nom": "SIRINE C.",
+          "maillot": 13,
+          "club": "ASNIERES FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt-lC4mn7Q": {
+          "nom": "IYANAH F.",
+          "maillot": 11,
+          "club": "ASNIERES FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp7kyYimb4": {
+          "nom": "MYRIAM B.",
+          "maillot": 14,
+          "club": "ASNIERES FC"
         }
       },
       "matchs": [
@@ -654,10 +911,44 @@
           "heure": "15:00",
           "recevant": "GARENNE COLOMBES AF",
           "visiteur": "NANTERRE AJSC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 10,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 11,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt4kiosmrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp7kCskmrE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx9ki8nnL4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt6lS0il74",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7liskl7Q",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt_kyYnmLU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12liwhnr4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp_myoinrQ",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MARCEL PAYEN_['132 AVENUE FRANCOIS ARAGO', '92000 NANTERRE']",
+          "officiels": [
+            "YACINE ISKER_AC"
+          ]
         },
         {
           "id": 55870346,
@@ -665,10 +956,44 @@
           "heure": "15:00",
           "recevant": "ASNIERES FC",
           "visiteur": "RACING CLUB FRANCE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 11,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 22,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp7lisinrc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-mi0nlrE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6my4kmbU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3lywjnLQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 38,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12liwglr4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9kC8mnbU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 50,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-lC4mn7Q",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp7kyYimb4",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE DOMINIQUE ROCHETEAU_['12 RUE LOUIS ARMAND', 'ANCIEN PAUL NICOLAS', '92600 ASNIERES SUR SEINE']",
+          "officiels": [
+            "Anonyme_AC"
+          ]
         },
         {
           "id": 55870340,

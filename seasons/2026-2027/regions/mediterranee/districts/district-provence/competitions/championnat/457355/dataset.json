@@ -46,6 +46,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503176.jpg",
           "clNo": "1692",
           "slug": "503176-a-s-rognac"
+        },
+        "AVS AYGALADES CAS": {
+          "nom": "AVS AYGALADES CAS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC521264.jpg",
+          "clNo": "7467",
+          "slug": "521264-avs-aygalades-cas"
+        },
+        "OPEN 3": {
+          "nom": "OPEN 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC566129.jpg",
+          "clNo": "206748",
+          "slug": "566129-open-3"
         }
       },
       "stades": {
@@ -68,6 +80,13 @@
           "adresse": "113 BOULEVARD ROMAIN ROLLAND | 13010 MARSEILLE",
           "surface": "PVC",
           "surface_jeu": "PVC",
+          "type_installation": "Futsal"
+        },
+        "GYMNASE BUSSERINE_['BOULEVARD JOURDAN PROLONGE', '13014 MARSEILLE']": {
+          "nom": "GYMNASE BUSSERINE",
+          "adresse": "BOULEVARD JOURDAN PROLONGE | 13014 MARSEILLE",
+          "surface": "Lino",
+          "surface_jeu": "Lino",
           "type_installation": "Futsal"
         }
       },
@@ -94,6 +113,16 @@
         },
         "ILIAN SASSI_A1": {
           "nom": "ILIAN SASSI",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
+        },
+        "ALAIN AMO_AC": {
+          "nom": "ALAIN AMO",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "JONATHAN PORTAL_A1": {
+          "nom": "JONATHAN PORTAL",
           "role": "Arbitre assistant 1",
           "role_cod": "A1"
         }
@@ -348,10 +377,15 @@
           "heure": "10:00",
           "recevant": "AVS AYGALADES CAS",
           "visiteur": "OPEN 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "GYMNASE BUSSERINE_['BOULEVARD JOURDAN PROLONGE', '13014 MARSEILLE']",
+          "officiels": [
+            "ALAIN AMO_AC",
+            "JONATHAN PORTAL_A1"
+          ]
         },
         {
           "id": 79381033,

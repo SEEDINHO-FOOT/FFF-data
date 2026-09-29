@@ -202,6 +202,11 @@
           "nom": "HAYDEN HENRIETTE",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "ALEXANDRE HENRIETTE_AC": {
+          "nom": "ALEXANDRE HENRIETTE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -564,6 +569,26 @@
           "nom": "QUENTIN C.",
           "maillot": 7,
           "club": "CHAMPAGNOLE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6mikmmbE": {
+          "nom": "AHMED T.",
+          "maillot": 5,
+          "club": "RAVILLOLES CROZETS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK12kCgnn7E": {
+          "nom": "GHALI F.",
+          "maillot": 12,
+          "club": "RAVILLOLES CROZETS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19lC4lnbA": {
+          "nom": "ALONSO D.",
+          "maillot": 14,
+          "club": "JURA DOLOIS FOOTBALL"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd6kykllrU": {
+          "nom": "MARWAN M.",
+          "maillot": 9,
+          "club": "JURA DOLOIS FOOTBALL"
         }
       },
       "matchs": [
@@ -1133,14 +1158,13 @@
           ],
           "stade_id": "STADE MUNICIPAL 2_['RUE DU STADE', 'ANNEXE 1 (À 11)', '39210 DOMBLANS']",
           "officiels": [
-            "FAYSSEL HAMDAOUI_AC",
-            "ALEXANDRE HENRIETTE_CP"
+            "ALEXANDRE HENRIETTE_AC"
           ]
         },
         {
           "id": 79157194,
-          "date": "2026-09-26",
-          "heure": "14:30",
+          "date": "2026-09-30",
+          "heure": "18:00",
           "recevant": "GJ COEUR DU JURA",
           "visiteur": "MONT/S/VAUD/PLEURE",
           "buts_recevant": null,
@@ -1154,10 +1178,11 @@
           "heure": "14:30",
           "recevant": "FOUCHERANS",
           "visiteur": "LONS RC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ROGER GUEY 1_['RUE DU STADE', '39100 FOUCHERANS']"
         },
         {
           "id": 79162097,
@@ -1214,6 +1239,36 @@
           "buts_visiteur": 0,
           "joue": true,
           "statut": "joué",
+          "moments": [
+            {
+              "minute": 27,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6mikmmbE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK12kCgnn7E",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 33,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-lyYmnr4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK19lC4lnbA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 36,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7lS4jlrM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK17ly4tn74",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 36,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6kykllrU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7lS8jnLU",
+              "club_type": "recevant"
+            }
+          ],
           "stade_id": "STADE PAUL MARTIN 1_['AVENUE CARDINAL MERCIER', '39500 TAVAUX']",
           "officiels": [
             "HAYDEN HENRIETTE_AC"

@@ -196,6 +196,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500140.jpg",
           "clNo": "274",
           "slug": "500140-as-valognes-f-2"
+        },
+        "ENT USCI - RSSV": {
+          "nom": "ENT USCI - RSSV",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC548912.jpg",
+          "clNo": "25831",
+          "slug": "548912-ent-usci-rssv"
         }
       },
       "stades": {
@@ -363,6 +369,20 @@
         "STADE GEORGES PILLET 2_['LE BOURGNEUF', 'ALLEE DU STADE', 'ANNEXE 2', '50700 VALOGNES']": {
           "nom": "STADE GEORGES PILLET 2",
           "adresse": "LE BOURGNEUF | ALLEE DU STADE | ANNEXE 2 | 50700 VALOGNES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MARCEL LAMONTAGNE 2_[\"6 RUE DE L'HIPPODROME\", '50430 LESSAY']": {
+          "nom": "STADE MARCEL LAMONTAGNE 2",
+          "adresse": "6 RUE DE L'HIPPODROME | 50430 LESSAY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MARTIAL WATRIN 1_['AVENUE DE LYDNEY', '50290 BREHAL']": {
+          "nom": "STADE MARTIAL WATRIN 1",
+          "adresse": "AVENUE DE LYDNEY | 50290 BREHAL",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -1380,6 +1400,31 @@
           "nom": "ELIE M.",
           "maillot": 14,
           "club": "AS VALOGNES F. 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt4kiYin7A": {
+          "nom": "HUGO R.",
+          "maillot": 7,
+          "club": "ES DE L'AY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16ki8im7I": {
+          "nom": "SOAN L.",
+          "maillot": 12,
+          "club": "ES DE L'AY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt-kionmr8": {
+          "nom": "RAILEY D.",
+          "maillot": 9,
+          "club": "AS DE CHERBOURG F. 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd7my4tlrA": {
+          "nom": "SAM G.",
+          "maillot": 4,
+          "club": "AS DE CHERBOURG F. 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15kSsnn7Q": {
+          "nom": "NOHAM S.",
+          "maillot": 14,
+          "club": "AS DE CHERBOURG F. 2"
         }
       },
       "matchs": [
@@ -2213,10 +2258,51 @@
           "heure": "15:00",
           "recevant": "ES DE L'AY",
           "visiteur": "AS DE CHERBOURG F. 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt4kiYin7A",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK16ki8im7I",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3kywjnLI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7kSsmmrY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-kionmr8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK15kCYgnLA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 33,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12ky4im7E",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6kCYklr8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 37,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7my4tlrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK15kSsnn7Q",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MARCEL LAMONTAGNE 2_[\"6 RUE DE L'HIPPODROME\", '50430 LESSAY']",
+          "officiels": [
+            "STANISLAS POCZATEK_AC"
+          ]
         },
         {
           "id": 79665013,
@@ -2342,11 +2428,12 @@
           "date": "2026-09-26",
           "heure": "15:00",
           "recevant": "LA BREHALAISE",
-          "visiteur": "ENT. USCI - RSSV",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "visiteur": "ENT USCI - RSSV",
+          "buts_recevant": 9,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MARTIAL WATRIN 1_['AVENUE DE LYDNEY', '50290 BREHAL']"
         },
         {
           "id": 79665016,
@@ -2663,6 +2750,17 @@
           "joue": true,
           "statut": "joué",
           "stade_id": "Complexe Sportif De La Charrière 1_['URVILLE NACQUEVILLE', ' CHEMIN DE LA CHARRIERE', '50440 LA HAGUE']"
+        },
+        {
+          "id": 79739201,
+          "date": "2026-09-30",
+          "heure": "15:45",
+          "recevant": "FC B2S",
+          "visiteur": "AS VALOGNES F. 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
         }
       ]
     },
@@ -3087,6 +3185,13 @@
         "STADE ROBERT LELIÈVRE 2_['BOULEVARD DE LA MER', '50710 CREANCES']": {
           "nom": "STADE ROBERT LELIÈVRE 2",
           "adresse": "BOULEVARD DE LA MER | 50710 CREANCES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['AVENUE DE LA TANGUIERE', '50610 JULLOUVILLE']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "AVENUE DE LA TANGUIERE | 50610 JULLOUVILLE",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -3859,6 +3964,36 @@
           "nom": "MATHIS B.",
           "maillot": 12,
           "club": "ENT.SHVL USPTB 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx4kykknLQ": {
+          "nom": "GABIN B.",
+          "maillot": 10,
+          "club": "AS JULLOUVILLE SART"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp5myoimb4": {
+          "nom": "NATHANAEL H.",
+          "maillot": 13,
+          "club": "AS JULLOUVILLE SART"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp7lS4in7U": {
+          "nom": "ANGE Y.",
+          "maillot": 9,
+          "club": "AS JULLOUVILLE SART"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17kCcgn7Y": {
+          "nom": "NOA F.",
+          "maillot": 12,
+          "club": "AS JULLOUVILLE SART"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt7lS0tmrM": {
+          "nom": "ENZO H.",
+          "maillot": 13,
+          "club": "SM HAYTILLON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19kSctl7A": {
+          "nom": "MARIUS M.",
+          "maillot": 9,
+          "club": "SM HAYTILLON"
         }
       },
       "matchs": [
@@ -4720,10 +4855,48 @@
           "heure": "15:00",
           "recevant": "AS JULLOUVILLE SART",
           "visiteur": "SM HAYTILLON",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 9,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4kykknLQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5myoimb4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp7lS4in7U",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK17kCcgn7Y",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7lC0tn74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7lS0tmrM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6kiosnLA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK16myoml7M",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 50,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK19kSctl7A",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5lSotnrY",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL_['AVENUE DE LA TANGUIERE', '50610 JULLOUVILLE']"
         },
         {
           "id": 79665103,

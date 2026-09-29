@@ -22,6 +22,30 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC504978.jpg",
           "clNo": "2472",
           "slug": "504978-sancoins-es"
+        },
+        "ENT. US DUN/USPG": {
+          "nom": "ENT. US DUN/USPG",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC504867.jpg",
+          "clNo": "2406",
+          "slug": "504867-ent-us-dun-uspg"
+        },
+        "C.2.L FOOT": {
+          "nom": "C.2.L FOOT",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC504892.jpg",
+          "clNo": "2422",
+          "slug": "504892-c-2-l-foot"
+        },
+        "E.B.S.V": {
+          "nom": "E.B.S.V",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC581320.jpg",
+          "clNo": "183455",
+          "slug": "581320-e-b-s-v"
+        },
+        "LURY MÉREAU USA": {
+          "nom": "LURY MÉREAU USA",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC529034.jpg",
+          "clNo": "12576",
+          "slug": "529034-lury-mEreau-usa"
         }
       },
       "stades": {
@@ -31,10 +55,85 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 1_['RUE DE LA PAILLE', '18340 PLAIMPIED GIVAUDINS']": {
+          "nom": "STADE MUNICIPAL 1",
+          "adresse": "RUE DE LA PAILLE | 18340 PLAIMPIED GIVAUDINS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE JEAN MOULIN_[' CHEMIN DU PRE DU CHATEAU', '18120 MEREAU']": {
+          "nom": "STADE JEAN MOULIN",
+          "adresse": " CHEMIN DU PRE DU CHATEAU | 18120 MEREAU",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFKx9kCYsmrY": {
+          "nom": "VALENTINE G.",
+          "maillot": 3,
+          "club": "E.B.S.V"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp7kisjmLU": {
+          "nom": "MARCELIN L.",
+          "maillot": 12,
+          "club": "E.B.S.V"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd6kSstnLY": {
+          "nom": "KEVAN L.",
+          "maillot": 7,
+          "club": "LURY MÉREAU USA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17liogmbU": {
+          "nom": "ALONZO M.",
+          "maillot": 9,
+          "club": "LURY MÉREAU USA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd6kycnm7c": {
+          "nom": "MATHIS J.",
+          "maillot": 10,
+          "club": "LURY MÉREAU USA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6ky4jm7U": {
+          "nom": "MATHIS F.",
+          "maillot": 12,
+          "club": "LURY MÉREAU USA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp_lS0kl78": {
+          "nom": "MAXAN C.",
+          "maillot": 9,
+          "club": "TROUY ES 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx7lysknrY": {
+          "nom": "LUCAS M.",
+          "maillot": 12,
+          "club": "TROUY ES 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp6kCwjm7c": {
+          "nom": "TOMMY R.",
+          "maillot": 8,
+          "club": "LURY MÉREAU USA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17lS8lnL4": {
+          "nom": "ILAN P.",
+          "maillot": 13,
+          "club": "LURY MÉREAU USA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp4mioinbA": {
+          "nom": "ARSENE P.",
+          "maillot": 11,
+          "club": "LURY MÉREAU USA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx3lCYtmbU": {
+          "nom": "NATHAN B.",
+          "maillot": 14,
+          "club": "LURY MÉREAU USA"
+        }
+      },
       "matchs": [
         {
           "id": 79578865,
@@ -87,10 +186,11 @@
           "heure": "14:30",
           "recevant": "ENT. US DUN/USPG",
           "visiteur": "C.2.L FOOT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['RUE DE LA PAILLE', '18340 PLAIMPIED GIVAUDINS']"
         },
         {
           "id": 79578871,
@@ -98,10 +198,71 @@
           "heure": "16:00",
           "recevant": "LURY MÉREAU USA",
           "visiteur": "TROUY ES 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 7,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6kSstnLY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 10,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK17liogmbU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 11,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6kycnm7c",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK17liogmbU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6ky4jm7U",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 29,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp_lS0kl78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7lysknrY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 32,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp6kCwjm7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK17lS8lnL4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4mioinbA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3lCYtmbU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 71,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK17lS8lnL4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 78,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6kSstnLY",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE JEAN MOULIN_[' CHEMIN DU PRE DU CHATEAU', '18120 MEREAU']"
         },
         {
           "id": 79578872,
@@ -109,10 +270,19 @@
           "heure": "14:30",
           "recevant": "SANCOINS ES",
           "visiteur": "E.B.S.V",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 33,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx9kCYsmrY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp7kisjmLU",
+              "club_type": "visiteur"
+            }
+          ]
         },
         {
           "id": 79578873,
