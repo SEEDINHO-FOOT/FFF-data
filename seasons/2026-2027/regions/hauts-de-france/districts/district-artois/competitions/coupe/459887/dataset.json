@@ -10,8 +10,29 @@
     {
       "cp_slug": "459887-coupe-artois-u17/phase/1/1",
       "competition": "Coupe Artois U17",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "ROUVROY US": {
+          "nom": "ROUVROY US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500487.jpg",
+          "clNo": "557",
+          "slug": "500487-rouvroy-us"
+        },
+        "HOUDAIN US": {
+          "nom": "HOUDAIN US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC521810.jpg",
+          "clNo": "7817",
+          "slug": "521810-houdain-us"
+        }
+      },
+      "stades": {
+        "STADE CONSTANT DUQUENOY 2_['171 RUE DU GENERAL DE GAULLE', 'TERRAIN ANNEXE', '62320 ROUVROY']": {
+          "nom": "STADE CONSTANT DUQUENOY 2",
+          "adresse": "171 RUE DU GENERAL DE GAULLE | TERRAIN ANNEXE | 62320 ROUVROY",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -120,17 +141,18 @@
           "heure": "16:00",
           "recevant": "ROUVROY US",
           "visiteur": "HOUDAIN US",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE CONSTANT DUQUENOY 2_['171 RUE DU GENERAL DE GAULLE', 'TERRAIN ANNEXE', '62320 ROUVROY']"
         },
         {
           "id": 79739046,
           "date": "2026-10-03",
-          "heure": "16:00",
-          "recevant": "HERSIN FC 4",
-          "visiteur": "STE CATHERINE ES",
+          "heure": "14:00",
+          "recevant": "STE CATHERINE ES",
+          "visiteur": "HERSIN FC 4",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
@@ -194,7 +216,7 @@
         {
           "id": 79739053,
           "date": "2026-10-03",
-          "heure": "17:00",
+          "heure": "18:30",
           "recevant": "LIEVIN O.",
           "visiteur": "ST LAURENT FEUCHY ES",
           "buts_recevant": null,

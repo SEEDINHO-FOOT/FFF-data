@@ -3101,6 +3101,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC505890.jpg",
           "clNo": "2674",
           "slug": "505890-t-o-a-c-2"
+        },
+        "GIROU OFC 3": {
+          "nom": "GIROU OFC 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC551412.jpg",
+          "clNo": "113175",
+          "slug": "551412-girou-ofc-3"
+        },
+        "ESCALQUENS FC": {
+          "nom": "ESCALQUENS FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC550350.jpg",
+          "clNo": "101544",
+          "slug": "550350-escalquens-fc"
         }
       },
       "stades": {
@@ -3114,6 +3126,13 @@
         "STADE MUNICIPAL 1_['RUE DU STADE', '31490 BRAX']": {
           "nom": "STADE MUNICIPAL 1",
           "adresse": "RUE DU STADE | 31490 BRAX",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL N°1_['ROUTE DE VERFEIL', '31140 MONTBERON']": {
+          "nom": "STADE MUNICIPAL N°1",
+          "adresse": "ROUTE DE VERFEIL | 31140 MONTBERON",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -3137,6 +3156,16 @@
         },
         "ANDRE REALLAND_CP": {
           "nom": "ANDRE REALLAND",
+          "role": "Observateur principal",
+          "role_cod": "CP"
+        },
+        "MOHAMED FAROUQ_AC": {
+          "nom": "MOHAMED FAROUQ",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ZAKARIA MANA_CP": {
+          "nom": "ZAKARIA MANA",
           "role": "Observateur principal",
           "role_cod": "CP"
         }
@@ -3478,10 +3507,15 @@
           "heure": "15:00",
           "recevant": "GIROU OFC 3",
           "visiteur": "ESCALQUENS FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL N°1_['ROUTE DE VERFEIL', '31140 MONTBERON']",
+          "officiels": [
+            "MOHAMED FAROUQ_AC",
+            "ZAKARIA MANA_CP"
+          ]
         },
         {
           "id": 56336026,

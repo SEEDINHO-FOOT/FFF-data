@@ -875,6 +875,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC512279.jpg",
           "clNo": "3982",
           "slug": "512279-monnaie-us-4"
+        },
+        "TOURS OLYMPIC CLUB 2": {
+          "nom": "TOURS OLYMPIC CLUB 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC547480.jpg",
+          "clNo": "24790",
+          "slug": "547480-tours-olympic-club-2"
+        },
+        "HERMITES(LES)": {
+          "nom": "HERMITES(LES)",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC520956.jpg",
+          "clNo": "7246",
+          "slug": "520956-hermites-les"
         }
       },
       "stades": {
@@ -883,6 +895,13 @@
           "adresse": "LE BOURG | 37340 SAVIGNE SUR LATHAN",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE DES TOURETTES 2_['5 RUE BENJAMIN FRANKLIN', '37100 TOURS']": {
+          "nom": "STADE DES TOURETTES 2",
+          "adresse": "5 RUE BENJAMIN FRANKLIN | 37100 TOURS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
         }
       },
@@ -972,10 +991,11 @@
           "heure": "12:00",
           "recevant": "TOURS OLYMPIC CLUB 2",
           "visiteur": "HERMITES(LES)",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES TOURETTES 2_['5 RUE BENJAMIN FRANKLIN', '37100 TOURS']"
         },
         {
           "id": 79636556,
@@ -2434,6 +2454,11 @@
           "nom": "MOUNIR LAKEHAL",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "Anonyme_AC": {
+          "nom": "Anonyme",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -2581,7 +2606,7 @@
           ],
           "stade_id": "STADE MARC DESACHÉ 1_['31 Route de Chinon', '37800 STE MAURE DE TOURAINE']",
           "officiels": [
-            "MOUNIR LAKEHAL_AC"
+            "Anonyme_AC"
           ]
         },
         {

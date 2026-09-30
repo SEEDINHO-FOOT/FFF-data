@@ -22,6 +22,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500116.jpg",
           "clNo": "252",
           "slug": "500116-a-c-arles-2"
+        },
+        "JEUNESSE GRIFFEUILLE": {
+          "nom": "JEUNESSE GRIFFEUILLE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560157.jpg",
+          "clNo": "194368",
+          "slug": "560157-jeunesse-griffeuille"
         }
       },
       "stades": {
@@ -30,6 +36,13 @@
           "adresse": "11-13 AV. PIERRE GABRIELLI | TERRAIN HONNEUR | 13230 PORT ST LOUIS DU RHONE",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE VAN GOGH_['GRIFFEUILLE', 'CHEMIN LA TOUR DES JONQUETS', '13200 ARLES']": {
+          "nom": "STADE VAN GOGH",
+          "adresse": "GRIFFEUILLE | CHEMIN LA TOUR DES JONQUETS | 13200 ARLES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
         }
       },
@@ -87,10 +100,11 @@
           "heure": "14:00",
           "recevant": "JEUNESSE GRIFFEUILLE",
           "visiteur": "ET.S. PORT ST LOUIS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE VAN GOGH_['GRIFFEUILLE', 'CHEMIN LA TOUR DES JONQUETS', '13200 ARLES']"
         },
         {
           "id": 79585650,
@@ -117,7 +131,7 @@
         {
           "id": 79585652,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "13:30",
           "recevant": "ET. S. ARLESIENNE",
           "visiteur": "JEUNESSE GRIFFEUILLE",
           "buts_recevant": null,
@@ -128,7 +142,7 @@
         {
           "id": 79585653,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "14:00",
           "recevant": "ENT.S SALINS DE GIR",
           "visiteur": "A.C. ARLES 2",
           "buts_recevant": null,
@@ -698,7 +712,7 @@
         {
           "id": 79585742,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "14:00",
           "recevant": "U.S. FARENQUE 2",
           "visiteur": "U.S. PELICAN 2",
           "buts_recevant": null,
@@ -709,7 +723,7 @@
         {
           "id": 79585743,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "14:00",
           "recevant": "A.S. GRANSOISE 3",
           "visiteur": "STE S. DE ST CHAMAS",
           "buts_recevant": null,
@@ -916,6 +930,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE ROLAND CAUCHE_['QUARTIER DE RASSUEN', 'ALLEE ANDRE LLORENS', '13800 ISTRES']": {
+          "nom": "STADE ROLAND CAUCHE",
+          "adresse": "QUARTIER DE RASSUEN | ALLEE ANDRE LLORENS | 13800 ISTRES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -973,10 +994,11 @@
           "heure": "13:30",
           "recevant": "AC ISTRES RASSUEN",
           "visiteur": "ENTRESSEN ES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ROLAND CAUCHE_['QUARTIER DE RASSUEN', 'ALLEE ANDRE LLORENS', '13800 ISTRES']"
         },
         {
           "id": 79585876,
@@ -992,7 +1014,7 @@
         {
           "id": 79585877,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "14:00",
           "recevant": "ENTRESSEN ES",
           "visiteur": "ET.S. FOSSEENNE",
           "buts_recevant": null,
@@ -1003,7 +1025,7 @@
         {
           "id": 79585878,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "14:00",
           "recevant": "C.A. CROIX SAINTE 2",
           "visiteur": "AC ISTRES RASSUEN",
           "buts_recevant": null,
@@ -1014,7 +1036,7 @@
         {
           "id": 79585879,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "14:00",
           "recevant": "FC ST MITRE REMPARTS",
           "visiteur": "A. S. MARTIGUES SUD 2",
           "buts_recevant": null,
@@ -1258,8 +1280,29 @@
     {
       "cp_slug": "457209-u13-niveau-2/phase/1/5",
       "competition": "U13 Niveau 2",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "AC ISTRES RASSUEN 2": {
+          "nom": "AC ISTRES RASSUEN 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC561183.jpg",
+          "clNo": "200812",
+          "slug": "561183-ac-istres-rassuen-2"
+        },
+        "SP. DE PONT DE CRAU": {
+          "nom": "SP. DE PONT DE CRAU",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC541758.jpg",
+          "clNo": "21511",
+          "slug": "541758-sp-de-pont-de-crau"
+        }
+      },
+      "stades": {
+        "STADE ROLAND CAUCHE_['QUARTIER DE RASSUEN', 'ALLEE ANDRE LLORENS', '13800 ISTRES']": {
+          "nom": "STADE ROLAND CAUCHE",
+          "adresse": "QUARTIER DE RASSUEN | ALLEE ANDRE LLORENS | 13800 ISTRES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -1313,10 +1356,11 @@
           "heure": "15:00",
           "recevant": "AC ISTRES RASSUEN 2",
           "visiteur": "SP. DE PONT DE CRAU",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ROLAND CAUCHE_['QUARTIER DE RASSUEN', 'ALLEE ANDRE LLORENS', '13800 ISTRES']"
         },
         {
           "id": 79586086,
@@ -1343,7 +1387,7 @@
         {
           "id": 79586088,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "14:00",
           "recevant": "ET.S. FOSSEENNE 2",
           "visiteur": "AC ISTRES RASSUEN 2",
           "buts_recevant": null,
@@ -1610,12 +1654,44 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC561183.jpg",
           "clNo": "200812",
           "slug": "561183-ac-istres-rassuen-3"
+        },
+        "F.O. VENTABRENNAIS 2": {
+          "nom": "F.O. VENTABRENNAIS 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC548328.jpg",
+          "clNo": "25425",
+          "slug": "548328-f-o-ventabrennais-2"
+        },
+        "A.S. ROGNAC 2": {
+          "nom": "A.S. ROGNAC 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503176.jpg",
+          "clNo": "1692",
+          "slug": "503176-a-s-rognac-2"
+        },
+        "BERRE SP.C. 2": {
+          "nom": "BERRE SP.C. 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC541775.jpg",
+          "clNo": "21527",
+          "slug": "541775-berre-sp-c-2"
         }
       },
       "stades": {
         "PARC DES SPORTS DU GRIFFON_['4 CHEMIN DES GORGES DE CABRIES', '13127 VITROLLES']": {
           "nom": "PARC DES SPORTS DU GRIFFON",
           "adresse": "4 CHEMIN DES GORGES DE CABRIES | 13127 VITROLLES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "COMPLEXE  DU PLATEAU SOULEY_['LE PLATEAU', 'CHEMIN DU CIMETIERE', '13122 VENTABREN']": {
+          "nom": "COMPLEXE  DU PLATEAU SOULEY",
+          "adresse": "LE PLATEAU | CHEMIN DU CIMETIERE | 13122 VENTABREN",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE ROLAND CAUCHE_['QUARTIER DE RASSUEN', 'ALLEE ANDRE LLORENS', '13800 ISTRES']": {
+          "nom": "STADE ROLAND CAUCHE",
+          "adresse": "QUARTIER DE RASSUEN | ALLEE ANDRE LLORENS | 13800 ISTRES",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -1653,10 +1729,11 @@
           "heure": "14:00",
           "recevant": "F.O. VENTABRENNAIS 2",
           "visiteur": "A.S. ROGNAC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 9,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE  DU PLATEAU SOULEY_['LE PLATEAU', 'CHEMIN DU CIMETIERE', '13122 VENTABREN']"
         },
         {
           "id": 79586115,
@@ -1664,15 +1741,16 @@
           "heure": "16:30",
           "recevant": "AC ISTRES RASSUEN 3",
           "visiteur": "BERRE SP.C. 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ROLAND CAUCHE_['QUARTIER DE RASSUEN', 'ALLEE ANDRE LLORENS', '13800 ISTRES']"
         },
         {
           "id": 79586117,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "14:00",
           "recevant": "BERRE SP.C. 2",
           "visiteur": "S.C. VITROLLES 2",
           "buts_recevant": null,
@@ -1862,6 +1940,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC514570.jpg",
           "clNo": "4555",
           "slug": "514570-f-c-rognes"
+        },
+        "F.C. THOLONET 3": {
+          "nom": "F.C. THOLONET 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC550560.jpg",
+          "clNo": "173201",
+          "slug": "550560-f-c-tholonet-3"
+        },
+        "U.S. VENELLOISE 3": {
+          "nom": "U.S. VENELLOISE 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC523121.jpg",
+          "clNo": "8641",
+          "slug": "523121-u-s-venelloise-3"
         }
       },
       "stades": {
@@ -1870,6 +1960,13 @@
           "adresse": "QUARTIER LE LOGIS | Avenue du Stade | 13610 LE PUY STE REPARADE",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['CHEMIN DEPARTEMENTAL 64', '13100 LE THOLONET']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "CHEMIN DEPARTEMENTAL 64 | 13100 LE THOLONET",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
         }
       },
@@ -1916,15 +2013,16 @@
           "heure": "15:00",
           "recevant": "F.C. THOLONET 3",
           "visiteur": "U.S. VENELLOISE 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['CHEMIN DEPARTEMENTAL 64', '13100 LE THOLONET']"
         },
         {
           "id": 79586148,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "14:00",
           "recevant": "O. MALLEMORTAIS",
           "visiteur": "JS PUY STE REPARADE",
           "buts_recevant": null,
@@ -1935,7 +2033,7 @@
         {
           "id": 79586149,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "16:00",
           "recevant": "U.S. VENELLOISE 3",
           "visiteur": "F.C. ROGNES",
           "buts_recevant": null,
@@ -2102,8 +2200,29 @@
     {
       "cp_slug": "457209-u13-niveau-2/phase/1/8",
       "competition": "U13 Niveau 2",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "F.C. CHATEAUNEUF 2": {
+          "nom": "F.C. CHATEAUNEUF 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503154.jpg",
+          "clNo": "1681",
+          "slug": "503154-f-c-chateauneuf-2"
+        },
+        "O. CABRIES CALAS 2": {
+          "nom": "O. CABRIES CALAS 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC524031.jpg",
+          "clNo": "9230",
+          "slug": "524031-o-cabries-calas-2"
+        }
+      },
+      "stades": {
+        "PARC DES SPORTS 1_['AV. DU BOLMON D 568', '13220 CHATEAUNEUF LES MARTIGUES']": {
+          "nom": "PARC DES SPORTS 1",
+          "adresse": "AV. DU BOLMON D 568 | 13220 CHATEAUNEUF LES MARTIGUES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -2135,10 +2254,11 @@
           "heure": "14:00",
           "recevant": "F.C. CHATEAUNEUF 2",
           "visiteur": "O. CABRIES CALAS 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 10,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "PARC DES SPORTS 1_['AV. DU BOLMON D 568', '13220 CHATEAUNEUF LES MARTIGUES']"
         },
         {
           "id": 79586186,
@@ -2154,7 +2274,7 @@
         {
           "id": 79586189,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "16:00",
           "recevant": "O. CABRIES CALAS 2",
           "visiteur": "O. ROVENAIN 3",
           "buts_recevant": null,
@@ -2165,7 +2285,7 @@
         {
           "id": 79586190,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "16:30",
           "recevant": "FC ENSUES REDON",
           "visiteur": "F.C. CHATEAUNEUF 2",
           "buts_recevant": null,
@@ -2356,6 +2476,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC582600.jpg",
           "clNo": "191854",
           "slug": "582600-f-c-de-vernegues"
+        },
+        "AIX UNIVERSITE C.F.": {
+          "nom": "AIX UNIVERSITE C.F.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC513931.jpg",
+          "clNo": "4354",
+          "slug": "513931-aix-universite-c-f"
         }
       },
       "stades": {
@@ -2369,6 +2495,20 @@
         "STADE DE LA MOLIÈRE_['JAS DE BOUFFAN', '4935 ROUTE DE GALICE - D64', '13090 AIX EN PROVENCE']": {
           "nom": "STADE DE LA MOLIÈRE",
           "adresse": "JAS DE BOUFFAN | 4935 ROUTE DE GALICE - D64 | 13090 AIX EN PROVENCE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "COMPLEXE SPORTIF VAL DE L' ARC 1_['CHEMIN DES INFIRMERIES', 'TERRAIN C HONNEUR', '13100 AIX EN PROVENCE']": {
+          "nom": "COMPLEXE SPORTIF VAL DE L' ARC 1",
+          "adresse": "CHEMIN DES INFIRMERIES | TERRAIN C HONNEUR | 13100 AIX EN PROVENCE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['CHEMIN DEPARTEMENTAL 64', '13100 LE THOLONET']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "CHEMIN DEPARTEMENTAL 64 | 13100 LE THOLONET",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -2418,10 +2558,11 @@
           "heure": "14:00",
           "recevant": "AIX UNIVERSITE C.F.",
           "visiteur": "U.S. DE PUYRICARD 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF VAL DE L' ARC 1_['CHEMIN DES INFIRMERIES', 'TERRAIN C HONNEUR', '13100 AIX EN PROVENCE']"
         },
         {
           "id": 79586227,
@@ -2429,10 +2570,11 @@
           "heure": "15:00",
           "recevant": "F.C. THOLONET 2",
           "visiteur": "F.C. DE VERNEGUES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 12,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['CHEMIN DEPARTEMENTAL 64', '13100 LE THOLONET']"
         },
         {
           "id": 79586229,
@@ -2448,7 +2590,7 @@
         {
           "id": 79586230,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "16:00",
           "recevant": "U.S. DE PUYRICARD 2",
           "visiteur": "S.C. AIX EN PROVENCE",
           "buts_recevant": null,
@@ -2459,7 +2601,7 @@
         {
           "id": 79586231,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "13:30",
           "recevant": "F.C. DE VERNEGUES",
           "visiteur": "AIX UNIVERSITE C.F.",
           "buts_recevant": null,
@@ -2470,7 +2612,7 @@
         {
           "id": 79586232,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "14:00",
           "recevant": "F. C. AIXOIS",
           "visiteur": "F.C. THOLONET 2",
           "buts_recevant": null,
@@ -2726,12 +2868,31 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500094.jpg",
           "clNo": "232",
           "slug": "500094-c-a-gombertois-2"
+        },
+        "S.C. D'ALLAUCH 2": {
+          "nom": "S.C. D'ALLAUCH 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC554101.jpg",
+          "clNo": "146361",
+          "slug": "554101-s-c-d-allauch-2"
+        },
+        "GJ FUVEAU GREASQUE 2": {
+          "nom": "GJ FUVEAU GREASQUE 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560560.jpg",
+          "clNo": "197371",
+          "slug": "560560-gj-fuveau-greasque-2"
         }
       },
       "stades": {
         "STADE MONTAURY_['QUARTIER MONTAURY', 'RUE DU BAOU TROUCA', '13320 BOUC BEL AIR']": {
           "nom": "STADE MONTAURY",
           "adresse": "QUARTIER MONTAURY | RUE DU BAOU TROUCA | 13320 BOUC BEL AIR",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE GOMBERT_['21 Rue louis Feuillée', '13013 MARSEILLE']": {
+          "nom": "STADE DE GOMBERT",
+          "adresse": "21 Rue louis Feuillée | 13013 MARSEILLE",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -2780,10 +2941,11 @@
           "heure": "14:00",
           "recevant": "C.A. GOMBERTOIS 2",
           "visiteur": "S.C. D'ALLAUCH 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 13,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE GOMBERT_['21 Rue louis Feuillée', '13013 MARSEILLE']"
         },
         {
           "id": 79586482,
@@ -2791,10 +2953,11 @@
           "heure": "14:00",
           "recevant": "AV. S. BOUC BEL AIR",
           "visiteur": "GJ FUVEAU GREASQUE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 13,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MONTAURY_['QUARTIER MONTAURY', 'RUE DU BAOU TROUCA', '13320 BOUC BEL AIR']"
         },
         {
           "id": 79586480,
@@ -2810,7 +2973,7 @@
         {
           "id": 79586483,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "13:30",
           "recevant": "S.C. D'ALLAUCH 2",
           "visiteur": "AV. S. BOUC BEL AIR",
           "buts_recevant": null,
@@ -2821,7 +2984,7 @@
         {
           "id": 79586484,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "13:30",
           "recevant": "LUYNES S. 3",
           "visiteur": "C.A. GOMBERTOIS 2",
           "buts_recevant": null,
@@ -2832,7 +2995,7 @@
         {
           "id": 79586485,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "14:00",
           "recevant": "GJ FUVEAU GREASQUE 2",
           "visiteur": "ES.BASSIN MIN",
           "buts_recevant": null,
@@ -3223,7 +3386,7 @@
         {
           "id": 79586514,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "14:00",
           "recevant": "A.S. GEMENOSIENNE 4",
           "visiteur": "A.S.C. DE PEYPIN 2",
           "buts_recevant": null,
@@ -3234,7 +3397,7 @@
         {
           "id": 79586515,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "14:00",
           "recevant": "SIMIANE COLLONGUE O.",
           "visiteur": "FC ETOILE HUVEAUNE 2",
           "buts_recevant": null,
@@ -3574,7 +3737,7 @@
         {
           "id": 79586554,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "13:30",
           "recevant": "FC ETOILE HUVEAUNE 3",
           "visiteur": "ET.S. CUGES",
           "buts_recevant": null,
@@ -3585,7 +3748,7 @@
         {
           "id": 79586555,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "15:45",
           "recevant": "CARNOUX F.C. 3",
           "visiteur": "ET.S. DE LA CIOTAT",
           "buts_recevant": null,
@@ -3892,6 +4055,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE ALBERT EYNAUD MORICELLI_['47 AVENUE DE LATTRE DE TASSIGNY', '13009 MARSEILLE']": {
+          "nom": "STADE ALBERT EYNAUD MORICELLI",
+          "adresse": "47 AVENUE DE LATTRE DE TASSIGNY | 13009 MARSEILLE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -3938,10 +4108,11 @@
           "heure": "14:00",
           "recevant": "A.S. MAZARGUES 2",
           "visiteur": "EUGA ARDZIV",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ALBERT EYNAUD MORICELLI_['47 AVENUE DE LATTRE DE TASSIGNY', '13009 MARSEILLE']"
         },
         {
           "id": 79586762,
@@ -3960,10 +4131,11 @@
           "heure": "16:30",
           "recevant": "USPEG MARS 3",
           "visiteur": "FCB LES OLIVES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 11,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE LEDEUC_['282 BOULEVARD MIREILLE LAUZE', '13010 MARSEILLE']"
         },
         {
           "id": 79586764,
@@ -3979,7 +4151,7 @@
         {
           "id": 79586765,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "14:00",
           "recevant": "EUGA ARDZIV",
           "visiteur": "ASC VIVAUX SAUVAGERE",
           "buts_recevant": null,
@@ -3990,7 +4162,7 @@
         {
           "id": 79586766,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "14:00",
           "recevant": "FCB LES OLIVES",
           "visiteur": "A.S. MAZARGUES 2",
           "buts_recevant": null,
@@ -4234,8 +4406,29 @@
     {
       "cp_slug": "457209-u13-niveau-2/phase/1/14",
       "competition": "U13 Niveau 2",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "AS BELLE DE MAI": {
+          "nom": "AS BELLE DE MAI",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC561136.jpg",
+          "clNo": "200757",
+          "slug": "561136-as-belle-de-mai"
+        },
+        "A.S. LA DELORME": {
+          "nom": "A.S. LA DELORME",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC547781.jpg",
+          "clNo": "25048",
+          "slug": "547781-a-s-la-delorme"
+        }
+      },
+      "stades": {
+        "STADE CHARPENTIER_['BOULEVARD FERAUD', '13003 MARSEILLE']": {
+          "nom": "STADE CHARPENTIER",
+          "adresse": "BOULEVARD FERAUD | 13003 MARSEILLE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -4278,15 +4471,16 @@
           "heure": "15:00",
           "recevant": "AS BELLE DE MAI",
           "visiteur": "A.S. LA DELORME",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 13,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE CHARPENTIER_['BOULEVARD FERAUD', '13003 MARSEILLE']"
         },
         {
           "id": 79586824,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "13:30",
           "recevant": "A.S. LA DELORME",
           "visiteur": "A.S. BUSSERINE 2",
           "buts_recevant": null,
@@ -4476,6 +4670,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC520686.jpg",
           "clNo": "7081",
           "slug": "520686-a-s-ste-marguerite"
+        },
+        "M SUD O. ROY D'ESPA 2": {
+          "nom": "M SUD O. ROY D'ESPA 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC540384.jpg",
+          "clNo": "20433",
+          "slug": "540384-m-sud-o-roy-d-espa-2"
         }
       },
       "stades": {
@@ -4530,10 +4730,11 @@
           "heure": "16:00",
           "recevant": "USC ROUVIERE MARS",
           "visiteur": "M SUD O. ROY D'ESPA 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 9,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE HENRI MICHELIER_['MONTREDON', '131 AVENUE MADRAGUE DE MONTREDON', '13008 MARSEILLE']"
         },
         {
           "id": 79586877,
@@ -4728,12 +4929,25 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500381.jpg",
           "clNo": "471",
           "slug": "500381-sc-montre-bonneveine-2"
+        },
+        "S. C. CAYOLLE": {
+          "nom": "S. C. CAYOLLE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC581425.jpg",
+          "clNo": "183729",
+          "slug": "581425-s-c-cayolle"
         }
       },
       "stades": {
         "STADE DE LA POMME_['464 BOULEVARD MIREILLE LAUZE', '13011 MARSEILLE']": {
           "nom": "STADE DE LA POMME",
           "adresse": "464 BOULEVARD MIREILLE LAUZE | 13011 MARSEILLE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE ROGER LEBERT 1_['RUE JULES RIMET', 'TERRAIN (A)', '13008 MARSEILLE']": {
+          "nom": "STADE ROGER LEBERT 1",
+          "adresse": "RUE JULES RIMET | TERRAIN (A) | 13008 MARSEILLE",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -4804,16 +5018,17 @@
           "heure": "15:00",
           "recevant": "S. C. CAYOLLE",
           "visiteur": "SC AUBAGNE AIR BEL 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 15,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ROGER LEBERT 1_['RUE JULES RIMET', 'TERRAIN (A)', '13008 MARSEILLE']"
         },
         {
           "id": 79586937,
           "date": "2026-10-03",
-          "heure": "15:00",
-          "recevant": "SC AUBAGNE AIR BEL",
+          "heure": "14:00",
+          "recevant": "SC AUBAGNE AIR BEL 2",
           "visiteur": "SMUC 3",
           "buts_recevant": null,
           "buts_visiteur": null,
@@ -4823,7 +5038,7 @@
         {
           "id": 79586938,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "13:30",
           "recevant": "S.O. CAILLOLAIS 2",
           "visiteur": "S. C. CAYOLLE",
           "buts_recevant": null,
@@ -5090,6 +5305,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC563534.jpg",
           "clNo": "171992",
           "slug": "563534-marseille-united-fc-2"
+        },
+        "TEAM METEKE LV 22": {
+          "nom": "TEAM METEKE LV 22",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC554311.jpg",
+          "clNo": "151221",
+          "slug": "554311-team-meteke-lv-22"
         }
       },
       "stades": {
@@ -5144,10 +5365,11 @@
           "heure": "16:30",
           "recevant": "NORD OLYMPIQUE 13",
           "visiteur": "TEAM METEKE LV 22",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 20,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GEORGES PHILIBERT_['CITE SNCF SAINT BARTHELEMY', 'ALLEE MARCEL SOULAT', '13014 MARSEILLE']"
         },
         {
           "id": 79587016,
@@ -5163,7 +5385,7 @@
         {
           "id": 79587017,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "16:00",
           "recevant": "TEAM METEKE LV 22",
           "visiteur": "AVS AYGALADES CAS 5",
           "buts_recevant": null,
@@ -5354,6 +5576,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500094.jpg",
           "clNo": "232",
           "slug": "500094-c-a-gombertois-3"
+        },
+        "U.S. DES TRAMWAYS 2": {
+          "nom": "U.S. DES TRAMWAYS 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503381.jpg",
+          "clNo": "1769",
+          "slug": "503381-u-s-des-tramways-2"
         }
       },
       "stades": {
@@ -5367,6 +5595,13 @@
         "STADE GEORGES PHILIBERT_['CITE SNCF SAINT BARTHELEMY', 'ALLEE MARCEL SOULAT', '13014 MARSEILLE']": {
           "nom": "STADE GEORGES PHILIBERT",
           "adresse": "CITE SNCF SAINT BARTHELEMY | ALLEE MARCEL SOULAT | 13014 MARSEILLE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE GOMBERT_['21 Rue louis Feuillée', '13013 MARSEILLE']": {
+          "nom": "STADE DE GOMBERT",
+          "adresse": "21 Rue louis Feuillée | 13013 MARSEILLE",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -5427,10 +5662,11 @@
           "heure": "15:00",
           "recevant": "US ST BARTHELEMY",
           "visiteur": "U.S. DES TRAMWAYS 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 12,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GEORGES PHILIBERT_['CITE SNCF SAINT BARTHELEMY', 'ALLEE MARCEL SOULAT', '13014 MARSEILLE']"
         },
         {
           "id": 79587043,
@@ -5438,15 +5674,16 @@
           "heure": "16:00",
           "recevant": "C.A. GOMBERTOIS 3",
           "visiteur": "LE PARC FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 9,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE GOMBERT_['21 Rue louis Feuillée', '13013 MARSEILLE']"
         },
         {
           "id": 79587045,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "17:00",
           "recevant": "LE PARC FC",
           "visiteur": "US ST BARTHELEMY",
           "buts_recevant": null,
@@ -5468,7 +5705,7 @@
         {
           "id": 79587047,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "13:30",
           "recevant": "U.S. DES TRAMWAYS 2",
           "visiteur": "AVS AYGALADES CAS",
           "buts_recevant": null,
@@ -5840,15 +6077,16 @@
           "heure": "15:00",
           "recevant": "US ST BARTHELEMY 2",
           "visiteur": "SP CLUB KARTALA",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GEORGES PHILIBERT_['CITE SNCF SAINT BARTHELEMY', 'ALLEE MARCEL SOULAT', '13014 MARSEILLE']"
         },
         {
           "id": 79587105,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "17:00",
           "recevant": "LE PARC FC 2",
           "visiteur": "US ST BARTHELEMY 2",
           "buts_recevant": null,
@@ -5870,7 +6108,7 @@
         {
           "id": 79587107,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "13:30",
           "recevant": "SP CLUB KARTALA",
           "visiteur": "FCL MALPASSE 3",
           "buts_recevant": null,

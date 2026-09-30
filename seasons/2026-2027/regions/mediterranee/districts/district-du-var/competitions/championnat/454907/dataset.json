@@ -34,6 +34,30 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC866273.jpg",
           "clNo": "207188",
           "slug": "866273-football-club-54"
+        },
+        "ET. CLARET MONTETY": {
+          "nom": "ET. CLARET MONTETY",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC536133.jpg",
+          "clNo": "17403",
+          "slug": "536133-et-claret-montety"
+        },
+        "O.SIX FOURS LE BRUSC": {
+          "nom": "O.SIX FOURS LE BRUSC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC566142.jpg",
+          "clNo": "206788",
+          "slug": "566142-o-six-fours-le-brusc"
+        },
+        "SP.C. DE LA RESERVE": {
+          "nom": "SP.C. DE LA RESERVE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC844509.jpg",
+          "clNo": "34915",
+          "slug": "844509-sp-c-de-la-reserve"
+        },
+        "ST.O. LONDAIS": {
+          "nom": "ST.O. LONDAIS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503092.jpg",
+          "clNo": "1654",
+          "slug": "503092-st-o-londais"
         }
       },
       "stades": {
@@ -50,11 +74,30 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE DES LICES_['BOULEVARD LOUVOIS', '83000 TOULON']": {
+          "nom": "STADE DES LICES",
+          "adresse": "BOULEVARD LOUVOIS | 83000 TOULON",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE LA FERME DES ROMARINS_['QUARTIER VALBERTRAND', 'RUE DAVID', 'TERRAIN FOOT/RUGBY', '83000 TOULON']": {
+          "nom": "STADE DE LA FERME DES ROMARINS",
+          "adresse": "QUARTIER VALBERTRAND | RUE DAVID | TERRAIN FOOT/RUGBY | 83000 TOULON",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
         "Anonyme_AC": {
           "nom": "Anonyme",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "HASEN JERIDI_AC": {
+          "nom": "HASEN JERIDI",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -1001,10 +1044,14 @@
           "heure": "20:00",
           "recevant": "ET. CLARET MONTETY",
           "visiteur": "O.SIX FOURS LE BRUSC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES LICES_['BOULEVARD LOUVOIS', '83000 TOULON']",
+          "officiels": [
+            "HASEN JERIDI_AC"
+          ]
         },
         {
           "id": 79662862,
@@ -1012,10 +1059,14 @@
           "heure": "20:00",
           "recevant": "SP.C. DE LA RESERVE",
           "visiteur": "ST.O. LONDAIS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 9,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA FERME DES ROMARINS_['QUARTIER VALBERTRAND', 'RUE DAVID', 'TERRAIN FOOT/RUGBY', '83000 TOULON']",
+          "officiels": [
+            "Anonyme_AC"
+          ]
         },
         {
           "id": 79662863,

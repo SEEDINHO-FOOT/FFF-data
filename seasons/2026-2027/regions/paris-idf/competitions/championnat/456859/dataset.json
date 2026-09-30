@@ -34,6 +34,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC550647.jpg",
           "clNo": "105553",
           "slug": "550647-bagneux-futsal-as"
+        },
+        "MYA FUTSAL": {
+          "nom": "MYA FUTSAL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC552106.jpg",
+          "clNo": "117080",
+          "slug": "552106-mya-futsal"
+        },
+        "ISSY FC": {
+          "nom": "ISSY FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500706.jpg",
+          "clNo": "673",
+          "slug": "500706-issy-fc"
         }
       },
       "stades": {
@@ -50,11 +62,23 @@
           "surface": "Lino",
           "surface_jeu": "Lino",
           "type_installation": "Futsal"
+        },
+        "SALLE DU PALAIS DES SPORTS_['90 RUE FERAY', '91100 CORBEIL ESSONNES']": {
+          "nom": "SALLE DU PALAIS DES SPORTS",
+          "adresse": "90 RUE FERAY | 91100 CORBEIL ESSONNES",
+          "surface": "Parquet",
+          "surface_jeu": "Parquet",
+          "type_installation": "Futsal"
         }
       },
       "officiels": {
         "SOUFIANE ABDOU_AC": {
           "nom": "SOUFIANE ABDOU",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "STEVEN DE BOISROLIN_AC": {
+          "nom": "STEVEN DE BOISROLIN",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -79,10 +103,14 @@
           "heure": "17:30",
           "recevant": "MYA FUTSAL",
           "visiteur": "ISSY FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 10,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "SALLE DU PALAIS DES SPORTS_['90 RUE FERAY', '91100 CORBEIL ESSONNES']",
+          "officiels": [
+            "STEVEN DE BOISROLIN_AC"
+          ]
         },
         {
           "id": 79583869,
@@ -124,7 +152,7 @@
         {
           "id": 79583867,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "14:25",
           "recevant": "BVE FUTSAL 2",
           "visiteur": "ESPERANCE 94",
           "buts_recevant": null,
@@ -1457,7 +1485,7 @@
         {
           "id": 79584209,
           "date": "2026-10-03",
-          "heure": "12:30",
+          "heure": "16:30",
           "recevant": "VITRY ASC",
           "visiteur": "CHAMPIGNY CF",
           "buts_recevant": null,
@@ -1468,7 +1496,7 @@
         {
           "id": 79584210,
           "date": "2026-10-03",
-          "heure": "17:00",
+          "heure": "17:30",
           "recevant": "SAINT MAURICE AJ",
           "visiteur": "PARIS ACASA 2",
           "buts_recevant": null,
@@ -2491,6 +2519,13 @@
           "surface": "PVC",
           "surface_jeu": "PVC",
           "type_installation": "Futsal"
+        },
+        "GYMNASE - COMPLEXE SPORTIF_['11 RUE MARCEL GAUTHIER', '95470 VEMARS']": {
+          "nom": "GYMNASE - COMPLEXE SPORTIF",
+          "adresse": "11 RUE MARCEL GAUTHIER | 95470 VEMARS",
+          "surface": "Parquet",
+          "surface_jeu": "Parquet",
+          "type_installation": "Futsal"
         }
       },
       "officiels": {
@@ -2998,10 +3033,11 @@
           "heure": "18:00",
           "recevant": "ACADEMY 95",
           "visiteur": "ILE ST DENIS A.F.C. 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "GYMNASE - COMPLEXE SPORTIF_['11 RUE MARCEL GAUTHIER', '95470 VEMARS']"
         },
         {
           "id": 79584341,
@@ -4226,7 +4262,7 @@
         {
           "id": 79584475,
           "date": "2026-10-03",
-          "heure": "19:15",
+          "heure": "16:30",
           "recevant": "PERSANAISE CFJ",
           "visiteur": "GENNEVILLIERS SOCCER",
           "buts_recevant": null,

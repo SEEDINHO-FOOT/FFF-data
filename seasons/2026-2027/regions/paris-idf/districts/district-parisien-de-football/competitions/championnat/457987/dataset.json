@@ -58,6 +58,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC747898.jpg",
           "clNo": "33051",
           "slug": "747898-paris-arc-en-ciel-fc"
+        },
+        "CO Lutèce": {
+          "nom": "CO Lutèce",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565135.jpg",
+          "clNo": "205061",
+          "slug": "565135-co-lutece"
+        },
+        "SALESIENNE DE PARIS 2": {
+          "nom": "SALESIENNE DE PARIS 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC523420.jpg",
+          "clNo": "8840",
+          "slug": "523420-salesienne-de-paris-2"
         }
       },
       "stades": {
@@ -88,6 +100,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "PARC DES SPORTS DU TREMBLAY N°03_['161 BLD STALINGRAD', 'TERRAIN N° 3', '94500 CHAMPIGNY SUR MARNE']": {
+          "nom": "PARC DES SPORTS DU TREMBLAY N°03",
+          "adresse": "161 BLD STALINGRAD | TERRAIN N° 3 | 94500 CHAMPIGNY SUR MARNE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -108,6 +127,11 @@
         },
         "MOUAD AOUNI_AC": {
           "nom": "MOUAD AOUNI",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ANTOINE ROUSSEAU_AC": {
+          "nom": "ANTOINE ROUSSEAU",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -412,10 +436,14 @@
           "heure": "17:00",
           "recevant": "CO Lutèce",
           "visiteur": "SALESIENNE DE PARIS 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "PARC DES SPORTS DU TREMBLAY N°03_['161 BLD STALINGRAD', 'TERRAIN N° 3', '94500 CHAMPIGNY SUR MARNE']",
+          "officiels": [
+            "ANTOINE ROUSSEAU_AC"
+          ]
         },
         {
           "id": 55855705,
@@ -514,7 +542,7 @@
         {
           "id": 55855716,
           "date": "2026-10-03",
-          "heure": "16:00",
+          "heure": "17:30",
           "recevant": "RACING CLUB 18",
           "visiteur": "C.A. DE PARIS 14 3",
           "buts_recevant": null,
@@ -525,7 +553,7 @@
         {
           "id": 55855718,
           "date": "2026-10-03",
-          "heure": "16:00",
+          "heure": "17:15",
           "recevant": "MONTMARTRE S. PARIS",
           "visiteur": "PARIS 15 A.C. 2",
           "buts_recevant": null,
@@ -553,7 +581,7 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "à venir"
+          "statut": "reporté"
         },
         {
           "id": 55855713,
@@ -564,12 +592,12 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "à venir"
+          "statut": "reporté"
         },
         {
           "id": 55855714,
           "date": "2026-10-03",
-          "heure": "17:30",
+          "heure": "15:00",
           "recevant": "SALESIENNE DE PARIS 2",
           "visiteur": "MFC 1871",
           "buts_recevant": null,
@@ -597,7 +625,7 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "à venir"
+          "statut": "reporté"
         },
         {
           "id": 55855726,
