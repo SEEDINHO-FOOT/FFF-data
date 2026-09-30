@@ -40,6 +40,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC553760.jpg",
           "clNo": "137941",
           "slug": "553760-s-c-p-a-s"
+        },
+        "E.S.A.": {
+          "nom": "E.S.A.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC542800.jpg",
+          "clNo": "22224",
+          "slug": "542800-e-s-a"
         }
       },
       "stades": {
@@ -76,6 +82,13 @@
           "adresse": " RUE EMILE ZOLA | PARC MUNICIPAL DES SPORTS | 32810 PREIGNAN",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE JEAN GUILLONNEAU_[' AVENUE DE L ARMAGNAC', '32290 AIGNAN']": {
+          "nom": "STADE JEAN GUILLONNEAU",
+          "adresse": " AVENUE DE L ARMAGNAC | 32290 AIGNAN",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
         }
       },
@@ -117,6 +130,11 @@
         },
         "CLEMENT CIBELLI_AC": {
           "nom": "CLEMENT CIBELLI",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "FABIO URIZZI DURAN_AC": {
+          "nom": "FABIO URIZZI DURAN",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -184,7 +202,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd-myotnr4": {
           "nom": "NATHAN B.",
-          "maillot": 8,
+          "maillot": 12,
           "club": "AGS"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd-my8nnLM": {
@@ -194,7 +212,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh5myosmLA": {
           "nom": "ARMAND J.",
-          "maillot": 8,
+          "maillot": 6,
           "club": "ENTENTE NORD LOMAGNE"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx5kiYnnbY": {
@@ -239,7 +257,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd8lC8imLM": {
           "nom": "THOMAS V.",
-          "maillot": 11,
+          "maillot": 14,
           "club": "ENTENTE NORD LOMAGNE"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx8ly8mnbA": {
@@ -689,10 +707,14 @@
           "heure": "15:00",
           "recevant": "E.S.A.",
           "visiteur": "SUD GASCOGNE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JEAN GUILLONNEAU_[' AVENUE DE L ARMAGNAC', '32290 AIGNAN']",
+          "officiels": [
+            "FABIO URIZZI DURAN_AC"
+          ]
         },
         {
           "id": 79165772,
@@ -798,7 +820,7 @@
           "date": "2026-10-03",
           "heure": "15:00",
           "recevant": "ENTENTE NORD LOMAGNE",
-          "visiteur": "ENT. SUD ARMAGNAC",
+          "visiteur": "E.S.A.",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,

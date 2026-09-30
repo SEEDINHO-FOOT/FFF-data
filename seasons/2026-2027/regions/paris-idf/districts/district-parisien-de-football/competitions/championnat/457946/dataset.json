@@ -46,6 +46,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560969.jpg",
           "clNo": "199338",
           "slug": "560969-cr-19-futsal"
+        },
+        "SPORTING CLUB PARIS 3": {
+          "nom": "SPORTING CLUB PARIS 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC540531.jpg",
+          "clNo": "20572",
+          "slug": "540531-sporting-club-paris-3"
+        },
+        "SALESIENNE DE PARIS": {
+          "nom": "SALESIENNE DE PARIS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC523420.jpg",
+          "clNo": "8840",
+          "slug": "523420-salesienne-de-paris"
         }
       },
       "stades": {
@@ -68,6 +80,27 @@
           "adresse": "9 RUE ALPHONSE BAUDIN | 75011 PARIS",
           "surface": "Lino",
           "surface_jeu": "Lino",
+          "type_installation": "Futsal"
+        },
+        "GYMNASE CARPENTIER 2_['BOULEVARD MASSENA', 'ANNEXE', '75013 PARIS']": {
+          "nom": "GYMNASE CARPENTIER 2",
+          "adresse": "BOULEVARD MASSENA | ANNEXE | 75013 PARIS",
+          "surface": "Parquet",
+          "surface_jeu": "Parquet",
+          "type_installation": "Futsal"
+        },
+        "GYMNASE HAUTPOUL_['50 RUE D HAUTPOUL', '75019 PARIS']": {
+          "nom": "GYMNASE HAUTPOUL",
+          "adresse": "50 RUE D HAUTPOUL | 75019 PARIS",
+          "surface": "PVC",
+          "surface_jeu": "PVC",
+          "type_installation": "Futsal"
+        },
+        "GYMNASE MATHIS_['11 RUE MATHIS', '75019 PARIS']": {
+          "nom": "GYMNASE MATHIS",
+          "adresse": "11 RUE MATHIS | 75019 PARIS",
+          "surface": "Parquet",
+          "surface_jeu": "Parquet",
           "type_installation": "Futsal"
         }
       },
@@ -99,6 +132,31 @@
         },
         "Anonyme_A1": {
           "nom": "Anonyme",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
+        },
+        "JEREMY JOANNY_AC": {
+          "nom": "JEREMY JOANNY",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "SAMUEL AHOUANSE_A1": {
+          "nom": "SAMUEL AHOUANSE",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
+        },
+        "MOULAY MIHOUB_AC": {
+          "nom": "MOULAY MIHOUB",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "SOFIANE BENKAFOUF_A1": {
+          "nom": "SOFIANE BENKAFOUF",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
+        },
+        "DJIBRIL SOUMARE_A1": {
+          "nom": "DJIBRIL SOUMARE",
           "role": "Arbitre assistant 1",
           "role_cod": "A1"
         }
@@ -143,10 +201,15 @@
           "heure": "16:00",
           "recevant": "SPORTING CLUB PARIS 3",
           "visiteur": "SALESIENNE DE PARIS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "GYMNASE CARPENTIER 2_['BOULEVARD MASSENA', 'ANNEXE', '75013 PARIS']",
+          "officiels": [
+            "JEREMY JOANNY_AC",
+            "SAMUEL AHOUANSE_A1"
+          ]
         },
         {
           "id": 55747261,
@@ -170,10 +233,15 @@
           "heure": "18:30",
           "recevant": "VUE D'ENSEMBLE 2",
           "visiteur": "ELEVEN CITY",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "GYMNASE HAUTPOUL_['50 RUE D HAUTPOUL', '75019 PARIS']",
+          "officiels": [
+            "MOULAY MIHOUB_AC",
+            "Anonyme_A1"
+          ]
         },
         {
           "id": 55747267,
@@ -181,10 +249,15 @@
           "heure": "20:00",
           "recevant": "as13F",
           "visiteur": "PETITS ANGES ES 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 14,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "GYMNASE ALAIN MIMOUN_['15 RUE DE LA NOUVELLE CALEDONIE', '75012 PARIS']",
+          "officiels": [
+            "Anonyme_AC",
+            "SOFIANE BENKAFOUF_A1"
+          ]
         },
         {
           "id": 55747266,
@@ -203,10 +276,15 @@
           "heure": "16:15",
           "recevant": "CR 19 FUTSAL",
           "visiteur": "SPORTING CLUB PARIS 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "GYMNASE MATHIS_['11 RUE MATHIS', '75019 PARIS']",
+          "officiels": [
+            "Anonyme_AC",
+            "DJIBRIL SOUMARE_A1"
+          ]
         },
         {
           "id": 55747271,

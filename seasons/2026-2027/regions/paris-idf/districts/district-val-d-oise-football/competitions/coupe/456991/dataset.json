@@ -310,6 +310,30 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC517377.jpg",
           "clNo": "5372",
           "slug": "517377-montmagny-fc"
+        },
+        "ARNOUVILLE F. AS": {
+          "nom": "ARNOUVILLE F. AS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC522689.jpg",
+          "clNo": "8386",
+          "slug": "522689-arnouville-f-as"
+        },
+        "AJED": {
+          "nom": "AJED",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565187.jpg",
+          "clNo": "205120",
+          "slug": "565187-ajed"
+        },
+        "SURVILLIERS AVENIR": {
+          "nom": "SURVILLIERS AVENIR",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500565.jpg",
+          "clNo": "613",
+          "slug": "500565-survilliers-avenir"
+        },
+        "NEUVILLE S/ OISE AS": {
+          "nom": "NEUVILLE S/ OISE AS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC531088.jpg",
+          "clNo": "13970",
+          "slug": "531088-neuville-s-oise-as"
         }
       },
       "stades": {
@@ -487,6 +511,20 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE LÉO LAGRANGE 1_['1 RUE ROBERT SCHUMAN', '95400 ARNOUVILLE']": {
+          "nom": "STADE LÉO LAGRANGE 1",
+          "adresse": "1 RUE ROBERT SCHUMAN | 95400 ARNOUVILLE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 1_[' RUE JEAN JAURES', '95470 SURVILLIERS']": {
+          "nom": "STADE MUNICIPAL 1",
+          "adresse": " RUE JEAN JAURES | 95470 SURVILLIERS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -567,6 +605,16 @@
         },
         "AYOUB ZENOUDI_AC": {
           "nom": "AYOUB ZENOUDI",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ISSA BADROUDINE_AC": {
+          "nom": "ISSA BADROUDINE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "KARIM KEBCI_AC": {
+          "nom": "KARIM KEBCI",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -2335,10 +2383,14 @@
           "heure": "12:30",
           "recevant": "ARNOUVILLE F. AS",
           "visiteur": "AJED",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE LÉO LAGRANGE 1_['1 RUE ROBERT SCHUMAN', '95400 ARNOUVILLE']",
+          "officiels": [
+            "ISSA BADROUDINE_AC"
+          ]
         },
         {
           "id": 79270460,
@@ -2728,10 +2780,14 @@
           "heure": "13:30",
           "recevant": "SURVILLIERS AVENIR",
           "visiteur": "NEUVILLE S/ OISE AS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 9,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_[' RUE JEAN JAURES', '95470 SURVILLIERS']",
+          "officiels": [
+            "KARIM KEBCI_AC"
+          ]
         },
         {
           "id": 79166213,

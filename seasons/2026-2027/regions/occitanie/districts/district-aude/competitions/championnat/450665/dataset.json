@@ -4613,6 +4613,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC552043.jpg",
           "clNo": "116975",
           "slug": "552043-coursan-e-c"
+        },
+        "CONQUES U.S 3": {
+          "nom": "CONQUES U.S 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC505973.jpg",
+          "clNo": "2714",
+          "slug": "505973-conques-u-s-3"
         }
       },
       "stades": {
@@ -4684,6 +4690,11 @@
         },
         "NICOLAS ROBERT_AC": {
           "nom": "NICOLAS ROBERT",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "TARIK MEHRAZ_AC": {
+          "nom": "TARIK MEHRAZ",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -5133,6 +5144,41 @@
           "nom": "JEAN H.",
           "maillot": 3,
           "club": "COURSAN E.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp7kiYsnLc": {
+          "nom": "ESPEN K.",
+          "maillot": 8,
+          "club": "OCSA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt3kiYim7U": {
+          "nom": "KEVAN S.",
+          "maillot": 14,
+          "club": "OCSA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt9lCshmLI": {
+          "nom": "SAMUEL D.",
+          "maillot": 11,
+          "club": "OCSA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx6lC4snb4": {
+          "nom": "TIAGO C.",
+          "maillot": 12,
+          "club": "OCSA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpKHah5kCoimLE": {
+          "nom": "SIMON L.",
+          "maillot": 11,
+          "club": "CONQUES U.S 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt6my0jmbY": {
+          "nom": "MARTIN M.",
+          "maillot": 9,
+          "club": "OCSA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlNFaZ7kissnL4": {
+          "nom": "LAURENT B.",
+          "maillot": 1,
+          "club": "OCSA"
         }
       },
       "matchs": [
@@ -5841,10 +5887,62 @@
           "heure": "15:00",
           "recevant": "OCSA",
           "visiteur": "CONQUES U.S 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp7kiYsnLc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3kiYim7U",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 36,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt9lCshmLI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx6lC4snb4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 55,
+              "type": "carton-blanc",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpKHah5kCoimLE",
+              "sanction": "B",
+              "sanction_detail": "B",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 55,
+              "type": "carton-blanc",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt6my0jmbY",
+              "sanction": "B",
+              "sanction_detail": "B",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 85,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlNFaZ7kissnL4",
+              "sanction": "J",
+              "sanction_detail": "J2",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 88,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx6lC4snb4",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE GEORGES BERTRAND_['3 ROUTE DE MONTSERET', '11200 ST ANDRE DE ROQUELONGUE']",
+          "officiels": [
+            "TARIK MEHRAZ_AC"
+          ]
         },
         {
           "id": 56636046,
@@ -5881,8 +5979,8 @@
         },
         {
           "id": 56636047,
-          "date": "2026-10-04",
-          "heure": "15:00",
+          "date": "2026-10-03",
+          "heure": "20:00",
           "recevant": "UF CORBIERES",
           "visiteur": "U.F. LEZIGNANAIS 3",
           "buts_recevant": null,

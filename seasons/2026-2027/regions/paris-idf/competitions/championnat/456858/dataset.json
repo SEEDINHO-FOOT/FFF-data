@@ -58,6 +58,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565234.jpg",
           "clNo": "205174",
           "slug": "565234-futsal-club-choisy"
+        },
+        "SPORT ETHIQUE LIVRY": {
+          "nom": "SPORT ETHIQUE LIVRY",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC590260.jpg",
+          "clNo": "179968",
+          "slug": "590260-sport-ethique-livry"
+        },
+        "ARTISTES FUTSAL": {
+          "nom": "ARTISTES FUTSAL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC554385.jpg",
+          "clNo": "152801",
+          "slug": "554385-artistes-futsal"
         }
       },
       "stades": {
@@ -88,6 +100,13 @@
           "surface": "Lino",
           "surface_jeu": "Lino",
           "type_installation": "Futsal"
+        },
+        "GYMNASE COSEC_['221 Chemin des Postes', '93190 LIVRY GARGAN']": {
+          "nom": "GYMNASE COSEC",
+          "adresse": "221 Chemin des Postes | 93190 LIVRY GARGAN",
+          "surface": "Parquet",
+          "surface_jeu": "Parquet",
+          "type_installation": "Futsal"
         }
       },
       "officiels": {
@@ -108,6 +127,11 @@
         },
         "MARIO GRADEL_AC": {
           "nom": "MARIO GRADEL",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "YANIS BELHADJ_AC": {
+          "nom": "YANIS BELHADJ",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -281,14 +305,16 @@
           "heure": "15:00",
           "recevant": "L E M",
           "visiteur": "PARIS FUTSAL 2",
-          "buts_recevant": 5,
-          "buts_visiteur": 0,
-          "joue": true,
-          "statut": "joué",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "",
           "stade_id": "Gymnase Jesse Owens_[' AVENUE DE L EUROPE', '77230 DAMMARTIN EN GOELE']",
           "officiels": [
             "YASIN JABRI_AC"
-          ]
+          ],
+          "forfait": true,
+          "vainqueur_forfait": "L E M"
         },
         {
           "id": 55702860,
@@ -296,10 +322,14 @@
           "heure": "14:00",
           "recevant": "SPORT ETHIQUE LIVRY",
           "visiteur": "ARTISTES FUTSAL",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 8,
+          "buts_visiteur": 10,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "GYMNASE COSEC_['221 Chemin des Postes', '93190 LIVRY GARGAN']",
+          "officiels": [
+            "YANIS BELHADJ_AC"
+          ]
         },
         {
           "id": 55702859,

@@ -128,6 +128,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "Stade Augustin Tost 1_['81660 PAYRIN AUGMONTEL']": {
+          "nom": "Stade Augustin Tost 1",
+          "adresse": "81660 PAYRIN AUGMONTEL",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -253,6 +260,11 @@
         },
         "ABDESLAM LAKHRIREZ_A2": {
           "nom": "ABDESLAM LAKHRIREZ",
+          "role": "Arbitre assistant 2",
+          "role_cod": "A2"
+        },
+        "FABIEN SALES_A2": {
+          "nom": "FABIEN SALES",
           "role": "Arbitre assistant 2",
           "role_cod": "A2"
         }
@@ -816,6 +828,51 @@
         "ir3_vj-lzPeINLfhzILsrKpLFq94kS8sn7E": {
           "nom": "BETEL I.",
           "maillot": 6,
+          "club": "BLAN AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh6kSYtnb4": {
+          "nom": "ISAAK B.",
+          "maillot": 8,
+          "club": "A.S. PAYRIN RIGAUTOU"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt3kCojnr4": {
+          "nom": "ENZO G.",
+          "maillot": 12,
+          "club": "A.S. PAYRIN RIGAUTOU"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlAHal7kC4lnrU": {
+          "nom": "THIBAULT D.",
+          "maillot": 2,
+          "club": "BLAN AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlAFql7kSogmbU": {
+          "nom": "GUILLAUME B.",
+          "maillot": 12,
+          "club": "BLAN AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlAFql7kSgim7Y": {
+          "nom": "ROMAIN P.",
+          "maillot": 13,
+          "club": "BLAN AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp4lC8tnrE": {
+          "nom": "DIEGO P.",
+          "maillot": 11,
+          "club": "A.S. PAYRIN RIGAUTOU"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp4lS4ln7c": {
+          "nom": "YANEL J.",
+          "maillot": 5,
+          "club": "A.S. PAYRIN RIGAUTOU"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlAFql7kSsjm7E": {
+          "nom": "MICKAEL D.",
+          "maillot": 8,
+          "club": "BLAN AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt7kykkm7Q": {
+          "nom": "THOMAS L.",
+          "maillot": 14,
           "club": "BLAN AS"
         }
       },
@@ -1740,10 +1797,104 @@
           "heure": "20:00",
           "recevant": "A.S. PAYRIN RIGAUTOU",
           "visiteur": "BLAN AS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 50,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh6kSYtnb4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt3kCojnr4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 60,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlAHal7kC4lnrU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlAFql7kSogmbU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 65,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpIFq95lCckmrY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh6mywkm7I",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 65,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlAFql7kCYsl78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlAFql7kSgim7Y",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 68,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp4lC8tnrE",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 78,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp4lS4ln7c",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 80,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp4lC8tnrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3ky0imr8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 80,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlAFql7kSsjm7E",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt7kykkm7Q",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 81,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlAFql7kSogmbU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 85,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt3kCojnr4",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 90,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp4lS4ln7c",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 90,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlAHKl7kCgilrM",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "Stade Augustin Tost 1_['81660 PAYRIN AUGMONTEL']",
+          "officiels": [
+            "SEBASTIEN LEMERCIER_AC",
+            "LUDOVIC PELISSOU_A1",
+            "FABIEN SALES_A2"
+          ]
         },
         {
           "id": 55959367,
@@ -1769,8 +1920,8 @@
         },
         {
           "id": 55959369,
-          "date": "2026-10-03",
-          "heure": "20:00",
+          "date": "2026-10-02",
+          "heure": "21:00",
           "recevant": "ROQUECOURBE",
           "visiteur": "UNION GRAULHETOISE",
           "buts_recevant": null,

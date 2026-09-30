@@ -698,6 +698,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560105.jpg",
           "clNo": "194120",
           "slug": "560105-avt-g-boigny-checy-2"
+        },
+        "ESCALE ORLEANS": {
+          "nom": "ESCALE ORLEANS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC548992.jpg",
+          "clNo": "25898",
+          "slug": "548992-escale-orleans"
+        },
+        "US LA FERTE ST AUBIN": {
+          "nom": "US LA FERTE ST AUBIN",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC514523.jpg",
+          "clNo": "4538",
+          "slug": "514523-us-la-ferte-st-aubin"
         }
       },
       "stades": {
@@ -728,9 +740,22 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MARCEL GARCIN_['PARC SPORTIFS DES MONTEES', '77 RUE DES MONTEES', '45000 ORLEANS']": {
+          "nom": "STADE MARCEL GARCIN",
+          "adresse": "PARC SPORTIFS DES MONTEES | 77 RUE DES MONTEES | 45000 ORLEANS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
-      "officiels": {},
+      "officiels": {
+        "MONCEF KHITTOUCH_AC": {
+          "nom": "MONCEF KHITTOUCH",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        }
+      },
       "joueurs": {
         "ir3_vj-lzPeINLfhzILsrKFOFK16ky8inbQ": {
           "nom": "DIEGO B.",
@@ -1028,10 +1053,14 @@
           "heure": "16:00",
           "recevant": "ESCALE ORLEANS",
           "visiteur": "US LA FERTE ST AUBIN",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 10,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MARCEL GARCIN_['PARC SPORTIFS DES MONTEES', '77 RUE DES MONTEES', '45000 ORLEANS']",
+          "officiels": [
+            "MONCEF KHITTOUCH_AC"
+          ]
         },
         {
           "id": 79538216,
@@ -1047,7 +1076,7 @@
         {
           "id": 79538218,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "14:30",
           "recevant": "PATAY R.S 15",
           "visiteur": "US LA FERTE ST AUBIN",
           "buts_recevant": null,
@@ -1080,7 +1109,7 @@
         {
           "id": 79538220,
           "date": "2026-10-03",
-          "heure": "16:00",
+          "heure": "14:00",
           "recevant": "C. DEPORT ESPAGNOL O 2",
           "visiteur": "ENT. FCAC BBG",
           "buts_recevant": null,

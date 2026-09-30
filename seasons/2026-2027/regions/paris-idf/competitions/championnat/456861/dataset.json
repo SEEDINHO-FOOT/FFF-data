@@ -34,6 +34,30 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500689.jpg",
           "clNo": "667",
           "slug": "500689-creteil-f"
+        },
+        "MYA FUTSAL": {
+          "nom": "MYA FUTSAL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC552106.jpg",
+          "clNo": "117080",
+          "slug": "552106-mya-futsal"
+        },
+        "LE MEE SPORTS": {
+          "nom": "LE MEE SPORTS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC525582.jpg",
+          "clNo": "10279",
+          "slug": "525582-le-mee-sports"
+        },
+        "DIAMANT FUTSAL": {
+          "nom": "DIAMANT FUTSAL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC554271.jpg",
+          "clNo": "150321",
+          "slug": "554271-diamant-futsal"
+        },
+        "ESPERANCE 94": {
+          "nom": "ESPERANCE 94",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565136.jpg",
+          "clNo": "205062",
+          "slug": "565136-esperance-94"
         }
       },
       "stades": {
@@ -50,11 +74,35 @@
           "surface": "Lino",
           "surface_jeu": "Lino",
           "type_installation": "Futsal"
+        },
+        "GYMNASE DE LA NACELLE_['6 RUE DE LA NACELLE', '91100 CORBEIL ESSONNES']": {
+          "nom": "GYMNASE DE LA NACELLE",
+          "adresse": "6 RUE DE LA NACELLE | 91100 CORBEIL ESSONNES",
+          "surface": "PVC",
+          "surface_jeu": "PVC",
+          "type_installation": "Futsal"
+        },
+        "GYMNASE DU LAC_[' RUE PIERRE BEREGOVOY', '91000 EVRY COURCOURONNES']": {
+          "nom": "GYMNASE DU LAC",
+          "adresse": " RUE PIERRE BEREGOVOY | 91000 EVRY COURCOURONNES",
+          "surface": "Lino",
+          "surface_jeu": "Lino",
+          "type_installation": "Futsal"
         }
       },
       "officiels": {
         "AMELE BENMOUNA_AC": {
           "nom": "AMELE BENMOUNA",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "GUERNA GUERVIL_AC": {
+          "nom": "GUERNA GUERVIL",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "Anonyme_AC": {
+          "nom": "Anonyme",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -131,10 +179,14 @@
           "heure": "12:00",
           "recevant": "MYA FUTSAL",
           "visiteur": "LE MEE SPORTS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "GYMNASE DE LA NACELLE_['6 RUE DE LA NACELLE', '91100 CORBEIL ESSONNES']",
+          "officiels": [
+            "GUERNA GUERVIL_AC"
+          ]
         },
         {
           "id": 79582829,
@@ -142,10 +194,14 @@
           "heure": "14:30",
           "recevant": "DIAMANT FUTSAL",
           "visiteur": "ESPERANCE 94",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "GYMNASE DU LAC_[' RUE PIERRE BEREGOVOY', '91000 EVRY COURCOURONNES']",
+          "officiels": [
+            "Anonyme_AC"
+          ]
         },
         {
           "id": 79582833,
@@ -1324,6 +1380,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565241.jpg",
           "clNo": "205181",
           "slug": "565241-clichy-futsal"
+        },
+        "ROSNY FUTSAL CLUB": {
+          "nom": "ROSNY FUTSAL CLUB",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC561102.jpg",
+          "clNo": "200875",
+          "slug": "561102-rosny-futsal-club"
+        },
+        "PARIS FUTSAL": {
+          "nom": "PARIS FUTSAL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560299.jpg",
+          "clNo": "195249",
+          "slug": "560299-paris-futsal"
         }
       },
       "stades": {
@@ -1340,6 +1408,13 @@
           "surface": "Parquet",
           "surface_jeu": "Parquet",
           "type_installation": "Futsal"
+        },
+        "GYMNASE LAVOISIER_['46 RUE LAVOISIER', '93110 ROSNY SOUS BOIS']": {
+          "nom": "GYMNASE LAVOISIER",
+          "adresse": "46 RUE LAVOISIER | 93110 ROSNY SOUS BOIS",
+          "surface": "Parquet",
+          "surface_jeu": "Parquet",
+          "type_installation": "Futsal"
         }
       },
       "officiels": {
@@ -1350,6 +1425,11 @@
         },
         "ANGELINE MAIN_AC": {
           "nom": "ANGELINE MAIN",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "YANIS BENYOUCEF_AC": {
+          "nom": "YANIS BENYOUCEF",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -1438,10 +1518,14 @@
           "heure": "13:30",
           "recevant": "ROSNY FUTSAL CLUB",
           "visiteur": "PARIS FUTSAL",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "GYMNASE LAVOISIER_['46 RUE LAVOISIER', '93110 ROSNY SOUS BOIS']",
+          "officiels": [
+            "YANIS BENYOUCEF_AC"
+          ]
         },
         {
           "id": 79583245,
@@ -3266,11 +3350,13 @@
           "heure": "15:00",
           "recevant": "FCVLB",
           "visiteur": "LA CUATRO FUTSAL",
-          "buts_recevant": 5,
-          "buts_visiteur": 0,
-          "joue": true,
-          "statut": "joué",
-          "stade_id": "GYMNASE PIERRE DE COUBERTIN_['4 RUE LEON BLUM', '95400 VILLIERS LE BEL']"
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "",
+          "stade_id": "GYMNASE PIERRE DE COUBERTIN_['4 RUE LEON BLUM', '95400 VILLIERS LE BEL']",
+          "forfait": true,
+          "vainqueur_forfait": "FCVLB"
         },
         {
           "id": 79583560,
@@ -3846,6 +3932,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560601.jpg",
           "clNo": "197712",
           "slug": "560601-are-academy"
+        },
+        "MARCOUVILLE CITY CP 2": {
+          "nom": "MARCOUVILLE CITY CP 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC580882.jpg",
+          "clNo": "180225",
+          "slug": "580882-marcouville-city-cp-2"
+        },
+        "AFS Vauréal": {
+          "nom": "AFS Vauréal",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC582623.jpg",
+          "clNo": "191894",
+          "slug": "582623-afs-vaureal"
         }
       },
       "stades": {
@@ -3876,6 +3974,13 @@
           "surface": "Autre",
           "surface_jeu": "Autre",
           "type_installation": "Futsal"
+        },
+        "GYMNASE PHILIPPE HÉMET-SALLE CC_['1 RUE PIERRE DE COUBERTIN', '95000 PONTOISE']": {
+          "nom": "GYMNASE PHILIPPE HÉMET-SALLE CC",
+          "adresse": "1 RUE PIERRE DE COUBERTIN | 95000 PONTOISE",
+          "surface": "PVC",
+          "surface_jeu": "PVC",
+          "type_installation": "Futsal"
         }
       },
       "officiels": {
@@ -3886,6 +3991,11 @@
         },
         "CHRISTOPHE NOBLET_AC": {
           "nom": "CHRISTOPHE NOBLET",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ABDESSALEM NOUIRA_AC": {
+          "nom": "ABDESSALEM NOUIRA",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -3925,11 +4035,13 @@
           "heure": "14:00",
           "recevant": "CERGY PONTOISE FC",
           "visiteur": "ATTAINVILLE FUTSAL C",
-          "buts_recevant": 0,
-          "buts_visiteur": 5,
-          "joue": true,
-          "statut": "joué",
-          "stade_id": "GYMNASE DE LA PLAINE_[' RUE DES CHAMPS', 'A COTE DU COLLEGE CAROLINE AIGLE', '95000 CERGY']"
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "",
+          "stade_id": "GYMNASE DE LA PLAINE_[' RUE DES CHAMPS', 'A COTE DU COLLEGE CAROLINE AIGLE', '95000 CERGY']",
+          "forfait": true,
+          "vainqueur_forfait": "ATTAINVILLE FUTSAL C"
         },
         {
           "id": 79585051,
@@ -3952,10 +4064,14 @@
           "heure": "16:00",
           "recevant": "MARCOUVILLE CITY CP 2",
           "visiteur": "AFS Vauréal",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "GYMNASE PHILIPPE HÉMET-SALLE CC_['1 RUE PIERRE DE COUBERTIN', '95000 PONTOISE']",
+          "officiels": [
+            "ABDESSALEM NOUIRA_AC"
+          ]
         },
         {
           "id": 79585046,

@@ -10,8 +10,48 @@
     {
       "cp_slug": "452458-foot-loisir-h/phase/1/1",
       "competition": "FOOT LOISIR H",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "PORDIC BINIC FC": {
+          "nom": "PORDIC BINIC FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC580625.jpg",
+          "clNo": "176962",
+          "slug": "580625-pordic-binic-fc"
+        },
+        "POMMERIT MERZER ES": {
+          "nom": "POMMERIT MERZER ES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC548280.jpg",
+          "clNo": "25383",
+          "slug": "548280-pommerit-merzer-es"
+        },
+        "TREMUSON AS": {
+          "nom": "TREMUSON AS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC522445.jpg",
+          "clNo": "8224",
+          "slug": "522445-tremuson-as"
+        },
+        "GOMMENEC H FC": {
+          "nom": "GOMMENEC H FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC554087.jpg",
+          "clNo": "150721",
+          "slug": "554087-gommenec-h-fc"
+        }
+      },
+      "stades": {
+        "STADE JEAN FRANÇOIS CAPITAINE 1_[' RUE DU STADE', '22520 BINIC ETABLES SUR MER']": {
+          "nom": "STADE JEAN FRANÇOIS CAPITAINE 1",
+          "adresse": " RUE DU STADE | 22520 BINIC ETABLES SUR MER",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE TIREL - JEAN GUYADER_['RUE DE TIREL', '22440 TREMUSON']": {
+          "nom": "STADE DE TIREL - JEAN GUYADER",
+          "adresse": "RUE DE TIREL | 22440 TREMUSON",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -32,10 +72,11 @@
           "heure": "21:00",
           "recevant": "PORDIC BINIC FC",
           "visiteur": "POMMERIT MERZER ES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JEAN FRANÇOIS CAPITAINE 1_[' RUE DU STADE', '22520 BINIC ETABLES SUR MER']"
         },
         {
           "id": 79625635,
@@ -65,10 +106,11 @@
           "heure": "21:00",
           "recevant": "TREMUSON AS",
           "visiteur": "GOMMENEC H FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE TIREL - JEAN GUYADER_['RUE DE TIREL', '22440 TREMUSON']"
         },
         {
           "id": 79625638,
@@ -2290,6 +2332,72 @@
           "buts_visiteur": null,
           "joue": false,
           "statut": "reporté"
+        },
+        {
+          "id": 79698099,
+          "date": "2026-10-02",
+          "heure": "21:00",
+          "recevant": "PLAINTEL SP",
+          "visiteur": "LE FOEIL ES",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79698100,
+          "date": "2026-10-02",
+          "heure": "21:00",
+          "recevant": "PLOUFRAGAN ARMORIC",
+          "visiteur": "ST JULIEN AS",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79698101,
+          "date": "2026-10-02",
+          "heure": "21:00",
+          "recevant": "PLOUFRAGAN FC",
+          "visiteur": "ST BRANDAN QUINT FC",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79698102,
+          "date": "2026-10-02",
+          "heure": "21:00",
+          "recevant": "ST BRIEUC GINGLIN AS",
+          "visiteur": "PLOUFRAGAN ASSH",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79698103,
+          "date": "2026-10-02",
+          "heure": "21:00",
+          "recevant": "TREGUEUX AS",
+          "visiteur": "PLEDRAN CS",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79698104,
+          "date": "2026-10-02",
+          "heure": "21:00",
+          "recevant": "LOUDEAC ST BUG FC",
+          "visiteur": "LANFAINS AS",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
         }
       ]
     },
@@ -3308,12 +3416,31 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC542054.jpg",
           "clNo": "21711",
           "slug": "542054-caulnes-rance-fc"
+        },
+        " BOBITAL BRUSVILY AS": {
+          "nom": " BOBITAL BRUSVILY AS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560507.jpg",
+          "clNo": "197210",
+          "slug": "560507-bobital-brusvily-as"
+        },
+        "PLELAN FC PVC": {
+          "nom": "PLELAN FC PVC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC581221.jpg",
+          "clNo": "183116",
+          "slug": "581221-plelan-fc-pvc"
         }
       },
       "stades": {
         "STADE LÉOPOLD MIRIEL_[' RUE AUGUSTIN LEGUEN', '22100 QUEVERT']": {
           "nom": "STADE LÉOPOLD MIRIEL",
           "adresse": " RUE AUGUSTIN LEGUEN | 22100 QUEVERT",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "PARC DES SPORTS LE LOUVRE 1_[' LE LOUVRE', '22100 BOBITAL']": {
+          "nom": "PARC DES SPORTS LE LOUVRE 1",
+          "adresse": " LE LOUVRE | 22100 BOBITAL",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -3328,10 +3455,11 @@
           "heure": "21:00",
           "recevant": " BOBITAL BRUSVILY AS",
           "visiteur": "PLELAN FC PVC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "PARC DES SPORTS LE LOUVRE 1_[' LE LOUVRE', '22100 BOBITAL']"
         },
         {
           "id": 79626096,

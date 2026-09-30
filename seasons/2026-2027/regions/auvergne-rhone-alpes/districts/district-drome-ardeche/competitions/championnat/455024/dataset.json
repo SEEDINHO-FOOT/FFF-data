@@ -3052,6 +3052,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC590236.jpg",
           "clNo": "179867",
           "slug": "590236-js-livron-2"
+        },
+        "F.C. BOURG LES VALEN 2": {
+          "nom": "F.C. BOURG LES VALEN 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC504375.jpg",
+          "clNo": "2246",
+          "slug": "504375-f-c-bourg-les-valen-2"
+        },
+        "F.C. PORTOIS": {
+          "nom": "F.C. PORTOIS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC509606.jpg",
+          "clNo": "3478",
+          "slug": "509606-f-c-portois"
         }
       },
       "stades": {
@@ -3072,6 +3084,13 @@
         "STADE BUISSON_['QUARTIER FONTAGNAL', '26400 AOUSTE SUR SYE']": {
           "nom": "STADE BUISSON",
           "adresse": "QUARTIER FONTAGNAL | 26400 AOUSTE SUR SYE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE GIRODET 2_['ALLEE ANDRE REVOL', '26500 BOURG LES VALENCE']": {
+          "nom": "STADE GIRODET 2",
+          "adresse": "ALLEE ANDRE REVOL | 26500 BOURG LES VALENCE",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -3100,6 +3119,11 @@
         },
         "ANDREA TOGORA_AC": {
           "nom": "ANDREA TOGORA",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "DJOULIAN BERTRAND_AC": {
+          "nom": "DJOULIAN BERTRAND",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -3278,10 +3302,14 @@
           "heure": "09:30",
           "recevant": "F.C. BOURG LES VALEN 2",
           "visiteur": "F.C. PORTOIS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GIRODET 2_['ALLEE ANDRE REVOL', '26500 BOURG LES VALENCE']",
+          "officiels": [
+            "DJOULIAN BERTRAND_AC"
+          ]
         },
         {
           "id": 79391930,
@@ -3803,6 +3831,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE BAGATELLE_['17 RUE JULES MICHELET', '26200 MONTELIMAR']": {
+          "nom": "STADE BAGATELLE",
+          "adresse": "17 RUE JULES MICHELET | 26200 MONTELIMAR",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -4052,7 +4087,7 @@
               "club_type": "recevant"
             }
           ],
-          "stade_id": "STADE BAGATELLE_[' RUE JULES MICHELET', 'impasse bagatelle', '26200 MONTELIMAR']",
+          "stade_id": "STADE BAGATELLE_['17 RUE JULES MICHELET', '26200 MONTELIMAR']",
           "officiels": [
             "MENA CALLCUT_AC",
             "ZINSOU NOUTAI_CP"
@@ -5658,6 +5693,20 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE PAUL SILHOL_['20 CITE LA RIAILLE', '26780 CHATEAUNEUF DU RHONE']": {
+          "nom": "STADE PAUL SILHOL",
+          "adresse": "20 CITE LA RIAILLE | 26780 CHATEAUNEUF DU RHONE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE GUY AUBERT 1_['150 CHEMIN GUY AUBERT', '26740 MONTBOUCHER SUR JABRON']": {
+          "nom": "STADE GUY AUBERT 1",
+          "adresse": "150 CHEMIN GUY AUBERT | 26740 MONTBOUCHER SUR JABRON",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -6050,7 +6099,7 @@
               "club_type": "recevant"
             }
           ],
-          "stade_id": "STADE PAUL SILHOL_['CITE DE LA RIAILLE', '.', '26780 CHATEAUNEUF DU RHONE']",
+          "stade_id": "STADE PAUL SILHOL_['20 CITE LA RIAILLE', '26780 CHATEAUNEUF DU RHONE']",
           "officiels": [
             "NAHIL YAHYAOUY_AC",
             "KEVIN SALARD_CP"
@@ -6105,7 +6154,7 @@
               "club_type": "visiteur"
             }
           ],
-          "stade_id": "STADE GUY AUBERT 1_['QUARTIER FONTGRAVE', '145 CHEMIN GUY AUBERT', '26740 MONTBOUCHER SUR JABRON']",
+          "stade_id": "STADE GUY AUBERT 1_['150 CHEMIN GUY AUBERT', '26740 MONTBOUCHER SUR JABRON']",
           "officiels": [
             "NATHAN VION DELPHIN_AC"
           ]

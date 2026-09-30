@@ -70,6 +70,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE DE MÉNEZ PAUL 1_['6 RUE DE MENEZ PAUL', '29200 BREST']": {
+          "nom": "STADE DE MÉNEZ PAUL 1",
+          "adresse": "6 RUE DE MENEZ PAUL | 29200 BREST",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -107,6 +114,11 @@
           "nom": "GURWAN GOACHET",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "ALRICK LE BERRE_AC": {
+          "nom": "ALRICK LE BERRE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -122,7 +134,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK15lychl7Y": {
           "nom": "HUGO L.",
-          "maillot": 7,
+          "maillot": 14,
           "club": "MILIZAC ST P"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx3lSYmmbA": {
@@ -172,7 +184,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx3my0jnbI": {
           "nom": "TOM G.",
-          "maillot": 7,
+          "maillot": 9,
           "club": "GJ RIVES PENFELD"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK15lysknLc": {
@@ -252,7 +264,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx_kignmLQ": {
           "nom": "ARBI J.",
-          "maillot": 12,
+          "maillot": 13,
           "club": "BREST AS"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx9mignnrE": {
@@ -262,7 +274,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp4kS4inL8": {
           "nom": "MARLON P.",
-          "maillot": 7,
+          "maillot": 2,
           "club": "BREST AS"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx9li8glr4": {
@@ -299,6 +311,21 @@
           "nom": "WISSEN B.",
           "maillot": 5,
           "club": "GJ RIVES PENFELD"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17lysln74": {
+          "nom": "LOEVAN G.",
+          "maillot": 2,
+          "club": "MILIZAC ST P"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK14lCkimbc": {
+          "nom": "GAUTIER K.",
+          "maillot": 8,
+          "club": "MILIZAC ST P"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx3mi8nlrQ": {
+          "nom": "CORENTIN H.",
+          "maillot": 13,
+          "club": "MILIZAC ST P"
         }
       },
       "matchs": [
@@ -533,10 +560,44 @@
           "heure": "11:30",
           "recevant": "BREST AS",
           "visiteur": "MILIZAC ST P",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 7,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4kS4inL8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_kignmLQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 23,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK17lysln74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK15lychl7Y",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK14lCkimbc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3mi8nlrQ",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 56,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK14lCkimbc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK17my8mn7Q",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE DE MÉNEZ PAUL 1_['6 RUE DE MENEZ PAUL', '29200 BREST']",
+          "officiels": [
+            "ALRICK LE BERRE_AC"
+          ]
         },
         {
           "id": 79282421,
@@ -1369,7 +1430,7 @@
         {
           "id": 79279185,
           "date": "2026-10-03",
-          "heure": "12:30",
+          "heure": "12:45",
           "recevant": "US CONCARNEAU 2",
           "visiteur": "ERGUE GABERIC PAOT",
           "buts_recevant": null,
@@ -1380,7 +1441,7 @@
         {
           "id": 79279184,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "12:30",
           "recevant": "LE RELECQ KERHUON FC",
           "visiteur": "QUIMPER ERGUE ARMEL",
           "buts_recevant": null,
