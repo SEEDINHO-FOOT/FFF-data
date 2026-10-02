@@ -46,6 +46,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500706.jpg",
           "clNo": "673",
           "slug": "500706-issy-fc"
+        },
+        "ESPERANCE 94": {
+          "nom": "ESPERANCE 94",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565136.jpg",
+          "clNo": "205062",
+          "slug": "565136-esperance-94"
+        },
+        "A.S.F.CHAVILLE 92": {
+          "nom": "A.S.F.CHAVILLE 92",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC581476.jpg",
+          "clNo": "183994",
+          "slug": "581476-a-s-f-chaville-92"
         }
       },
       "stades": {
@@ -69,6 +81,13 @@
           "surface": "Parquet",
           "surface_jeu": "Parquet",
           "type_installation": "Futsal"
+        },
+        "Gymnase Marcel Cachin_[' ALLEE LOUIS BREGUET', '94310 ORLY']": {
+          "nom": "Gymnase Marcel Cachin",
+          "adresse": " ALLEE LOUIS BREGUET | 94310 ORLY",
+          "surface": "Autre",
+          "surface_jeu": "Autre",
+          "type_installation": "Futsal"
         }
       },
       "officiels": {
@@ -79,6 +98,11 @@
         },
         "STEVEN DE BOISROLIN_AC": {
           "nom": "STEVEN DE BOISROLIN",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "RODOLPHE MILET_AC": {
+          "nom": "RODOLPHE MILET",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -118,10 +142,14 @@
           "heure": "18:00",
           "recevant": "ESPERANCE 94",
           "visiteur": "A.S.F.CHAVILLE 92",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Gymnase Marcel Cachin_[' ALLEE LOUIS BREGUET', '94310 ORLY']",
+          "officiels": [
+            "RODOLPHE MILET_AC"
+          ]
         },
         {
           "id": 79583870,
@@ -3053,7 +3081,7 @@
         {
           "id": 79584345,
           "date": "2026-10-03",
-          "heure": "19:30",
+          "heure": "19:00",
           "recevant": "AULNAY FUTSAL",
           "visiteur": "COMBO FUTSAL",
           "buts_recevant": null,

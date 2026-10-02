@@ -10,15 +10,55 @@
     {
       "cp_slug": "456657-coupe-hauts-de-france-feminine/phase/1/1",
       "competition": "Coupe Hauts-de-France Féminine",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "LILLE LOUVIERE ESP": {
+          "nom": "LILLE LOUVIERE ESP",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC512174.jpg",
+          "clNo": "3961",
+          "slug": "512174-lille-louviere-esp"
+        },
+        "ROUBAIX WERVICQ RCF 2": {
+          "nom": "ROUBAIX WERVICQ RCF 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC782535.jpg",
+          "clNo": "191623",
+          "slug": "782535-roubaix-wervicq-rcf-2"
+        },
+        "EQUIHEN PLAGE US": {
+          "nom": "EQUIHEN PLAGE US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC528070.jpg",
+          "clNo": "11917",
+          "slug": "528070-equihen-plage-us"
+        },
+        "VERTON FC": {
+          "nom": "VERTON FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC541581.jpg",
+          "clNo": "21401",
+          "slug": "541581-verton-fc"
+        }
+      },
+      "stades": {
+        "STADE JULIEN DARUI_['203 AVENUE DURAY', '59000 LILLE']": {
+          "nom": "STADE JULIEN DARUI",
+          "adresse": "203 AVENUE DURAY | 59000 LILLE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 1_['136 Rue Edmond Palézieux', '62224 EQUIHEN PLAGE']": {
+          "nom": "STADE MUNICIPAL 1",
+          "adresse": "136 Rue Edmond Palézieux | 62224 EQUIHEN PLAGE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
         {
           "id": 79699979,
           "date": "2026-10-04",
-          "heure": "10:00",
+          "heure": "10:30",
           "recevant": "CYSOING WB EAC",
           "visiteur": "PROVIN US",
           "buts_recevant": null,
@@ -62,7 +102,7 @@
         {
           "id": 79699909,
           "date": "2026-10-04",
-          "heure": "15:00",
+          "heure": "11:00",
           "recevant": "SECLIN FC",
           "visiteur": "FRETIN US",
           "buts_recevant": null,
@@ -73,18 +113,19 @@
         {
           "id": 79699910,
           "date": "2026-10-04",
-          "heure": "15:00",
+          "heure": "13:00",
           "recevant": "LILLE LOUVIERE ESP",
           "visiteur": "ROUBAIX WERVICQ RCF 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JULIEN DARUI_['203 AVENUE DURAY', '59000 LILLE']"
         },
         {
           "id": 79699911,
           "date": "2026-10-04",
-          "heure": "15:00",
+          "heure": "11:30",
           "recevant": "WAVRIN DON JS",
           "visiteur": "GENECH ES 5",
           "buts_recevant": null,
@@ -95,7 +136,7 @@
         {
           "id": 79699912,
           "date": "2026-10-04",
-          "heure": "15:00",
+          "heure": "10:30",
           "recevant": "PHALEMPIN US",
           "visiteur": "LEERS OS",
           "buts_recevant": null,
@@ -106,7 +147,7 @@
         {
           "id": 79699913,
           "date": "2026-10-04",
-          "heure": "15:00",
+          "heure": "10:00",
           "recevant": "DOUAI SC",
           "visiteur": "ENNEQUIN ES",
           "buts_recevant": null,
@@ -117,7 +158,7 @@
         {
           "id": 79699914,
           "date": "2026-10-04",
-          "heure": "15:00",
+          "heure": "11:00",
           "recevant": "PONT DE NIEPPE AS",
           "visiteur": "ST POL SUR MER USCC",
           "buts_recevant": null,
@@ -128,7 +169,7 @@
         {
           "id": 79699978,
           "date": "2026-10-04",
-          "heure": "15:00",
+          "heure": "12:30",
           "recevant": "BONDUES FC",
           "visiteur": "LA CHAPELLE FC",
           "buts_recevant": null,
@@ -139,7 +180,7 @@
         {
           "id": 79699988,
           "date": "2026-10-04",
-          "heure": "15:00",
+          "heure": "10:00",
           "recevant": "LA ROUPIE FC 5",
           "visiteur": "MEURCHIN USO",
           "buts_recevant": null,
@@ -150,7 +191,7 @@
         {
           "id": 79700001,
           "date": "2026-10-04",
-          "heure": "15:00",
+          "heure": "10:00",
           "recevant": "BAPAUME BERTINCOURT",
           "visiteur": "ENT.DAINVILLE ANZIN",
           "buts_recevant": null,
@@ -161,7 +202,7 @@
         {
           "id": 79700084,
           "date": "2026-10-04",
-          "heure": "15:00",
+          "heure": "10:00",
           "recevant": "HABARCQ CS",
           "visiteur": "VENDIN LE VIEIL E.",
           "buts_recevant": null,
@@ -172,7 +213,7 @@
         {
           "id": 79700100,
           "date": "2026-10-04",
-          "heure": "15:00",
+          "heure": "10:00",
           "recevant": "ELINCOURT RC",
           "visiteur": "ESCAUTPONT AFC",
           "buts_recevant": null,
@@ -183,7 +224,7 @@
         {
           "id": 79700101,
           "date": "2026-10-04",
-          "heure": "15:00",
+          "heure": "14:00",
           "recevant": "SAULTAIN FC",
           "visiteur": "SEBOURG ESTREUX ES",
           "buts_recevant": null,
@@ -194,7 +235,7 @@
         {
           "id": 79700102,
           "date": "2026-10-04",
-          "heure": "15:00",
+          "heure": "10:00",
           "recevant": "SOLESMES FC",
           "visiteur": "PROVILLE FC",
           "buts_recevant": null,
@@ -216,7 +257,7 @@
         {
           "id": 79700121,
           "date": "2026-10-04",
-          "heure": "15:00",
+          "heure": "11:00",
           "recevant": "ENT VICQ ONNAING F",
           "visiteur": "MARLY USM",
           "buts_recevant": null,
@@ -238,7 +279,7 @@
         {
           "id": 79700143,
           "date": "2026-10-04",
-          "heure": "15:00",
+          "heure": "11:00",
           "recevant": "ROSIERES US",
           "visiteur": "RIBECOURT US",
           "buts_recevant": null,
@@ -249,7 +290,7 @@
         {
           "id": 79700144,
           "date": "2026-10-04",
-          "heure": "15:00",
+          "heure": "10:00",
           "recevant": "RESSONS S/MATZ STADE",
           "visiteur": "PONT STE MAXENCE US",
           "buts_recevant": null,
@@ -260,7 +301,7 @@
         {
           "id": 79700168,
           "date": "2026-10-04",
-          "heure": "15:00",
+          "heure": "10:00",
           "recevant": "3 CHATEAUX FC",
           "visiteur": "VALLEES US",
           "buts_recevant": null,
@@ -274,10 +315,11 @@
           "heure": "15:00",
           "recevant": "EQUIHEN PLAGE US",
           "visiteur": "VERTON FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['136 Rue Edmond Palézieux', '62224 EQUIHEN PLAGE']"
         },
         {
           "id": 79700194,
@@ -293,7 +335,7 @@
         {
           "id": 79700195,
           "date": "2026-10-04",
-          "heure": "15:00",
+          "heure": "10:30",
           "recevant": "MONTREUIL SUR MER US",
           "visiteur": "WAILLY F.C",
           "buts_recevant": null,

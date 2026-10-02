@@ -251,7 +251,7 @@
         {
           "id": 79582828,
           "date": "2026-10-03",
-          "heure": "12:00",
+          "heure": "11:30",
           "recevant": "CRETEIL F.",
           "visiteur": "LE MEE SPORTS",
           "buts_recevant": null,
@@ -273,7 +273,7 @@
         {
           "id": 79582824,
           "date": "2026-10-04",
-          "heure": "15:00",
+          "heure": "14:00",
           "recevant": "CRETEIL PALAIS FUTSA",
           "visiteur": "MYA FUTSAL",
           "buts_recevant": null,
@@ -295,7 +295,7 @@
         {
           "id": 79582826,
           "date": "2026-10-04",
-          "heure": "16:15",
+          "heure": "14:30",
           "recevant": "CROSNE FC",
           "visiteur": "DIAMANT FUTSAL",
           "buts_recevant": null,
@@ -925,7 +925,7 @@
         {
           "id": 79582941,
           "date": "2026-10-04",
-          "heure": "10:00",
+          "heure": "09:45",
           "recevant": "PARIS XIV FC",
           "visiteur": "NEUILLY FC 92",
           "buts_recevant": null,
@@ -947,7 +947,7 @@
         {
           "id": 79582938,
           "date": "2026-10-04",
-          "heure": "17:00",
+          "heure": "16:45",
           "recevant": "A.S.F.CHAVILLE 92",
           "visiteur": "PETITS ANGES ES",
           "buts_recevant": null,
@@ -2202,6 +2202,17 @@
           "buts_visiteur": null,
           "joue": false,
           "statut": "à venir"
+        },
+        {
+          "id": 79583248,
+          "date": "2026-09-26",
+          "heure": "14:00",
+          "recevant": "DINAMIK BONDY FUTSAL",
+          "visiteur": "BFC",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
         }
       ]
     },
@@ -2407,7 +2418,7 @@
           "date": "2026-10-04",
           "heure": "11:00",
           "recevant": "MFS",
-          "visiteur": "TORCY FUTSAL EU",
+          "visiteur": "EVASION URBAINE SP.",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
@@ -3059,6 +3070,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC580882.jpg",
           "clNo": "180225",
           "slug": "580882-marcouville-city-cp"
+        },
+        "PARMAIN FUTSAL A.S.": {
+          "nom": "PARMAIN FUTSAL A.S.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC551445.jpg",
+          "clNo": "113155",
+          "slug": "551445-parmain-futsal-a-s"
+        },
+        "SANNOIS FUTSAL CLUB": {
+          "nom": "SANNOIS FUTSAL CLUB",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC550552.jpg",
+          "clNo": "173298",
+          "slug": "550552-sannois-futsal-club"
         }
       },
       "stades": {
@@ -3082,6 +3105,13 @@
           "surface": "Parquet",
           "surface_jeu": "Parquet",
           "type_installation": "Futsal"
+        },
+        "SALLE A. COLAS_['RUE DES COUTURES', 'Gymnase', '95620 PARMAIN']": {
+          "nom": "SALLE A. COLAS",
+          "adresse": "RUE DES COUTURES | Gymnase | 95620 PARMAIN",
+          "surface": "PVC",
+          "surface_jeu": "PVC",
+          "type_installation": "Futsal"
         }
       },
       "officiels": {
@@ -3092,6 +3122,11 @@
         },
         "ILHAN BENYOUCEF_AC": {
           "nom": "ILHAN BENYOUCEF",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "BRAHIM KHALIFI_AC": {
+          "nom": "BRAHIM KHALIFI",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -3423,10 +3458,14 @@
           "heure": "14:00",
           "recevant": "PARMAIN FUTSAL A.S.",
           "visiteur": "SANNOIS FUTSAL CLUB",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 12,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "SALLE A. COLAS_['RUE DES COUTURES', 'Gymnase', '95620 PARMAIN']",
+          "officiels": [
+            "BRAHIM KHALIFI_AC"
+          ]
         },
         {
           "id": 79583559,
@@ -4023,11 +4062,13 @@
           "heure": "13:00",
           "recevant": "ENT. LSG RCG",
           "visiteur": "AVICENNE A.S.C.",
-          "buts_recevant": 0,
-          "buts_visiteur": 5,
-          "joue": true,
-          "statut": "joué",
-          "stade_id": "GYMNASE COLETTE BESSON_['Avenue du 08 Mai 19445', '95140 GARGES LES GONESSE']"
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "",
+          "stade_id": "GYMNASE COLETTE BESSON_['Avenue du 08 Mai 19445', '95140 GARGES LES GONESSE']",
+          "forfait": true,
+          "vainqueur_forfait": "AVICENNE A.S.C."
         },
         {
           "id": 79585050,

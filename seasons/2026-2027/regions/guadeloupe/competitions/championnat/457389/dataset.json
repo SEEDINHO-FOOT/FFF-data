@@ -221,7 +221,7 @@
         {
           "id": 79511542,
           "date": "2026-10-04",
-          "heure": "08:30",
+          "heure": "15:30",
           "recevant": "ENT.AOG-JVF",
           "visiteur": "J.T.R. TROIS RIVIERE",
           "buts_recevant": null,
@@ -700,8 +700,8 @@
         },
         {
           "id": 79511549,
-          "date": "2026-10-04",
-          "heure": "08:30",
+          "date": "2026-10-03",
+          "heure": "15:30",
           "recevant": "J.S. VIEUX HABITANTS",
           "visiteur": "RC B.TERRE GA",
           "buts_recevant": null,
@@ -726,6 +726,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC532164.jpg",
           "clNo": "14738",
           "slug": "532164-l-eclair"
+        },
+        "C.S. CAPESTERRE BELL": {
+          "nom": "C.S. CAPESTERRE BELL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC512909.jpg",
+          "clNo": "4115",
+          "slug": "512909-c-s-capesterre-bell"
+        },
+        "ARSENAL CLUB": {
+          "nom": "ARSENAL CLUB",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC513407.jpg",
+          "clNo": "4225",
+          "slug": "513407-arsenal-club"
         }
       },
       "stades": {
@@ -735,11 +747,23 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "Stade Du C. S. c._['Bourg', 'Rue Pasteur', '97130 CAPESTERRE BELLE EAU']": {
+          "nom": "Stade Du C. S. c.",
+          "adresse": "Bourg | Rue Pasteur | 97130 CAPESTERRE BELLE EAU",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
         "MICKAEL GUSTAVE_AC": {
           "nom": "MICKAEL GUSTAVE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "MIQUENDY INNOCENT_AC": {
+          "nom": "MIQUENDY INNOCENT",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -835,10 +859,14 @@
           "heure": "08:30",
           "recevant": "C.S. CAPESTERRE BELL",
           "visiteur": "ARSENAL CLUB",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 18,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Du C. S. c._['Bourg', 'Rue Pasteur', '97130 CAPESTERRE BELLE EAU']",
+          "officiels": [
+            "MIQUENDY INNOCENT_AC"
+          ]
         },
         {
           "id": 79511553,
@@ -979,6 +1007,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC517624.jpg",
           "clNo": "5477",
           "slug": "517624-u-s-goyave"
+        },
+        "ST. LAMENTINOIS": {
+          "nom": "ST. LAMENTINOIS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC518334.jpg",
+          "clNo": "5813",
+          "slug": "518334-st-lamentinois"
         }
       },
       "stades": {
@@ -997,7 +1031,13 @@
           "type_installation": "Football à 11"
         }
       },
-      "officiels": {},
+      "officiels": {
+        "ILANN JEAN PASCAL JEANNOT_AC": {
+          "nom": "ILANN JEAN PASCAL JEANNOT",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        }
+      },
       "joueurs": {},
       "matchs": [
         {
@@ -1028,10 +1068,14 @@
           "heure": "08:30",
           "recevant": "U.S. GOYAVE",
           "visiteur": "ST. LAMENTINOIS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 13,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['BOURG', '97128 GOYAVE']",
+          "officiels": [
+            "ILANN JEAN PASCAL JEANNOT_AC"
+          ]
         },
         {
           "id": 79511559,
@@ -1972,10 +2016,82 @@
     {
       "cp_slug": "457389-u15-brassage/phase/1/8",
       "competition": "U15 BRASSAGE",
-      "clubs": {},
-      "stades": {},
-      "officiels": {},
-      "joueurs": {},
+      "clubs": {
+        "RED STAR PAP": {
+          "nom": "RED STAR PAP",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC512732.jpg",
+          "clNo": "4078",
+          "slug": "512732-red-star-pap"
+        },
+        "A.J.S.F.": {
+          "nom": "A.J.S.F.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC546104.jpg",
+          "clNo": "23779",
+          "slug": "546104-a-j-s-f"
+        },
+        "UNAR": {
+          "nom": "UNAR",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC549644.jpg",
+          "clNo": "26353",
+          "slug": "549644-unar"
+        },
+        "S.SCOLAIRE": {
+          "nom": "S.SCOLAIRE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC512736.jpg",
+          "clNo": "4080",
+          "slug": "512736-s-scolaire"
+        }
+      },
+      "stades": {
+        "STADE PIERRE ANTONIUS_['BERGEVIN', 'BD GERTY ARCHIMEDE', 'PLAINE DE GRAND CAMP', '97139 LES ABYMES']": {
+          "nom": "STADE PIERRE ANTONIUS",
+          "adresse": "BERGEVIN | BD GERTY ARCHIMEDE | PLAINE DE GRAND CAMP | 97139 LES ABYMES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DU RAIZET_['BOURG', '1 ALLEE IRIS', '97139 LES ABYMES']": {
+          "nom": "STADE DU RAIZET",
+          "adresse": "BOURG | 1 ALLEE IRIS | 97139 LES ABYMES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
+      "officiels": {
+        "JORDAN BALTUS_AC": {
+          "nom": "JORDAN BALTUS",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "Anonyme_AC": {
+          "nom": "Anonyme",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        }
+      },
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFK15miosnb4": {
+          "nom": "EZRA S.",
+          "maillot": 9,
+          "club": "S.SCOLAIRE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx-kCchnLY": {
+          "nom": "MARLEY M.",
+          "maillot": 4,
+          "club": "S.SCOLAIRE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd6kCclnLU": {
+          "nom": "JEMHUEL E.",
+          "maillot": 8,
+          "club": "UNAR"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK13kigkm74": {
+          "nom": "JAYDEN S.",
+          "maillot": 16,
+          "club": "S.SCOLAIRE"
+        }
+      },
       "matchs": [
         {
           "id": 79512016,
@@ -2005,10 +2121,14 @@
           "heure": "08:30",
           "recevant": "RED STAR PAP",
           "visiteur": "A.J.S.F.",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PIERRE ANTONIUS_['BERGEVIN', 'BD GERTY ARCHIMEDE', 'PLAINE DE GRAND CAMP', '97139 LES ABYMES']",
+          "officiels": [
+            "JORDAN BALTUS_AC"
+          ]
         },
         {
           "id": 79512020,
@@ -2016,10 +2136,52 @@
           "heure": "15:30",
           "recevant": "UNAR",
           "visiteur": "S.SCOLAIRE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 10,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK15miosnb4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 15,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK15miosnb4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 25,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx-kCchnLY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 35,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx-kCchnLY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 60,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6kCclnLU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 70,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK13kigkm74",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE DU RAIZET_['BOURG', '1 ALLEE IRIS', '97139 LES ABYMES']",
+          "officiels": [
+            "Anonyme_AC"
+          ]
         },
         {
           "id": 79512022,
@@ -2035,7 +2197,7 @@
         {
           "id": 79512023,
           "date": "2026-10-04",
-          "heure": "08:30",
+          "heure": "15:30",
           "recevant": "A.J.S.F.",
           "visiteur": "UNAR",
           "buts_recevant": null,
@@ -2208,7 +2370,7 @@
         {
           "id": 79512199,
           "date": "2026-10-04",
-          "heure": "08:30",
+          "heure": "15:30",
           "recevant": "MJCA",
           "visiteur": "SIROCO LES ABYMES",
           "buts_recevant": null,
@@ -2268,9 +2430,36 @@
     {
       "cp_slug": "457389-u15-brassage/phase/1/10",
       "competition": "U15 BRASSAGE",
-      "clubs": {},
-      "stades": {},
-      "officiels": {},
+      "clubs": {
+        "JUVENTUS STE ANNE": {
+          "nom": "JUVENTUS STE ANNE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC512727.jpg",
+          "clNo": "4074",
+          "slug": "512727-juventus-ste-anne"
+        },
+        "F.C.S.F": {
+          "nom": "F.C.S.F",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC530421.jpg",
+          "clNo": "13580",
+          "slug": "530421-f-c-s-f"
+        }
+      },
+      "stades": {
+        "Stade Hector Grandman 2 - Fahrasmane_['ROUTE DE BOIS JOLAN', '97180 STE ANNE']": {
+          "nom": "Stade Hector Grandman 2 - Fahrasmane",
+          "adresse": "ROUTE DE BOIS JOLAN | 97180 STE ANNE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
+      "officiels": {
+        "LINCY MORICE_AC": {
+          "nom": "LINCY MORICE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        }
+      },
       "joueurs": {},
       "matchs": [
         {
@@ -2312,10 +2501,14 @@
           "heure": "08:30",
           "recevant": "JUVENTUS STE ANNE",
           "visiteur": "F.C.S.F",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Hector Grandman 2 - Fahrasmane_['ROUTE DE BOIS JOLAN', '97180 STE ANNE']",
+          "officiels": [
+            "LINCY MORICE_AC"
+          ]
         },
         {
           "id": 79512434,

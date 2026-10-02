@@ -427,9 +427,22 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE GEORGES METAIS 3_['78 RUE NATIONALE', '41120 CHAILLES']": {
+          "nom": "STADE GEORGES METAIS 3",
+          "adresse": "78 RUE NATIONALE | 41120 CHAILLES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
-      "officiels": {},
+      "officiels": {
+        "ROUMAYSSA ALIOUI_AC": {
+          "nom": "ROUMAYSSA ALIOUI",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        }
+      },
       "joueurs": {},
       "matchs": [
         {
@@ -474,10 +487,14 @@
           "heure": "14:30",
           "recevant": "A.S. CHAILLES CANDE",
           "visiteur": "U.S. CHITENAY CELLET 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 8,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GEORGES METAIS 3_['78 RUE NATIONALE', '41120 CHAILLES']",
+          "officiels": [
+            "ROUMAYSSA ALIOUI_AC"
+          ]
         },
         {
           "id": 79492581,
@@ -784,7 +801,7 @@
         {
           "id": 79492711,
           "date": "2026-10-03",
-          "heure": "14:30",
+          "heure": "15:00",
           "recevant": "CHAUSSEE ASJ 3",
           "visiteur": "ET.S. VILLEBAROU 2",
           "buts_recevant": null,

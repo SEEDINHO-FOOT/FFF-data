@@ -40,6 +40,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC548366.jpg",
           "clNo": "25460",
           "slug": "548366-fontaine-gatinais"
+        },
+        "ENT. SPS 89": {
+          "nom": "ENT. SPS 89",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC529032.jpg",
+          "clNo": "12574",
+          "slug": "529032-ent-sps-89"
         }
       },
       "stades": {
@@ -53,6 +59,13 @@
         "STADE CLAUDE LONGET 1_['LES POURPRISES', 'AVENUE DU GENERAL LECLERC', '89340 CHAMPIGNY']": {
           "nom": "STADE CLAUDE LONGET 1",
           "adresse": "LES POURPRISES | AVENUE DU GENERAL LECLERC | 89340 CHAMPIGNY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE BRUNO BOURBON_['24 B BOULEVARD DE LA CONVENTION', '89100 SENS']": {
+          "nom": "STADE BRUNO BOURBON",
+          "adresse": "24 B BOULEVARD DE LA CONVENTION | 89100 SENS",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -71,6 +84,11 @@
         },
         "ALI TATLIGUN_CP": {
           "nom": "ALI TATLIGUN",
+          "role": "Observateur principal",
+          "role_cod": "CP"
+        },
+        "RUDY BALLU_CP": {
+          "nom": "RUDY BALLU",
           "role": "Observateur principal",
           "role_cod": "CP"
         }
@@ -406,10 +424,15 @@
           "heure": "14:00",
           "recevant": "PARON F.C. 2",
           "visiteur": "ENT. SPS 89",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE BRUNO BOURBON_['24 B BOULEVARD DE LA CONVENTION', '89100 SENS']",
+          "officiels": [
+            "MOHAMED OULDEMMOU_AC",
+            "RUDY BALLU_CP"
+          ]
         },
         {
           "id": 79341837,
@@ -765,6 +788,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC530646.jpg",
           "clNo": "13709",
           "slug": "530646-st-fargeau"
+        },
+        "AJ AUXERRE 4": {
+          "nom": "AJ AUXERRE 4",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500220.jpg",
+          "clNo": "345",
+          "slug": "500220-aj-auxerre-4"
+        },
+        "MT ST SULPICE": {
+          "nom": "MT ST SULPICE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC530822.jpg",
+          "clNo": "13777",
+          "slug": "530822-mt-st-sulpice"
         }
       },
       "stades": {
@@ -785,6 +820,20 @@
         "STADE DU BEL AIR_['RUE DU STADE', '89170 ST FARGEAU']": {
           "nom": "STADE DU BEL AIR",
           "adresse": "RUE DU STADE | 89170 ST FARGEAU",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 1_['RUE DU GUE DE L EPINE', '89470 MONETEAU']": {
+          "nom": "STADE MUNICIPAL 1",
+          "adresse": "RUE DU GUE DE L EPINE | 89470 MONETEAU",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE RAYMOND ANCEL 1_['CHEMIN ROBERT MARCHANT', '89113 CHARBUY']": {
+          "nom": "STADE RAYMOND ANCEL 1",
+          "adresse": "CHEMIN ROBERT MARCHANT | 89113 CHARBUY",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -958,10 +1007,11 @@
           "heure": "14:00",
           "recevant": "ENT.MONETEAU/GURGY",
           "visiteur": "AJ AUXERRE 4",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['RUE DU GUE DE L EPINE', '89470 MONETEAU']"
         },
         {
           "id": 79342051,
@@ -1055,10 +1105,11 @@
           "heure": "14:00",
           "recevant": "ENT.UCF FC CHEVANNES",
           "visiteur": "MT ST SULPICE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE RAYMOND ANCEL 1_['CHEMIN ROBERT MARCHANT', '89113 CHARBUY']"
         },
         {
           "id": 79342054,

@@ -1656,8 +1656,29 @@
     {
       "cp_slug": "456153-criterium-seniors-a8/phase/1/5",
       "competition": "Critérium seniors A8",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "MEURSAC": {
+          "nom": "MEURSAC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC518559.jpg",
+          "clNo": "5915",
+          "slug": "518559-meursac"
+        },
+        "ARVERT FOOT 2": {
+          "nom": "ARVERT FOOT 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564963.jpg",
+          "clNo": "204111",
+          "slug": "564963-arvert-foot-2"
+        }
+      },
+      "stades": {
+        "STADE J.M. DURANDET_['ROUTE DES EPEAUX', '17120 MEURSAC']": {
+          "nom": "STADE J.M. DURANDET",
+          "adresse": "ROUTE DES EPEAUX | 17120 MEURSAC",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -1667,10 +1688,11 @@
           "heure": "21:00",
           "recevant": "MEURSAC",
           "visiteur": "ARVERT FOOT 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE J.M. DURANDET_['ROUTE DES EPEAUX', '17120 MEURSAC']"
         },
         {
           "id": 79675706,
@@ -1698,7 +1720,7 @@
           "id": 79675708,
           "date": "2026-10-02",
           "heure": "21:00",
-          "recevant": "E.S.N.G. 4",
+          "recevant": "ESNG/ST JUST LUZAC 4",
           "visiteur": "PORTES OCEAN 17 FC 2",
           "buts_recevant": null,
           "buts_visiteur": null,

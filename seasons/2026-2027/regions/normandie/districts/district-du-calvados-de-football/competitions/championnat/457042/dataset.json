@@ -435,6 +435,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC501619.jpg",
           "clNo": "1051",
           "slug": "501619-js-douvres-delivrand"
+        },
+        "SM CAEN 2": {
+          "nom": "SM CAEN 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500075.jpg",
+          "clNo": "217",
+          "slug": "500075-sm-caen-2"
+        },
+        "US GUERINIERE": {
+          "nom": "US GUERINIERE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC590574.jpg",
+          "clNo": "167643",
+          "slug": "590574-us-gueriniere"
         }
       },
       "stades": {
@@ -458,11 +470,23 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE DE VENOIX 2_['ENTREE COTE POMPIDOU', '74 BOULEVARD ANDRE DETOLLE', 'TERRAIN ANNEXE 2', '14000 CAEN']": {
+          "nom": "STADE DE VENOIX 2",
+          "adresse": "ENTREE COTE POMPIDOU | 74 BOULEVARD ANDRE DETOLLE | TERRAIN ANNEXE 2 | 14000 CAEN",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
         "KEVIN LEROY_AC": {
           "nom": "KEVIN LEROY",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ALEXIS LEVARD_AC": {
+          "nom": "ALEXIS LEVARD",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -592,6 +616,36 @@
           "nom": "VICTOR L.",
           "maillot": 12,
           "club": "AS VERSON 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp7liYnnrE": {
+          "nom": "THIERNO DJAFAROU D.",
+          "maillot": 2,
+          "club": "US GUERINIERE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx-kC4imLU": {
+          "nom": "SHUAIB N.",
+          "maillot": 15,
+          "club": "US GUERINIERE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd6lC4lnbQ": {
+          "nom": "NOHAM H.",
+          "maillot": 10,
+          "club": "US GUERINIERE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx5lS0imbY": {
+          "nom": "NASSIM H.",
+          "maillot": 14,
+          "club": "US GUERINIERE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx7kiokmLc": {
+          "nom": "ENOLA W.",
+          "maillot": 9,
+          "club": "SM CAEN 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16licmn7c": {
+          "nom": "MELIS D.",
+          "maillot": 12,
+          "club": "SM CAEN 2"
         }
       },
       "matchs": [
@@ -735,17 +789,44 @@
           "heure": "15:30",
           "recevant": "SM CAEN 2",
           "visiteur": "US GUERINIERE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 16,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp7liYnnrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx-kC4imLU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 36,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6lC4lnbQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx5lS0imbY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7kiokmLc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK16licmn7c",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE DE VENOIX 2_['ENTREE COTE POMPIDOU', '74 BOULEVARD ANDRE DETOLLE', 'TERRAIN ANNEXE 2', '14000 CAEN']",
+          "officiels": [
+            "ALEXIS LEVARD_AC"
+          ]
         },
         {
           "id": 79556257,
           "date": "2026-10-03",
-          "heure": "15:30",
-          "recevant": "USI BESSIN NORD",
-          "visiteur": "JS DOUVRES DELIVRAND",
+          "heure": "14:45",
+          "recevant": "JS DOUVRES DELIVRAND",
+          "visiteur": "USI BESSIN NORD",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,

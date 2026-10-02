@@ -46,6 +46,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC529939.jpg",
           "clNo": "13230",
           "slug": "529939-hanches-a-s"
+        },
+        "ASR": {
+          "nom": "ASR",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560241.jpg",
+          "clNo": "194706",
+          "slug": "560241-asr"
+        },
+        "ILLIERS U P": {
+          "nom": "ILLIERS U P",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC504910.jpg",
+          "clNo": "2434",
+          "slug": "504910-illiers-u-p"
         }
       },
       "stades": {
@@ -66,6 +78,13 @@
         "STADE MUNICIPAL_['ALLEE DU PARC', '28240 LA LOUPE']": {
           "nom": "STADE MUNICIPAL",
           "adresse": "ALLEE DU PARC | 28240 LA LOUPE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "COMPLEXE SPORTIF RECHÈVRES 1_['RUE DU COMMANDANT CHESNE', '28000 CHARTRES']": {
+          "nom": "COMPLEXE SPORTIF RECHÈVRES 1",
+          "adresse": "RUE DU COMMANDANT CHESNE | 28000 CHARTRES",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -201,10 +220,11 @@
           "heure": "15:00",
           "recevant": "ASR",
           "visiteur": "ILLIERS U P",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF RECHÈVRES 1_['RUE DU COMMANDANT CHESNE', '28000 CHARTRES']"
         },
         {
           "id": 79529491,
@@ -543,11 +563,13 @@
           "heure": "16:30",
           "recevant": "CHAMPHOL F J",
           "visiteur": "FJ VALLÉE DUNOISE 2",
-          "buts_recevant": 0,
-          "buts_visiteur": 3,
-          "joue": true,
-          "statut": "joué",
-          "stade_id": "STADE PAUL DOUBLET 1_['RUE DE LA CITE', '28300 CHAMPHOL']"
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "",
+          "stade_id": "STADE PAUL DOUBLET 1_['RUE DE LA CITE', '28300 CHAMPHOL']",
+          "forfait": true,
+          "vainqueur_forfait": "FJ VALLÉE DUNOISE 2"
         },
         {
           "id": 79529497,

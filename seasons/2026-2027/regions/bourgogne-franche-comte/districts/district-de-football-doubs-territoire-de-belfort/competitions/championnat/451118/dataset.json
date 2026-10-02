@@ -10,9 +10,41 @@
     {
       "cp_slug": "451118-futsal-d1-masculin/phase/1/1",
       "competition": "Futsal D1 Masculin",
-      "clubs": {},
-      "stades": {},
-      "officiels": {},
+      "clubs": {
+        "VALDAHON-VERCEL": {
+          "nom": "VALDAHON-VERCEL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC548380.jpg",
+          "clNo": "25473",
+          "slug": "548380-valdahon-vercel"
+        },
+        "LA JOUX NOZEROY": {
+          "nom": "LA JOUX NOZEROY",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC506641.jpg",
+          "clNo": "2924",
+          "slug": "506641-la-joux-nozeroy"
+        }
+      },
+      "stades": {
+        "GYMNASE_['16 RUE DU STADE', '25530 VERCEL VILLEDIEU LE CAMP']": {
+          "nom": "GYMNASE",
+          "adresse": "16 RUE DU STADE | 25530 VERCEL VILLEDIEU LE CAMP",
+          "surface": "PVC",
+          "surface_jeu": "PVC",
+          "type_installation": "Futsal"
+        }
+      },
+      "officiels": {
+        "RENE GUILLAUME_AC": {
+          "nom": "RENE GUILLAUME",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "DAMIEN GIRARDET_A1": {
+          "nom": "DAMIEN GIRARDET",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
+        }
+      },
       "joueurs": {},
       "matchs": [
         {
@@ -21,10 +53,15 @@
           "heure": "21:00",
           "recevant": "VALDAHON-VERCEL",
           "visiteur": "LA JOUX NOZEROY",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "GYMNASE_['16 RUE DU STADE', '25530 VERCEL VILLEDIEU LE CAMP']",
+          "officiels": [
+            "RENE GUILLAUME_AC",
+            "DAMIEN GIRARDET_A1"
+          ]
         },
         {
           "id": 79648878,
@@ -308,7 +345,7 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "à venir"
+          "statut": "réserve"
         },
         {
           "id": 79648919,
