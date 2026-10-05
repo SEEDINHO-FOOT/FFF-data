@@ -1010,9 +1010,36 @@
     {
       "cp_slug": "456751-u16-d2/phase/1/2",
       "competition": "U16 D2",
-      "clubs": {},
-      "stades": {},
-      "officiels": {},
+      "clubs": {
+        "CAMILLIENNE S. 12EME": {
+          "nom": "CAMILLIENNE S. 12EME",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC511261.jpg",
+          "clNo": "3749",
+          "slug": "511261-camillienne-s-12eme"
+        },
+        "AS PARIS": {
+          "nom": "AS PARIS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC551831.jpg",
+          "clNo": "162768",
+          "slug": "551831-as-paris"
+        }
+      },
+      "stades": {
+        "STADE LÉO LAGRANGE_['68 BLD PONIATOWSKI', '75012 PARIS']": {
+          "nom": "STADE LÉO LAGRANGE",
+          "adresse": "68 BLD PONIATOWSKI | 75012 PARIS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
+      "officiels": {
+        "EL HADJ BARRY_AC": {
+          "nom": "EL HADJ BARRY",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        }
+      },
       "joueurs": {},
       "matchs": [
         {
@@ -1065,10 +1092,14 @@
           "heure": "13:00",
           "recevant": "CAMILLIENNE S. 12EME",
           "visiteur": "AS PARIS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE LÉO LAGRANGE_['68 BLD PONIATOWSKI', '75012 PARIS']",
+          "officiels": [
+            "EL HADJ BARRY_AC"
+          ]
         },
         {
           "id": 55728659,

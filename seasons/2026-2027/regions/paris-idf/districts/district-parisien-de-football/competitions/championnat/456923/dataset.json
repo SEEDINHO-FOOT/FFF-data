@@ -58,6 +58,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC511261.jpg",
           "clNo": "3749",
           "slug": "511261-camillienne-s-12eme"
+        },
+        "PARIS 19 ESP": {
+          "nom": "PARIS 19 ESP",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500828.jpg",
+          "clNo": "715",
+          "slug": "500828-paris-19-esp"
+        },
+        "MONTMARTRE S. PARIS": {
+          "nom": "MONTMARTRE S. PARIS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC516449.jpg",
+          "clNo": "5056",
+          "slug": "516449-montmartre-s-paris"
         }
       },
       "stades": {
@@ -88,6 +100,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "Stade Jules Ladoumègue N° 2_['FACE A LA STATION T3b D. SEYRIG', '39 ROUTE DES PETITS PONTS', '75019 PARIS']": {
+          "nom": "Stade Jules Ladoumègue N° 2",
+          "adresse": "FACE A LA STATION T3b D. SEYRIG | 39 ROUTE DES PETITS PONTS | 75019 PARIS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -103,6 +122,11 @@
         },
         "ISMAEL BENJAMIN LATT_AC": {
           "nom": "ISMAEL BENJAMIN LATT",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "HUSSIN ELWKIL_AC": {
+          "nom": "HUSSIN ELWKIL",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -308,10 +332,14 @@
           "heure": "17:00",
           "recevant": "PARIS 19 ESP",
           "visiteur": "MONTMARTRE S. PARIS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Jules Ladoumègue N° 2_['FACE A LA STATION T3b D. SEYRIG', '39 ROUTE DES PETITS PONTS', '75019 PARIS']",
+          "officiels": [
+            "HUSSIN ELWKIL_AC"
+          ]
         },
         {
           "id": 55743193,

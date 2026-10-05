@@ -57,7 +57,7 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "reporté"
+          "statut": "à venir"
         },
         {
           "id": 79695921,
@@ -683,7 +683,7 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "reporté"
+          "statut": "à venir"
         },
         {
           "id": 79695986,
@@ -1309,7 +1309,7 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "reporté"
+          "statut": "à venir"
         },
         {
           "id": 79696042,
@@ -1935,7 +1935,7 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "reporté"
+          "statut": "à venir"
         },
         {
           "id": 79696111,
@@ -7214,21 +7214,43 @@
     {
       "cp_slug": "457462-criterium-u10/phase/1/13",
       "competition": "Critérium U10",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "BAGNEUX COM": {
+          "nom": "BAGNEUX COM",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500732.jpg",
+          "clNo": "685",
+          "slug": "500732-bagneux-com"
+        },
+        "CHATILLONNAIS SCM": {
+          "nom": "CHATILLONNAIS SCM",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC509310.jpg",
+          "clNo": "3428",
+          "slug": "509310-chatillonnais-scm"
+        }
+      },
+      "stades": {
+        "STADE RENÉ ROUSSEAU_['2 RUE GABRIEL COSSON', '92220 BAGNEUX']": {
+          "nom": "STADE RENÉ ROUSSEAU",
+          "adresse": "2 RUE GABRIEL COSSON | 92220 BAGNEUX",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
         {
           "id": 79696757,
           "date": "2026-10-03",
-          "heure": "10:00",
+          "heure": "09:00",
           "recevant": "BAGNEUX COM",
           "visiteur": "CHATILLONNAIS SCM",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE RENÉ ROUSSEAU_['2 RUE GABRIEL COSSON', '92220 BAGNEUX']"
         },
         {
           "id": 79696759,

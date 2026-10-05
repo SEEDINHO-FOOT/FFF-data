@@ -58,6 +58,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500692.jpg",
           "clNo": "668",
           "slug": "500692-meudon-a-s"
+        },
+        "RUEIL MALMAISON FC 2": {
+          "nom": "RUEIL MALMAISON FC 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC542440.jpg",
+          "clNo": "21983",
+          "slug": "542440-rueil-malmaison-fc-2"
+        },
+        "BAGNEUX COM 2": {
+          "nom": "BAGNEUX COM 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500732.jpg",
+          "clNo": "685",
+          "slug": "500732-bagneux-com-2"
         }
       },
       "stades": {
@@ -85,6 +97,13 @@
         "STADE FERNAND HEMON_['87 BOULEVARD DE VALMY', 'HONNEUR GAZON', '92700 COLOMBES']": {
           "nom": "STADE FERNAND HEMON",
           "adresse": "87 BOULEVARD DE VALMY | HONNEUR GAZON | 92700 COLOMBES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DU PARC N° 2_['298 AV NAPOLEON BONAPARTE', '92500 RUEIL MALMAISON']": {
+          "nom": "STADE DU PARC N° 2",
+          "adresse": "298 AV NAPOLEON BONAPARTE | 92500 RUEIL MALMAISON",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -143,6 +162,16 @@
         },
         "KOFFI KOUGBLENOU AMEGADZE_CP": {
           "nom": "KOFFI KOUGBLENOU AMEGADZE",
+          "role": "Observateur principal",
+          "role_cod": "CP"
+        },
+        "DRISS AKKAOUI_AC": {
+          "nom": "DRISS AKKAOUI",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "JOSE MARTINS DAS NEVES_CP": {
+          "nom": "JOSE MARTINS DAS NEVES",
           "role": "Observateur principal",
           "role_cod": "CP"
         }
@@ -441,10 +470,15 @@
           "heure": "13:00",
           "recevant": "RUEIL MALMAISON FC 2",
           "visiteur": "BAGNEUX COM 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DU PARC N° 2_['298 AV NAPOLEON BONAPARTE', '92500 RUEIL MALMAISON']",
+          "officiels": [
+            "DRISS AKKAOUI_AC",
+            "JOSE MARTINS DAS NEVES_CP"
+          ]
         },
         {
           "id": 55747176,

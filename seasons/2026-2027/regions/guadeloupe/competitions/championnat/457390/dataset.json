@@ -22,6 +22,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC551678.jpg",
           "clNo": "113397",
           "slug": "551678-a-o-gourbeyrienne"
+        },
+        "RC B.TERRE GA": {
+          "nom": "RC B.TERRE GA",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC512730.jpg",
+          "clNo": "4076",
+          "slug": "512730-rc-b-terre-ga"
+        },
+        "JSCB": {
+          "nom": "JSCB",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC518964.jpg",
+          "clNo": "6111",
+          "slug": "518964-jscb"
         }
       },
       "stades": {
@@ -36,6 +48,11 @@
       "officiels": {
         "RONALDO MENES_AC": {
           "nom": "RONALDO MENES",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "MICHAEL DANISCH_AC": {
+          "nom": "MICHAEL DANISCH",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -173,15 +190,19 @@
           "heure": "08:30",
           "recevant": "RC B.TERRE GA",
           "visiteur": "JSCB",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE GRAND ANSE_['GRAND ANSE', '97114 TROIS RIVIERES']",
+          "officiels": [
+            "MICHAEL DANISCH_AC"
+          ]
         },
         {
           "id": 79477639,
           "date": "2026-10-04",
-          "heure": "08:30",
+          "heure": "09:30",
           "recevant": "JSCB",
           "visiteur": "J. VIEUX FORT",
           "buts_recevant": null,
@@ -192,7 +213,7 @@
         {
           "id": 79477640,
           "date": "2026-10-04",
-          "heure": "08:30",
+          "heure": "08:00",
           "recevant": "A. O.  GOURBEYRIENNE",
           "visiteur": "RC B.TERRE GA",
           "buts_recevant": null,
@@ -1067,12 +1088,31 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC512724.jpg",
           "clNo": "4071",
           "slug": "512724-j-s-vieux-habitants"
+        },
+        "C.S. BOUILLANTAIS": {
+          "nom": "C.S. BOUILLANTAIS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC501544.jpg",
+          "clNo": "1028",
+          "slug": "501544-c-s-bouillantais"
+        },
+        "RESISTANCE BOUILLANT": {
+          "nom": "RESISTANCE BOUILLANT",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC514581.jpg",
+          "clNo": "4559",
+          "slug": "514581-resistance-bouillant"
         }
       },
       "stades": {
         "COMPLEXE SPORTIF PIERRE MARTIN_['ROUTE DE SAINT LOUIS', '(PERES BLANCS)', '97123 BAILLIF']": {
           "nom": "COMPLEXE SPORTIF PIERRE MARTIN",
           "adresse": "ROUTE DE SAINT LOUIS | (PERES BLANCS) | 97123 BAILLIF",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE RAYMOND GUILLIOD_['LE BOURG', '97125 BOUILLANTE']": {
+          "nom": "STADE RAYMOND GUILLIOD",
+          "adresse": "LE BOURG | 97125 BOUILLANTE",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -1086,6 +1126,11 @@
         },
         "MAILLY MOUTOU_AC": {
           "nom": "MAILLY MOUTOU",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "DALORIE MORTI_AC": {
+          "nom": "DALORIE MORTI",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -1242,14 +1287,18 @@
           "heure": "08:30",
           "recevant": "C.S. BOUILLANTAIS",
           "visiteur": "RESISTANCE BOUILLANT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE RAYMOND GUILLIOD_['LE BOURG', '97125 BOUILLANTE']",
+          "officiels": [
+            "DALORIE MORTI_AC"
+          ]
         },
         {
           "id": 79477421,
-          "date": "2026-10-04",
+          "date": "2026-10-03",
           "heure": "08:30",
           "recevant": "J.S. VIEUX HABITANTS",
           "visiteur": "C.S. BOUILLANTAIS",
@@ -1271,7 +1320,7 @@
         },
         {
           "id": 79477423,
-          "date": "2026-10-04",
+          "date": "2026-10-03",
           "heure": "08:30",
           "recevant": "RESISTANCE BOUILLANT",
           "visiteur": "CYGNE NOIR BASSE TER",
@@ -1566,9 +1615,36 @@
     {
       "cp_slug": "457390-u13-brassage/phase/1/6",
       "competition": "U13 BRASSAGE",
-      "clubs": {},
-      "stades": {},
-      "officiels": {},
+      "clubs": {
+        "DYNAMO LE MOULE": {
+          "nom": "DYNAMO LE MOULE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC518695.jpg",
+          "clNo": "5982",
+          "slug": "518695-dynamo-le-moule"
+        },
+        "A.S. NENUPHARS 4": {
+          "nom": "A.S. NENUPHARS 4",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC531611.jpg",
+          "clNo": "14326",
+          "slug": "531611-a-s-nenuphars-4"
+        }
+      },
+      "stades": {
+        "STADE DE CHÂTEAU GAILLARD_[' RUE CLOVIS CHANDLER', '97160 LE MOULE']": {
+          "nom": "STADE DE CHÂTEAU GAILLARD",
+          "adresse": " RUE CLOVIS CHANDLER | 97160 LE MOULE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
+      "officiels": {
+        "NOLHAN LEROUX_AC": {
+          "nom": "NOLHAN LEROUX",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        }
+      },
       "joueurs": {},
       "matchs": [
         {
@@ -1599,10 +1675,14 @@
           "heure": "08:30",
           "recevant": "DYNAMO LE MOULE",
           "visiteur": "A.S. NENUPHARS 4",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE CHÂTEAU GAILLARD_[' RUE CLOVIS CHANDLER', '97160 LE MOULE']",
+          "officiels": [
+            "NOLHAN LEROUX_AC"
+          ]
         },
         {
           "id": 79476984,
@@ -1686,9 +1766,60 @@
     {
       "cp_slug": "457390-u13-brassage/phase/1/7",
       "competition": "U13 BRASSAGE",
-      "clubs": {},
-      "stades": {},
-      "officiels": {},
+      "clubs": {
+        "SSM": {
+          "nom": "SSM",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564731.jpg",
+          "clNo": "202434",
+          "slug": "564731-ssm"
+        },
+        "AS LE MOULE": {
+          "nom": "AS LE MOULE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC512713.jpg",
+          "clNo": "4065",
+          "slug": "512713-as-le-moule"
+        },
+        "ZENITH MORNE A L'EAU": {
+          "nom": "ZENITH MORNE A L'EAU",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC517491.jpg",
+          "clNo": "5435",
+          "slug": "517491-zenith-morne-a-l-eau"
+        },
+        "U.S. ANSOISE": {
+          "nom": "U.S. ANSOISE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC512712.jpg",
+          "clNo": "4064",
+          "slug": "512712-u-s-ansoise"
+        }
+      },
+      "stades": {
+        "STADE DE CHÂTEAU GAILLARD_[' RUE CLOVIS CHANDLER', '97160 LE MOULE']": {
+          "nom": "STADE DE CHÂTEAU GAILLARD",
+          "adresse": " RUE CLOVIS CHANDLER | 97160 LE MOULE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE VIEUX BOURG_[' ROUTE DE FREBOS', '97111 MORNE A L EAU']": {
+          "nom": "STADE DE VIEUX BOURG",
+          "adresse": " ROUTE DE FREBOS | 97111 MORNE A L EAU",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
+      "officiels": {
+        "LORRICK LANDOU_AC": {
+          "nom": "LORRICK LANDOU",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "AMANY THOMAS_AC": {
+          "nom": "AMANY THOMAS",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        }
+      },
       "joueurs": {},
       "matchs": [
         {
@@ -1719,10 +1850,14 @@
           "heure": "08:30",
           "recevant": "SSM",
           "visiteur": "AS LE MOULE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE CHÂTEAU GAILLARD_[' RUE CLOVIS CHANDLER', '97160 LE MOULE']",
+          "officiels": [
+            "LORRICK LANDOU_AC"
+          ]
         },
         {
           "id": 79476937,
@@ -1730,10 +1865,14 @@
           "heure": "08:30",
           "recevant": "ZENITH MORNE A L'EAU",
           "visiteur": "U.S. ANSOISE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "non joué"
+          "buts_recevant": 0,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE VIEUX BOURG_[' ROUTE DE FREBOS', '97111 MORNE A L EAU']",
+          "officiels": [
+            "AMANY THOMAS_AC"
+          ]
         },
         {
           "id": 79476939,
@@ -1962,6 +2101,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC512729.jpg",
           "clNo": "4075",
           "slug": "512729-o-c-morne-a-l-eau"
+        },
+        "JUVENTUS STE ANNE": {
+          "nom": "JUVENTUS STE ANNE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC512727.jpg",
+          "clNo": "4074",
+          "slug": "512727-juventus-ste-anne"
+        },
+        "A.S.C. MADIANA": {
+          "nom": "A.S.C. MADIANA",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC531614.jpg",
+          "clNo": "14329",
+          "slug": "531614-a-s-c-madiana"
         }
       },
       "stades": {
@@ -1971,11 +2122,23 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "Stade Hector Grandman 1 - Calendrier_['ROUTE DE BOIS JOLAN', '97180 STE ANNE']": {
+          "nom": "Stade Hector Grandman 1 - Calendrier",
+          "adresse": "ROUTE DE BOIS JOLAN | 97180 STE ANNE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
         "MATHYS SAINT CLAIR_AC": {
           "nom": "MATHYS SAINT CLAIR",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "EMRYS BEZAULT_AC": {
+          "nom": "EMRYS BEZAULT",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -2107,10 +2270,14 @@
           "heure": "08:30",
           "recevant": "JUVENTUS STE ANNE",
           "visiteur": "A.S.C. MADIANA",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Hector Grandman 1 - Calendrier_['ROUTE DE BOIS JOLAN', '97180 STE ANNE']",
+          "officiels": [
+            "EMRYS BEZAULT_AC"
+          ]
         },
         {
           "id": 79476399,
@@ -2195,12 +2362,25 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC542881.jpg",
           "clNo": "22267",
           "slug": "542881-asc-carenage"
+        },
+        "S.SCOLAIRE": {
+          "nom": "S.SCOLAIRE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC512736.jpg",
+          "clNo": "4080",
+          "slug": "512736-s-scolaire"
         }
       },
       "stades": {
         "COMPLEXE SPORTIF MAMIEL_['Petit Perou', '97139 LES ABYMES']": {
           "nom": "COMPLEXE SPORTIF MAMIEL",
           "adresse": "Petit Perou | 97139 LES ABYMES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE FOUILLOLE_['D125', 'UNIVERSITE DES ANTILLES', '97110 POINTE A PITRE']": {
+          "nom": "STADE DE FOUILLOLE",
+          "adresse": "D125 | UNIVERSITE DES ANTILLES | 97110 POINTE A PITRE",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -2420,10 +2600,13 @@
           "heure": "08:30",
           "recevant": "ASC CARENAGE",
           "visiteur": "S.SCOLAIRE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE FOUILLOLE_['D125', 'UNIVERSITE DES ANTILLES', '97110 POINTE A PITRE']",
+          "forfait": true,
+          "vainqueur_forfait": "S.SCOLAIRE"
         },
         {
           "id": 79476351,
