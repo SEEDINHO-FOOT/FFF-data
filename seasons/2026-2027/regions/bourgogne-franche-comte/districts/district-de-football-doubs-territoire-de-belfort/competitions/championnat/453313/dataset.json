@@ -10,8 +10,48 @@
     {
       "cp_slug": "453313-foot-loisir-automne/phase/1/1",
       "competition": "Foot Loisir Automne",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "MEZIRE FESCHES": {
+          "nom": "MEZIRE FESCHES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC580519.jpg",
+          "clNo": "176629",
+          "slug": "580519-mezire-fesches"
+        },
+        "OFFEMONT AS": {
+          "nom": "OFFEMONT AS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC531395.jpg",
+          "clNo": "14187",
+          "slug": "531395-offemont-as"
+        },
+        "EVETTE SALBERT": {
+          "nom": "EVETTE SALBERT",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC534059.jpg",
+          "clNo": "15970",
+          "slug": "534059-evette-salbert"
+        },
+        "ALLENJOIE": {
+          "nom": "ALLENJOIE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC534058.jpg",
+          "clNo": "15969",
+          "slug": "534058-allenjoie"
+        }
+      },
+      "stades": {
+        "CS ROBERT DEMUTH - STADE MUNICIPAL 2_['1 RUE DU STADE', 'TERRAIN ANNEXE', '90120 MEZIRE']": {
+          "nom": "CS ROBERT DEMUTH - STADE MUNICIPAL 2",
+          "adresse": "1 RUE DU STADE | TERRAIN ANNEXE | 90120 MEZIRE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE RENÉ BEUCLER_['LE BOURG', '25490 ALLENJOIE']": {
+          "nom": "STADE RENÉ BEUCLER",
+          "adresse": "LE BOURG | 25490 ALLENJOIE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -43,10 +83,11 @@
           "heure": "19:30",
           "recevant": "MEZIRE FESCHES",
           "visiteur": "OFFEMONT AS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "CS ROBERT DEMUTH - STADE MUNICIPAL 2_['1 RUE DU STADE', 'TERRAIN ANNEXE', '90120 MEZIRE']"
         },
         {
           "id": 79360973,
@@ -62,13 +103,14 @@
         {
           "id": 79360971,
           "date": "2026-10-06",
-          "heure": "19:30",
+          "heure": "19:00",
           "recevant": "EVETTE SALBERT",
           "visiteur": "ALLENJOIE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE RENÉ BEUCLER_['LE BOURG', '25490 ALLENJOIE']"
         },
         {
           "id": 79360965,
@@ -209,6 +251,24 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC534058.jpg",
           "clNo": "15969",
           "slug": "534058-allenjoie-2"
+        },
+        "ESSERT": {
+          "nom": "ESSERT",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC529381.jpg",
+          "clNo": "12814",
+          "slug": "529381-essert"
+        },
+        "MONTBELIARD ASC": {
+          "nom": "MONTBELIARD ASC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC552876.jpg",
+          "clNo": "155402",
+          "slug": "552876-montbeliard-asc"
+        },
+        "AUTO PEUGEOT": {
+          "nom": "AUTO PEUGEOT",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC600453.jpg",
+          "clNo": "26539",
+          "slug": "600453-auto-peugeot"
         }
       },
       "stades": {
@@ -222,6 +282,20 @@
         "STADE DE LA PLAINE 2_['RUE DES ECOLES', 'TERRAIN ANNEXE', '90800 BAVILLIERS']": {
           "nom": "STADE DE LA PLAINE 2",
           "adresse": "RUE DES ECOLES | TERRAIN ANNEXE | 90800 BAVILLIERS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE JEAN NEUHAUSER 1_['RUE DES COMMANDOS DE FRANCE', '90850 ESSERT']": {
+          "nom": "STADE JEAN NEUHAUSER 1",
+          "adresse": "RUE DES COMMANDOS DE FRANCE | 90850 ESSERT",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE ANNEQUIN 1_['STADE DE LA CHIFFOGNE', ' BD 21E BTN DE CHASSEURS A PIED', 'TERRAIN HONNEUR', '25200 MONTBELIARD']": {
+          "nom": "STADE ANNEQUIN 1",
+          "adresse": "STADE DE LA CHIFFOGNE |  BD 21E BTN DE CHASSEURS A PIED | TERRAIN HONNEUR | 25200 MONTBELIARD",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -260,21 +334,22 @@
           "heure": "19:30",
           "recevant": "ESSERT",
           "visiteur": "MONTBELIARD ASC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 8,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JEAN NEUHAUSER 1_['RUE DES COMMANDOS DE FRANCE', '90850 ESSERT']"
         },
         {
           "id": 79394756,
-          "date": "2026-10-08",
+          "date": "2026-10-09",
           "heure": "19:30",
           "recevant": "ALLENJOIE 2",
           "visiteur": "MONTBELIARD ASC",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "à venir"
+          "statut": "reporté"
         },
         {
           "id": 79394743,
@@ -293,10 +368,11 @@
           "heure": "19:30",
           "recevant": "AUTO PEUGEOT",
           "visiteur": "AUDIN HANDI COMTOIS 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ANNEQUIN 1_['STADE DE LA CHIFFOGNE', ' BD 21E BTN DE CHASSEURS A PIED', 'TERRAIN HONNEUR', '25200 MONTBELIARD']"
         },
         {
           "id": 79394745,
@@ -486,7 +562,7 @@
         },
         {
           "id": 79648602,
-          "date": "2026-10-01",
+          "date": "2026-10-08",
           "heure": "19:30",
           "recevant": "F.C.LIEVREMONT-ARCON",
           "visiteur": "TT PONTARLIER FC",

@@ -89,6 +89,27 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE JEAN MARC CARRE_['2 AVENUE DU STADE', '37340 CLERE LES PINS']": {
+          "nom": "STADE JEAN MARC CARRE",
+          "adresse": "2 AVENUE DU STADE | 37340 CLERE LES PINS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE LES DORMANTS_['LES DORMANTS', '37140 ST NICOLAS DE BOURGUEIL']": {
+          "nom": "STADE LES DORMANTS",
+          "adresse": "LES DORMANTS | 37140 ST NICOLAS DE BOURGUEIL",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE PIERRE BOURBON 2_['Rue de la Tuilerie', '37320 CORMERY']": {
+          "nom": "STADE PIERRE BOURBON 2",
+          "adresse": "Rue de la Tuilerie | 37320 CORMERY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -112,6 +133,41 @@
           "nom": "CAROLINE G.",
           "maillot": 9,
           "club": "ST.NICOLAS BO"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt6lSkmmbA": {
+          "nom": "LAURA L.",
+          "maillot": 12,
+          "club": "VALLEE VERTE ES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp7liwnn78": {
+          "nom": "JULIE R.",
+          "maillot": 4,
+          "club": "VALLEE VERTE ES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19ki8gnL8": {
+          "nom": "ZOE L.",
+          "maillot": 6,
+          "club": "ST.NICOLAS BO"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx2lC8nn74": {
+          "nom": "LUDIVINE B.",
+          "maillot": 2,
+          "club": "ST.NICOLAS BO"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd9lywlmLU": {
+          "nom": "LENA M.",
+          "maillot": 10,
+          "club": "ST.NICOLAS BO"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh6lCktnr4": {
+          "nom": "EMILIE S.",
+          "maillot": 6,
+          "club": "VALLEE VERTE ES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp5kyomn7c": {
+          "nom": "EVIE G.",
+          "maillot": 5,
+          "club": "VALLEE VERTE ES"
         }
       },
       "matchs": [
@@ -208,10 +264,11 @@
           "heure": "10:00",
           "recevant": "CLERE LES PINS US",
           "visiteur": "PERNAY AMBILLOU US 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JEAN MARC CARRE_['2 AVENUE DU STADE', '37340 CLERE LES PINS']"
         },
         {
           "id": 79559523,
@@ -219,10 +276,41 @@
           "heure": "10:00",
           "recevant": "ST.NICOLAS BO",
           "visiteur": "VALLEE VERTE ES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 19,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 10,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt6lSkmmbA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp7liwnn78",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK19ki8gnL8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh9myghlrM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx2lC8nn74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9lywlmLU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh6lCktnr4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5kyomn7c",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE LES DORMANTS_['LES DORMANTS', '37140 ST NICOLAS DE BOURGUEIL']"
         },
         {
           "id": 79559524,
@@ -230,10 +318,11 @@
           "heure": "10:00",
           "recevant": "VALLEE DU LYS ASVL",
           "visiteur": "FONDETTES ENT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE WILLIAM LAMBERT 1_['22 RUE DE LA CHATAIGNERAIE', '37260 PONT DE RUAN']"
         },
         {
           "id": 79559527,
@@ -241,21 +330,23 @@
           "heure": "20:00",
           "recevant": "FONDETTES ENT",
           "visiteur": "ST.NICOLAS BO",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MICHEL ET ÉLISE PEYTUREAU_['RUE DU MOULIN A VENT', 'TERRAIN HONNEUR', '37230 FONDETTES']"
         },
         {
           "id": 79559526,
           "date": "2026-10-11",
-          "heure": "10:00",
+          "heure": "13:00",
           "recevant": "VALLEE VERTE ES",
           "visiteur": "STE MAURE MAILLE FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 14,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PIERRE BOURBON 2_['Rue de la Tuilerie', '37320 CORMERY']"
         },
         {
           "id": 79559529,

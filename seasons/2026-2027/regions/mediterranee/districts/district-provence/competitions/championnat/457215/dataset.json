@@ -28,6 +28,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503089.jpg",
           "clNo": "1651",
           "slug": "503089-f-c-lambescain"
+        },
+        "AV.S. MEYRARGUAIS": {
+          "nom": "AV.S. MEYRARGUAIS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503270.jpg",
+          "clNo": "1732",
+          "slug": "503270-av-s-meyrarguais"
         }
       },
       "stades": {
@@ -49,6 +55,11 @@
       "officiels": {
         "ALAIN JOSPITRE_AC": {
           "nom": "ALAIN JOSPITRE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "MICHEL PAGANO_AC": {
+          "nom": "MICHEL PAGANO",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -103,6 +114,56 @@
           "nom": "VALENTINE T.",
           "maillot": 11,
           "club": "F.C. LAMBESCAIN"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt3kSwgnL4": {
+          "nom": "NOEMIE D.",
+          "maillot": 4,
+          "club": "AV.S. MEYRARGUAIS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt3kSoin7M": {
+          "nom": "LAURA D.",
+          "maillot": 10,
+          "club": "AV.S. MEYRARGUAIS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp9kSYlmbE": {
+          "nom": "WHITNEY M.",
+          "maillot": 2,
+          "club": "AV.S. MEYRARGUAIS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt3kSwgn7A": {
+          "nom": "OCEANE Y.",
+          "maillot": 11,
+          "club": "AV.S. MEYRARGUAIS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt_ky0jlrM": {
+          "nom": "MATHILDE M.",
+          "maillot": 7,
+          "club": "AV.S. MEYRARGUAIS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl9miklnLQ": {
+          "nom": "ALYSSA C.",
+          "maillot": 9,
+          "club": "AV.S. MEYRARGUAIS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16kCYtmbA": {
+          "nom": "KAYLIAA C.",
+          "maillot": 7,
+          "club": "OLYMPIQUE DE PEYNIER"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt5kicgnLY": {
+          "nom": "MAELI D.",
+          "maillot": 9,
+          "club": "OLYMPIQUE DE PEYNIER"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp-lCcnlrI": {
+          "nom": "MARIE A.",
+          "maillot": 5,
+          "club": "OLYMPIQUE DE PEYNIER"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd-liknnbA": {
+          "nom": "PASCALE M.",
+          "maillot": 10,
+          "club": "OLYMPIQUE DE PEYNIER"
         }
       },
       "matchs": [
@@ -198,10 +259,51 @@
           "heure": "16:30",
           "recevant": "OLYMPIQUE DE PEYNIER",
           "visiteur": "AV.S. MEYRARGUAIS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 10,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 13,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3kSwgnL4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3kSoin7M",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 19,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9kSYlmbE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3kSwgn7A",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 27,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt_ky0jlrM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl9miklnLQ",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 42,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16kCYtmbA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt5kicgnLY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 64,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp-lCcnlrI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd-liknnbA",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE YVES GINHOUX_['LA GARENNE', 'LA ROUTE DES MICHELS - 288 D57A', 'BASE DE LOISIRS', '13790 PEYNIER']",
+          "officiels": [
+            "MICHEL PAGANO_AC"
+          ]
         },
         {
           "id": 79602419,
@@ -299,6 +401,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC764417.jpg",
           "clNo": "201887",
           "slug": "764417-sc-aix-fEminin-2"
+        },
+        "OLYMPIQUE DE PEYNIER 2": {
+          "nom": "OLYMPIQUE DE PEYNIER 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC553953.jpg",
+          "clNo": "141142",
+          "slug": "553953-olympique-de-peynier-2"
+        },
+        "SIMIANE COLLONGUE O.": {
+          "nom": "SIMIANE COLLONGUE O.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565550.jpg",
+          "clNo": "206025",
+          "slug": "565550-simiane-collongue-o"
         }
       },
       "stades": {
@@ -315,6 +429,20 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE CROCE CYRILLE 1_['LOTISSEMENT LES PUGETTES', 'BOULEVARD MONTAIGNE', '13340 ROGNAC']": {
+          "nom": "STADE CROCE CYRILLE 1",
+          "adresse": "LOTISSEMENT LES PUGETTES | BOULEVARD MONTAIGNE | 13340 ROGNAC",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE ERIC DI MECO_['404 ROUTE DE GARDANNE', '13109 SIMIANE COLLONGUE']": {
+          "nom": "STADE ERIC DI MECO",
+          "adresse": "404 ROUTE DE GARDANNE | 13109 SIMIANE COLLONGUE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -325,6 +453,11 @@
         },
         "Anonyme_AC": {
           "nom": "Anonyme",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "BELATTAR BEDANI_AC": {
+          "nom": "BELATTAR BEDANI",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -413,21 +546,29 @@
           "heure": "16:30",
           "recevant": "A.S. ROGNAC",
           "visiteur": "OLYMPIQUE DE PEYNIER 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE CROCE CYRILLE 1_['LOTISSEMENT LES PUGETTES', 'BOULEVARD MONTAIGNE', '13340 ROGNAC']",
+          "officiels": [
+            "BELATTAR BEDANI_AC"
+          ]
         },
         {
           "id": 79602499,
           "date": "2026-10-03",
           "heure": "16:30",
-          "recevant": "SIMIANE COLLONGUE O. 3",
+          "recevant": "SIMIANE COLLONGUE O.",
           "visiteur": "J.S. ISTREENNE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 10,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ERIC DI MECO_['404 ROUTE DE GARDANNE', '13109 SIMIANE COLLONGUE']",
+          "officiels": [
+            "Anonyme_AC"
+          ]
         },
         {
           "id": 79602500,
@@ -456,7 +597,7 @@
           "date": "2026-10-10",
           "heure": "16:30",
           "recevant": "SC AIX FÉMININ 2",
-          "visiteur": "S.C. VITROLLES 2",
+          "visiteur": "OLYMPIQUE DE PEYNIER 2",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
@@ -464,9 +605,9 @@
         },
         {
           "id": 79602502,
-          "date": "2026-10-10",
-          "heure": "16:30",
-          "recevant": "SIMIANE COLLONGUE O. 3",
+          "date": "2026-10-14",
+          "heure": "20:00",
+          "recevant": "SIMIANE COLLONGUE O.",
           "visiteur": "A.S. ROGNAC",
           "buts_recevant": null,
           "buts_visiteur": null,
@@ -584,6 +725,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE ALBERT MONNET_['40 AVENUE PASTEUR', 'TERRAIN ALBERT MONNET A', '13380 PLAN DE CUQUES']": {
+          "nom": "STADE ALBERT MONNET",
+          "adresse": "40 AVENUE PASTEUR | TERRAIN ALBERT MONNET A | 13380 PLAN DE CUQUES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -601,6 +749,26 @@
           "nom": "CLAUDE MAMBERT",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "ABDELKADER BELKACEM_AC": {
+          "nom": "ABDELKADER BELKACEM",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ALAIN JOSPITRE_AC": {
+          "nom": "ALAIN JOSPITRE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "MOHAMED LADACI_AC": {
+          "nom": "MOHAMED LADACI",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "TOUFIK LAMACHI_AC": {
+          "nom": "TOUFIK LAMACHI",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -611,7 +779,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl_kSgnl7M": {
           "nom": "SOPHIE G.",
-          "maillot": 10,
+          "maillot": 9,
           "club": "U.S. MICHELIS"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh4lCwhm7U": {
@@ -621,12 +789,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKlPEKl8kC0nlr4": {
           "nom": "CORALIE S.",
-          "maillot": 10,
+          "maillot": 11,
           "club": "U.S. MICHELIS"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKx2ky4mmrA": {
           "nom": "LAURIE A.",
-          "maillot": 11,
+          "maillot": 7,
           "club": "U.S. MICHELIS"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh9miggmLA": {
@@ -656,12 +824,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp_ki4llr4": {
           "nom": "LAETICIA B.",
-          "maillot": 8,
+          "maillot": 6,
           "club": "C.A. PLAN DE CUQUES"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK12kCglnLc": {
           "nom": "LEA P.",
-          "maillot": 12,
+          "maillot": 4,
           "club": "C.A. PLAN DE CUQUES"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKx5lScjm7c": {
@@ -676,22 +844,22 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp8lSsknbc": {
           "nom": "CAROLINE F.",
-          "maillot": 2,
+          "maillot": 9,
           "club": "C.A. PLAN DE CUQUES"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp6miwsmb8": {
           "nom": "FATEN A.",
-          "maillot": 10,
+          "maillot": 7,
           "club": "C.A. PLAN DE CUQUES"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt8kS4lm7A": {
           "nom": "LILOU C.",
-          "maillot": 4,
+          "maillot": 12,
           "club": "C.A. PLAN DE CUQUES"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp2lyclnLQ": {
-          "nom": "ASSIA B.",
-          "maillot": 4,
+          "nom": "ASSIA A.",
+          "maillot": 2,
           "club": "ASC BATARELLE"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp6kywtmb8": {
@@ -718,6 +886,106 @@
           "nom": "CHARLENE M.",
           "maillot": 9,
           "club": "CARNOUX F.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd7lCcmn7U": {
+          "nom": "SHAMILA M.",
+          "maillot": 9,
+          "club": "J.S. ST JULIEN"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt5ly4tn7Y": {
+          "nom": "FADELA B.",
+          "maillot": 4,
+          "club": "ASC BATARELLE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlMFap9kC4jlr4": {
+          "nom": "CINDY S.",
+          "maillot": 9,
+          "club": "ASC BATARELLE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh7kS8hn7Q": {
+          "nom": "LAURA T.",
+          "maillot": 8,
+          "club": "ASC BATARELLE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt8kywnmb4": {
+          "nom": "FATIMA B.",
+          "maillot": 10,
+          "club": "ASC BATARELLE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt9ligtlrc": {
+          "nom": "MORGANE M.",
+          "maillot": 8,
+          "club": "USC ROUVIERE MARS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp2lCsinrM": {
+          "nom": "STEPHANIE D.",
+          "maillot": 9,
+          "club": "USC ROUVIERE MARS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt-miYln78": {
+          "nom": "LALY M.",
+          "maillot": 6,
+          "club": "C.A. PLAN DE CUQUES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK18kykhnLI": {
+          "nom": "ANA CATARINA D.",
+          "maillot": 10,
+          "club": "U.S. MICHELIS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt9liYmmLI": {
+          "nom": "CHARLINE B.",
+          "maillot": 11,
+          "club": "C.A. PLAN DE CUQUES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6miwknrY": {
+          "nom": "NAIA P.",
+          "maillot": 3,
+          "club": "C.A. PLAN DE CUQUES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt7kismlrI": {
+          "nom": "MAELLA L.",
+          "maillot": 10,
+          "club": "C.A. PLAN DE CUQUES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd7misjmLM": {
+          "nom": "CLARA L.",
+          "maillot": 1,
+          "club": "C.A. PLAN DE CUQUES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt9lyollrU": {
+          "nom": "CLOE G.",
+          "maillot": 9,
+          "club": "C.A. PLAN DE CUQUES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx5kyknnLU": {
+          "nom": "LEA L.",
+          "maillot": 6,
+          "club": "ASC BATARELLE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlPFKl8kSgtnbY": {
+          "nom": "JESSICA D.",
+          "maillot": 11,
+          "club": "ASC BATARELLE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd6kSknnrA": {
+          "nom": "CHLORA L.",
+          "maillot": 11,
+          "club": "C.A. PLAN DE CUQUES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh3li4tl7E": {
+          "nom": "CARLA V.",
+          "maillot": 8,
+          "club": "C.A. PLAN DE CUQUES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt8ky8knLI": {
+          "nom": "RIMA H.",
+          "maillot": 12,
+          "club": "ASC BATARELLE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt-kCoknrc": {
+          "nom": "MANON A.",
+          "maillot": 5,
+          "club": "U.S. MICHELIS"
         }
       },
       "matchs": [
@@ -934,10 +1202,37 @@
           "heure": "16:30",
           "recevant": "USC ROUVIERE MARS",
           "visiteur": "ASC BATARELLE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 8,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt5ly4tn7Y",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlMFap9kC4jlr4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 22,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh7kS8hn7Q",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt8kywnmb4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 22,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt9ligtlrc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp2lCsinrM",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE HENRI MICHELIER_['MONTREDON', '131 AVENUE MADRAGUE DE MONTREDON', '13008 MARSEILLE']",
+          "officiels": [
+            "ALAIN JOSPITRE_AC"
+          ]
         },
         {
           "id": 79602468,
@@ -945,10 +1240,73 @@
           "heure": "16:30",
           "recevant": "C.A. PLAN DE CUQUES",
           "visiteur": "U.S. MICHELIS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 21,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-miYln78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt8kS4lm7A",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 23,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx2ky4mmrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK18kykhnLI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 31,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12kCglnLc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt9liYmmLI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 51,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6miwknrY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7kismlrI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 68,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7misjmLM",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 70,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12kCglnLc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt9lyollrU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 72,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4lCwhm7U",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlPEKl8kC0nlr4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 80,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16licimbU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl_kSgnl7M",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE ALBERT MONNET_['40 AVENUE PASTEUR', 'TERRAIN ALBERT MONNET A', '13380 PLAN DE CUQUES']",
+          "officiels": [
+            "Anonyme_AC"
+          ]
         },
         {
           "id": 79602469,
@@ -956,39 +1314,157 @@
           "heure": "16:00",
           "recevant": "CARNOUX F.C.",
           "visiteur": "J.S. ST JULIEN",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl4lS8tlrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7kyclmbE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh9miggmLA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7lCcmn7U",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MARCEL CERDAN 2_['RUE PIERRE PUGET', 'TERRAIN ANNEXE FOOT / RUGBY', '13470 CARNOUX EN PROVENCE']",
+          "officiels": [
+            "ABDELKADER BELKACEM_AC"
+          ]
         },
         {
           "id": 79602470,
           "date": "2026-10-10",
-          "heure": "16:30",
+          "heure": "17:00",
           "recevant": "U.S. MICHELIS",
           "visiteur": "J.S. ST JULIEN",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 34,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4lCwhm7U",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx2ky4mmrA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt-kCoknrc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl_kSgnl7M",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE ANTOINE EGHIKIAN 1_['AVENUE DU PONTET', 'TERRAIN (A)', '13011 MARSEILLE']",
+          "officiels": [
+            "TOUFIK LAMACHI_AC"
+          ]
         },
         {
           "id": 79602471,
           "date": "2026-10-10",
-          "heure": "16:30",
+          "heure": "16:00",
           "recevant": "ASC BATARELLE",
           "visiteur": "C.A. PLAN DE CUQUES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 12,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp6miwsmb8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7kismlrI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 17,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt8kywnmb4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp6kywtmb8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 17,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp2lyclnLQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlMFap9kC4jlr4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 17,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx5kyknnLU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlPFKl8kSgtnbY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt8kS4lm7A",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6kSknnrA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 60,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3li4tl7E",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 60,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp_ki4llr4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp8lSsknbc",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 60,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3li4tl7E",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt9lyollrU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 65,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp2lyclnLQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt8ky8knLI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 83,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh7kS8hn7Q",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE BATARELLE_['Traverse de Party', '13013 MARSEILLE']",
+          "officiels": [
+            "MOHAMED LADACI_AC"
+          ]
         },
         {
           "id": 79602472,
-          "date": "2026-10-10",
-          "heure": "16:30",
-          "recevant": "USC ROUVIERE MARS",
-          "visiteur": "CARNOUX F.C.",
+          "date": "2026-10-12",
+          "heure": "20:30",
+          "recevant": "CARNOUX F.C.",
+          "visiteur": "USC ROUVIERE MARS",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,

@@ -88,6 +88,27 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MICHEL GUIGNARD 1_['2 RUE DU CHAMP LE ROY', '36000 CHATEAUROUX']": {
+          "nom": "STADE MICHEL GUIGNARD 1",
+          "adresse": "2 RUE DU CHAMP LE ROY | 36000 CHATEAUROUX",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MAURICE BIJOTAT 1_['RUE JEAN PACTON', '36400 MONTGIVRAY']": {
+          "nom": "STADE MAURICE BIJOTAT 1",
+          "adresse": "RUE JEAN PACTON | 36400 MONTGIVRAY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE JEAN DELAVEAU 2_['23 RUE DU 30 AOUT 1944', '36330 LE POINCONNET']": {
+          "nom": "STADE JEAN DELAVEAU 2",
+          "adresse": "23 RUE DU 30 AOUT 1944 | 36330 LE POINCONNET",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -140,6 +161,26 @@
         "ir3_vj-lzPeINLfhzILsrKFOFK12kiomm7M": {
           "nom": "VALENTINO B.",
           "maillot": 12,
+          "club": "BERRI CHATEAUROUX 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK12lC4snLI": {
+          "nom": "HUGO B.",
+          "maillot": 8,
+          "club": "ESPOIR BOISCHAUT SUD"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt7miwknbE": {
+          "nom": "ALEXIS B.",
+          "maillot": 9,
+          "club": "ESPOIR BOISCHAUT SUD"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx9kC8snrM": {
+          "nom": "JASSIM T.",
+          "maillot": 8,
+          "club": "BERRI CHATEAUROUX 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx8kyghn7U": {
+          "nom": "MAHE C.",
+          "maillot": 9,
           "club": "BERRI CHATEAUROUX 3"
         }
       },
@@ -285,10 +326,11 @@
           "heure": "10:30",
           "recevant": "FC DEOLS",
           "visiteur": "BERRI CHATEAUROUX 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JEAN BIZET 2_['181 AVENUE DU GENERAL DE GAULLE', '36130 DEOLS']"
         },
         {
           "id": 56563178,
@@ -296,10 +338,11 @@
           "heure": "14:00",
           "recevant": "TOUVENT CHAT.",
           "visiteur": "ISSOUDUN SA",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MICHEL GUIGNARD 1_['2 RUE DU CHAMP LE ROY', '36000 CHATEAUROUX']"
         },
         {
           "id": 56563330,
@@ -307,10 +350,27 @@
           "heure": "14:00",
           "recevant": "ESPOIR BOISCHAUT SUD",
           "visiteur": "BERRI CHATEAUROUX 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12lC4snLI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7miwknbE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx9kC8snrM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8kyghn7U",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MAURICE BIJOTAT 1_['RUE JEAN PACTON', '36400 MONTGIVRAY']"
         },
         {
           "id": 56563349,
@@ -318,10 +378,11 @@
           "heure": "14:00",
           "recevant": "POINCONNET  US",
           "visiteur": "U.S. LE BLANC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JEAN DELAVEAU 2_['23 RUE DU 30 AOUT 1944', '36330 LE POINCONNET']"
         },
         {
           "id": 56563011,

@@ -109,10 +109,76 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE DU RUTON 2_['1 AVENUE FRANCOIS MITTERRAND', '37160 DESCARTES']": {
+          "nom": "STADE DU RUTON 2",
+          "adresse": "1 AVENUE FRANCOIS MITTERRAND | 37160 DESCARTES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football réduit"
+        },
+        "STADE GUY FÉLIX_['RUE DE PRENEY', '37540 ST CYR SUR LOIRE']": {
+          "nom": "STADE GUY FÉLIX",
+          "adresse": "RUE DE PRENEY | 37540 ST CYR SUR LOIRE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
-      "officiels": {},
-      "joueurs": {},
+      "officiels": {
+        "MAIWENN LE BARH_AC": {
+          "nom": "MAIWENN LE BARH",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ALPHONSE EGEA_D3": {
+          "nom": "ALPHONSE EGEA",
+          "role": "Délégué adjoint 3",
+          "role_cod": "D3"
+        }
+      },
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFKx7lyckm7c": {
+          "nom": "MILAN T.",
+          "maillot": 7,
+          "club": "AZAY CHEILLE SC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx7miglmLY": {
+          "nom": "LOIC A.",
+          "maillot": 14,
+          "club": "AZAY CHEILLE SC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx4liYjn7c": {
+          "nom": "VALENTIN L.",
+          "maillot": 7,
+          "club": "MONNAIE US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx7kighlrA": {
+          "nom": "LUCAS H.",
+          "maillot": 9,
+          "club": "MONNAIE US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx8lycnnbc": {
+          "nom": "HUGO B.",
+          "maillot": 6,
+          "club": "MONNAIE US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx4lisgn7I": {
+          "nom": "SIMON G.",
+          "maillot": 11,
+          "club": "MONNAIE US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx-kSYim78": {
+          "nom": "STAN B.",
+          "maillot": 5,
+          "club": "MONNAIE US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt-licimbM": {
+          "nom": "MARCEAU J.",
+          "maillot": 10,
+          "club": "MONNAIE US"
+        }
+      },
       "matchs": [
         {
           "id": 79518490,
@@ -216,32 +282,69 @@
           "heure": "10:00",
           "recevant": "MONNAIE US",
           "visiteur": "AZAY CHEILLE SC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 14,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7lyckm7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7miglmLY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 27,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4liYjn7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7kighlrA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 47,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8lycnnbc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4lisgn7I",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 64,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx-kSYim78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-licimbM",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "Stade Emile Leger 4_[' RUE PIERRE DE COUBERTIN', '37380 MONNAIE']",
+          "officiels": [
+            "MAIWENN LE BARH_AC",
+            "ALPHONSE EGEA_D3"
+          ]
         },
         {
           "id": 79518499,
           "date": "2026-10-03",
-          "heure": "10:30",
+          "heure": "11:00",
           "recevant": "DESCARTES SG ENT",
           "visiteur": "ST PIERRE DES CORPS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 11,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DU RUTON 2_['1 AVENUE FRANCOIS MITTERRAND', '37160 DESCARTES']"
         },
         {
           "id": 79518498,
           "date": "2026-10-03",
-          "heure": "14:15",
+          "heure": "11:30",
           "recevant": "ST CYR SUR LOIRE EB 2",
           "visiteur": "ST SYMPHORIEN FA",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GUY FÉLIX_['RUE DE PRENEY', '37540 ST CYR SUR LOIRE']"
         },
         {
           "id": 79518500,
@@ -249,10 +352,11 @@
           "heure": "14:15",
           "recevant": "LOIRE ET VIGNES US",
           "visiteur": "FONDETTES AS ENT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['Rue du stade', '37210 VOUVRAY']"
         },
         {
           "id": 79518503,

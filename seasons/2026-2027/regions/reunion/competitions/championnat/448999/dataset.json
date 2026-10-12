@@ -513,6 +513,11 @@
           "nom": "JEAN ANDRE MASSON",
           "role": "Arbitre assistant 1",
           "role_cod": "A1"
+        },
+        "SULLIMAN ASSENJEE_AC": {
+          "nom": "SULLIMAN ASSENJEE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -708,7 +713,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK1_mi4nmLU": {
           "nom": "KENJI JEAN FABIEN R.",
-          "maillot": 11,
+          "maillot": 8,
           "club": "AS BRETAGNE 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd7ly0hnbU": {
@@ -895,6 +900,26 @@
           "nom": "NOAH JEAN LUCAS K.",
           "maillot": 6,
           "club": "FC LA VILLE STE SUZ"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx2kS0smrE": {
+          "nom": "MATHIS I.",
+          "maillot": 11,
+          "club": "F.C.R. DES ROCHES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx9myYnnLQ": {
+          "nom": "ERWAN FAMOS B.",
+          "maillot": 37,
+          "club": "SP.C. PALMIPLAINOIS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd9kCsgnbI": {
+          "nom": "CYRIL P.",
+          "maillot": 20,
+          "club": "FC LA VILLE STE SUZ"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd_my0klrA": {
+          "nom": "KAIS S.",
+          "maillot": 2,
+          "club": "AS BRETAGNE 2"
         }
       },
       "matchs": [
@@ -2455,10 +2480,26 @@
           "heure": "15:30",
           "recevant": "ET. SALAZIENNE",
           "visiteur": "F.C.R. DES ROCHES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 80,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx2kS0smrE",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "Stade PauL Dominique Hubert_['HELL-BOURG', '97433 SALAZIE']",
+          "officiels": [
+            "JEAN YANNICK NIACAVERE_AC",
+            "JEAN ANDRE MASSON_A1",
+            "Anonyme_A2"
+          ]
         },
         {
           "id": 55580602,
@@ -2466,10 +2507,34 @@
           "heure": "15:30",
           "recevant": "JUNIORS DIONYSIENS",
           "visiteur": "SP.C. PALMIPLAINOIS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 40,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9lywgn7M",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 45,
+              "type": "carton-rouge",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx9myYnnLQ",
+              "sanction": "R",
+              "sanction_detail": "R5",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE SAINT MICHEL_['93BIS RUE GENERAL DE GAULLE', '97400 ST DENIS']",
+          "officiels": [
+            "ROMAIN MARINIA RADIA PERMAL_AC",
+            "MARIE LOURDES KHOSALY_A1",
+            "Anonyme_A2"
+          ]
         },
         {
           "id": 55580603,
@@ -2488,10 +2553,42 @@
           "heure": "15:30",
           "recevant": "FC LA VILLE STE SUZ",
           "visiteur": "AS BRETAGNE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 60,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9kCsgnbI",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 61,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd_my0klrA",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 82,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK1_mi4nmLU",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE DEUX RIVES_['DEUX RIVES', '97441 STE SUZANNE']",
+          "officiels": [
+            "SULLIMAN ASSENJEE_AC",
+            "JULES ADRAS_A1",
+            "YANNICK RENE RAMAYE_A2"
+          ]
         },
         {
           "id": 55580606,
@@ -2947,6 +3044,31 @@
           "nom": "YOHAN PAYET",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "JEROME XAVIER CARO_AC": {
+          "nom": "JEROME XAVIER CARO",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "CEDRIC CUVELIER_A1": {
+          "nom": "CEDRIC CUVELIER",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
+        },
+        "YANNICK JACQUES CLOVIS_A1": {
+          "nom": "YANNICK JACQUES CLOVIS",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
+        },
+        "EMMANUEL AROULAPIN_A2": {
+          "nom": "EMMANUEL AROULAPIN",
+          "role": "Arbitre assistant 2",
+          "role_cod": "A2"
+        },
+        "LAURYNE TRULES_A1": {
+          "nom": "LAURYNE TRULES",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
         }
       },
       "joueurs": {
@@ -3059,6 +3181,36 @@
           "nom": "ELIOTT R.",
           "maillot": 8,
           "club": "ES PLATEAU CAILLOU"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd7liYml7Y": {
+          "nom": "DHANESH ROHAN F.",
+          "maillot": 7,
+          "club": "ENT.PLATE/ACF PITON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6kCYsmrU": {
+          "nom": "JONAS S.",
+          "maillot": 9,
+          "club": "ASC CORBEIL"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt8ly0il7U": {
+          "nom": "JOEY F.",
+          "maillot": 12,
+          "club": "ES PLATEAU CAILLOU"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh4kS8nn7A": {
+          "nom": "MAHE ALEXANDRE L.",
+          "maillot": 2,
+          "club": "ES PLATEAU CAILLOU"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt2ky8im7Q": {
+          "nom": "AMBDOUL KADIR S.",
+          "maillot": 21,
+          "club": "GRANDE FONTAINE FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx2kC4jlrE": {
+          "nom": "RICKENSON T.",
+          "maillot": 13,
+          "club": "GRANDE FONTAINE FC"
         }
       },
       "matchs": [
@@ -3756,14 +3908,20 @@
         },
         {
           "id": 55580678,
-          "date": "2026-09-05",
+          "date": "2026-10-10",
           "heure": "15:30",
           "recevant": "S.C. DU SUD",
           "visiteur": "AJS BELLEMENE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JEAN MICHEL DALLEAU_[' RUE DES RUBIS', '97450 ST LOUIS']",
+          "officiels": [
+            "Anonyme_AC",
+            "LAURYNE TRULES_A1",
+            "ISMAEL GRONDIN_A2"
+          ]
         },
         {
           "id": 55580680,
@@ -3964,10 +4122,42 @@
           "heure": "15:30",
           "recevant": "ASC CORBEIL",
           "visiteur": "ENT.PLATE/ACF PITON",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 22,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7liYml7Y",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 25,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6kCYsmrU",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 80,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt2kissnrc",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE DU CORBEIL_['st paul', '97460 ST PAUL']",
+          "officiels": [
+            "JEROME XAVIER CARO_AC",
+            "CEDRIC CUVELIER_A1",
+            "MAYRON CHRISTOPHE METANIRE_A2"
+          ]
         },
         {
           "id": 55580691,
@@ -3986,10 +4176,32 @@
           "heure": "15:30",
           "recevant": "GRANDE FONTAINE FC",
           "visiteur": "ES PLATEAU CAILLOU",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 10,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 32,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt8ly0il7U",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4kS8nn7A",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt2ky8im7Q",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx2kC4jlrE",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "Stade Jean pierre Sabiani_['LE BOURG', '97460 ST PAUL']",
+          "officiels": [
+            "RAOUL BEDYBOL LOUISE_AC",
+            "YANNICK JACQUES CLOVIS_A1",
+            "EMMANUEL AROULAPIN_A2"
+          ]
         },
         {
           "id": 55580693,
@@ -4292,6 +4504,13 @@
           "adresse": " RUE DES RUBIS | 97450 ST LOUIS",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "Stade De Plateau Cailloux_['st paul', '97460 ST PAUL']": {
+          "nom": "Stade De Plateau Cailloux",
+          "adresse": "st paul | 97460 ST PAUL",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
         }
       },
@@ -4645,6 +4864,31 @@
           "nom": "STEPHANE NICOLLE",
           "role": "Arbitre assistant 2",
           "role_cod": "A2"
+        },
+        "ERIC JEAN MERLO_AC": {
+          "nom": "ERIC JEAN MERLO",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "DAVID ADOLPHE_A1": {
+          "nom": "DAVID ADOLPHE",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
+        },
+        "SAID AHMADA_A2": {
+          "nom": "SAID AHMADA",
+          "role": "Arbitre assistant 2",
+          "role_cod": "A2"
+        },
+        "ALIX CADET_AC": {
+          "nom": "ALIX CADET",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "NICOLAS J BAPTISTE BERRICHON_A1": {
+          "nom": "NICOLAS J BAPTISTE BERRICHON",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
         }
       },
       "joueurs": {
@@ -4945,7 +5189,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt2ki8mnrU": {
           "nom": "LUCAS JEAN DANIEL P.",
-          "maillot": 2,
+          "maillot": 12,
           "club": "SS RIVIERE SPORTS 2"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp7miYinbA": {
@@ -6578,10 +6822,39 @@
           "heure": "15:30",
           "recevant": "ENT.ASP/ESPC",
           "visiteur": "SS RIVIERE SPORTS 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 15,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 23,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt8lC8lmbA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp7miYinbA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 32,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt2ki8mnrU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9kColmr8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 37,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9kCwtnbM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7lC4ilrc",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "Stade De Plateau Cailloux_['st paul', '97460 ST PAUL']",
+          "officiels": [
+            "ERIC JEAN MERLO_AC",
+            "DAVID ADOLPHE_A1",
+            "SAID AHMADA_A2"
+          ]
         },
         {
           "id": 55580900,
@@ -6589,10 +6862,16 @@
           "heure": "15:30",
           "recevant": "EF ST PIERRE",
           "visiteur": "AD VINCENDO SP",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GAËL ESTHER_['LIGNE PARADIS', '97410 ST PIERRE']",
+          "officiels": [
+            "ALIX CADET_AC",
+            "NICOLAS J BAPTISTE BERRICHON_A1",
+            "Anonyme_A2"
+          ]
         },
         {
           "id": 55580786,

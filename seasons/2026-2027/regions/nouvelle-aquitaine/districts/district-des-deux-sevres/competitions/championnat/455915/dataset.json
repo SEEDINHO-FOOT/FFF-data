@@ -96,6 +96,20 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE ARMAND TUZELET 1_['3 RUE DE LA FABRIQUE', '79250 NUEIL LES AUBIERS']": {
+          "nom": "STADE ARMAND TUZELET 1",
+          "adresse": "3 RUE DE LA FABRIQUE | 79250 NUEIL LES AUBIERS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "Stade Municipal Breuil Chaussée_['Route de Clazay', 'Breuil Chaussee', '79300 BRESSUIRE']": {
+          "nom": "Stade Municipal Breuil Chaussée",
+          "adresse": "Route de Clazay | Breuil Chaussee | 79300 BRESSUIRE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -107,7 +121,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd7kiginrQ": {
           "nom": "MAXIME P.",
-          "maillot": 13,
+          "maillot": 2,
           "club": "GJ EVSABB"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK12ky0mnbY": {
@@ -149,6 +163,31 @@
           "nom": "THOMAS L.",
           "maillot": 14,
           "club": "ST VARAUDAISE GJ"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19miclmbI": {
+          "nom": "FIRAS A.",
+          "maillot": 9,
+          "club": "GJ EVSABB"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16ki8inbc": {
+          "nom": "ARMAND G.",
+          "maillot": 13,
+          "club": "GJ EVSABB"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp8myctmrE": {
+          "nom": "ELIOTT C.",
+          "maillot": 14,
+          "club": "GJ EVSABB"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK18kSoim74": {
+          "nom": "BASILE C.",
+          "maillot": 6,
+          "club": "GJ EVSABB"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19myYmnrc": {
+          "nom": "LEO B.",
+          "maillot": 12,
+          "club": "GJ EVSABB"
         }
       },
       "matchs": [
@@ -267,10 +306,11 @@
           "heure": "15:00",
           "recevant": "NUEILLAUBIERS FC",
           "visiteur": "PAYS MAULEON. ES GJ",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ARMAND TUZELET 1_['3 RUE DE LA FABRIQUE', '79250 NUEIL LES AUBIERS']"
         },
         {
           "id": 79075472,
@@ -278,10 +318,34 @@
           "heure": "15:00",
           "recevant": "GJ EVSABB",
           "visiteur": "GJ ESP. N-E 79",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK19miclmbI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK16ki8inbc",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 41,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7kiginrQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp8myctmrE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 41,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK18kSoim74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK19myYmnrc",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "Stade Municipal Breuil Chaussée_['Route de Clazay', 'Breuil Chaussee', '79300 BRESSUIRE']"
         },
         {
           "id": 79075473,
@@ -289,10 +353,11 @@
           "heure": "15:00",
           "recevant": "G.J. ETSO",
           "visiteur": "ST VARAUDAISE GJ",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MICHEL GROLLEAU_[' RUE DE LA FONTAINE', '79290 ARGENTON L EGLISE']"
         },
         {
           "id": 79075474,
@@ -300,10 +365,11 @@
           "heure": "15:00",
           "recevant": "PAYS MAULEON. ES GJ",
           "visiteur": "ST VARAUDAISE GJ",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE MOULINS_['MOULINS', 'RUE DU PUY ALBERT', '79700 MAULEON']"
         },
         {
           "id": 79075475,
@@ -311,15 +377,15 @@
           "heure": "15:00",
           "recevant": "GJ ESP. N-E 79",
           "visiteur": "NUEILLAUBIERS FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué"
         },
         {
           "id": 79075477,
           "date": "2026-10-10",
-          "heure": "15:00",
+          "heure": "13:00",
           "recevant": "THOUARS FOOT 79 2",
           "visiteur": "GJ EVSABB",
           "buts_recevant": null,
@@ -503,10 +569,42 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "TERRAIN SYNTHETIQUE MARCEL MARTIN_[' RUE DU PETIT SANITAT', '79200 PARTHENAY']": {
+          "nom": "TERRAIN SYNTHETIQUE MARCEL MARTIN",
+          "adresse": " RUE DU PETIT SANITAT | 79200 PARTHENAY",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DES GRIPPEAUX 1_['LES GRIPPEAUX', 'RUE PIERRE DE COUBERTIN', 'TERRAIN HONNEUR', '79200 PARTHENAY']": {
+          "nom": "STADE DES GRIPPEAUX 1",
+          "adresse": "LES GRIPPEAUX | RUE PIERRE DE COUBERTIN | TERRAIN HONNEUR | 79200 PARTHENAY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE FÉLIX BRÉCHOIRE 1_[' RUE DU PLESSIS', '79200 LE TALLUD']": {
+          "nom": "STADE FÉLIX BRÉCHOIRE 1",
+          "adresse": " RUE DU PLESSIS | 79200 LE TALLUD",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFK13liklnLU": {
+          "nom": "MAHE C.",
+          "maillot": 7,
+          "club": "GATI FOOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK13liklm7Q": {
+          "nom": "LUCAS B.",
+          "maillot": 12,
+          "club": "GATI FOOT"
+        }
+      },
       "matchs": [
         {
           "id": 79052359,
@@ -586,10 +684,11 @@
           "heure": "13:00",
           "recevant": "PARTHENAY VIENNAY RC 2",
           "visiteur": "ENT. TALLUD.SGATINE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 13,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "TERRAIN SYNTHETIQUE MARCEL MARTIN_[' RUE DU PETIT SANITAT', '79200 PARTHENAY']"
         },
         {
           "id": 79052445,
@@ -597,10 +696,11 @@
           "heure": "13:00",
           "recevant": "ECHIRE ST GELAIS AS 2",
           "visiteur": "ENT. VASLES/THENEZAY",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 2_['200 rue léo desaivre', 'ANNEXE1', '79410 ECHIRE']"
         },
         {
           "id": 79054462,
@@ -608,21 +708,32 @@
           "heure": "15:00",
           "recevant": "GATI FOOT",
           "visiteur": "ENT. ARC-USCP 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 11,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK13liklnLU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK13liklm7Q",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL_['RUE FILATURE', '79130 AZAY SUR THOUET']"
         },
         {
           "id": 78942574,
           "date": "2026-10-10",
-          "heure": "15:00",
+          "heure": "13:00",
           "recevant": "PARTHENAY VIENNAY RC 2",
           "visiteur": "GATI FOOT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES GRIPPEAUX 1_['LES GRIPPEAUX', 'RUE PIERRE DE COUBERTIN', 'TERRAIN HONNEUR', '79200 PARTHENAY']"
         },
         {
           "id": 79052040,
@@ -630,10 +741,11 @@
           "heure": "15:00",
           "recevant": "ENT. TALLUD.SGATINE",
           "visiteur": "ECHIRE ST GELAIS AS 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 9,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE FÉLIX BRÉCHOIRE 1_[' RUE DU PLESSIS', '79200 LE TALLUD']"
         },
         {
           "id": 79052446,
@@ -641,10 +753,11 @@
           "heure": "15:00",
           "recevant": "ENT. VASLES/THENEZAY",
           "visiteur": "PAYS NÉO-CRÉCHOIS FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_[' ROUTE DE LA SERVELIERE', '79420 VAUSSEROUX']"
         },
         {
           "id": 79032847,
@@ -774,6 +887,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC563636.jpg",
           "clNo": "172601",
           "slug": "563636-asptt-niort-bessines"
+        },
+        "NIORT ST LIGUAIRE OL 2": {
+          "nom": "NIORT ST LIGUAIRE OL 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC520162.jpg",
+          "clNo": "6764",
+          "slug": "520162-niort-st-liguaire-ol-2"
+        },
+        "AVENIR 79 FC": {
+          "nom": "AVENIR 79 FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC581429.jpg",
+          "clNo": "183750",
+          "slug": "581429-avenir-79-fc"
         }
       },
       "stades": {
@@ -797,10 +922,55 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE DE SAINT LIGUAIRE 2_['RUE DE LA HALTE', 'TERRAIN ANNEXE', '79000 NIORT']": {
+          "nom": "STADE DE SAINT LIGUAIRE 2",
+          "adresse": "RUE DE LA HALTE | TERRAIN ANNEXE | 79000 NIORT",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_[\"Rue de l'Epineraie\", '79410 ST REMY']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "Rue de l'Epineraie | 79410 ST REMY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFKx_lCcnmb8": {
+          "nom": "MARTIN B.",
+          "maillot": 9,
+          "club": "NIORT PEXINOISE US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp8kS4nmrA": {
+          "nom": "ARFAN S.",
+          "maillot": 12,
+          "club": "NIORT PEXINOISE US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16kioimrQ": {
+          "nom": "TIMEO D.",
+          "maillot": 11,
+          "club": "NIORT PEXINOISE US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16lS0mmLA": {
+          "nom": "SACHA V.",
+          "maillot": 13,
+          "club": "NIORT PEXINOISE US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt3likmmbU": {
+          "nom": "AKUEI K.",
+          "maillot": 8,
+          "club": "NIORT PEXINOISE US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK12lyshnLU": {
+          "nom": "MATIAS D.",
+          "maillot": 14,
+          "club": "NIORT PEXINOISE US"
+        }
+      },
       "matchs": [
         {
           "id": 79052326,
@@ -855,10 +1025,11 @@
           "heure": "13:00",
           "recevant": "NIORT ST LIGUAIRE OL 2",
           "visiteur": "AVENIR 79 FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE SAINT LIGUAIRE 2_['RUE DE LA HALTE', 'TERRAIN ANNEXE', '79000 NIORT']"
         },
         {
           "id": 79052591,
@@ -866,10 +1037,34 @@
           "heure": "15:00",
           "recevant": "NIORT PEXINOISE US",
           "visiteur": "ASPTT NIORT-BESSINES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 9,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_lCcnmb8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp8kS4nmrA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16kioimrQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK16lS0mmLA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 60,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3likmmbU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK12lyshnLU",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE DE LA GRANDE CROIX 1_['ROUTE DE COULONGES', '79000 NIORT']"
         },
         {
           "id": 79052332,
@@ -877,10 +1072,11 @@
           "heure": "13:00",
           "recevant": "NIORT ST LIGUAIRE OL 2",
           "visiteur": "NIORT PEXINOISE US",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE SAINT LIGUAIRE 2_['RUE DE LA HALTE', 'TERRAIN ANNEXE', '79000 NIORT']"
         },
         {
           "id": 79058590,
@@ -888,10 +1084,11 @@
           "heure": "15:00",
           "recevant": "AVENIR 79 FC",
           "visiteur": "NIORT SOUCHEEN SA",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 12,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_[\"Rue de l'Epineraie\", '79410 ST REMY']"
         },
         {
           "id": 79052892,
@@ -1051,6 +1248,13 @@
         "STADE MUNICIPAL_[' ROUTE DU STADE', '79110 LOUBIGNE']": {
           "nom": "STADE MUNICIPAL",
           "adresse": " ROUTE DU STADE | 79110 LOUBIGNE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "PARC DES SPORTS 1_[' RUE DU TEMPLE', '79120 LEZAY']": {
+          "nom": "PARC DES SPORTS 1",
+          "adresse": " RUE DU TEMPLE | 79120 LEZAY",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -1224,10 +1428,11 @@
           "heure": "15:00",
           "recevant": "VAL DE BOUTONNE FOOT 2",
           "visiteur": "AIFFRES FORS PRAHECQ 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_[' RUE DES ECOLES', '79170 SECONDIGNE SUR BELLE']"
         },
         {
           "id": 78999594,
@@ -1235,10 +1440,11 @@
           "heure": "15:00",
           "recevant": "HAUT VAL DE SEVRE FC",
           "visiteur": "ENT.VDB.FCB 3 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ROBERT BLANCHARD_['MOULIN NEUF', '79800 EXOUDUN']"
         },
         {
           "id": 79059598,
@@ -1246,10 +1452,11 @@
           "heure": "15:00",
           "recevant": "ENT.LEZAY-ASPM",
           "visiteur": "BOUTONNAIS FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "PARC DES SPORTS 1_[' RUE DU TEMPLE', '79120 LEZAY']"
         },
         {
           "id": 78983451,
@@ -1257,10 +1464,11 @@
           "heure": "13:00",
           "recevant": "AIFFRES FORS PRAHECQ 2",
           "visiteur": "CELLES-VERRINES ES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 9,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['ROUTE DE CRISSE', '79230 PRAHECQ']"
         },
         {
           "id": 78999596,
@@ -1268,10 +1476,11 @@
           "heure": "15:00",
           "recevant": "VAL DE BOUTONNE FOOT 2",
           "visiteur": "HAUT VAL DE SEVRE FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_[' RUE DES ECOLES', '79170 SECONDIGNE SUR BELLE']"
         },
         {
           "id": 79059600,

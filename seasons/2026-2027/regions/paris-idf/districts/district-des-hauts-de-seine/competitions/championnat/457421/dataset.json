@@ -58,6 +58,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC608327.jpg",
           "clNo": "28024",
           "slug": "608327-personnel-asnieres"
+        },
+        "F.U. 92": {
+          "nom": "F.U. 92",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564436.jpg",
+          "clNo": "201923",
+          "slug": "564436-f-u-92"
+        },
+        "CSM CLAMART FOOT 2": {
+          "nom": "CSM CLAMART FOOT 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC553138.jpg",
+          "clNo": "127585",
+          "slug": "553138-csm-clamart-foot-2"
         }
       },
       "stades": {
@@ -85,6 +97,27 @@
         "STADE DE BUZENVAL_['12 AV MAL LECLERC DE HAUTECLOCQUE', '92500 RUEIL MALMAISON']": {
           "nom": "STADE DE BUZENVAL",
           "adresse": "12 AV MAL LECLERC DE HAUTECLOCQUE | 92500 RUEIL MALMAISON",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MARCEL BEC N° 2_[' ROUTE DU PAVILLON DE L ABBE', 'INTERDIT AUX CARS', '92190 MEUDON']": {
+          "nom": "STADE MARCEL BEC N° 2",
+          "adresse": " ROUTE DU PAVILLON DE L ABBE | INTERDIT AUX CARS | 92190 MEUDON",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MAURICE HUBERT N°2_['21 AV ALEXANDRE MAISTRASSE', '92500 RUEIL MALMAISON']": {
+          "nom": "STADE MAURICE HUBERT N°2",
+          "adresse": "21 AV ALEXANDRE MAISTRASSE | 92500 RUEIL MALMAISON",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE LA PLAINE N° 1_['131 CHEMIN DU PARC', '92140 CLAMART']": {
+          "nom": "STADE DE LA PLAINE N° 1",
+          "adresse": "131 CHEMIN DU PARC | 92140 CLAMART",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -344,10 +377,11 @@
           "heure": "09:00",
           "recevant": "SCEAUX FC",
           "visiteur": "F.U. 92",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA GRENOUILLÈRE N° 1_['PARC DE SCEAUX', '148 AVENUE DU GENERAL DE GAULLE', '92160 ANTONY']"
         },
         {
           "id": 55829800,
@@ -355,10 +389,10 @@
           "heure": "09:30",
           "recevant": "SURESNES J.S. 2",
           "visiteur": "COURBEVOIE SPORTS 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué"
         },
         {
           "id": 55829801,
@@ -366,10 +400,10 @@
           "heure": "09:30",
           "recevant": "RUEIL ABEILLE",
           "visiteur": "PORTUGAIS EN FRANCE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué"
         },
         {
           "id": 55829802,
@@ -377,10 +411,11 @@
           "heure": "09:30",
           "recevant": "BOULOGNE BIL. AC 2",
           "visiteur": "CHEMINOTS OUEST L AS 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MARCEL BEC N° 2_[' ROUTE DU PAVILLON DE L ABBE', 'INTERDIT AUX CARS', '92190 MEUDON']"
         },
         {
           "id": 55829803,
@@ -388,10 +423,10 @@
           "heure": "09:30",
           "recevant": "PERSONNEL ASNIERES",
           "visiteur": "CSM CLAMART FOOT 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué"
         },
         {
           "id": 55829811,
@@ -399,21 +434,23 @@
           "heure": "09:00",
           "recevant": "SCEAUX FC",
           "visiteur": "CHEMINOTS OUEST L AS 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA GRENOUILLÈRE N° 1_['PARC DE SCEAUX', '148 AVENUE DU GENERAL DE GAULLE', '92160 ANTONY']"
         },
         {
           "id": 55829809,
           "date": "2026-10-11",
-          "heure": "09:30",
+          "heure": "09:00",
           "recevant": "BOULOGNE BIL. AC 2",
           "visiteur": "RUEIL ABEILLE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MARCEL BEC N° 2_[' ROUTE DU PAVILLON DE L ABBE', 'INTERDIT AUX CARS', '92190 MEUDON']"
         },
         {
           "id": 55829810,
@@ -421,10 +458,11 @@
           "heure": "09:30",
           "recevant": "SURESNES J.S. 2",
           "visiteur": "PORTUGAIS EN FRANCE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MAURICE HUBERT N°2_['21 AV ALEXANDRE MAISTRASSE', '92500 RUEIL MALMAISON']"
         },
         {
           "id": 55829812,
@@ -432,10 +470,11 @@
           "heure": "09:30",
           "recevant": "CSM CLAMART FOOT 2",
           "visiteur": "COURBEVOIE SPORTS 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA PLAINE N° 1_['131 CHEMIN DU PARC', '92140 CLAMART']"
         },
         {
           "id": 55829813,

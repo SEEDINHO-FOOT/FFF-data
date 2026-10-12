@@ -46,6 +46,24 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC613040.jpg",
           "clNo": "31027",
           "slug": "613040-sanofi"
+        },
+        "AS SEVRIENNE PORTUG.": {
+          "nom": "AS SEVRIENNE PORTUG.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC864927.jpg",
+          "clNo": "203996",
+          "slug": "864927-as-sevrienne-portug"
+        },
+        "NEUILLY O. 3": {
+          "nom": "NEUILLY O. 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC540587.jpg",
+          "clNo": "20624",
+          "slug": "540587-neuilly-o-3"
+        },
+        "METRO FOOT ANTONY 2": {
+          "nom": "METRO FOOT ANTONY 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC590400.jpg",
+          "clNo": "26480",
+          "slug": "590400-metro-foot-antony-2"
         }
       },
       "stades": {
@@ -69,11 +87,30 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "Stade De La Croix De Berny N° 1_['6-10 RUE RAYMOND ARON', '92160 ANTONY']": {
+          "nom": "Stade De La Croix De Berny N° 1",
+          "adresse": "6-10 RUE RAYMOND ARON | 92160 ANTONY",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MONCLAR_['55 BOULEVARD DU PARC', 'Ile de la jatte', '92200 NEUILLY SUR SEINE']": {
+          "nom": "STADE MONCLAR",
+          "adresse": "55 BOULEVARD DU PARC | Ile de la jatte | 92200 NEUILLY SUR SEINE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
         "ABDERRAHMAINE BEN SASSI_AC": {
           "nom": "ABDERRAHMAINE BEN SASSI",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "Anonyme_AC": {
+          "nom": "Anonyme",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -138,6 +175,56 @@
           "nom": "DIDIER D.",
           "maillot": 13,
           "club": "FC MEUDON 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17kiwlmbA": {
+          "nom": "FRANCK B.",
+          "maillot": 9,
+          "club": "METRO FOOT ANTONY 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx2licmlr8": {
+          "nom": "FRANCK P.",
+          "maillot": 13,
+          "club": "METRO FOOT ANTONY 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLFaZ3kycilr8": {
+          "nom": "GUILLAUME P.",
+          "maillot": 4,
+          "club": "VANVES STADE 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt4kiwkm7c": {
+          "nom": "ARSLAN D.",
+          "maillot": 12,
+          "club": "VANVES STADE 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLHad-kCssmLU": {
+          "nom": "DAVIDE G.",
+          "maillot": 8,
+          "club": "VANVES STADE 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKxLFKl-li4jmQ": {
+          "nom": "LAURENT P.",
+          "maillot": 13,
+          "club": "VANVES STADE 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLHad-lCsmlrM": {
+          "nom": "NICOLAE M.",
+          "maillot": 5,
+          "club": "VANVES STADE 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLFq98kC0mnbY": {
+          "nom": "THIERRY B.",
+          "maillot": 14,
+          "club": "VANVES STADE 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLEKd-lyktmLE": {
+          "nom": "DIDIER M.",
+          "maillot": 11,
+          "club": "METRO FOOT ANTONY 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLHad-kSYhnLY": {
+          "nom": "Anonyme",
+          "maillot": 12,
+          "club": "METRO FOOT ANTONY 2"
         }
       },
       "matchs": [
@@ -246,10 +333,11 @@
           "heure": "09:30",
           "recevant": "MFA 2",
           "visiteur": "AS SEVRIENNE PORTUG.",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade De La Croix De Berny N° 1_['6-10 RUE RAYMOND ARON', '92160 ANTONY']"
         },
         {
           "id": 55802250,
@@ -268,21 +356,63 @@
           "heure": "11:00",
           "recevant": "NEUILLY O. 3",
           "visiteur": "VANVES STADE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 11,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MONCLAR_['55 BOULEVARD DU PARC', 'Ile de la jatte', '92200 NEUILLY SUR SEINE']"
         },
         {
           "id": 55802258,
           "date": "2026-10-11",
           "heure": "09:30",
-          "recevant": "MFA 2",
+          "recevant": "METRO FOOT ANTONY 2",
           "visiteur": "VANVES STADE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK17kiwlmbA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx2licmlr8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLFaZ3kycilr8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt4kiwkm7c",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLHad-kCssmLU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKxLFKl-li4jmQ",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 34,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLHad-lCsmlrM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpLFq98kC0mnbY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLEKd-lyktmLE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpLHad-kSYhnLY",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "Stade De La Croix De Berny N° 1_['6-10 RUE RAYMOND ARON', '92160 ANTONY']",
+          "officiels": [
+            "Anonyme_AC"
+          ]
         },
         {
           "id": 55802260,
@@ -304,7 +434,7 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "à venir"
+          "statut": "reporté"
         },
         {
           "id": 55802289,
@@ -864,6 +994,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500706.jpg",
           "clNo": "673",
           "slug": "500706-issy-fc-3"
+        },
+        "CHEMINOTS OUEST L AS 3": {
+          "nom": "CHEMINOTS OUEST L AS 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC520810.jpg",
+          "clNo": "7163",
+          "slug": "520810-cheminots-ouest-l-as-3"
+        },
+        "FC MEUDON 3": {
+          "nom": "FC MEUDON 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC581143.jpg",
+          "clNo": "182734",
+          "slug": "581143-fc-meudon-3"
         }
       },
       "stades": {
@@ -886,6 +1028,48 @@
           "adresse": "298 AV NAPOLEON BONAPARTE | COMPLEXE EDOUARD MANET | 92500 RUEIL MALMAISON",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "Stade Nelson Mandela N° 2_['36 RUE PAUL PROUTEAU', '92250 LA GARENNE COLOMBES']": {
+          "nom": "Stade Nelson Mandela N° 2",
+          "adresse": "36 RUE PAUL PROUTEAU | 92250 LA GARENNE COLOMBES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE GABRIEL VOISIN_['4/6 BD DES FRERES VOISIN', '92130 ISSY LES MOULINEAUX']": {
+          "nom": "STADE GABRIEL VOISIN",
+          "adresse": "4/6 BD DES FRERES VOISIN | 92130 ISSY LES MOULINEAUX",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE VELPEAU_['RUE PAUL BOURGET', '92160 ANTONY']": {
+          "nom": "STADE VELPEAU",
+          "adresse": "RUE PAUL BOURGET | 92160 ANTONY",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE LA PLAINE N° 2_['131 CHEMIN DU PARC', '92140 CLAMART']": {
+          "nom": "STADE DE LA PLAINE N° 2",
+          "adresse": "131 CHEMIN DU PARC | 92140 CLAMART",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE ÎLE BILLANCOURT_['44 AVENUE DU BAS MEUDON', '92130 ISSY LES MOULINEAUX']": {
+          "nom": "STADE ÎLE BILLANCOURT",
+          "adresse": "44 AVENUE DU BAS MEUDON | 92130 ISSY LES MOULINEAUX",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "Stade Trivaux_['8 AVENUE DE TRIVAUX', '92190 MEUDON']": {
+          "nom": "Stade Trivaux",
+          "adresse": "8 AVENUE DE TRIVAUX | 92190 MEUDON",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
         }
       },
@@ -1003,10 +1187,11 @@
           "heure": "09:00",
           "recevant": "CHEMINOTS OUEST L AS 3",
           "visiteur": "NEUILLY O. 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Nelson Mandela N° 2_['36 RUE PAUL PROUTEAU', '92250 LA GARENNE COLOMBES']"
         },
         {
           "id": 55802431,
@@ -1014,10 +1199,11 @@
           "heure": "09:30",
           "recevant": "ISSY FC 3",
           "visiteur": "CSM CLAMART FOOT 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GABRIEL VOISIN_['4/6 BD DES FRERES VOISIN', '92130 ISSY LES MOULINEAUX']"
         },
         {
           "id": 78775856,
@@ -1025,10 +1211,11 @@
           "heure": "09:30",
           "recevant": "ANTONY ASS JEUNES",
           "visiteur": "PARIS ANTILLES FOOT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE VELPEAU_['RUE PAUL BOURGET', '92160 ANTONY']"
         },
         {
           "id": 55802440,
@@ -1036,10 +1223,11 @@
           "heure": "09:30",
           "recevant": "CSM CLAMART FOOT 3",
           "visiteur": "NEUILLY O. 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA PLAINE N° 2_['131 CHEMIN DU PARC', '92140 CLAMART']"
         },
         {
           "id": 55802441,
@@ -1047,10 +1235,11 @@
           "heure": "09:30",
           "recevant": "ISSY FC 3",
           "visiteur": "PARIS ANTILLES FOOT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ÎLE BILLANCOURT_['44 AVENUE DU BAS MEUDON', '92130 ISSY LES MOULINEAUX']"
         },
         {
           "id": 55802437,
@@ -1058,10 +1247,11 @@
           "heure": "10:00",
           "recevant": "FC MEUDON 3",
           "visiteur": "RUEIL MALMAISON FC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Trivaux_['8 AVENUE DE TRIVAUX', '92190 MEUDON']"
         },
         {
           "id": 55802470,

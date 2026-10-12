@@ -89,9 +89,27 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE DE VARYE 1_['RUE DE LA CAILLERE', '18230 ST  DOULCHARD']": {
+          "nom": "STADE DE VARYE 1",
+          "adresse": "RUE DE LA CAILLERE | 18230 ST  DOULCHARD",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
-      "officiels": {},
+      "officiels": {
+        "NAHIL BOUGRINE_AC": {
+          "nom": "NAHIL BOUGRINE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "JOHANN DUMARCAY_CP": {
+          "nom": "JOHANN DUMARCAY",
+          "role": "Observateur principal",
+          "role_cod": "CP"
+        }
+      },
       "joueurs": {
         "ir3_vj-lzPeINLfhzILsrKFOFKx7liwjn7A": {
           "nom": "VICTOR L.",
@@ -130,7 +148,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx5lSskl7I": {
           "nom": "JAHYNIS J.",
-          "maillot": 12,
+          "maillot": 13,
           "club": "ENT. COEURV/CHAILLOT"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp9kyojn7c": {
@@ -150,7 +168,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp5mikmmbU": {
           "nom": "NAÏL S.",
-          "maillot": 14,
+          "maillot": 12,
           "club": "ENT. COEURV/CHAILLOT"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK19lCchnr4": {
@@ -207,6 +225,51 @@
           "nom": "MOHAMAD C.",
           "maillot": 13,
           "club": "BOURGES PORTUGAIS AS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19li4hlrU": {
+          "nom": "AXEL H.",
+          "maillot": 3,
+          "club": "ENT. COEURV/CHAILLOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx9kC0tlrQ": {
+          "nom": "SOFIANE S.",
+          "maillot": 14,
+          "club": "ENT. COEURV/CHAILLOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt-kC8hl7Y": {
+          "nom": "KENZO M.",
+          "maillot": 9,
+          "club": "ENT. COEURV/CHAILLOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx8kS4mnbQ": {
+          "nom": "ANASS M.",
+          "maillot": 9,
+          "club": "ENT. BARANGEONNAISE "
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx2myYlnLE": {
+          "nom": "MAMADOU F.",
+          "maillot": 12,
+          "club": "ENT. BARANGEONNAISE "
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17kSshnLY": {
+          "nom": "MARWAN N.",
+          "maillot": 13,
+          "club": "ST FLORENT US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp-kCYkmbY": {
+          "nom": "GIANNI D.",
+          "maillot": 11,
+          "club": "ENT. BARANGEONNAISE "
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16lSctnr8": {
+          "nom": "ALBAN T.",
+          "maillot": 8,
+          "club": "ST FLORENT US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16ky8llrI": {
+          "nom": "MATHEO P.",
+          "maillot": 10,
+          "club": "ST FLORENT US"
         }
       },
       "matchs": [
@@ -390,10 +453,34 @@
           "heure": "14:15",
           "recevant": "ST DOULCHARD FC 2",
           "visiteur": "ENT. COEURV/CHAILLOT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3kishnLc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx5lSskl7I",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK19li4hlrU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx9kC0tlrQ",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 60,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-kC8hl7Y",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5mikmmbU",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE DE VARYE 1_['RUE DE LA CAILLERE', '18230 ST  DOULCHARD']"
         },
         {
           "id": 79578569,
@@ -401,15 +488,97 @@
           "heure": "16:00",
           "recevant": "ST FLORENT US",
           "visiteur": "ENT. BARANGEONNAISE ",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 11,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9kyojn7c",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 14,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9kyojn7c",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 19,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8kS4mnbQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx2myYlnLE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 24,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9kyojn7c",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 24,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK17li4tm7I",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK17kSshnLY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 26,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9kyojn7c",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 31,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9kyojn7c",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 32,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp-kCYkmbY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 40,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9kyojn7c",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16lSctnr8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK17kSshnLY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 66,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp-kCYkmbY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 75,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16ky8llrI",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE ALBERT SOUBIRAN 1_[\"L'ILE ROBINSON\", 'AVENUE JEAN JAURES', '18400 ST FLORENT SUR CHER']",
+          "officiels": [
+            "NAHIL BOUGRINE_AC",
+            "JOHANN DUMARCAY_CP"
+          ]
         },
         {
           "id": 79578567,
           "date": "2026-10-10",
-          "heure": "16:30",
+          "heure": "15:15",
           "recevant": "VIERZON FC 3",
           "visiteur": "CHAPELLOISE AS",
           "buts_recevant": null,
@@ -613,6 +782,27 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE MARCEL LAURENT 1_['RUE DE LA MONTAPEINE', '18320 JOUET SUR L AUBOIS']": {
+          "nom": "STADE MARCEL LAURENT 1",
+          "adresse": "RUE DE LA MONTAPEINE | 18320 JOUET SUR L AUBOIS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE LA ROTTÉE 2_['250 AVENUE DE DUN', '18000 BOURGES']": {
+          "nom": "STADE DE LA ROTTÉE 2",
+          "adresse": "250 AVENUE DE DUN | 18000 BOURGES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE YVES DU MANOIR 1_['74 RUE DE TURLY', 'TERRAIN HONNEUR', '18000 BOURGES']": {
+          "nom": "STADE YVES DU MANOIR 1",
+          "adresse": "74 RUE DE TURLY | TERRAIN HONNEUR | 18000 BOURGES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -657,13 +847,14 @@
         {
           "id": 79578589,
           "date": "2026-10-10",
-          "heure": "15:00",
+          "heure": "14:30",
           "recevant": "LOIRE VAL AUBOIS O.",
           "visiteur": "HENRICH MENETOU US",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MARCEL LAURENT 1_['RUE DE LA MONTAPEINE', '18320 JOUET SUR L AUBOIS']"
         },
         {
           "id": 79578590,
@@ -671,10 +862,11 @@
           "heure": "16:00",
           "recevant": "BOURGES JUSTICES ES",
           "visiteur": "ST GERMAIN AS 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA ROTTÉE 2_['250 AVENUE DE DUN', '18000 BOURGES']"
         },
         {
           "id": 79578591,
@@ -682,10 +874,11 @@
           "heure": "16:30",
           "recevant": "BOURGES FC 2",
           "visiteur": "ENT. CHER NORD",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE YVES DU MANOIR 1_['74 RUE DE TURLY', 'TERRAIN HONNEUR', '18000 BOURGES']"
         },
         {
           "id": 79578593,

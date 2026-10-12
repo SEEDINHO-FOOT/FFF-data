@@ -95,6 +95,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MATHIEU PELLEN_['RUE DU VEULEURY', '29820 BOHARS']": {
+          "nom": "STADE MATHIEU PELLEN",
+          "adresse": "RUE DU VEULEURY | 29820 BOHARS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -200,10 +207,11 @@
           "heure": "10:00",
           "recevant": "GUIPAVAS COAT AL",
           "visiteur": "GOUESNOU FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Complexe Sportif De Kerlaurent 1_['235 CHEMIN DE KERLAURENT', '29490 GUIPAVAS']"
         },
         {
           "id": 79560672,
@@ -211,10 +219,11 @@
           "heure": "10:00",
           "recevant": "BOHARS VGA",
           "visiteur": "GUIPAVAS GDR",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 9,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MATHIEU PELLEN_['RUE DU VEULEURY', '29820 BOHARS']"
         },
         {
           "id": 79560673,
@@ -222,10 +231,11 @@
           "heure": "10:00",
           "recevant": "ST THONAN JS",
           "visiteur": "PLOUNEVENTER PLOUED.",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 2_[' RUE DE PEN AR QUINQUIS', '29800 ST THONAN']"
         },
         {
           "id": 79560674,
@@ -233,10 +243,11 @@
           "heure": "10:00",
           "recevant": "KERSAINT AS",
           "visiteur": "BREST ST LAURENT 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Félix Guéguen 1_[' RUE DES PRIMEVERES', '29860 KERSAINT PLABENNEC']"
         },
         {
           "id": 79560675,
@@ -745,6 +756,24 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC502397.jpg",
           "clNo": "1419",
           "slug": "502397-plouzane-acf"
+        },
+        "MILIZAC ST P": {
+          "nom": "MILIZAC ST P",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC517201.jpg",
+          "clNo": "5286",
+          "slug": "517201-milizac-st-p"
+        },
+        "PLOUGONVELIN US": {
+          "nom": "PLOUGONVELIN US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC521118.jpg",
+          "clNo": "7361",
+          "slug": "521118-plougonvelin-us"
+        },
+        "LOCMARIA ES": {
+          "nom": "LOCMARIA ES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC522022.jpg",
+          "clNo": "7964",
+          "slug": "522022-locmaria-es"
         }
       },
       "stades": {
@@ -761,10 +790,33 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "Complexe Sportif De Trémeur 3_[' RUE DU STADE', '29217 PLOUGONVELIN']": {
+          "nom": "Complexe Sportif De Trémeur 3",
+          "adresse": " RUE DU STADE | 29217 PLOUGONVELIN",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKpKFK59my4lmbY": {
+          "nom": "CEDRIC M.",
+          "maillot": 10,
+          "club": "PLOUGONVELIN US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl3kCctmbc": {
+          "nom": "ETIENNE R.",
+          "maillot": 8,
+          "club": "PLOUGONVELIN US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx5kiYkn7E": {
+          "nom": "MARTIN A.",
+          "maillot": 12,
+          "club": "LOCMARIA ES"
+        }
+      },
       "matchs": [
         {
           "id": 79587162,
@@ -854,7 +906,7 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "à venir"
+          "statut": "reporté"
         },
         {
           "id": 79587169,
@@ -873,10 +925,11 @@
           "heure": "10:00",
           "recevant": "BREST ST LAURENT",
           "visiteur": "MILIZAC ST P",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE LANROZE_['LAMBEZELLEC', 'RUE SAINT VINCENT DE PAUL', '29200 BREST']"
         },
         {
           "id": 79603888,
@@ -884,10 +937,43 @@
           "heure": "10:00",
           "recevant": "PLOUGONVELIN US",
           "visiteur": "LOCMARIA ES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 15,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpKFK59my4lmbY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl3kCctmbc",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 40,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx5kiYkn7E",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 80,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl3kCctmbc",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 82,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl3kCctmbc",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "Complexe Sportif De Trémeur 3_[' RUE DU STADE', '29217 PLOUGONVELIN']"
         },
         {
           "id": 79587159,
@@ -1481,6 +1567,20 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE DU DOCTEUR MORVAN_[' LIEU DIT ROSVENNI', '29870 LANDEDA']": {
+          "nom": "STADE DU DOCTEUR MORVAN",
+          "adresse": " LIEU DIT ROSVENNI | 29870 LANDEDA",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "Stade De Tollan (Guipronvel)_['TOLLAN', ' LIEU DIT TOLLAN', '29290 MILIZAC GUIPRONVEL']": {
+          "nom": "Stade De Tollan (Guipronvel)",
+          "adresse": "TOLLAN |  LIEU DIT TOLLAN | 29290 MILIZAC GUIPRONVEL",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -1586,10 +1686,11 @@
           "heure": "10:00",
           "recevant": "LANDEDA AS 3",
           "visiteur": "COAT MEAL AS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DU DOCTEUR MORVAN_[' LIEU DIT ROSVENNI', '29870 LANDEDA']"
         },
         {
           "id": 79560933,
@@ -1597,10 +1698,11 @@
           "heure": "10:00",
           "recevant": "LANDUNVEZ MA",
           "visiteur": "BOURG BLANC GAS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Municipal_['1 ROUTE DE KERARZAL', '29840 LANDUNVEZ']"
         },
         {
           "id": 79587369,
@@ -1619,10 +1721,11 @@
           "heure": "10:00",
           "recevant": "ENT.LANGUIP",
           "visiteur": "PLOUDALMEZEAU ARZ",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade De Tollan (Guipronvel)_['TOLLAN', ' LIEU DIT TOLLAN', '29290 MILIZAC GUIPRONVEL']"
         },
         {
           "id": 79560936,
@@ -2325,6 +2428,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC519524.jpg",
           "clNo": "6370",
           "slug": "519524-ploudaniel-et-st-y"
+        },
+        "LESNEVEN RC": {
+          "nom": "LESNEVEN RC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC549519.jpg",
+          "clNo": "26251",
+          "slug": "549519-lesneven-rc"
+        },
+        "PLOUIDER GAS": {
+          "nom": "PLOUIDER GAS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC510976.jpg",
+          "clNo": "3704",
+          "slug": "510976-plouider-gas"
         }
       },
       "stades": {
@@ -2352,6 +2467,27 @@
         "Stade De Kermahellan 1 (terrain A)_['KERMAHELLAN', '29260 PLOUDANIEL']": {
           "nom": "Stade De Kermahellan 1 (terrain A)",
           "adresse": "KERMAHELLAN | 29260 PLOUDANIEL",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE AUGUSTE ET AIMÉ LE GOT N°1_['ROUTE DE BREST', '29260 LE FOLGOET']": {
+          "nom": "STADE AUGUSTE ET AIMÉ LE GOT N°1",
+          "adresse": "ROUTE DE BREST | 29260 LE FOLGOET",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE JO BOTHOREL 3_['RUE DE CORNOUAILLE', '29860 PLOUVIEN']": {
+          "nom": "STADE JO BOTHOREL 3",
+          "adresse": "RUE DE CORNOUAILLE | 29860 PLOUVIEN",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "Stade Joël Le Roux N°1_['KERLEVEN', '29260 PLOUIDER']": {
+          "nom": "Stade Joël Le Roux N°1",
+          "adresse": "KERLEVEN | 29260 PLOUIDER",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -2458,10 +2594,11 @@
           "heure": "10:00",
           "recevant": "KERLOUAN PLOUNEOUR",
           "visiteur": "LESNEVEN RC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 8,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF DE LANVEUR 1_[' LIEU DIT LANVEUR', '29890 KERLOUAN']"
         },
         {
           "id": 79560728,
@@ -2469,10 +2606,11 @@
           "heure": "10:00",
           "recevant": "LE FOLGOET CND",
           "visiteur": "PLOUGUERNEAU ESPE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE AUGUSTE ET AIMÉ LE GOT N°1_['ROUTE DE BREST', '29260 LE FOLGOET']"
         },
         {
           "id": 79560729,
@@ -2480,10 +2618,11 @@
           "heure": "10:00",
           "recevant": "PLOUVIEN AV S",
           "visiteur": "PLOUDANIEL ET ST Y",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JO BOTHOREL 3_['RUE DE CORNOUAILLE', '29860 PLOUVIEN']"
         },
         {
           "id": 79560730,
@@ -2491,10 +2630,11 @@
           "heure": "10:00",
           "recevant": "PLOUIDER GAS",
           "visiteur": "KERNILIS H",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Joël Le Roux N°1_['KERLEVEN', '29260 PLOUIDER']"
         },
         {
           "id": 79560731,
@@ -3015,6 +3155,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC533506.jpg",
           "clNo": "15635",
           "slug": "533506-brest-pl-pil-rouge-4"
+        },
+        "ENT.PLOUDIRY SIZUN": {
+          "nom": "ENT.PLOUDIRY SIZUN",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC511819.jpg",
+          "clNo": "3886",
+          "slug": "511819-ent-ploudiry-sizun"
+        },
+        "PLOUGASTEL FC": {
+          "nom": "PLOUGASTEL FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC563655.jpg",
+          "clNo": "172677",
+          "slug": "563655-plougastel-fc"
         }
       },
       "stades": {
@@ -3028,6 +3180,13 @@
         "Stade Du Calvaire N°2_['RUE DU CALVAIRE', '29800 LANDERNEAU']": {
           "nom": "Stade Du Calvaire N°2",
           "adresse": "RUE DU CALVAIRE | 29800 LANDERNEAU",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE LANROZE_['LAMBEZELLEC', 'RUE SAINT VINCENT DE PAUL', '29200 BREST']": {
+          "nom": "STADE LANROZE",
+          "adresse": "LAMBEZELLEC | RUE SAINT VINCENT DE PAUL | 29200 BREST",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -3132,10 +3291,10 @@
           "heure": "10:00",
           "recevant": "PLOUGASTEL FC 2",
           "visiteur": "LANDERNEAU FC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué"
         },
         {
           "id": 79560784,
@@ -3153,11 +3312,11 @@
           "date": "2026-10-11",
           "heure": "10:00",
           "recevant": "LE RELECQ KERHUON FC",
-          "visiteur": "PLOUDIRY ST P",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "visiteur": "ENT.PLOUDIRY SIZUN",
+          "buts_recevant": 4,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué"
         },
         {
           "id": 79560786,
@@ -3165,10 +3324,11 @@
           "heure": "10:00",
           "recevant": "BREST PL PIL ROUGE 4",
           "visiteur": "PLOUGASTEL FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE LANROZE_['LAMBEZELLEC', 'RUE SAINT VINCENT DE PAUL', '29200 BREST']"
         },
         {
           "id": 79560787,

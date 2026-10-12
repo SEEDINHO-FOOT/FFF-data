@@ -75,10 +75,62 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE HENRI MÉRILLAC 02_['ROUTE DE BOURGES', '36100 ISSOUDUN']": {
+          "nom": "STADE HENRI MÉRILLAC 02",
+          "adresse": "ROUTE DE BOURGES | 36100 ISSOUDUN",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE LUCIEN BERTHELOT 2_['Route de Villers', '36320 VILLEDIEU SUR INDRE']": {
+          "nom": "STADE LUCIEN BERTHELOT 2",
+          "adresse": "Route de Villers | 36320 VILLEDIEU SUR INDRE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football réduit"
+        },
+        "STADE LÉO LAGRANGE 1_['RUE DU STADE', '36210 POULAINES']": {
+          "nom": "STADE LÉO LAGRANGE 1",
+          "adresse": "RUE DU STADE | 36210 POULAINES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFKt-kyommb4": {
+          "nom": "DOUAA B.",
+          "maillot": 8,
+          "club": "ISSOUDUN SA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp5kCcjm7Q": {
+          "nom": "ANAIS F.",
+          "maillot": 9,
+          "club": "ISSOUDUN SA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx4mykjnbI": {
+          "nom": "AMANDINE C.",
+          "maillot": 4,
+          "club": "ISSOUDUN SA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd6kSYhmb8": {
+          "nom": "LOU L.",
+          "maillot": 12,
+          "club": "ISSOUDUN SA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp4mi4mn7A": {
+          "nom": "AMELIE G.",
+          "maillot": 2,
+          "club": "ISSOUDUN SA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx5misglrU": {
+          "nom": "CHARLOTTE S.",
+          "maillot": 10,
+          "club": "ISSOUDUN SA"
+        }
+      },
       "matchs": [
         {
           "id": 79365318,
@@ -133,10 +185,34 @@
           "heure": "18:00",
           "recevant": "ISSOUDUN SA",
           "visiteur": "NIHERNE AS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 26,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-kyommb4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5kCcjm7Q",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 36,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4mykjnbI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6kSYhmb8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4mi4mn7A",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx5misglrU",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE HENRI MÉRILLAC 02_['ROUTE DE BOURGES', '36100 ISSOUDUN']"
         },
         {
           "id": 79365322,
@@ -144,21 +220,22 @@
           "heure": "10:00",
           "recevant": "VILLEDIEU US",
           "visiteur": "OBTERRE FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE LUCIEN BERTHELOT 2_['Route de Villers', '36320 VILLEDIEU SUR INDRE']"
         },
         {
           "id": 79365325,
-          "date": "2026-10-10",
-          "heure": "20:00",
+          "date": "2026-10-09",
+          "heure": "20:30",
           "recevant": "NIHERNE AS",
           "visiteur": "ECUEILLE SS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué"
         },
         {
           "id": 79365326,
@@ -166,10 +243,11 @@
           "heure": "10:00",
           "recevant": "POULAINES ES",
           "visiteur": "VILLEDIEU US",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE LÉO LAGRANGE 1_['RUE DU STADE', '36210 POULAINES']"
         },
         {
           "id": 79365327,
@@ -177,10 +255,11 @@
           "heure": "10:00",
           "recevant": "OBTERRE FC",
           "visiteur": "ISSOUDUN SA",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 11,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MARC CHARTIER_[\"Route d'Azay\", 'Le Bourg', '36290 OBTERRE']"
         },
         {
           "id": 79365330,
@@ -378,10 +457,48 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE LE MERLE BLANC_[' RUE DES ANEMONES', '36200 ARGENTON SUR CREUSE']": {
+          "nom": "STADE LE MERLE BLANC",
+          "adresse": " RUE DES ANEMONES | 36200 ARGENTON SUR CREUSE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFK12kSYhn7Y": {
+          "nom": "AMANDINE P.",
+          "maillot": 5,
+          "club": "PARNAC V.A AC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl4myYkmrc": {
+          "nom": "JOHANNA F.",
+          "maillot": 9,
+          "club": "PARNAC V.A AC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt7lywinbM": {
+          "nom": "ADELE P.",
+          "maillot": 3,
+          "club": "PARNAC V.A AC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp2kicmmbA": {
+          "nom": "ALEXIA N.",
+          "maillot": 10,
+          "club": "PARNAC V.A AC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt9liwgl78": {
+          "nom": "LOUISE C.",
+          "maillot": 2,
+          "club": "BAS BERRY FC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx8lickmbY": {
+          "nom": "ALEXIA A.",
+          "maillot": 10,
+          "club": "BAS BERRY FC 2"
+        }
+      },
       "matchs": [
         {
           "id": 79365674,
@@ -447,10 +564,34 @@
           "heure": "20:00",
           "recevant": "PARNAC V.A AC",
           "visiteur": "BAS BERRY FC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12kSYhn7Y",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl4myYkmrc",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7lywinbM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp2kicmmbA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt9liwgl78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8lickmbY",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL 2_['ROUTE DU FAY', '36170 PARNAC']"
         },
         {
           "id": 79365680,
@@ -458,10 +599,11 @@
           "heure": "10:00",
           "recevant": "U.S.A.P.",
           "visiteur": "F.C. LUANT 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE LE MERLE BLANC_[' RUE DES ANEMONES', '36200 ARGENTON SUR CREUSE']"
         },
         {
           "id": 79365681,
@@ -469,10 +611,11 @@
           "heure": "10:00",
           "recevant": "US 2R",
           "visiteur": "ARDENTES AS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MAXIME COUTURIER_[' RUE DU STADE', '36270 EGUZON CHANTOME']"
         },
         {
           "id": 79365683,

@@ -108,6 +108,41 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE DU TREFFORT N°1_['10, AVENUE GEORGES BRASSENS', '71880 CHATENOY LE ROYAL']": {
+          "nom": "STADE DU TREFFORT N°1",
+          "adresse": "10, AVENUE GEORGES BRASSENS | 71880 CHATENOY LE ROYAL",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DU CHÂTEAU 2_['RUE DES CHATEAUX', 'TERRAIN NERINO BERNARD', '21200 VIGNOLES']": {
+          "nom": "STADE DU CHÂTEAU 2",
+          "adresse": "RUE DES CHATEAUX | TERRAIN NERINO BERNARD | 21200 VIGNOLES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE LA RENTE LOGEROT 2_['RUE PIERRE DE COUBERTIN', 'ANNEXE SYLVAIN BELLEUDY', '21160 MARSANNAY LA COTE']": {
+          "nom": "STADE DE LA RENTE LOGEROT 2",
+          "adresse": "RUE PIERRE DE COUBERTIN | ANNEXE SYLVAIN BELLEUDY | 21160 MARSANNAY LA COTE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['LE BOURG', '71340 MELAY']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "LE BOURG | 71340 MELAY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "Stade Du Suaps 2 Synthétique_[' AVENUE DU 21E SIECLE', '21000 DIJON']": {
+          "nom": "Stade Du Suaps 2 Synthétique",
+          "adresse": " AVENUE DU 21E SIECLE | 21000 DIJON",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -115,9 +150,35 @@
           "nom": "OWEN ROLLIN",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "Anonyme_AC": {
+          "nom": "Anonyme",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ARTHUR JACQUET_AC": {
+          "nom": "ARTHUR JACQUET",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "LOUIS RAOUL_AC": {
+          "nom": "LOUIS RAOUL",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKlMF6d3ky0knrc": {
+          "nom": "FABRICE L.",
+          "maillot": null,
+          "club": ""
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh6mywnmrU": {
+          "nom": "MILA G.",
+          "maillot": 10,
+          "club": "BEAUNE A.S."
+        }
+      },
       "matchs": [
         {
           "id": 79552071,
@@ -233,10 +294,11 @@
           "heure": "10:00",
           "recevant": "LOUHANS CUISEAUX FC",
           "visiteur": "HLS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 10,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "PLAINE DE JEUX CHATEAURENAUD_['15 RUE DE BEAUFORT', '71500 LOUHANS']"
         },
         {
           "id": 79552081,
@@ -244,10 +306,11 @@
           "heure": "10:00",
           "recevant": "AS CHATENOY LE ROYAL 2",
           "visiteur": "ENT. DUC GEVREY CHEV",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DU TREFFORT N°1_['10, AVENUE GEORGES BRASSENS', '71880 CHATENOY LE ROYAL']"
         },
         {
           "id": 79551259,
@@ -255,21 +318,47 @@
           "heure": "10:30",
           "recevant": "BEAUNE A.S.",
           "visiteur": "MARSANNAY",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 60,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlMF6d3ky0knrc",
+              "sanction": "J",
+              "sanction_detail": "JS4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 67,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh6mywnmrU",
+              "sanction": "J",
+              "sanction_detail": "J3",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE DU CHÂTEAU 2_['RUE DES CHATEAUX', 'TERRAIN NERINO BERNARD', '21200 VIGNOLES']",
+          "officiels": [
+            "Anonyme_AC"
+          ]
         },
         {
           "id": 79552086,
           "date": "2026-10-10",
-          "heure": "12:30",
+          "heure": "12:15",
           "recevant": "MARSANNAY",
           "visiteur": "IS-SELONGEY",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA RENTE LOGEROT 2_['RUE PIERRE DE COUBERTIN', 'ANNEXE SYLVAIN BELLEUDY', '21160 MARSANNAY LA COTE']",
+          "officiels": [
+            "ARTHUR JACQUET_AC"
+          ]
         },
         {
           "id": 79552083,
@@ -277,32 +366,38 @@
           "heure": "15:00",
           "recevant": "ENT. DUC GEVREY CHEV",
           "visiteur": "ALC LONGVIC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Du Suaps 2 Synthétique_[' AVENUE DU 21E SIECLE', '21000 DIJON']",
+          "officiels": [
+            "LOUIS RAOUL_AC"
+          ]
         },
         {
           "id": 79552085,
           "date": "2026-10-10",
-          "heure": "15:00",
+          "heure": "14:00",
           "recevant": "SUD FOOT 71",
           "visiteur": "LOUHANS CUISEAUX FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['LE BOURG', '71340 MELAY']"
         },
         {
           "id": 79552084,
-          "date": "2026-10-11",
-          "heure": "10:00",
+          "date": "2026-10-10",
+          "heure": "10:30",
           "recevant": "HLS",
           "visiteur": "AS CHATENOY LE ROYAL 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE M. DENOGENT_['BLANY LAIZE', 'ROUTE DE MORANCHIN', '71870 LAIZE']"
         },
         {
           "id": 79552088,

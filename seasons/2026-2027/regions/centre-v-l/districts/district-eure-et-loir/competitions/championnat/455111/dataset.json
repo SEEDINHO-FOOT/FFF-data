@@ -58,6 +58,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC504910.jpg",
           "clNo": "2434",
           "slug": "504910-illiers-u-p"
+        },
+        "U.S.P.": {
+          "nom": "U.S.P.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC526748.jpg",
+          "clNo": "11050",
+          "slug": "526748-u-s-p"
+        },
+        "AMILLY FC": {
+          "nom": "AMILLY FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC528148.jpg",
+          "clNo": "11977",
+          "slug": "528148-amilly-fc"
         }
       },
       "stades": {
@@ -88,6 +100,41 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MARCEL JARDE 1_['RUE DES RENARDIERES', '28300 JOUY']": {
+          "nom": "STADE MARCEL JARDE 1",
+          "adresse": "RUE DES RENARDIERES | 28300 JOUY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['LES SABLES', '28130 HANCHES']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "LES SABLES | 28130 HANCHES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 2_['ROUTE DE COURVILLE', '28120 ILLIERS COMBRAY']": {
+          "nom": "STADE MUNICIPAL 2",
+          "adresse": "ROUTE DE COURVILLE | 28120 ILLIERS COMBRAY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE PIERRE LECLERC_[\"RUE SAINT LUBIN D'ISIGNY - D955\", '28200 LOGRON']": {
+          "nom": "STADE PIERRE LECLERC",
+          "adresse": "RUE SAINT LUBIN D'ISIGNY - D955 | 28200 LOGRON",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['4 RUE DES VAUROUX', '28300 AMILLY']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "4 RUE DES VAUROUX | 28300 AMILLY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -99,12 +146,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt4ki0nnLE": {
           "nom": "NOELLY G.",
-          "maillot": 9,
+          "maillot": 10,
           "club": "ENT. JOUY / ASCB"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx3lSwjlrM": {
           "nom": "JESSY D.",
-          "maillot": 8,
+          "maillot": 9,
           "club": "ENT. JOUY / ASCB"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK12lCosnrc": {
@@ -120,6 +167,16 @@
         "ir3_vj-lzPeINLfhzILsrKFOFK12lSwsmbY": {
           "nom": "LETHY B.",
           "maillot": 10,
+          "club": "ENT. JOUY / ASCB"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt-lCkknbM": {
+          "nom": "ARMAND G.",
+          "maillot": 2,
+          "club": "ENT. JOUY / ASCB"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp5lyYnl7U": {
+          "nom": "MERLIN C.",
+          "maillot": 11,
           "club": "ENT. JOUY / ASCB"
         }
       },
@@ -137,29 +194,31 @@
         },
         {
           "id": 79529484,
-          "date": "2026-09-19",
+          "date": "2026-10-10",
           "heure": "15:00",
           "recevant": "ILLIERS U P",
           "visiteur": "LUISANT A C 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 2_['ROUTE DE COURVILLE', '28120 ILLIERS COMBRAY']"
         },
         {
           "id": 79529486,
-          "date": "2026-09-19",
+          "date": "2026-10-10",
           "heure": "15:30",
           "recevant": "AMILLY FC",
           "visiteur": "ASR",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 12,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['4 RUE DES VAUROUX', '28300 AMILLY']"
         },
         {
           "id": 79529485,
-          "date": "2026-09-19",
+          "date": "2026-10-10",
           "heure": "16:30",
           "recevant": "CHAMPHOL F J",
           "visiteur": "U.S.P.",
@@ -244,10 +303,11 @@
           "heure": "15:00",
           "recevant": "ILLIERS U P",
           "visiteur": "U.S.P.",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 2_['ROUTE DE COURVILLE', '28120 ILLIERS COMBRAY']"
         },
         {
           "id": 79529495,
@@ -255,10 +315,34 @@
           "heure": "13:00",
           "recevant": "ENT. JOUY / ASCB",
           "visiteur": "ASR",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 20,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-lCkknbM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5lyYnl7U",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 26,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7lS4tn7I",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3lSwjlrM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 27,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5lyYnmLU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt4ki0nnLE",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MARCEL JARDE 1_['RUE DES RENARDIERES', '28300 JOUY']"
         },
         {
           "id": 79529496,
@@ -266,10 +350,11 @@
           "heure": "13:30",
           "recevant": "HANCHES A S",
           "visiteur": "LUISANT A C 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['LES SABLES', '28130 HANCHES']"
         },
         {
           "id": 79529493,
@@ -577,10 +662,11 @@
           "heure": "15:00",
           "recevant": "FJ VALLÉE DUNOISE 2",
           "visiteur": "FCL",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 8,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PIERRE LECLERC_[\"RUE SAINT LUBIN D'ISIGNY - D955\", '28200 LOGRON']"
         }
       ]
     }

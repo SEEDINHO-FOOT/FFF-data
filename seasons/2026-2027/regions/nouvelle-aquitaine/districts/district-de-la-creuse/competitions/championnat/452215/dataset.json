@@ -102,6 +102,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE DE LA PRADE_['ROUTE DU STADE', '23300 ST AGNANT DE VERSILLAT']": {
+          "nom": "STADE DE LA PRADE",
+          "adresse": "ROUTE DU STADE | 23300 ST AGNANT DE VERSILLAT",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -340,10 +347,11 @@
           "heure": "13:15",
           "recevant": "ST MAURICE LA SOUT. 2",
           "visiteur": "STE FEYRE RAPID FC 4",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE EUGÈNE PAILLET_['ANCIENNE ROUTE 145', '23300 ST MAURICE LA SOUTERRAINE']"
         },
         {
           "id": 56347701,
@@ -351,10 +359,11 @@
           "heure": "15:00",
           "recevant": "AJAIN US",
           "visiteur": "BOURGANEUF USC 4",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES CHAUMES_[' ROUTE DU STADE', '23380 AJAIN']"
         },
         {
           "id": 56347702,
@@ -362,10 +371,11 @@
           "heure": "15:00",
           "recevant": "VERSILLACOISE US 3",
           "visiteur": "ST DIZIER LEYRENNE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA PRADE_['ROUTE DU STADE', '23300 ST AGNANT DE VERSILLAT']"
         },
         {
           "id": 56347704,
@@ -373,10 +383,11 @@
           "heure": "15:00",
           "recevant": "LE GRAND BOURG US 2",
           "visiteur": "BENEVENT MARSAC ES 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GABRIEL ADENIS_[' RUE DU STADE GABRIEL ADENIS', '23240 LE GRAND BOURG']"
         },
         {
           "id": 56347706,
@@ -909,6 +920,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC582771.jpg",
           "clNo": "192091",
           "slug": "582771-e-s-jarnages-parsac-2"
+        },
+        "CLUGNAT ES 2": {
+          "nom": "CLUGNAT ES 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC523786.jpg",
+          "clNo": "9067",
+          "slug": "523786-clugnat-es-2"
         }
       },
       "stades": {
@@ -939,9 +956,29 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['ROUTE DE GUERET', '23270 CLUGNAT']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "ROUTE DE GUERET | 23270 CLUGNAT",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE DU CHAUCHET_[' RUE JEAN MOULIN', '23140 JARNAGES']": {
+          "nom": "STADE DU CHAUCHET",
+          "adresse": " RUE JEAN MOULIN | 23140 JARNAGES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
-      "officiels": {},
+      "officiels": {
+        "CHRISTIAN CHIRADE_AC": {
+          "nom": "CHRISTIAN CHIRADE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        }
+      },
       "joueurs": {
         "ir3_vj-lzPeINLfhzILsrKlJFa95kSwimLE": {
           "nom": "LUDOVIC B.",
@@ -992,6 +1029,56 @@
           "nom": "DAMIEN B.",
           "maillot": 7,
           "club": "CHAMBONNAISE JS 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlJFK99migsm7A": {
+          "nom": "PATRICK M.",
+          "maillot": 7,
+          "club": "BORD ST GEORGES AS 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt7mykmn7A": {
+          "nom": "KEVIN G.",
+          "maillot": 12,
+          "club": "BORD ST GEORGES AS 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt2my0sl74": {
+          "nom": "MATHIS L.",
+          "maillot": 2,
+          "club": "CLUGNAT ES 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlJFa99kSYsmLY": {
+          "nom": "YVES T.",
+          "maillot": 13,
+          "club": "CLUGNAT ES 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh7ki4hnLc": {
+          "nom": "NOAH B.",
+          "maillot": 8,
+          "club": "CLUGNAT ES 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd6mioin78": {
+          "nom": "JULIEN N.",
+          "maillot": 14,
+          "club": "CLUGNAT ES 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrK1AFKZ_mionnA": {
+          "nom": "STEPHANE C.",
+          "maillot": 11,
+          "club": "BORD ST GEORGES AS 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh7kCYml7Q": {
+          "nom": "EMILIEN N.",
+          "maillot": 13,
+          "club": "BORD ST GEORGES AS 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx-ky8jlrY": {
+          "nom": "MUSTAPHA O.",
+          "maillot": 10,
+          "club": "CLUGNAT ES 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx7lyYsmLQ": {
+          "nom": "LORENZO S.",
+          "maillot": 12,
+          "club": "CLUGNAT ES 2"
         }
       },
       "matchs": [
@@ -1018,14 +1105,55 @@
         },
         {
           "id": 56348090,
-          "date": "2026-09-20",
+          "date": "2026-10-11",
           "heure": "15:00",
           "recevant": "CLUGNAT ES 2",
           "visiteur": "BORD ST GEORGES AS 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 21,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlJFK99migsm7A",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt7mykmn7A",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 27,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt2my0sl74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlJFa99kSYsmLY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 27,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh7ki4hnLc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6mioin78",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 31,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrK1AFKZ_mionnA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh7kCYml7Q",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx-ky8jlrY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx7lyYsmLQ",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL_['ROUTE DE GUERET', '23270 CLUGNAT']",
+          "officiels": [
+            "CHRISTIAN CHIRADE_AC"
+          ]
         },
         {
           "id": 56348092,
@@ -1134,10 +1262,11 @@
           "heure": "13:15",
           "recevant": "FORET DU TEMP 2",
           "visiteur": "BORD ST GEORGES AS 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE BARRONETS_[' RUE DU STADE', '23360 LA FORET DU TEMPLE']"
         },
         {
           "id": 56348097,
@@ -1145,10 +1274,11 @@
           "heure": "15:00",
           "recevant": "CLUGNAT ES 2",
           "visiteur": "CHAMBONNAISE JS 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['ROUTE DE GUERET', '23270 CLUGNAT']"
         },
         {
           "id": 56348099,
@@ -1156,10 +1286,11 @@
           "heure": "15:00",
           "recevant": "E.S. JARNAGES PARSAC 2",
           "visiteur": "BOUSSAC CS 4",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DU CHAUCHET_[' RUE JEAN MOULIN', '23140 JARNAGES']"
         },
         {
           "id": 56348100,
@@ -1167,10 +1298,11 @@
           "heure": "15:00",
           "recevant": "NOUZIERS LA CELLETTE 2",
           "visiteur": "LUSSAT AS 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['Rue du stade', '23350 LA CELLETTE']"
         },
         {
           "id": 56348104,
@@ -1703,6 +1835,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC553657.jpg",
           "clNo": "136783",
           "slug": "553657-valliere-us-2"
+        },
+        "AUBUSSONNAIS EF 4": {
+          "nom": "AUBUSSONNAIS EF 4",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC545740.jpg",
+          "clNo": "23603",
+          "slug": "545740-aubussonnais-ef-4"
         }
       },
       "stades": {
@@ -1744,6 +1882,20 @@
         "STADE MUNICIPAL_[' LE BOUEIX', '23120 VALLIERE']": {
           "nom": "STADE MUNICIPAL",
           "adresse": " LE BOUEIX | 23120 VALLIERE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE VICTOR PAKOMOFF 2_['ROUTE DE CHENERAILLES', '23200 AUBUSSON']": {
+          "nom": "STADE VICTOR PAKOMOFF 2",
+          "adresse": "ROUTE DE CHENERAILLES | 23200 AUBUSSON",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_[' ROUTE D AUBUSSON', '23480 ST SULPICE LES CHAMPS']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": " ROUTE D AUBUSSON | 23480 ST SULPICE LES CHAMPS",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -1873,14 +2025,15 @@
         },
         {
           "id": 56348237,
-          "date": "2026-09-20",
+          "date": "2026-10-11",
           "heure": "13:15",
           "recevant": "AUBUSSONNAIS EF 4",
           "visiteur": "VALLIERE US 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE VICTOR PAKOMOFF 2_['ROUTE DE CHENERAILLES', '23200 AUBUSSON']"
         },
         {
           "id": 56348238,
@@ -2058,10 +2211,11 @@
           "heure": "13:15",
           "recevant": "AUBUSSONNAIS EF 4",
           "visiteur": "RETERRE FONTANIERES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE VICTOR PAKOMOFF 2_['ROUTE DE CHENERAILLES', '23200 AUBUSSON']"
         },
         {
           "id": 56348243,
@@ -2080,10 +2234,11 @@
           "heure": "15:00",
           "recevant": "CHENERAILLES CO 2",
           "visiteur": "PEYRAT LA NONIERE CA 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['ROUTE DE GOUZON', '23130 CHENERAILLES']"
         },
         {
           "id": 56348246,
@@ -2091,10 +2246,11 @@
           "heure": "15:00",
           "recevant": "VALLIERE US 2",
           "visiteur": "S.C. CHAMPAGNAT 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_[' ROUTE D AUBUSSON', '23480 ST SULPICE LES CHAMPS']"
         },
         {
           "id": 56348249,

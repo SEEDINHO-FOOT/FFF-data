@@ -551,6 +551,21 @@
           "nom": "AMBDOUL HAQ AHAMADA",
           "role": "Arbitre assistant 1",
           "role_cod": "A1"
+        },
+        "SAID ARCHIDINE_AC": {
+          "nom": "SAID ARCHIDINE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "EL ANRIF AHAMADA_A1": {
+          "nom": "EL ANRIF AHAMADA",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
+        },
+        "JEAN FASSIHOU_A2": {
+          "nom": "JEAN FASSIHOU",
+          "role": "Arbitre assistant 2",
+          "role_cod": "A2"
         }
       },
       "joueurs": {
@@ -656,7 +671,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx2ly0nnbM": {
           "nom": "RAIMA K.",
-          "maillot": 15,
+          "maillot": 28,
           "club": "US KAVANI"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh_mi8jnLU": {
@@ -886,7 +901,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh2mighnrE": {
           "nom": "DAIBADJI A.",
-          "maillot": 15,
+          "maillot": 8,
           "club": "ABEILLES"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh8kCoknbE": {
@@ -936,12 +951,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp4kiYllrI": {
           "nom": "NAÏMA S.",
-          "maillot": 15,
+          "maillot": 3,
           "club": "US KAVANI"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt2kCsll7I": {
           "nom": "ZAIHATI Y.",
-          "maillot": 10,
+          "maillot": 17,
           "club": "US KAVANI"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx2kiYtm7M": {
@@ -1126,7 +1141,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK14miwimrE": {
           "nom": "TIYA KATE V.",
-          "maillot": 8,
+          "maillot": 7,
           "club": "ABEILLES"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt2kyknn74": {
@@ -1297,6 +1312,11 @@
         "ir3_vj-lzPeINLfhzILsrKpNEKh7lyYml7Y": {
           "nom": "MAELLE S.",
           "maillot": 4,
+          "club": "ABEILLES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp7mi0lm7Q": {
+          "nom": "SAOUDAT S.",
+          "maillot": 14,
           "club": "ABEILLES"
         }
       },
@@ -3886,10 +3906,51 @@
           "heure": "15:30",
           "recevant": "US KAVANI",
           "visiteur": "ABEILLES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 12,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt2kCsll7I",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx9kyosmrU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 56,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK14miwimrE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 60,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd4ki0ll7A",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 78,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx2ly0nnbM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4kiYllrI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 79,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh2mighnrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp7mi0lm7Q",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE DEPARTEMENTAL CAVANI_['ROUTE DU STADE', '97600 MAMOUDZOU']",
+          "officiels": [
+            "SAID ARCHIDINE_AC",
+            "EL ANRIF AHAMADA_A1",
+            "JEAN FASSIHOU_A2"
+          ]
         },
         {
           "id": 55657418,
@@ -4676,6 +4737,11 @@
         },
         "MOUSLIM ADAM_A2": {
           "nom": "MOUSLIM ADAM",
+          "role": "Arbitre assistant 2",
+          "role_cod": "A2"
+        },
+        "CHADHOULI TAVANDRAY_A2": {
+          "nom": "CHADHOULI TAVANDRAY",
           "role": "Arbitre assistant 2",
           "role_cod": "A2"
         }
@@ -8011,10 +8077,66 @@
           "heure": "15:30",
           "recevant": "A.S.JUMELLE MZOUASIA",
           "visiteur": "ASSO CLUB  MIRERENI",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 8,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 6,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK13kykknbE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 10,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt2lCkll7Q",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 32,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh7lygnlrI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 53,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK13kykknbE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 60,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt2lCkll7Q",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 80,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt2lCkll7Q",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 84,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt2lCkll7Q",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 90,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh7lygnlrI",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL ISSA MADI DAOULAB_['MZOUAZIA', 'CCD6', '97620 BOUENI']",
+          "officiels": [
+            "Anonyme_AC",
+            "Anonyme_A1",
+            "CHADHOULI TAVANDRAY_A2"
+          ]
         },
         {
           "id": 55657509,

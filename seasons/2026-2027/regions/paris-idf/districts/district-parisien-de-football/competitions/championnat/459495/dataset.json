@@ -322,6 +322,39 @@
           "buts_visiteur": null,
           "joue": false,
           "statut": "à venir"
+        },
+        {
+          "id": 79741418,
+          "date": "2026-10-10",
+          "heure": "08:45",
+          "recevant": "PARIS 13 ATLETICO",
+          "visiteur": "PARIS 19 ESP",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79738730,
+          "date": "2026-10-10",
+          "heure": "09:00",
+          "recevant": "PARIS FC",
+          "visiteur": "PARIS UNIVERS. CLUB",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79741417,
+          "date": "2026-10-10",
+          "heure": "09:00",
+          "recevant": "SALESIENNE DE PARIS",
+          "visiteur": "PARIS 15 A.C.",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
         }
       ]
     },
@@ -646,21 +679,42 @@
     {
       "cp_slug": "459495-criterium-u10/phase/1/3",
       "competition": "CRITERIUM U10",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "COURONNES O.F.C.": {
+          "nom": "COURONNES O.F.C.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC548744.jpg",
+          "clNo": "25683",
+          "slug": "548744-couronnes-o-f-c"
+        },
+        "TROPS FC": {
+          "nom": "TROPS FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560687.jpg",
+          "clNo": "198626",
+          "slug": "560687-trops-fc"
+        }
+      },
+      "stades": {
+        "STADE MARYSE HILSZ 1_['34 RUE MARYSE HILSZ', 'TERRAIN HONNEUR', '75020 PARIS']": {
+          "nom": "STADE MARYSE HILSZ 1",
+          "adresse": "34 RUE MARYSE HILSZ | TERRAIN HONNEUR | 75020 PARIS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
         {
           "id": 79685323,
           "date": "2026-10-10",
-          "heure": "09:00",
+          "heure": "11:00",
           "recevant": "C.A. DE PARIS 14",
           "visiteur": "ENFANTS GOUTTE D'OR",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "à venir"
+          "statut": "reporté"
         },
         {
           "id": 79685326,
@@ -668,10 +722,11 @@
           "heure": "09:00",
           "recevant": "COURONNES O.F.C.",
           "visiteur": "TROPS FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MARYSE HILSZ 1_['34 RUE MARYSE HILSZ', 'TERRAIN HONNEUR', '75020 PARIS']"
         },
         {
           "id": 79685324,
@@ -690,10 +745,10 @@
           "heure": "12:00",
           "recevant": "PARIS ALESIA F.C.",
           "visiteur": "MACCABI PARIS METRO",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué"
         },
         {
           "id": 79685327,
@@ -964,21 +1019,112 @@
     {
       "cp_slug": "459495-criterium-u10/phase/1/4",
       "competition": "CRITERIUM U10",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "COURONNES O.F.C. 2": {
+          "nom": "COURONNES O.F.C. 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC548744.jpg",
+          "clNo": "25683",
+          "slug": "548744-couronnes-o-f-c-2"
+        },
+        "TROPS FC 2": {
+          "nom": "TROPS FC 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560687.jpg",
+          "clNo": "198626",
+          "slug": "560687-trops-fc-2"
+        },
+        "PARIS ALESIA F.C. 2": {
+          "nom": "PARIS ALESIA F.C. 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500699.jpg",
+          "clNo": "672",
+          "slug": "500699-paris-alesia-f-c-2"
+        },
+        "MACCABI PARIS METRO 2": {
+          "nom": "MACCABI PARIS METRO 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC563601.jpg",
+          "clNo": "172434",
+          "slug": "563601-maccabi-paris-metro-2"
+        }
+      },
+      "stades": {
+        "STADE MARYSE HILSZ 1_['34 RUE MARYSE HILSZ', 'TERRAIN HONNEUR', '75020 PARIS']": {
+          "nom": "STADE MARYSE HILSZ 1",
+          "adresse": "34 RUE MARYSE HILSZ | TERRAIN HONNEUR | 75020 PARIS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE ÉLISABETH_['7/15 AVENUE PAUL APPELL', '75014 PARIS']": {
+          "nom": "STADE ÉLISABETH",
+          "adresse": "7/15 AVENUE PAUL APPELL | 75014 PARIS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFKt-lS4tl7c": {
+          "nom": "ABDELRAHMAN M.",
+          "maillot": 9,
+          "club": "COURONNES O.F.C. 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt_lSgnnbE": {
+          "nom": "Anonyme",
+          "maillot": 13,
+          "club": "COURONNES O.F.C. 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp5my4jnrU": {
+          "nom": "EDEN DAYAS G.",
+          "maillot": 8,
+          "club": "TROPS FC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt4lSgmm78": {
+          "nom": "CHAKIB L.",
+          "maillot": 10,
+          "club": "TROPS FC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt7kC8hn7U": {
+          "nom": "LAKHDAR D.",
+          "maillot": 10,
+          "club": "COURONNES O.F.C. 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp-kCchnLY": {
+          "nom": "MUSTAPHA K.",
+          "maillot": 14,
+          "club": "COURONNES O.F.C. 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt4kCcgmL4": {
+          "nom": "ABDELLAH A.",
+          "maillot": 11,
+          "club": "COURONNES O.F.C. 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp8kCcslrM": {
+          "nom": "AMOR Z.",
+          "maillot": 12,
+          "club": "COURONNES O.F.C. 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt6kS8jnLU": {
+          "nom": "RAMZI H.",
+          "maillot": 6,
+          "club": "TROPS FC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp9kysnm78": {
+          "nom": "SAMY D.",
+          "maillot": 9,
+          "club": "TROPS FC 2"
+        }
+      },
       "matchs": [
         {
           "id": 79685351,
           "date": "2026-10-10",
-          "heure": "09:00",
+          "heure": "11:00",
           "recevant": "C.A. DE PARIS 14 2",
           "visiteur": "ENFANTS GOUTTE D'OR 2",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "à venir"
+          "statut": "reporté"
         },
         {
           "id": 79685354,
@@ -986,10 +1132,48 @@
           "heure": "09:00",
           "recevant": "COURONNES O.F.C. 2",
           "visiteur": "TROPS FC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 7,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-lS4tl7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt_lSgnnbE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 11,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5my4jnrU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt4lSgmm78",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 12,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7kC8hn7U",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp-kCchnLY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 22,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt4kCcgmL4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp8kCcslrM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 23,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt6kS8jnLU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9kysnm78",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MARYSE HILSZ 1_['34 RUE MARYSE HILSZ', 'TERRAIN HONNEUR', '75020 PARIS']"
         },
         {
           "id": 79685353,
@@ -997,10 +1181,11 @@
           "heure": "10:55",
           "recevant": "PARIS ALESIA F.C. 2",
           "visiteur": "MACCABI PARIS METRO 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ÉLISABETH_['7/15 AVENUE PAUL APPELL', '75014 PARIS']"
         },
         {
           "id": 79685352,
@@ -1282,8 +1467,48 @@
     {
       "cp_slug": "459495-criterium-u10/phase/1/5",
       "competition": "CRITERIUM U10",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "ENFANTS DE PASSY": {
+          "nom": "ENFANTS DE PASSY",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC545692.jpg",
+          "clNo": "23561",
+          "slug": "545692-enfants-de-passy"
+        },
+        "NICOLAITE CHAILLOT": {
+          "nom": "NICOLAITE CHAILLOT",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC523872.jpg",
+          "clNo": "9120",
+          "slug": "523872-nicolaite-chaillot"
+        },
+        "PARIS EST SOLITAIRE": {
+          "nom": "PARIS EST SOLITAIRE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC550005.jpg",
+          "clNo": "100411",
+          "slug": "550005-paris-est-solitaire"
+        },
+        "AFP 18": {
+          "nom": "AFP 18",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC581402.jpg",
+          "clNo": "183689",
+          "slug": "581402-afp-18"
+        }
+      },
+      "stades": {
+        "STADE DE LA MUETTE_['60 BOULEVARD LANNES', 'FOOT/HOCKEY - CRAMPONS INTERDITS', '75016 PARIS']": {
+          "nom": "STADE DE LA MUETTE",
+          "adresse": "60 BOULEVARD LANNES | FOOT/HOCKEY - CRAMPONS INTERDITS | 75016 PARIS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "Stade Jules Ladoumègue N° 1_['FACE A LA STATION T3b D. SEYRIG', '39 ROUTE DES PETITS PONTS', 'TERRAIN HONNEUR', '75019 PARIS']": {
+          "nom": "Stade Jules Ladoumègue N° 1",
+          "adresse": "FACE A LA STATION T3b D. SEYRIG | 39 ROUTE DES PETITS PONTS | TERRAIN HONNEUR | 75019 PARIS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -1301,7 +1526,7 @@
         {
           "id": 79685391,
           "date": "2026-10-10",
-          "heure": "09:00",
+          "heure": "11:15",
           "recevant": "PARIS XVII POUCHET",
           "visiteur": "PETITS ANGES ES",
           "buts_recevant": null,
@@ -1326,10 +1551,11 @@
           "heure": "10:00",
           "recevant": "ENFANTS DE PASSY",
           "visiteur": "NICOLAITE CHAILLOT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA MUETTE_['60 BOULEVARD LANNES', 'FOOT/HOCKEY - CRAMPONS INTERDITS', '75016 PARIS']"
         },
         {
           "id": 79685396,
@@ -1594,14 +1820,58 @@
           "buts_visiteur": null,
           "joue": false,
           "statut": "à venir"
+        },
+        {
+          "id": 79741571,
+          "date": "2026-10-10",
+          "heure": "09:00",
+          "recevant": "CHAMPIONNET S. PARIS",
+          "visiteur": "PARIS 19E ANTILLAIS",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79741570,
+          "date": "2026-10-10",
+          "heure": "10:00",
+          "recevant": "PARIS EST SOLITAIRE",
+          "visiteur": "AFP 18",
+          "buts_recevant": 9,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Jules Ladoumègue N° 1_['FACE A LA STATION T3b D. SEYRIG', '39 ROUTE DES PETITS PONTS', 'TERRAIN HONNEUR', '75019 PARIS']"
         }
       ]
     },
     {
       "cp_slug": "459495-criterium-u10/phase/1/6",
       "competition": "CRITERIUM U10",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "ENFANTS DE PASSY 2": {
+          "nom": "ENFANTS DE PASSY 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC545692.jpg",
+          "clNo": "23561",
+          "slug": "545692-enfants-de-passy-2"
+        },
+        "NICOLAITE CHAILLOT 2": {
+          "nom": "NICOLAITE CHAILLOT 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC523872.jpg",
+          "clNo": "9120",
+          "slug": "523872-nicolaite-chaillot-2"
+        }
+      },
+      "stades": {
+        "STADE DE LA MUETTE_['60 BOULEVARD LANNES', 'FOOT/HOCKEY - CRAMPONS INTERDITS', '75016 PARIS']": {
+          "nom": "STADE DE LA MUETTE",
+          "adresse": "60 BOULEVARD LANNES | FOOT/HOCKEY - CRAMPONS INTERDITS | 75016 PARIS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -1619,7 +1889,7 @@
         {
           "id": 79685420,
           "date": "2026-10-10",
-          "heure": "09:00",
+          "heure": "11:15",
           "recevant": "PARIS XVII POUCHET 2",
           "visiteur": "PETITS ANGES ES 2",
           "buts_recevant": null,
@@ -1644,10 +1914,11 @@
           "heure": "10:00",
           "recevant": "ENFANTS DE PASSY 2",
           "visiteur": "NICOLAITE CHAILLOT 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA MUETTE_['60 BOULEVARD LANNES', 'FOOT/HOCKEY - CRAMPONS INTERDITS', '75016 PARIS']"
         },
         {
           "id": 79685425,
@@ -1912,320 +2183,24 @@
           "buts_visiteur": null,
           "joue": false,
           "statut": "à venir"
-        }
-      ]
-    },
-    {
-      "cp_slug": "459495-criterium-u10/phase/1/7",
-      "competition": "CRITERIUM U10",
-      "clubs": {},
-      "stades": {},
-      "officiels": {},
-      "joueurs": {},
-      "matchs": [
+        },
         {
-          "id": 79685448,
+          "id": 79741584,
           "date": "2026-10-10",
           "heure": "09:00",
-          "recevant": "SALESIENNE DE PARIS 3",
-          "visiteur": "LE TIR - AS CBB",
+          "recevant": "CHAMPIONNET S. PARIS 2",
+          "visiteur": "PARIS 19E ANTILLAIS 2",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
           "statut": "à venir"
         },
         {
-          "id": 79685449,
-          "date": "2026-10-10",
-          "heure": "09:00",
-          "recevant": "PARIS UNIVERS. CLUB 3",
-          "visiteur": "PITRAY OLIER PARIS 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
-        },
-        {
-          "id": 79685451,
+          "id": 79741583,
           "date": "2026-10-10",
           "heure": "10:00",
-          "recevant": "PARIS 13 ATLETICO 3",
-          "visiteur": "MMFC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
-        },
-        {
-          "id": 79685450,
-          "date": "2026-10-10",
-          "heure": "11:00",
-          "recevant": "PARIS 15 A.C. 3",
-          "visiteur": "CAMILLIENNE S. 12EME",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
-        },
-        {
-          "id": 79685452,
-          "date": "2026-11-07",
-          "heure": "09:00",
-          "recevant": "MMFC",
-          "visiteur": "PARIS 15 A.C. 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
-        },
-        {
-          "id": 79685453,
-          "date": "2026-11-07",
-          "heure": "10:00",
-          "recevant": "PITRAY OLIER PARIS 3",
-          "visiteur": "PARIS 13 ATLETICO 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
-        },
-        {
-          "id": 79685454,
-          "date": "2026-11-07",
-          "heure": "11:00",
-          "recevant": "LE TIR - AS CBB",
-          "visiteur": "PARIS UNIVERS. CLUB 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
-        },
-        {
-          "id": 79685455,
-          "date": "2026-11-07",
-          "heure": "11:00",
-          "recevant": "CAMILLIENNE S. 12EME",
-          "visiteur": "SALESIENNE DE PARIS 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
-        },
-        {
-          "id": 79685456,
-          "date": "2026-11-14",
-          "heure": "09:00",
-          "recevant": "PARIS UNIVERS. CLUB 3",
-          "visiteur": "SALESIENNE DE PARIS 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
-        },
-        {
-          "id": 79685458,
-          "date": "2026-11-14",
-          "heure": "09:00",
-          "recevant": "MMFC",
-          "visiteur": "CAMILLIENNE S. 12EME",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
-        },
-        {
-          "id": 79685457,
-          "date": "2026-11-14",
-          "heure": "10:00",
-          "recevant": "PARIS 13 ATLETICO 3",
-          "visiteur": "LE TIR - AS CBB",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
-        },
-        {
-          "id": 79685459,
-          "date": "2026-11-14",
-          "heure": "11:00",
-          "recevant": "PARIS 15 A.C. 3",
-          "visiteur": "PITRAY OLIER PARIS 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
-        },
-        {
-          "id": 79685462,
-          "date": "2026-11-28",
-          "heure": "09:00",
-          "recevant": "SALESIENNE DE PARIS 3",
-          "visiteur": "PARIS 13 ATLETICO 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
-        },
-        {
-          "id": 79685463,
-          "date": "2026-11-28",
-          "heure": "09:00",
-          "recevant": "PARIS UNIVERS. CLUB 3",
-          "visiteur": "CAMILLIENNE S. 12EME",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
-        },
-        {
-          "id": 79685460,
-          "date": "2026-11-28",
-          "heure": "10:00",
-          "recevant": "PITRAY OLIER PARIS 3",
-          "visiteur": "MMFC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
-        },
-        {
-          "id": 79685461,
-          "date": "2026-11-28",
-          "heure": "11:00",
-          "recevant": "LE TIR - AS CBB",
-          "visiteur": "PARIS 15 A.C. 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
-        },
-        {
-          "id": 79685438,
-          "date": "2026-12-05",
-          "heure": "09:00",
-          "recevant": "MMFC",
-          "visiteur": "LE TIR - AS CBB",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
-        },
-        {
-          "id": 79685436,
-          "date": "2026-12-05",
-          "heure": "09:55",
-          "recevant": "PARIS 13 ATLETICO 3",
-          "visiteur": "PARIS UNIVERS. CLUB 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
-        },
-        {
-          "id": 79685437,
-          "date": "2026-12-05",
-          "heure": "11:00",
-          "recevant": "PARIS 15 A.C. 3",
-          "visiteur": "SALESIENNE DE PARIS 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
-        },
-        {
-          "id": 79685439,
-          "date": "2026-12-05",
-          "heure": "11:00",
-          "recevant": "CAMILLIENNE S. 12EME",
-          "visiteur": "PITRAY OLIER PARIS 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
-        },
-        {
-          "id": 79685441,
-          "date": "2026-12-12",
-          "heure": "09:00",
-          "recevant": "SALESIENNE DE PARIS 3",
-          "visiteur": "MMFC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
-        },
-        {
-          "id": 79685443,
-          "date": "2026-12-12",
-          "heure": "09:00",
-          "recevant": "PARIS UNIVERS. CLUB 3",
-          "visiteur": "PARIS 15 A.C. 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
-        },
-        {
-          "id": 79685442,
-          "date": "2026-12-12",
-          "heure": "10:00",
-          "recevant": "PARIS 13 ATLETICO 3",
-          "visiteur": "CAMILLIENNE S. 12EME",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
-        },
-        {
-          "id": 79685440,
-          "date": "2026-12-12",
-          "heure": "11:00",
-          "recevant": "LE TIR - AS CBB",
-          "visiteur": "PITRAY OLIER PARIS 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
-        },
-        {
-          "id": 79685446,
-          "date": "2027-01-23",
-          "heure": "09:00",
-          "recevant": "MMFC",
-          "visiteur": "PARIS UNIVERS. CLUB 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
-        },
-        {
-          "id": 79685445,
-          "date": "2027-01-23",
-          "heure": "10:00",
-          "recevant": "PITRAY OLIER PARIS 3",
-          "visiteur": "SALESIENNE DE PARIS 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
-        },
-        {
-          "id": 79685444,
-          "date": "2027-01-23",
-          "heure": "11:00",
-          "recevant": "PARIS 15 A.C. 3",
-          "visiteur": "PARIS 13 ATLETICO 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
-        },
-        {
-          "id": 79685447,
-          "date": "2027-01-23",
-          "heure": "11:00",
-          "recevant": "CAMILLIENNE S. 12EME",
-          "visiteur": "LE TIR - AS CBB",
+          "recevant": "PARIS EST SOLITAIRE 2",
+          "visiteur": "AFP 18 2",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
@@ -2471,6 +2446,28 @@
           "buts_visiteur": null,
           "joue": false,
           "statut": "à venir"
+        },
+        {
+          "id": 79738819,
+          "date": "2026-10-10",
+          "heure": "09:00",
+          "recevant": "PARIS ACASA 3",
+          "visiteur": "SEIZIEME ES 3",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79741476,
+          "date": "2026-10-10",
+          "heure": "09:45",
+          "recevant": "PARIS 13 ATLETICO 4",
+          "visiteur": "SALESIENNE DE PARIS 4",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
         }
       ]
     },
@@ -2507,7 +2504,7 @@
         {
           "id": 79685508,
           "date": "2026-10-10",
-          "heure": "13:00",
+          "heure": "09:00",
           "recevant": "CENTRE DE PARIS AS",
           "visiteur": "TROPS FC 3",
           "buts_recevant": null,
@@ -2712,13 +2709,48 @@
           "buts_visiteur": null,
           "joue": false,
           "statut": "à venir"
+        },
+        {
+          "id": 79685505,
+          "date": "2026-10-10",
+          "heure": "10:00",
+          "recevant": "CHANTIERS PARIS U.A.",
+          "visiteur": "ESC XVÈME",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79739032,
+          "date": "2026-10-10",
+          "heure": "10:00",
+          "recevant": "GUYANE FC PARIS",
+          "visiteur": "UFCP17",
+          "buts_recevant": 0,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué"
         }
       ]
     },
     {
       "cp_slug": "459495-criterium-u10/phase/1/10",
       "competition": "CRITERIUM U10",
-      "clubs": {},
+      "clubs": {
+        "J.A.M.": {
+          "nom": "J.A.M.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC581791.jpg",
+          "clNo": "186663",
+          "slug": "581791-j-a-m"
+        },
+        "PARIS 15 A.C. 5": {
+          "nom": "PARIS 15 A.C. 5",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC551508.jpg",
+          "clNo": "113358",
+          "slug": "551508-paris-15-a-c-5"
+        }
+      },
       "stades": {},
       "officiels": {},
       "joueurs": {},
@@ -2953,6 +2985,28 @@
           "buts_visiteur": null,
           "joue": false,
           "statut": "à venir"
+        },
+        {
+          "id": 79685534,
+          "date": "2026-10-10",
+          "heure": "10:00",
+          "recevant": "PARIS UNIVERS. CLUB 5",
+          "visiteur": "PARISIENNE ES",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79738831,
+          "date": "2026-10-10",
+          "heure": "10:00",
+          "recevant": "J.A.M.",
+          "visiteur": "PARIS 15 A.C. 5",
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué"
         }
       ]
     }

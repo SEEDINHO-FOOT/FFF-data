@@ -101,7 +101,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKlJFaZ9kiognLU": {
           "nom": "DENIS G.",
-          "maillot": 6,
+          "maillot": 4,
           "club": "SUD GATINE FC"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKp3kyYsm7E": {
@@ -186,7 +186,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKp6mi0tmbQ": {
           "nom": "ANDGELO R.",
-          "maillot": 5,
+          "maillot": 4,
           "club": "ST JEAN MISSE FC"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd9lS8ml7c": {
@@ -196,7 +196,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt3kycnmbU": {
           "nom": "BRAHIM S.",
-          "maillot": 3,
+          "maillot": 2,
           "club": "ST JEAN MISSE FC"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKp6kCokn78": {
@@ -261,7 +261,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKtJFKp_mi4lmw": {
           "nom": "CEDRIC M.",
-          "maillot": 7,
+          "maillot": 6,
           "club": "TYS F.C. 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKt3kyYtn78": {
@@ -288,6 +288,16 @@
           "nom": "ENZO G.",
           "maillot": 5,
           "club": "VRERE ST LEGER DE M."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl_kighl7c": {
+          "nom": "BAPTISTE H.",
+          "maillot": 5,
+          "club": "SUD GATINE FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl3myokmLA": {
+          "nom": "ENZO M.",
+          "maillot": 5,
+          "club": "TYS F.C. 2"
         }
       },
       "matchs": [
@@ -571,10 +581,11 @@
           "heure": "21:00",
           "recevant": "FUTSAL RVO 2",
           "visiteur": "VRERE ST LEGER DE M.",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "SALLE AUGUSTIN BORDAGE_[' RUE PIERRE LAILLE', '79600 AIRVAULT']"
         },
         {
           "id": 56458449,
@@ -582,10 +593,34 @@
           "heure": "21:00",
           "recevant": "ST JEAN MISSE FC",
           "visiteur": "SUD GATINE FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 9,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 14,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlJFaZ9kiognLU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl_kighl7c",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp6mi0tmbQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd_kikmm7A",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3kycnmbU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9lS8ml7c",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "SALLE DE SPORTS_[' RUE CHARLES RAGOT', '79100 ST JEAN DE THOUARS']"
         },
         {
           "id": 56458450,
@@ -593,15 +628,25 @@
           "heure": "21:15",
           "recevant": "TYS F.C. 2",
           "visiteur": "LE TALLUD EVEIL 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 10,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 2,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl3myokmLA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKtJFKp_mi4lmw",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "SALLE RÉMY BOUX_['RUE HAUTE DE LA CROIX', '79400 ST MAIXENT L ECOLE']"
         },
         {
           "id": 56458452,
           "date": "2026-10-12",
-          "heure": "20:30",
+          "heure": "21:00",
           "recevant": "VRERE ST LEGER DE M.",
           "visiteur": "ST JEAN MISSE FC",
           "buts_recevant": null,
@@ -887,7 +932,7 @@
       "joueurs": {
         "ir3_vj-lzPeINLfhzILsrKlJHK16kCkgnr4": {
           "nom": "TEDDY L.",
-          "maillot": 11,
+          "maillot": 2,
           "club": "E T F E 2"
         },
         "ir3_vj-lzPeINLfhzILsrKlAHal7ky0tmLE": {
@@ -907,7 +952,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKlJFK5_kycnm7c": {
           "nom": "DAMIEN B.",
-          "maillot": 3,
+          "maillot": 9,
           "club": "E T F E 2"
         },
         "ir3_vj-lzPeINLfhzILsrKlJEK16kycmm7E": {
@@ -917,7 +962,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKlJFK5_kycil7A": {
           "nom": "DAVID B.",
-          "maillot": 14,
+          "maillot": 5,
           "club": "E T F E 2"
         },
         "ir3_vj-lzPeINLfhzILsrKlJHK16kycgmLI": {
@@ -947,12 +992,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKp_kS8hnLY": {
           "nom": "NOAH B.",
-          "maillot": 4,
+          "maillot": 3,
           "club": "FC AUTIZE 2"
         },
         "ir3_vj-lzPeINLfhzILsrKlJEa16kygmmbU": {
           "nom": "LUDOVIC A.",
-          "maillot": 3,
+          "maillot": 4,
           "club": "FC AUTIZE 2"
         },
         "ir3_vj-lzPeINLfhzILsrKxLFKh-lycjmA": {
@@ -967,7 +1012,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKt8lCcjm7U": {
           "nom": "CORENTIN G.",
-          "maillot": 10,
+          "maillot": 5,
           "club": "FC AUTIZE 2"
         },
         "ir3_vj-lzPeINLfhzILsrKlJEa16kycsnrQ": {
@@ -977,12 +1022,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKlJFaZ9ki4hl7U": {
           "nom": "GUILLAUME P.",
-          "maillot": 9,
+          "maillot": 8,
           "club": "FC AUTIZE 2"
         },
         "ir3_vj-lzPeINLfhzILsrKlJFKZ9kyotmL8": {
           "nom": "FREDERIC M.",
-          "maillot": 8,
+          "maillot": 7,
           "club": "FC AUTIZE 2"
         },
         "ir3_vj-lzPeINLfhzILsrKlJFaZ9ky4jnrc": {
@@ -997,7 +1042,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKt_lS8mn7U": {
           "nom": "ADRIEN C.",
-          "maillot": 5,
+          "maillot": 2,
           "club": "FC AUTIZE 2"
         },
         "ir3_vj-lzPeINLfhzILsrKlJFa95kSwnlrU": {
@@ -1007,12 +1052,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx4kCgkm7I": {
           "nom": "CORENTIN S.",
-          "maillot": 6,
+          "maillot": 9,
           "club": "AVENIR 79 FC 2"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp5kC4lnLY": {
           "nom": "HUGO M.",
-          "maillot": 8,
+          "maillot": 3,
           "club": "E T F E 2"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp5kykkmLc": {
@@ -1072,7 +1117,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl4lyYhmrI": {
           "nom": "MAEL D.",
-          "maillot": 9,
+          "maillot": 11,
           "club": "PARTHENAY VIENNAY RC"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl9kSgin7c": {
@@ -1122,7 +1167,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKt_kyYnmb4": {
           "nom": "ANTHONIN N.",
-          "maillot": 3,
+          "maillot": 4,
           "club": "PARTHENAY VIENNAY RC"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl6li8lmrY": {
@@ -1132,8 +1177,68 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl4kS0gn7Y": {
           "nom": "WLADIM P.",
-          "maillot": 9,
+          "maillot": 8,
           "club": "PARTHENAY VIENNAY RC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlJFK16kSchmL8": {
+          "nom": "FLORIAN D.",
+          "maillot": 5,
+          "club": "PARTHENAY VIENNAY RC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl3lC8hnLA": {
+          "nom": "NATHAN B.",
+          "maillot": 6,
+          "club": "PARTHENAY VIENNAY RC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx5kywjl7Q": {
+          "nom": "MATISSE F.",
+          "maillot": 4,
+          "club": "AVENIR 79 FC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp3kyksnrQ": {
+          "nom": "VALENTIN R.",
+          "maillot": 7,
+          "club": "AVENIR 79 FC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl7lCcjm7c": {
+          "nom": "WENSKY G.",
+          "maillot": 3,
+          "club": "AVENIR 79 FC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp7lCknl7Y": {
+          "nom": "MARTIN L.",
+          "maillot": 8,
+          "club": "AVENIR 79 FC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt7ki8gnbc": {
+          "nom": "TITOUAN F.",
+          "maillot": 2,
+          "club": "AVENIR 79 FC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlJFq16lCchmrQ": {
+          "nom": "TANGUY G.",
+          "maillot": 5,
+          "club": "AVENIR 79 FC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt7lCggnLE": {
+          "nom": "TANGUY F.",
+          "maillot": 6,
+          "club": "AVENIR 79 FC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpKFqh5lyokmLU": {
+          "nom": "AXEL M.",
+          "maillot": 8,
+          "club": "E T F E 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp7lykknLE": {
+          "nom": "ENZO G.",
+          "maillot": 4,
+          "club": "E T F E 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlJFK16kSwlmrY": {
+          "nom": "ADRIEN G.",
+          "maillot": 6,
+          "club": "E T F E 2"
         }
       },
       "matchs": [
@@ -1614,10 +1719,69 @@
           "heure": "21:00",
           "recevant": "FC AUTIZE 2",
           "visiteur": "PARTHENAY VIENNAY RC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 24,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 3,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt_lS8mn7U",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlJFaZ9ky4jnrc",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 3,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp_kS8hnLY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlJFKZ9kyotmL8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 3,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlJEa16kygmmbU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlJFaZ9ki4hl7U",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 3,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt8lCcjm7U",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKxLFKh-lycjmA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 3,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlJFK16kSchmL8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl3lC8hnLA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 5,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl4lyYhmrI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl4kS0gn7Y",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 5,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt5li8ll7A",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt_kyYnmb4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 5,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt5li8ll7A",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt_kyYnmb4",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "Gymnase Du Collège_['rue du calvaire', '79160 COULONGES SUR L AUTIZE']"
         },
         {
           "id": 56458480,
@@ -1625,21 +1789,88 @@
           "heure": "21:45",
           "recevant": "CHAMPDENIERS PAMPLIE",
           "visiteur": "FUTSAL RVO 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 12,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "GYMNASE DU VAL D'EGRAY_[' CHEMIN DU PRE DE L ETEUF', '79220 CHAMPDENIERS']"
         },
         {
           "id": 56458481,
           "date": "2026-10-08",
-          "heure": "21:15",
+          "heure": "21:00",
           "recevant": "AVENIR 79 FC 2",
           "visiteur": "E T F E 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 2,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx5kywjl7Q",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKp3kyksnrQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 2,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl7lCcjm7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKp7lCknl7Y",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 2,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt7ki8gnbc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4kCgkm7I",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 2,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlJFq16lCchmrQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt7lCggnLE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 2,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlJHK16kCkgnr4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlJFK5_kycnm7c",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 2,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5kC4lnLY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpKFqh5lyokmLU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 3,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlJFq16lCchmrQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt7lCggnLE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 6,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp7lykknLE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpKHah5kyckl7Q",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 6,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlJFK5_kycil7A",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlJFK16kSwlmrY",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "SALLE DE SPORTS_['rue des sports', '79410 ST MAXIRE']"
         },
         {
           "id": 56458482,
@@ -2058,10 +2289,11 @@
           "heure": "21:00",
           "recevant": "AIFFRES FORS PRAHECQ 2",
           "visiteur": "VAL DE BOUTONNE FOOT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 10,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "SALLE DES SPORTS DE TARTALIN_[' RUE DE TARTALIN', '79230 AIFFRES']"
         },
         {
           "id": 56458532,
@@ -2069,10 +2301,11 @@
           "heure": "21:45",
           "recevant": "NIORT SOUCHEEN SA",
           "visiteur": "NIORT ES 1919 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE SOUCHÉ_['SOUCHE', '79000 NIORT']"
         },
         {
           "id": 56458535,

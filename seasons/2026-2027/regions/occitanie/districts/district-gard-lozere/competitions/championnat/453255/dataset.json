@@ -46,6 +46,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC551417.jpg",
           "clNo": "113044",
           "slug": "551417-foot-terre-camargue"
+        },
+        "ENT CABASSUT AIMARGU": {
+          "nom": "ENT CABASSUT AIMARGU",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560593.jpg",
+          "clNo": "197669",
+          "slug": "560593-ent-cabassut-aimargu"
+        },
+        "ANDUZE SC": {
+          "nom": "ANDUZE SC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC511921.jpg",
+          "clNo": "3905",
+          "slug": "511921-anduze-sc"
         }
       },
       "stades": {
@@ -69,6 +81,34 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE RENÉ DUPONT_['RUE BELLA VISTA', '30470 AIMARGUES']": {
+          "nom": "STADE RENÉ DUPONT",
+          "adresse": "RUE BELLA VISTA | 30470 AIMARGUES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE LA CLAIRETTE_['RUE DES ARENES', '30127 BELLEGARDE']": {
+          "nom": "STADE DE LA CLAIRETTE",
+          "adresse": "RUE DES ARENES | 30127 BELLEGARDE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE LANGLAS 1_[' ROUTE D ALES', '30140 ANDUZE']": {
+          "nom": "STADE DE LANGLAS 1",
+          "adresse": " ROUTE D ALES | 30140 ANDUZE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE DU BOURGIDOU 2_['AV FREDERIC MISTRAL', 'TERRAIN ANNEXE', '30220 AIGUES MORTES']": {
+          "nom": "STADE DU BOURGIDOU 2",
+          "adresse": "AV FREDERIC MISTRAL | TERRAIN ANNEXE | 30220 AIGUES MORTES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -84,6 +124,26 @@
         },
         "ILYES BOUJJARRA_AC": {
           "nom": "ILYES BOUJJARRA",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "BENJAMIN MARQUES_AC": {
+          "nom": "BENJAMIN MARQUES",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "TEO PELLIER CRISTOFOLI_AC": {
+          "nom": "TEO PELLIER CRISTOFOLI",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "YASSIR HASSAR_AC": {
+          "nom": "YASSIR HASSAR",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "MORGAN VICHERY BASSIER_AC": {
+          "nom": "MORGAN VICHERY BASSIER",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -113,6 +173,41 @@
           "nom": "PABLO L.",
           "maillot": 4,
           "club": "FOOT TERRE CAMARGUE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd7myYgnbI": {
+          "nom": "COLIN R.",
+          "maillot": 7,
+          "club": "BELLEGARDE OC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17lS0ilrI": {
+          "nom": "LUIS G.",
+          "maillot": 4,
+          "club": "ENT CABASSUT AIMARGU"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd6kC8gl7E": {
+          "nom": "NOAM G.",
+          "maillot": 2,
+          "club": "ANDUZE SC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd6kysnmLI": {
+          "nom": "ADRIEN D.",
+          "maillot": 3,
+          "club": "CALVISSON FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17kS8ilrY": {
+          "nom": "JIBRIL B.",
+          "maillot": 8,
+          "club": "BELLEGARDE OC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16miwgmrA": {
+          "nom": "EVAN M.",
+          "maillot": 9,
+          "club": "BELLEGARDE OC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK12myktnLI": {
+          "nom": "YANIS N.",
+          "maillot": 11,
+          "club": "BELLEGARDE OC"
         }
       },
       "matchs": [
@@ -247,10 +342,14 @@
           "heure": "10:00",
           "recevant": "ENT CABASSUT AIMARGU",
           "visiteur": "ENT. SUMENE CIGALOIS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE RENÉ DUPONT_['RUE BELLA VISTA', '30470 AIMARGUES']",
+          "officiels": [
+            "BENJAMIN MARQUES_AC"
+          ]
         },
         {
           "id": 79147947,
@@ -265,14 +364,36 @@
         },
         {
           "id": 79269942,
-          "date": "2026-10-04",
+          "date": "2026-10-11",
           "heure": "10:00",
           "recevant": "ANDUZE SC",
           "visiteur": "CALVISSON FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 18,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6kC8gl7E",
+              "sanction": "J",
+              "sanction_detail": "J2",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 51,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6kysnmLI",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE DE LANGLAS 1_[' ROUTE D ALES', '30140 ANDUZE']",
+          "officiels": [
+            "YASSIR HASSAR_AC"
+          ]
         },
         {
           "id": 79269943,
@@ -280,10 +401,24 @@
           "heure": "10:00",
           "recevant": "BELLEGARDE OC",
           "visiteur": "NIMES LASALLIEN",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 12,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 24,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7myYgnbI",
+              "sanction": "J",
+              "sanction_detail": "J4",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE DE LA CLAIRETTE_['RUE DES ARENES', '30127 BELLEGARDE']",
+          "officiels": [
+            "ILYES BOUJJARRA_AC"
+          ]
         },
         {
           "id": 79147949,
@@ -291,10 +426,22 @@
           "heure": "10:00",
           "recevant": "NIMES LASALLIEN",
           "visiteur": "ENT CABASSUT AIMARGU",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 51,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK17lS0ilrI",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE JEAN BOUIN_[' IMPASSE JEAN PIERRE WIMILLE', '30900 NIMES']",
+          "officiels": [
+            "TEO PELLIER CRISTOFOLI_AC"
+          ]
         },
         {
           "id": 79147950,
@@ -324,10 +471,60 @@
           "heure": "10:00",
           "recevant": "FOOT TERRE CAMARGUE",
           "visiteur": "BELLEGARDE OC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 22,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7myYgnbI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 31,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK17kS8ilrY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 33,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7myYgnbI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 57,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16miwgmrA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 60,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12myktnLI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 65,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK17lCclmrY",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 76,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16miwgmrA",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE DU BOURGIDOU 2_['AV FREDERIC MISTRAL', 'TERRAIN ANNEXE', '30220 AIGUES MORTES']",
+          "officiels": [
+            "MORGAN VICHERY BASSIER_AC"
+          ]
         },
         {
           "id": 79269945,

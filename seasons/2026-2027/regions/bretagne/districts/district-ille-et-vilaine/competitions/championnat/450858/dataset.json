@@ -122,10 +122,37 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "Stade Emile Chevalier 1_['RUE DE RENNES', '35760 MONTGERMONT']": {
+          "nom": "Stade Emile Chevalier 1",
+          "adresse": "RUE DE RENNES | 35760 MONTGERMONT",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE HENRI NOGUES 1_['RUE DU STADE', '35190 ST DOMINEUC']": {
+          "nom": "STADE HENRI NOGUES 1",
+          "adresse": "RUE DU STADE | 35190 ST DOMINEUC",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE JEAN PAUL CHASSEBOEUF 2_['56 AVENUE LE BRIX', '35740 PACE']": {
+          "nom": "STADE JEAN PAUL CHASSEBOEUF 2",
+          "adresse": "56 AVENUE LE BRIX | 35740 PACE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFKt9kSgjl7Q": {
+          "nom": "FAIZ B.",
+          "maillot": 14,
+          "club": "REN CPB CLEUNAY 2"
+        }
+      },
       "matchs": [
         {
           "id": 79239015,
@@ -229,10 +256,11 @@
           "heure": "15:00",
           "recevant": "PLEURTUIT CEF",
           "visiteur": "DINARD FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GASTON DAULY 1_[\"RUE DE L'AVENIR\", '35730 PLEURTUIT']"
         },
         {
           "id": 79239027,
@@ -240,10 +268,11 @@
           "heure": "15:00",
           "recevant": "TINTENIAC ST DO FC 2",
           "visiteur": "ST GILLES US",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE HENRI NOGUES 1_['RUE DU STADE', '35190 ST DOMINEUC']"
         },
         {
           "id": 79239028,
@@ -251,10 +280,21 @@
           "heure": "13:00",
           "recevant": "LA CHAPELLE MONTG FC",
           "visiteur": "REN CPB CLEUNAY 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 10,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 90,
+              "type": "carton-rouge",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt9kSgjl7Q",
+              "sanction": "R",
+              "sanction_detail": "R2",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "Stade Emile Chevalier 1_['RUE DE RENNES', '35760 MONTGERMONT']"
         },
         {
           "id": 79239029,
@@ -262,10 +302,11 @@
           "heure": "17:00",
           "recevant": "PACE CO 2",
           "visiteur": "GJ PAYS DOL BAIE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JEAN PAUL CHASSEBOEUF 2_['56 AVENUE LE BRIX', '35740 PACE']"
         },
         {
           "id": 79239032,
@@ -284,10 +325,11 @@
           "heure": "16:30",
           "recevant": "ST GILLES US",
           "visiteur": "LA CHAPELLE MONTG FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Ernest CharnaL_[' LE PONT HAZARD', '35590 ST GILLES']"
         },
         {
           "id": 79239030,
@@ -295,15 +337,16 @@
           "heure": "17:00",
           "recevant": "REN CPB CLEUNAY 2",
           "visiteur": "GJ PAYS DOL BAIE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE FERDINAND DE LESSEPS_['18 RUE FERDINAND DE LESSEPS', '35000 RENNES']"
         },
         {
           "id": 79239033,
           "date": "2026-10-10",
-          "heure": "17:00",
+          "heure": "15:30",
           "recevant": "LA MÉZIÈRE MELESSE 2",
           "visiteur": "PLEURTUIT CEF",
           "buts_recevant": null,
@@ -628,6 +671,27 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_[\"L' EPINE\", 'LA BASSE FLEURIAIS', '35210 CHATILLON EN VENDELAIS']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "L' EPINE | LA BASSE FLEURIAIS | 35210 CHATILLON EN VENDELAIS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 1_['RUE DES MARRONIERS', '35133 ST GERMAIN EN COGLES']": {
+          "nom": "STADE MUNICIPAL 1",
+          "adresse": "RUE DES MARRONIERS | 35133 ST GERMAIN EN COGLES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['1 RUE DU STADE', 'Saint Jean Sur Couesnon', '35140 RIVES DU COUESNON']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "1 RUE DU STADE | Saint Jean Sur Couesnon | 35140 RIVES DU COUESNON",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -828,10 +892,11 @@
           "heure": "14:30",
           "recevant": "CHATILLON PRINCE A",
           "visiteur": "RIVES SP. COUESNON",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_[\"L' EPINE\", 'LA BASSE FLEURIAIS', '35210 CHATILLON EN VENDELAIS']"
         },
         {
           "id": 79239241,
@@ -839,10 +904,11 @@
           "heure": "15:00",
           "recevant": "SENS VX-VY GAHARD ES",
           "visiteur": "LA BOUEXIERE ESP 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['LE BOURG', '35490 VIEUX VY SUR COUESNON']"
         },
         {
           "id": 79239242,
@@ -861,10 +927,11 @@
           "heure": "15:30",
           "recevant": "GJ DU COGLAIS",
           "visiteur": "REN CHEMINOTS ASCR 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['RUE DES MARRONIERS', '35133 ST GERMAIN EN COGLES']"
         },
         {
           "id": 79239245,
@@ -872,10 +939,11 @@
           "heure": "14:30",
           "recevant": "CHATILLON PRINCE A",
           "visiteur": "VITREENNE FC (E) 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_[' RUE DU BOCAGE', '35210 ST CHRISTOPHE DES BOIS']"
         },
         {
           "id": 79239243,
@@ -883,10 +951,11 @@
           "heure": "15:00",
           "recevant": "REN CHEMINOTS ASCR 2",
           "visiteur": "ST AUBIN AUBIGNE FC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE BEAUREGARD_['8, RUE GEORGES MAILLOLS', 'AVENUE DU BOIS LABBE', '35000 RENNES']"
         },
         {
           "id": 79239244,
@@ -894,10 +963,11 @@
           "heure": "15:00",
           "recevant": "LA BOUEXIERE ESP 2",
           "visiteur": "GJ DU COGLAIS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ANDRÉ BLANDIN 1_['1 RUE DU STADE', '35340 LA BOUEXIERE']"
         },
         {
           "id": 79239246,
@@ -905,10 +975,11 @@
           "heure": "15:00",
           "recevant": "RIVES SP. COUESNON",
           "visiteur": "SENS VX-VY GAHARD ES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['1 RUE DU STADE', 'Saint Jean Sur Couesnon', '35140 RIVES DU COUESNON']"
         },
         {
           "id": 79239237,
@@ -1163,6 +1234,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "COMPLEXE SPORTIF 3_[\"ALLEE DE L'ETANG\", '35410 DOMLOUP']": {
+          "nom": "COMPLEXE SPORTIF 3",
+          "adresse": "ALLEE DE L'ETANG | 35410 DOMLOUP",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football réduit"
         }
       },
       "officiels": {},
@@ -1269,21 +1347,23 @@
           "heure": "13:30",
           "recevant": "DOMLOUP SP. (E)",
           "visiteur": "CHATEAUGIRON US 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF 3_[\"ALLEE DE L'ETANG\", '35410 DOMLOUP']"
         },
         {
           "id": 79382607,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "16:00",
           "recevant": "RC RANNEE LA GUERCHE",
           "visiteur": "LA SEICHE FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 3_['15 RUE DE LA VANNERIE', '35130 LA GUERCHE DE BRETAGNE']"
         },
         {
           "id": 79382608,
@@ -1302,10 +1382,11 @@
           "heure": "16:30",
           "recevant": "GJ SUD EST BRETILIEN",
           "visiteur": "ARGENTRE PLESSIS J 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['RUE ANNE DE BRETAGNE', '35680 LOUVIGNE DE BAIS']"
         },
         {
           "id": 79382611,
@@ -1313,10 +1394,11 @@
           "heure": "15:00",
           "recevant": "LA SEICHE FC",
           "visiteur": "CHANTEPIE AS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['ROUTE DE CORPS NUS', '35150 AMANLIS']"
         },
         {
           "id": 79382612,
@@ -1324,10 +1406,11 @@
           "heure": "15:00",
           "recevant": "ARGENTRE PLESSIS J 2",
           "visiteur": "RC RANNEE LA GUERCHE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 11,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 3_['RUE DES SPORTS', '35370 ARGENTRE DU PLESSIS']"
         },
         {
           "id": 79382613,
@@ -1335,21 +1418,22 @@
           "heure": "16:45",
           "recevant": "CHATEAUGIRON US 2",
           "visiteur": "GJ SUD EST BRETILIEN",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué"
         },
         {
           "id": 79382610,
           "date": "2026-10-10",
-          "heure": "17:00",
+          "heure": "15:30",
           "recevant": "RETIERS COESMES AS 2",
           "visiteur": "CHELUN MARTIGNE Cad.",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ANDRÉ BRÉAL 2_['22 AV. DU MARECHAL FOCH', 'TERRAIN LOUIS DAYOT', '35640 MARTIGNE FERCHAUD']"
         },
         {
           "id": 79382615,
@@ -1655,10 +1739,69 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 2_['10 RUE FREDERIC LANNE', '35230 BOURGBARRE']": {
+          "nom": "STADE MUNICIPAL 2",
+          "adresse": "10 RUE FREDERIC LANNE | 35230 BOURGBARRE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE BELLE ÉTOILE_['LA CROIX', 'D54', '35390 GRAND FOUGERAY']": {
+          "nom": "STADE BELLE ÉTOILE",
+          "adresse": "LA CROIX | D54 | 35390 GRAND FOUGERAY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 1_['RUE DU PARC DES SPORTS', '44460 ST NICOLAS DE REDON']": {
+          "nom": "STADE MUNICIPAL 1",
+          "adresse": "RUE DU PARC DES SPORTS | 44460 ST NICOLAS DE REDON",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE GERARD POURCHET_['11, AVENUE DU STADE', '35650 LE RHEU']": {
+          "nom": "STADE GERARD POURCHET",
+          "adresse": "11, AVENUE DU STADE | 35650 LE RHEU",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFKx_li0tmbA": {
+          "nom": "JULIAN C.",
+          "maillot": 4,
+          "club": "REN CPB CLEUNAY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17lS8nmb4": {
+          "nom": "LOUEN B.",
+          "maillot": 12,
+          "club": "REN CPB CLEUNAY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd8kC8hmbM": {
+          "nom": "LOAN T.",
+          "maillot": 7,
+          "club": "REDON ATL VIL (E) 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh4kysllr4": {
+          "nom": "GABRIEL R.",
+          "maillot": 13,
+          "club": "REDON ATL VIL (E) 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh2mywsm7Y": {
+          "nom": "TOM S.",
+          "maillot": 8,
+          "club": "REDON ATL VIL (E) 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp9lyYtm78": {
+          "nom": "MANOA J.",
+          "maillot": 12,
+          "club": "REDON ATL VIL (E) 2"
+        }
+      },
       "matchs": [
         {
           "id": 79239587,
@@ -1748,10 +1891,11 @@
           "heure": "15:00",
           "recevant": "GJ SUD VILAINE",
           "visiteur": "REDON ATL VIL (E) 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE BELLE ÉTOILE_['LA CROIX', 'D54', '35390 GRAND FOUGERAY']"
         },
         {
           "id": 79239596,
@@ -1759,21 +1903,23 @@
           "heure": "15:00",
           "recevant": "REN CPB CLEUNAY",
           "visiteur": "US BEL AIR BDC (E)",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE FERDINAND DE LESSEPS_['18 RUE FERDINAND DE LESSEPS', '35000 RENNES']"
         },
         {
           "id": 79239595,
           "date": "2026-10-03",
-          "heure": "15:30",
+          "heure": "14:00",
           "recevant": "GJ SUD PAYS RENNES",
           "visiteur": "LE RHEU SC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 2_['10 RUE FREDERIC LANNE', '35230 BOURGBARRE']"
         },
         {
           "id": 79239597,
@@ -1792,21 +1938,46 @@
           "heure": "13:30",
           "recevant": "REDON ATL VIL (E) 2",
           "visiteur": "REN CPB CLEUNAY",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_li0tmbA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK17lS8nmb4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8kC8hmbM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4kysllr4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh2mywsm7Y",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9lyYtm78",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL 1_['RUE DU PARC DES SPORTS', '44460 ST NICOLAS DE REDON']"
         },
         {
           "id": 79239598,
           "date": "2026-10-10",
-          "heure": "15:00",
+          "heure": "15:30",
           "recevant": "LE RHEU SC",
           "visiteur": "GUIPRY MESSAC FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 8,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GERARD POURCHET_['11, AVENUE DU STADE', '35650 LE RHEU']"
         },
         {
           "id": 79239599,
@@ -1814,10 +1985,11 @@
           "heure": "15:00",
           "recevant": "US BEL AIR BDC (E)",
           "visiteur": "GJ SUD PAYS RENNES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ANDRÉ JOLIVEL 1_['impasse du stade', '35320 CREVIN']"
         },
         {
           "id": 79239600,

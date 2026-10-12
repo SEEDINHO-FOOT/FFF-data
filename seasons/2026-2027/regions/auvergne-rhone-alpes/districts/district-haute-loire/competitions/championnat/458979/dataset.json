@@ -10,8 +10,48 @@
     {
       "cp_slug": "458979-challenge-esprit-foot/phase/1/1",
       "competition": "Challenge Esprit Foot",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "MAZEYRAT": {
+          "nom": "MAZEYRAT",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC528686.jpg",
+          "clNo": "12338",
+          "slug": "528686-mazeyrat"
+        },
+        "LEMPDES E.S. 2": {
+          "nom": "LEMPDES E.S. 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC506386.jpg",
+          "clNo": "2835",
+          "slug": "506386-lempdes-e-s-2"
+        },
+        "U.S. BRIOUDE": {
+          "nom": "U.S. BRIOUDE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC520133.jpg",
+          "clNo": "6748",
+          "slug": "520133-u-s-brioude"
+        },
+        "LAVOUTE CHILHAC F.C 2": {
+          "nom": "LAVOUTE CHILHAC F.C 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564606.jpg",
+          "clNo": "202178",
+          "slug": "564606-lavoute-chilhac-f-c-2"
+        }
+      },
+      "stades": {
+        "STADE MUNICIPAL_['PLAINE DES CLASTRES', '43300 MAZEYRAT D ALLIER']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "PLAINE DES CLASTRES | 43300 MAZEYRAT D ALLIER",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE DU PONT DE BOIS 2_['LE PONT DE BOIS', '43100 BRIOUDE']": {
+          "nom": "STADE DU PONT DE BOIS 2",
+          "adresse": "LE PONT DE BOIS | 43100 BRIOUDE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -32,10 +72,11 @@
           "heure": "19:30",
           "recevant": "MAZEYRAT",
           "visiteur": "LEMPDES E.S. 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 12,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['PLAINE DES CLASTRES', '43300 MAZEYRAT D ALLIER']"
         },
         {
           "id": 79654342,
@@ -43,10 +84,11 @@
           "heure": "19:30",
           "recevant": "U.S. BRIOUDE",
           "visiteur": "LAVOUTE CHILHAC F.C 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 14,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DU PONT DE BOIS 2_['LE PONT DE BOIS', '43100 BRIOUDE']"
         },
         {
           "id": 79653448,
@@ -61,8 +103,8 @@
         },
         {
           "id": 79654343,
-          "date": "2026-10-09",
-          "heure": "19:30",
+          "date": "2026-10-11",
+          "heure": "10:00",
           "recevant": "LAVOUTE CHILHAC F.C 2",
           "visiteur": "VILLENEUVE ST ILPIZE",
           "buts_recevant": null,

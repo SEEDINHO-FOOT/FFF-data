@@ -46,6 +46,30 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC520472.jpg",
           "clNo": "6936",
           "slug": "520472-st-symphorien-fa"
+        },
+        "MONNAIE US": {
+          "nom": "MONNAIE US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC512279.jpg",
+          "clNo": "3982",
+          "slug": "512279-monnaie-us"
+        },
+        "AZAY CHEILLE SC": {
+          "nom": "AZAY CHEILLE SC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500386.jpg",
+          "clNo": "476",
+          "slug": "500386-azay-cheille-sc"
+        },
+        "PARCAY MESLAY AFC": {
+          "nom": "PARCAY MESLAY AFC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC514636.jpg",
+          "clNo": "4575",
+          "slug": "514636-parcay-meslay-afc"
+        },
+        "VAL DE CHER ENT": {
+          "nom": "VAL DE CHER ENT",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC582647.jpg",
+          "clNo": "191923",
+          "slug": "582647-val-de-cher-ent"
         }
       },
       "stades": {
@@ -66,6 +90,27 @@
         "STADE PIERRE BOURBON 2_['Rue de la Tuilerie', '37320 CORMERY']": {
           "nom": "STADE PIERRE BOURBON 2",
           "adresse": "Rue de la Tuilerie | 37320 CORMERY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "Stade Emile Leger 4_[' RUE PIERRE DE COUBERTIN', '37380 MONNAIE']": {
+          "nom": "Stade Emile Leger 4",
+          "adresse": " RUE PIERRE DE COUBERTIN | 37380 MONNAIE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MARCEL VIGNAUD 3_['Route de Néman', '37420 AVOINE']": {
+          "nom": "STADE MARCEL VIGNAUD 3",
+          "adresse": "Route de Néman | 37420 AVOINE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE PIERRE BOURBON 1_['12 RUE DE LA TUILERIE', '37320 CORMERY']": {
+          "nom": "STADE PIERRE BOURBON 1",
+          "adresse": "12 RUE DE LA TUILERIE | 37320 CORMERY",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -127,10 +172,11 @@
           "heure": "12:00",
           "recevant": "MONNAIE US",
           "visiteur": "GATINE CHOISILLE ENT 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Emile Leger 4_[' RUE PIERRE DE COUBERTIN', '37380 MONNAIE']"
         },
         {
           "id": 79584666,
@@ -138,21 +184,23 @@
           "heure": "15:00",
           "recevant": "VALLEE VERTE ES",
           "visiteur": "PARCAY MESLAY AFC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PIERRE BOURBON 1_['12 RUE DE LA TUILERIE', '37320 CORMERY']"
         },
         {
           "id": 79584664,
           "date": "2026-10-03",
           "heure": "16:00",
-          "recevant": "VAL DE CHER FC",
+          "recevant": "VAL DE CHER ENT",
           "visiteur": "GATINE CHOISILLE ENT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 14,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF DES LONGERONS_['RUE DU STADE', '37150 LA CROIX EN TOURAINE']"
         },
         {
           "id": 79584665,
@@ -160,10 +208,11 @@
           "heure": "14:30",
           "recevant": "AVOINE O. CHINON C.",
           "visiteur": "AZAY CHEILLE SC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MARCEL VIGNAUD 3_['Route de Néman', '37420 AVOINE']"
         },
         {
           "id": 79584644,
@@ -182,32 +231,35 @@
           "heure": "16:00",
           "recevant": "AVOINE O. CHINON C.",
           "visiteur": "ST SYMPHORIEN FA",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MARCEL VIGNAUD 3_['Route de Néman', '37420 AVOINE']"
         },
         {
           "id": 79584646,
           "date": "2026-10-10",
-          "heure": "16:00",
-          "recevant": "AZAY CHEILLE SC",
-          "visiteur": "GATINE CHOISILLES FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "heure": "17:30",
+          "recevant": "GATINE CHOISILLE ENT",
+          "visiteur": "AZAY CHEILLE SC",
+          "buts_recevant": 4,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "ESPACE MARINE COTTEREAU_['25 RUE D ARMILLY', '37360 NEUILLE PONT PIERRE']"
         },
         {
           "id": 79584647,
           "date": "2026-10-10",
-          "heure": "16:00",
-          "recevant": "VAL DE CHER FC",
-          "visiteur": "GATINE CHOISILLES FC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "heure": "17:00",
+          "recevant": "VAL DE CHER ENT",
+          "visiteur": "GATINE CHOISILLE ENT 2",
+          "buts_recevant": 10,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF DES LONGERONS_['RUE DU STADE', '37150 LA CROIX EN TOURAINE']"
         },
         {
           "id": 79584649,

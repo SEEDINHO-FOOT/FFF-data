@@ -56,6 +56,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football réduit"
+        },
+        "STADE LE GRAND PAVOIS_['5 AVENUE DU Dr EDOUARD SAUZE', '13240 SEPTEMES LES VALLONS']": {
+          "nom": "STADE LE GRAND PAVOIS",
+          "adresse": "5 AVENUE DU Dr EDOUARD SAUZE | 13240 SEPTEMES LES VALLONS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -157,10 +164,11 @@
           "heure": "17:00",
           "recevant": "FC SEPTEMES CONSOLAT",
           "visiteur": "U.S. MICHELIS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE LE GRAND PAVOIS_['5 AVENUE DU Dr EDOUARD SAUZE', '13240 SEPTEMES LES VALLONS']"
         },
         {
           "id": 79590941,
@@ -187,7 +195,7 @@
         {
           "id": 79590940,
           "date": "2026-10-10",
-          "heure": "16:30",
+          "heure": "15:30",
           "recevant": "J.S. DES PENNES MIRA 2",
           "visiteur": "SAINT HENRI FC",
           "buts_recevant": null,
@@ -422,6 +430,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC518912.jpg",
           "clNo": "6085",
           "slug": "518912-u-s-velauxienne"
+        },
+        "FCL MALPASSE": {
+          "nom": "FCL MALPASSE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC563526.jpg",
+          "clNo": "171891",
+          "slug": "563526-fcl-malpasse"
         }
       },
       "stades": {
@@ -528,10 +542,11 @@
           "heure": "13:00",
           "recevant": "A.S.M SAINT LOUP 10E",
           "visiteur": "FCL MALPASSE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE SAINT LOUP 1_['70 AVENUE CENTRALE', 'TERRAIN (A)', '13010 MARSEILLE']"
         },
         {
           "id": 79590968,
@@ -539,10 +554,11 @@
           "heure": "14:00",
           "recevant": "ES.BASSIN MIN",
           "visiteur": "U.S. VELAUXIENNE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF ROGER JACQUET_['QUARTIER CHANTE COUCOU', 'RUE DU STADE', 'TERRAIN HONNEUR', '13950 CADOLIVE']"
         },
         {
           "id": 79590969,
@@ -558,7 +574,7 @@
         {
           "id": 79590970,
           "date": "2026-10-10",
-          "heure": "16:30",
+          "heure": "14:00",
           "recevant": "FCL MALPASSE",
           "visiteur": "F. ASS MARS FEMININ 2",
           "buts_recevant": null,
@@ -569,7 +585,7 @@
         {
           "id": 79590971,
           "date": "2026-10-10",
-          "heure": "16:30",
+          "heure": "13:30",
           "recevant": "A.S.M SAINT LOUP 10E",
           "visiteur": "ES.BASSIN MIN",
           "buts_recevant": null,
@@ -883,7 +899,7 @@
         {
           "id": 79591209,
           "date": "2026-10-10",
-          "heure": "16:30",
+          "heure": "14:00",
           "recevant": "FC.ROQUEFORT",
           "visiteur": "SC AUBAGNE AIR BEL",
           "buts_recevant": null,
@@ -894,7 +910,7 @@
         {
           "id": 79591210,
           "date": "2026-10-10",
-          "heure": "16:30",
+          "heure": "14:00",
           "recevant": "SC FRAIS VALLON",
           "visiteur": "BUREL F.C.",
           "buts_recevant": null,
@@ -1039,8 +1055,29 @@
     {
       "cp_slug": "457217-u12f-u13f/phase/1/4",
       "competition": "U12F-U13F",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "C.A. CROIX SAINTE": {
+          "nom": "C.A. CROIX SAINTE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC509573.jpg",
+          "clNo": "3468",
+          "slug": "509573-c-a-croix-sainte"
+        },
+        "AEC LA CASTELLANE": {
+          "nom": "AEC LA CASTELLANE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560320.jpg",
+          "clNo": "195466",
+          "slug": "560320-aec-la-castellane"
+        }
+      },
+      "stades": {
+        "STADE DE CROIX SAINTE_['CHEMIN DU STADE DE CROIX-SAINTE', '13500 MARTIGUES']": {
+          "nom": "STADE DE CROIX SAINTE",
+          "adresse": "CHEMIN DU STADE DE CROIX-SAINTE | 13500 MARTIGUES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -1105,15 +1142,16 @@
           "heure": "15:30",
           "recevant": "C.A. CROIX SAINTE",
           "visiteur": "AEC LA CASTELLANE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 19,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE CROIX SAINTE_['CHEMIN DU STADE DE CROIX-SAINTE', '13500 MARTIGUES']"
         },
         {
           "id": 79591449,
           "date": "2026-10-10",
-          "heure": "16:30",
+          "heure": "14:00",
           "recevant": "AEC LA CASTELLANE",
           "visiteur": "FA ACADEMY",
           "buts_recevant": null,
@@ -1124,7 +1162,7 @@
         {
           "id": 79591450,
           "date": "2026-10-10",
-          "heure": "16:30",
+          "heure": "14:30",
           "recevant": "SMUC",
           "visiteur": "C.A. CROIX SAINTE",
           "buts_recevant": null,
@@ -1269,8 +1307,48 @@
     {
       "cp_slug": "457217-u12f-u13f/phase/1/5",
       "competition": "U12F-U13F",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "A.S. GEMENOSIENNE": {
+          "nom": "A.S. GEMENOSIENNE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC518961.jpg",
+          "clNo": "6110",
+          "slug": "518961-a-s-gemenosienne"
+        },
+        "C.A. PLAN DE CUQUES 3": {
+          "nom": "C.A. PLAN DE CUQUES 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503264.jpg",
+          "clNo": "1728",
+          "slug": "503264-c-a-plan-de-cuques-3"
+        },
+        "ET.S. DE LA CIOTAT": {
+          "nom": "ET.S. DE LA CIOTAT",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503033.jpg",
+          "clNo": "1611",
+          "slug": "503033-et-s-de-la-ciotat"
+        },
+        "FC ROUSSET STE VICT. 2": {
+          "nom": "FC ROUSSET STE VICT. 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC563781.jpg",
+          "clNo": "172913",
+          "slug": "563781-fc-rousset-ste-vict-2"
+        }
+      },
+      "stades": {
+        "STADE GUY DELESTRADE 1_['AVENUE CESAR BALDACCINI', 'TERRAIN HONNEUR', '13420 GEMENOS']": {
+          "nom": "STADE GUY DELESTRADE 1",
+          "adresse": "AVENUE CESAR BALDACCINI | TERRAIN HONNEUR | 13420 GEMENOS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE JEAN BOUISSOU N°1_['AVENUE EMILE RIPERT', 'TERRAIN HONNEUR', '13600 LA CIOTAT']": {
+          "nom": "STADE JEAN BOUISSOU N°1",
+          "adresse": "AVENUE EMILE RIPERT | TERRAIN HONNEUR | 13600 LA CIOTAT",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -1324,10 +1402,11 @@
           "heure": "14:00",
           "recevant": "A.S. GEMENOSIENNE",
           "visiteur": "C.A. PLAN DE CUQUES 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GUY DELESTRADE 1_['AVENUE CESAR BALDACCINI', 'TERRAIN HONNEUR', '13420 GEMENOS']"
         },
         {
           "id": 79591552,
@@ -1343,7 +1422,7 @@
         {
           "id": 79591555,
           "date": "2026-10-10",
-          "heure": "16:30",
+          "heure": "14:00",
           "recevant": "C.A. PLAN DE CUQUES 3",
           "visiteur": "CARNOUX F.C.",
           "buts_recevant": null,
@@ -1354,7 +1433,7 @@
         {
           "id": 79591556,
           "date": "2026-10-10",
-          "heure": "16:30",
+          "heure": "13:30",
           "recevant": "A.S. GEMENOSIENNE",
           "visiteur": "ET.S. DE LA CIOTAT",
           "buts_recevant": null,
@@ -1500,6 +1579,18 @@
           "heure": "14:00",
           "recevant": "ET.S. DE LA CIOTAT",
           "visiteur": "FC ROUSSET STE VICT. 2",
+          "buts_recevant": 5,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JEAN BOUISSOU N°1_['AVENUE EMILE RIPERT', 'TERRAIN HONNEUR', '13600 LA CIOTAT']"
+        },
+        {
+          "id": 79591554,
+          "date": "2026-10-10",
+          "heure": "14:00",
+          "recevant": "SOC",
+          "visiteur": "FC ROUSSET STE VICT. 2",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
@@ -1528,6 +1619,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC509573.jpg",
           "clNo": "3468",
           "slug": "509573-c-a-croix-sainte-2"
+        },
+        "J.S. DES PENNES MIRA": {
+          "nom": "J.S. DES PENNES MIRA",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC541774.jpg",
+          "clNo": "21526",
+          "slug": "541774-j-s-des-pennes-mira"
         }
       },
       "stades": {
@@ -1601,10 +1698,11 @@
           "heure": "13:30",
           "recevant": "S.C. VITROLLES",
           "visiteur": "J.S. DES PENNES MIRA",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 13,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "PARC DES SPORTS DU GRIFFON_['4 CHEMIN DES GORGES DE CABRIES', '13127 VITROLLES']"
         },
         {
           "id": 79591582,
@@ -1631,7 +1729,7 @@
         {
           "id": 79591585,
           "date": "2026-10-10",
-          "heure": "16:30",
+          "heure": "15:30",
           "recevant": "J.S. DES PENNES MIRA",
           "visiteur": "C.A. CROIX SAINTE 2",
           "buts_recevant": null,

@@ -90,6 +90,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE LA CATTE_['ROUTE DE LA BRUNETIERE', '24100 BERGERAC']": {
+          "nom": "STADE LA CATTE",
+          "adresse": "ROUTE DE LA BRUNETIERE | 24100 BERGERAC",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -284,13 +291,13 @@
         {
           "id": 79443660,
           "date": "2026-10-10",
-          "heure": "11:00",
+          "heure": "10:00",
           "recevant": "FAUX FC",
           "visiteur": "ENT.STELLA CPM FLR",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué"
         },
         {
           "id": 79443661,
@@ -298,21 +305,23 @@
           "heure": "11:00",
           "recevant": "BERGERAC LA CATTE",
           "visiteur": "PAYS MONTAIGNE GURC.",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE LA CATTE_['ROUTE DE LA BRUNETIERE', '24100 BERGERAC']"
         },
         {
           "id": 79443662,
           "date": "2026-10-10",
-          "heure": "11:00",
+          "heure": "10:00",
           "recevant": "COURSAC FOOT AS",
           "visiteur": "PRIGONRIEUX FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE Y. MARC BARTHOUMIEUX_['LA GRANDE MORENIE', '24430 COURSAC']"
         },
         {
           "id": 79443663,
@@ -480,7 +489,18 @@
           "type_installation": "Football à 11"
         }
       },
-      "officiels": {},
+      "officiels": {
+        "NOA PARENT LE MARCHAND_AC": {
+          "nom": "NOA PARENT LE MARCHAND",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "JEAN MICHEL ROUX_C1": {
+          "nom": "JEAN MICHEL ROUX",
+          "role": "Observateur adjoint 1",
+          "role_cod": "C1"
+        }
+      },
       "joueurs": {
         "ir3_vj-lzPeINLfhzILsrKFOFKx5kyshmbQ": {
           "nom": "LIAM A.",
@@ -489,7 +509,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx5li8jn7A": {
           "nom": "GABRIEL F.",
-          "maillot": 9,
+          "maillot": 11,
           "club": "ENT. RAZAC USAB"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt5ligimb8": {
@@ -559,17 +579,17 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx4lCcmmrA": {
           "nom": "NOHAM J.",
-          "maillot": 9,
+          "maillot": 7,
           "club": "RIBERACOIS CA"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx9lyohnLY": {
           "nom": "TIMEO C.",
-          "maillot": 5,
+          "maillot": 11,
           "club": "RIBERACOIS CA"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp9mismn7E": {
           "nom": "ALBA G.",
-          "maillot": 10,
+          "maillot": 9,
           "club": "RIBERACOIS CA"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp9micnnrc": {
@@ -634,7 +654,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx_lyklmrY": {
           "nom": "BASTIEN B.",
-          "maillot": 2,
+          "maillot": 11,
           "club": "G.J.B.D."
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp8kiknm7M": {
@@ -649,7 +669,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx2kiYmnbM": {
           "nom": "NOLAN F.",
-          "maillot": 11,
+          "maillot": 2,
           "club": "G.J.B.D."
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx7myotlrM": {
@@ -676,6 +696,51 @@
           "nom": "THIBAULT B.",
           "maillot": 10,
           "club": "ENT. RAZAC USAB"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx8liknnLc": {
+          "nom": "YOUNES A.",
+          "maillot": 7,
+          "club": "MONTPON MENESPLET FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx5kCsnnLM": {
+          "nom": "NOLHAN H.",
+          "maillot": 8,
+          "club": "MONTPON MENESPLET FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt4kiotmbM": {
+          "nom": "LOUIS B.",
+          "maillot": 3,
+          "club": "G.J.B.D."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt_lykslr4": {
+          "nom": "SIMON D.",
+          "maillot": 9,
+          "club": "G.J.B.D."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt7myomnLI": {
+          "nom": "LOUANE D.",
+          "maillot": 12,
+          "club": "RIBERACOIS CA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx8ly4nnb4": {
+          "nom": "FLORENT F.",
+          "maillot": 5,
+          "club": "RIBERACOIS CA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK13kiggnbM": {
+          "nom": "LUCAS F.",
+          "maillot": 2,
+          "club": "RIBERACOIS CA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt-kicjnbI": {
+          "nom": "HIMED O.",
+          "maillot": 10,
+          "club": "RIBERACOIS CA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx7miYtmbA": {
+          "nom": "TAO L.",
+          "maillot": 8,
+          "club": "RIBERACOIS CA"
         }
       },
       "matchs": [
@@ -964,10 +1029,39 @@
           "heure": "11:00",
           "recevant": "ENT. RAZAC USAB",
           "visiteur": "MONTPON MENESPLET FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8liknnLc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx5kCsnnLM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 52,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx5kyshlrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx5li8jn7A",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 58,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7lislnL8",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL 1_['RUE DES ACACIAS', '24430 RAZAC SUR L ISLE']",
+          "officiels": [
+            "NOA PARENT LE MARCHAND_AC",
+            "JEAN MICHEL ROUX_C1"
+          ]
         },
         {
           "id": 79081806,
@@ -986,10 +1080,69 @@
           "heure": "11:00",
           "recevant": "G.J.B.D.",
           "visiteur": "RIBERACOIS CA",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 18,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx2kiYmnbM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp8kiknm7M",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 18,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt4kiotmbM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_lyklmrY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 18,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx5ky8il7I",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK12lSkknLc",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 18,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx5mikimbQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt_lykslr4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 18,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4lCcmmrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7myomnLI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 18,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8ly4nnb4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx9lyohnLY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 18,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK13kiggnbM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-kicjnbI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 18,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7miYtmbA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9mismn7E",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE SYLVAIN DUMAZET 2_['AVENUE ANDRE MAUROIS', 'TERRAIN ANNEXE', '24310 BRANTOME EN PERIGORD']"
         },
         {
           "id": 79081809,
@@ -1351,10 +1504,11 @@
           "heure": "11:00",
           "recevant": "GJ Vézère Pgrd Noir",
           "visiteur": "ATUR FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_[' RUE DU STADE', '24390 HAUTEFORT']"
         },
         {
           "id": 79082291,
@@ -1362,10 +1516,11 @@
           "heure": "11:00",
           "recevant": "SANILHACOIS SA 2",
           "visiteur": "E.MONTIGNAC ROUFFIGN",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE LA PIERRE GRISE 2_['ROUTE DE MARSANEIX - D8', '24660 NOTRE DAME DE SANILHAC']"
         },
         {
           "id": 79082292,
@@ -1373,10 +1528,11 @@
           "heure": "11:00",
           "recevant": "BOULAZAC ES",
           "visiteur": "COULOUNIEIX CHAMIERS 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JULES DUBOIS_['CITE BEL AIR', 'RUE DES LOISIRS', '24750 BOULAZAC ISLE MANOIRE']"
         },
         {
           "id": 79082293,

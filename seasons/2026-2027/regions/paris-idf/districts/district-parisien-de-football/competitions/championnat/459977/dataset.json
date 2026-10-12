@@ -10,8 +10,48 @@
     {
       "cp_slug": "459977-criterium-u13f/phase/1/1",
       "competition": "CRITERIUM U13F",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "SEIZIEME ES": {
+          "nom": "SEIZIEME ES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC525523.jpg",
+          "clNo": "10247",
+          "slug": "525523-seizieme-es"
+        },
+        "PARIS FC": {
+          "nom": "PARIS FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500568.jpg",
+          "clNo": "616",
+          "slug": "500568-paris-fc"
+        },
+        "PARIS 13 ATLETICO": {
+          "nom": "PARIS 13 ATLETICO",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC523264.jpg",
+          "clNo": "8738",
+          "slug": "523264-paris-13-atletico"
+        },
+        "PARIS UNIVERS. CLUB": {
+          "nom": "PARIS UNIVERS. CLUB",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500025.jpg",
+          "clNo": "175",
+          "slug": "500025-paris-univers-club"
+        }
+      },
+      "stades": {
+        "STADE DE L' HIPPODROME AUTEUIL_[\"Place de la Porte D'Auteuil\", '75016 PARIS']": {
+          "nom": "STADE DE L' HIPPODROME AUTEUIL",
+          "adresse": "Place de la Porte D'Auteuil | 75016 PARIS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE GEORGES CARPENTIER_['1 RUE DIEUDONNE COSTES', '75013 PARIS']": {
+          "nom": "STADE GEORGES CARPENTIER",
+          "adresse": "1 RUE DIEUDONNE COSTES | 75013 PARIS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -21,15 +61,16 @@
           "heure": "11:00",
           "recevant": "SEIZIEME ES",
           "visiteur": "PARIS FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE L' HIPPODROME AUTEUIL_[\"Place de la Porte D'Auteuil\", '75016 PARIS']"
         },
         {
           "id": 79765725,
           "date": "2026-10-10",
-          "heure": "12:00",
+          "heure": "11:00",
           "recevant": "PARIS 15 A.C.",
           "visiteur": "SALESIENNE DE PARIS",
           "buts_recevant": null,
@@ -40,13 +81,14 @@
         {
           "id": 79765724,
           "date": "2026-10-11",
-          "heure": "11:00",
+          "heure": "09:30",
           "recevant": "PARIS 13 ATLETICO",
           "visiteur": "PARIS UNIVERS. CLUB",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GEORGES CARPENTIER_['1 RUE DIEUDONNE COSTES', '75013 PARIS']"
         },
         {
           "id": 79765721,
@@ -215,7 +257,7 @@
         {
           "id": 79765743,
           "date": "2026-10-10",
-          "heure": "13:00",
+          "heure": "12:00",
           "recevant": "MONTMARTRE S. PARIS",
           "visiteur": "CAMILLIENNE S. 12EME",
           "buts_recevant": null,
@@ -360,15 +402,36 @@
     {
       "cp_slug": "459977-criterium-u13f/phase/1/3",
       "competition": "CRITERIUM U13F",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "PITRAY OLIER PARIS 2": {
+          "nom": "PITRAY OLIER PARIS 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC516516.jpg",
+          "clNo": "5066",
+          "slug": "516516-pitray-olier-paris-2"
+        },
+        "AFP 18": {
+          "nom": "AFP 18",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC581402.jpg",
+          "clNo": "183689",
+          "slug": "581402-afp-18"
+        }
+      },
+      "stades": {
+        "Stade Pitray Olier N° 2_['30 GRANDE VOIE DES VIGNES', 'TERRAIN ANNEXE', '92290 CHATENAY MALABRY']": {
+          "nom": "Stade Pitray Olier N° 2",
+          "adresse": "30 GRANDE VOIE DES VIGNES | TERRAIN ANNEXE | 92290 CHATENAY MALABRY",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
         {
           "id": 79765757,
           "date": "2026-10-10",
-          "heure": "09:00",
+          "heure": "13:00",
           "recevant": "CHAMPIONNET S. PARIS",
           "visiteur": "NICOLAITE CHAILLOT",
           "buts_recevant": null,
@@ -382,10 +445,11 @@
           "heure": "13:45",
           "recevant": "PITRAY OLIER PARIS 2",
           "visiteur": "AFP 18",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 11,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Pitray Olier N° 2_['30 GRANDE VOIE DES VIGNES', 'TERRAIN ANNEXE', '92290 CHATENAY MALABRY']"
         },
         {
           "id": 79765755,

@@ -58,6 +58,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC531612.jpg",
           "clNo": "14327",
           "slug": "531612-sporting-b-m"
+        },
+        "SIROCO LES ABYMES": {
+          "nom": "SIROCO LES ABYMES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC512735.jpg",
+          "clNo": "4079",
+          "slug": "512735-siroco-les-abymes"
+        },
+        "ET.MORNE/EAU": {
+          "nom": "ET.MORNE/EAU",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC512723.jpg",
+          "clNo": "4070",
+          "slug": "512723-et-morne-eau"
         }
       },
       "stades": {
@@ -81,6 +93,20 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE PAUL LACAVÉ_['Guyonneau', 'LE BOURG', '97126 DESHAIES']": {
+          "nom": "STADE PAUL LACAVÉ",
+          "adresse": "Guyonneau | LE BOURG | 97126 DESHAIES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "Stade De Gros cap_['GROS CAP', '97131 PETIT CANAL']": {
+          "nom": "Stade De Gros cap",
+          "adresse": "GROS CAP | 97131 PETIT CANAL",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -91,6 +117,11 @@
         },
         "Anonyme_AC": {
           "nom": "Anonyme",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ANAIS CANVOT_AC": {
+          "nom": "ANAIS CANVOT",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -391,10 +422,11 @@
           "heure": "08:30",
           "recevant": "LA FREGATE",
           "visiteur": "SIROCO LES ABYMES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PAUL LACAVÉ_['Guyonneau', 'LE BOURG', '97126 DESHAIES']"
         },
         {
           "id": 79102156,
@@ -402,10 +434,14 @@
           "heure": "08:30",
           "recevant": "ET.MORNE/EAU",
           "visiteur": "ENT. INCREV CS SF",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade De Gros cap_['GROS CAP', '97131 PETIT CANAL']",
+          "officiels": [
+            "Anonyme_AC"
+          ]
         },
         {
           "id": 79102157,
@@ -413,10 +449,14 @@
           "heure": "08:30",
           "recevant": "ASC RENAISSANCE 2",
           "visiteur": "SSM",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade De Gros cap_['GROS CAP', '97131 PETIT CANAL']",
+          "officiels": [
+            "ANAIS CANVOT_AC"
+          ]
         },
         {
           "id": 79102158,

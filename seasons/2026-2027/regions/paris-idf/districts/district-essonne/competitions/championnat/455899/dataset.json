@@ -46,6 +46,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC529178.jpg",
           "clNo": "12682",
           "slug": "529178-champcueil-fc"
+        },
+        "AOP CORBEIL": {
+          "nom": "AOP CORBEIL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC532123.jpg",
+          "clNo": "14711",
+          "slug": "532123-aop-corbeil"
+        },
+        "EPINAY ATHLETICO FC": {
+          "nom": "EPINAY ATHLETICO FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC551987.jpg",
+          "clNo": "116778",
+          "slug": "551987-epinay-athletico-fc"
         }
       },
       "stades": {
@@ -66,6 +78,13 @@
         "STADE ALEXANDRE RIDEAU 1_['53, BD CHARLES DE GAULLE', '91540 MENNECY']": {
           "nom": "STADE ALEXANDRE RIDEAU 1",
           "adresse": "53, BD CHARLES DE GAULLE | 91540 MENNECY",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "Stade De Robinson N° 1_['RUE FERNAND LAGUIDE', '91100 CORBEIL ESSONNES']": {
+          "nom": "Stade De Robinson N° 1",
+          "adresse": "RUE FERNAND LAGUIDE | 91100 CORBEIL ESSONNES",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -116,10 +135,11 @@
           "heure": "09:30",
           "recevant": "AOP CORBEIL",
           "visiteur": "PORT. SAINT MICHEL",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade De Robinson N° 1_['RUE FERNAND LAGUIDE', '91100 CORBEIL ESSONNES']"
         },
         {
           "id": 56141620,
@@ -138,10 +158,11 @@
           "heure": "09:30",
           "recevant": "MENNECY C.S. 2",
           "visiteur": "EPINAY ATHLETICO FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ALEXANDRE RIDEAU 1_['53, BD CHARLES DE GAULLE', '91540 MENNECY']"
         },
         {
           "id": 56141624,
@@ -710,12 +731,70 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500668.jpg",
           "clNo": "661",
           "slug": "500668-aigle-fertoise-2"
+        },
+        "FONTENAY VICOMTE FR 2": {
+          "nom": "FONTENAY VICOMTE FR 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC533086.jpg",
+          "clNo": "15340",
+          "slug": "533086-fontenay-vicomte-fr-2"
+        },
+        "BALLAINVILLIERS A.S. 2": {
+          "nom": "BALLAINVILLIERS A.S. 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC526862.jpg",
+          "clNo": "11129",
+          "slug": "526862-ballainvilliers-a-s-2"
+        },
+        "SACLAS MEREVILLE U.S 3": {
+          "nom": "SACLAS MEREVILLE U.S 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC516187.jpg",
+          "clNo": "4979",
+          "slug": "516187-saclas-mereville-u-s-3"
+        },
+        "BENFICA YERRES 2": {
+          "nom": "BENFICA YERRES 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC541299.jpg",
+          "clNo": "21151",
+          "slug": "541299-benfica-yerres-2"
+        },
+        "WISSOUS FC 2": {
+          "nom": "WISSOUS FC 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC552590.jpg",
+          "clNo": "161141",
+          "slug": "552590-wissous-fc-2"
         }
       },
       "stades": {
         "Stade Alain Fournier N° 1_['RUE DU PORT AUX MALADES', 'TERRAIN HONNEUR', '91210 DRAVEIL']": {
           "nom": "Stade Alain Fournier N° 1",
           "adresse": "RUE DU PORT AUX MALADES | TERRAIN HONNEUR | 91210 DRAVEIL",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE LAURENT MASSACRET_['impasse des vignes', '91540 FONTENAY LE VICOMTE']": {
+          "nom": "STADE LAURENT MASSACRET",
+          "adresse": "impasse des vignes | 91540 FONTENAY LE VICOMTE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE LA GUY_['9 CHEMIN DE LA GUY', '91160 BALLAINVILLIERS']": {
+          "nom": "STADE DE LA GUY",
+          "adresse": "9 CHEMIN DE LA GUY | 91160 BALLAINVILLIERS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE LÉO LAGRANGE N° 3_['AVENUE JEAN ROSTAND', 'TERRAIN ANNEXE', '91330 YERRES']": {
+          "nom": "STADE LÉO LAGRANGE N° 3",
+          "adresse": "AVENUE JEAN ROSTAND | TERRAIN ANNEXE | 91330 YERRES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE JEAN BAUDON_['16 RUE PIERRE BARBEROT', '91660 MEREVILLE']": {
+          "nom": "STADE JEAN BAUDON",
+          "adresse": "16 RUE PIERRE BARBEROT | 91660 MEREVILLE",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -762,6 +841,41 @@
           "nom": "CELERINO M.",
           "maillot": 17,
           "club": "AIGLE FERTOISE 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp3kC0tn7E": {
+          "nom": "JEAN PHILIPPE B.",
+          "maillot": 6,
+          "club": "FONTENAY VICOMTE FR 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLFKd_kiYslrY": {
+          "nom": "ROMAIN M.",
+          "maillot": 14,
+          "club": "FONTENAY VICOMTE FR 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLHad-lyosn7A": {
+          "nom": "JULIEN M.",
+          "maillot": 7,
+          "club": "FONTENAY VICOMTE FR 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd8lSoml7Q": {
+          "nom": "JOFFREY R.",
+          "maillot": 13,
+          "club": "FONTENAY VICOMTE FR 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx7lS4snrM": {
+          "nom": "ELVIS R.",
+          "maillot": 7,
+          "club": "BENFICA YERRES 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp3lykhmLA": {
+          "nom": "RAPHAEL P.",
+          "maillot": 12,
+          "club": "WISSOUS FC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLFKd-my4knLU": {
+          "nom": "MAXIME G.",
+          "maillot": 8,
+          "club": "WISSOUS FC 2"
         }
       },
       "matchs": [
@@ -813,21 +927,65 @@
           "heure": "09:30",
           "recevant": "FONTENAY VICOMTE FR 2",
           "visiteur": "AIGLE FERTOISE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp3kC0tn7E",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpLFKd_kiYslrY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 55,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLHad-lyosn7A",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8lSoml7Q",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE LAURENT MASSACRET_['impasse des vignes', '91540 FONTENAY LE VICOMTE']"
         },
         {
           "id": 79522591,
-          "date": "2026-10-04",
+          "date": "2026-10-11",
           "heure": "09:30",
           "recevant": "BENFICA YERRES 2",
           "visiteur": "WISSOUS FC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 70,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7lS4snrM",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 70,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp3lykhmLA",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 75,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLFKd-my4knLU",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE LÉO LAGRANGE N° 3_['AVENUE JEAN ROSTAND', 'TERRAIN ANNEXE', '91330 YERRES']"
         },
         {
           "id": 79611140,
@@ -835,10 +993,11 @@
           "heure": "09:30",
           "recevant": "BALLAINVILLIERS A.S. 2",
           "visiteur": "SACLAS MEREVILLE U.S 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA GUY_['9 CHEMIN DE LA GUY', '91160 BALLAINVILLIERS']"
         },
         {
           "id": 79611151,
@@ -846,10 +1005,11 @@
           "heure": "09:30",
           "recevant": "SACLAS MEREVILLE U.S 3",
           "visiteur": "FONTENAY VICOMTE FR 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JEAN BAUDON_['16 RUE PIERRE BARBEROT', '91660 MEREVILLE']"
         },
         {
           "id": 79522593,

@@ -76,6 +76,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE ALBERT FEL_['LE BOUT DU LIEU', '15250 MARMANHAC']": {
+          "nom": "STADE ALBERT FEL",
+          "adresse": "LE BOUT DU LIEU | 15250 MARMANHAC",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -96,6 +103,11 @@
         },
         "KEVIN GUILLAUME_AC": {
           "nom": "KEVIN GUILLAUME",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "YAWO TOGBE_AC": {
+          "nom": "YAWO TOGBE",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -148,7 +160,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd_licsm7Y": {
           "nom": "SACHA A.",
-          "maillot": 13,
+          "maillot": 8,
           "club": "VALLEE DE L'AUTHRE"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK12lCsnmrM": {
@@ -168,7 +180,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx7lykjnbQ": {
           "nom": "NATHAN A.",
-          "maillot": 14,
+          "maillot": 12,
           "club": "VALLEE DE L'AUTHRE"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh3kiwgnLI": {
@@ -193,12 +205,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK16lC8smrI": {
           "nom": "NOLAN P.",
-          "maillot": 3,
+          "maillot": 12,
           "club": "GRP SUMENE ARTENSE"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK13kCwgmr8": {
           "nom": "NOLAN C.",
-          "maillot": 7,
+          "maillot": 11,
           "club": "GRP SUMENE ARTENSE"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh2misgl7M": {
@@ -243,7 +255,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh5miYhnr4": {
           "nom": "JULES M.",
-          "maillot": 16,
+          "maillot": 13,
           "club": "GRP SUMENE ARTENSE"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd8my8jl7A": {
@@ -443,13 +455,28 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh3mi8lnbM": {
           "nom": "LOUIS D.",
-          "maillot": 10,
+          "maillot": 9,
           "club": "VALLEE DE L'AUTHRE"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK14liosl7U": {
           "nom": "LEO T.",
           "maillot": 11,
           "club": "VALLEE DE L'AUTHRE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh5ligjm7A": {
+          "nom": "ENZO C.",
+          "maillot": 13,
+          "club": "VALLEE DE L'AUTHRE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh7miohnrY": {
+          "nom": "SACHA F.",
+          "maillot": 6,
+          "club": "VALLEE DE L'AUTHRE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK12kS4snb4": {
+          "nom": "LOIC B.",
+          "maillot": 8,
+          "club": "GRP SUMENE ARTENSE"
         }
       },
       "matchs": [
@@ -1008,10 +1035,94 @@
           "heure": "15:00",
           "recevant": "VALLEE DE L'AUTHRE",
           "visiteur": "GRP SUMENE ARTENSE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 2,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3mi8lnbM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 12,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7li4in78",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 24,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3mi8lnbM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 28,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd_licsm7Y",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh5ligjm7A",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 28,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK14liosl7U",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7lykjnbQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 28,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK13kCwgmr8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh5miYhnr4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 42,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3mi8mm74",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 43,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh7miohnrY",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 47,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12kS4snb4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK16lC8smrI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 73,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3mi8lnbM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 80,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3mi8lnbM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 84,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh5ligjm7A",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE ALBERT FEL_['LE BOUT DU LIEU', '15250 MARMANHAC']",
+          "officiels": [
+            "YAWO TOGBE_AC"
+          ]
         },
         {
           "id": 78946413,
@@ -1019,10 +1130,11 @@
           "heure": "15:00",
           "recevant": "ARPAJON C.S. 2",
           "visiteur": "F.C. ALLY MAURIAC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DU PONT 3_['Route de Rodez', '15130 ARPAJON SUR CERE']"
         },
         {
           "id": 78946414,
@@ -1181,6 +1293,20 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE ALBERT FEL_['LE BOUT DU LIEU', '15250 MARMANHAC']": {
+          "nom": "STADE ALBERT FEL",
+          "adresse": "LE BOUT DU LIEU | 15250 MARMANHAC",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE LA BESSADE_['RUE DES ECOLES', '15290 LE ROUGET PERS']": {
+          "nom": "STADE DE LA BESSADE",
+          "adresse": "RUE DES ECOLES | 15290 LE ROUGET PERS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -1198,6 +1324,21 @@
           "nom": "BASTIEN VAUR",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "ANTOINE SIMON_AC": {
+          "nom": "ANTOINE SIMON",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "NOAH SECCAUD BELFORT_AC": {
+          "nom": "NOAH SECCAUD BELFORT",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "LUCA DOMERGUE_AC": {
+          "nom": "LUCA DOMERGUE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -1213,17 +1354,17 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK19lSgsmrc": {
           "nom": "CLEMENT G.",
-          "maillot": 13,
+          "maillot": 3,
           "club": "JORDANNE F. C."
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh5mioln7A": {
           "nom": "FELIX B.",
-          "maillot": 2,
+          "maillot": 14,
           "club": "JORDANNE F. C."
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh4lSohmLE": {
           "nom": "EVANN T.",
-          "maillot": 14,
+          "maillot": 2,
           "club": "JORDANNE F. C."
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK19mikinbc": {
@@ -1233,7 +1374,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd8kiYlmLE": {
           "nom": "TIMOTHE B.",
-          "maillot": 12,
+          "maillot": 16,
           "club": "CERE ET RANCE FOOT"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK19kiskmrY": {
@@ -1243,12 +1384,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd7ki4tnbE": {
           "nom": "BAPTISTE C.",
-          "maillot": 9,
+          "maillot": 7,
           "club": "CERE ET RANCE FOOT"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx7li0nl7c": {
           "nom": "GABIN R.",
-          "maillot": 16,
+          "maillot": 13,
           "club": "CERE ET RANCE FOOT"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK13listl74": {
@@ -1258,12 +1399,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK17lyYlnbA": {
           "nom": "THIBAULT S.",
-          "maillot": 14,
+          "maillot": 12,
           "club": "CERE ET RANCE FOOT"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd9mictl7Q": {
           "nom": "FREDERIC B.",
-          "maillot": 11,
+          "maillot": 15,
           "club": "JORDANNE F. C."
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK17kSYlm7Y": {
@@ -1278,7 +1419,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd7ki4imLM": {
           "nom": "JEAN C.",
-          "maillot": 13,
+          "maillot": 9,
           "club": "CERE ET RANCE FOOT"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh5kSojl7A": {
@@ -1308,7 +1449,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd_kSYkmrM": {
           "nom": "GABRIEL P.",
-          "maillot": 12,
+          "maillot": 11,
           "club": "YSR"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd8kCYlmLQ": {
@@ -1348,7 +1489,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh3kCotmbc": {
           "nom": "MEVAN P.",
-          "maillot": 13,
+          "maillot": 9,
           "club": "YSR"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd8kCkmnbQ": {
@@ -1363,7 +1504,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd9kS4smrQ": {
           "nom": "ALBAN L.",
-          "maillot": 9,
+          "maillot": 13,
           "club": "YSR"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK19kicgmrA": {
@@ -1388,7 +1529,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK16kSgknLI": {
           "nom": "MATHIS V.",
-          "maillot": 13,
+          "maillot": 12,
           "club": "CERE ET LANDES U.S."
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK19kSwtnrQ": {
@@ -1428,7 +1569,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh2kiklmLA": {
           "nom": "NOE D.",
-          "maillot": 11,
+          "maillot": 9,
           "club": "CERE ET LANDES U.S."
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK17liYlmLU": {
@@ -1443,7 +1584,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK13lyolmbA": {
           "nom": "CHARLY T.",
-          "maillot": 14,
+          "maillot": 9,
           "club": "VALLEE DE L'AUTHRE 2"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK16myYnnbI": {
@@ -1463,7 +1604,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt3michmLI": {
           "nom": "ANTOINE L.",
-          "maillot": 12,
+          "maillot": 13,
           "club": "VALLEE DE L'AUTHRE 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh3lCkgl78": {
@@ -1475,6 +1616,101 @@
           "nom": "LUCIEN T.",
           "maillot": 13,
           "club": "VALLEE DE L'AUTHRE 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh4lygtmLU": {
+          "nom": "JULES C.",
+          "maillot": 3,
+          "club": "YSR"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh4lyghlr8": {
+          "nom": "HONORE S.",
+          "maillot": 15,
+          "club": "YSR"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd9lSchnLc": {
+          "nom": "NOA M.",
+          "maillot": 7,
+          "club": "YSR"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd7ki4imLI": {
+          "nom": "ELIOTT E.",
+          "maillot": 14,
+          "club": "YSR"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd8ly8kmLM": {
+          "nom": "AXEL D.",
+          "maillot": 8,
+          "club": "VALLEE DE L'AUTHRE 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh3lyognLU": {
+          "nom": "ELIOT C.",
+          "maillot": 12,
+          "club": "VALLEE DE L'AUTHRE 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19lykhlrY": {
+          "nom": "ALEX F.",
+          "maillot": 12,
+          "club": "YSR"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17lyYkmLM": {
+          "nom": "LUCAS C.",
+          "maillot": 2,
+          "club": "CERE ET RANCE FOOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt8kickmrc": {
+          "nom": "JORIS F.",
+          "maillot": 8,
+          "club": "CERE ET RANCE FOOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt_ly4knbE": {
+          "nom": "GABRIEL M.",
+          "maillot": 14,
+          "club": "CERE ET RANCE FOOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh2lC8sm7c": {
+          "nom": "GAETAN B.",
+          "maillot": 10,
+          "club": "CERE ET RANCE FOOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd8kCsknr4": {
+          "nom": "MATHEO S.",
+          "maillot": 3,
+          "club": "CERE ET RANCE FOOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19kSwslrU": {
+          "nom": "RAYANE M.",
+          "maillot": 8,
+          "club": "CERE ET LANDES U.S."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd6kywnl7Y": {
+          "nom": "JULES L.",
+          "maillot": 10,
+          "club": "CERE ET LANDES U.S."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6kCwsnbM": {
+          "nom": "KYLIAN N.",
+          "maillot": 9,
+          "club": "EF CHATAIGNE. VEINAZ"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd6kCclmbM": {
+          "nom": "MAXENCE L.",
+          "maillot": 12,
+          "club": "EF CHATAIGNE. VEINAZ"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK12ligklrA": {
+          "nom": "HANZO L.",
+          "maillot": 13,
+          "club": "JORDANNE F. C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK14kywhnbc": {
+          "nom": "BASTIEN C.",
+          "maillot": 4,
+          "club": "JORDANNE F. C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh3mycmm7M": {
+          "nom": "TOBIAS V.",
+          "maillot": 12,
+          "club": "JORDANNE F. C."
         }
       },
       "matchs": [
@@ -1866,10 +2102,82 @@
           "heure": "15:00",
           "recevant": "VALLEE DE L'AUTHRE 2",
           "visiteur": "YSR",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 15,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd_kSYkmrM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4lygtmLU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4lyghlr8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 22,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9lSchnLc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7ki4imLI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 23,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3kCotmbc",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK13lyolmbA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3michmLI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7ki4imLI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 40,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd_kSYkmrM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 41,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8ly8kmLM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3lyognLU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3kCotmbc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK19lykhlrY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh8licgnbE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9kS4smrQ",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE ALBERT FEL_['LE BOUT DU LIEU', '15250 MARMANHAC']",
+          "officiels": [
+            "ANTOINE SIMON_AC"
+          ]
         },
         {
           "id": 78801701,
@@ -1877,10 +2185,84 @@
           "heure": "15:00",
           "recevant": "CERE ET RANCE FOOT",
           "visiteur": "CERE ET LANDES U.S.",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 22,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7ki4imLM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh2kiklmLA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK16kSgknLI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 51,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK17lyYkmLM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh5mictnb8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 57,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt8kickmrc",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 59,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7ki4tnbE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt_ly4knbE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 59,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh2lC8sm7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7li0nl7c",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 71,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8kCsknr4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8kiYlmLE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 71,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt8kickmrc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK17lyYlnbA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 73,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK19kSwslrU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 79,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6kywnl7Y",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE DE LA BESSADE_['RUE DES ECOLES', '15290 LE ROUGET PERS']",
+          "officiels": [
+            "NOAH SECCAUD BELFORT_AC"
+          ]
         },
         {
           "id": 78943233,
@@ -1888,10 +2270,51 @@
           "heure": "15:00",
           "recevant": "JORDANNE F. C.",
           "visiteur": "EF CHATAIGNE. VEINAZ",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6kCwsnbM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6kCclmbM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 29,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4lSohmLE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9mictl7Q",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK19lSgsmrc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK12ligklrA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 50,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK14kywhnbc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3mycmm7M",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 50,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK14kywhnbc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh5mioln7A",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE DU PONTAIL_['LE PONTAIL', '15130 ST SIMON']",
+          "officiels": [
+            "LUCA DOMERGUE_AC"
+          ]
         },
         {
           "id": 78801698,
@@ -1899,21 +2322,23 @@
           "heure": "13:00",
           "recevant": "VALLEE DE L'AUTHRE 2",
           "visiteur": "JORDANNE F. C.",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ALBERT FEL_['LE BOUT DU LIEU', '15250 MARMANHAC']"
         },
         {
           "id": 78943230,
           "date": "2026-10-10",
-          "heure": "15:00",
+          "heure": "14:00",
           "recevant": "CERE ET RANCE FOOT",
           "visiteur": "EF CHATAIGNE. VEINAZ",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['LE BOURG', '15290 PARLAN']"
         },
         {
           "id": 78801686,

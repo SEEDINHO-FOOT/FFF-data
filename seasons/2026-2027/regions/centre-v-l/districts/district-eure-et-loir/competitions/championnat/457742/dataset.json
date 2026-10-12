@@ -52,6 +52,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC531732.jpg",
           "clNo": "14427",
           "slug": "531732-dreux-a-portu"
+        },
+        "LURAY F.C.": {
+          "nom": "LURAY F.C.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC582519.jpg",
+          "clNo": "191432",
+          "slug": "582519-luray-f-c"
         }
       },
       "stades": {
@@ -86,6 +92,13 @@
         "STADE HAMEAUX DE PAUL BERT 1_['CHAMPTIER DU COLOMBIER', 'RUE ROGER COUDERC', '28100 DREUX']": {
           "nom": "STADE HAMEAUX DE PAUL BERT 1",
           "adresse": "CHAMPTIER DU COLOMBIER | RUE ROGER COUDERC | 28100 DREUX",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['RUE EMILE ZOLA', '28500 LURAY']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "RUE EMILE ZOLA | 28500 LURAY",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -142,6 +155,26 @@
           "nom": "ENZO B.",
           "maillot": 9,
           "club": "REMOIS F.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6kCYsm7M": {
+          "nom": "BASSEM C.",
+          "maillot": 3,
+          "club": "DREUX A PORTU"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx3kS8sm7A": {
+          "nom": "NASSIM E.",
+          "maillot": 9,
+          "club": "DREUX A PORTU"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK13kyctnrI": {
+          "nom": "CHAHID A.",
+          "maillot": 6,
+          "club": "DREUX A PORTU"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp2lS0tmr4": {
+          "nom": "RAPHAEL S.",
+          "maillot": 10,
+          "club": "DREUX A PORTU"
         }
       },
       "matchs": [
@@ -282,10 +315,11 @@
           "heure": "10:30",
           "recevant": "NOGENT LE ROI",
           "visiteur": "DREUX HORIZON",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JULES BIGEARD 2_['ROUTE DE LA PLACE', '28210 NOGENT LE ROI']"
         },
         {
           "id": 79530555,
@@ -293,10 +327,27 @@
           "heure": "13:00",
           "recevant": "MAINTENON",
           "visiteur": "DREUX A PORTU",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 13,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 12,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6kCYsm7M",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3kS8sm7A",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 32,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK13kyctnrI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp2lS0tmr4",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE LE GUEREAU_['ROUTE DU MARECHAL MAUNOURY', '28130 MAINTENON']"
         },
         {
           "id": 79530553,
@@ -304,10 +355,10 @@
           "heure": "15:00",
           "recevant": "REMOIS F.C.",
           "visiteur": "DREUX FC DROU 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué"
         },
         {
           "id": 79530554,
@@ -315,10 +366,11 @@
           "heure": "15:00",
           "recevant": "LURAY F.C.",
           "visiteur": "CHATEAUNEUF A",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 17,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['RUE EMILE ZOLA', '28500 LURAY']"
         },
         {
           "id": 79530567,
@@ -600,6 +652,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 2_['ROUTE DE COURVILLE', '28120 ILLIERS COMBRAY']": {
+          "nom": "STADE MUNICIPAL 2",
+          "adresse": "ROUTE DE COURVILLE | 28120 ILLIERS COMBRAY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -643,6 +702,61 @@
           "nom": "TITO G.",
           "maillot": 9,
           "club": "SOURS AMIC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp9lycinrE": {
+          "nom": "NOLANN C.",
+          "maillot": 9,
+          "club": "SOURS AMIC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx8lCggm7I": {
+          "nom": "EIMEN L.",
+          "maillot": 3,
+          "club": "SOURS AMIC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp5lSoknL4": {
+          "nom": "REMI C.",
+          "maillot": 10,
+          "club": "SOURS AMIC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx_my8in7c": {
+          "nom": "SOFIANE S.",
+          "maillot": 5,
+          "club": "LUCE OUEST 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt-ly4tnbE": {
+          "nom": "ANGELO C.",
+          "maillot": 10,
+          "club": "LUCE OUEST 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp7ly0sm7U": {
+          "nom": "FRANCK JUNIOR B.",
+          "maillot": 4,
+          "club": "LUCE OUEST 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx5mi4kn7c": {
+          "nom": "ILYAN K.",
+          "maillot": 9,
+          "club": "LUCE OUEST 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15lC8tnLI": {
+          "nom": "SOAN H.",
+          "maillot": 10,
+          "club": "FC ST GEORGES SUR E."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp7kSYml78": {
+          "nom": "JOSUE L.",
+          "maillot": 9,
+          "club": "FC ST GEORGES SUR E."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx9lSoil7U": {
+          "nom": "TOM E.",
+          "maillot": 8,
+          "club": "FC ST GEORGES SUR E."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK13misknrU": {
+          "nom": "ETHAN B.",
+          "maillot": 6,
+          "club": "A.S.T.J."
         }
       },
       "matchs": [
@@ -780,10 +894,11 @@
           "heure": "10:00",
           "recevant": "ILLIERS U P",
           "visiteur": "DAMMARIE/BERCHERES 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 2_['ROUTE DE COURVILLE', '28120 ILLIERS COMBRAY']"
         },
         {
           "id": 79530619,
@@ -791,10 +906,41 @@
           "heure": "13:00",
           "recevant": "SOURS AMIC",
           "visiteur": "LUCE OUEST 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 17,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt9mywil7M",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9lycinrE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 24,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8lCggm7I",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5lSoknL4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_my8in7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-ly4tnbE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp7ly0sm7U",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx5mi4kn7c",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE PIERRE DE LA CHAUME 1_['24 RUE LOUIS ISAMBERT', '28630 SOURS']"
         },
         {
           "id": 79530617,
@@ -802,10 +948,68 @@
           "heure": "13:45",
           "recevant": "A.S.T.J.",
           "visiteur": "FC ST GEORGES SUR E.",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 3,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK15lC8tnLI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 19,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt_miwnl7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3kSstl7U",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 20,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp7kSYml78",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 24,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx9lSoil7U",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 32,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK15lC8tnLI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 36,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK13misknrU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 39,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK13misknrU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 64,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_myosnrA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 68,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp7kSYml78",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "Stade Jean-pAul Couvret_['ROUTE DE PATAY', '28310 JANVILLE']"
         },
         {
           "id": 79530620,
@@ -813,10 +1017,11 @@
           "heure": "16:00",
           "recevant": "FONTAINE/COURVILLE",
           "visiteur": "C CHARTRES F. 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE KLEIN_[' RUE DE CHATEAUNEUF', '28190 COURVILLE SUR EURE']"
         },
         {
           "id": 79530630,

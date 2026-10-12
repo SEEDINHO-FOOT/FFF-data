@@ -46,6 +46,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500828.jpg",
           "clNo": "715",
           "slug": "500828-paris-19-esp"
+        },
+        "PARIS UNIVERS. CLUB 2": {
+          "nom": "PARIS UNIVERS. CLUB 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500025.jpg",
+          "clNo": "175",
+          "slug": "500025-paris-univers-club-2"
         }
       },
       "stades": {
@@ -66,6 +72,13 @@
         "STADE BERTRAND DAUVIN_['12 RUE RENE BINET', '75018 PARIS']": {
           "nom": "STADE BERTRAND DAUVIN",
           "adresse": "12 RUE RENE BINET | 75018 PARIS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE L' HIPPODROME AUTEUIL_[\"Place de la Porte D'Auteuil\", '75016 PARIS']": {
+          "nom": "STADE DE L' HIPPODROME AUTEUIL",
+          "adresse": "Place de la Porte D'Auteuil | 75016 PARIS",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -96,6 +109,11 @@
           "nom": "Anonyme",
           "role": "Observateur principal",
           "role_cod": "CP"
+        },
+        "VINCENT VAN ROBAEYS_AC": {
+          "nom": "VINCENT VAN ROBAEYS",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -153,6 +171,76 @@
           "nom": "JHALLYANNA G.",
           "maillot": 12,
           "club": "PARIS 15 A.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx9my8jn78": {
+          "nom": "LIZA R.",
+          "maillot": 7,
+          "club": "MONTMARTRE S. PARIS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6kiojnb8": {
+          "nom": "NABI A.",
+          "maillot": 8,
+          "club": "MONTMARTRE S. PARIS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp5mycml7A": {
+          "nom": "WAKANA O.",
+          "maillot": 13,
+          "club": "MONTMARTRE S. PARIS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp5mycmlrQ": {
+          "nom": "ZOE L.",
+          "maillot": 9,
+          "club": "MONTMARTRE S. PARIS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt6lScjl7U": {
+          "nom": "MAISSA D.",
+          "maillot": 2,
+          "club": "PARIS UNIVERS. CLUB 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx8ki8lm74": {
+          "nom": "AIKO M.",
+          "maillot": 7,
+          "club": "PARIS UNIVERS. CLUB 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt_kSogl7Y": {
+          "nom": "MYRIAM K.",
+          "maillot": 12,
+          "club": "PARIS UNIVERS. CLUB 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx3kisjmbM": {
+          "nom": "WISSEM F.",
+          "maillot": 11,
+          "club": "PARIS UNIVERS. CLUB 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt7kSkjn7A": {
+          "nom": "CHAIMA A.",
+          "maillot": 13,
+          "club": "PARIS UNIVERS. CLUB 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx9mygmmrU": {
+          "nom": "BERTILLE L.",
+          "maillot": 4,
+          "club": "PARIS UNIVERS. CLUB 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx5lS4gmLA": {
+          "nom": "ILITHYIA R.",
+          "maillot": 14,
+          "club": "PARIS UNIVERS. CLUB 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17kiYil7U": {
+          "nom": "ANISSA D.",
+          "maillot": 8,
+          "club": "PARIS UNIVERS. CLUB 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp6kCkil7E": {
+          "nom": "ASSIA S.",
+          "maillot": 3,
+          "club": "MONTMARTRE S. PARIS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp-mywnmLc": {
+          "nom": "NAELYS E.",
+          "maillot": 12,
+          "club": "MONTMARTRE S. PARIS"
         }
       },
       "matchs": [
@@ -262,13 +350,14 @@
         {
           "id": 55743293,
           "date": "2026-10-10",
-          "heure": "14:45",
+          "heure": "15:00",
           "recevant": "COURONNES O.F.C.",
           "visiteur": "PARIS 19 ESP",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Maryse Hilsz N° 2_['34 RUE MARYSE HILSZ', 'TERRAIN ANNEXE', '75020 PARIS']"
         },
         {
           "id": 55743295,
@@ -276,21 +365,98 @@
           "heure": "15:00",
           "recevant": "SEIZIEME ES",
           "visiteur": "PARIS XIII E.S.",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE L' HIPPODROME AUTEUIL_[\"Place de la Porte D'Auteuil\", '75016 PARIS']",
+          "officiels": [
+            "Anonyme_AC"
+          ]
         },
         {
           "id": 55743291,
           "date": "2026-10-10",
-          "heure": "17:30",
+          "heure": "15:00",
           "recevant": "MONTMARTRE S. PARIS",
           "visiteur": "PARIS UNIVERS. CLUB 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 22,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx9my8jn78",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 29,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6kiojnb8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5mycml7A",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 35,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5mycmlrQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 38,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt6lScjl7U",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 38,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8ki8lm74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt_kSogl7Y",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 38,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3kisjmbM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7kSkjn7A",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 38,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx9mygmmrU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx5lS4gmLA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 44,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt_kSogl7Y",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 66,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK17kiYil7U",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 68,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp6kCkil7E",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp-mywnmLc",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE BERTRAND DAUVIN_['12 RUE RENE BINET', '75018 PARIS']",
+          "officiels": [
+            "VINCENT VAN ROBAEYS_AC"
+          ]
         },
         {
           "id": 55743296,

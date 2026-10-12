@@ -58,6 +58,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC554146.jpg",
           "clNo": "147361",
           "slug": "554146-ent-ctac-asofa"
+        },
+        "BARRISSOYES 2": {
+          "nom": "BARRISSOYES 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564512.jpg",
+          "clNo": "202040",
+          "slug": "564512-barrissoyes-2"
         }
       },
       "stades": {
@@ -108,6 +114,13 @@
           "adresse": "AVENUE SAINT ROCH | 10400 NOGENT SUR SEINE",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 1_['RUE DU STADE', '10110 BAR SUR SEINE']": {
+          "nom": "STADE MUNICIPAL 1",
+          "adresse": "RUE DU STADE | 10110 BAR SUR SEINE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
         }
       },
@@ -170,8 +183,8 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK12lSYjmbQ": {
           "nom": "ALAOUI S.",
-          "maillot": 2,
-          "club": "TORVILLIERS AC"
+          "maillot": 4,
+          "club": "ENT.CTAC ASOFA"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx_myoinLY": {
           "nom": "DORIAN G.",
@@ -185,8 +198,8 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp-kS8hn7c": {
           "nom": "LOÏS B.",
-          "maillot": 6,
-          "club": "TORVILLIERS AC"
+          "maillot": 8,
+          "club": "ENT.CTAC ASOFA"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK12kSsmnbA": {
           "nom": "MAXENCE M.",
@@ -277,6 +290,51 @@
           "nom": "DARELL B.",
           "maillot": 12,
           "club": "TRAINEL FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp9kS4hl7A": {
+          "nom": "KAYLIA B.",
+          "maillot": 7,
+          "club": "AUXON FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16kCohmbI": {
+          "nom": "MATHEO B.",
+          "maillot": 9,
+          "club": "AUXON FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt4lCgtnb4": {
+          "nom": "TIMEO D.",
+          "maillot": 12,
+          "club": "AUXON FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt6lS8lmrE": {
+          "nom": "ANAEL H.",
+          "maillot": 7,
+          "club": "ASMB"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx7ki4sl74": {
+          "nom": "SAMUEL A.",
+          "maillot": 9,
+          "club": "ASMB"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt9lCggm7E": {
+          "nom": "FLORIAN B.",
+          "maillot": 11,
+          "club": "ENT.CTAC ASOFA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt_kS8lnbY": {
+          "nom": "SOHEN S.",
+          "maillot": 3,
+          "club": "ENT.CTAC ASOFA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx7my8sm78": {
+          "nom": "HUGO H.",
+          "maillot": 8,
+          "club": "ASMB"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt4kycnlrM": {
+          "nom": "GABIN P.",
+          "maillot": 11,
+          "club": "ASMB"
         }
       },
       "matchs": [
@@ -550,10 +608,11 @@
           "heure": "15:00",
           "recevant": "TRAINEL FC",
           "visiteur": "BARRISSOYES 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE SAINT BARTHELEMY_['ROUTE DE FONTAINE - FOURCHE', '10400 TRAINEL']"
         },
         {
           "id": 79447166,
@@ -561,17 +620,27 @@
           "heure": "15:00",
           "recevant": "AUXON FC",
           "visiteur": "NOGENTAIS FC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 9,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-lysllrM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9kS4hl7A",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL_['RUE DU CHAMP DU MOULIN', '10130 AUXON']"
         },
         {
           "id": 79447167,
           "date": "2026-10-03",
           "heure": "15:00",
           "recevant": "ETOILE CHAPELAINE",
-          "visiteur": "TORVILLIERS AC",
+          "visiteur": "ENT.CTAC ASOFA",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
@@ -594,10 +663,27 @@
           "heure": "14:00",
           "recevant": "BARRISSOYES 2",
           "visiteur": "AUXON FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 22,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16kCohmbI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-lysllrM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt4lCgtnb4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-lysllrM",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL 1_['RUE DU STADE', '10110 BAR SUR SEINE']"
         },
         {
           "id": 79447169,
@@ -614,12 +700,43 @@
           "id": 79447170,
           "date": "2026-10-10",
           "heure": "15:00",
-          "recevant": "TORVILLIERS AC",
+          "recevant": "ENT.CTAC ASOFA",
           "visiteur": "ASMB",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 9,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt6lS8lmrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7ki4sl74",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 23,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12lSYjmbQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp-kS8hn7c",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 63,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt9lCggm7E",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt_kS8lnbY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 69,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7my8sm78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt4kycnlrM",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE DE FOOTBALL_[' RUE DE LA CURE', '10440 TORVILLIERS']"
         },
         {
           "id": 79447172,

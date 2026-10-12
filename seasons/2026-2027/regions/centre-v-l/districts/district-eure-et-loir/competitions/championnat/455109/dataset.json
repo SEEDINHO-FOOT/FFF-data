@@ -109,13 +109,20 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "COMPLEXE SPORTIF ROBERT HUWART 2_['RUE DU PERCHE', 'TERRAIN FOOT/HOCKEY', '28400 NOGENT LE ROTROU']": {
+          "nom": "COMPLEXE SPORTIF ROBERT HUWART 2",
+          "adresse": "RUE DU PERCHE | TERRAIN FOOT/HOCKEY | 28400 NOGENT LE ROTROU",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
       "joueurs": {
         "ir3_vj-lzPeINLfhzILsrKFOFK17li4gnbE": {
           "nom": "TIAGO B.",
-          "maillot": 7,
+          "maillot": 12,
           "club": "LEVES F C"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK16miYnm7Y": {
@@ -145,7 +152,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd6kCcsmr8": {
           "nom": "DIEGO B.",
-          "maillot": 10,
+          "maillot": 8,
           "club": "LEVES F C"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK15lC0gl78": {
@@ -180,17 +187,17 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx5lC4gmL4": {
           "nom": "GABIN P.",
-          "maillot": 2,
+          "maillot": 12,
           "club": "CHATEAUNEUF A"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx5lisjnrE": {
           "nom": "NELSON N.",
-          "maillot": 12,
+          "maillot": 11,
           "club": "CHATEAUNEUF A"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx3likglr8": {
           "nom": "NOE B.",
-          "maillot": 14,
+          "maillot": 8,
           "club": "CHATEAUNEUF A"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK13ly0gn7I": {
@@ -312,6 +319,26 @@
           "nom": "DAOUDA D.",
           "maillot": 14,
           "club": "LEVES F C"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17kC0tmrc": {
+          "nom": "THEO G.",
+          "maillot": 6,
+          "club": "CHATEAUNEUF A"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd7lighnL8": {
+          "nom": "ELIE Z.",
+          "maillot": 11,
+          "club": "LEVES F C"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx7kCglnL8": {
+          "nom": "CLEMENT B.",
+          "maillot": 13,
+          "club": "LEVES F C"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16li0nmbM": {
+          "nom": "TYLER D.",
+          "maillot": 14,
+          "club": "CHATEAUNEUF A"
         }
       },
       "matchs": [
@@ -598,10 +625,11 @@
           "heure": "15:00",
           "recevant": "AM.S. NOGENT LE ROTR",
           "visiteur": "DREUX ACSF",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 13,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF ROBERT HUWART 2_['RUE DU PERCHE', 'TERRAIN FOOT/HOCKEY', '28400 NOGENT LE ROTROU']"
         },
         {
           "id": 79524513,
@@ -620,10 +648,55 @@
           "heure": "16:00",
           "recevant": "CHATEAUNEUF A",
           "visiteur": "LEVES F C",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 23,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK17kC0tmrc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx5lC4gmL4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 24,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK1_miojlrQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK17li4gnbE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 32,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx5lisjnrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx5lC4gmL4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 41,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7lighnL8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7kCglnL8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 51,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3likglr8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK16li0nmbM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 53,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6kCcsmr8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt9kSsil7M",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE DE LA PAJOTTERIE_['RUE EMILE VIVIER', '28170 CHATEAUNEUF EN THYMERAIS']"
         },
         {
           "id": 79524514,
@@ -631,10 +704,11 @@
           "heure": "16:00",
           "recevant": "A.S. DES ORIELS",
           "visiteur": "COURVILLE/FONTAINE ",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MOHAMED ZGOUD 4_['AVENUE DE LATTRE DE TASSIGNY', '28100 DREUX']"
         },
         {
           "id": 79524523,
@@ -902,6 +976,27 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE DE BEAULIEU_['Beaulieu', '28200 DONNEMAIN']": {
+          "nom": "STADE DE BEAULIEU",
+          "adresse": "Beaulieu | 28200 DONNEMAIN",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE JEAN LEROY 1_['RUE DU 17 JUIN 1940', '28190 ST GEORGES SUR EURE']": {
+          "nom": "STADE JEAN LEROY 1",
+          "adresse": "RUE DU 17 JUIN 1940 | 28190 ST GEORGES SUR EURE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE FRANÇOIS RICHOUX_['RUE DE LA REPUBLIQUE', '28110 LUCE']": {
+          "nom": "STADE FRANÇOIS RICHOUX",
+          "adresse": "RUE DE LA REPUBLIQUE | 28110 LUCE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -918,7 +1013,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd7lCktnLU": {
           "nom": "MANOA P.",
-          "maillot": 10,
+          "maillot": 9,
           "club": "ENT. SOURS NOGENT"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK12kyonlrY": {
@@ -948,7 +1043,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK17mi4imbE": {
           "nom": "LILIAN H.",
-          "maillot": 2,
+          "maillot": 3,
           "club": "DONNEMAIN"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp4mygmnrU": {
@@ -958,7 +1053,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt2kS0tmr8": {
           "nom": "RAYAN A.",
-          "maillot": 9,
+          "maillot": 12,
           "club": "DONNEMAIN"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK12myYjmrI": {
@@ -1013,7 +1108,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx-kCYnmrI": {
           "nom": "SANEL D.",
-          "maillot": 14,
+          "maillot": 12,
           "club": "BERCHERES/DAMMARIE"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK12kCYkmLQ": {
@@ -1038,12 +1133,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx9myYmnrQ": {
           "nom": "LIAM H.",
-          "maillot": 12,
+          "maillot": 13,
           "club": "DONNEMAIN"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx-kicnn74": {
           "nom": "SOFIANE O.",
-          "maillot": 7,
+          "maillot": 11,
           "club": "A.S.T.J."
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK17ki4hlrI": {
@@ -1053,7 +1148,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp_kCsjmbE": {
           "nom": "KERANN ARMAND C.",
-          "maillot": 8,
+          "maillot": 14,
           "club": "A.S.T.J."
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK17kC0llr8": {
@@ -1078,7 +1173,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt-myskmrY": {
           "nom": "MYLAN D.",
-          "maillot": 13,
+          "maillot": 12,
           "club": "A.S.T.J."
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt-kiktn7I": {
@@ -1093,7 +1188,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx5kiojmrM": {
           "nom": "CHEMSEDDINE C.",
-          "maillot": 11,
+          "maillot": 14,
           "club": "LUCE OUEST 2"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt9li0tl78": {
@@ -1113,8 +1208,108 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK18my0sm7Y": {
           "nom": "JULES L.",
+          "maillot": 6,
+          "club": "ENT. SOURS NOGENT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx8liwsmLE": {
+          "nom": "LUCA B.",
+          "maillot": 7,
+          "club": "DONNEMAIN"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16ly0kl7A": {
+          "nom": "KEWAN R.",
+          "maillot": 14,
+          "club": "DONNEMAIN"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt7liYglrc": {
+          "nom": "AMANI LINCOLN K.",
+          "maillot": 11,
+          "club": "FC ST GEORGES SUR E."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK12kC4jnbQ": {
+          "nom": "YOAN B.",
           "maillot": 13,
           "club": "ENT. SOURS NOGENT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16kScgnLI": {
+          "nom": "VICTOR P.",
+          "maillot": 9,
+          "club": "FC ST GEORGES SUR E."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd7lCoknLI": {
+          "nom": "VALENTIN R.",
+          "maillot": 12,
+          "club": "FC ST GEORGES SUR E."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx8lSYmm7M": {
+          "nom": "LIAM S.",
+          "maillot": 13,
+          "club": "FC ST GEORGES SUR E."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd6lScnmrE": {
+          "nom": "YANIS H.",
+          "maillot": 7,
+          "club": "FC ST GEORGES SUR E."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK13miwtnbI": {
+          "nom": "AKRAM I.",
+          "maillot": 7,
+          "club": "A.S.T.J."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt7mi8hmL8": {
+          "nom": "VALIMBAVAKA F.",
+          "maillot": 11,
+          "club": "LUCE OUEST 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17kystnLA": {
+          "nom": "AYOUB B.",
+          "maillot": 12,
+          "club": "LUCE OUEST 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt5licsl7Y": {
+          "nom": "KEMOKO T.",
+          "maillot": 10,
+          "club": "LUCE OUEST 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt5my8hn7A": {
+          "nom": "MORLAYE F.",
+          "maillot": 13,
+          "club": "LUCE OUEST 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK12miYtlrE": {
+          "nom": "YLIES K.",
+          "maillot": 9,
+          "club": "LUCE OUEST 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16lScgmLI": {
+          "nom": "LONY G.",
+          "maillot": 6,
+          "club": "A.S.T.J."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx5kiYin7Y": {
+          "nom": "ADAM B.",
+          "maillot": 8,
+          "club": "A.S.T.J."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17lSgsn78": {
+          "nom": "BRYAN P.",
+          "maillot": 13,
+          "club": "A.S.T.J."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx7kSogl78": {
+          "nom": "KAIS F.",
+          "maillot": 13,
+          "club": "BERCHERES/DAMMARIE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19lSgkmbQ": {
+          "nom": "CELIAN G.",
+          "maillot": 6,
+          "club": "BERCHERES/DAMMARIE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd6lCohn78": {
+          "nom": "PAUL P.",
+          "maillot": 14,
+          "club": "BERCHERES/DAMMARIE"
         }
       },
       "matchs": [
@@ -1396,10 +1591,72 @@
           "heure": "14:30",
           "recevant": "FC ST GEORGES SUR E.",
           "visiteur": "ENT. SOURS NOGENT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 20,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7liYglrc",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-lCkjl7E",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp7ly8inrQ",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7lCktnLU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK12kC4jnbQ",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16kScgnLI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7lCoknLI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 35,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7liYglrc",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7liYglrc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8lSYmm7M",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK18my0sm7Y",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK12kyonlrY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 50,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6lScnmrE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 65,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6lScnmrE",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE JEAN LEROY 1_['RUE DU 17 JUIN 1940', '28190 ST GEORGES SUR EURE']"
         },
         {
           "id": 79525039,
@@ -1407,10 +1664,34 @@
           "heure": "10:00",
           "recevant": "DONNEMAIN",
           "visiteur": "FJ VALLÉE DUNOISE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK17mi4imbE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt2kS0tmr8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7mykll7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx9myYmnrQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8liwsmLE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK16ly0kl7A",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE DE BEAULIEU_['Beaulieu', '28200 DONNEMAIN']"
         },
         {
           "id": 79525041,
@@ -1418,10 +1699,68 @@
           "heure": "15:00",
           "recevant": "LUCE OUEST 2",
           "visiteur": "A.S.T.J.",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 22,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx-kicnn74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp_kCsjmbE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 22,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK13miwtnbI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-myskmrY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 22,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7mi8hmL8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK17kystnLA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 22,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt5licsl7Y",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt5my8hn7A",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 22,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12miYtlrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx5kiojmrM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 36,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16lScgmLI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-myskmrY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 36,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx5kiYin7Y",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK17lSgsn78",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 65,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx5kiYin7Y",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE FRANÇOIS RICHOUX_['RUE DE LA REPUBLIQUE', '28110 LUCE']"
         },
         {
           "id": 79525042,
@@ -1429,10 +1768,34 @@
           "heure": "15:00",
           "recevant": "AV. YMONVILLE 2",
           "visiteur": "BERCHERES/DAMMARIE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12kCYkmLQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx-kCYnmrI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8kCokmLE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7kSogl78",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK19lSgkmbQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6lCohn78",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "COMPLEXE COMMUNAUTAIRE COEUR DE BEAUCE_[' PLACE DES SAINTS PERES', '28150 YMONVILLE']"
         },
         {
           "id": 79525051,

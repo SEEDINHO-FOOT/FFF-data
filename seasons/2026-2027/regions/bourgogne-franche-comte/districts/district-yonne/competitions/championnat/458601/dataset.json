@@ -10,17 +10,81 @@
     {
       "cp_slug": "458601-u15-a-8/phase/1/1",
       "competition": "U15 a 8",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "ENT. GURGY MONETEAU": {
+          "nom": "ENT. GURGY MONETEAU",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC533247.jpg",
+          "clNo": "15437",
+          "slug": "533247-ent-gurgy-moneteau"
+        },
+        "ENT.CERISIERS MALAY ": {
+          "nom": "ENT.CERISIERS MALAY ",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC520948.jpg",
+          "clNo": "7238",
+          "slug": "520948-ent-cerisiers-malay"
+        },
+        "FC CHARMOY": {
+          "nom": "FC CHARMOY",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC532469.jpg",
+          "clNo": "14934",
+          "slug": "532469-fc-charmoy"
+        },
+        "ENT.CERISIERS MALAY  2": {
+          "nom": "ENT.CERISIERS MALAY  2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC520948.jpg",
+          "clNo": "7238",
+          "slug": "520948-ent-cerisiers-malay-2"
+        }
+      },
+      "stades": {
+        "STADE DE LA GONIO 1_[' RUE DU STADE', '89250 GURGY']": {
+          "nom": "STADE DE LA GONIO 1",
+          "adresse": " RUE DU STADE | 89250 GURGY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFK13kScslrc": {
+          "nom": "SACHA L.",
+          "maillot": 9,
+          "club": "ENT. GURGY MONETEAU"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp_ly4tnbY": {
+          "nom": "YLOAN A.",
+          "maillot": 13,
+          "club": "ENT. GURGY MONETEAU"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16lisinL4": {
+          "nom": "HATIM A.",
+          "maillot": 6,
+          "club": "ENT. GURGY MONETEAU"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt-ky8tmrQ": {
+          "nom": "EVAN B.",
+          "maillot": 11,
+          "club": "ENT. GURGY MONETEAU"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK14myktnbQ": {
+          "nom": "AMINE B.",
+          "maillot": 7,
+          "club": "ENT. GURGY MONETEAU"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp9li4jmLU": {
+          "nom": "MATHIEU L.",
+          "maillot": 12,
+          "club": "ENT. GURGY MONETEAU"
+        }
+      },
       "matchs": [
         {
           "id": 79693182,
           "date": "2026-10-03",
           "heure": "14:00",
           "recevant": "FC CHARMOY",
-          "visiteur": "GURGY",
+          "visiteur": "ENT. GURGY MONETEAU",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
@@ -41,23 +105,47 @@
           "id": 79693184,
           "date": "2026-10-10",
           "heure": "14:00",
-          "recevant": "GURGY",
-          "visiteur": "CERISIERS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "recevant": "ENT. GURGY MONETEAU",
+          "visiteur": "ENT.CERISIERS MALAY ",
+          "buts_recevant": 0,
+          "buts_visiteur": 8,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK13kScslrc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp_ly4tnbY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16lisinL4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-ky8tmrQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK14myktnbQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9li4jmLU",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE DE LA GONIO 1_[' RUE DU STADE', '89250 GURGY']"
         },
         {
           "id": 79693185,
           "date": "2026-10-10",
           "heure": "14:00",
           "recevant": "FC CHARMOY",
-          "visiteur": "CERISIERS 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "visiteur": "ENT.CERISIERS MALAY  2",
+          "buts_recevant": 2,
+          "buts_visiteur": 9,
+          "joue": true,
+          "statut": "joué"
         },
         {
           "id": 79693186,

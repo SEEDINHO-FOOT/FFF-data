@@ -10,8 +10,80 @@
     {
       "cp_slug": "457521-criterium-u13-a-11/phase/1/1",
       "competition": "Critérium U13 à 11",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "BOULOGNE BIL. AC 4": {
+          "nom": "BOULOGNE BIL. AC 4",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500051.jpg",
+          "clNo": "196",
+          "slug": "500051-boulogne-bil-ac-4"
+        },
+        "ANTONY ASS JEUNES": {
+          "nom": "ANTONY ASS JEUNES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC542392.jpg",
+          "clNo": "21939",
+          "slug": "542392-antony-ass-jeunes"
+        },
+        "GARENNE COLOMBES AF": {
+          "nom": "GARENNE COLOMBES AF",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500009.jpg",
+          "clNo": "161",
+          "slug": "500009-garenne-colombes-af"
+        },
+        "ASNIERES FC": {
+          "nom": "ASNIERES FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500038.jpg",
+          "clNo": "185",
+          "slug": "500038-asnieres-fc"
+        },
+        "SURESNES J.S. 2": {
+          "nom": "SURESNES J.S. 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500744.jpg",
+          "clNo": "691",
+          "slug": "500744-suresnes-j-s-2"
+        },
+        "SEVRES F.C. 92 4": {
+          "nom": "SEVRES F.C. 92 4",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC527758.jpg",
+          "clNo": "11726",
+          "slug": "527758-sevres-f-c-92-4"
+        },
+        "MEUDON A.S.": {
+          "nom": "MEUDON A.S.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500692.jpg",
+          "clNo": "668",
+          "slug": "500692-meudon-a-s"
+        }
+      },
+      "stades": {
+        "STADE MARCEL BEC N° 1_[' ROUTE DU PAVILLON DE L ABBE', 'Terrain foot/rugby', '92190 MEUDON']": {
+          "nom": "STADE MARCEL BEC N° 1",
+          "adresse": " ROUTE DU PAVILLON DE L ABBE | Terrain foot/rugby | 92190 MEUDON",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MARCEL PAYEN_['132 AVENUE FRANCOIS ARAGO', '92000 NANTERRE']": {
+          "nom": "STADE MARCEL PAYEN",
+          "adresse": "132 AVENUE FRANCOIS ARAGO | 92000 NANTERRE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE BLAISE MATUIDI_['53 RUE HENRI POINCARE', 'TERRAIN FOOT / FOOT AMERICAIN', '92600 ASNIERES SUR SEINE']": {
+          "nom": "STADE BLAISE MATUIDI",
+          "adresse": "53 RUE HENRI POINCARE | TERRAIN FOOT / FOOT AMERICAIN | 92600 ASNIERES SUR SEINE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE JEAN WAGNER_['25 ROUTE DU PAVE DES GARDES', '92310 SEVRES']": {
+          "nom": "STADE JEAN WAGNER",
+          "adresse": "25 ROUTE DU PAVE DES GARDES | 92310 SEVRES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -252,10 +324,11 @@
           "heure": "15:00",
           "recevant": "BOULOGNE BIL. AC 4",
           "visiteur": "ANTONY ASS JEUNES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MARCEL BEC N° 1_[' ROUTE DU PAVILLON DE L ABBE', 'Terrain foot/rugby', '92190 MEUDON']"
         },
         {
           "id": 79775861,
@@ -274,10 +347,57 @@
           "heure": "15:30",
           "recevant": "SEVRES F.C. 92 4",
           "visiteur": "SURESNES J.S. 2",
+          "buts_recevant": 4,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué"
+        },
+        {
+          "id": 79775867,
+          "date": "2026-10-10",
+          "heure": "12:00",
+          "recevant": "PLESSIS ROBINSON FC",
+          "visiteur": "BOULOGNE BIL. AC 3",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
           "statut": "à venir"
+        },
+        {
+          "id": 79775870,
+          "date": "2026-10-10",
+          "heure": "15:00",
+          "recevant": "GARENNE COLOMBES AF",
+          "visiteur": "ANTONY ASS JEUNES",
+          "buts_recevant": 4,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MARCEL PAYEN_['132 AVENUE FRANCOIS ARAGO', '92000 NANTERRE']"
+        },
+        {
+          "id": 79775871,
+          "date": "2026-10-10",
+          "heure": "15:00",
+          "recevant": "ASNIERES FC",
+          "visiteur": "SURESNES J.S. 2",
+          "buts_recevant": 0,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE BLAISE MATUIDI_['53 RUE HENRI POINCARE', 'TERRAIN FOOT / FOOT AMERICAIN', '92600 ASNIERES SUR SEINE']"
+        },
+        {
+          "id": 79775869,
+          "date": "2026-10-10",
+          "heure": "15:30",
+          "recevant": "SEVRES F.C. 92 4",
+          "visiteur": "MEUDON A.S.",
+          "buts_recevant": 9,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JEAN WAGNER_['25 ROUTE DU PAVE DES GARDES', '92310 SEVRES']"
         }
       ]
     }

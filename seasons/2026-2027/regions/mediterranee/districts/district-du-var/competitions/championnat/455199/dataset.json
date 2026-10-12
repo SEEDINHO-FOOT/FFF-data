@@ -40,6 +40,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503060.jpg",
           "clNo": "1631",
           "slug": "503060-c-a-roquebrunois-2"
+        },
+        "SP.C. COGOLINOIS 2": {
+          "nom": "SP.C. COGOLINOIS 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500352.jpg",
+          "clNo": "446",
+          "slug": "500352-sp-c-cogolinois-2"
         }
       },
       "stades": {
@@ -74,6 +80,20 @@
         "STADE ÉDOUARD BERNARD 2_['BOULEVARD COUA DE CAN', 'TERRAIN ANNEXE', '83550 VIDAUBAN']": {
           "nom": "STADE ÉDOUARD BERNARD 2",
           "adresse": "BOULEVARD COUA DE CAN | TERRAIN ANNEXE | 83550 VIDAUBAN",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE GALFARD N° 2_['QUARTIER DE LA GARE', 'RUE DU STADE', 'TERRAIN ANNEXE FOOT / RUGBY', '83310 COGOLIN']": {
+          "nom": "STADE GALFARD N° 2",
+          "adresse": "QUARTIER DE LA GARE | RUE DU STADE | TERRAIN ANNEXE FOOT / RUGBY | 83310 COGOLIN",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football réduit"
+        },
+        "STADE JUST FONTAINE_['C.L.C.S. QUARTIER LE PERRUSSIER', 'ROUTE DE ST AYGULF', 'FOOT/RUGBY JULIEN CAZELLES', '83520 ROQUEBRUNE SUR ARGENS']": {
+          "nom": "STADE JUST FONTAINE",
+          "adresse": "C.L.C.S. QUARTIER LE PERRUSSIER | ROUTE DE ST AYGULF | FOOT/RUGBY JULIEN CAZELLES | 83520 ROQUEBRUNE SUR ARGENS",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -170,10 +190,11 @@
           "heure": "11:30",
           "recevant": "F.C. PAYS DE FAYENCE 2",
           "visiteur": "C.A. ROQUEBRUNOIS 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE INTERCOMMUNAL_['QUARTIER LA COLOMBE', 'CHEMIN GARELLE', '83440 FAYENCE']"
         },
         {
           "id": 79118659,
@@ -181,10 +202,11 @@
           "heure": "16:30",
           "recevant": "F.C. VIDAUBAN 2",
           "visiteur": "A. .S. DE L'ESTEREL 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ÉDOUARD BERNARD 2_['BOULEVARD COUA DE CAN', 'TERRAIN ANNEXE', '83550 VIDAUBAN']"
         },
         {
           "id": 79118657,
@@ -192,32 +214,35 @@
           "heure": "10:00",
           "recevant": "SP.C. COGOLINOIS 2",
           "visiteur": "ST. TRANSIAN",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 13,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GALFARD N° 2_['QUARTIER DE LA GARE', 'RUE DU STADE', 'TERRAIN ANNEXE FOOT / RUGBY', '83310 COGOLIN']"
         },
         {
           "id": 79118660,
           "date": "2026-10-10",
-          "heure": "00:00",
+          "heure": "13:30",
           "recevant": "C.A. ROQUEBRUNOIS 2",
           "visiteur": "F.C. VIDAUBAN 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 10,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JUST FONTAINE_['C.L.C.S. QUARTIER LE PERRUSSIER', 'ROUTE DE ST AYGULF', 'FOOT/RUGBY JULIEN CAZELLES', '83520 ROQUEBRUNE SUR ARGENS']"
         },
         {
           "id": 79118661,
           "date": "2026-10-10",
-          "heure": "00:00",
+          "heure": "15:30",
           "recevant": "ST. TRANSIAN",
           "visiteur": "F.C. PAYS DE FAYENCE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 11,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE CÉLESTIN CORSI_['RN 555', 'AVENUE MARGUERITE DE PROVENCE', '83720 TRANS EN PROVENCE']"
         },
         {
           "id": 79118662,
@@ -225,10 +250,11 @@
           "heure": "10:00",
           "recevant": "SP.C. COGOLINOIS 2",
           "visiteur": "A. .S. DE L'ESTEREL 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GALFARD N° 2_['QUARTIER DE LA GARE', 'RUE DU STADE', 'TERRAIN ANNEXE FOOT / RUGBY', '83310 COGOLIN']"
         },
         {
           "id": 79118648,
@@ -488,6 +514,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE ANDRÉ DEFERRARI_['CORNICHE BONAPARTE', '83150 BANDOL']": {
+          "nom": "STADE ANDRÉ DEFERRARI",
+          "adresse": "CORNICHE BONAPARTE | 83150 BANDOL",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -619,10 +652,11 @@
           "heure": "14:00",
           "recevant": "U.S. CADIERENNE",
           "visiteur": "F.C. REVESTOIS 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE FRANCIS ITRAC_['LE DEFENDS', 'CHEMIN DU STADE', '(EX DEFENDS)', '83740 LA CADIERE D AZUR']"
         },
         {
           "id": 79118746,
@@ -630,21 +664,23 @@
           "heure": "17:30",
           "recevant": "U.S. BANDOLAISE",
           "visiteur": "J.S. BEAUSSETANNE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 9,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ANDRÉ DEFERRARI_['CORNICHE BONAPARTE', '83150 BANDOL']"
         },
         {
           "id": 79118749,
           "date": "2026-10-10",
-          "heure": "00:00",
+          "heure": "13:30",
           "recevant": "A.S. ST CYR",
           "visiteur": "U.S. CADIERENNE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 10,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE LUCIEN SISCO_['AV. DE LATTRE DE TASSIGNY', 'TERRAIN HONNEUR', '83270 ST CYR SUR MER']"
         },
         {
           "id": 79118750,
@@ -660,13 +696,14 @@
         {
           "id": 79118751,
           "date": "2026-10-10",
-          "heure": "00:00",
-          "recevant": "U.S. BANDOLAISE",
-          "visiteur": "F.C. REVESTOIS 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "heure": "17:30",
+          "recevant": "F.C. REVESTOIS 2",
+          "visiteur": "U.S. BANDOLAISE",
+          "buts_recevant": 11,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA COLLINE_['CHEMIN DU RIGADU', '83200 LE REVEST LES EAUX']"
         },
         {
           "id": 79118752,
@@ -856,6 +893,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565038.jpg",
           "clNo": "204393",
           "slug": "565038-e-s-camps"
+        },
+        "O. DE ST MAXIMIN 2": {
+          "nom": "O. DE ST MAXIMIN 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC511632.jpg",
+          "clNo": "3847",
+          "slug": "511632-o-de-st-maximin-2"
+        },
+        "F.C CARNOULES 2": {
+          "nom": "F.C CARNOULES 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC580961.jpg",
+          "clNo": "180654",
+          "slug": "580961-f-c-carnoules-2"
         }
       },
       "stades": {
@@ -876,6 +925,20 @@
         "STADE MARIE-THÉRÈSE PLANTEVIN_['QUARTIER LES CROUIS', '83170 CAMPS LA SOURCE']": {
           "nom": "STADE MARIE-THÉRÈSE PLANTEVIN",
           "adresse": "QUARTIER LES CROUIS | 83170 CAMPS LA SOURCE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['215 ROUTE DU PONT DE PEY', 'TERRAIN FOOT / RUGBY', '83210 SOLLIES TOUCAS']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "215 ROUTE DU PONT DE PEY | TERRAIN FOOT / RUGBY | 83210 SOLLIES TOUCAS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE JACQUES BRACCHET_['QUARTIER DE BRON', 'TERRAIN STABILISE', '83660 CARNOULES']": {
+          "nom": "STADE JACQUES BRACCHET",
+          "adresse": "QUARTIER DE BRON | TERRAIN STABILISE | 83660 CARNOULES",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -948,10 +1011,11 @@
           "heure": "16:30",
           "recevant": "GAPEAU F.C 2",
           "visiteur": "F.C CARNOULES 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['215 ROUTE DU PONT DE PEY', 'TERRAIN FOOT / RUGBY', '83210 SOLLIES TOUCAS']"
         },
         {
           "id": 79119647,
@@ -962,12 +1026,15 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "à venir"
+          "statut": "",
+          "stade_id": "COMPLEXE SPORTIF LÉO LAGRANGE 3_[' AVENUE RENE CASSIN', '83000 TOULON']",
+          "forfait": true,
+          "vainqueur_forfait": "O. TOULON HOSPITAL 2"
         },
         {
           "id": 79119649,
           "date": "2026-10-10",
-          "heure": "00:00",
+          "heure": "10:00",
           "recevant": "O. DE ST MAXIMIN 2",
           "visiteur": "E.S. CAMPS",
           "buts_recevant": null,
@@ -978,13 +1045,14 @@
         {
           "id": 79119650,
           "date": "2026-10-10",
-          "heure": "00:00",
+          "heure": "14:00",
           "recevant": "F.C CARNOULES 2",
           "visiteur": "O. TOULON HOSPITAL 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JACQUES BRACCHET_['QUARTIER DE BRON', 'TERRAIN STABILISE', '83660 CARNOULES']"
         },
         {
           "id": 79119638,
@@ -1172,6 +1240,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "COMPLEXE SPORTIF BORMISPORTS 2_['534 CHEMIN DU CONTENT', 'TERRAIN ANNEXE HENRI DELON', '83230 BORMES LES MIMOSAS']": {
+          "nom": "COMPLEXE SPORTIF BORMISPORTS 2",
+          "adresse": "534 CHEMIN DU CONTENT | TERRAIN ANNEXE HENRI DELON | 83230 BORMES LES MIMOSAS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -1253,10 +1328,11 @@
           "heure": "10:30",
           "recevant": "LITTORAL SPORT AC.",
           "visiteur": "F.C. LAVANDOU/BORMES 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ALEX FERNANDEZ 2_['(EX STADE MICHELET)', 'BD JULES MICHELET', '83000 TOULON']"
         },
         {
           "id": 79118691,
@@ -1272,7 +1348,7 @@
         {
           "id": 79118693,
           "date": "2026-10-10",
-          "heure": "00:00",
+          "heure": "14:00",
           "recevant": "O.SIX FOURS LE BRUSC",
           "visiteur": "ASPTT HYERES 2",
           "buts_recevant": null,
@@ -1286,10 +1362,11 @@
           "heure": "11:00",
           "recevant": "F.C. LAVANDOU/BORMES 2",
           "visiteur": "SPORTING CLUB TOULON 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF BORMISPORTS 2_['534 CHEMIN DU CONTENT', 'TERRAIN ANNEXE HENRI DELON', '83230 BORMES LES MIMOSAS']"
         },
         {
           "id": 79118696,

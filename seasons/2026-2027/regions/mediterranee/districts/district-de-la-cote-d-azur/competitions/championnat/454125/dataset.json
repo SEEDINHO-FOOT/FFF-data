@@ -10,10 +10,93 @@
     {
       "cp_slug": "454125-u13-f-niveau-2/phase/1/1",
       "competition": "U13 F NIVEAU 2",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "VLF": {
+          "nom": "VLF",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564488.jpg",
+          "clNo": "202012",
+          "slug": "564488-vlf"
+        },
+        "ES CANNET ROCHE": {
+          "nom": "ES CANNET ROCHE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503086.jpg",
+          "clNo": "1649",
+          "slug": "503086-es-cannet-roche"
+        },
+        "AS FONTONNE ANT": {
+          "nom": "AS FONTONNE ANT",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC517305.jpg",
+          "clNo": "5327",
+          "slug": "517305-as-fontonne-ant"
+        },
+        "GJ O. ANTIBES JLP": {
+          "nom": "GJ O. ANTIBES JLP",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560659.jpg",
+          "clNo": "198646",
+          "slug": "560659-gj-o-antibes-jlp"
+        },
+        "U.S. VALBONNE SOPHIA": {
+          "nom": "U.S. VALBONNE SOPHIA",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC510099.jpg",
+          "clNo": "3560",
+          "slug": "510099-u-s-valbonne-sophia"
+        },
+        "CAP": {
+          "nom": "CAP",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC515811.jpg",
+          "clNo": "4903",
+          "slug": "515811-cap"
+        },
+        "F.C. DE MOUGINS CA 2": {
+          "nom": "F.C. DE MOUGINS CA 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC528997.jpg",
+          "clNo": "12553",
+          "slug": "528997-f-c-de-mougins-ca-2"
+        }
+      },
+      "stades": {
+        "STADE CLAUDE MAUROY_['ALLEE DES GOUORGUES', 'TERRAIN DES PLANS FOOT / RUGBY', '06270 VILLENEUVE LOUBET']": {
+          "nom": "STADE CLAUDE MAUROY",
+          "adresse": "ALLEE DES GOUORGUES | TERRAIN DES PLANS FOOT / RUGBY | 06270 VILLENEUVE LOUBET",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "PARC DES SPORTS DOCTEUR LÉGER_['AVENUE DES FRERES GARBERO', '06600 ANTIBES']": {
+          "nom": "PARC DES SPORTS DOCTEUR LÉGER",
+          "adresse": "AVENUE DES FRERES GARBERO | 06600 ANTIBES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE LÉON CHABERT 1_['686 ROUTE DE BIOT', 'EX FREDERIC MISTRAL', '06560 VALBONNE']": {
+          "nom": "STADE LÉON CHABERT 1",
+          "adresse": "686 ROUTE DE BIOT | EX FREDERIC MISTRAL | 06560 VALBONNE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE LA VALMASQUE 2_[\"1521 Route D'ANTIBES\", 'TERRAIN JEAN-CLAUDE RANCE', '06250 MOUGINS']": {
+          "nom": "STADE LA VALMASQUE 2",
+          "adresse": "1521 Route D'ANTIBES | TERRAIN JEAN-CLAUDE RANCE | 06250 MOUGINS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFKt6li4km74": {
+          "nom": "DORA J.",
+          "maillot": 2,
+          "club": "GJ O. ANTIBES JLP"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp4kS4imrQ": {
+          "nom": "MANEL D.",
+          "maillot": 6,
+          "club": "GJ O. ANTIBES JLP"
+        }
+      },
       "matchs": [
         {
           "id": 79427509,
@@ -21,10 +104,11 @@
           "heure": "17:00",
           "recevant": "U.S. VALBONNE SOPHIA",
           "visiteur": "CAP",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE LÉON CHABERT 1_['686 ROUTE DE BIOT', 'EX FREDERIC MISTRAL', '06560 VALBONNE']"
         },
         {
           "id": 79427510,
@@ -43,10 +127,20 @@
           "heure": "13:00",
           "recevant": "AS FONTONNE ANT",
           "visiteur": "GJ O. ANTIBES JLP",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 34,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt6li4km74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4kS4imrQ",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "PARC DES SPORTS DOCTEUR LÉGER_['AVENUE DES FRERES GARBERO', '06600 ANTIBES']"
         },
         {
           "id": 79427512,
@@ -54,15 +148,16 @@
           "heure": "12:30",
           "recevant": "VLF",
           "visiteur": "ES CANNET ROCHE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE CLAUDE MAUROY_['ALLEE DES GOUORGUES', 'TERRAIN DES PLANS FOOT / RUGBY', '06270 VILLENEUVE LOUBET']"
         },
         {
           "id": 79427513,
           "date": "2026-10-10",
-          "heure": "07:30",
+          "heure": "14:00",
           "recevant": "GJ O. ANTIBES JLP",
           "visiteur": "ES CANNET ROCHE",
           "buts_recevant": null,
@@ -73,24 +168,26 @@
         {
           "id": 79427514,
           "date": "2026-10-10",
-          "heure": "07:30",
+          "heure": "13:00",
           "recevant": "F.C. DE MOUGINS CA 2",
           "visiteur": "AS FONTONNE ANT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 8,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE LA VALMASQUE 2_[\"1521 Route D'ANTIBES\", 'TERRAIN JEAN-CLAUDE RANCE', '06250 MOUGINS']"
         },
         {
           "id": 79427515,
           "date": "2026-10-10",
-          "heure": "07:30",
+          "heure": "15:00",
           "recevant": "U.S. VALBONNE SOPHIA",
           "visiteur": "VLF",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE LÉON CHABERT 1_['686 ROUTE DE BIOT', 'EX FREDERIC MISTRAL', '06560 VALBONNE']"
         },
         {
           "id": 79427516,
@@ -328,8 +425,80 @@
     {
       "cp_slug": "454125-u13-f-niveau-2/phase/1/2",
       "competition": "U13 F NIVEAU 2",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "F.C. DE CARROS": {
+          "nom": "F.C. DE CARROS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC526551.jpg",
+          "clNo": "10915",
+          "slug": "526551-f-c-de-carros"
+        },
+        "A.S. DES MOULINS": {
+          "nom": "A.S. DES MOULINS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC552888.jpg",
+          "clNo": "123318",
+          "slug": "552888-a-s-des-moulins"
+        },
+        "CERC.ART.S. DES EAUX": {
+          "nom": "CERC.ART.S. DES EAUX",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC541495.jpg",
+          "clNo": "21325",
+          "slug": "541495-cerc-art-s-des-eaux"
+        },
+        "AS MONACO FF": {
+          "nom": "AS MONACO FF",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC790343.jpg",
+          "clNo": "163181",
+          "slug": "790343-as-monaco-ff"
+        },
+        "CAVIGAL NICE S. 2": {
+          "nom": "CAVIGAL NICE S. 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503079.jpg",
+          "clNo": "1644",
+          "slug": "503079-cavigal-nice-s-2"
+        },
+        "ET. DE MENTON": {
+          "nom": "ET. DE MENTON",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC511513.jpg",
+          "clNo": "3812",
+          "slug": "511513-et-de-menton"
+        },
+        "ASPTT NICE": {
+          "nom": "ASPTT NICE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503336.jpg",
+          "clNo": "1756",
+          "slug": "503336-asptt-nice"
+        }
+      },
+      "stades": {
+        "STADE OMNISPORTS 1_['ROUTE DE LA ZA DE LA GRAVE', 'ESPACE PIERRE JABOULET', '06510 CARROS']": {
+          "nom": "STADE OMNISPORTS 1",
+          "adresse": "ROUTE DE LA ZA DE LA GRAVE | ESPACE PIERRE JABOULET | 06510 CARROS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DU FORUM NORD_['10 BD COMTE DE FALICON', '06100 NICE']": {
+          "nom": "STADE DU FORUM NORD",
+          "adresse": "10 BD COMTE DE FALICON | 06100 NICE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football réduit"
+        },
+        "STADE BOB RÉMOND_['PARC DES SPORTS', '19 BOULEVARD PIERRE SEMARD', \"ANCIEN STADE DE L'EST\", '06000 NICE']": {
+          "nom": "STADE BOB RÉMOND",
+          "adresse": "PARC DES SPORTS | 19 BOULEVARD PIERRE SEMARD | ANCIEN STADE DE L'EST | 06000 NICE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE LAFAYETTE_['25 BD LOUIS BRAILLE', '06300 NICE']": {
+          "nom": "STADE LAFAYETTE",
+          "adresse": "25 BD LOUIS BRAILLE | 06300 NICE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football réduit"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -339,10 +508,11 @@
           "heure": "10:30",
           "recevant": "CERC.ART.S. DES EAUX",
           "visiteur": "AS MONACO FF",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DU FORUM NORD_['10 BD COMTE DE FALICON', '06100 NICE']"
         },
         {
           "id": 79427675,
@@ -350,10 +520,11 @@
           "heure": "11:00",
           "recevant": "CAVIGAL NICE S. 2",
           "visiteur": "ET. DE MENTON",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE BOB RÉMOND_['PARC DES SPORTS', '19 BOULEVARD PIERRE SEMARD', \"ANCIEN STADE DE L'EST\", '06000 NICE']"
         },
         {
           "id": 79427677,
@@ -361,10 +532,11 @@
           "heure": "16:30",
           "recevant": "F.C. DE CARROS",
           "visiteur": "A.S. DES MOULINS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE OMNISPORTS 1_['ROUTE DE LA ZA DE LA GRAVE', 'ESPACE PIERRE JABOULET', '06510 CARROS']"
         },
         {
           "id": 79427676,
@@ -380,24 +552,26 @@
         {
           "id": 79427678,
           "date": "2026-10-10",
-          "heure": "07:30",
+          "heure": "13:30",
           "recevant": "ASPTT NICE",
           "visiteur": "A.S. DES MOULINS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE LAFAYETTE_['25 BD LOUIS BRAILLE', '06300 NICE']"
         },
         {
           "id": 79427680,
-          "date": "2026-10-10",
-          "heure": "07:30",
+          "date": "2026-10-11",
+          "heure": "10:00",
           "recevant": "CERC.ART.S. DES EAUX",
           "visiteur": "F.C. DE CARROS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DU FORUM NORD_['10 BD COMTE DE FALICON', '06100 NICE']"
         },
         {
           "id": 79427679,

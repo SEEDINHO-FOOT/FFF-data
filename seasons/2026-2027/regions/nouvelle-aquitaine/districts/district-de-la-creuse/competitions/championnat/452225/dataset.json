@@ -10,8 +10,67 @@
     {
       "cp_slug": "452225-u13-troisieme-serie/phase/1/1",
       "competition": "U13 Troisième Série",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "BELLEGARDE FR": {
+          "nom": "BELLEGARDE FR",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC522779.jpg",
+          "clNo": "8436",
+          "slug": "522779-bellegarde-fr"
+        },
+        "VALLIERE US": {
+          "nom": "VALLIERE US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC553657.jpg",
+          "clNo": "136783",
+          "slug": "553657-valliere-us"
+        },
+        "POLE SUD CREUSE GJ 2": {
+          "nom": "POLE SUD CREUSE GJ 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565006.jpg",
+          "clNo": "204273",
+          "slug": "565006-pole-sud-creuse-gj-2"
+        },
+        "ESPOIRS COMBRAILLES": {
+          "nom": "ESPOIRS COMBRAILLES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC581847.jpg",
+          "clNo": "186876",
+          "slug": "581847-espoirs-combrailles"
+        },
+        "GUERETOISE ES 4": {
+          "nom": "GUERETOISE ES 4",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC542564.jpg",
+          "clNo": "22071",
+          "slug": "542564-gueretoise-es-4"
+        },
+        "ST FIEL US": {
+          "nom": "ST FIEL US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC534026.jpg",
+          "clNo": "15941",
+          "slug": "534026-st-fiel-us"
+        }
+      },
+      "stades": {
+        "STADE LIONEL MARMIER_[' RUE NOTRE DAME', '23190 BELLEGARDE EN MARCHE']": {
+          "nom": "STADE LIONEL MARMIER",
+          "adresse": " RUE NOTRE DAME | 23190 BELLEGARDE EN MARCHE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE VICTOR PAKOMOFF 2_['ROUTE DE CHENERAILLES', '23200 AUBUSSON']": {
+          "nom": "STADE VICTOR PAKOMOFF 2",
+          "adresse": "ROUTE DE CHENERAILLES | 23200 AUBUSSON",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "Stade Léo Lagrange 4_['RUE DU CHER DU PRAT', 'TERRAIN ANNEXE 3', '23000 GUERET']": {
+          "nom": "Stade Léo Lagrange 4",
+          "adresse": "RUE DU CHER DU PRAT | TERRAIN ANNEXE 3 | 23000 GUERET",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -21,10 +80,11 @@
           "heure": "10:00",
           "recevant": "BELLEGARDE FR",
           "visiteur": "VALLIERE US",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 12,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE LIONEL MARMIER_[' RUE NOTRE DAME', '23190 BELLEGARDE EN MARCHE']"
         },
         {
           "id": 79739750,
@@ -32,10 +92,11 @@
           "heure": "14:00",
           "recevant": "POLE SUD CREUSE GJ 2",
           "visiteur": "ESPOIRS COMBRAILLES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE VICTOR PAKOMOFF 2_['ROUTE DE CHENERAILLES', '23200 AUBUSSON']"
         },
         {
           "id": 79739400,
@@ -43,15 +104,16 @@
           "heure": "17:00",
           "recevant": "GUERETOISE ES 4",
           "visiteur": "ST FIEL US",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Léo Lagrange 4_['RUE DU CHER DU PRAT', 'TERRAIN ANNEXE 3', '23000 GUERET']"
         },
         {
           "id": 79739406,
           "date": "2026-10-10",
-          "heure": "10:00",
+          "heure": "17:00",
           "recevant": "GUERETOISE ES 4",
           "visiteur": "GROUPEMENT FOOT GÉNÉ 2",
           "buts_recevant": null,

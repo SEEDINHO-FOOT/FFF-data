@@ -64,6 +64,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC530521.jpg",
           "clNo": "13641",
           "slug": "530521-st-mard-as-5"
+        },
+        "MITRY COMPANS GOELLY 5": {
+          "nom": "MITRY COMPANS GOELLY 5",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC548939.jpg",
+          "clNo": "25858",
+          "slug": "548939-mitry-compans-goelly-5"
         }
       },
       "stades": {
@@ -105,6 +111,20 @@
         "STADE JESSE OWENS_[\"AV DE L' EUROPE\", '77230 DAMMARTIN EN GOELE']": {
           "nom": "STADE JESSE OWENS",
           "adresse": "AV DE L' EUROPE | 77230 DAMMARTIN EN GOELE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE LA FONTAINE DES TOURNELLES_['BLD DE LA REPUBLIQUE', '77230 ST MARD']": {
+          "nom": "STADE LA FONTAINE DES TOURNELLES",
+          "adresse": "BLD DE LA REPUBLIQUE | 77230 ST MARD",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE ROLAND MORICEAU 2_['42 RUE DE LA LIBERATION', '77230 DAMMARTIN EN GOELLE']": {
+          "nom": "STADE ROLAND MORICEAU 2",
+          "adresse": "42 RUE DE LA LIBERATION | 77230 DAMMARTIN EN GOELLE",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -191,10 +211,11 @@
           "heure": "09:00",
           "recevant": "ST MARD AS 5",
           "visiteur": "VILLEPARISIS U.S.M. 5",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE LA FONTAINE DES TOURNELLES_['BLD DE LA REPUBLIQUE', '77230 ST MARD']"
         },
         {
           "id": 79425898,
@@ -202,10 +223,11 @@
           "heure": "09:30",
           "recevant": "FCLPV 5",
           "visiteur": "MITRY COMPANS GOELLY 5",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ROGER BRIANCON 1_['LE PRE FOSSOYER', \"23 RUE D'ENFER\", '77181 LE PIN']"
         },
         {
           "id": 79425899,
@@ -213,10 +235,11 @@
           "heure": "09:30",
           "recevant": "ENT.CSD/OTHIS/ST PAT 5",
           "visiteur": "VILLENOY A.C. 5",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ROLAND MORICEAU 2_['42 RUE DE LA LIBERATION', '77230 DAMMARTIN EN GOELLE']"
         },
         {
           "id": 79425905,
@@ -1192,10 +1215,38 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE LUCIEN MORANE 1 HONNEUR_['RUE DU STADE', '77340 PONTAULT COMBAULT']": {
+          "nom": "STADE LUCIEN MORANE 1 HONNEUR",
+          "adresse": "RUE DU STADE | 77340 PONTAULT COMBAULT",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKpNEKl8ly0gmrA": {
+          "nom": "HENRI A.",
+          "maillot": 4,
+          "club": "TRILPORT USF 5"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx8ky0gmLQ": {
+          "nom": "SAID M.",
+          "maillot": 8,
+          "club": "TRILPORT USF 5"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx7lS4nlrM": {
+          "nom": "YANICK T.",
+          "maillot": 2,
+          "club": "TRILPORT USF 5"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl2ky4knrQ": {
+          "nom": "OLIVIER M.",
+          "maillot": 14,
+          "club": "TRILPORT USF 5"
+        }
+      },
       "matchs": [
         {
           "id": 79426105,
@@ -1317,10 +1368,27 @@
           "heure": "09:30",
           "recevant": "CLAYE SOUILLY 5",
           "visiteur": "TRILPORT USF 5",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl8ly0gmrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx8ky0gmLQ",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx7lS4nlrM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl2ky4knrQ",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE CLÉMENT PETIT 3_[' RUE DES GOUTTES D OR', 'TERRAIN BRUNO ALBARELLO', '77410 CLAYE SOUILLY']"
         },
         {
           "id": 79426060,
@@ -1328,10 +1396,11 @@
           "heure": "09:30",
           "recevant": "PONTAULT COM. UMS 5",
           "visiteur": "NANTEUIL LES MEAUX 5",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE LUCIEN MORANE 1 HONNEUR_['RUE DU STADE', '77340 PONTAULT COMBAULT']"
         },
         {
           "id": 79426062,
@@ -1339,10 +1408,11 @@
           "heure": "09:30",
           "recevant": "ENT.BUSSY/MAGNY 5",
           "visiteur": "CRECY FC 5",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MICHEL JAZY_['RUE DU CIMETIERE', '77600 BUSSY ST GEORGES']"
         },
         {
           "id": 79428444,
@@ -2458,6 +2528,36 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC545456.jpg",
           "clNo": "23365",
           "slug": "545456-ent-presles-chevry-5"
+        },
+        "FONTENAY TRESIGNY AS 5": {
+          "nom": "FONTENAY TRESIGNY AS 5",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500773.jpg",
+          "clNo": "700",
+          "slug": "500773-fontenay-tresigny-as-5"
+        },
+        "PONTAULT COMB. PORT. 5": {
+          "nom": "PONTAULT COMB. PORT. 5",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC532343.jpg",
+          "clNo": "14849",
+          "slug": "532343-pontault-comb-port-5"
+        },
+        "OZOIR FC 77 5": {
+          "nom": "OZOIR FC 77 5",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC551942.jpg",
+          "clNo": "116693",
+          "slug": "551942-ozoir-fc-77-5"
+        },
+        "VAL YER/ARC/CRI/CAMP 5": {
+          "nom": "VAL YER/ARC/CRI/CAMP 5",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564037.jpg",
+          "clNo": "192282",
+          "slug": "564037-val-yer-arc-cri-camp-5"
+        },
+        "COMBS LA VILLE C.A. 5": {
+          "nom": "COMBS LA VILLE C.A. 5",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC518014.jpg",
+          "clNo": "5662",
+          "slug": "518014-combs-la-ville-c-a-5"
         }
       },
       "stades": {
@@ -2492,6 +2592,34 @@
         "STADE OMNISPORT 3_['RUE DES GRANDS CHAMPS', '77127 LIEUSAINT']": {
           "nom": "STADE OMNISPORT 3",
           "adresse": "RUE DES GRANDS CHAMPS | 77127 LIEUSAINT",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE LA TAFFARETTE 2_['ALLEE DE LA TAFFARETTE', '77164 FERRIERES EN BRIE']": {
+          "nom": "STADE DE LA TAFFARETTE 2",
+          "adresse": "ALLEE DE LA TAFFARETTE | 77164 FERRIERES EN BRIE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "COMPLEXE SPORTIF PIERRE CURE 1_['ROUTE DE BELLEFONTAINE', 'TERRAIN HONNEUR', '77610 FONTENAY TRESIGNY']": {
+          "nom": "COMPLEXE SPORTIF PIERRE CURE 1",
+          "adresse": "ROUTE DE BELLEFONTAINE | TERRAIN HONNEUR | 77610 FONTENAY TRESIGNY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 1_['rue LAFAYETTE', '77540 COURPALAY']": {
+          "nom": "STADE MUNICIPAL 1",
+          "adresse": "rue LAFAYETTE | 77540 COURPALAY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "PARC DES SPORTS ALAIN MIMOUN 2_['RUE DE VARENNES', 'TERRAIN ANNEXE', '77380 COMBS LA VILLE']": {
+          "nom": "PARC DES SPORTS ALAIN MIMOUN 2",
+          "adresse": "RUE DE VARENNES | TERRAIN ANNEXE | 77380 COMBS LA VILLE",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -2577,10 +2705,11 @@
           "heure": "09:30",
           "recevant": "FERRIERES BRIE USD 5",
           "visiteur": "VAL D'EUROPE FC 5",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA TAFFARETTE 2_['ALLEE DE LA TAFFARETTE', '77164 FERRIERES EN BRIE']"
         },
         {
           "id": 79426399,
@@ -2588,10 +2717,11 @@
           "heure": "09:30",
           "recevant": "FONTENAY TRESIGNY AS 5",
           "visiteur": "PONTAULT COMB. PORT. 5",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF PIERRE CURE 1_['ROUTE DE BELLEFONTAINE', 'TERRAIN HONNEUR', '77610 FONTENAY TRESIGNY']"
         },
         {
           "id": 79426400,
@@ -2599,21 +2729,23 @@
           "heure": "09:30",
           "recevant": "LIEUSAINT FOOT AS 5",
           "visiteur": "OZOIR FC 77 5",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE OMNISPORT 3_['RUE DES GRANDS CHAMPS', '77127 LIEUSAINT']"
         },
         {
           "id": 79426403,
           "date": "2026-10-04",
           "heure": "09:30",
-          "recevant": "VAL DE L'YERRES 5",
+          "recevant": "VAL YER/ARC/CRI/CAMP 5",
           "visiteur": "LOGNES U.S. 5",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['rue LAFAYETTE', '77540 COURPALAY']"
         },
         {
           "id": 79426402,
@@ -2621,10 +2753,11 @@
           "heure": "11:00",
           "recevant": "COMBS LA VILLE C.A. 5",
           "visiteur": "COULOMMIERS BRIE F 5",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 8,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "PARC DES SPORTS ALAIN MIMOUN 2_['RUE DE VARENNES', 'TERRAIN ANNEXE', '77380 COMBS LA VILLE']"
         },
         {
           "id": 79426450,
@@ -3831,6 +3964,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['ROUTE DE FONTAINEBLEAU', 'R. N.  7', '77930 CHAILLY EN BIERE']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "ROUTE DE FONTAINEBLEAU | R. N.  7 | 77930 CHAILLY EN BIERE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -4127,10 +4267,11 @@
           "heure": "09:00",
           "recevant": "HERICY VUL. SAM. 5",
           "visiteur": "NANDY F.C. 5",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF DE COUBERTIN 2_['22 CHEMIN DE LA TOUFFE', '77870 VULAINES SUR SEINE']"
         },
         {
           "id": 79453014,
@@ -4149,10 +4290,11 @@
           "heure": "09:30",
           "recevant": "ENT.REAU/ALLIANCE 77 5",
           "visiteur": "BRIARD S.C. 5",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['ROUTE DU CIMETIERE', '77550 REAU']"
         },
         {
           "id": 79453017,
@@ -4160,10 +4302,11 @@
           "heure": "09:30",
           "recevant": "PAYS BIERES 5",
           "visiteur": "SERVON FC 5",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['ROUTE DE FONTAINEBLEAU', 'R. N.  7', '77930 CHAILLY EN BIERE']"
         },
         {
           "id": 79453015,
@@ -4171,10 +4314,11 @@
           "heure": "10:30",
           "recevant": "COUBERT FC 5",
           "visiteur": "LESIGNY U.S.C. 5",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['ALLEE DES TILLEULS', '77170 COUBERT']"
         },
         {
           "id": 79453021,
@@ -5274,6 +5418,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC550643.jpg",
           "clNo": "105669",
           "slug": "550643-boissise-pringy-us-5"
+        },
+        "PAYS FONTAINEBLEAU 5": {
+          "nom": "PAYS FONTAINEBLEAU 5",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500364.jpg",
+          "clNo": "456",
+          "slug": "500364-pays-fontainebleau-5"
+        },
+        "ELSCSLSB": {
+          "nom": "ELSCSLSB",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC563706.jpg",
+          "clNo": "172772",
+          "slug": "563706-elscslsb"
         }
       },
       "stades": {
@@ -5324,6 +5480,27 @@
           "adresse": "RUE DU STADE | 77130 VARENNES SUR SEINE",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 1_['ORGENOY', '28 IMPASSE DU STADE', '77310 BOISSISE LE ROI']": {
+          "nom": "STADE MUNICIPAL 1",
+          "adresse": "ORGENOY | 28 IMPASSE DU STADE | 77310 BOISSISE LE ROI",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE PHILIPPE MAHUT 4_['BOULEVARD DE CONSTANCE', 'EX FAISANDERIE 4', '77300 FONTAINEBLEAU']": {
+          "nom": "STADE PHILIPPE MAHUT 4",
+          "adresse": "BOULEVARD DE CONSTANCE | EX FAISANDERIE 4 | 77300 FONTAINEBLEAU",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE INTERCOMMUNAL RÉMY DAMANDE_[' RUE DE TRAINEL', '77650 ST LOUP DE NAUD']": {
+          "nom": "STADE INTERCOMMUNAL RÉMY DAMANDE",
+          "adresse": " RUE DE TRAINEL | 77650 ST LOUP DE NAUD",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
         }
       },
@@ -5453,10 +5630,11 @@
           "heure": "09:30",
           "recevant": "VARENNES FC 5",
           "visiteur": "EVERLY FC 5",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GUY DEBLOIS 1_['RUE DU STADE', '77130 VARENNES SUR SEINE']"
         },
         {
           "id": 79453261,
@@ -5464,10 +5642,11 @@
           "heure": "09:30",
           "recevant": "BOISSISE PRINGY US 5",
           "visiteur": "MISY VILLENENEUVE 5",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['ORGENOY', '28 IMPASSE DU STADE', '77310 BOISSISE LE ROI']"
         },
         {
           "id": 79453262,
@@ -5475,10 +5654,11 @@
           "heure": "09:30",
           "recevant": "PAYS FONTAINEBLEAU 5",
           "visiteur": "BAGNEAUX NEMOURS E 5",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PHILIPPE MAHUT 4_['BOULEVARD DE CONSTANCE', 'EX FAISANDERIE 4', '77300 FONTAINEBLEAU']"
         },
         {
           "id": 79453263,
@@ -5486,10 +5666,11 @@
           "heure": "09:30",
           "recevant": "ELSCSLSB",
           "visiteur": "GATINAIS VAL LOING 5",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE INTERCOMMUNAL RÉMY DAMANDE_[' RUE DE TRAINEL', '77650 ST LOUP DE NAUD']"
         },
         {
           "id": 79453265,

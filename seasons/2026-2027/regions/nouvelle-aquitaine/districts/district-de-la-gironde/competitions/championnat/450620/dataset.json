@@ -77,9 +77,29 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "Complexe Sportif Robert Monseau 3_['16 RUE PAUL BERNIARD', 'TERRAIN N° 3', '33160 ST MEDARD EN JALLES']": {
+          "nom": "Complexe Sportif Robert Monseau 3",
+          "adresse": "16 RUE PAUL BERNIARD | TERRAIN N° 3 | 33160 ST MEDARD EN JALLES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE GALIN_['RUE GALIN', '33100 BORDEAUX']": {
+          "nom": "STADE GALIN",
+          "adresse": "RUE GALIN | 33100 BORDEAUX",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
-      "officiels": {},
+      "officiels": {
+        "MAUOFFO FORGUE_AC": {
+          "nom": "MAUOFFO FORGUE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        }
+      },
       "joueurs": {
         "ir3_vj-lzPeINLfhzILsrKpNEKd_liginb4": {
           "nom": "MELINA D.",
@@ -153,12 +173,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx_kiwlmLc": {
           "nom": "CLOE L.",
-          "maillot": 3,
+          "maillot": 11,
           "club": "CESTAS SAG"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx5kSshl78": {
           "nom": "JULIE C.",
-          "maillot": 13,
+          "maillot": 3,
           "club": "CESTAS SAG"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt9kCcnmb4": {
@@ -183,12 +203,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd6kysknbI": {
           "nom": "LEIA R.",
-          "maillot": 11,
+          "maillot": 7,
           "club": "CESTAS SAG"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK14liogm7Q": {
           "nom": "ENOLA A.",
-          "maillot": 12,
+          "maillot": 10,
           "club": "CESTAS SAG"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK15lictnLc": {
@@ -218,7 +238,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx5lCcsmL8": {
           "nom": "EMMA A.",
-          "maillot": 11,
+          "maillot": 14,
           "club": "CESTAS SAG"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd7ki8imrc": {
@@ -253,7 +273,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK19lislnL4": {
           "nom": "SALOME R.",
-          "maillot": 14,
+          "maillot": 10,
           "club": "RACING BASTIDE GF"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx7mioknbU": {
@@ -263,7 +283,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx4kCclnLA": {
           "nom": "FLORENCE N.",
-          "maillot": 13,
+          "maillot": 12,
           "club": "RACING BASTIDE GF"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx8kCwnmbQ": {
@@ -315,6 +335,26 @@
           "nom": "NOELIA A.",
           "maillot": 6,
           "club": "CESTAS SAG"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh6mysimbU": {
+          "nom": "LUCIA D.",
+          "maillot": 12,
+          "club": "CESTAS SAG"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx_my0lmb8": {
+          "nom": "PRUNE R.",
+          "maillot": 13,
+          "club": "CESTAS SAG"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt-kC4sn7U": {
+          "nom": "VICTOIRE W.",
+          "maillot": 11,
+          "club": "RACING BASTIDE GF"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK13lCctnLA": {
+          "nom": "ELENA N.",
+          "maillot": 13,
+          "club": "RACING BASTIDE GF"
         }
       },
       "matchs": [
@@ -681,10 +721,11 @@
           "heure": "15:00",
           "recevant": "ST MEDARD EN JALLES",
           "visiteur": "LEGE CAP FERRET US",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Complexe Sportif Robert Monseau 3_['16 RUE PAUL BERNIARD', 'TERRAIN N° 3', '33160 ST MEDARD EN JALLES']"
         },
         {
           "id": 79369092,
@@ -692,10 +733,59 @@
           "heure": "10:30",
           "recevant": "RACING BASTIDE GF",
           "visiteur": "CESTAS SAG",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 28,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK14liogm7Q",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh6mysimbU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 49,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_kiwlmLc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_my0lmb8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 49,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6kysknbI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx5lCcsmL8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 67,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK19lislnL4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4kCclnLA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 85,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx5kSshl78",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 87,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-kC4sn7U",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK13lCctnLA",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE GALIN_['RUE GALIN', '33100 BORDEAUX']",
+          "officiels": [
+            "MAUOFFO FORGUE_AC"
+          ]
         },
         {
           "id": 79338692,
@@ -1110,21 +1200,23 @@
           "heure": "15:00",
           "recevant": "STADE BORDELAIS",
           "visiteur": "CAUDERAN AGJA",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ANTENNES DU LAC N°12_['COURS JULES LADOUMEGUE', 'PARC DES SPORTS COLETTE BESSON', '33300 BORDEAUX']"
         },
         {
           "id": 79356713,
           "date": "2026-10-11",
-          "heure": "10:00",
+          "heure": "13:00",
           "recevant": "ST ANDRE CUBZAC FC",
           "visiteur": "AFCH",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "PARC DES SPORTS DU BOUILH 1_['ROUTE DE BLAYE', 'TERRAIN HONNEUR', '33240 ST ANDRE DE CUBZAC']"
         },
         {
           "id": 79292317,
@@ -1220,9 +1312,22 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "PLAINE DE JEUX DU HAILLAN N° 03_['RUE JULIOT CURIE', 'TERRAIN ENTRAINEMENT FC GIRONDIN', '33185 LE HAILLAN']": {
+          "nom": "PLAINE DE JEUX DU HAILLAN N° 03",
+          "adresse": "RUE JULIOT CURIE | TERRAIN ENTRAINEMENT FC GIRONDIN | 33185 LE HAILLAN",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
-      "officiels": {},
+      "officiels": {
+        "JONATHAN MARTIN_AC": {
+          "nom": "JONATHAN MARTIN",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        }
+      },
       "joueurs": {
         "ir3_vj-lzPeINLfhzILsrKpNEKd6kSwgl78": {
           "nom": "LUCIE B.",
@@ -1231,7 +1336,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd6myYtnbc": {
           "nom": "HANNAH L.",
-          "maillot": 14,
+          "maillot": 9,
           "club": "G.F. GAROFOOT"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx_kycklr8": {
@@ -1266,7 +1371,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd9lCYkmLM": {
           "nom": "NAORA L.",
-          "maillot": 9,
+          "maillot": 12,
           "club": "G.F. GAROFOOT"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd7mywglrI": {
@@ -1387,6 +1492,21 @@
         "ir3_vj-lzPeINLfhzILsrKFOFK16mysjlrY": {
           "nom": "LISA D.",
           "maillot": 13,
+          "club": "G.F. GAROFOOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx4kColmrA": {
+          "nom": "ELENA R.",
+          "maillot": 2,
+          "club": "G.F. GAROFOOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd_kiYinL4": {
+          "nom": "NOURE D.",
+          "maillot": 5,
+          "club": "GRADIGNAN FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt5miYglrc": {
+          "nom": "LEANA G.",
+          "maillot": 14,
           "club": "G.F. GAROFOOT"
         }
       },
@@ -1616,10 +1736,11 @@
           "heure": "15:00",
           "recevant": "GIRONDINS BORDEAUX",
           "visiteur": "MERIGNACAIS SA",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "PLAINE DE JEUX DU HAILLAN N° 03_['RUE JULIOT CURIE', 'TERRAIN ENTRAINEMENT FC GIRONDIN', '33185 LE HAILLAN']"
         },
         {
           "id": 79369908,
@@ -1627,10 +1748,66 @@
           "heure": "15:00",
           "recevant": "G.F. GAROFOOT",
           "visiteur": "GRADIGNAN FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 13,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4kColmrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK16mysjlrY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 22,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7myYsnLI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9lCYkmLM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 22,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7kiwtmrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9ly0tl7c",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 26,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd_kiYinL4",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 31,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6myYtnbc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9lCYkmLM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 31,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4kColmrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK16mysjlrY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 56,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd_lSknmbc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt5miYglrc",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MICHELON 1_['68 RUE MICHEL DE MONTAIGNE', '47200 MARMANDE']",
+          "officiels": [
+            "JONATHAN MARTIN_AC"
+          ]
         },
         {
           "id": 79366261,

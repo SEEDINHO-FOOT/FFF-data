@@ -115,6 +115,20 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['ALLY MERCOEUR', '43380 ALLY']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "ALLY MERCOEUR | 43380 ALLY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE EUGÈNE SABATIER_['ras', '43230 PAULHAGUET']": {
+          "nom": "STADE EUGÈNE SABATIER",
+          "adresse": "ras | 43230 PAULHAGUET",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -173,6 +187,36 @@
           "nom": "LOAN V.",
           "maillot": 13,
           "club": "ALLY MERCOEUR A.S. 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl_li8inrE": {
+          "nom": "ERWANN C.",
+          "maillot": 11,
+          "club": "VENTEUGES 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp9kS8tmbU": {
+          "nom": "KYLLIAN L.",
+          "maillot": 12,
+          "club": "VENTEUGES 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx2liwtn7A": {
+          "nom": "MICKAEL C.",
+          "maillot": 12,
+          "club": "VERGONGHEON-ARVAN 4"
+        },
+        "ir3_vj-lzPeINLfhzILsrK1IFKZ8ly8nmA": {
+          "nom": "WILFRID B.",
+          "maillot": 13,
+          "club": "VERGONGHEON-ARVAN 4"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh2ligsl7c": {
+          "nom": "KAMAL DINE M.",
+          "maillot": 11,
+          "club": "VERGONGHEON-ARVAN 4"
+        },
+        "ir3_vj-lzPeINLfhzILsrK1NFKZ_ly4tlg": {
+          "nom": "RAPHAEL C.",
+          "maillot": 14,
+          "club": "VERGONGHEON-ARVAN 4"
         }
       },
       "matchs": [
@@ -326,10 +370,11 @@
           "heure": "19:00",
           "recevant": "ALLY MERCOEUR A.S. 2",
           "visiteur": "AS PAULHAGUET ST-GEO 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['ALLY MERCOEUR', '43380 ALLY']"
         },
         {
           "id": 79382780,
@@ -337,10 +382,11 @@
           "heure": "13:00",
           "recevant": "ESPALEM LORL. 2",
           "visiteur": "VEZEZOUX 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['.', '43450 ESPALEM']"
         },
         {
           "id": 79382782,
@@ -348,10 +394,11 @@
           "heure": "13:00",
           "recevant": "VERGONGHEON-ARVAN 4",
           "visiteur": "MAZEYRAT 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JOSEPH PELISSERO 1_['RUE DU STADE', '43360 VERGONGHEON']"
         },
         {
           "id": 79382781,
@@ -359,10 +406,11 @@
           "heure": "15:00",
           "recevant": "SC CASADEEN",
           "visiteur": "VENTEUGES 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES PRADES_['Rue du stade', '43160 LA CHAISE DIEU']"
         },
         {
           "id": 79382785,
@@ -370,32 +418,57 @@
           "heure": "13:00",
           "recevant": "AS PAULHAGUET ST-GEO 2",
           "visiteur": "LAMOTHE FC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE EUGÈNE SABATIER_['ras', '43230 PAULHAGUET']"
         },
         {
           "id": 79382786,
           "date": "2026-10-11",
-          "heure": "15:00",
+          "heure": "13:00",
           "recevant": "MAZEYRAT 2",
           "visiteur": "ALLY MERCOEUR A.S. 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['PLAINE DES CLASTRES', '43300 MAZEYRAT D ALLIER']"
         },
         {
           "id": 79382787,
           "date": "2026-10-11",
-          "heure": "15:00",
+          "heure": "13:00",
           "recevant": "VENTEUGES 2",
           "visiteur": "VERGONGHEON-ARVAN 4",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl_li8inrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9kS8tmbU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx2liwtn7A",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrK1IFKZ8ly8nmA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh2ligsl7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrK1NFKZ_ly4tlg",
+              "club_type": "visiteur"
+            }
+          ]
         },
         {
           "id": 79382788,
@@ -403,10 +476,11 @@
           "heure": "15:00",
           "recevant": "ESPALEM LORL. 2",
           "visiteur": "SC CASADEEN",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['.', '43450 ESPALEM']"
         },
         {
           "id": 79382792,
@@ -1141,6 +1215,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE DU MARAIS_['ZONE LA CLE DES CHAMPS', '43370 ST CHRISTOPHE']": {
+          "nom": "STADE DU MARAIS",
+          "adresse": "ZONE LA CLE DES CHAMPS | 43370 ST CHRISTOPHE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -1167,12 +1248,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx8lCgml7I": {
           "nom": "KYLHIAN B.",
-          "maillot": 13,
+          "maillot": 6,
           "club": "FC PRADELLES 2"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt7likhlrI": {
           "nom": "YOUNADI K.",
-          "maillot": 5,
+          "maillot": 12,
           "club": "ST HAON"
         },
         "ir3_vj-lzPeINLfhzILsrK1JFK15li0inQ": {
@@ -1187,7 +1268,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl9kSwgl7c": {
           "nom": "JULIEN M.",
-          "maillot": 8,
+          "maillot": 9,
           "club": "LE BRIGNON"
         },
         "ir3_vj-lzPeINLfhzILsrK1KFKZ8kS4nlg": {
@@ -1202,12 +1283,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKx5kicsmbM": {
           "nom": "HUGO R.",
-          "maillot": 14,
+          "maillot": 13,
           "club": "BAINS ST-CHRISTOPHE 3"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl9li8lnb8": {
           "nom": "HUGO P.",
-          "maillot": 13,
+          "maillot": 7,
           "club": "BAINS ST-CHRISTOPHE 3"
         },
         "ir3_vj-lzPeINLfhzILsrK1MFKZ_lC0jlw": {
@@ -1222,7 +1303,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrK1NFKZ_lyktnw": {
           "nom": "SIMON B.",
-          "maillot": 6,
+          "maillot": 7,
           "club": "LE BRIGNON"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKp6kCcknb8": {
@@ -1247,7 +1328,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrK1IFKZ8kC8hnA": {
           "nom": "VINCENT G.",
-          "maillot": 12,
+          "maillot": 7,
           "club": "CHADRON STMAR 2"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx3ly4kmL4": {
@@ -1262,7 +1343,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKt8ly4nmrc": {
           "nom": "REMI N.",
-          "maillot": 3,
+          "maillot": 12,
           "club": "CHADRON STMAR 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh6lykmmL4": {
@@ -1279,6 +1360,111 @@
           "nom": "JULIEN T.",
           "maillot": 7,
           "club": "FC PRADELLES 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt6lSwkn7A": {
+          "nom": "NATHAN B.",
+          "maillot": 11,
+          "club": "LE BRIGNON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp6kicsmrY": {
+          "nom": "THOMAS Q.",
+          "maillot": 12,
+          "club": "LE BRIGNON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt9liojnrY": {
+          "nom": "CEDRIC G.",
+          "maillot": 6,
+          "club": "LE BRIGNON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt_kSYklrc": {
+          "nom": "GUILLAUME P.",
+          "maillot": 12,
+          "club": "BAINS ST-CHRISTOPHE 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl5lS0nm78": {
+          "nom": "QUENTIN D.",
+          "maillot": 2,
+          "club": "A.S.J.N"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt8kiotmbA": {
+          "nom": "DERRICK B.",
+          "maillot": 14,
+          "club": "A.S.J.N"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt6kCYhmrM": {
+          "nom": "ADRIEN B.",
+          "maillot": 9,
+          "club": "A.S.J.N"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp_lSomm7I": {
+          "nom": "CARLE M.",
+          "maillot": 13,
+          "club": "A.S.J.N"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp6kS8kl74": {
+          "nom": "MAMADOU F.",
+          "maillot": 7,
+          "club": "A.S.J.N"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl2ki8knLc": {
+          "nom": "LUKAS D.",
+          "maillot": 12,
+          "club": "A.S.J.N"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp8lCYkmbM": {
+          "nom": "QUENTIN R.",
+          "maillot": 9,
+          "club": "CHADRON STMAR 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl7lSsmnLE": {
+          "nom": "NATHAN G.",
+          "maillot": 11,
+          "club": "F.C. LE MONASTIER"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx7kS4mnLQ": {
+          "nom": "JULES C.",
+          "maillot": 14,
+          "club": "F.C. LE MONASTIER"
+        },
+        "ir3_vj-lzPeINLfhzILsrK1MFKZ_ky0lmA": {
+          "nom": "JULIEN G.",
+          "maillot": 10,
+          "club": "F.C. LE MONASTIER"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp-ky8mmbQ": {
+          "nom": "JULIEN E.",
+          "maillot": 3,
+          "club": "F.C. LE MONASTIER"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx7lywtmrY": {
+          "nom": "EMMANUEL F.",
+          "maillot": 13,
+          "club": "F.C. LE MONASTIER"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpMFqd9kSckl7E": {
+          "nom": "CHRISTIAN R.",
+          "maillot": 9,
+          "club": "F.C. LE MONASTIER"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl7licklrM": {
+          "nom": "ANTOINE M.",
+          "maillot": 4,
+          "club": "F.C. LE MONASTIER"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh9kSwjl7c": {
+          "nom": "NOLANN M.",
+          "maillot": 11,
+          "club": "CHADRON STMAR 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl3lykhnLU": {
+          "nom": "ENZO A.",
+          "maillot": 13,
+          "club": "CHADRON STMAR 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd_kSggm7U": {
+          "nom": "BENJAMIN S.",
+          "maillot": 11,
+          "club": "ST HAON"
         }
       },
       "matchs": [
@@ -1580,10 +1766,48 @@
           "heure": "15:00",
           "recevant": "BAINS ST-CHRISTOPHE 3",
           "visiteur": "A.S.J.N",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl9li8lnb8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt_kSYklrc",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 55,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrK1MFKZ_lC0jlw",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx5kicsmbM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 56,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl5lS0nm78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt8kiotmbA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 62,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt6kCYhmrM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp_lSomm7I",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 72,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp6kS8kl74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl2ki8knLc",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE DU MARAIS_['ZONE LA CLE DES CHAMPS', '43370 ST CHRISTOPHE']"
         },
         {
           "id": 79383191,
@@ -1591,10 +1815,11 @@
           "heure": "15:00",
           "recevant": "LE BOUCHET",
           "visiteur": "ST PRIVAT D'ALLIER A",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['LE BOURG', '43510 LE BOUCHET ST NICOLAS']"
         },
         {
           "id": 79383192,
@@ -1602,10 +1827,80 @@
           "heure": "13:00",
           "recevant": "FC PRADELLES 2",
           "visiteur": "LE BRIGNON",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 10,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl9kSwgl7c",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 29,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl9kSwgl7c",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 35,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt6lSwkn7A",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 40,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl9kSwgl7c",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 54,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrK1NFKZ_lyktnw",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp6kicsmrY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 57,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp6kicsmrY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 70,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl9kSwgl7c",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 70,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4kS0mlrM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 75,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt9miskmbY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 80,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8lCgml7I",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 89,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt9liojnrY",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE FONTMAURE_['ROUTE DU PUY', '43420 PRADELLES']"
         },
         {
           "id": 79383193,
@@ -1613,10 +1908,58 @@
           "heure": "15:00",
           "recevant": "F.C. LE MONASTIER",
           "visiteur": "CHADRON STMAR 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 10,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp8lCYkmbM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl7lSsmnLE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7kS4mnLQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 50,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrK1MFKZ_ky0lmA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 55,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrK1MFKZ_ky0lmA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 65,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp-ky8mmbQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx7lywtmrY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 70,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpMFqd9kSckl7E",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl7licklrM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 75,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpMFqd9kSckl7E",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE DE LA FREYDEYRE_['ROUTE DE CHADRON', '43150 LE MONASTIER SUR GAZEILLE']"
         },
         {
           "id": 79383195,
@@ -1624,21 +1967,60 @@
           "heure": "15:00",
           "recevant": "CHADRON STMAR 2",
           "visiteur": "ST HAON",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh9kSwjl7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl3lykhnLU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd_kSggm7U",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7likhlrI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrK1IFKZ8kC8hnA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt8ly4nmrc",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE DE COLEMPCE_['COLEMPCE BAS', '43150 CHADRON']"
         },
         {
           "id": 79383196,
-          "date": "2026-10-11",
-          "heure": "15:00",
+          "date": "2026-10-09",
+          "heure": "20:00",
           "recevant": "LE BRIGNON",
           "visiteur": "F.C. LE MONASTIER",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 47,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrK1MFKZ_ky0lmA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 90,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrK1MFKZ_ky0lmA",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE LE CHAMP VERDIER_['LE CHAMP VERDIER', '43370 LE BRIGNON']"
         },
         {
           "id": 79383197,
@@ -1646,10 +2028,11 @@
           "heure": "15:00",
           "recevant": "ST PRIVAT D'ALLIER A",
           "visiteur": "FC PRADELLES 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 11,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['ROUGEAC', '43580 ST PRIVAT D ALLIER']"
         },
         {
           "id": 79383198,
@@ -1657,10 +2040,11 @@
           "heure": "15:00",
           "recevant": "A.S.J.N",
           "visiteur": "LE BOUCHET",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['LE BOURG', '43320 ST JEAN DE NAY']"
         },
         {
           "id": 79383200,
@@ -2388,6 +2772,20 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE JEANNOT BRUNON_['RUE DES ANCIENS COMBATTANTS AFN', 'TERRAIN ANNEXE', '43240 ST JUST MALMONT']": {
+          "nom": "STADE JEANNOT BRUNON",
+          "adresse": "RUE DES ANCIENS COMBATTANTS AFN | TERRAIN ANNEXE | 43240 ST JUST MALMONT",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE LES CLAUX_['LES CLAUX', 'RUE DES ACACIAS', 'TERRAIN RUGBY / FOOT', '43330 PONT SALOMON']": {
+          "nom": "STADE LES CLAUX",
+          "adresse": "LES CLAUX | RUE DES ACACIAS | TERRAIN RUGBY / FOOT | 43330 PONT SALOMON",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -2491,6 +2889,61 @@
           "nom": "MAXENCE B.",
           "maillot": 12,
           "club": "SAUVESSANGES 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp6myYinbA": {
+          "nom": "ALEX L.",
+          "maillot": 8,
+          "club": "ST PIERRE DUC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd4kSYnmLU": {
+          "nom": "PIERRE VINCENT P.",
+          "maillot": 12,
+          "club": "ST PIERRE DUC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh5miknnbU": {
+          "nom": "NOE S.",
+          "maillot": 11,
+          "club": "ST ANDRE CHAL 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh7kSwnl7Y": {
+          "nom": "ANTHONY R.",
+          "maillot": 13,
+          "club": "ST ANDRE CHAL 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl6miwjmbA": {
+          "nom": "DYLAN G.",
+          "maillot": 7,
+          "club": "ST PIERRE DUC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx7lS4jl7c": {
+          "nom": "MALCOM G.",
+          "maillot": 14,
+          "club": "ST PIERRE DUC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp5kisjlrc": {
+          "nom": "THIBAULT F.",
+          "maillot": 3,
+          "club": "ST ANDRE CHAL 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrK1JFKZ_liYkmg": {
+          "nom": "SIMON B.",
+          "maillot": 12,
+          "club": "ST ANDRE CHAL 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt6kS8sm7Q": {
+          "nom": "QUENTIN R.",
+          "maillot": 14,
+          "club": "ST ANDRE CHAL 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl5lSgsnrQ": {
+          "nom": "JIMMY C.",
+          "maillot": 10,
+          "club": "ST PIERRE DUC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx9kywnnbM": {
+          "nom": "FABIEN J.",
+          "maillot": 13,
+          "club": "ST PIERRE DUC"
         }
       },
       "matchs": [
@@ -2669,10 +3122,11 @@
           "heure": "17:00",
           "recevant": "SAUVESSANGES 2",
           "visiteur": "BAS EN BASSET U.S. 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 9,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['le bandier', '63840 SAUVESSANGES']"
         },
         {
           "id": 79383550,
@@ -2680,10 +3134,55 @@
           "heure": "13:00",
           "recevant": "ST ANDRE CHAL 2",
           "visiteur": "ST PIERRE DUC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 23,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp6myYinbA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd4kSYnmLU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh5miknnbU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh7kSwnl7Y",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 53,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl6miwjmbA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx7lS4jl7c",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 55,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp5kisjlrc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrK1JFKZ_liYkmg",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 62,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3kykmnLI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt6kS8sm7Q",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 63,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl5lSgsnrQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx9kywnnbM",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE LES CHAMPS VIOS_['CHAZELLES', '43130 ST ANDRE DE CHALENCON']"
         },
         {
           "id": 79383551,
@@ -2691,10 +3190,11 @@
           "heure": "13:00",
           "recevant": "AS ST DIDIER ST JUST 2",
           "visiteur": "ST PAL CHAL. 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 8,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JEANNOT BRUNON_['RUE DES ANCIENS COMBATTANTS AFN', 'TERRAIN ANNEXE', '43240 ST JUST MALMONT']"
         },
         {
           "id": 79383553,
@@ -2702,10 +3202,11 @@
           "heure": "13:00",
           "recevant": "FC PONT SALOMON 2",
           "visiteur": "TIRANGES U.S.",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE LES CLAUX_['LES CLAUX', 'RUE DES ACACIAS', 'TERRAIN RUGBY / FOOT', '43330 PONT SALOMON']"
         },
         {
           "id": 79383557,
@@ -2713,10 +3214,11 @@
           "heure": "13:00",
           "recevant": "ST PAL CHAL. 2",
           "visiteur": "SAUVESSANGES 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MARC CHAPOT_['PONT RENARD', 'RUE DU STADE', '43500 ST PAL DE CHALENCON']"
         },
         {
           "id": 79383555,
@@ -2724,10 +3226,11 @@
           "heure": "15:00",
           "recevant": "TIRANGES U.S.",
           "visiteur": "AUREC F.C. 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JEAN OLLIER_['LA PELINE', '43530 TIRANGES']"
         },
         {
           "id": 79383556,
@@ -2735,10 +3238,11 @@
           "heure": "15:00",
           "recevant": "BAS EN BASSET U.S. 2",
           "visiteur": "FC PONT SALOMON 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE RENÉ DAVID_['24 BD DE LA SABLIERE', '43210 BAS EN BASSET']"
         },
         {
           "id": 79383558,
@@ -2746,10 +3250,11 @@
           "heure": "15:00",
           "recevant": "ST PIERRE DUC",
           "visiteur": "AS ST DIDIER ST JUST 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MAURICE CHEVALLIER_['les rochettes', '43810 ST PIERRE DUCHAMP']"
         },
         {
           "id": 79383564,
@@ -3477,6 +3982,27 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['PIALEVIALLE', '2270 ROUTE DE LA BEATE', '43200 ARAULES']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "PIALEVIALLE | 2270 ROUTE DE LA BEATE | 43200 ARAULES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 1_['rue du stade', '43320 LOUDES']": {
+          "nom": "STADE MUNICIPAL 1",
+          "adresse": "rue du stade | 43320 LOUDES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "COMPLEXE SPORTIF DES BRETCHS 2_['LA LEVEE FERRIER', 'ROUTE DU STADE', '43400 LE CHAMBON SUR LIGNON']": {
+          "nom": "COMPLEXE SPORTIF DES BRETCHS 2",
+          "adresse": "LA LEVEE FERRIER | ROUTE DU STADE | 43400 LE CHAMBON SUR LIGNON",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -3498,12 +4024,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt-kC4jnb4": {
           "nom": "MYLAN J.",
-          "maillot": 12,
+          "maillot": 13,
           "club": "ST FRONT"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh7lignmrU": {
           "nom": "ALEXIS G.",
-          "maillot": 6,
+          "maillot": 8,
           "club": "ST FRONT"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl4kygnlrA": {
@@ -3553,7 +4079,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl2ky0smb4": {
           "nom": "REMI P.",
-          "maillot": 14,
+          "maillot": 7,
           "club": "ST FRONT"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKt9mi8nnbY": {
@@ -3579,6 +4105,86 @@
         "ir3_vj-lzPeINLfhzILsrKpNEKt-mi8gmLI": {
           "nom": "MAXIME C.",
           "maillot": 10,
+          "club": "ST FRONT"
+        },
+        "ir3_vj-lzPeINLfhzILsrK1JFKl_lC4glw": {
+          "nom": "PIERRE LOUIS M.",
+          "maillot": 1,
+          "club": "US2MR 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp-ky4klrc": {
+          "nom": "NATHAN F.",
+          "maillot": 9,
+          "club": "US2MR 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh4lCskn7M": {
+          "nom": "ADRIEN A.",
+          "maillot": 12,
+          "club": "US2MR 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK12ki0smLU": {
+          "nom": "KEVIN S.",
+          "maillot": 2,
+          "club": "US2MR 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh_kishnL8": {
+          "nom": "GAUTIER B.",
+          "maillot": 13,
+          "club": "US2MR 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp7kCYklrM": {
+          "nom": "QUENTIN S.",
+          "maillot": 3,
+          "club": "US2MR 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd-liomnrM": {
+          "nom": "TRISTAN V.",
+          "maillot": 14,
+          "club": "US2MR 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh7lignmrY": {
+          "nom": "MATHEO G.",
+          "maillot": 2,
+          "club": "ST FRONT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx_ky4tnLY": {
+          "nom": "THOMAS C.",
+          "maillot": 12,
+          "club": "ST FRONT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp5kisjl7I": {
+          "nom": "QUENTIN M.",
+          "maillot": 4,
+          "club": "ST FRONT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp-kCYml7A": {
+          "nom": "NATHAN C.",
+          "maillot": 14,
+          "club": "ST FRONT"
+        },
+        "ir3_vj-lzPeINLfhzILsrK1AFKZ_kCotnw": {
+          "nom": "GERIC L.",
+          "maillot": 3,
+          "club": "AS ST VIDAL LOUDES 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrK1BFKZ_kC0nnQ": {
+          "nom": "GAETAN A.",
+          "maillot": 12,
+          "club": "AS ST VIDAL LOUDES 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl4kygil78": {
+          "nom": "PIERRICK S.",
+          "maillot": 13,
+          "club": "ST FRONT"
+        },
+        "ir3_vj-lzPeINLfhzILsrK1PFKZ_lygjlw": {
+          "nom": "EDIS J.",
+          "maillot": 13,
+          "club": "AS ST VIDAL LOUDES 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl4kygnn74": {
+          "nom": "THIBAUT A.",
+          "maillot": 5,
           "club": "ST FRONT"
         }
       },
@@ -3806,10 +4412,11 @@
           "heure": "13:00",
           "recevant": "ESLM 2",
           "visiteur": "GRAZAC LAPTE AS 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['PIALEVIALLE', '2270 ROUTE DE LA BEATE', '43200 ARAULES']"
         },
         {
           "id": 79383704,
@@ -3817,10 +4424,11 @@
           "heure": "13:00",
           "recevant": "A.S. RIOTORDOISE 2",
           "visiteur": "VALS PRES LE PUY 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['RIOTORD', '43220 RIOTORD']"
         },
         {
           "id": 79383706,
@@ -3828,10 +4436,11 @@
           "heure": "13:00",
           "recevant": "AS ST VIDAL LOUDES 3",
           "visiteur": "HAUT LIGNON FOOT 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['rue du stade', '43320 LOUDES']"
         },
         {
           "id": 79383705,
@@ -3839,10 +4448,63 @@
           "heure": "15:00",
           "recevant": "ST FRONT",
           "visiteur": "US2MR 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 22,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrK1JFKl_lC4glw",
+              "sanction": "J",
+              "sanction_detail": "J2",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 27,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp-ky4klrc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4lCskn7M",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 27,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12ki0smLU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh_kishnL8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 27,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp7kCYklrM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd-liomnrM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 32,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl2ky0smb4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-kC4jnb4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 32,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh7lignmrY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_ky4tnLY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 68,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp5kisjl7I",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKp-kCYml7A",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE LA CHAUX_['LE BOURG', '43550 ST FRONT']"
         },
         {
           "id": 79383709,
@@ -3850,21 +4512,60 @@
           "heure": "20:00",
           "recevant": "ST FRONT",
           "visiteur": "AS ST VIDAL LOUDES 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 10,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 21,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrK1AFKZ_kCotnw",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrK1BFKZ_kC0nnQ",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 31,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh7lignmrU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl4kygil78",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 31,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt9mi8nnbY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl2ky0smb4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 66,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrK1AFKZ_kCotnw",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrK1PFKZ_lygjlw",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 70,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl4kygnn74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKp-kCYml7A",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE LA CHAUX_['LE BOURG', '43550 ST FRONT']"
         },
         {
           "id": 79383708,
-          "date": "2026-10-11",
-          "heure": "15:00",
+          "date": "2026-10-09",
+          "heure": "20:00",
           "recevant": "HAUT LIGNON FOOT 3",
           "visiteur": "ST ANDRE CHAL 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 9,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF DES BRETCHS 2_['LA LEVEE FERRIER', 'ROUTE DU STADE', '43400 LE CHAMBON SUR LIGNON']"
         },
         {
           "id": 79383710,
@@ -3872,10 +4573,11 @@
           "heure": "15:00",
           "recevant": "VALS PRES LE PUY 3",
           "visiteur": "US2MR 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE BERNARD FAURE_['5 AVENUE CHARLES MASSOT', '43750 VALS PRES LE PUY']"
         },
         {
           "id": 79383711,
@@ -3883,10 +4585,11 @@
           "heure": "15:00",
           "recevant": "GRAZAC LAPTE AS 2",
           "visiteur": "A.S. RIOTORDOISE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES MOLIÈRES 1_['LES MOLIERES', '43200 LAPTE']"
         },
         {
           "id": 79383713,

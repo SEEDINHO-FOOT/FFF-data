@@ -77,6 +77,20 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "Parc Des Sports Ar Hoat 1_['RUE DES MOULINS', '29350 MOELAN SUR MER']": {
+          "nom": "Parc Des Sports Ar Hoat 1",
+          "adresse": "RUE DES MOULINS | 29350 MOELAN SUR MER",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE ÉMILE LE GALL 1_['NOUEC VRAS', '56110 GOURIN']": {
+          "nom": "STADE ÉMILE LE GALL 1",
+          "adresse": "NOUEC VRAS | 56110 GOURIN",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -88,7 +102,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt7lyshlrY": {
           "nom": "LYHAM A.",
-          "maillot": 12,
+          "maillot": 11,
           "club": "CONCARNEAU HERMINE"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp2likknbE": {
@@ -108,7 +122,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt-lyghn7c": {
           "nom": "TIMOTHEE D.",
-          "maillot": 14,
+          "maillot": 2,
+          "club": "CONCARNEAU HERMINE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx4lSggn7A": {
+          "nom": "KRIS L.",
+          "maillot": 12,
           "club": "CONCARNEAU HERMINE"
         }
       },
@@ -213,10 +232,11 @@
           "heure": "13:30",
           "recevant": "ENT. MELLAC MOELAN",
           "visiteur": "GJ DU JET-ELLIANT,ST",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Parc Des Sports Ar Hoat 1_['RUE DES MOULINS', '29350 MOELAN SUR MER']"
         },
         {
           "id": 79281420,
@@ -224,32 +244,51 @@
           "heure": "15:00",
           "recevant": "CARHAIX AC",
           "visiteur": "GOURIN FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE IME 1 - KERAMPUILH_['rue du stade Poul Riou', '29270 CARHAIX PLOUGUER']"
         },
         {
           "id": 79281422,
           "date": "2026-10-10",
-          "heure": "14:00",
+          "heure": "16:00",
           "recevant": "GOURIN FC",
           "visiteur": "CONCARNEAU HERMINE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 11,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7lyshlrY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4lSggn7A",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-lyghn7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt6liwgnrU",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE ÉMILE LE GALL 1_['NOUEC VRAS', '56110 GOURIN']"
         },
         {
           "id": 79281423,
           "date": "2026-10-10",
-          "heure": "15:00",
+          "heure": "16:00",
           "recevant": "GJ DU JET-ELLIANT,ST",
           "visiteur": "CARHAIX AC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade De Keryannic 1_['KERYANNIC', '29370 ELLIANT']"
         }
       ]
     },
@@ -292,6 +331,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC519524.jpg",
           "clNo": "6370",
           "slug": "519524-ploudaniel-et-st-y-14"
+        },
+        "ENT.HAUT LÉON-ST POL 2": {
+          "nom": "ENT.HAUT LÉON-ST POL 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC561067.jpg",
+          "clNo": "200570",
+          "slug": "561067-ent-haut-lEon-st-pol-2"
         }
       },
       "stades": {
@@ -335,6 +380,20 @@
           "adresse": " AVENUE DE LA LIBERATION | 29200 BREST",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL N°1_['1-6 Route du Stade', '29800 PLOUEDERN']": {
+          "nom": "STADE MUNICIPAL N°1",
+          "adresse": "1-6 Route du Stade | 29800 PLOUEDERN",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE KERANNA N°1_['KERANNA', '29800 PENCRAN']": {
+          "nom": "STADE KERANNA N°1",
+          "adresse": "KERANNA | 29800 PENCRAN",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
         }
       },
@@ -493,24 +552,26 @@
         {
           "id": 79281823,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "11:00",
           "recevant": "GJ RIVES ELORN DIR",
           "visiteur": "IRVILLAC ES MIGNONNE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE OLIVIER KERDRAON 1_['RUE DU STADE', '29460 DIRINON']"
         },
         {
           "id": 79281824,
           "date": "2026-10-03",
-          "heure": "15:00",
-          "recevant": "HAUT LEON FC 2",
+          "heure": "13:00",
+          "recevant": "ENT.HAUT LÉON-ST POL 2",
           "visiteur": "PLOUDANIEL ET ST Y 14",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL N°1_['RUE LOEIZER FLOCH', '29400 BODILIS']"
         },
         {
           "id": 79281825,
@@ -518,10 +579,11 @@
           "heure": "15:00",
           "recevant": "PLOUNEVENTER PLOUED.",
           "visiteur": "GJ RIVES DE PENFELD 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL N°1_['1-6 Route du Stade', '29800 PLOUEDERN']"
         },
         {
           "id": 79281826,
@@ -529,17 +591,18 @@
           "heure": "14:00",
           "recevant": "PLOUDANIEL ET ST Y 14",
           "visiteur": "PLOUNEVENTER PLOUED.",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 13,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade De Kermahellan 1 (terrain A)_['KERMAHELLAN', '29260 PLOUDANIEL']"
         },
         {
           "id": 79281827,
           "date": "2026-10-10",
           "heure": "14:00",
           "recevant": "IRVILLAC ES MIGNONNE",
-          "visiteur": "HAUT LEON FC 2",
+          "visiteur": "ENT.HAUT LÉON-ST POL 2",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
@@ -551,10 +614,11 @@
           "heure": "15:00",
           "recevant": "GJ RIVES ELORN DIR",
           "visiteur": "GJ RIVES DE PENFELD 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE KERANNA N°1_['KERANNA', '29800 PENCRAN']"
         },
         {
           "id": 79281816,
@@ -644,6 +708,13 @@
           "adresse": "6 AVENUE LEON BLUM | 29000 QUIMPER",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE PENITY 1_[' ROUTE DE MENEZ PEULVEN', '29100 DOUARNENEZ']": {
+          "nom": "STADE PENITY 1",
+          "adresse": " ROUTE DE MENEZ PEULVEN | 29100 DOUARNENEZ",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
         }
       },
@@ -751,10 +822,11 @@
           "heure": "14:00",
           "recevant": "QUIMPER ERGUE ARMEL 2",
           "visiteur": "GJ ENTRE ARE-DU",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JEAN BRÉLIVET 2_['6 AVENUE LEON BLUM', '29000 QUIMPER']"
         },
         {
           "id": 79281856,
@@ -762,10 +834,11 @@
           "heure": "15:00",
           "recevant": "DOUARNENEZ STELLA",
           "visiteur": "GJ LANDREDERN",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PENITY 1_[' ROUTE DE MENEZ PEULVEN', '29100 DOUARNENEZ']"
         },
         {
           "id": 79281857,
@@ -773,43 +846,47 @@
           "heure": "15:00",
           "recevant": "GJ CHÂTEAULIN PORZAY",
           "visiteur": "LES GAS D'YS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['RUE DU STADE', '29150 CAST']"
         },
         {
           "id": 79281859,
           "date": "2026-10-10",
-          "heure": "15:00",
+          "heure": "12:00",
           "recevant": "LES GAS D'YS",
           "visiteur": "QUIMPER ERGUE ARMEL 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 9,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PENITY 3_[' ROUTE DE MENEZ PEULVEN', '29100 DOUARNENEZ']"
         },
         {
           "id": 79281860,
           "date": "2026-10-10",
-          "heure": "15:00",
+          "heure": "14:00",
           "recevant": "GJ LANDREDERN",
           "visiteur": "GJ CHÂTEAULIN PORZAY",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Du Stankou_[' RUE DU STADE', '29510 LANDREVARZEC']"
         },
         {
           "id": 79281861,
           "date": "2026-10-10",
-          "heure": "15:00",
+          "heure": "13:30",
           "recevant": "DOUARNENEZ STELLA",
           "visiteur": "GJ ENTRE ARE-DU",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PENITY 1_[' ROUTE DE MENEZ PEULVEN', '29100 DOUARNENEZ']"
         },
         {
           "id": 79281848,
@@ -884,6 +961,20 @@
         "STADE MUNICIPAL 1_['ROUTE DU STADE', '14', '29620 PLOUEGAT GUERAND']": {
           "nom": "STADE MUNICIPAL 1",
           "adresse": "ROUTE DU STADE | 14 | 29620 PLOUEGAT GUERAND",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "COMPLEXE SPORTIF DES CARMES 1_[' AVENUE DES CARMES', '29250 ST POL DE LEON']": {
+          "nom": "COMPLEXE SPORTIF DES CARMES 1",
+          "adresse": " AVENUE DES CARMES | 29250 ST POL DE LEON",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE GUENGANT - YVIS_['RUE DU TERRAIN DES SPORTS', '29670 TAULE']": {
+          "nom": "STADE GUENGANT - YVIS",
+          "adresse": "RUE DU TERRAIN DES SPORTS | 29670 TAULE",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -965,13 +1056,14 @@
         {
           "id": 79281979,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "14:00",
           "recevant": "LANDIVISIAU FC",
           "visiteur": "GJ DES 3 RIVIERES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade De Kerzourat N°1_['RUE DU GENERAL WEYGAND', '29400 LANDIVISIAU']"
         },
         {
           "id": 79281980,
@@ -979,10 +1071,11 @@
           "heure": "13:00",
           "recevant": "ST POL 2",
           "visiteur": "GJ HORN PLOUENAN",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF DES CARMES 1_[' AVENUE DES CARMES', '29250 ST POL DE LEON']"
         },
         {
           "id": 79281982,
@@ -990,10 +1083,11 @@
           "heure": "15:00",
           "recevant": "GJ HORN PLOUENAN",
           "visiteur": "GJ GARS TREGOR PLOUG",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GUENGANT - YVIS_['RUE DU TERRAIN DES SPORTS', '29670 TAULE']"
         },
         {
           "id": 79281983,
@@ -1222,43 +1316,46 @@
           "heure": "14:00",
           "recevant": "GUIPAVAS GDR 2",
           "visiteur": "ST RENAN EA 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Charles Bronec_['90 RUE ANNE DE BRETAGNE', 'COMPLEXE SPORTIF DE PONTANNE', '29490 GUIPAVAS']"
         },
         {
           "id": 79282004,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "14:00",
           "recevant": "ENT. PAYS DES ABERS",
           "visiteur": "BREST AS 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DU DOCTEUR MORVAN_[' LIEU DIT ROSVENNI', '29870 LANDEDA']"
         },
         {
           "id": 79282003,
           "date": "2026-10-03",
           "heure": "15:30",
           "recevant": "PLOUGONVELIN US",
-          "visiteur": "GUILERS AM S",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "visiteur": "ENT.ASG-PAC",
+          "buts_recevant": 1,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué"
         },
         {
           "id": 79282007,
           "date": "2026-10-10",
           "heure": "15:00",
-          "recevant": "GUILERS AM S",
+          "recevant": "ENT.ASG-PAC",
           "visiteur": "ENT. PAYS DES ABERS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF LOUIS BALLARD 1_['2 RUE CHARLES DE GAULLE', '29820 GUILERS']"
         },
         {
           "id": 79282008,
@@ -1266,21 +1363,21 @@
           "heure": "15:30",
           "recevant": "PLOUGONVELIN US",
           "visiteur": "ST RENAN EA 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué"
         },
         {
           "id": 79282006,
           "date": "2026-10-10",
-          "heure": "16:00",
+          "heure": "15:30",
           "recevant": "BREST AS 2",
           "visiteur": "GUIPAVAS GDR 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué"
         }
       ]
     }

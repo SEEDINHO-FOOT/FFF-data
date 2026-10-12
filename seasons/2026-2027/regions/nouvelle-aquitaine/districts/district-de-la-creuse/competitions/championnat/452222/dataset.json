@@ -10,8 +10,86 @@
     {
       "cp_slug": "452222-u13-premiere-serie/phase/1/1",
       "competition": "U13 Première Série",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "GUERETOISE ES": {
+          "nom": "GUERETOISE ES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC542564.jpg",
+          "clNo": "22071",
+          "slug": "542564-gueretoise-es"
+        },
+        "BOURGANEUF USC": {
+          "nom": "BOURGANEUF USC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC550209.jpg",
+          "clNo": "101041",
+          "slug": "550209-bourganeuf-usc"
+        },
+        "ENT AUZANCES-MAINSAT": {
+          "nom": "ENT AUZANCES-MAINSAT",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC513542.jpg",
+          "clNo": "4245",
+          "slug": "513542-ent-auzances-mainsat"
+        },
+        "POLE SUD CREUSE GJ": {
+          "nom": "POLE SUD CREUSE GJ",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565006.jpg",
+          "clNo": "204273",
+          "slug": "565006-pole-sud-creuse-gj"
+        },
+        "DUN-NAILLAT ES": {
+          "nom": "DUN-NAILLAT ES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC544361.jpg",
+          "clNo": "22640",
+          "slug": "544361-dun-naillat-es"
+        },
+        "GROUPEMENT FOOT GÉNÉ": {
+          "nom": "GROUPEMENT FOOT GÉNÉ",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565857.jpg",
+          "clNo": "206376",
+          "slug": "565857-groupement-foot-gEnE"
+        },
+        "LA SOUTERRAINE ESM": {
+          "nom": "LA SOUTERRAINE ESM",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC544360.jpg",
+          "clNo": "22639",
+          "slug": "544360-la-souterraine-esm"
+        },
+        "ST SULPICE LE GTOIS": {
+          "nom": "ST SULPICE LE GTOIS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC527459.jpg",
+          "clNo": "11514",
+          "slug": "527459-st-sulpice-le-gtois"
+        }
+      },
+      "stades": {
+        "Stade Léo Lagrange 4_['RUE DU CHER DU PRAT', 'TERRAIN ANNEXE 3', '23000 GUERET']": {
+          "nom": "Stade Léo Lagrange 4",
+          "adresse": "RUE DU CHER DU PRAT | TERRAIN ANNEXE 3 | 23000 GUERET",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE HENRI POUCHOL_['ROUTE DE CHARENSAT', '23700 DONTREIX']": {
+          "nom": "STADE HENRI POUCHOL",
+          "adresse": "ROUTE DE CHARENSAT | 23700 DONTREIX",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE PIERRE DESVILLETTES_['Rue du 19 mars', '23800 NAILLAT']": {
+          "nom": "STADE PIERRE DESVILLETTES",
+          "adresse": "Rue du 19 mars | 23800 NAILLAT",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE PAUL SAUVAGE 2_['ALLEE DU CHEIX', 'TERRAIN ANNEXE 1', '23300 LA SOUTERRAINE']": {
+          "nom": "STADE PAUL SAUVAGE 2",
+          "adresse": "ALLEE DU CHEIX | TERRAIN ANNEXE 1 | 23300 LA SOUTERRAINE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -21,10 +99,11 @@
           "heure": "10:00",
           "recevant": "GUERETOISE ES",
           "visiteur": "BOURGANEUF USC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 15,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Léo Lagrange 4_['RUE DU CHER DU PRAT', 'TERRAIN ANNEXE 3', '23000 GUERET']"
         },
         {
           "id": 79739084,
@@ -32,10 +111,11 @@
           "heure": "10:00",
           "recevant": "ENT AUZANCES-MAINSAT",
           "visiteur": "POLE SUD CREUSE GJ",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 10,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE HENRI POUCHOL_['ROUTE DE CHARENSAT', '23700 DONTREIX']"
         },
         {
           "id": 79739082,
@@ -43,10 +123,11 @@
           "heure": "15:00",
           "recevant": "LA SOUTERRAINE ESM",
           "visiteur": "ST SULPICE LE GTOIS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PAUL SAUVAGE 2_['ALLEE DU CHEIX', 'TERRAIN ANNEXE 1', '23300 LA SOUTERRAINE']"
         },
         {
           "id": 79739081,
@@ -54,10 +135,11 @@
           "heure": "15:00",
           "recevant": "DUN-NAILLAT ES",
           "visiteur": "GROUPEMENT FOOT GÉNÉ",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 8,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PIERRE DESVILLETTES_['Rue du 19 mars', '23800 NAILLAT']"
         },
         {
           "id": 79739085,

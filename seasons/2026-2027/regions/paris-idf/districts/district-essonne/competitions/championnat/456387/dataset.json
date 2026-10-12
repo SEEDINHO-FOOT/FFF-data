@@ -91,9 +91,55 @@
           "nom": "HENRI MOZGALA",
           "role": "Délégué principal",
           "role_cod": "DP"
+        },
+        "ALI HADJ SAID_AC": {
+          "nom": "ALI HADJ SAID",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFKp2kSYtl74": {
+          "nom": "AMBRINE B.",
+          "maillot": 6,
+          "club": "EVRY F.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx3lCoinL8": {
+          "nom": "MELINA K.",
+          "maillot": 13,
+          "club": "EVRY F.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp-lionmLI": {
+          "nom": "MAELYS C.",
+          "maillot": 8,
+          "club": "ULIS CO"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp_kCwjnL4": {
+          "nom": "CHLOE D.",
+          "maillot": 12,
+          "club": "ULIS CO"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt7lS4lnrY": {
+          "nom": "ESRA A.",
+          "maillot": 7,
+          "club": "EVRY F.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp5mi4nnbU": {
+          "nom": "YASMIN T.",
+          "maillot": 12,
+          "club": "EVRY F.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp5migjmL8": {
+          "nom": "JENNAH Y.",
+          "maillot": 10,
+          "club": "ULIS CO"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp2kC0hmLE": {
+          "nom": "MALAK B.",
+          "maillot": 15,
+          "club": "ULIS CO"
+        }
+      },
       "matchs": [
         {
           "id": 79522401,
@@ -145,10 +191,44 @@
           "heure": "14:00",
           "recevant": "ULIS CO",
           "visiteur": "EVRY F.C.",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 23,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp2kSYtl74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3lCoinL8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp-lionmLI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp_kCwjnL4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 53,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7lS4lnrY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5mi4nnbU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 55,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5migjmL8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp2kC0hmLE",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE JEAN MARC SALINIER 2_['AVENUE DES CEVENNES', 'ANNEXE', '91940 LES ULIS']",
+          "officiels": [
+            "ALI HADJ SAID_AC"
+          ]
         },
         {
           "id": 79522408,
@@ -354,6 +434,24 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC518832.jpg",
           "clNo": "6053",
           "slug": "518832-massy-91-fc"
+        },
+        "ETAMPES F.C.": {
+          "nom": "ETAMPES F.C.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500570.jpg",
+          "clNo": "617",
+          "slug": "500570-etampes-f-c"
+        },
+        "BOUSSY-QUINCY F.C.": {
+          "nom": "BOUSSY-QUINCY F.C.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC581835.jpg",
+          "clNo": "186863",
+          "slug": "581835-boussy-quincy-f-c"
+        },
+        "ST GERMAIN SAINTRY": {
+          "nom": "ST GERMAIN SAINTRY",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC527270.jpg",
+          "clNo": "11387",
+          "slug": "527270-st-germain-saintry"
         }
       },
       "stades": {
@@ -363,11 +461,28 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "COMPLEXE SPORTIF JO BOUILLON_['RUE DU FILOIR', '91150 ETAMPES']": {
+          "nom": "COMPLEXE SPORTIF JO BOUILLON",
+          "adresse": "RUE DU FILOIR | 91150 ETAMPES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
         "MOHAMED ZOUE_AC": {
           "nom": "MOHAMED ZOUE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "IWAN ACHEMAOUI_AC": {
+          "nom": "IWAN ACHEMAOUI",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "RAYANE BEN ABDALLAH_AC": {
+          "nom": "RAYANE BEN ABDALLAH",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -421,6 +536,86 @@
         "ir3_vj-lzPeINLfhzILsrKFOFKt-kSohmL8": {
           "nom": "INES M.",
           "maillot": 12,
+          "club": "EPL FC3V ENT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17mywslrM": {
+          "nom": "LAYNA E.",
+          "maillot": 11,
+          "club": "BOUSSY-QUINCY F.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp4lC4tlr4": {
+          "nom": "SYLIA S.",
+          "maillot": 14,
+          "club": "BOUSSY-QUINCY F.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp_lCggmLM": {
+          "nom": "GOUNDO D.",
+          "maillot": 5,
+          "club": "BOUSSY-QUINCY F.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp_miYtmrE": {
+          "nom": "FATIMA ZAHRA T.",
+          "maillot": 12,
+          "club": "BOUSSY-QUINCY F.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp-lS4tlrU": {
+          "nom": "LOUNA D.",
+          "maillot": 9,
+          "club": "EPL FC3V ENT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx8kywgl7Q": {
+          "nom": "LEONTINE G.",
+          "maillot": 14,
+          "club": "EPL FC3V ENT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp9kCwhnrc": {
+          "nom": "STELLA P.",
+          "maillot": 8,
+          "club": "ST GERMAIN SAINTRY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp_lyknmLY": {
+          "nom": "NAELIE R.",
+          "maillot": 13,
+          "club": "ST GERMAIN SAINTRY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx7myYhnbY": {
+          "nom": "ELINHA N.",
+          "maillot": 10,
+          "club": "EPL FC3V ENT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK12miotlrQ": {
+          "nom": "ILEANA S.",
+          "maillot": 13,
+          "club": "EPL FC3V ENT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp_ki4snrA": {
+          "nom": "AMELIA J.",
+          "maillot": 5,
+          "club": "EPL FC3V ENT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt7mykin7Y": {
+          "nom": "MERIEM B.",
+          "maillot": 12,
+          "club": "EPL FC3V ENT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt2li0lnLU": {
+          "nom": "AICHA B.",
+          "maillot": 6,
+          "club": "ST GERMAIN SAINTRY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp_kSwgmrU": {
+          "nom": "NOELLIE N.",
+          "maillot": 12,
+          "club": "ST GERMAIN SAINTRY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp6ly0mmL4": {
+          "nom": "AGATHE R.",
+          "maillot": 2,
+          "club": "ST GERMAIN SAINTRY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx3lyskmbQ": {
+          "nom": "CATTALEYA B.",
+          "maillot": 8,
           "club": "EPL FC3V ENT"
         }
       },
@@ -505,10 +700,30 @@
           "heure": "13:00",
           "recevant": "ETAMPES F.C.",
           "visiteur": "BOUSSY-QUINCY F.C.",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 17,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK17mywslrM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4lC4tlr4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 37,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp_lCggmLM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp_miYtmrE",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "COMPLEXE SPORTIF JO BOUILLON_['RUE DU FILOIR', '91150 ETAMPES']",
+          "officiels": [
+            "IWAN ACHEMAOUI_AC"
+          ]
         },
         {
           "id": 79522480,
@@ -516,10 +731,67 @@
           "heure": "14:00",
           "recevant": "EPL FC3V ENT",
           "visiteur": "ST GERMAIN SAINTRY",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp-lS4tlrU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8kywgl7Q",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9kCwhnrc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp_lyknmLY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7myYhnbY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK12miotlrQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 23,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp_ki4snrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7mykin7Y",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 28,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt2li0lnLU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp_kSwgmrU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 48,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp6ly0mmL4",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 54,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3lyskmbQ",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE VINCENT COUPET 1_['ROUTE D ARPAJON', '91470 LIMOURS']",
+          "officiels": [
+            "RAYANE BEN ABDALLAH_AC"
+          ]
         },
         {
           "id": 79522481,

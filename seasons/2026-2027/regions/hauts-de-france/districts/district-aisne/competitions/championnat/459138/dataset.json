@@ -46,6 +46,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC551396.jpg",
           "clNo": "113023",
           "slug": "551396-ent-bcv-uaf-s-o-c"
+        },
+        "UNION SUD AISNE FC": {
+          "nom": "UNION SUD AISNE FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC581691.jpg",
+          "clNo": "186423",
+          "slug": "581691-union-sud-aisne-fc"
         }
       },
       "stades": {
@@ -90,6 +96,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['ROUTE DE CONDE SUR AISNE', '02370 CHASSEMY']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "ROUTE DE CONDE SUR AISNE | 02370 CHASSEMY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -107,6 +120,11 @@
           "nom": "D ARBITRE ACCOMPAGNEMENT",
           "role": "Observateur adjoint 1",
           "role_cod": "C1"
+        },
+        "LAURENT OUDINOT_AC": {
+          "nom": "LAURENT OUDINOT",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -292,10 +310,11 @@
           "heure": "15:00",
           "recevant": "VALLEES US 4",
           "visiteur": "RETZ FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 10,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['ROUTE DE PARIS', '02650 CREZANCY']"
         },
         {
           "id": 79435017,
@@ -303,10 +322,11 @@
           "heure": "15:00",
           "recevant": "COINCY FJEP",
           "visiteur": "ENT.BCV UAF S.O.C",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Communal 1_[' ROUTE DE ROCOURT', '02210 COINCY']"
         },
         {
           "id": 79435018,
@@ -314,10 +334,11 @@
           "heure": "15:00",
           "recevant": "MILONAISE FAVEROLLES",
           "visiteur": "UNION SUD AISNE FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['RUE DU VIEUX CHATEAU', '02460 LA FERTE MILON']"
         },
         {
           "id": 79435019,
@@ -325,32 +346,38 @@
           "heure": "15:00",
           "recevant": "ENT.BCV UAF S.O.C",
           "visiteur": "MILONAISE FAVEROLLES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['ROUTE DE CONDE SUR AISNE', '02370 CHASSEMY']"
         },
         {
           "id": 79435020,
           "date": "2026-10-10",
-          "heure": "15:00",
+          "heure": "17:00",
           "recevant": "RETZ FC",
           "visiteur": "COINCY FJEP",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GERMAIN THIBAUT N°1_['RUE ALFRED JUNEAUX', '02600 VILLERS COTTERETS']",
+          "officiels": [
+            "LAURENT OUDINOT_AC"
+          ]
         },
         {
           "id": 79435021,
           "date": "2026-10-10",
           "heure": "15:00",
           "recevant": "VALLEES US 4",
-          "visiteur": "CONDE EN BRIE RC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "visiteur": "UNION SUD AISNE FC",
+          "buts_recevant": 4,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['ROUTE DE PARIS', '02650 CREZANCY']"
         },
         {
           "id": 79435022,
@@ -621,6 +648,11 @@
           "nom": "RAFAEL D.",
           "maillot": 5,
           "club": "BUCY LE LONG FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd6kiggmr8": {
+          "nom": "GWENDAL B.",
+          "maillot": 4,
+          "club": "3 CHATEAUX FC"
         }
       },
       "matchs": [
@@ -742,10 +774,10 @@
           "heure": "16:00",
           "recevant": "BUCY LE LONG FC",
           "visiteur": "ENT.VSG-VENIZEL ACY 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 8,
+          "joue": true,
+          "statut": "joué"
         },
         {
           "id": 79435352,
@@ -753,10 +785,25 @@
           "heure": "15:00",
           "recevant": "3 CHATEAUX FC",
           "visiteur": "BELLEU US",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 40,
+              "type": "carton-jaune",
+              "mp": 1,
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6kiggmr8",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE JEAN LUC KUMORECK_['AVENUE AMBROISE CROIZAT', '02670 FOLEMBRAY']",
+          "officiels": [
+            "BILAL EL HANKOURI_AC"
+          ]
         },
         {
           "id": 79435353,
@@ -764,32 +811,34 @@
           "heure": "13:00",
           "recevant": "VIC SUR AISNE ACSF",
           "visiteur": "CHAUNY US 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JEAN BLIN N° 1_['AVENUE DE LA GARE', '02290 MONTIGNY LENGRAIN']"
         },
         {
           "id": 79435180,
           "date": "2026-10-10",
-          "heure": "15:00",
+          "heure": "16:00",
           "recevant": "ENT.VSG-VENIZEL ACY 2",
           "visiteur": "3 CHATEAUX FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué"
         },
         {
           "id": 79435354,
           "date": "2026-10-10",
-          "heure": "15:00",
+          "heure": "12:00",
           "recevant": "BELLEU US",
           "visiteur": "VIC SUR AISNE ACSF",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 8,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DU COSEC_['RUE LEON BLUM', '02200 BELLEU']"
         },
         {
           "id": 79435355,
@@ -797,10 +846,11 @@
           "heure": "15:00",
           "recevant": "BUCY LE LONG FC",
           "visiteur": "CHAUNY US 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL GEORGES DROUX_['RUE DE LA LIBERATION', '02880 BUCY LE LONG']"
         },
         {
           "id": 79435347,
@@ -1070,6 +1120,11 @@
           "nom": "ETHAN FESSON",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "GEOFFREY PARISOT_AC": {
+          "nom": "GEOFFREY PARISOT",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -1219,13 +1274,14 @@
         {
           "id": 79435396,
           "date": "2026-10-03",
-          "heure": "15:00",
+          "heure": "17:00",
           "recevant": "VERVINS US",
           "visiteur": "ENT.MARLE MONTCORNET",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade La Briqueterie 1_['ZA LA BRIQUETERIE', \"RUE MARC L' ESCARBOT\", 'TERRAIN HONNEUR', '02140 VERVINS']"
         },
         {
           "id": 79435397,
@@ -1233,10 +1289,11 @@
           "heure": "15:00",
           "recevant": "ORIGNY THIERACHE SC",
           "visiteur": "ROZOY S/SERRE US",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PT DE LA COUR_['Rue du Pont de la Tour', '02550 ORIGNY EN THIERACHE']"
         },
         {
           "id": 79435398,
@@ -1244,10 +1301,11 @@
           "heure": "15:00",
           "recevant": "BUIRE HIRSON US",
           "visiteur": "THIERACHE CENTRE FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF 1_['BOULEVARD ORNANO', '02500 BUIRE']"
         },
         {
           "id": 79435399,
@@ -1255,10 +1313,11 @@
           "heure": "15:00",
           "recevant": "ROZOY S/SERRE US",
           "visiteur": "BUIRE HIRSON US",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['RUE DU POINT DU JOUR', '02360 ROZOY SUR SERRE']"
         },
         {
           "id": 79435400,
@@ -1266,10 +1325,14 @@
           "heure": "15:00",
           "recevant": "ENT.MARLE MONTCORNET",
           "visiteur": "ORIGNY THIERACHE SC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['RUE RENE TOFFIN', '02250 MARLE']",
+          "officiels": [
+            "GEOFFREY PARISOT_AC"
+          ]
         },
         {
           "id": 79435401,
@@ -1280,7 +1343,7 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "à venir"
+          "statut": "arrêté"
         },
         {
           "id": 79435402,
@@ -1532,6 +1595,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MARCEL PRÉVOT_['808 route de Macquigny', '02120 GUISE']": {
+          "nom": "STADE MARCEL PRÉVOT",
+          "adresse": "808 route de Macquigny | 02120 GUISE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -1564,6 +1634,21 @@
           "nom": "PATRICE BOUTTE",
           "role": "Observateur principal",
           "role_cod": "CP"
+        },
+        "HUGO LANEZ_AC": {
+          "nom": "HUGO LANEZ",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "YANN GERARD_AC": {
+          "nom": "YANN GERARD",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "LAURENT POULAIN_CP": {
+          "nom": "LAURENT POULAIN",
+          "role": "Observateur principal",
+          "role_cod": "CP"
         }
       },
       "joueurs": {
@@ -1574,7 +1659,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp-lS0im78": {
           "nom": "ENZO M.",
-          "maillot": 4,
+          "maillot": 7,
           "club": "GUISE US"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx4lCwkmrI": {
@@ -1591,6 +1676,31 @@
           "nom": "LOUKA T.",
           "maillot": 4,
           "club": "SAMBRE ET OISE AJ"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15myosl74": {
+          "nom": "HUGO F.",
+          "maillot": 10,
+          "club": "GUISE US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16lSkmlrY": {
+          "nom": "MAXENCE L.",
+          "maillot": 12,
+          "club": "FRESNOY FONSOMME FC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt-miYlm7Q": {
+          "nom": "NOAH H.",
+          "maillot": 9,
+          "club": "BOHAIN RC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt-liosnb4": {
+          "nom": "ONUR Y.",
+          "maillot": 6,
+          "club": "BOHAIN RC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16lSosnrY": {
+          "nom": "ETHAN P.",
+          "maillot": 9,
+          "club": "FRESNOY FONSOMME FC 2"
         }
       },
       "matchs": [
@@ -1767,10 +1877,106 @@
           "heure": "15:00",
           "recevant": "GUISE US",
           "visiteur": "ST QUENTIN PORTUGAIS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 15,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 2,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4lCwkmrI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 13,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK15myosl74",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 20,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4lCwkmrI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 42,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4lCwkmrI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 44,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4lCwkmrI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 47,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4lCwkmrI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 51,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4lCwkmrI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 53,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp-lS0im78",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 57,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4lCwkmrI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 59,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4lCwkmrI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 60,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4lCwkmrI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 61,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4lCwkmrI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 67,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4lCwkmrI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 71,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK15myosl74",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 78,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4lCwkmrI",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MARCEL PRÉVOT_['808 route de Macquigny', '02120 GUISE']",
+          "officiels": [
+            "HUGO LANEZ_AC"
+          ]
         },
         {
           "id": 79435427,
@@ -1778,10 +1984,42 @@
           "heure": "15:00",
           "recevant": "BOHAIN RC",
           "visiteur": "FRESNOY FONSOMME FC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 1,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16lSkmlrY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 2,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-miYlm7Q",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 20,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-miYlm7Q",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-liosnb4",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE PAUL CHALLE 2_['VOIE DES DAMES', 'TERRAIN ANNEXE', '02110 BOHAIN EN VERMANDOIS']",
+          "officiels": [
+            "YANN GERARD_AC",
+            "LAURENT POULAIN_CP",
+            "D ARBITRE ACCOMPAGNEMENT_C1"
+          ]
         },
         {
           "id": 79435428,
@@ -1789,10 +2027,11 @@
           "heure": "15:00",
           "recevant": "SAMBRE ET OISE AJ",
           "visiteur": "VAUX ANDIGNY FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ALBERT EGRET_['RUE GEORGES LEFEVRE', '02120 TUPIGNY']"
         },
         {
           "id": 79435429,
@@ -1800,10 +2039,22 @@
           "heure": "15:00",
           "recevant": "FRESNOY FONSOMME FC 2",
           "visiteur": "SAMBRE ET OISE AJ",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 1,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16lSosnrY",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL_['851 RUE JEAN JAURES', '02230 FRESNOY LE GRAND']",
+          "officiels": [
+            "MICKAEL FOURNET_AC"
+          ]
         },
         {
           "id": 79435430,
@@ -1811,10 +2062,11 @@
           "heure": "15:00",
           "recevant": "ST QUENTIN PORTUGAIS",
           "visiteur": "BOHAIN RC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 16,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GASTON MASSOT 1_['RUE DE PARIS', '02100 ST QUENTIN']"
         },
         {
           "id": 79435431,
@@ -2447,11 +2699,12 @@
           "date": "2026-10-03",
           "heure": "15:00",
           "recevant": "ENT.ALJN-FCAR SINCEN",
-          "visiteur": "CREPY VIVAISE US 14",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "visiteur": "ENT. USCV CHERY  14",
+          "buts_recevant": 1,
+          "buts_visiteur": 16,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JO LAMANT_['RUE ACHILLE CHEMIN', '02300 SINCENY']"
         },
         {
           "id": 79435661,
@@ -2459,21 +2712,23 @@
           "heure": "14:00",
           "recevant": "OGNES ES",
           "visiteur": "ANIZY PINON US",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Municipal_['LE VILLAGE', 'RUE DE LA GRENOUILLERE', '02300 OGNES']"
         },
         {
           "id": 79435662,
           "date": "2026-10-03",
-          "heure": "15:00",
-          "recevant": "PREMONTRE ST GOBAIN 15",
-          "visiteur": "VALLEE AILETTE US",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "heure": "16:00",
+          "recevant": "VALLEE AILETTE US",
+          "visiteur": "PREMONTRE ST GOBAIN 15",
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['RUE SAINT PIERRE', '02000 CHAVIGNON']"
         },
         {
           "id": 79435663,
@@ -2481,21 +2736,23 @@
           "heure": "15:00",
           "recevant": "ANIZY PINON US",
           "visiteur": "PREMONTRE ST GOBAIN 15",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_[' RUE JEAN ZAY', '02320 ANIZY LE GRAND']"
         },
         {
           "id": 79435664,
           "date": "2026-10-10",
           "heure": "15:00",
-          "recevant": "CREPY VIVAISE US 14",
+          "recevant": "ENT. USCV CHERY  14",
           "visiteur": "OGNES ES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_[' RUE DES PATURELLES', '02870 CREPY']"
         },
         {
           "id": 79435665,
@@ -2503,10 +2760,11 @@
           "heure": "15:00",
           "recevant": "ENT.ALJN-FCAR SINCEN",
           "visiteur": "VALLEE AILETTE US",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 11,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JO LAMANT_['RUE ACHILLE CHEMIN', '02300 SINCENY']"
         },
         {
           "id": 79435666,
@@ -2914,10 +3172,11 @@
           "heure": "15:00",
           "recevant": "LIESSE SISSONNE 1",
           "visiteur": "LAON  ASPTT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['78 RUE DU MARECHAL LECLERC', '02350 LIESSE NOTRE DAME']"
         },
         {
           "id": 79435837,
@@ -2925,10 +3184,11 @@
           "heure": "15:00",
           "recevant": "GUIGNICOURT US",
           "visiteur": "ENT. AULNOIS/ATHIES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JEAN DE GRAEVE_['7 ROUTE DE CONDE SUR SUIPPE', 'TERRAIN HONNEUR', '02190 GUIGNICOURT']"
         },
         {
           "id": 79435838,
@@ -2936,10 +3196,11 @@
           "heure": "15:00",
           "recevant": "ENT. MONTCOR MARLE 2 15",
           "visiteur": "BRUYERES MONTBERAULT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_[' RUE DU STADE', '02340 CHAOURSE']"
         },
         {
           "id": 79435839,
@@ -2947,10 +3208,11 @@
           "heure": "15:00",
           "recevant": "ENT. AULNOIS/ATHIES",
           "visiteur": "ENT. MONTCOR MARLE 2 15",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['RUE DU STADE', '02840 ATHIES SOUS LAON']"
         },
         {
           "id": 79435840,
@@ -2969,10 +3231,11 @@
           "heure": "15:00",
           "recevant": "LIESSE SISSONNE 1",
           "visiteur": "BRUYERES MONTBERAULT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 14,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['78 RUE DU MARECHAL LECLERC', '02350 LIESSE NOTRE DAME']"
         },
         {
           "id": 79435827,
