@@ -161,6 +161,20 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "COMPLEXE SPORTIF 1_['RUE DE BRUNEHAUT', '14860 AMFREVILLE']": {
+          "nom": "COMPLEXE SPORTIF 1",
+          "adresse": "RUE DE BRUNEHAUT | 14860 AMFREVILLE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "Complexe Sportif Jules Ladoumègue 2_[' AVENUE JEAN JAURES', '14270 MEZIDON VALLEE D AUGE']": {
+          "nom": "Complexe Sportif Jules Ladoumègue 2",
+          "adresse": " AVENUE JEAN JAURES | 14270 MEZIDON VALLEE D AUGE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -242,7 +256,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp5lCYtnbU": {
           "nom": "AURELIA A.",
-          "maillot": 10,
+          "maillot": 6,
           "club": "AS CAHAGNAISE"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx6lysnl7M": {
@@ -279,6 +293,36 @@
           "nom": "SOPHIE A.",
           "maillot": 14,
           "club": "FC SUD OUEST CAEN"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt9lyctmLM": {
+          "nom": "ADELAIDE M.",
+          "maillot": 10,
+          "club": "AS CAHAGNAISE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp5kyYsnr8": {
+          "nom": "EMY V.",
+          "maillot": 11,
+          "club": "INTER ODON FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15migjnL4": {
+          "nom": "LAURINE B.",
+          "maillot": 9,
+          "club": "INTER ODON FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt7kignlr8": {
+          "nom": "ELODIE M.",
+          "maillot": 11,
+          "club": "AS CAHAGNAISE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl-ky8hmb4": {
+          "nom": "LOUANE D.",
+          "maillot": 6,
+          "club": "INTER ODON FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt9miknl7Y": {
+          "nom": "AURELIE M.",
+          "maillot": 10,
+          "club": "INTER ODON FC"
         }
       },
       "matchs": [
@@ -621,10 +665,11 @@
           "heure": "11:00",
           "recevant": "AS GIBERVILLAISE",
           "visiteur": "ESI VALLEE ORNE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE FRANÇOIS CLAUS_['RUE ELSA TRIOLET', '14730 GIBERVILLE']"
         },
         {
           "id": 79130035,
@@ -632,10 +677,41 @@
           "heure": "11:00",
           "recevant": "AS CAHAGNAISE",
           "visiteur": "INTER ODON FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7misnlrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt9lyctmLM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 28,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5kyYsnr8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK15migjnL4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 36,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5lCYtnbU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7kignlr8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl-ky8hmb4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt9miknl7Y",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE CHARLES BLIN 1_['4 RUE ALPHONSE ALLAIS', '14240 CAHAGNES']"
         },
         {
           "id": 79130031,
@@ -643,10 +719,11 @@
           "heure": "13:00",
           "recevant": "FC BAIE DE L'ORNE",
           "visiteur": "US AUTHIE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF 1_['RUE DE BRUNEHAUT', '14860 AMFREVILLE']"
         },
         {
           "id": 79130032,
@@ -654,21 +731,23 @@
           "heure": "13:00",
           "recevant": "USC MEZIDON FB",
           "visiteur": "AS ST DESIR 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Complexe Sportif Jules Ladoumègue 2_[' AVENUE JEAN JAURES', '14270 MEZIDON VALLEE D AUGE']"
         },
         {
           "id": 79130034,
           "date": "2026-10-11",
           "heure": "13:00",
           "recevant": "CS HONFLEUR",
-          "visiteur": "HASTINGS FC RCSMN",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "visiteur": "HASTINGS-MOUEN E",
+          "buts_recevant": 6,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MARCEL PINEL 4_['QUARTIER DU QUEBEC', 'ANNEXE 2', '14600 HONFLEUR']"
         },
         {
           "id": 79130036,
@@ -676,10 +755,11 @@
           "heure": "13:00",
           "recevant": "AJS COLL. OUISTREHAM",
           "visiteur": "FC SUD OUEST CAEN",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Claude & Lucienne Legrand 2_[\"ROUTE DE ST AUBIN D'ARQUENAY\", '14880 COLLEVILLE MONTGOMERY']"
         },
         {
           "id": 79130039,
@@ -717,7 +797,7 @@
         {
           "id": 79130040,
           "date": "2026-10-18",
-          "heure": "13:00",
+          "heure": "11:00",
           "recevant": "AS ST DESIR 2",
           "visiteur": "AS CAHAGNAISE",
           "buts_recevant": null,

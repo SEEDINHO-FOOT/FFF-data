@@ -58,6 +58,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC581722.jpg",
           "clNo": "186521",
           "slug": "581722-vatteville-brotonne"
+        },
+        "US DE GRAMMONT": {
+          "nom": "US DE GRAMMONT",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC529141.jpg",
+          "clNo": "12654",
+          "slug": "529141-us-de-grammont"
+        },
+        "SC THIBERVILLE": {
+          "nom": "SC THIBERVILLE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC501413.jpg",
+          "clNo": "945",
+          "slug": "501413-sc-thiberville"
         }
       },
       "stades": {
@@ -95,10 +107,68 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MAHMOUD TIARCI_['2 RUE DU STADE', 'TERRAIN B EX LOZAI 2', '76140 LE PETIT QUEVILLY']": {
+          "nom": "STADE MAHMOUD TIARCI",
+          "adresse": "2 RUE DU STADE | TERRAIN B EX LOZAI 2 | 76140 LE PETIT QUEVILLY",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE IRÈNE HERMEL_[' RUE HENRI II PLANTAGENET', '76000 ROUEN']": {
+          "nom": "STADE IRÈNE HERMEL",
+          "adresse": " RUE HENRI II PLANTAGENET | 76000 ROUEN",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE WAMBERT 2_['ROUTE DE CAUDEBEC', '76940 VATTEVILLE LA RUE']": {
+          "nom": "STADE WAMBERT 2",
+          "adresse": "ROUTE DE CAUDEBEC | 76940 VATTEVILLE LA RUE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football réduit"
         }
       },
-      "officiels": {},
-      "joueurs": {},
+      "officiels": {
+        "Anonyme_AC": {
+          "nom": "Anonyme",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        }
+      },
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKpJFqh6lyYsn7Y": {
+          "nom": "LINDA A.",
+          "maillot": 11,
+          "club": "AS FAUVILLAISE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx7lykjnb4": {
+          "nom": "LEANA G.",
+          "maillot": 12,
+          "club": "AS FAUVILLAISE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx4lisglrY": {
+          "nom": "LAURA M.",
+          "maillot": 10,
+          "club": "AS FAUVILLAISE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx4lCcnl7E": {
+          "nom": "YVANA T.",
+          "maillot": 13,
+          "club": "AS FAUVILLAISE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd6li0tl7M": {
+          "nom": "MAELYS M.",
+          "maillot": 11,
+          "club": "QRM 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl8miogm7M": {
+          "nom": "LEA B.",
+          "maillot": 12,
+          "club": "QRM 2"
+        }
+      },
       "matchs": [
         {
           "id": 79702947,
@@ -242,21 +312,53 @@
           "heure": "12:30",
           "recevant": "QRM 2",
           "visiteur": "AS FAUVILLAISE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 21,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFqh6lyYsn7Y",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7lykjnb4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 55,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx4lisglrY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4lCcnl7E",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 60,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6li0tl7M",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl8miogm7M",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 60,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx4lisglrY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7lykjnb4",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MAHMOUD TIARCI_['2 RUE DU STADE', 'TERRAIN B EX LOZAI 2', '76140 LE PETIT QUEVILLY']"
         },
         {
           "id": 79702965,
           "date": "2026-10-11",
           "heure": "12:30",
-          "recevant": "US DE GRAMMONT 4",
+          "recevant": "US DE GRAMMONT",
           "visiteur": "ENT. FCTLR AS5V",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE IRÈNE HERMEL_[' RUE HENRI II PLANTAGENET', '76000 ROUEN']"
         },
         {
           "id": 79702961,
@@ -264,10 +366,14 @@
           "heure": "15:00",
           "recevant": "VATTEVILLE BROTONNE",
           "visiteur": "SC OCTEVILLE SUR MER",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE WAMBERT 2_['ROUTE DE CAUDEBEC', '76940 VATTEVILLE LA RUE']",
+          "officiels": [
+            "Anonyme_AC"
+          ]
         },
         {
           "id": 79702964,
@@ -275,10 +381,11 @@
           "heure": "15:00",
           "recevant": "FC BARENTINOIS",
           "visiteur": "SC THIBERVILLE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Georges Badin 1_['RUE JEAN JAURES', 'TERRAIN CLAUDE DAUVERGNE', '76360 BARENTIN']"
         },
         {
           "id": 79702997,
@@ -296,7 +403,7 @@
           "date": "2026-10-18",
           "heure": "15:00",
           "recevant": "FC BARENTINOIS",
-          "visiteur": "US DE GRAMMONT 4",
+          "visiteur": "US DE GRAMMONT",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,

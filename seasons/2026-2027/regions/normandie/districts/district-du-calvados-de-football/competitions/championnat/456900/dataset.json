@@ -10,10 +10,61 @@
     {
       "cp_slug": "456900-departemental-u15-a-8/phase/1/1",
       "competition": "DEPARTEMENTAL U15 A 8",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "ES PORTAISE": {
+          "nom": "ES PORTAISE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC523027.jpg",
+          "clNo": "8585",
+          "slug": "523027-es-portaise"
+        },
+        "RSG COURSEULLES": {
+          "nom": "RSG COURSEULLES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC517666.jpg",
+          "clNo": "5492",
+          "slug": "517666-rsg-courseulles"
+        },
+        "USM BLAINVILLE 2": {
+          "nom": "USM BLAINVILLE 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC513709.jpg",
+          "clNo": "4275",
+          "slug": "513709-usm-blainville-2"
+        },
+        "CROUAY FOOTBALL CLUB": {
+          "nom": "CROUAY FOOTBALL CLUB",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565048.jpg",
+          "clNo": "204512",
+          "slug": "565048-crouay-football-club"
+        }
+      },
+      "stades": {
+        "STADE ALBERT PIGNET 1_[' AVENUE 47E ROYAL MARINE COMMANDO', '14520 PORT EN BESSIN HUPPAIN']": {
+          "nom": "STADE ALBERT PIGNET 1",
+          "adresse": " AVENUE 47E ROYAL MARINE COMMANDO | 14520 PORT EN BESSIN HUPPAIN",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "Complexe Sportif Roger Couderc 1_['RUE GABRIEL PERI', '14550 BLAINVILLE SUR ORNE']": {
+          "nom": "Complexe Sportif Roger Couderc 1",
+          "adresse": "RUE GABRIEL PERI | 14550 BLAINVILLE SUR ORNE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFKp5lCckn74": {
+          "nom": "MAXIME L.",
+          "maillot": 7,
+          "club": "USM BLAINVILLE 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK12mywhn7E": {
+          "nom": "ALEXY L.",
+          "maillot": 5,
+          "club": "CROUAY FOOTBALL CLUB"
+        }
+      },
       "matchs": [
         {
           "id": 79682873,
@@ -54,10 +105,29 @@
           "heure": "13:30",
           "recevant": "USM BLAINVILLE 2",
           "visiteur": "CROUAY FOOTBALL CLUB",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 50,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5lCckn74",
+              "sanction": "J",
+              "sanction_detail": "J2",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 50,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12mywhn7E",
+              "sanction": "J",
+              "sanction_detail": "J2",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "Complexe Sportif Roger Couderc 1_['RUE GABRIEL PERI', '14550 BLAINVILLE SUR ORNE']"
         },
         {
           "id": 79682879,
@@ -135,6 +205,20 @@
           "buts_visiteur": null,
           "joue": false,
           "statut": "à venir"
+        },
+        {
+          "id": 79682876,
+          "date": "2026-10-10",
+          "heure": "13:30",
+          "recevant": "ES PORTAISE",
+          "visiteur": "RSG COURSEULLES",
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ALBERT PIGNET 1_[' AVENUE 47E ROYAL MARINE COMMANDO', '14520 PORT EN BESSIN HUPPAIN']",
+          "forfait": true,
+          "vainqueur_forfait": "RSG COURSEULLES"
         }
       ]
     }
