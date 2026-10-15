@@ -58,6 +58,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC541299.jpg",
           "clNo": "21151",
           "slug": "541299-benfica-yerres"
+        },
+        "BOUSSY-QUINCY F.C. 2": {
+          "nom": "BOUSSY-QUINCY F.C. 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC581835.jpg",
+          "clNo": "186863",
+          "slug": "581835-boussy-quincy-f-c-2"
         }
       },
       "stades": {
@@ -109,6 +115,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL N° 2_['RUE LEON CROC', 'TERRAIN ANNEXE', '91400 ORSAY']": {
+          "nom": "STADE MUNICIPAL N° 2",
+          "adresse": "RUE LEON CROC | TERRAIN ANNEXE | 91400 ORSAY",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -151,12 +164,17 @@
           "nom": "MAHAMADOU CISSOKO",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "OREL OLOUMBA_AC": {
+          "nom": "OREL OLOUMBA",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
         "ir3_vj-lzPeINLfhzILsrKpNEKl9mykknbQ": {
           "nom": "MAXWEL L.",
-          "maillot": 9,
+          "maillot": 5,
           "club": "ORSAY BURES FC 3"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd9kSYhlr4": {
@@ -311,7 +329,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp6kSsnm7Q": {
           "nom": "GBOHOU L.",
-          "maillot": 5,
+          "maillot": 4,
           "club": "ORSAY BURES FC 3"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp2lCognLc": {
@@ -398,6 +416,31 @@
           "nom": "ANTONIN D.",
           "maillot": 9,
           "club": "BALLANCOURT ITT FC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp5kSwgmbc": {
+          "nom": "NIZAR Y.",
+          "maillot": 9,
+          "club": "BOUSSY-QUINCY F.C. 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLF6d_lC0jmLI": {
+          "nom": "EL HAD A.",
+          "maillot": 14,
+          "club": "BOUSSY-QUINCY F.C. 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh6kCgnlrE": {
+          "nom": "TIAGO A.",
+          "maillot": 13,
+          "club": "ORSAY BURES FC 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl-lSclnrA": {
+          "nom": "PIERRICK A.",
+          "maillot": 10,
+          "club": "ORSAY BURES FC 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt6my4mnLE": {
+          "nom": "JOSE JUNIOR S.",
+          "maillot": 5,
+          "club": "BOUSSY-QUINCY F.C. 2"
         }
       },
       "matchs": [
@@ -959,10 +1002,53 @@
           "heure": "17:00",
           "recevant": "ORSAY BURES FC 3",
           "visiteur": "BOUSSY-QUINCY F.C. 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 24,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5kSwgmbc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpLF6d_lC0jmLI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 26,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp6kSsnm7Q",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh6kCgnlrE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl-lSclnrA",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl9mykknbQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh6kCgnlrE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 80,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt6my4mnLE",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL N° 2_['RUE LEON CROC', 'TERRAIN ANNEXE', '91400 ORSAY']",
+          "officiels": [
+            "OREL OLOUMBA_AC"
+          ]
         },
         {
           "id": 56136392,
@@ -1843,6 +1929,17 @@
           "buts_visiteur": null,
           "joue": false,
           "statut": "reporté"
+        },
+        {
+          "id": 56136397,
+          "date": "2026-10-18",
+          "heure": "14:30",
+          "recevant": "BALLANCOURT ITT FC 2",
+          "visiteur": "SAVIGNY FC 91",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
         }
       ]
     },
@@ -1903,6 +2000,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500162.jpg",
           "clNo": "293",
           "slug": "500162-brunoy-fc-2"
+        },
+        "SERMAISE F.C.": {
+          "nom": "SERMAISE F.C.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC544169.jpg",
+          "clNo": "22476",
+          "slug": "544169-sermaise-f-c"
         }
       },
       "stades": {
@@ -1961,6 +2064,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE DES PRÉS BASQUES_['RUE ROBERT THOMAS', '91400 SACLAY']": {
+          "nom": "STADE DES PRÉS BASQUES",
+          "adresse": "RUE ROBERT THOMAS | 91400 SACLAY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -2008,6 +2118,21 @@
           "nom": "ACHRAF SABAR",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "SALAH GHOULI_CP": {
+          "nom": "SALAH GHOULI",
+          "role": "Observateur principal",
+          "role_cod": "CP"
+        },
+        "MOUSSA CISSE_AC": {
+          "nom": "MOUSSA CISSE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "DRISS SAHLY_CP": {
+          "nom": "DRISS SAHLY",
+          "role": "Observateur principal",
+          "role_cod": "CP"
         }
       },
       "joueurs": {
@@ -2038,7 +2163,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpLHad-kSstnrE": {
           "nom": "YOANN A.",
-          "maillot": 2,
+          "maillot": 10,
           "club": "GIF SFOC 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh9kysgmLA": {
@@ -2168,7 +2293,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKp9likil7E": {
           "nom": "HUGO N.",
-          "maillot": 14,
+          "maillot": 13,
           "club": "M-N-VDB FC 3"
         },
         "ir3_vj-lzPeINLfhzILsrKpLFqd_kCshnbM": {
@@ -2318,7 +2443,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKt-migtm74": {
           "nom": "FILY C.",
-          "maillot": 12,
+          "maillot": 14,
           "club": "PLATEAU SACLAY ES"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp5lSwnnrA": {
@@ -2410,6 +2535,86 @@
           "nom": "MAEL P.",
           "maillot": 12,
           "club": "EVRY COURCOURONNES 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh9kCoinLU": {
+          "nom": "DIEGO P.",
+          "maillot": 5,
+          "club": "GIF SFOC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl_lCogn78": {
+          "nom": "VALENTIN L.",
+          "maillot": 14,
+          "club": "GIF SFOC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLFqd_kiwjmb8": {
+          "nom": "JORDAN D.",
+          "maillot": 13,
+          "club": "GIF SFOC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl6ky0knr4": {
+          "nom": "MATTEO J.",
+          "maillot": 3,
+          "club": "SERMAISE F.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl6lSwnl7M": {
+          "nom": "NATHAN F.",
+          "maillot": 13,
+          "club": "SERMAISE F.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl_kSotnbU": {
+          "nom": "CLEMENT L.",
+          "maillot": 7,
+          "club": "SERMAISE F.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl4mi4nmr8": {
+          "nom": "AYRTON C.",
+          "maillot": 14,
+          "club": "SERMAISE F.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd_lCgnnb4": {
+          "nom": "MILES B.",
+          "maillot": 10,
+          "club": "SERMAISE F.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLHad-kS4imbE": {
+          "nom": "THOMAS B.",
+          "maillot": 5,
+          "club": "SERMAISE F.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt4lionnbY": {
+          "nom": "HUGO B.",
+          "maillot": 11,
+          "club": "PLATEAU SACLAY ES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLFqd_kCoslrU": {
+          "nom": "AYMANE C.",
+          "maillot": 11,
+          "club": "M-N-VDB FC 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp3kikjnbY": {
+          "nom": "MANSOUR M.",
+          "maillot": 9,
+          "club": "PLATEAU SACLAY ES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl_kysjn7Q": {
+          "nom": "OTIS S.",
+          "maillot": 12,
+          "club": "PLATEAU SACLAY ES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl-ky4gl7M": {
+          "nom": "RYADH B.",
+          "maillot": 14,
+          "club": "M-N-VDB FC 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLE6d-kCcllrM": {
+          "nom": "NADIR A.",
+          "maillot": 6,
+          "club": "PLATEAU SACLAY ES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh5kSwnl7U": {
+          "nom": "RUDY A.",
+          "maillot": null,
+          "club": ""
         }
       },
       "matchs": [
@@ -2911,7 +3116,8 @@
           ],
           "stade_id": "STADE JEAN MARC SALINIER 2_['AVENUE DES CEVENNES', 'ANNEXE', '91940 LES ULIS']",
           "officiels": [
-            "HELMI GHARBI_AC"
+            "HELMI GHARBI_AC",
+            "SALAH GHOULI_CP"
           ]
         },
         {
@@ -2997,10 +3203,60 @@
           "heure": "15:00",
           "recevant": "GIF SFOC 2",
           "visiteur": "SERMAISE F.C.",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh9kCoinLU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl_lCogn78",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 48,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLHad-kSstnrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpLFqd_kiwjmb8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 52,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl6ky0knr4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl6lSwnl7M",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 55,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl_kSotnbU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl4mi4nmr8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 76,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd_lCgnnb4",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 86,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLHad-kS4imbE",
+              "sanction": "J",
+              "sanction_detail": "J2",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "Parc Des Sports Michel Pelchat N° 2_['ALLEE DU PARC', 'TERRAIN DES GRANDS PRES', '91190 GIF SUR YVETTE']",
+          "officiels": [
+            "MOUSSA CISSE_AC"
+          ]
         },
         {
           "id": 56136768,
@@ -3008,10 +3264,100 @@
           "heure": "15:15",
           "recevant": "PLATEAU SACLAY ES",
           "visiteur": "M-N-VDB FC 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt4lionnbY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt-migtm74",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 48,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLFqd_kCoslrU",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 60,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp3kikjnbY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl_kysjn7Q",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 60,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl9myYinLI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKp9likil7E",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 65,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt7lCsmn7Y",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKp9likil7E",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 69,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLFqd_kCshnbM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl-ky4gl7M",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 75,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLE6d-kCcllrM",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 90,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl9myYinLI",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 90,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl9myYinLI",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 90,
+              "type": "carton-rouge",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl9myYinLI",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 90,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh5kSwnl7U",
+              "sanction": "J",
+              "sanction_detail": "JS4",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE DES PRÉS BASQUES_['RUE ROBERT THOMAS', '91400 SACLAY']",
+          "officiels": [
+            "Anonyme_AC",
+            "DRISS SAHLY_CP"
+          ]
         },
         {
           "id": 56136718,
@@ -3998,6 +4344,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "Stade Charles Vezard_['SAINT VRAIN', 'RTE DE BOURAY', '91770 ST VRAIN']": {
+          "nom": "Stade Charles Vezard",
+          "adresse": "SAINT VRAIN | RTE DE BOURAY | 91770 ST VRAIN",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -4130,7 +4483,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKx7lSYgl7A": {
           "nom": "YACINE B.",
-          "maillot": 13,
+          "maillot": 8,
           "club": "TREMPLIN FOOT 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpLFqd_kC4hmL4": {
@@ -4515,10 +4868,14 @@
           "heure": "15:00",
           "recevant": "ST VRAIN FC 2",
           "visiteur": "ST GERMAIN ARPAJON 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Charles Vezard_['SAINT VRAIN', 'RTE DE BOURAY', '91770 ST VRAIN']",
+          "officiels": [
+            "Anonyme_AC"
+          ]
         },
         {
           "id": 56136938,
@@ -5597,13 +5954,24 @@
         {
           "id": 56136937,
           "date": "2026-10-11",
-          "heure": "15:30",
-          "recevant": "SFC91 2",
+          "heure": "15:00",
+          "recevant": "SAVIGNY FC 91 2",
           "visiteur": "M-N-VDB FC 4",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "reporté"
+          "statut": "à venir"
+        },
+        {
+          "id": 56136891,
+          "date": "2026-10-18",
+          "heure": "15:00",
+          "recevant": "ST VRAIN FC 2",
+          "visiteur": "SAVIGNY FC 91 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
         }
       ]
     },
@@ -6013,7 +6381,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl5kyYlmbY": {
           "nom": "MAXIMILIEN G.",
-          "maillot": 12,
+          "maillot": 11,
           "club": "VERT LE GRAND U.S."
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKx9lCggl7U": {
@@ -6048,7 +6416,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKt_lystnL8": {
           "nom": "MEHDI J.",
-          "maillot": 14,
+          "maillot": 10,
           "club": "JUVISY ACADEMIE"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl2kyYnlrE": {
@@ -6750,11 +7118,13 @@
           "heure": "15:00",
           "recevant": "VILLEMOISSON FC",
           "visiteur": "VILLABE ET.S. 2",
-          "buts_recevant": 5,
-          "buts_visiteur": 0,
-          "joue": true,
-          "statut": "joué",
-          "stade_id": "STADE DES ERABLES_['11 RUE DE LA FURETIERE', '91360 VILLEMOISSON SUR ORGE']"
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "",
+          "stade_id": "STADE DES ERABLES_['11 RUE DE LA FURETIERE', '91360 VILLEMOISSON SUR ORGE']",
+          "forfait": true,
+          "vainqueur_forfait": "VILLEMOISSON FC"
         },
         {
           "id": 56137201,

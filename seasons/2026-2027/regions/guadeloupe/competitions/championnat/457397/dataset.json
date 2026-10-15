@@ -131,14 +131,14 @@
       "matchs": [
         {
           "id": 79509895,
-          "date": "2026-09-19",
-          "heure": "15:30",
+          "date": "2026-10-18",
+          "heure": "08:30",
           "recevant": "ST. LAMENTINOIS",
           "visiteur": "ARSENAL CLUB",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "reporté"
+          "statut": "à venir"
         },
         {
           "id": 79509894,
@@ -429,14 +429,14 @@
         },
         {
           "id": 79510000,
-          "date": "2026-09-20",
-          "heure": "15:30",
+          "date": "2026-10-18",
+          "heure": "09:30",
           "recevant": "U.S B.M",
           "visiteur": "ENT..AMC/ALLIANCE FC",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "reporté"
+          "statut": "à venir"
         },
         {
           "id": 79510002,
@@ -689,6 +689,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE LILIAN THURAM_['CHAPELLE', 'RUE VICTOR SHOELCHER', '97121 ANSE BERTRAND']": {
+          "nom": "STADE LILIAN THURAM",
+          "adresse": "CHAPELLE | RUE VICTOR SHOELCHER | 97121 ANSE BERTRAND",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -699,6 +706,11 @@
         },
         "DILAN GENTIANNE_AC": {
           "nom": "DILAN GENTIANNE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "SLYVER RAMLALL_AC": {
+          "nom": "SLYVER RAMLALL",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -792,10 +804,14 @@
           "heure": "15:30",
           "recevant": "ET.MORNE/EAU",
           "visiteur": "ENT.PHARE OLYMPIC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE RICHEVAL_['RICHEVAL', '97111 MORNE A L EAU']",
+          "officiels": [
+            "DILAN GENTIANNE_AC"
+          ]
         },
         {
           "id": 79510379,
@@ -803,10 +819,14 @@
           "heure": "15:30",
           "recevant": "U.S. ANSOISE",
           "visiteur": "EQUINOXE PETIT CANAL",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE LILIAN THURAM_['CHAPELLE', 'RUE VICTOR SHOELCHER', '97121 ANSE BERTRAND']",
+          "officiels": [
+            "SLYVER RAMLALL_AC"
+          ]
         },
         {
           "id": 79510380,
@@ -960,6 +980,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC516497.jpg",
           "clNo": "5062",
           "slug": "516497-c-s-st-francois"
+        },
+        "A.J.S.F.": {
+          "nom": "A.J.S.F.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC546104.jpg",
+          "clNo": "23779",
+          "slug": "546104-a-j-s-f"
         }
       },
       "stades": {
@@ -983,11 +1009,35 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "Stade François xavier Durimel_['ROUTE DES RAISINS CLAIRS', '97118 ST FRANCOIS']": {
+          "nom": "Stade François xavier Durimel",
+          "adresse": "ROUTE DES RAISINS CLAIRS | 97118 ST FRANCOIS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "Stade De Saint félix_[' LIEU DIT SAINT FELIX', '97190 LE GOSIER']": {
+          "nom": "Stade De Saint félix",
+          "adresse": " LIEU DIT SAINT FELIX | 97190 LE GOSIER",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
         "JOSEPH DIEUDONNE_AC": {
           "nom": "JOSEPH DIEUDONNE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "NICOLAS CLAVIER_AC": {
+          "nom": "NICOLAS CLAVIER",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "WILLIAM OUBLIE_AC": {
+          "nom": "WILLIAM OUBLIE",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -1000,7 +1050,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh7lyksnbc": {
           "nom": "JULYVAN S.",
-          "maillot": 12,
+          "maillot": 7,
           "club": "C.S. ST FRANCOIS"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt8ky4llrM": {
@@ -1030,17 +1080,17 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh2kCwmnL8": {
           "nom": "TORRY N.",
-          "maillot": 14,
+          "maillot": 13,
           "club": "C.S. ST FRANCOIS"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd7lSklnrA": {
           "nom": "LOUIS C.",
-          "maillot": 7,
+          "maillot": 12,
           "club": "C.S. ST FRANCOIS"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd-lC4lm7A": {
           "nom": "DENNIS V.",
-          "maillot": 13,
+          "maillot": 14,
           "club": "C.S. ST FRANCOIS"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp4micgmbc": {
@@ -1052,6 +1102,66 @@
           "nom": "ROODENSLEY J.",
           "maillot": 12,
           "club": "AS LE MOULE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh2kCwmnLY": {
+          "nom": "JORDAN L.",
+          "maillot": 9,
+          "club": "C.S. ST FRANCOIS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh2kyoilrY": {
+          "nom": "SOANN LY S.",
+          "maillot": 8,
+          "club": "JUVENTUS STE ANNE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16lS0smLM": {
+          "nom": "LUCAS V.",
+          "maillot": 11,
+          "club": "JUVENTUS STE ANNE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK12ky0tlrE": {
+          "nom": "HENRICK B.",
+          "maillot": 16,
+          "club": "JUVENTUS STE ANNE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh4lSsgnLU": {
+          "nom": "NAEL M.",
+          "maillot": 10,
+          "club": "JUVENTUS STE ANNE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh4mycnnbc": {
+          "nom": "LEAL C.",
+          "maillot": 9,
+          "club": "JUVENTUS STE ANNE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh6ky8kl7U": {
+          "nom": "NOLANE M.",
+          "maillot": 12,
+          "club": "JUVENTUS STE ANNE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd7my0hm7I": {
+          "nom": "NOAH M.",
+          "maillot": 13,
+          "club": "JUVENTUS STE ANNE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh7kSsmmrY": {
+          "nom": "MAXENCE K.",
+          "maillot": 3,
+          "club": "C.S. ST FRANCOIS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16lS8gmLA": {
+          "nom": "NINO Y.",
+          "maillot": 2,
+          "club": "JUVENTUS STE ANNE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx-kicknbI": {
+          "nom": "TERENCE R.",
+          "maillot": 15,
+          "club": "JUVENTUS STE ANNE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd7lSwknrI": {
+          "nom": "RYANN A.",
+          "maillot": 10,
+          "club": "A.S. LE GOSIER"
         }
       },
       "matchs": [
@@ -1072,10 +1182,115 @@
           "heure": "15:30",
           "recevant": "C.S. ST FRANCOIS",
           "visiteur": "JUVENTUS STE ANNE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 2,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh2kCwmnLY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh2kyoilrY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 32,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16lS0smLM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK12ky0tlrE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 40,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4lSsgnLU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh7lyksnbc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7lSklnrA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4mycnnbc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh6ky8kl7U",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 42,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7lSklnrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd-lC4lm7A",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4lSsgnLU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7my0hm7I",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 48,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7lSognrU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd-lC4lm7A",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 50,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh7kSsmmrY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh2kCwmnL8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 50,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16lS8gmLA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7my0hm7I",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 51,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16lS0smLM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx-kicknbI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 60,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12ky0tlrE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 62,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK17kCgtmLM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 70,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK17kCgtmLM",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "Stade François xavier Durimel_['ROUTE DES RAISINS CLAIRS', '97118 ST FRANCOIS']",
+          "officiels": [
+            "NICOLAS CLAVIER_AC"
+          ]
         },
         {
           "id": 79711948,
@@ -1107,10 +1322,24 @@
           "heure": "16:00",
           "recevant": "A.J.S.F.",
           "visiteur": "A.S. LE GOSIER",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 75,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7lSwknrI",
+              "sanction": "J",
+              "sanction_detail": "J2",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "Stade De Saint félix_[' LIEU DIT SAINT FELIX', '97190 LE GOSIER']",
+          "officiels": [
+            "WILLIAM OUBLIE_AC"
+          ]
         },
         {
           "id": 79711953,
@@ -1265,11 +1494,28 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE DE BOISVIN_['BOISVIN', '97160 LE MOULE']": {
+          "nom": "STADE DE BOISVIN",
+          "adresse": "BOISVIN | 97160 LE MOULE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
         "BRUNO DESIREE_AC": {
           "nom": "BRUNO DESIREE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "RITCHY JOURSON_AC": {
+          "nom": "RITCHY JOURSON",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "SCHNEIDER PIERRE_AC": {
+          "nom": "SCHNEIDER PIERRE",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -1287,7 +1533,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp_mi4nm7I": {
           "nom": "LORIANO N.",
-          "maillot": 11,
+          "maillot": 12,
           "club": "SSM"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt4lC0hnbY": {
@@ -1359,30 +1605,161 @@
           "nom": "RAPHAEL G.",
           "maillot": 16,
           "club": "S.SCOLAIRE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp8lyctn74": {
+          "nom": "ABDEL L.",
+          "maillot": 11,
+          "club": "A.S. DRAGON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd8ligtlrU": {
+          "nom": "MATHYS L.",
+          "maillot": 12,
+          "club": "A.S. DRAGON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd8lS4mnL8": {
+          "nom": "HUGO T.",
+          "maillot": 10,
+          "club": "A.S. DRAGON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx5kywslrI": {
+          "nom": "ELYJAH D.",
+          "maillot": 13,
+          "club": "A.S. DRAGON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh3my4jnrI": {
+          "nom": "KHENAN M.",
+          "maillot": 8,
+          "club": "A.S. DRAGON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16kCktmbM": {
+          "nom": "KEYLIAN F.",
+          "maillot": 14,
+          "club": "A.S. DRAGON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd8lCcjnrE": {
+          "nom": "YANNICE G.",
+          "maillot": 6,
+          "club": "A.S. DRAGON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd7lCwhn74": {
+          "nom": "DARREN M.",
+          "maillot": 15,
+          "club": "A.S. DRAGON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd-lSksnbM": {
+          "nom": "DENNY G.",
+          "maillot": 5,
+          "club": "A.S. DRAGON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd9mioslrU": {
+          "nom": "ETHAN T.",
+          "maillot": 17,
+          "club": "A.S. DRAGON"
         }
       },
       "matchs": [
         {
           "id": 79510658,
-          "date": "2026-09-19",
+          "date": "2026-10-14",
           "heure": "15:30",
           "recevant": "RED STAR PAP",
           "visiteur": "S.SCOLAIRE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "reporté"
+          "buts_recevant": 0,
+          "buts_visiteur": 12,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PIERRE ANTONIUS_['BERGEVIN', 'BD GERTY ARCHIMEDE', 'PLAINE DE GRAND CAMP', '97139 LES ABYMES']",
+          "officiels": [
+            "RITCHY JOURSON_AC"
+          ]
         },
         {
           "id": 79510659,
-          "date": "2026-09-19",
+          "date": "2026-10-14",
           "heure": "15:30",
           "recevant": "SSM",
           "visiteur": "A.S. DRAGON",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "reporté"
+          "buts_recevant": 1,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 12,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp8lyctn74",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 12,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp8lyctn74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8ligtlrU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 25,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp8lyctn74",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8lS4mnL8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx5kywslrI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 35,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp_mi4nm7I",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3my4jnrI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK16kCktmbM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 40,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8lS4mnL8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 65,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8lS4mnL8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 65,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8lCcjnrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7lCwhn74",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 75,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8lS4mnL8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 80,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd-lSksnbM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9mioslrU",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE DE BOISVIN_['BOISVIN', '97160 LE MOULE']",
+          "officiels": [
+            "SCHNEIDER PIERRE_AC"
+          ]
         },
         {
           "id": 79510660,
@@ -1522,6 +1899,138 @@
           "officiels": [
             "BRUNO DESIREE_AC"
           ]
+        }
+      ]
+    },
+    {
+      "cp_slug": "457397-u18-brassage/phase/1/6",
+      "competition": "U18 BRASSAGE",
+      "clubs": {
+        "RAPID CLUB": {
+          "nom": "RAPID CLUB",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC520312.jpg",
+          "clNo": "6850",
+          "slug": "520312-rapid-club"
+        },
+        "MJCA": {
+          "nom": "MJCA",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC534456.jpg",
+          "clNo": "16241",
+          "slug": "534456-mjca"
+        },
+        "UNAR": {
+          "nom": "UNAR",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC549644.jpg",
+          "clNo": "26353",
+          "slug": "549644-unar"
+        },
+        "ENT. JSC USGB U18": {
+          "nom": "ENT. JSC USGB U18",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC531607.jpg",
+          "clNo": "14323",
+          "slug": "531607-ent-jsc-usgb-u18"
+        }
+      },
+      "stades": {
+        "Stade De Gros cap_['GROS CAP', '97131 PETIT CANAL']": {
+          "nom": "Stade De Gros cap",
+          "adresse": "GROS CAP | 97131 PETIT CANAL",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE DU RAIZET_['BOURG', '1 ALLEE IRIS', '97139 LES ABYMES']": {
+          "nom": "STADE DU RAIZET",
+          "adresse": "BOURG | 1 ALLEE IRIS | 97139 LES ABYMES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE JOSÉ BADE_[' BOULEVARD MARITIME', '97140 CAPESTERRE DE MARIE GALANTE']": {
+          "nom": "STADE JOSÉ BADE",
+          "adresse": " BOULEVARD MARITIME | 97140 CAPESTERRE DE MARIE GALANTE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
+      "officiels": {},
+      "joueurs": {},
+      "matchs": [
+        {
+          "id": 79510977,
+          "date": "2026-09-27",
+          "heure": "15:30",
+          "recevant": "MJCA",
+          "visiteur": "ENT. JSC USGB U18",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "reporté"
+        },
+        {
+          "id": 79510978,
+          "date": "2026-10-03",
+          "heure": "15:30",
+          "recevant": "RAPID CLUB",
+          "visiteur": "MJCA",
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade De Gros cap_['GROS CAP', '97131 PETIT CANAL']",
+          "forfait": true,
+          "vainqueur_forfait": "MJCA"
+        },
+        {
+          "id": 79510979,
+          "date": "2026-10-04",
+          "heure": "09:30",
+          "recevant": "UNAR",
+          "visiteur": "ENT. JSC USGB U18",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79510976,
+          "date": "2026-10-07",
+          "heure": "15:30",
+          "recevant": "UNAR",
+          "visiteur": "RAPID CLUB",
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DU RAIZET_['BOURG', '1 ALLEE IRIS', '97139 LES ABYMES']",
+          "forfait": true,
+          "vainqueur_forfait": "UNAR"
+        },
+        {
+          "id": 79510975,
+          "date": "2026-10-11",
+          "heure": "10:30",
+          "recevant": "ENT. JSC USGB U18",
+          "visiteur": "RAPID CLUB",
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JOSÉ BADE_[' BOULEVARD MARITIME', '97140 CAPESTERRE DE MARIE GALANTE']",
+          "forfait": true,
+          "vainqueur_forfait": "ENT. JSC USGB U18"
+        },
+        {
+          "id": 79510974,
+          "date": "2026-10-14",
+          "heure": "15:30",
+          "recevant": "MJCA",
+          "visiteur": "UNAR",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
         }
       ]
     },
@@ -1946,11 +2455,23 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE CLAUDE VIRAPIN CALVAIRE_['CALVAIRE', 'IMPASSE GABY JOURSON', '97122 BAIE MAHAULT']": {
+          "nom": "STADE CLAUDE VIRAPIN CALVAIRE",
+          "adresse": "CALVAIRE | IMPASSE GABY JOURSON | 97122 BAIE MAHAULT",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
         "ENDRICK BEBEL FACORAT_AC": {
           "nom": "ENDRICK BEBEL FACORAT",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "MATHYS SAINT CLAIR_AC": {
+          "nom": "MATHYS SAINT CLAIR",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -2040,10 +2561,14 @@
           "heure": "15:30",
           "recevant": "SPORTING B/M",
           "visiteur": "ENT.AOG-JVF",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE CLAUDE VIRAPIN CALVAIRE_['CALVAIRE', 'IMPASSE GABY JOURSON', '97122 BAIE MAHAULT']",
+          "officiels": [
+            "MATHYS SAINT CLAIR_AC"
+          ]
         },
         {
           "id": 79511402,
@@ -2270,14 +2795,14 @@
       "matchs": [
         {
           "id": 79511467,
-          "date": "2026-09-19",
+          "date": "2026-10-14",
           "heure": "15:30",
           "recevant": "RC B.TERRE GA",
           "visiteur": "C.A.M.",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "reporté"
+          "statut": "à venir"
         },
         {
           "id": 79511466,
@@ -2461,6 +2986,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE PAUL LACAVÉ_['Guyonneau', 'LE BOURG', '97126 DESHAIES']": {
+          "nom": "STADE PAUL LACAVÉ",
+          "adresse": "Guyonneau | LE BOURG | 97126 DESHAIES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -2471,6 +3003,11 @@
         },
         "NICOLAS ROBERTO BOA_AC": {
           "nom": "NICOLAS ROBERTO BOA",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "MEIDY CORIOLAN_AC": {
+          "nom": "MEIDY CORIOLAN",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -2485,19 +3022,132 @@
           "nom": "TAIRICK P.",
           "maillot": 13,
           "club": "LA GAULOISE BASSE TE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt3liohnL8": {
+          "nom": "ILANN B.",
+          "maillot": 10,
+          "club": "LA GAULOISE BASSE TE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19lyckmLE": {
+          "nom": "STILLAN MATHIEU C.",
+          "maillot": 10,
+          "club": "LA FREGATE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh5kykimLQ": {
+          "nom": "DJAWEL L.",
+          "maillot": 12,
+          "club": "LA FREGATE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx9kyssmrM": {
+          "nom": "YALANN J.",
+          "maillot": 11,
+          "club": "LA GAULOISE BASSE TE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16lC4gm7I": {
+          "nom": "SOHAN S.",
+          "maillot": 15,
+          "club": "LA GAULOISE BASSE TE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh4mygkn7I": {
+          "nom": "K'NAAN M.",
+          "maillot": 14,
+          "club": "LA FREGATE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx9kyotlr4": {
+          "nom": "WILHEM N.",
+          "maillot": 8,
+          "club": "LA FREGATE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh2lCYjnbM": {
+          "nom": "JEROLD C.",
+          "maillot": 11,
+          "club": "LA FREGATE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt7kCwsnrA": {
+          "nom": "ELIORY KYLE J.",
+          "maillot": 9,
+          "club": "LA GAULOISE BASSE TE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh3my0il7Q": {
+          "nom": "GARY C.",
+          "maillot": 17,
+          "club": "LA GAULOISE BASSE TE"
         }
       },
       "matchs": [
         {
           "id": 79511532,
           "date": "2026-10-14",
-          "heure": "15:30",
+          "heure": "16:00",
           "recevant": "LA FREGATE",
           "visiteur": "LA GAULOISE BASSE TE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 10,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3liohnL8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK19lyckmLE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh5kykimLQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx9kyssmrM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK16lC4gm7I",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 38,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3liohnL8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 41,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4mygkn7I",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 43,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx9kyotlr4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh2lCYjnbM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 54,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3liohnL8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 67,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt7kCwsnrA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 84,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3my0il7Q",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE PAUL LACAVÉ_['Guyonneau', 'LE BOURG', '97126 DESHAIES']",
+          "officiels": [
+            "MEIDY CORIOLAN_AC"
+          ]
         },
         {
           "id": 79511533,

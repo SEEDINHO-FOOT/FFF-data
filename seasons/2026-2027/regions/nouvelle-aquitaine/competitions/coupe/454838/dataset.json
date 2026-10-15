@@ -10,9 +10,67 @@
     {
       "cp_slug": "454838-coupe-nouvelle-aquitaine-u15/phase/1/1",
       "competition": "Coupe Nouvelle-Aquitaine U15",
-      "clubs": {},
-      "stades": {},
-      "officiels": {},
+      "clubs": {
+        "FEYTIAT CS": {
+          "nom": "FEYTIAT CS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC520177.jpg",
+          "clNo": "6775",
+          "slug": "520177-feytiat-cs"
+        },
+        "TOCANE ST APRE US 15": {
+          "nom": "TOCANE ST APRE US 15",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC518053.jpg",
+          "clNo": "5682",
+          "slug": "518053-tocane-st-apre-us-15"
+        },
+        "ESTUAIRE HTE GDE FC": {
+          "nom": "ESTUAIRE HTE GDE FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC553257.jpg",
+          "clNo": "128863",
+          "slug": "553257-estuaire-hte-gde-fc"
+        },
+        "FC GAUR. PEUJARD ENT": {
+          "nom": "FC GAUR. PEUJARD ENT",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC530681.jpg",
+          "clNo": "13738",
+          "slug": "530681-fc-gaur-peujard-ent"
+        },
+        "ST DENIS DE PILE ENT": {
+          "nom": "ST DENIS DE PILE ENT",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC518025.jpg",
+          "clNo": "5668",
+          "slug": "518025-st-denis-de-pile-ent"
+        },
+        "CASTELNAU F.C": {
+          "nom": "CASTELNAU F.C",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC548390.jpg",
+          "clNo": "25482",
+          "slug": "548390-castelnau-f-c"
+        }
+      },
+      "stades": {
+        "STADE PIERRE ROYON_['Lieu-dit BERDASSIT', 'AVENUE CHARLES DE GAULLE', '33820 ST CIERS SUR GIRONDE']": {
+          "nom": "STADE PIERRE ROYON",
+          "adresse": "Lieu-dit BERDASSIT | AVENUE CHARLES DE GAULLE | 33820 ST CIERS SUR GIRONDE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE BOMALE 1_['ROUTE DE GUITRES', '33910 ST DENIS DE PILE']": {
+          "nom": "STADE BOMALE 1",
+          "adresse": "ROUTE DE GUITRES | 33910 ST DENIS DE PILE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
+      "officiels": {
+        "MOHAMED NAASS_AC": {
+          "nom": "MOHAMED NAASS",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        }
+      },
       "joueurs": {},
       "matchs": [
         {
@@ -52,8 +110,8 @@
           "id": 79526611,
           "date": "2026-10-17",
           "heure": "15:00",
-          "recevant": "ECHIRE ST GELAIS AS",
-          "visiteur": "ALLIANCE FOOT 3B",
+          "recevant": "ALLIANCE FOOT 3B",
+          "visiteur": "ECHIRE ST GELAIS AS",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
@@ -173,7 +231,7 @@
           "id": 79526623,
           "date": "2026-10-17",
           "heure": "15:00",
-          "recevant": "NIEUIL L ESPOIR JS",
+          "recevant": "NIEUIL.MIGNALOUX",
           "visiteur": "CELLES-VERRINES ES",
           "buts_recevant": null,
           "buts_visiteur": null,
@@ -208,10 +266,13 @@
           "heure": "15:00",
           "recevant": "FEYTIAT CS",
           "visiteur": "TOCANE ST APRE US 15",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "officiels": [
+            "MOHAMED NAASS_AC"
+          ]
         },
         {
           "id": 79526784,
@@ -340,10 +401,11 @@
           "heure": "15:00",
           "recevant": "ESTUAIRE HTE GDE FC",
           "visiteur": "FC GAUR. PEUJARD ENT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PIERRE ROYON_['Lieu-dit BERDASSIT', 'AVENUE CHARLES DE GAULLE', '33820 ST CIERS SUR GIRONDE']"
         },
         {
           "id": 79527502,
@@ -393,12 +455,13 @@
           "id": 79527961,
           "date": "2026-10-17",
           "heure": "15:00",
-          "recevant": "ST DENIS DE PILE US",
+          "recevant": "ST DENIS DE PILE ENT",
           "visiteur": "CASTELNAU F.C",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE BOMALE 1_['ROUTE DE GUITRES', '33910 ST DENIS DE PILE']"
         },
         {
           "id": 79528050,
@@ -425,7 +488,7 @@
         {
           "id": 79528262,
           "date": "2026-10-17",
-          "heure": "15:00",
+          "heure": "17:00",
           "recevant": "COEUR DU BÉARN",
           "visiteur": "ST PAUL SPORT",
           "buts_recevant": null,
@@ -459,7 +522,7 @@
           "id": 79528355,
           "date": "2026-10-17",
           "heure": "15:00",
-          "recevant": "U.S.FARGUES TOULENNE",
+          "recevant": "US FARGUES TOUL. ENT",
           "visiteur": "JA DAX",
           "buts_recevant": null,
           "buts_visiteur": null,
@@ -469,7 +532,7 @@
         {
           "id": 79528356,
           "date": "2026-10-17",
-          "heure": "15:00",
+          "heure": "13:00",
           "recevant": "BORN FC",
           "visiteur": "MARMANDE 47 FC 15",
           "buts_recevant": null,
@@ -480,7 +543,7 @@
         {
           "id": 79528357,
           "date": "2026-10-17",
-          "heure": "15:00",
+          "heure": "17:00",
           "recevant": "PORTE D AQUITAINE 47",
           "visiteur": "GONTAUDAISE US",
           "buts_recevant": null,

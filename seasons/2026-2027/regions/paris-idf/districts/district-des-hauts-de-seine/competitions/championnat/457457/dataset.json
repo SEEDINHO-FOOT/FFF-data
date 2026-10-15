@@ -3041,6 +3041,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "PARC DES SPORTS DU HAMEAU N° 2_['9 AVENUE PAUL LANGEVIN', 'TERRAIN OUEST / ATHLETISME', '92350 LE PLESSIS ROBINSON']": {
+          "nom": "PARC DES SPORTS DU HAMEAU N° 2",
+          "adresse": "9 AVENUE PAUL LANGEVIN | TERRAIN OUEST / ATHLETISME | 92350 LE PLESSIS ROBINSON",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -3112,10 +3119,11 @@
           "heure": "12:00",
           "recevant": "PLESSIS ROBINSON FC 2",
           "visiteur": "ANTONY ASS JEUNES 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "PARC DES SPORTS DU HAMEAU N° 2_['9 AVENUE PAUL LANGEVIN', 'TERRAIN OUEST / ATHLETISME', '92350 LE PLESSIS ROBINSON']"
         },
         {
           "id": 79703406,
@@ -3672,6 +3680,739 @@
       ]
     },
     {
+      "cp_slug": "457457-criterium-u13-a-8/phase/1/6",
+      "competition": "Critérium U13 à 8",
+      "clubs": {
+        "ANTONY FOOT EVOLUTIO 2": {
+          "nom": "ANTONY FOOT EVOLUTIO 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564045.jpg",
+          "clNo": "192291",
+          "slug": "564045-antony-foot-evolutio-2"
+        },
+        "CSM CLAMART FOOT 2": {
+          "nom": "CSM CLAMART FOOT 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC553138.jpg",
+          "clNo": "127585",
+          "slug": "553138-csm-clamart-foot-2"
+        },
+        "VANVES STADE": {
+          "nom": "VANVES STADE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500748.jpg",
+          "clNo": "693",
+          "slug": "500748-vanves-stade"
+        },
+        "ISSY FC 4": {
+          "nom": "ISSY FC 4",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500706.jpg",
+          "clNo": "673",
+          "slug": "500706-issy-fc-4"
+        },
+        "FC BLR": {
+          "nom": "FC BLR",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC509795.jpg",
+          "clNo": "3513",
+          "slug": "509795-fc-blr"
+        },
+        "MEUDON A.S. 2": {
+          "nom": "MEUDON A.S. 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500692.jpg",
+          "clNo": "668",
+          "slug": "500692-meudon-a-s-2"
+        },
+        "SEVRES F.C. 92 2": {
+          "nom": "SEVRES F.C. 92 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC527758.jpg",
+          "clNo": "11726",
+          "slug": "527758-sevres-f-c-92-2"
+        },
+        "CHAVILLE FC": {
+          "nom": "CHAVILLE FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC549265.jpg",
+          "clNo": "26034",
+          "slug": "549265-chaville-fc"
+        }
+      },
+      "stades": {
+        "STADE GEORGES SUANT N° 2_['165 AVENUE FRANCOIS MOLE', 'TERRAIN ANNEXE 2', '92160 ANTONY']": {
+          "nom": "STADE GEORGES SUANT N° 2",
+          "adresse": "165 AVENUE FRANCOIS MOLE | TERRAIN ANNEXE 2 | 92160 ANTONY",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "PARC DES SPORTS ANDRÉ ROCHE N°1_['29 AV DU DOCTEUR FRANCOIS ARNAUD', '92170 VANVES']": {
+          "nom": "PARC DES SPORTS ANDRÉ ROCHE N°1",
+          "adresse": "29 AV DU DOCTEUR FRANCOIS ARNAUD | 92170 VANVES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE CHARPENTIER N° 2_['16 RUE CHARPENTIER', 'TERRAIN ANNEXE', '92340 BOURG LA REINE']": {
+          "nom": "STADE CHARPENTIER N° 2",
+          "adresse": "16 RUE CHARPENTIER | TERRAIN ANNEXE | 92340 BOURG LA REINE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE JEAN WAGNER_['25 ROUTE DU PAVE DES GARDES', '92310 SEVRES']": {
+          "nom": "STADE JEAN WAGNER",
+          "adresse": "25 ROUTE DU PAVE DES GARDES | 92310 SEVRES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE LA PLAINE N° 2_['131 CHEMIN DU PARC', '92140 CLAMART']": {
+          "nom": "STADE DE LA PLAINE N° 2",
+          "adresse": "131 CHEMIN DU PARC | 92140 CLAMART",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE ÎLE BILLANCOURT_['44 AVENUE DU BAS MEUDON', '92130 ISSY LES MOULINEAUX']": {
+          "nom": "STADE ÎLE BILLANCOURT",
+          "adresse": "44 AVENUE DU BAS MEUDON | 92130 ISSY LES MOULINEAUX",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE JEAN MELKONIAN_['3 RUE GEORGES MILLANDY', '92360 MEUDON']": {
+          "nom": "STADE JEAN MELKONIAN",
+          "adresse": "3 RUE GEORGES MILLANDY | 92360 MEUDON",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
+      "officiels": {},
+      "joueurs": {},
+      "matchs": [
+        {
+          "id": 79703458,
+          "date": "2026-10-03",
+          "heure": "11:30",
+          "recevant": "ANTONY FOOT EVOLUTIO 2",
+          "visiteur": "CSM CLAMART FOOT 2",
+          "buts_recevant": 0,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GEORGES SUANT N° 2_['165 AVENUE FRANCOIS MOLE', 'TERRAIN ANNEXE 2', '92160 ANTONY']"
+        },
+        {
+          "id": 79703456,
+          "date": "2026-10-03",
+          "heure": "12:00",
+          "recevant": "VANVES STADE",
+          "visiteur": "ISSY FC 4",
+          "buts_recevant": 0,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "PARC DES SPORTS ANDRÉ ROCHE N°1_['29 AV DU DOCTEUR FRANCOIS ARNAUD', '92170 VANVES']"
+        },
+        {
+          "id": 79703457,
+          "date": "2026-10-03",
+          "heure": "12:30",
+          "recevant": "FC BLR",
+          "visiteur": "MEUDON A.S. 2",
+          "buts_recevant": 5,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE CHARPENTIER N° 2_['16 RUE CHARPENTIER', 'TERRAIN ANNEXE', '92340 BOURG LA REINE']"
+        },
+        {
+          "id": 79703459,
+          "date": "2026-10-03",
+          "heure": "14:00",
+          "recevant": "SEVRES F.C. 92 2",
+          "visiteur": "CHAVILLE FC",
+          "buts_recevant": 0,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JEAN WAGNER_['25 ROUTE DU PAVE DES GARDES', '92310 SEVRES']"
+        },
+        {
+          "id": 79703462,
+          "date": "2026-10-10",
+          "heure": "12:00",
+          "recevant": "VANVES STADE",
+          "visiteur": "SEVRES F.C. 92 2",
+          "buts_recevant": 4,
+          "buts_visiteur": 8,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "PARC DES SPORTS ANDRÉ ROCHE N°1_['29 AV DU DOCTEUR FRANCOIS ARNAUD', '92170 VANVES']"
+        },
+        {
+          "id": 79703461,
+          "date": "2026-10-10",
+          "heure": "12:30",
+          "recevant": "CSM CLAMART FOOT 2",
+          "visiteur": "FC BLR",
+          "buts_recevant": 0,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA PLAINE N° 2_['131 CHEMIN DU PARC', '92140 CLAMART']"
+        },
+        {
+          "id": 79703463,
+          "date": "2026-10-10",
+          "heure": "13:00",
+          "recevant": "ISSY FC 4",
+          "visiteur": "ANTONY FOOT EVOLUTIO 2",
+          "buts_recevant": 2,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ÎLE BILLANCOURT_['44 AVENUE DU BAS MEUDON', '92130 ISSY LES MOULINEAUX']"
+        },
+        {
+          "id": 79703460,
+          "date": "2026-10-10",
+          "heure": "13:30",
+          "recevant": "MEUDON A.S. 2",
+          "visiteur": "CHAVILLE FC",
+          "buts_recevant": 0,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JEAN MELKONIAN_['3 RUE GEORGES MILLANDY', '92360 MEUDON']"
+        },
+        {
+          "id": 79703464,
+          "date": "2026-11-07",
+          "heure": "11:30",
+          "recevant": "ANTONY FOOT EVOLUTIO 2",
+          "visiteur": "VANVES STADE",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703465,
+          "date": "2026-11-07",
+          "heure": "12:30",
+          "recevant": "FC BLR",
+          "visiteur": "ISSY FC 4",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703466,
+          "date": "2026-11-07",
+          "heure": "13:00",
+          "recevant": "CHAVILLE FC",
+          "visiteur": "CSM CLAMART FOOT 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703467,
+          "date": "2026-11-07",
+          "heure": "13:30",
+          "recevant": "SEVRES F.C. 92 2",
+          "visiteur": "MEUDON A.S. 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703470,
+          "date": "2026-11-14",
+          "heure": "11:30",
+          "recevant": "ANTONY FOOT EVOLUTIO 2",
+          "visiteur": "SEVRES F.C. 92 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703471,
+          "date": "2026-11-14",
+          "heure": "12:00",
+          "recevant": "VANVES STADE",
+          "visiteur": "FC BLR",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703468,
+          "date": "2026-11-14",
+          "heure": "12:30",
+          "recevant": "CSM CLAMART FOOT 2",
+          "visiteur": "MEUDON A.S. 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703469,
+          "date": "2026-11-14",
+          "heure": "13:00",
+          "recevant": "ISSY FC 4",
+          "visiteur": "CHAVILLE FC",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703472,
+          "date": "2026-11-28",
+          "heure": "12:30",
+          "recevant": "FC BLR",
+          "visiteur": "ANTONY FOOT EVOLUTIO 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703475,
+          "date": "2026-11-28",
+          "heure": "12:30",
+          "recevant": "CSM CLAMART FOOT 2",
+          "visiteur": "SEVRES F.C. 92 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703473,
+          "date": "2026-11-28",
+          "heure": "13:00",
+          "recevant": "CHAVILLE FC",
+          "visiteur": "VANVES STADE",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703474,
+          "date": "2026-11-28",
+          "heure": "13:30",
+          "recevant": "MEUDON A.S. 2",
+          "visiteur": "ISSY FC 4",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703450,
+          "date": "2026-12-05",
+          "heure": "11:30",
+          "recevant": "ANTONY FOOT EVOLUTIO 2",
+          "visiteur": "CHAVILLE FC",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703449,
+          "date": "2026-12-05",
+          "heure": "12:00",
+          "recevant": "VANVES STADE",
+          "visiteur": "MEUDON A.S. 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703448,
+          "date": "2026-12-05",
+          "heure": "13:00",
+          "recevant": "ISSY FC 4",
+          "visiteur": "CSM CLAMART FOOT 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703451,
+          "date": "2026-12-05",
+          "heure": "13:30",
+          "recevant": "SEVRES F.C. 92 2",
+          "visiteur": "FC BLR",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703455,
+          "date": "2026-12-12",
+          "heure": "12:30",
+          "recevant": "CSM CLAMART FOOT 2",
+          "visiteur": "VANVES STADE",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703452,
+          "date": "2026-12-12",
+          "heure": "13:00",
+          "recevant": "CHAVILLE FC",
+          "visiteur": "FC BLR",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703454,
+          "date": "2026-12-12",
+          "heure": "13:00",
+          "recevant": "ISSY FC 4",
+          "visiteur": "SEVRES F.C. 92 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703453,
+          "date": "2026-12-12",
+          "heure": "13:30",
+          "recevant": "MEUDON A.S. 2",
+          "visiteur": "ANTONY FOOT EVOLUTIO 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703487,
+          "date": "2027-01-16",
+          "heure": "11:30",
+          "recevant": "ANTONY FOOT EVOLUTIO 2",
+          "visiteur": "ISSY FC 4",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703485,
+          "date": "2027-01-16",
+          "heure": "12:30",
+          "recevant": "FC BLR",
+          "visiteur": "CSM CLAMART FOOT 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703484,
+          "date": "2027-01-16",
+          "heure": "13:00",
+          "recevant": "CHAVILLE FC",
+          "visiteur": "MEUDON A.S. 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703486,
+          "date": "2027-01-16",
+          "heure": "13:30",
+          "recevant": "SEVRES F.C. 92 2",
+          "visiteur": "VANVES STADE",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703477,
+          "date": "2027-01-23",
+          "heure": "11:30",
+          "recevant": "ANTONY FOOT EVOLUTIO 2",
+          "visiteur": "MEUDON A.S. 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703479,
+          "date": "2027-01-23",
+          "heure": "12:00",
+          "recevant": "VANVES STADE",
+          "visiteur": "CSM CLAMART FOOT 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703476,
+          "date": "2027-01-23",
+          "heure": "12:30",
+          "recevant": "FC BLR",
+          "visiteur": "CHAVILLE FC",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703478,
+          "date": "2027-01-23",
+          "heure": "13:30",
+          "recevant": "SEVRES F.C. 92 2",
+          "visiteur": "ISSY FC 4",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703482,
+          "date": "2027-01-30",
+          "heure": "12:30",
+          "recevant": "CSM CLAMART FOOT 2",
+          "visiteur": "ANTONY FOOT EVOLUTIO 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703480,
+          "date": "2027-01-30",
+          "heure": "13:00",
+          "recevant": "ISSY FC 4",
+          "visiteur": "VANVES STADE",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703483,
+          "date": "2027-01-30",
+          "heure": "13:00",
+          "recevant": "CHAVILLE FC",
+          "visiteur": "SEVRES F.C. 92 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703481,
+          "date": "2027-01-30",
+          "heure": "13:30",
+          "recevant": "MEUDON A.S. 2",
+          "visiteur": "FC BLR",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703488,
+          "date": "2027-03-06",
+          "heure": "12:00",
+          "recevant": "VANVES STADE",
+          "visiteur": "ANTONY FOOT EVOLUTIO 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703490,
+          "date": "2027-03-06",
+          "heure": "12:30",
+          "recevant": "CSM CLAMART FOOT 2",
+          "visiteur": "CHAVILLE FC",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703489,
+          "date": "2027-03-06",
+          "heure": "13:00",
+          "recevant": "ISSY FC 4",
+          "visiteur": "FC BLR",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703491,
+          "date": "2027-03-06",
+          "heure": "13:30",
+          "recevant": "MEUDON A.S. 2",
+          "visiteur": "SEVRES F.C. 92 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703495,
+          "date": "2027-03-13",
+          "heure": "12:30",
+          "recevant": "FC BLR",
+          "visiteur": "VANVES STADE",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703493,
+          "date": "2027-03-13",
+          "heure": "13:00",
+          "recevant": "CHAVILLE FC",
+          "visiteur": "ISSY FC 4",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703492,
+          "date": "2027-03-13",
+          "heure": "13:30",
+          "recevant": "MEUDON A.S. 2",
+          "visiteur": "CSM CLAMART FOOT 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703494,
+          "date": "2027-03-13",
+          "heure": "13:30",
+          "recevant": "SEVRES F.C. 92 2",
+          "visiteur": "ANTONY FOOT EVOLUTIO 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703496,
+          "date": "2027-03-20",
+          "heure": "11:30",
+          "recevant": "ANTONY FOOT EVOLUTIO 2",
+          "visiteur": "FC BLR",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703497,
+          "date": "2027-03-20",
+          "heure": "12:00",
+          "recevant": "VANVES STADE",
+          "visiteur": "CHAVILLE FC",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703498,
+          "date": "2027-03-20",
+          "heure": "13:00",
+          "recevant": "ISSY FC 4",
+          "visiteur": "MEUDON A.S. 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703499,
+          "date": "2027-03-20",
+          "heure": "13:30",
+          "recevant": "SEVRES F.C. 92 2",
+          "visiteur": "CSM CLAMART FOOT 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703500,
+          "date": "2027-05-29",
+          "heure": "12:30",
+          "recevant": "CSM CLAMART FOOT 2",
+          "visiteur": "ISSY FC 4",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703503,
+          "date": "2027-05-29",
+          "heure": "12:30",
+          "recevant": "FC BLR",
+          "visiteur": "SEVRES F.C. 92 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703502,
+          "date": "2027-05-29",
+          "heure": "13:00",
+          "recevant": "CHAVILLE FC",
+          "visiteur": "ANTONY FOOT EVOLUTIO 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79703501,
+          "date": "2027-05-29",
+          "heure": "13:30",
+          "recevant": "MEUDON A.S. 2",
+          "visiteur": "VANVES STADE",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        }
+      ]
+    },
+    {
       "cp_slug": "457457-criterium-u13-a-8/phase/1/7",
       "competition": "Critérium U13 à 8",
       "clubs": {
@@ -3710,6 +4451,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC550679.jpg",
           "clNo": "105489",
           "slug": "550679-montrouge-fc-92-3"
+        },
+        "ISSY FC 5": {
+          "nom": "ISSY FC 5",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500706.jpg",
+          "clNo": "673",
+          "slug": "500706-issy-fc-5"
         }
       },
       "stades": {
@@ -3737,6 +4484,20 @@
         "STADE DE LA PLAINE N° 2_['131 CHEMIN DU PARC', '92140 CLAMART']": {
           "nom": "STADE DE LA PLAINE N° 2",
           "adresse": "131 CHEMIN DU PARC | 92140 CLAMART",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "PARC DES SPORTS DU HAMEAU N° 2_['9 AVENUE PAUL LANGEVIN', 'TERRAIN OUEST / ATHLETISME', '92350 LE PLESSIS ROBINSON']": {
+          "nom": "PARC DES SPORTS DU HAMEAU N° 2",
+          "adresse": "9 AVENUE PAUL LANGEVIN | TERRAIN OUEST / ATHLETISME | 92350 LE PLESSIS ROBINSON",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE ÎLE BILLANCOURT_['44 AVENUE DU BAS MEUDON', '92130 ISSY LES MOULINEAUX']": {
+          "nom": "STADE ÎLE BILLANCOURT",
+          "adresse": "44 AVENUE DU BAS MEUDON | 92130 ISSY LES MOULINEAUX",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -3798,10 +4559,11 @@
           "heure": "12:00",
           "recevant": "PLESSIS ROBINSON FC 3",
           "visiteur": "MONTROUGE FC 92 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "PARC DES SPORTS DU HAMEAU N° 2_['9 AVENUE PAUL LANGEVIN', 'TERRAIN OUEST / ATHLETISME', '92350 LE PLESSIS ROBINSON']"
         },
         {
           "id": 79703517,
@@ -3832,10 +4594,11 @@
           "heure": "13:00",
           "recevant": "ISSY FC 5",
           "visiteur": "CHATILLONNAIS SCM 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ÎLE BILLANCOURT_['44 AVENUE DU BAS MEUDON', '92130 ISSY LES MOULINEAUX']"
         },
         {
           "id": 79703522,

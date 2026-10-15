@@ -94,6 +94,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC512354.jpg",
           "clNo": "3999",
           "slug": "512354-reze-aepr-3"
+        },
+        "GF PRESQU'ILE 44 2": {
+          "nom": "GF PRESQU'ILE 44 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC581196.jpg",
+          "clNo": "183029",
+          "slug": "581196-gf-presqu-ile-44-2"
         }
       },
       "stades": {
@@ -180,6 +186,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE DE LA GILARDERIE_['115 RUE DE LA GILARDERIE', '44000 NANTES']": {
+          "nom": "STADE DE LA GILARDERIE",
+          "adresse": "115 RUE DE LA GILARDERIE | 44000 NANTES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -261,7 +274,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp_mi4hm7I": {
           "nom": "EMMY R.",
-          "maillot": 2,
+          "maillot": 11,
           "club": "MESANGER AS"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp7kSggm7A": {
@@ -296,12 +309,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt5kC4smrQ": {
           "nom": "SOLENE J.",
-          "maillot": 5,
+          "maillot": 7,
           "club": "MESANGER AS"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt9ky4nn7U": {
           "nom": "CLARA P.",
-          "maillot": 12,
+          "maillot": 2,
           "club": "MESANGER AS"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx9mywgmrE": {
@@ -316,7 +329,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp5lS4slrM": {
           "nom": "DELPHINE P.",
-          "maillot": 8,
+          "maillot": 9,
           "club": "MESANGER AS"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp9kycimrQ": {
@@ -361,7 +374,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK18misnmb8": {
           "nom": "MARINE E.",
-          "maillot": 11,
+          "maillot": 6,
           "club": "PORNIC GOELANDS SANM"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt8ky0gmLM": {
@@ -533,6 +546,21 @@
           "nom": "VICTORIA M.",
           "maillot": 10,
           "club": "ST JOACHIM ST MALO F"
+        },
+        "ir3_vj-lzPeINLfhzILsrKxIFKl8micsnQ": {
+          "nom": "STEPHANIE K.",
+          "maillot": 6,
+          "club": "GF PRESQU'ILE 44 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx4kyclnbc": {
+          "nom": "AURELIE L.",
+          "maillot": 9,
+          "club": "GF PRESQU'ILE 44 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp3kC4ln7A": {
+          "nom": "TRESSY C.",
+          "maillot": 9,
+          "club": "PORNIC GOELANDS SANM"
         }
       },
       "matchs": [
@@ -1101,8 +1129,8 @@
         },
         {
           "id": 79454597,
-          "date": "2026-10-11",
-          "heure": "10:30",
+          "date": "2026-10-18",
+          "heure": "10:00",
           "recevant": "GF LOIRE ET CENS 2",
           "visiteur": "GF ST PERE LOIROCEAN",
           "buts_recevant": null,
@@ -1116,10 +1144,11 @@
           "heure": "10:00",
           "recevant": "NANTES SUD 98",
           "visiteur": "GF LES TOUCHES SPMFC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 18,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA GILARDERIE_['115 RUE DE LA GILARDERIE', '44000 NANTES']"
         },
         {
           "id": 79454600,
@@ -1127,10 +1156,27 @@
           "heure": "12:30",
           "recevant": "PORNIC GOELANDS SANM",
           "visiteur": "GF PRESQU'ILE 44 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 17,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKxIFKl8micsnQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx4kyclnbc",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 24,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK18misnmb8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp3kC4ln7A",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE DU MOULIN NEUF 2_['SAINTE MARIE SUR MER', '17 RUE DU COLONEL VICTOR BEZIER', '44210 PORNIC']"
         },
         {
           "id": 79454581,

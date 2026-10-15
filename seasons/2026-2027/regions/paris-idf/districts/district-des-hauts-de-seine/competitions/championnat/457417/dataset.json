@@ -10,8 +10,86 @@
     {
       "cp_slug": "457417-anciens-45-ans-a-8/phase/1/1",
       "competition": "ANCIENS 45 ANS à 8",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "SEVRES F.C. 92 2": {
+          "nom": "SEVRES F.C. 92 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC527758.jpg",
+          "clNo": "11726",
+          "slug": "527758-sevres-f-c-92-2"
+        },
+        "ANTONY FOOT EVOLUTIO 3": {
+          "nom": "ANTONY FOOT EVOLUTIO 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564045.jpg",
+          "clNo": "192291",
+          "slug": "564045-antony-foot-evolutio-3"
+        },
+        "PITRAY OLIER PARIS 3": {
+          "nom": "PITRAY OLIER PARIS 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC516516.jpg",
+          "clNo": "5066",
+          "slug": "516516-pitray-olier-paris-3"
+        },
+        "AS ARARAT ISSY 2": {
+          "nom": "AS ARARAT ISSY 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC528217.jpg",
+          "clNo": "12027",
+          "slug": "528217-as-ararat-issy-2"
+        },
+        "FC BLR 3": {
+          "nom": "FC BLR 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC509795.jpg",
+          "clNo": "3513",
+          "slug": "509795-fc-blr-3"
+        },
+        "MONTROUGE FC 92": {
+          "nom": "MONTROUGE FC 92",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC550679.jpg",
+          "clNo": "105489",
+          "slug": "550679-montrouge-fc-92"
+        },
+        "CSM CLAMART FOOT 4": {
+          "nom": "CSM CLAMART FOOT 4",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC553138.jpg",
+          "clNo": "127585",
+          "slug": "553138-csm-clamart-foot-4"
+        },
+        "CRAMPONS PARISIENS": {
+          "nom": "CRAMPONS PARISIENS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC538449.jpg",
+          "clNo": "19006",
+          "slug": "538449-crampons-parisiens"
+        }
+      },
+      "stades": {
+        "Stade Des Fontaines_['12 RUE ALBERT DAMMOUSE', '92310 SEVRES']": {
+          "nom": "Stade Des Fontaines",
+          "adresse": "12 RUE ALBERT DAMMOUSE | 92310 SEVRES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "Stade Pitray Olier N° 2_['30 GRANDE VOIE DES VIGNES', 'TERRAIN ANNEXE', '92290 CHATENAY MALABRY']": {
+          "nom": "Stade Pitray Olier N° 2",
+          "adresse": "30 GRANDE VOIE DES VIGNES | TERRAIN ANNEXE | 92290 CHATENAY MALABRY",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE CHARPENTIER N° 2_['16 RUE CHARPENTIER', 'TERRAIN ANNEXE', '92340 BOURG LA REINE']": {
+          "nom": "STADE CHARPENTIER N° 2",
+          "adresse": "16 RUE CHARPENTIER | TERRAIN ANNEXE | 92340 BOURG LA REINE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE LA PLAINE N° 2_['131 CHEMIN DU PARC', '92140 CLAMART']": {
+          "nom": "STADE DE LA PLAINE N° 2",
+          "adresse": "131 CHEMIN DU PARC | 92140 CLAMART",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -65,10 +143,11 @@
           "heure": "09:00",
           "recevant": "SEVRES F.C. 92 2",
           "visiteur": "ANTONY FOOT EVOLUTIO 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Des Fontaines_['12 RUE ALBERT DAMMOUSE', '92310 SEVRES']"
         },
         {
           "id": 79709218,
@@ -76,21 +155,23 @@
           "heure": "09:30",
           "recevant": "PITRAY OLIER PARIS 3",
           "visiteur": "AS ARARAT ISSY 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Pitray Olier N° 2_['30 GRANDE VOIE DES VIGNES', 'TERRAIN ANNEXE', '92290 CHATENAY MALABRY']"
         },
         {
           "id": 79709219,
           "date": "2026-10-11",
-          "heure": "09:30",
-          "recevant": "MONTROUGE FC 92",
-          "visiteur": "FC BLR 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "heure": "10:00",
+          "recevant": "FC BLR 3",
+          "visiteur": "MONTROUGE FC 92",
+          "buts_recevant": 3,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE CHARPENTIER N° 2_['16 RUE CHARPENTIER', 'TERRAIN ANNEXE', '92340 BOURG LA REINE']"
         },
         {
           "id": 79709221,
@@ -98,10 +179,11 @@
           "heure": "10:00",
           "recevant": "CSM CLAMART FOOT 4",
           "visiteur": "CRAMPONS PARISIENS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA PLAINE N° 2_['131 CHEMIN DU PARC', '92140 CLAMART']"
         },
         {
           "id": 79709222,
@@ -636,8 +718,67 @@
     {
       "cp_slug": "457417-anciens-45-ans-a-8/phase/1/2",
       "competition": "ANCIENS 45 ANS à 8",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "ISSY FC 4": {
+          "nom": "ISSY FC 4",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500706.jpg",
+          "clNo": "673",
+          "slug": "500706-issy-fc-4"
+        },
+        "RUEIL ABEILLE 2": {
+          "nom": "RUEIL ABEILLE 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC522694.jpg",
+          "clNo": "8389",
+          "slug": "522694-rueil-abeille-2"
+        },
+        "SURESNES J.S. 3": {
+          "nom": "SURESNES J.S. 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500744.jpg",
+          "clNo": "691",
+          "slug": "500744-suresnes-j-s-3"
+        },
+        "ST CLOUD FC 2": {
+          "nom": "ST CLOUD FC 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500622.jpg",
+          "clNo": "644",
+          "slug": "500622-st-cloud-fc-2"
+        },
+        "NANTERRE AJSC 3": {
+          "nom": "NANTERRE AJSC 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC542423.jpg",
+          "clNo": "21967",
+          "slug": "542423-nanterre-ajsc-3"
+        },
+        "GARCHES VAUCR 2": {
+          "nom": "GARCHES VAUCR 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC546883.jpg",
+          "clNo": "24359",
+          "slug": "546883-garches-vaucr-2"
+        }
+      },
+      "stades": {
+        "Stade Christiane Guillaume_['2 RUE DU BATEAU LAVOIR', 'EX JEAN BOUIN 2', '92130 ISSY LES MOULINEAUX']": {
+          "nom": "Stade Christiane Guillaume",
+          "adresse": "2 RUE DU BATEAU LAVOIR | EX JEAN BOUIN 2 | 92130 ISSY LES MOULINEAUX",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MAURICE HUBERT N°2_['21 AV ALEXANDRE MAISTRASSE', '92500 RUEIL MALMAISON']": {
+          "nom": "STADE MAURICE HUBERT N°2",
+          "adresse": "21 AV ALEXANDRE MAISTRASSE | 92500 RUEIL MALMAISON",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE VINCENT PASCUCCI_['135 AVENUE DE LA COMMUNE DE PARIS', 'Ex bord de seine', '92000 NANTERRE']": {
+          "nom": "STADE VINCENT PASCUCCI",
+          "adresse": "135 AVENUE DE LA COMMUNE DE PARIS | Ex bord de seine | 92000 NANTERRE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -688,13 +829,14 @@
         {
           "id": 79709302,
           "date": "2026-10-11",
-          "heure": "09:00",
+          "heure": "11:30",
           "recevant": "SURESNES J.S. 3",
           "visiteur": "ST CLOUD FC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MAURICE HUBERT N°2_['21 AV ALEXANDRE MAISTRASSE', '92500 RUEIL MALMAISON']"
         },
         {
           "id": 79709303,
@@ -702,10 +844,11 @@
           "heure": "09:30",
           "recevant": "ISSY FC 4",
           "visiteur": "RUEIL ABEILLE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Christiane Guillaume_['2 RUE DU BATEAU LAVOIR', 'EX JEAN BOUIN 2', '92130 ISSY LES MOULINEAUX']"
         },
         {
           "id": 79709305,
@@ -724,10 +867,11 @@
           "heure": "11:30",
           "recevant": "NANTERRE AJSC 3",
           "visiteur": "GARCHES VAUCR 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE VINCENT PASCUCCI_['135 AVENUE DE LA COMMUNE DE PARIS', 'Ex bord de seine', '92000 NANTERRE']"
         },
         {
           "id": 79709306,

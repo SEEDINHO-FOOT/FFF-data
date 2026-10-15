@@ -150,11 +150,10 @@
           "heure": "15:30",
           "recevant": "ARDRES RC",
           "visiteur": "HUBY ST LEU US",
-          "buts_recevant": 4,
-          "buts_visiteur": 4,
-          "joue": true,
-          "statut": "joué",
-          "stade_id": "STADE MUNICIPAL 2_['AVENUE CHARLES DE GAULLE', '62610 ARDRES']"
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "réserve"
         },
         {
           "id": 79799925,
@@ -842,6 +841,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC528070.jpg",
           "clNo": "11917",
           "slug": "528070-equihen-plage-us"
+        },
+        "FORT VERT FJEP": {
+          "nom": "FORT VERT FJEP",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC528385.jpg",
+          "clNo": "12153",
+          "slug": "528385-fort-vert-fjep"
+        },
+        "HESDIN L'ABBE US": {
+          "nom": "HESDIN L'ABBE US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC527656.jpg",
+          "clNo": "11652",
+          "slug": "527656-hesdin-l-abbe-us"
         }
       },
       "stades": {
@@ -862,6 +873,13 @@
         "STADE MUNICIPAL 2_['RUE DU STADE', '62250 LANDRETHUN LE NORD']": {
           "nom": "STADE MUNICIPAL 2",
           "adresse": "RUE DU STADE | 62250 LANDRETHUN LE NORD",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE DANIEL CLOUET_['LE FORT-VERT', '959 AVENUE DE VERDUN', '62730 MARCK']": {
+          "nom": "STADE DANIEL CLOUET",
+          "adresse": "LE FORT-VERT | 959 AVENUE DE VERDUN | 62730 MARCK",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
@@ -988,10 +1006,11 @@
           "heure": "10:30",
           "recevant": "FORT VERT FJEP",
           "visiteur": "HESDIN L'ABBE US",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DANIEL CLOUET_['LE FORT-VERT', '959 AVENUE DE VERDUN', '62730 MARCK']"
         },
         {
           "id": 79801307,
@@ -1802,34 +1821,10 @@
           "heure": "10:30",
           "recevant": "OYE PLAGE ES",
           "visiteur": "ST TRICAT AS",
-          "buts_recevant": 1,
-          "buts_visiteur": 2,
-          "joue": true,
-          "statut": "joué",
-          "moments": [
-            {
-              "minute": 2,
-              "type": "remplacement",
-              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7kSglnLU",
-              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp6likkmLc",
-              "club_type": "recevant"
-            },
-            {
-              "minute": 2,
-              "type": "remplacement",
-              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt7ly4hl7I",
-              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9li8hnLc",
-              "club_type": "recevant"
-            },
-            {
-              "minute": 9,
-              "type": "remplacement",
-              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7kSglnLU",
-              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9li8hnL8",
-              "club_type": "recevant"
-            }
-          ],
-          "stade_id": "STADE JEAN COURQUIN 1_['IMPASSE DES SPORTS', '62215 OYE PLAGE']"
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "réserve"
         },
         {
           "id": 79803331,
@@ -3041,7 +3036,7 @@
         {
           "id": 79806966,
           "date": "2026-10-17",
-          "heure": "17:30",
+          "heure": "16:00",
           "recevant": "DANNES US",
           "visiteur": "BOURTHES US 2",
           "buts_recevant": null,

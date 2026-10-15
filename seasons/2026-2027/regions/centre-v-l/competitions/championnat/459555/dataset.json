@@ -22,6 +22,30 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565486.jpg",
           "clNo": "205944",
           "slug": "565486-fcb"
+        },
+        "ASB FUTSAL": {
+          "nom": "ASB FUTSAL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564822.jpg",
+          "clNo": "203202",
+          "slug": "564822-asb-futsal"
+        },
+        "ORLEANS METROPOLE AC": {
+          "nom": "ORLEANS METROPOLE AC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC511656.jpg",
+          "clNo": "3855",
+          "slug": "511656-orleans-metropole-ac"
+        },
+        "DREUX FUTSAL": {
+          "nom": "DREUX FUTSAL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564603.jpg",
+          "clNo": "202175",
+          "slug": "564603-dreux-futsal"
+        },
+        "ORLEANS FUTSAL": {
+          "nom": "ORLEANS FUTSAL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC561165.jpg",
+          "clNo": "200792",
+          "slug": "561165-orleans-futsal"
         }
       },
       "stades": {
@@ -30,6 +54,20 @@
           "adresse": " ALLEE DE VIEUX COURS | 45500 POILLY LEZ GIEN",
           "surface": "Résine coulée",
           "surface_jeu": "Résine coulée",
+          "type_installation": "Futsal"
+        },
+        "GYMNASE MOUSSA TRAORÉ_['8 RUE VASCO DE GAMA', '41000 BLOIS']": {
+          "nom": "GYMNASE MOUSSA TRAORÉ",
+          "adresse": "8 RUE VASCO DE GAMA | 41000 BLOIS",
+          "surface": "Autre",
+          "surface_jeu": "Autre",
+          "type_installation": "Futsal"
+        },
+        "GYMNASE PIERRE ET MARIE CURIE_['49 RUE DU LIEVRE D OR', '28100 DREUX']": {
+          "nom": "GYMNASE PIERRE ET MARIE CURIE",
+          "adresse": "49 RUE DU LIEVRE D OR | 28100 DREUX",
+          "surface": "Lino",
+          "surface_jeu": "Lino",
           "type_installation": "Futsal"
         }
       },
@@ -46,6 +84,36 @@
         },
         "PASCAL BEILLARD_DP": {
           "nom": "PASCAL BEILLARD",
+          "role": "Délégué principal",
+          "role_cod": "DP"
+        },
+        "YVES DONFOUET DJIFO_AC": {
+          "nom": "YVES DONFOUET DJIFO",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "THOMAS RAINEREAU_A1": {
+          "nom": "THOMAS RAINEREAU",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
+        },
+        "HAFID BENALI_DP": {
+          "nom": "HAFID BENALI",
+          "role": "Délégué principal",
+          "role_cod": "DP"
+        },
+        "Anonyme_AC": {
+          "nom": "Anonyme",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "JEFF BIVARD_A1": {
+          "nom": "JEFF BIVARD",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
+        },
+        "PATRICK MOUSSONNE_DP": {
+          "nom": "PATRICK MOUSSONNE",
           "role": "Délégué principal",
           "role_cod": "DP"
         }
@@ -290,10 +358,16 @@
           "heure": "19:00",
           "recevant": "ASB FUTSAL",
           "visiteur": "ORLEANS METROPOLE AC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "GYMNASE MOUSSA TRAORÉ_['8 RUE VASCO DE GAMA', '41000 BLOIS']",
+          "officiels": [
+            "YVES DONFOUET DJIFO_AC",
+            "THOMAS RAINEREAU_A1",
+            "HAFID BENALI_DP"
+          ]
         },
         {
           "id": 79655952,
@@ -301,10 +375,16 @@
           "heure": "20:00",
           "recevant": "DREUX FUTSAL",
           "visiteur": "ORLEANS FUTSAL",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "GYMNASE PIERRE ET MARIE CURIE_['49 RUE DU LIEVRE D OR', '28100 DREUX']",
+          "officiels": [
+            "Anonyme_AC",
+            "JEFF BIVARD_A1",
+            "PATRICK MOUSSONNE_DP"
+          ]
         },
         {
           "id": 79655954,

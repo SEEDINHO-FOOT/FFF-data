@@ -1007,6 +1007,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE SAINT SALVAYRE 1_['CHEMIN SAINT SALVAYRE', 'ANNEXE 2', '11100 NARBONNE']": {
+          "nom": "STADE SAINT SALVAYRE 1",
+          "adresse": "CHEMIN SAINT SALVAYRE | ANNEXE 2 | 11100 NARBONNE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -1024,6 +1031,11 @@
           "nom": "GEORGES LACOTE",
           "role": "Observateur principal",
           "role_cod": "CP"
+        },
+        "PIERRE PERRAMOND_AC": {
+          "nom": "PIERRE PERRAMOND",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -1064,7 +1076,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx8kyognbc": {
           "nom": "BILEL A.",
-          "maillot": 8,
+          "maillot": 11,
           "club": "TREBES FC 2"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx8kC8kl7A": {
@@ -1084,7 +1096,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp_mycjmrI": {
           "nom": "WAHIB B.",
-          "maillot": 2,
+          "maillot": 10,
           "club": "TREBES FC 2"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx8kSonmrY": {
@@ -1119,12 +1131,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp-kSsmmbY": {
           "nom": "KAIS K.",
-          "maillot": 10,
+          "maillot": 5,
           "club": "TREBES FC 2"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp-kSsmlr8": {
           "nom": "SOULEYMANE K.",
-          "maillot": 11,
+          "maillot": 9,
           "club": "TREBES FC 2"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt6lC0gnrI": {
@@ -1186,6 +1198,11 @@
           "nom": "JULES R.",
           "maillot": 12,
           "club": "CASTELNAUDARY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx4lSYmmrI": {
+          "nom": "MEHDI E.",
+          "maillot": 9,
+          "club": "UFC NARBONNAIS"
         }
       },
       "matchs": [
@@ -1388,14 +1405,28 @@
         },
         {
           "id": 79551379,
-          "date": "2026-10-03",
-          "heure": "14:00",
+          "date": "2026-10-14",
+          "heure": "17:30",
           "recevant": "UFC NARBONNAIS",
           "visiteur": "F.U. NARBONNE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 31,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4lSYmmrI",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE SAINT SALVAYRE 1_['CHEMIN SAINT SALVAYRE', 'ANNEXE 2', '11100 NARBONNE']",
+          "officiels": [
+            "PIERRE PERRAMOND_AC"
+          ]
         },
         {
           "id": 79554983,
@@ -1459,7 +1490,7 @@
         },
         {
           "id": 79554996,
-          "date": "2026-10-03",
+          "date": "2026-10-17",
           "heure": "14:00",
           "recevant": "GRPT OCSM / FCSA",
           "visiteur": "CARCASSONNE FAC 2",

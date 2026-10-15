@@ -1857,6 +1857,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC515603.jpg",
           "clNo": "4823",
           "slug": "515603-st-benoit-huismes-f-2"
+        },
+        "CHAMPIGNY US": {
+          "nom": "CHAMPIGNY US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC511975.jpg",
+          "clNo": "3917",
+          "slug": "511975-champigny-us"
         }
       },
       "stades": {
@@ -1865,6 +1871,13 @@
           "adresse": "RUE DES PATIS | 37260 MONTS",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE RENE BROSSET 1_['RUE DES TROIS MOULINS', '37800 POUZAY']": {
+          "nom": "STADE RENE BROSSET 1",
+          "adresse": "RUE DES TROIS MOULINS | 37800 POUZAY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
         }
       },
@@ -2051,10 +2064,11 @@
           "heure": "20:00",
           "recevant": "LA CELLE POUZAY FC",
           "visiteur": "CHAMPIGNY US",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE RENE BROSSET 1_['RUE DES TROIS MOULINS', '37800 POUZAY']"
         },
         {
           "id": 79636594,
@@ -4620,6 +4634,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE RODOLPHE HENRY_['3 RUE DU STADE', '37130 BREHEMONT']": {
+          "nom": "STADE RODOLPHE HENRY",
+          "adresse": "3 RUE DU STADE | 37130 BREHEMONT",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -4637,17 +4658,22 @@
           "nom": "PASCAL JUBIN",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "SEBASTIEN BOUTEILLE_AC": {
+          "nom": "SEBASTIEN BOUTEILLE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
         "ir3_vj-lzPeINLfhzILsrKlIEa1_kyoln7Q": {
           "nom": "CEDRIC R.",
-          "maillot": 11,
+          "maillot": 12,
           "club": "LIGNIERES BREHEMONT  2"
         },
         "ir3_vj-lzPeINLfhzILsrKlIEK1_kCommrE": {
           "nom": "MORGAN G.",
-          "maillot": 12,
+          "maillot": 13,
           "club": "LIGNIERES BREHEMONT  2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd_kyssnrU": {
@@ -4677,7 +4703,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKlJF616kCcsmrQ": {
           "nom": "JEREMY E.",
-          "maillot": 13,
+          "maillot": 10,
           "club": "ST ANTOINE DU ROCHER 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh9lygkm7c": {
@@ -4734,6 +4760,36 @@
           "nom": "THEO D.",
           "maillot": 11,
           "club": "VAL DE CISSE FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt4lS8imLM": {
+          "nom": "QUENTIN B.",
+          "maillot": 11,
+          "club": "LIGNIERES BREHEMONT  2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh6kSkmmbE": {
+          "nom": "HEANDRE G.",
+          "maillot": 12,
+          "club": "ST ANTOINE DU ROCHER 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl_liglmL4": {
+          "nom": "MOUJAHID Z.",
+          "maillot": 14,
+          "club": "ST ANTOINE DU ROCHER 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx2kConnL8": {
+          "nom": "BASTIEN A.",
+          "maillot": 9,
+          "club": "LIGNIERES BREHEMONT  2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd_mi8kmLE": {
+          "nom": "MIRAHNE S.",
+          "maillot": 3,
+          "club": "ST ANTOINE DU ROCHER 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl3liklnr8": {
+          "nom": "ALI KAAN U.",
+          "maillot": 13,
+          "club": "ST ANTOINE DU ROCHER 2"
         }
       },
       "matchs": [
@@ -4879,10 +4935,51 @@
           "heure": "15:00",
           "recevant": "LIGNIERES BREHEMONT  2",
           "visiteur": "ST ANTOINE DU ROCHER 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 26,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt4lS8imLM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlIEa1_kyoln7Q",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 36,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh9mi0sm74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh6kSkmmbE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 36,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlJF616kCcsmrQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl_liglmL4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 43,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx2kConnL8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlIEK1_kCommrE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 73,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd_mi8kmLE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl3liklnr8",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE RODOLPHE HENRY_['3 RUE DU STADE', '37130 BREHEMONT']",
+          "officiels": [
+            "SEBASTIEN BOUTEILLE_AC"
+          ]
         },
         {
           "id": 79636649,

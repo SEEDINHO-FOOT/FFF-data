@@ -10,8 +10,48 @@
     {
       "cp_slug": "459804-coupe-u17-ddaf/phase/1/1",
       "competition": "Coupe U17 DDAF",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "USPHC": {
+          "nom": "USPHC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC581869.jpg",
+          "clNo": "186927",
+          "slug": "581869-usphc"
+        },
+        "E.S. BEAUMONTELEGER 2": {
+          "nom": "E.S. BEAUMONTELEGER 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC582281.jpg",
+          "clNo": "189604",
+          "slug": "582281-e-s-beaumonteleger-2"
+        },
+        "ENT. FCV-SCBA 2": {
+          "nom": "ENT. FCV-SCBA 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC544907.jpg",
+          "clNo": "23007",
+          "slug": "544907-ent-fcv-scba-2"
+        },
+        "A.S.V.M 2": {
+          "nom": "A.S.V.M 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC580604.jpg",
+          "clNo": "176967",
+          "slug": "580604-a-s-v-m-2"
+        }
+      },
+      "stades": {
+        "STADE ÉCHELLE DU ROI_['CHEMIN DE LA CONDAMINE', '07330 THUEYTS']": {
+          "nom": "STADE ÉCHELLE DU ROI",
+          "adresse": "CHEMIN DE LA CONDAMINE | 07330 THUEYTS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 1_['07150 VALLON PONT D ARC']": {
+          "nom": "STADE MUNICIPAL 1",
+          "adresse": "07150 VALLON PONT D ARC",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -62,7 +102,7 @@
         {
           "id": 79704605,
           "date": "2026-10-17",
-          "heure": "15:00",
+          "heure": "13:00",
           "recevant": "A.S. CORNAS 2",
           "visiteur": "ENT. ESND/FC CHATEL. 2",
           "buts_recevant": null,
@@ -150,7 +190,7 @@
         {
           "id": 79704613,
           "date": "2026-10-17",
-          "heure": "15:00",
+          "heure": "13:00",
           "recevant": "ENT.S. CHOMERACOISE",
           "visiteur": "CREST AOUSTE 2",
           "buts_recevant": null,
@@ -172,7 +212,7 @@
         {
           "id": 79704615,
           "date": "2026-10-17",
-          "heure": "15:00",
+          "heure": "16:00",
           "recevant": "ST PAUL 3 CH.",
           "visiteur": "JEUNES DE VINEZAC",
           "buts_recevant": null,
@@ -183,7 +223,7 @@
         {
           "id": 79704616,
           "date": "2026-10-17",
-          "heure": "15:00",
+          "heure": "14:00",
           "recevant": "U.S. BAS VIVARAIS",
           "visiteur": "ENT. RCS FCS",
           "buts_recevant": null,
@@ -208,15 +248,16 @@
           "heure": "15:00",
           "recevant": "USPHC",
           "visiteur": "E.S. BEAUMONTELEGER 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ÉCHELLE DU ROI_['CHEMIN DE LA CONDAMINE', '07330 THUEYTS']"
         },
         {
           "id": 79704619,
           "date": "2026-10-17",
-          "heure": "15:00",
+          "heure": "14:00",
           "recevant": "ATHLETIC FOOT CEVEN",
           "visiteur": "PIERRELATTE 2",
           "buts_recevant": null,
@@ -249,7 +290,7 @@
         {
           "id": 79704622,
           "date": "2026-10-17",
-          "heure": "15:00",
+          "heure": "16:00",
           "recevant": "U.S. ST JUST ST MARC",
           "visiteur": "ENT. USVJ/FCV 2",
           "buts_recevant": null,
@@ -285,10 +326,11 @@
           "heure": "15:00",
           "recevant": "ENT. FCV-SCBA 2",
           "visiteur": "A.S.V.M 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['07150 VALLON PONT D ARC']"
         }
       ]
     }

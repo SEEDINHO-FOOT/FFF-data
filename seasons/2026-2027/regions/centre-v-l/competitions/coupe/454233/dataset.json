@@ -406,6 +406,30 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC518553.jpg",
           "clNo": "5913",
           "slug": "518553-et-s-villebarou"
+        },
+        "US ORLEANS 45 2": {
+          "nom": "US ORLEANS 45 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC504891.jpg",
+          "clNo": "2421",
+          "slug": "504891-us-orleans-45-2"
+        },
+        "JARGEAU ST.DENIS": {
+          "nom": "JARGEAU ST.DENIS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC552008.jpg",
+          "clNo": "116757",
+          "slug": "552008-jargeau-st-denis"
+        },
+        "BLOIS AFC 1995": {
+          "nom": "BLOIS AFC 1995",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC545766.jpg",
+          "clNo": "23625",
+          "slug": "545766-blois-afc-1995"
+        },
+        "U.S. ST PIERRE DES C": {
+          "nom": "U.S. ST PIERRE DES C",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC504935.jpg",
+          "clNo": "2452",
+          "slug": "504935-u-s-st-pierre-des-c"
         }
       },
       "stades": {
@@ -639,6 +663,20 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE DE LA SOURCE 2_['LA SOURCE', 'AVE DE LA RECHERCHE SCIENTIFIQUE', '45100 ORLEANS']": {
+          "nom": "STADE DE LA SOURCE 2",
+          "adresse": "LA SOURCE | AVE DE LA RECHERCHE SCIENTIFIQUE | 45100 ORLEANS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE ÉRIC TABARLY 2_['RUE SAMUEL DE CHAMPLAIN', '41000 BLOIS']": {
+          "nom": "STADE ÉRIC TABARLY 2",
+          "adresse": "RUE SAMUEL DE CHAMPLAIN | 41000 BLOIS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -789,6 +827,16 @@
         },
         "NAJIB WALADI_AC": {
           "nom": "NAJIB WALADI",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "MEHDY BOTTIN_AC": {
+          "nom": "MEHDY BOTTIN",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "KEVIN MARCHADIER_AC": {
+          "nom": "KEVIN MARCHADIER",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -4355,10 +4403,14 @@
           "heure": "14:00",
           "recevant": "US ORLEANS 45 2",
           "visiteur": "JARGEAU ST.DENIS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 10,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA SOURCE 2_['LA SOURCE', 'AVE DE LA RECHERCHE SCIENTIFIQUE', '45100 ORLEANS']",
+          "officiels": [
+            "MEHDY BOTTIN_AC"
+          ]
         },
         {
           "id": 79786495,
@@ -4759,10 +4811,14 @@
           "heure": "19:00",
           "recevant": "BLOIS AFC 1995",
           "visiteur": "U.S. ST PIERRE DES C",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ÉRIC TABARLY 2_['RUE SAMUEL DE CHAMPLAIN', '41000 BLOIS']",
+          "officiels": [
+            "KEVIN MARCHADIER_AC"
+          ]
         },
         {
           "id": 79786501,
@@ -5454,7 +5510,7 @@
         {
           "id": 79786507,
           "date": "2026-10-10",
-          "heure": "15:00",
+          "heure": "18:00",
           "recevant": "DAMMARIE / BERCHERES",
           "visiteur": "ST PRYVE ST HILAIRE",
           "buts_recevant": 0,

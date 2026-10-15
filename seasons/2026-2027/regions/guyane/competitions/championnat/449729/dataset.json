@@ -70,6 +70,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC519983.jpg",
           "clNo": "6648",
           "slug": "519983-u-s-sinnamary"
+        },
+        "LOYOLA O.C": {
+          "nom": "LOYOLA O.C",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC582129.jpg",
+          "clNo": "189122",
+          "slug": "582129-loyola-o-c"
         }
       },
       "stades": {
@@ -113,6 +119,13 @@
           "adresse": "RUE DU VIEUX CHEMIN | 97354 REMIRE MONTJOLY",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "CS CLAUDE COUMBA & SERGE LUGIER_['ROCADE DE ZEPHIR', '97300 CAYENNE']": {
+          "nom": "CS CLAUDE COUMBA & SERGE LUGIER",
+          "adresse": "ROCADE DE ZEPHIR | 97300 CAYENNE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
         }
       },
@@ -161,6 +174,16 @@
           "nom": "WATSON BAZILE",
           "role": "Arbitre assistant 2",
           "role_cod": "A2"
+        },
+        "BOAZ KANT BERNADEL_AC": {
+          "nom": "BOAZ KANT BERNADEL",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "DONALD MICHAUD_A1": {
+          "nom": "DONALD MICHAUD",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
         }
       },
       "joueurs": {
@@ -231,7 +254,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx8lSYlm7A": {
           "nom": "SULYVAN T.",
-          "maillot": 7,
+          "maillot": 10,
           "club": "OLYMPIQUE DE CAYENNE"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt-lCcmmLE": {
@@ -403,6 +426,36 @@
           "nom": "THEOPHILE O.",
           "maillot": 3,
           "club": "U.S.L. MONTJOLY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt8lC8mm7U": {
+          "nom": "DIEUVENSKY C.",
+          "maillot": 2,
+          "club": "OLYMPIQUE DE CAYENNE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh_kicllrQ": {
+          "nom": "LOHANE B.",
+          "maillot": 4,
+          "club": "OLYMPIQUE DE CAYENNE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt5kycjmLM": {
+          "nom": "WISGUERSON D.",
+          "maillot": 10,
+          "club": "A.S.C.S. COGNEAU"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd8kSojl7E": {
+          "nom": "KALEN B.",
+          "maillot": 10,
+          "club": "LOYOLA O.C"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh2kC8lmbc": {
+          "nom": "JOSIAS N.",
+          "maillot": 6,
+          "club": "LOYOLA O.C"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd7kiYlnrE": {
+          "nom": "KRYS STANN M.",
+          "maillot": 9,
+          "club": "LOYOLA O.C"
         }
       },
       "matchs": [
@@ -783,10 +836,54 @@
           "heure": "15:45",
           "recevant": "OLYMPIQUE DE CAYENNE",
           "visiteur": "A.S.C.S. COGNEAU",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 1,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt8lC8mm7U",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 5,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh_kicllrQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 10,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh_ly4ml7U",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 25,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh_ly4ml7U",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 35,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8lSYlm7A",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt5kycjmLM",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "CS CLAUDE COUMBA & SERGE LUGIER_['ROCADE DE ZEPHIR', '97300 CAYENNE']",
+          "officiels": [
+            "BOAZ KANT BERNADEL_AC",
+            "DONALD MICHAUD_A1",
+            "WATSON BAZILE_A2"
+          ]
         },
         {
           "id": 79691374,
@@ -881,10 +978,31 @@
           "heure": "15:45",
           "recevant": "LOYOLA O.C",
           "visiteur": "A.S. ET. MATOURY",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 50,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8kSojl7E",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 65,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh2kC8lmbc",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 85,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7kiYlnrE",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "PARC DES SPORTS EDWIGE 1_['TERRAIN MORNE COCO', 'AV. GUSTAVE CHARLERY', '97354 REMIRE MONTJOLY']"
         },
         {
           "id": 79691378,
@@ -899,8 +1017,8 @@
         },
         {
           "id": 79691379,
-          "date": "2026-10-17",
-          "heure": "15:45",
+          "date": "2026-10-18",
+          "heure": "08:00",
           "recevant": "A.S.C.S. COGNEAU",
           "visiteur": "U.S.L. MONTJOLY",
           "buts_recevant": null,
@@ -921,8 +1039,8 @@
         },
         {
           "id": 79691381,
-          "date": "2026-10-17",
-          "heure": "15:45",
+          "date": "2026-10-18",
+          "heure": "08:00",
           "recevant": "U.S. MATOURY",
           "visiteur": "S.C. KOUROU",
           "buts_recevant": null,
@@ -2021,6 +2139,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565109.jpg",
           "clNo": "204995",
           "slug": "565109-a-s-des-vampires"
+        },
+        "R.C. MARONI": {
+          "nom": "R.C. MARONI",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC580560.jpg",
+          "clNo": "176763",
+          "slug": "580560-r-c-maroni"
         }
       },
       "stades": {
@@ -2076,6 +2200,16 @@
           "nom": "Anonyme",
           "role": "Arbitre assistant 2",
           "role_cod": "A2"
+        },
+        "ROCELSKY TUINFORT_AC": {
+          "nom": "ROCELSKY TUINFORT",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "KEVIN DIFIENJO_A2": {
+          "nom": "KEVIN DIFIENJO",
+          "role": "Arbitre assistant 2",
+          "role_cod": "A2"
         }
       },
       "joueurs": {
@@ -2091,7 +2225,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx9kyYnmbA": {
           "nom": "JENILSON A.",
-          "maillot": 13,
+          "maillot": 12,
           "club": "C.O.S.M.A. FOOT"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx9kCwil78": {
@@ -2106,7 +2240,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx9kyYnmLU": {
           "nom": "CURTIS M.",
-          "maillot": 11,
+          "maillot": 9,
           "club": "C.O.S.M.A. FOOT"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp5kiYtnbI": {
@@ -2136,7 +2270,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx2li8imbM": {
           "nom": "THEGO M.",
-          "maillot": 3,
+          "maillot": 14,
           "club": "F.C. CHARVEIN"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx9lystmL8": {
@@ -2146,17 +2280,17 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx9kysmnLc": {
           "nom": "SHENARO K.",
-          "maillot": 8,
+          "maillot": 6,
           "club": "F.C. CHARVEIN"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx-kCsslrA": {
           "nom": "URVIELLO A.",
-          "maillot": 11,
+          "maillot": 13,
           "club": "F.C. CHARVEIN"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt5lioslrA": {
           "nom": "MESSON P.",
-          "maillot": 9,
+          "maillot": 12,
           "club": "F.C. CHARVEIN"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx9kCcgnrA": {
@@ -2696,10 +2830,16 @@
           "heure": "15:45",
           "recevant": "A.S.C. PYITONON",
           "visiteur": "R.C. MARONI",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MAURICE MONI LAMORI-COCHI_['LA CHARBONNIERE', '97320 ST LAURENT DU MARONI']",
+          "officiels": [
+            "ROCELSKY TUINFORT_AC",
+            "Anonyme_A1",
+            "KEVIN DIFIENJO_A2"
+          ]
         },
         {
           "id": 79439889,

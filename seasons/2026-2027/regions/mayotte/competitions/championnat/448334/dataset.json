@@ -751,6 +751,21 @@
           "nom": "MYAD SAID",
           "role": "Arbitre assistant 1",
           "role_cod": "A1"
+        },
+        "ALI FATIHOU_A2": {
+          "nom": "ALI FATIHOU",
+          "role": "Arbitre assistant 2",
+          "role_cod": "A2"
+        },
+        "MOUSSA DANIEL_AC": {
+          "nom": "MOUSSA DANIEL",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "FAHADI SAID MOIRAB_A1": {
+          "nom": "FAHADI SAID MOIRAB",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
         }
       },
       "joueurs": {
@@ -1406,7 +1421,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp8licjm7M": {
           "nom": "ROIHIM A.",
-          "maillot": 10,
+          "maillot": 8,
           "club": "USC LABATTOIR"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx8lS8km7M": {
@@ -7526,10 +7541,40 @@
           "heure": "15:30",
           "recevant": "USC LABATTOIR",
           "visiteur": "FOUDRE 2000",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 16,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl2liYglrM",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 57,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx-lissmr4",
+              "sanction": "J",
+              "sanction_detail": "J4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 58,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp8licjm7M",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE DE LABATTOIR_['RUE DES REFUGIES', '97615 DZAOUDZI']",
+          "officiels": [
+            "MOUSSA DANIEL_AC",
+            "FAHADI SAID MOIRAB_A1",
+            "Anonyme_A2"
+          ]
         },
         {
           "id": 55646331,
@@ -7675,7 +7720,8 @@
           "officiels": [
             "ABDOUL KARIME BAMANA_AC",
             "ISSOUFOU ALI_A1",
-            "AHAMADA IBRAHIMA_A2"
+            "AHAMADA IBRAHIMA_A2",
+            "ALI FATIHOU_A2"
           ]
         },
         {
