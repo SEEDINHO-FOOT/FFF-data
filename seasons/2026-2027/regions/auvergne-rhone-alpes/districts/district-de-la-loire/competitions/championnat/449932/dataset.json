@@ -231,6 +231,16 @@
           "nom": "YOUNESS REGRAG",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "CLEMENT CORSO_AC": {
+          "nom": "CLEMENT CORSO",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "SABRY BENBELAID_AC": {
+          "nom": "SABRY BENBELAID",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -266,7 +276,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrK1JFa55lCslng": {
           "nom": "DAMIEN F.",
-          "maillot": 8,
+          "maillot": 13,
           "club": "US ECOTAY MOINGT 5"
         },
         "ir3_vj-lzPeINLfhzILsrKpNE6d4ky8lm7I": {
@@ -616,7 +626,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNFqd5kC8gn7Y": {
           "nom": "GAUTIER G.",
-          "maillot": 14,
+          "maillot": 10,
           "club": "A.B.H FC 5"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh-migmnb8": {
@@ -776,7 +786,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNFaZ6kCgnmbI": {
           "nom": "SEBASTIEN F.",
-          "maillot": 12,
+          "maillot": 10,
           "club": "S.MARCELLIN F 5"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK13mycimbU": {
@@ -791,7 +801,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNFqZ6kycnmbI": {
           "nom": "CHRISTOPHE K.",
-          "maillot": 10,
+          "maillot": 12,
           "club": "S.MARCELLIN F 5"
         },
         "ir3_vj-lzPeINLfhzILsrKpNE6d4ky4ln7Q": {
@@ -943,6 +953,36 @@
           "nom": "ROMAIN G.",
           "maillot": 14,
           "club": "US ECOTAY MOINGT 5"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh_listnLI": {
+          "nom": "CHRISTOPHE D.",
+          "maillot": 9,
+          "club": "US ECOTAY MOINGT 5"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNFKd4lScsnbM": {
+          "nom": "CORENTIN M.",
+          "maillot": 9,
+          "club": "A.S. ST JUST ST RAMB 5"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEqd4kCghm74": {
+          "nom": "SOUFIAN O.",
+          "maillot": 13,
+          "club": "A.S. ST JUST ST RAMB 5"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNHad4kC8jmbQ": {
+          "nom": "AMMAR K.",
+          "maillot": 11,
+          "club": "A.S. ST JUST ST RAMB 5"
+        },
+        "ir3_vj-lzPeINLfhzILsrK1JFKd4lCwglw": {
+          "nom": "ROMAIN C.",
+          "maillot": 12,
+          "club": "A.S. ST JUST ST RAMB 5"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd4kCwtn7M": {
+          "nom": "TONY B.",
+          "maillot": 14,
+          "club": "S.MARCELLIN F 5"
         }
       },
       "matchs": [
@@ -2249,10 +2289,56 @@
           "heure": "20:00",
           "recevant": "A.B.H FC 5",
           "visiteur": "US ECOTAY MOINGT 5",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 23,
+              "type": "carton-rouge",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNFqd5kC8gn7Y",
+              "sanction": "R",
+              "sanction_detail": "R1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 56,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh_listnLI",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 59,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNFqZ6ky0gnb8",
+              "sanction": "J",
+              "sanction_detail": "J2",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 59,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNE6d4ky8lm7I",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 72,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrK1JFa55lCslng",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL_['ROUTE DU VERJOLLAT', '42330 AVEIZIEUX']",
+          "officiels": [
+            "CLEMENT CORSO_AC"
+          ]
         },
         {
           "id": 56587895,
@@ -2260,10 +2346,51 @@
           "heure": "20:45",
           "recevant": "A.S. ST JUST ST RAMB 5",
           "visiteur": "S.MARCELLIN F 5",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 48,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNFaZ6kiohnL8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNFqZ6kycnmbI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 50,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNFKd4lScsnbM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEqd4kCghm74",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 50,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNFaZ6kCgnmbI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNHKd4lisjmrQ",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 55,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNHad4kC8jmbQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrK1JFKd4lCwglw",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 55,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp6lSskmLM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd4kCwtn7M",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "COMPLEXE SPORTIF DES UNCHATS 2_['ROUTE DE CHAMBLES', '42170 ST JUST ST RAMBERT']",
+          "officiels": [
+            "SABRY BENBELAID_AC"
+          ]
         },
         {
           "id": 56587896,
@@ -5413,7 +5540,7 @@
         {
           "id": 56588029,
           "date": "2026-10-17",
-          "heure": "17:30",
+          "heure": "15:30",
           "recevant": "A.S. ALGERIENNE 6",
           "visiteur": "PSM FOOT 5",
           "buts_recevant": null,

@@ -28,6 +28,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC518773.jpg",
           "clNo": "6021",
           "slug": "518773-st-nicolas-arras-sc"
+        },
+        "BEUVRY US": {
+          "nom": "BEUVRY US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC512333.jpg",
+          "clNo": "3997",
+          "slug": "512333-beuvry-us"
         }
       },
       "stades": {
@@ -41,6 +47,13 @@
         "STADE LELONG VOISIN N° 3_['2-8 RUE POINCARE', 'Terrain Daniel PERCHERON', '62800 LIEVIN']": {
           "nom": "STADE LELONG VOISIN N° 3",
           "adresse": "2-8 RUE POINCARE | Terrain Daniel PERCHERON | 62800 LIEVIN",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE LÉO LAGRANGE 2_['CHEMIN DE LA CARRIERE', 'ANNEXE', '62660 BEUVRY']": {
+          "nom": "STADE LÉO LAGRANGE 2",
+          "adresse": "CHEMIN DE LA CARRIERE | ANNEXE | 62660 BEUVRY",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -82,6 +95,31 @@
           "nom": "LYLOU S.",
           "maillot": 4,
           "club": "LIEVIN DIANA CS 6"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17kysjnL8": {
+          "nom": "LAURETTE H.",
+          "maillot": 9,
+          "club": "BEUVRY US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt4lCsinrI": {
+          "nom": "ZOHRA MIRA B.",
+          "maillot": 3,
+          "club": "ST NICOLAS ARRAS SC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp6li4tmr8": {
+          "nom": "SIA MABINTY K.",
+          "maillot": 2,
+          "club": "ST NICOLAS ARRAS SC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt6kyYsmrI": {
+          "nom": "MARION P.",
+          "maillot": 7,
+          "club": "BEUVRY US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK1_mikmmb4": {
+          "nom": "YSE D.",
+          "maillot": 4,
+          "club": "BEUVRY US"
         }
       },
       "matchs": [
@@ -91,10 +129,49 @@
           "heure": "14:00",
           "recevant": "BEUVRY US",
           "visiteur": "ST NICOLAS ARRAS SC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 20,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK17kysjnL8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 28,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK17kysjnL8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt4lCsinrI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 45,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp6li4tmr8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 60,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt6kyYsmrI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 62,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK1_mikmmb4",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE LÉO LAGRANGE 2_['CHEMIN DE LA CARRIERE', 'ANNEXE', '62660 BEUVRY']"
         },
         {
           "id": 79668752,
@@ -204,7 +281,7 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "à venir"
+          "statut": "reporté"
         },
         {
           "id": 79668842,

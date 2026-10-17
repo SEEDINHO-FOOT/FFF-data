@@ -222,10 +222,11 @@
           "heure": "20:00",
           "recevant": "BOISSEUIL 17 STADE 2",
           "visiteur": "ST CHRISTOPHE 17 AS 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['boisseuil', ' RUE DE LA CHAPELLE', '17700 ST MARD']"
         },
         {
           "id": 79674999,
@@ -233,10 +234,11 @@
           "heure": "21:00",
           "recevant": "LA SOIE FC",
           "visiteur": "BOUTONNAIS AVIRON 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['Rue du stade', '17380 LANDES']"
         },
         {
           "id": 79675000,
@@ -244,10 +246,11 @@
           "heure": "21:00",
           "recevant": "LUSSANT FC 2",
           "visiteur": "NACHAMPS 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['CHEMIN DES VIGNES', '17430 LUSSANT']"
         },
         {
           "id": 79675001,
@@ -651,6 +654,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE LUCIEN BRANGER 1_['RUE DU STADE', '17430 CABARIOT']": {
+          "nom": "STADE LUCIEN BRANGER 1",
+          "adresse": "RUE DU STADE | 17430 CABARIOT",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -674,6 +684,36 @@
           "nom": "STEPHANE D.",
           "maillot": 10,
           "club": "BOUTONNAIS AVIRON 4"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt4kiclmb8": {
+          "nom": "GREGORY C.",
+          "maillot": 3,
+          "club": "PONT L ABBE D ARNOUL 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK14mi4jmrY": {
+          "nom": "MAEL D.",
+          "maillot": 9,
+          "club": "PONT L ABBE D ARNOUL 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt-my0smLU": {
+          "nom": "WILLIAM M.",
+          "maillot": 6,
+          "club": "PONT L ABBE D ARNOUL 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd6lCkml7c": {
+          "nom": "CYANN F.",
+          "maillot": 10,
+          "club": "PONT L ABBE D ARNOUL 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlJFa92mywjnLQ": {
+          "nom": "SEBASTIEN P.",
+          "maillot": 4,
+          "club": "PONT L ABBE D ARNOUL 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlJFaZ9ky4tlr4": {
+          "nom": "CHRISTOPHE B.",
+          "maillot": 12,
+          "club": "PONT L ABBE D ARNOUL 2"
         }
       },
       "matchs": [
@@ -837,10 +877,41 @@
           "heure": "21:00",
           "recevant": "PONT L ABBE D ARNOUL 2",
           "visiteur": "TRIZAY CS 4",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt4kiclmb8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK14mi4jmrY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt-my0smLU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6lCkml7c",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 36,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlJFa92mywjnLQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlJFaZ9ky4tlr4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 36,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlJFa92mywjnLQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlJFaZ9ky4tlr4",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE DE L'ARNOULT 1_['AVENUE BERNARD CHAMBENOIT', '17250 PONT L ABBE D ARNOULT']"
         },
         {
           "id": 79675067,
@@ -859,10 +930,11 @@
           "heure": "21:00",
           "recevant": "BOUTONNAIS AVIRON 4",
           "visiteur": "MASTER CLUB",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_[' IMPASSE DU STADE', '17380 TONNAY BOUTONNE']"
         },
         {
           "id": 79675069,
@@ -1235,10 +1307,11 @@
           "heure": "21:00",
           "recevant": "CABARIOTAISE AS 3",
           "visiteur": "ST PORCHAIRE CORME R 5",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE LUCIEN BRANGER 1_['RUE DU STADE', '17430 CABARIOT']"
         },
         {
           "id": 79698627,
@@ -1246,10 +1319,11 @@
           "heure": "21:00",
           "recevant": "ROCHEFORT FC 5",
           "visiteur": "ST GEORGES COTEAUX 4",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 9,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA CASSE AUX PRÊTRES 3_[' RUE DE LA CASSE AUX PRETRES', '17300 ROCHEFORT']"
         }
       ]
     },
@@ -1328,6 +1402,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['Rue du stade', '17770 ST CESAIRE']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "Rue du stade | 17770 ST CESAIRE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -1359,27 +1440,27 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp4mi4lnrc": {
           "nom": "MAEL R.",
-          "maillot": 11,
+          "maillot": 10,
           "club": "RETAUD CHERMIGNAC 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpLEqd-kycjlrc": {
           "nom": "CHRISTOPHE D.",
-          "maillot": 8,
+          "maillot": 6,
           "club": "RETAUD CHERMIGNAC 2"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp6kCsnnbE": {
           "nom": "THYO F.",
-          "maillot": 10,
+          "maillot": 9,
           "club": "RETAUD CHERMIGNAC 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl2kS0tlrQ": {
           "nom": "MAXIME M.",
-          "maillot": 2,
+          "maillot": 12,
           "club": "RETAUD CHERMIGNAC 2"
         },
         "ir3_vj-lzPeINLfhzILsrKlJHK16kC0lmrA": {
           "nom": "JEREMY B.",
-          "maillot": 12,
+          "maillot": 14,
           "club": "RETAUD CHERMIGNAC 2"
         },
         "ir3_vj-lzPeINLfhzILsrKlJHK16kCwinrI": {
@@ -1416,6 +1497,81 @@
           "nom": "ADRIEN R.",
           "maillot": 2,
           "club": "DRAGONS VERTS FCBVT 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp4myssnrY": {
+          "nom": "JULIEN V.",
+          "maillot": 11,
+          "club": "FC GARNAUDIEN ARGENT 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16kC8ll7I": {
+          "nom": "KENZO Y.",
+          "maillot": 9,
+          "club": "FC GARNAUDIEN ARGENT 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlIFq99ki8kn7E": {
+          "nom": "NICOLAS S.",
+          "maillot": 4,
+          "club": "RETAUD CHERMIGNAC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6mycsnr4": {
+          "nom": "DORIAN P.",
+          "maillot": 8,
+          "club": "RETAUD CHERMIGNAC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlJHa16kykjm7M": {
+          "nom": "CLEMENT L.",
+          "maillot": 8,
+          "club": "ST CESAIRE EFCVC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlJFqZ9licknLI": {
+          "nom": "RYAN B.",
+          "maillot": 11,
+          "club": "BRAMERIT ES 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlBEal2kyogl74": {
+          "nom": "SAMIR M.",
+          "maillot": 12,
+          "club": "BRAMERIT ES 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl9lCkmn7I": {
+          "nom": "DIMITRI S.",
+          "maillot": 3,
+          "club": "BRAMERIT ES 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl-lS8hm7Q": {
+          "nom": "KILLIAN G.",
+          "maillot": 9,
+          "club": "BRAMERIT ES 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlJE616ky8sl7Q": {
+          "nom": "JEREMY M.",
+          "maillot": 6,
+          "club": "ST CESAIRE EFCVC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK13kSYknrA": {
+          "nom": "ANAEL B.",
+          "maillot": 3,
+          "club": "ST CESAIRE EFCVC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlJFqZ9kSkgl7U": {
+          "nom": "CEDRIC L.",
+          "maillot": 13,
+          "club": "ST CESAIRE EFCVC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx3kicll74": {
+          "nom": "RONAN L.",
+          "maillot": 9,
+          "club": "ST CESAIRE EFCVC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlJEK16kC4hlrA": {
+          "nom": "TOUFIK I.",
+          "maillot": 5,
+          "club": "BRAMERIT ES 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl-lS8inL8": {
+          "nom": "MATHEO G.",
+          "maillot": 7,
+          "club": "BRAMERIT ES 3"
         }
       },
       "matchs": [
@@ -1562,10 +1718,55 @@
           "heure": "21:00",
           "recevant": "RETAUD CHERMIGNAC 2",
           "visiteur": "FC GARNAUDIEN ARGENT 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 5,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4myssnrY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK16kC8ll7I",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 5,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4myssnrY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK16kC8ll7I",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 10,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp6kCsnnbE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlIFq99ki8kn7E",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 14,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl5mionm7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl2kS0tlrQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6mycsnr4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4mi4lnrc",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLEqd-kycjlrc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlJHK16kC0lmrA",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE PIERRE CHAUVET_['Chemin des Ecoliers', '17460 RETAUD']"
         },
         {
           "id": 79675197,
@@ -1573,10 +1774,69 @@
           "heure": "21:00",
           "recevant": "ST CESAIRE EFCVC 2",
           "visiteur": "BRAMERIT ES 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlJHa16kykjm7M",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlJHa16kysjm78",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlJFqZ9licknLI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlBEal2kyogl74",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlJFqZ9licknLI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlBEal2kyogl74",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl9lCkmn7I",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl-lS8hm7Q",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 27,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlJE616ky8sl7Q",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh9my4llrM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK13kSYknrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlJFqZ9kSkgl7U",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlJHK16kCwinrI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3kicll74",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlJEK16kC4hlrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl-lS8inL8",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL_['Rue du stade', '17770 ST CESAIRE']"
         },
         {
           "id": 79675198,
@@ -1882,6 +2142,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football réduit"
+        },
+        "STADE MARIUS VALLET_['Fief de la Montagne', '17120 SEMUSSAC']": {
+          "nom": "STADE MARIUS VALLET",
+          "adresse": "Fief de la Montagne | 17120 SEMUSSAC",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -1997,10 +2264,11 @@
           "heure": "21:00",
           "recevant": "ST GENIS SAIN 4",
           "visiteur": "GUIT/NIEUL AS 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 14,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA CANDELLERIE_['Avenue de Bordeaux', '17240 ST GENIS DE SAINTONGE']"
         },
         {
           "id": 79675581,
@@ -2008,10 +2276,11 @@
           "heure": "21:00",
           "recevant": "SEMUSSACAISE JS 3",
           "visiteur": "DRAGONS VERTS FCBVT 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MARIUS VALLET_['Fief de la Montagne', '17120 SEMUSSAC']"
         },
         {
           "id": 79675582,
@@ -2398,6 +2667,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE ANDRÉ METREAU_['ROUTE DE CAYENNE', '17320 MARENNES']": {
+          "nom": "STADE ANDRÉ METREAU",
+          "adresse": "ROUTE DE CAYENNE | 17320 MARENNES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -2526,10 +2802,11 @@
           "heure": "21:00",
           "recevant": "MEURSAC",
           "visiteur": "PORTES OCEAN 17 FC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE J.M. DURANDET_['ROUTE DES EPEAUX', '17120 MEURSAC']"
         },
         {
           "id": 79675718,
@@ -2537,10 +2814,11 @@
           "heure": "21:00",
           "recevant": "MARENNAISE US 3",
           "visiteur": "SAUJON US 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ANDRÉ METREAU_['ROUTE DE CAYENNE', '17320 MARENNES']"
         },
         {
           "id": 79675720,
@@ -2903,6 +3181,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "Stade Maurice BelloteaU_['PARC DES LOISIRS', '17150 MIRAMBEAU']": {
+          "nom": "Stade Maurice BelloteaU",
+          "adresse": "PARC DES LOISIRS | 17150 MIRAMBEAU",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -3091,10 +3376,11 @@
           "heure": "21:00",
           "recevant": "ST MAIGRIN",
           "visiteur": "AVENIR OZILLACAIS FC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['Rue du stade', '17520 ST MAIGRIN']"
         },
         {
           "id": 79675763,
@@ -3102,10 +3388,11 @@
           "heure": "21:00",
           "recevant": "CANTON MIRAMBEAU 3",
           "visiteur": "CHEPNIERS F.C 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Maurice BelloteaU_['PARC DES LOISIRS', '17150 MIRAMBEAU']"
         },
         {
           "id": 79675764,
@@ -3113,10 +3400,11 @@
           "heure": "21:00",
           "recevant": "GUIT/NIEUL AS 2",
           "visiteur": "SUD SAINTONGE AC 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['Rue du stade', '17150 NIEUL LE VIROUIL']"
         },
         {
           "id": 79675765,

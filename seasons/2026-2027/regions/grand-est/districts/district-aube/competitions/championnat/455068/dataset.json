@@ -122,6 +122,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['ROUTE DE CHAUCHIGNY', '10600 SAVIERES']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "ROUTE DE CHAUCHIGNY | 10600 SAVIERES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -334,6 +341,11 @@
         "ir3_vj-lzPeINLfhzILsrKFOFKt4kycnlrM": {
           "nom": "GABIN P.",
           "maillot": 11,
+          "club": "ASMB"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp5lC0il7U": {
+          "nom": "MAXIME S.",
+          "maillot": 3,
           "club": "ASMB"
         }
       },
@@ -755,10 +767,20 @@
           "heure": "15:00",
           "recevant": "ASMB",
           "visiteur": "NOGENTAIS FC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5lC0il7U",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt4kycnlrM",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL_['ROUTE DE CHAUCHIGNY', '10600 SAVIERES']"
         },
         {
           "id": 79447175,
@@ -777,16 +799,17 @@
           "heure": "15:00",
           "recevant": "TRAINEL FC",
           "visiteur": "BAR-SUR-AUBE FC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE SAINT BARTHELEMY_['ROUTE DE FONTAINE - FOURCHE', '10400 TRAINEL']"
         },
         {
           "id": 79447178,
           "date": "2026-10-17",
           "heure": "15:00",
-          "recevant": "TORVILLIERS AC",
+          "recevant": "ENT.CTAC ASOFA",
           "visiteur": "ALLIANCE SUD OUEST F",
           "buts_recevant": null,
           "buts_visiteur": null,

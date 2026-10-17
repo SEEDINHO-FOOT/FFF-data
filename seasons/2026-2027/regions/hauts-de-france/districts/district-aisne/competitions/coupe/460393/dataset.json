@@ -10,10 +10,90 @@
     {
       "cp_slug": "460393-fem-a-8-j6/phase/1/1",
       "competition": "FEM A 8  J6",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "RIBEMONT MEZIERES US": {
+          "nom": "RIBEMONT MEZIERES US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC542530.jpg",
+          "clNo": "22050",
+          "slug": "542530-ribemont-mezieres-us"
+        },
+        "SISSONNE US": {
+          "nom": "SISSONNE US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC502632.jpg",
+          "clNo": "1510",
+          "slug": "502632-sissonne-us"
+        },
+        "BRISSY HAMEGICOURT": {
+          "nom": "BRISSY HAMEGICOURT",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC527975.jpg",
+          "clNo": "11866",
+          "slug": "527975-brissy-hamegicourt"
+        },
+        "CHEMIN DES DAMES US 10": {
+          "nom": "CHEMIN DES DAMES US 10",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560194.jpg",
+          "clNo": "194476",
+          "slug": "560194-chemin-des-dames-us-10"
+        },
+        "AULNOIS SS/LAON US": {
+          "nom": "AULNOIS SS/LAON US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC520801.jpg",
+          "clNo": "7158",
+          "slug": "520801-aulnois-ss-laon-us"
+        },
+        "ENT. BRUYERES BARENT 2": {
+          "nom": "ENT. BRUYERES BARENT 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC511487.jpg",
+          "clNo": "3803",
+          "slug": "511487-ent-bruyeres-barent-2"
+        }
+      },
+      "stades": {
+        "STADE MUNICIPAL MICHEL POTELET 1_['RUE DE LA FOLIE', 'STADE MICHEL POTELET 1', '02240 RIBEMONT']": {
+          "nom": "STADE MUNICIPAL MICHEL POTELET 1",
+          "adresse": "RUE DE LA FOLIE | STADE MICHEL POTELET 1 | 02240 RIBEMONT",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE M. ET A. MARÉCHALLE_['RUE DES PONTS', '02240 BRISSY HAMEGICOURT']": {
+          "nom": "STADE M. ET A. MARÉCHALLE",
+          "adresse": "RUE DES PONTS | 02240 BRISSY HAMEGICOURT",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['Rue de la Piscine', '02000 AULNOIS SOUS LAON']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "Rue de la Piscine | 02000 AULNOIS SOUS LAON",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFKt6myohnrY": {
+          "nom": "ALIZEE B.",
+          "maillot": 13,
+          "club": "ENT. BRUYERES BARENT 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp2lictmbQ": {
+          "nom": "KARINE R.",
+          "maillot": 12,
+          "club": "ENT. BRUYERES BARENT 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp4lSghnbU": {
+          "nom": "ANDREA L.",
+          "maillot": 18,
+          "club": "ENT. BRUYERES BARENT 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp2ly4nlrc": {
+          "nom": "FAUSTINE J.",
+          "maillot": 21,
+          "club": "ENT. BRUYERES BARENT 2"
+        }
+      },
       "matchs": [
         {
           "id": 80419902,
@@ -21,21 +101,39 @@
           "heure": "14:00",
           "recevant": "RIBEMONT MEZIERES US",
           "visiteur": "SISSONNE US",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL MICHEL POTELET 1_['RUE DE LA FOLIE', 'STADE MICHEL POTELET 1', '02240 RIBEMONT']"
         },
         {
           "id": 80419905,
           "date": "2026-10-17",
-          "heure": "15:00",
+          "heure": "16:00",
           "recevant": "AULNOIS SS/LAON US",
           "visiteur": "ENT. BRUYERES BARENT 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt6myohnrY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp2lictmbQ",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 50,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4lSghnbU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp2ly4nlrc",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL_['Rue de la Piscine', '02000 AULNOIS SOUS LAON']"
         },
         {
           "id": 80419911,
@@ -43,10 +141,11 @@
           "heure": "15:30",
           "recevant": "BRISSY HAMEGICOURT",
           "visiteur": "CHEMIN DES DAMES US 10",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE M. ET A. MARÉCHALLE_['RUE DES PONTS', '02240 BRISSY HAMEGICOURT']"
         },
         {
           "id": 80419901,
@@ -150,9 +249,20 @@
         {
           "id": 80419913,
           "date": "2026-10-18",
-          "heure": "10:00",
+          "heure": "11:00",
           "recevant": "FERE EN TARDENOIS UA",
           "visiteur": "VALLEES US 10",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 80535605,
+          "date": "2026-10-18",
+          "heure": "10:00",
+          "recevant": "ENT.FRESNOYSTQUENTIN",
+          "visiteur": "ST QUENTIN O.",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,

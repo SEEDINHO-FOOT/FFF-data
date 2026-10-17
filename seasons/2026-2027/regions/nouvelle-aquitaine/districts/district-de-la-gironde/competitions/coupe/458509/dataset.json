@@ -202,6 +202,36 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC511449.jpg",
           "clNo": "3792",
           "slug": "511449-cenon-us-2"
+        },
+        "AUDENGE ES ENT 2": {
+          "nom": "AUDENGE ES ENT 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC505552.jpg",
+          "clNo": "2576",
+          "slug": "505552-audenge-es-ent-2"
+        },
+        "LORMONT US 2": {
+          "nom": "LORMONT US 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC509442.jpg",
+          "clNo": "3451",
+          "slug": "509442-lormont-us-2"
+        },
+        "FC BORDS DE GARONNE 2": {
+          "nom": "FC BORDS DE GARONNE 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564832.jpg",
+          "clNo": "203510",
+          "slug": "564832-fc-bords-de-garonne-2"
+        },
+        "PAYS AUROSSAIS ENT": {
+          "nom": "PAYS AUROSSAIS ENT",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560162.jpg",
+          "clNo": "194373",
+          "slug": "560162-pays-aurossais-ent"
+        },
+        "CREONNAIS FCC ENT": {
+          "nom": "CREONNAIS FCC ENT",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC549494.jpg",
+          "clNo": "26227",
+          "slug": "549494-creonnais-fcc-ent"
         }
       },
       "stades": {
@@ -309,6 +339,20 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE CHRISTOPHE DUGARRY_['RUE DE LA CAMARDE', '33310 LORMONT']": {
+          "nom": "STADE CHRISTOPHE DUGARRY",
+          "adresse": "RUE DE LA CAMARDE | 33310 LORMONT",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "Stade Municipal 2_['Le Sendats', '33124 SAVIGNAC']": {
+          "nom": "Stade Municipal 2",
+          "adresse": "Le Sendats | 33124 SAVIGNAC",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -339,6 +383,11 @@
         },
         "THEO MONET_AC": {
           "nom": "THEO MONET",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ESTEBAN ABERLEN_AC": {
+          "nom": "ESTEBAN ABERLEN",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -1089,11 +1138,12 @@
           "date": "2026-10-17",
           "heure": "13:00",
           "recevant": "LEGE CAP FERRET US 2",
-          "visiteur": "AUDENGE ES 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "visiteur": "AUDENGE ES ENT 2",
+          "buts_recevant": 10,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE LOUIS GOUBET 2_['79 AVENUE DE LA MAIRIE', '33970 LEGE CAP FERRET']"
         },
         {
           "id": 79703969,
@@ -1101,10 +1151,11 @@
           "heure": "13:00",
           "recevant": "LORMONT US 2",
           "visiteur": "FC BORDS DE GARONNE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE CHRISTOPHE DUGARRY_['RUE DE LA CAMARDE', '33310 LORMONT']"
         },
         {
           "id": 79703953,
@@ -1123,10 +1174,14 @@
           "heure": "15:00",
           "recevant": "PAYS AUROSSAIS ENT",
           "visiteur": "CREONNAIS FCC ENT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Municipal 2_['Le Sendats', '33124 SAVIGNAC']",
+          "officiels": [
+            "ESTEBAN ABERLEN_AC"
+          ]
         },
         {
           "id": 79703955,

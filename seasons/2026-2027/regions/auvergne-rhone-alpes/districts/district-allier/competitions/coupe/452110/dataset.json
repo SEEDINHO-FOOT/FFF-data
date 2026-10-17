@@ -10,9 +10,60 @@
     {
       "cp_slug": "452110-challenge-chatillon-thevenin/phase/1/1",
       "competition": "CHALLENGE CHATILLON-THEVENIN",
-      "clubs": {},
-      "stades": {},
-      "officiels": {},
+      "clubs": {
+        "AVERMES S.C.": {
+          "nom": "AVERMES S.C.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC516556.jpg",
+          "clNo": "5083",
+          "slug": "516556-avermes-s-c"
+        },
+        "BOURBON SP.": {
+          "nom": "BOURBON SP.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC506243.jpg",
+          "clNo": "2782",
+          "slug": "506243-bourbon-sp"
+        },
+        "ENT. BDF - SCSP": {
+          "nom": "ENT. BDF - SCSP",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC582302.jpg",
+          "clNo": "189663",
+          "slug": "582302-ent-bdf-scsp"
+        },
+        "MOULINS YZEURE ET.": {
+          "nom": "MOULINS YZEURE ET.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC508739.jpg",
+          "clNo": "3316",
+          "slug": "508739-moulins-yzeure-et"
+        }
+      },
+      "stades": {
+        "STADE DES ISLES 2_['AVENUE DES ILES', '03000 AVERMES']": {
+          "nom": "STADE DES ISLES 2",
+          "adresse": "AVENUE DES ILES | 03000 AVERMES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DU RIS DE LA BARRE_[' RUE DU STADE', '03170 DOYET']": {
+          "nom": "STADE DU RIS DE LA BARRE",
+          "adresse": " RUE DU STADE | 03170 DOYET",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
+      "officiels": {
+        "ENZO ALADENISE BENITO_AC": {
+          "nom": "ENZO ALADENISE BENITO",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "NILS FAYOLLE_AC": {
+          "nom": "NILS FAYOLLE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        }
+      },
       "joueurs": {},
       "matchs": [
         {
@@ -85,12 +136,16 @@
           "id": 79618710,
           "date": "2026-10-17",
           "heure": "14:30",
-          "recevant": "BOURBON SP.",
-          "visiteur": "AVERMES S.C.",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "recevant": "AVERMES S.C.",
+          "visiteur": "BOURBON SP.",
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES ISLES 2_['AVENUE DES ILES', '03000 AVERMES']",
+          "officiels": [
+            "ENZO ALADENISE BENITO_AC"
+          ]
         },
         {
           "id": 79618711,
@@ -109,10 +164,14 @@
           "heure": "15:30",
           "recevant": "ENT. BDF - SCSP",
           "visiteur": "MOULINS YZEURE ET.",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DU RIS DE LA BARRE_[' RUE DU STADE', '03170 DOYET']",
+          "officiels": [
+            "NILS FAYOLLE_AC"
+          ]
         },
         {
           "id": 79618714,

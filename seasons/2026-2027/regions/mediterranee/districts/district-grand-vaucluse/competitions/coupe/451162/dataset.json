@@ -10,8 +10,48 @@
     {
       "cp_slug": "451162-coupe-u15-grand-vaucluse/phase/1/1",
       "competition": "Coupe U15 Grand Vaucluse",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "NYONS F.C.": {
+          "nom": "NYONS F.C.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC504287.jpg",
+          "clNo": "2198",
+          "slug": "504287-nyons-f-c"
+        },
+        "MORIERES ACS": {
+          "nom": "MORIERES ACS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC523884.jpg",
+          "clNo": "9128",
+          "slug": "523884-morieres-acs"
+        },
+        "U.S. CADEROUSSIENNE": {
+          "nom": "U.S. CADEROUSSIENNE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC511724.jpg",
+          "clNo": "3873",
+          "slug": "511724-u-s-caderoussienne"
+        },
+        "U.S. TOURAINE": {
+          "nom": "U.S. TOURAINE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503172.jpg",
+          "clNo": "1691",
+          "slug": "503172-u-s-touraine"
+        }
+      },
+      "stades": {
+        "STADE PIERRE JULIEN 1_['GOTHIERES', 'ROUTE DE VAISON - D538', '26110 NYONS']": {
+          "nom": "STADE PIERRE JULIEN 1",
+          "adresse": "GOTHIERES | ROUTE DE VAISON - D538 | 26110 NYONS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE R.ESPANOL_['QUARTIER DU BROU', '84860 CADEROUSSE']": {
+          "nom": "STADE R.ESPANOL",
+          "adresse": "QUARTIER DU BROU | 84860 CADEROUSSE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -62,13 +102,14 @@
         {
           "id": 79756604,
           "date": "2026-10-18",
-          "heure": "10:30",
+          "heure": "09:00",
           "recevant": "NYONS F.C.",
           "visiteur": "MORIERES ACS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE PIERRE JULIEN 1_['GOTHIERES', 'ROUTE DE VAISON - D538', '26110 NYONS']"
         },
         {
           "id": 79756605,
@@ -106,13 +147,14 @@
         {
           "id": 79756608,
           "date": "2026-10-18",
-          "heure": "10:30",
+          "heure": "13:00",
           "recevant": "U.S. CADEROUSSIENNE",
           "visiteur": "U.S. TOURAINE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE R.ESPANOL_['QUARTIER DU BROU', '84860 CADEROUSSE']"
         },
         {
           "id": 79756609,
@@ -129,8 +171,8 @@
           "id": 79756610,
           "date": "2026-10-18",
           "heure": "10:30",
-          "recevant": "COMETE S. SARRIANS",
-          "visiteur": "VENTOUX SUD FC M/B",
+          "recevant": "VENTOUX SUD FC M/B",
+          "visiteur": "COMETE S. SARRIANS",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
@@ -172,7 +214,7 @@
         {
           "id": 79756614,
           "date": "2026-10-18",
-          "heure": "10:30",
+          "heure": "09:00",
           "recevant": "A.S. PIOLENCOISE",
           "visiteur": "L ACA 84",
           "buts_recevant": null,

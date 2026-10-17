@@ -11641,6 +11641,11 @@
           "nom": "MAMOD ASSIK ALI MITHA",
           "role": "Arbitre assistant 1",
           "role_cod": "A1"
+        },
+        "JEAN REGIS SINCERE_A1": {
+          "nom": "JEAN REGIS SINCERE",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
         }
       },
       "joueurs": {
@@ -12431,7 +12436,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKtKFKZ4kykjl78": {
           "nom": "DIMITRI JEAN VIANNEY H.",
-          "maillot": 11,
+          "maillot": 14,
           "club": "AM CHALOUPE"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKt8miYgmbM": {
@@ -12731,7 +12736,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx2kSsjnrQ": {
           "nom": "OLIVIER JEAN JACQUES M.",
-          "maillot": 7,
+          "maillot": 2,
           "club": "ASC CORBEIL"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh7lSoknLY": {
@@ -13121,7 +13126,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh7lywhlrY": {
           "nom": "YOHAN B.",
-          "maillot": 4,
+          "maillot": 8,
           "club": "ASC CORBEIL"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx2kScsn7M": {
@@ -13191,7 +13196,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl_myshm74": {
           "nom": "DAWSON B.",
-          "maillot": 2,
+          "maillot": 11,
           "club": "ASC CORBEIL"
         },
         "ir3_vj-lzPeINLfhzILsrKtKF6Z4kS0sn7E": {
@@ -13223,6 +13228,26 @@
           "nom": "THOMAS I.",
           "maillot": 11,
           "club": "EF ST GILLES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx2my0nn7M": {
+          "nom": "NICOLAS JEAN MATHIAS L.",
+          "maillot": 10,
+          "club": "ASC CORBEIL"
+        },
+        "ir3_vj-lzPeINLfhzILsrKtKF6Z4kSsin7M": {
+          "nom": "ALAN J CYRIL B.",
+          "maillot": 12,
+          "club": "ASC CORBEIL"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh3kyklnrU": {
+          "nom": "ULRICH A.",
+          "maillot": 15,
+          "club": "ASC CORBEIL"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx2lismn7U": {
+          "nom": "ANTHONY A.",
+          "maillot": 12,
+          "club": "AM CHALOUPE"
         }
       },
       "matchs": [
@@ -19506,7 +19531,7 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "à venir"
+          "statut": "arrêté"
         },
         {
           "id": 55586578,
@@ -19550,10 +19575,61 @@
           "heure": "20:30",
           "recevant": "AM CHALOUPE",
           "visiteur": "ASC CORBEIL",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 27,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx2my0nn7M",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKtKHaZ4kykkm78",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 71,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl_myshm74",
+              "sanction": "J",
+              "sanction_detail": "J2",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 77,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKtKF6Z4kSsin7M",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx2kSsjnrQ",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 77,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3kyklnrU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh7lywhlrY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 78,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKtKFaZ4kCwgmb4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKtKFKZ4kykjl78",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 78,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3miohnb4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx2lismn7U",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE CHRISTIAN RIVIÈRE_['LE BOURG', 'LA CHALOUPE', '97436 ST LEU']",
+          "officiels": [
+            "GARRY JEAN SYLVIAN RIOUL_AC",
+            "JEAN REGIS SINCERE_A1",
+            "SAMUEL ZIBEL_A2"
+          ]
         },
         {
           "id": 55586584,

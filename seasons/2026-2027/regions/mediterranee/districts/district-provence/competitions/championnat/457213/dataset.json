@@ -34,6 +34,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC561183.jpg",
           "clNo": "200812",
           "slug": "561183-ac-istres-rassuen-2"
+        },
+        "ET.S. PORT ST LOUIS": {
+          "nom": "ET.S. PORT ST LOUIS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503039.jpg",
+          "clNo": "1616",
+          "slug": "503039-et-s-port-st-louis"
+        },
+        "F.C. MIRAMAS": {
+          "nom": "F.C. MIRAMAS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC582589.jpg",
+          "clNo": "191843",
+          "slug": "582589-f-c-miramas"
         }
       },
       "stades": {
@@ -47,6 +59,20 @@
         "STADE DE CROIX SAINTE_['CHEMIN DU STADE DE CROIX-SAINTE', '13500 MARTIGUES']": {
           "nom": "STADE DE CROIX SAINTE",
           "adresse": "CHEMIN DU STADE DE CROIX-SAINTE | 13500 MARTIGUES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE GEORGES TABERNER 1_['11-13 AV. PIERRE GABRIELLI', 'TERRAIN HONNEUR', '13230 PORT ST LOUIS DU RHONE']": {
+          "nom": "STADE GEORGES TABERNER 1",
+          "adresse": "11-13 AV. PIERRE GABRIELLI | TERRAIN HONNEUR | 13230 PORT ST LOUIS DU RHONE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE DES COUVENTS 3_['Plaine de jeu des Couvents', '13140 MIRAMAS']": {
+          "nom": "STADE DES COUVENTS 3",
+          "adresse": "Plaine de jeu des Couvents | 13140 MIRAMAS",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -162,10 +188,11 @@
           "heure": "13:30",
           "recevant": "ET.S. PORT ST LOUIS",
           "visiteur": "FC ST MITRE REMPARTS 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 11,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GEORGES TABERNER 1_['11-13 AV. PIERRE GABRIELLI', 'TERRAIN HONNEUR', '13230 PORT ST LOUIS DU RHONE']"
         },
         {
           "id": 79588333,
@@ -173,10 +200,11 @@
           "heure": "15:00",
           "recevant": "C.A. CROIX SAINTE 2",
           "visiteur": "F.C. MARTIGUES 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 8,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE CROIX SAINTE_['CHEMIN DU STADE DE CROIX-SAINTE', '13500 MARTIGUES']"
         },
         {
           "id": 79588334,
@@ -184,10 +212,11 @@
           "heure": "15:30",
           "recevant": "F.C. MIRAMAS",
           "visiteur": "AC ISTRES RASSUEN 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES COUVENTS 3_['Plaine de jeu des Couvents', '13140 MIRAMAS']"
         },
         {
           "id": 79588335,
@@ -416,6 +445,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500490.jpg",
           "clNo": "558",
           "slug": "500490-a-c-port-de-bouc"
+        },
+        "ENT.S SALINS DE GIR": {
+          "nom": "ENT.S SALINS DE GIR",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500219.jpg",
+          "clNo": "344",
+          "slug": "500219-ent-s-salins-de-gir"
+        },
+        "AC ISTRES RASSUEN": {
+          "nom": "AC ISTRES RASSUEN",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC561183.jpg",
+          "clNo": "200812",
+          "slug": "561183-ac-istres-rassuen"
         }
       },
       "stades": {
@@ -436,6 +477,13 @@
         "STADE DE L' UNIA_['AVENUE DE LA PROVENCE', '13110 PORT DE BOUC']": {
           "nom": "STADE DE L' UNIA",
           "adresse": "AVENUE DE LA PROVENCE | 13110 PORT DE BOUC",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "Stade Michel Cavouclis 1_['12 BOULEVARD DES ARENES', '13129 SALIN DE GIRAUD']": {
+          "nom": "Stade Michel Cavouclis 1",
+          "adresse": "12 BOULEVARD DES ARENES | 13129 SALIN DE GIRAUD",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -541,10 +589,11 @@
           "heure": "13:30",
           "recevant": "FC ENSUES REDON 2",
           "visiteur": "F.C. CHATEAUNEUF 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 14,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['CHEMIN DU STADE', '13820 ENSUES LA REDONNE']"
         },
         {
           "id": 79588363,
@@ -552,10 +601,11 @@
           "heure": "14:00",
           "recevant": "ENT.S SALINS DE GIR",
           "visiteur": "A.C. PORT DE BOUC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Michel Cavouclis 1_['12 BOULEVARD DES ARENES', '13129 SALIN DE GIRAUD']"
         },
         {
           "id": 79588364,
@@ -563,10 +613,11 @@
           "heure": "14:00",
           "recevant": "A. S. MARTIGUES SUD 2",
           "visiteur": "AC ISTRES RASSUEN",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 14,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA COURONNE_['LA COURONNE CARRO', '7 ROUTE DE LA SAULCE', '13500 MARTIGUES']"
         },
         {
           "id": 79588365,
@@ -789,6 +840,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503040.jpg",
           "clNo": "1617",
           "slug": "503040-sp-c-st-martinois-3"
+        },
+        "ENTRESSEN ES": {
+          "nom": "ENTRESSEN ES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC528835.jpg",
+          "clNo": "12445",
+          "slug": "528835-entressen-es"
+        },
+        "A.S. GRANSOISE 2": {
+          "nom": "A.S. GRANSOISE 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503249.jpg",
+          "clNo": "1721",
+          "slug": "503249-a-s-gransoise-2"
         }
       },
       "stades": {
@@ -797,6 +860,13 @@
           "adresse": "GRIFFEUILLE | CHEMIN LA TOUR DES JONQUETS | 13200 ARLES",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE LOMBARD 2 **_['AVENUE DE LA GARE', 'TERRAIN (B)', '13430 EYGUIERES']": {
+          "nom": "STADE LOMBARD 2 **",
+          "adresse": "AVENUE DE LA GARE | TERRAIN (B) | 13430 EYGUIERES",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
         }
       },
@@ -910,10 +980,11 @@
           "heure": "14:00",
           "recevant": "JEUNESSE GRIFFEUILLE 2",
           "visiteur": "A.S. GRANSOISE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE VAN GOGH_['GRIFFEUILLE', 'CHEMIN LA TOUR DES JONQUETS', '13200 ARLES']"
         },
         {
           "id": 79588424,
@@ -932,10 +1003,11 @@
           "heure": "14:00",
           "recevant": "SP.C. EYGUIERES",
           "visiteur": "ENTRESSEN ES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE LOMBARD 2 **_['AVENUE DE LA GARE', 'TERRAIN (B)', '13430 EYGUIERES']"
         },
         {
           "id": 79588425,
@@ -1170,6 +1242,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC860242.jpg",
           "clNo": "194709",
           "slug": "860242-a-s-d-alleins"
+        },
+        "C.O. SALONAIS": {
+          "nom": "C.O. SALONAIS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC582665.jpg",
+          "clNo": "191963",
+          "slug": "582665-c-o-salonais"
         }
       },
       "stades": {
@@ -1186,6 +1264,20 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL GIBERT PREZEAU_['LE BASTIDON', 'RUE DU 8 MAI 1945', '13980 ALLEINS']": {
+          "nom": "STADE MUNICIPAL GIBERT PREZEAU",
+          "adresse": "LE BASTIDON | RUE DU 8 MAI 1945 | 13980 ALLEINS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE COMPAN-THERY_['CHEMIN DU BERGER', '13330 PELISSANNE']": {
+          "nom": "STADE COMPAN-THERY",
+          "adresse": "CHEMIN DU BERGER | 13330 PELISSANNE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football réduit"
         }
       },
       "officiels": {},
@@ -1299,10 +1391,11 @@
           "heure": "14:00",
           "recevant": "A.S. D'ALLEINS",
           "visiteur": "C.O. SALONAIS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 12,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL GIBERT PREZEAU_['LE BASTIDON', 'RUE DU 8 MAI 1945', '13980 ALLEINS']"
         },
         {
           "id": 79588859,
@@ -1310,10 +1403,11 @@
           "heure": "14:00",
           "recevant": "U.S. PELICAN 2",
           "visiteur": "A.S. CHARLEVALOISE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE COMPAN-THERY_['CHEMIN DU BERGER', '13330 PELISSANNE']"
         },
         {
           "id": 79588860,
@@ -1321,10 +1415,11 @@
           "heure": "13:30",
           "recevant": "F.C. DE VERNEGUES",
           "visiteur": "F.C. ROGNES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL LUCIEN ROUX_['LE BOURG', '13116 VERNEGUES']"
         },
         {
           "id": 79588861,
@@ -1595,6 +1690,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['CHEMIN DU STADE', '13820 ENSUES LA REDONNE']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "CHEMIN DU STADE | 13820 ENSUES LA REDONNE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -1710,10 +1812,11 @@
           "heure": "13:30",
           "recevant": "O. ROVENAIN 3",
           "visiteur": "FC ST MITRE REMPARTS 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 12,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 2_['RUE ADRIEN ISNARDON', 'TERRAIN BJ SEULEMENT', '13740 LE ROVE']"
         },
         {
           "id": 79589288,
@@ -1732,16 +1835,17 @@
           "heure": "13:30",
           "recevant": "FC ENSUES REDON 3",
           "visiteur": "ES VITROLLES 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['CHEMIN DU STADE', '13820 ENSUES LA REDONNE']"
         },
         {
           "id": 79589290,
           "date": "2026-10-17",
           "heure": "13:30",
-          "recevant": "J.S. DES PENNES MIRA 22",
+          "recevant": "J.S. DES PENNES MIRA 4",
           "visiteur": "FC ENSUES REDON 3",
           "buts_recevant": null,
           "buts_visiteur": null,
@@ -1753,7 +1857,7 @@
           "date": "2026-10-17",
           "heure": "13:30",
           "recevant": "FC ST MITRE REMPARTS 3",
-          "visiteur": "GIGNAC FC 15",
+          "visiteur": "GIGNAC FC 2",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
@@ -2006,6 +2110,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 1_['BLD CHARLES DE GAULLE', 'TERRAIN HONNEUR A', '13730 ST VICTORET']": {
+          "nom": "STADE MUNICIPAL 1",
+          "adresse": "BLD CHARLES DE GAULLE | TERRAIN HONNEUR A | 13730 ST VICTORET",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -2121,10 +2232,11 @@
           "heure": "14:00",
           "recevant": "F.C. ST VICTORET 2",
           "visiteur": "U.S. FARENQUE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['BLD CHARLES DE GAULLE', 'TERRAIN HONNEUR A', '13730 ST VICTORET']"
         },
         {
           "id": 79589382,
@@ -2489,15 +2601,16 @@
           "heure": "15:00",
           "recevant": "O. CABRIES CALAS 2",
           "visiteur": "FC SEPTEMES CONSOLAT 4",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 20,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "StadE Maurice Sambuc_['QUARTIER DU BOULARD', 'RUE RAYMOND MARTIN', 'TERRAIN HONNEUR', '13480 CABRIES']"
         },
         {
           "id": 79589414,
           "date": "2026-10-17",
-          "heure": "13:30",
+          "heure": "14:00",
           "recevant": "AV. S. BOUC BEL AIR 2",
           "visiteur": "O. CABRIES CALAS 2",
           "buts_recevant": null,
@@ -2769,7 +2882,7 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "à venir"
+          "statut": "réserve"
         },
         {
           "id": 79589475,
@@ -2777,10 +2890,11 @@
           "heure": "14:00",
           "recevant": "AIX UNIVERSITE C.F.",
           "visiteur": "U.S. EGUILLENNE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF VAL DE L' ARC 1_['CHEMIN DES INFIRMERIES', 'TERRAIN C HONNEUR', '13100 AIX EN PROVENCE']"
         },
         {
           "id": 79589476,
@@ -3005,6 +3119,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE CHRISTOPHE JOLY_['AVENUE ANNE FRANCK', 'COMPLEXE SPORTIF DES ARTAUDS', '13390 AURIOL']": {
+          "nom": "STADE CHRISTOPHE JOLY",
+          "adresse": "AVENUE ANNE FRANCK | COMPLEXE SPORTIF DES ARTAUDS | 13390 AURIOL",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -3122,10 +3243,11 @@
           "heure": "13:30",
           "recevant": "SIMIANE COLLONGUE O.",
           "visiteur": "ENT. FCT/ AAVSA",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ERIC DI MECO_['404 ROUTE DE GARDANNE', '13109 SIMIANE COLLONGUE']"
         },
         {
           "id": 79589644,
@@ -3133,10 +3255,11 @@
           "heure": "13:30",
           "recevant": "FC ETOILE HUVEAUNE 3",
           "visiteur": "A.S.C. DE PEYPIN",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE CHRISTOPHE JOLY_['AVENUE ANNE FRANCK', 'COMPLEXE SPORTIF DES ARTAUDS', '13390 AURIOL']"
         },
         {
           "id": 79589645,
@@ -3398,6 +3521,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE JEAN BOUISSOU N°1_['AVENUE EMILE RIPERT', 'TERRAIN HONNEUR', '13600 LA CIOTAT']": {
+          "nom": "STADE JEAN BOUISSOU N°1",
+          "adresse": "AVENUE EMILE RIPERT | TERRAIN HONNEUR | 13600 LA CIOTAT",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -3522,10 +3652,11 @@
           "heure": "14:00",
           "recevant": "ET.S. DE LA CIOTAT 2",
           "visiteur": "A.S. AIX-EN-PROVENCE 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JEAN BOUISSOU N°1_['AVENUE EMILE RIPERT', 'TERRAIN HONNEUR', '13600 LA CIOTAT']"
         },
         {
           "id": 79589739,
@@ -3533,10 +3664,11 @@
           "heure": "13:30",
           "recevant": "ENT.S. PENNOISE",
           "visiteur": "SOC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GERMAIN CAMOIN 1_['ALLEE DU STADE', 'ROUTE NATIONALE N° 8', '13821 LA PENNE SUR HUVEAUNE']"
         },
         {
           "id": 79589740,
@@ -3759,6 +3891,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC518961.jpg",
           "clNo": "6110",
           "slug": "518961-a-s-gemenosienne-3"
+        },
+        "FC.ROQUEFORT 2": {
+          "nom": "FC.ROQUEFORT 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC547115.jpg",
+          "clNo": "24559",
+          "slug": "547115-fc-roquefort-2"
+        },
+        "CARNOUX F.C. 4": {
+          "nom": "CARNOUX F.C. 4",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC590637.jpg",
+          "clNo": "166844",
+          "slug": "590637-carnoux-f-c-4"
         }
       },
       "stades": {
@@ -3767,6 +3911,13 @@
           "adresse": "ALLEE DU STADE | ROUTE NATIONALE N° 8 | 13821 LA PENNE SUR HUVEAUNE",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE GUY DELESTRADE 3_['AVENUE CESAR BALDACCINI', 'TERRAIN ANNEXE', '13420 GEMENOS']": {
+          "nom": "STADE GUY DELESTRADE 3",
+          "adresse": "AVENUE CESAR BALDACCINI | TERRAIN ANNEXE | 13420 GEMENOS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
         }
       },
@@ -3847,10 +3998,11 @@
           "heure": "15:00",
           "recevant": "A.S. GEMENOSIENNE 3",
           "visiteur": "CARNOUX F.C. 4",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GUY DELESTRADE 3_['AVENUE CESAR BALDACCINI', 'TERRAIN ANNEXE', '13420 GEMENOS']"
         },
         {
           "id": 79589810,
@@ -3858,15 +4010,16 @@
           "heure": "13:30",
           "recevant": "ENT.S. PENNOISE 2",
           "visiteur": "FC.ROQUEFORT 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GERMAIN CAMOIN 1_['ALLEE DU STADE', 'ROUTE NATIONALE N° 8', '13821 LA PENNE SUR HUVEAUNE']"
         },
         {
           "id": 79589811,
           "date": "2026-10-17",
-          "heure": "13:30",
+          "heure": "14:00",
           "recevant": "CARNOUX F.C. 4",
           "visiteur": "ENT.S. PENNOISE 2",
           "buts_recevant": null,
@@ -4066,6 +4219,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE SÉVAN_['LES CARABINS', \"202 CHEMIN DE L'OULE - CD51\", '(EX SENAFRICA)', '13012 MARSEILLE']": {
+          "nom": "STADE SÉVAN",
+          "adresse": "LES CARABINS | 202 CHEMIN DE L'OULE - CD51 | (EX SENAFRICA) | 13012 MARSEILLE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -4182,10 +4342,11 @@
           "heure": "13:30",
           "recevant": "EUGA ARDZIV",
           "visiteur": "A. S. LA BOMBARDIERE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE SÉVAN_['LES CARABINS', \"202 CHEMIN DE L'OULE - CD51\", '(EX SENAFRICA)', '13012 MARSEILLE']"
         },
         {
           "id": 79589839,
@@ -4193,10 +4354,11 @@
           "heure": "13:30",
           "recevant": "BUREL F.C. 3",
           "visiteur": "J.O. ST GABRIEL",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 22,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE EGISTE MORINI_['RUE CHALUSSET', 'ex stade Chutes Lavie', '13013 MARSEILLE']"
         },
         {
           "id": 79589840,
@@ -4566,10 +4728,11 @@
           "heure": "13:30",
           "recevant": "USC ROUVIERE MARS 2",
           "visiteur": "SMUC 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE HENRI MICHELIER_['MONTREDON', '131 AVENUE MADRAGUE DE MONTREDON', '13008 MARSEILLE']"
         },
         {
           "id": 79589952,
@@ -4577,10 +4740,11 @@
           "heure": "13:30",
           "recevant": "PHOCEA CLUB 2",
           "visiteur": "TEAM METEKE LV",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 8,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE SAINT TRONC DIDIER 1_['RUE FRANCOIS MAURIAC', '13010 MARSEILLE']"
         },
         {
           "id": 79589953,
@@ -4772,6 +4936,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE GEORGES PHILIBERT_['CITE SNCF SAINT BARTHELEMY', 'ALLEE MARCEL SOULAT', '13014 MARSEILLE']": {
+          "nom": "STADE GEORGES PHILIBERT",
+          "adresse": "CITE SNCF SAINT BARTHELEMY | ALLEE MARCEL SOULAT | 13014 MARSEILLE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -4886,10 +5057,11 @@
           "heure": "13:30",
           "recevant": "US ST BARTHELEMY 2",
           "visiteur": "J.O. ST GABRIEL 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 8,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GEORGES PHILIBERT_['CITE SNCF SAINT BARTHELEMY', 'ALLEE MARCEL SOULAT', '13014 MARSEILLE']"
         },
         {
           "id": 79590040,
@@ -4897,10 +5069,11 @@
           "heure": "13:30",
           "recevant": "A.S.STE MARGUERITE",
           "visiteur": "FC NUEVE 09",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 10,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GUSTAVE GANAY_['5 BOULEVARD GUSTAVE GANAY', '13009 MARSEILLE']"
         },
         {
           "id": 79590041,
@@ -5141,6 +5314,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC590220.jpg",
           "clNo": "179845",
           "slug": "590220-fc-blanc-chartreux-2"
+        },
+        "S.C. D'ALLAUCH 2": {
+          "nom": "S.C. D'ALLAUCH 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC554101.jpg",
+          "clNo": "146361",
+          "slug": "554101-s-c-d-allauch-2"
         }
       },
       "stades": {
@@ -5168,6 +5347,13 @@
         "STADE AMÉDÉE MAGNAN_['LES OLIVES', '25 TRAVERSE DU COMMANDEUR', '13013 MARSEILLE']": {
           "nom": "STADE AMÉDÉE MAGNAN",
           "adresse": "LES OLIVES | 25 TRAVERSE DU COMMANDEUR | 13013 MARSEILLE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DALMASSO_[\"QUARTIER DE PIE D'AUTRY\", 'CHEMIN DES CIGALES', 'COMPLEXE SPORTIF J. GAILLARD', '13190 ALLAUCH']": {
+          "nom": "STADE DALMASSO",
+          "adresse": "QUARTIER DE PIE D'AUTRY | CHEMIN DES CIGALES | COMPLEXE SPORTIF J. GAILLARD | 13190 ALLAUCH",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -5274,12 +5460,13 @@
           "id": 79590158,
           "date": "2026-10-10",
           "heure": "15:30",
-          "recevant": "S.C. D'ALLAUCH",
+          "recevant": "S.C. D'ALLAUCH 2",
           "visiteur": "AS BELLE DE MAI 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DALMASSO_[\"QUARTIER DE PIE D'AUTRY\", 'CHEMIN DES CIGALES', 'COMPLEXE SPORTIF J. GAILLARD', '13190 ALLAUCH']"
         },
         {
           "id": 79590159,
@@ -5287,10 +5474,11 @@
           "heure": "14:00",
           "recevant": "J.S. ST JULIEN 2",
           "visiteur": "FCB LES OLIVES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 10,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE L' ESPÉRANZA 1_['SAINT JULIEN', '131 AVENUE FERNANDEL', 'TERRAIN (A)', '13012 MARSEILLE']"
         },
         {
           "id": 79590160,
@@ -5317,7 +5505,7 @@
         {
           "id": 79590162,
           "date": "2026-10-17",
-          "heure": "13:30",
+          "heure": "14:00",
           "recevant": "AS BELLE DE MAI 2",
           "visiteur": "J.S. ST JULIEN 2",
           "buts_recevant": null,
@@ -5329,8 +5517,8 @@
           "id": 79590163,
           "date": "2026-10-17",
           "heure": "13:30",
-          "recevant": "S.C. D'ALLAUCH",
-          "visiteur": "C.A. PLAN DE CUQUES 3",
+          "recevant": "S.C. D'ALLAUCH 2",
+          "visiteur": "C.A. PLAN DE CUQUES 4",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,

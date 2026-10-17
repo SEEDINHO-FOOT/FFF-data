@@ -79,7 +79,7 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "à venir"
+          "statut": "reporté"
         }
       ]
     },
@@ -216,8 +216,29 @@
     {
       "cp_slug": "459680-crit-loisirs-j4/phase/1/3",
       "competition": "CRIT LOISIRS J4",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "SOISSONS IFC": {
+          "nom": "SOISSONS IFC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560424.jpg",
+          "clNo": "196931",
+          "slug": "560424-soissons-ifc"
+        },
+        "ABBECOURT FC 2": {
+          "nom": "ABBECOURT FC 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC535227.jpg",
+          "clNo": "16762",
+          "slug": "535227-abbecourt-fc-2"
+        }
+      },
+      "stades": {
+        "STADE VEDRINE_['terrain hippodrome', ' BOULEVARD EDOUARD BRANLY', '02200 SOISSONS']": {
+          "nom": "STADE VEDRINE",
+          "adresse": "terrain hippodrome |  BOULEVARD EDOUARD BRANLY | 02200 SOISSONS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -238,10 +259,11 @@
           "heure": "09:30",
           "recevant": "SOISSONS IFC",
           "visiteur": "ABBECOURT FC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE VEDRINE_['terrain hippodrome', ' BOULEVARD EDOUARD BRANLY', '02200 SOISSONS']"
         },
         {
           "id": 79679471,

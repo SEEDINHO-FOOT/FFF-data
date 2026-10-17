@@ -10,9 +10,74 @@
     {
       "cp_slug": "459807-coupe-u15-groupama/phase/1/1",
       "competition": "COUPE U15 GROUPAMA",
-      "clubs": {},
-      "stades": {},
-      "officiels": {},
+      "clubs": {
+        "ESTERNAY US": {
+          "nom": "ESTERNAY US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC511594.jpg",
+          "clNo": "3833",
+          "slug": "511594-esternay-us"
+        },
+        "VALLEE DE LA SUIPPE 2": {
+          "nom": "VALLEE DE LA SUIPPE 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC502591.jpg",
+          "clNo": "1481",
+          "slug": "502591-vallee-de-la-suippe-2"
+        },
+        "WITRY LES REIMS ES 15": {
+          "nom": "WITRY LES REIMS ES 15",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC502593.jpg",
+          "clNo": "1483",
+          "slug": "502593-witry-les-reims-es-15"
+        },
+        "MONTMIRAIL SC": {
+          "nom": "MONTMIRAIL SC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC510412.jpg",
+          "clNo": "3617",
+          "slug": "510412-montmirail-sc"
+        },
+        "GUEUX AS 15": {
+          "nom": "GUEUX AS 15",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC541199.jpg",
+          "clNo": "21063",
+          "slug": "541199-gueux-as-15"
+        },
+        "MOURMELON LIVRY AS": {
+          "nom": "MOURMELON LIVRY AS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC502613.jpg",
+          "clNo": "1496",
+          "slug": "502613-mourmelon-livry-as"
+        }
+      },
+      "stades": {
+        "COMPLEXE SPORTIF RENE LAGRANGE_['RUE DU STADE', '51310 ESTERNAY']": {
+          "nom": "COMPLEXE SPORTIF RENE LAGRANGE",
+          "adresse": "RUE DU STADE | 51310 ESTERNAY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE JEAN BOUCTON 1_['46 RUE DE BETHENY', '51420 WITRY LES REIMS']": {
+          "nom": "STADE JEAN BOUCTON 1",
+          "adresse": "46 RUE DE BETHENY | 51420 WITRY LES REIMS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL N°1 - JUST FONTAINE_['2 RUE DU PLATANE', '51390 GUEUX']": {
+          "nom": "STADE MUNICIPAL N°1 - JUST FONTAINE",
+          "adresse": "2 RUE DU PLATANE | 51390 GUEUX",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
+      "officiels": {
+        "UGO STRIPE DEMAY_AC": {
+          "nom": "UGO STRIPE DEMAY",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        }
+      },
       "joueurs": {},
       "matchs": [
         {
@@ -32,10 +97,15 @@
           "heure": "15:00",
           "recevant": "ESTERNAY US",
           "visiteur": "VALLEE DE LA SUIPPE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF RENE LAGRANGE_['RUE DU STADE', '51310 ESTERNAY']",
+          "officiels": [
+            "UGO STRIPE DEMAY_AC"
+          ],
+          "tirs_au_but": true
         },
         {
           "id": 79741684,
@@ -65,10 +135,11 @@
           "heure": "10:00",
           "recevant": "WITRY LES REIMS ES 15",
           "visiteur": "MONTMIRAIL SC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JEAN BOUCTON 1_['46 RUE DE BETHENY', '51420 WITRY LES REIMS']"
         },
         {
           "id": 79741688,
@@ -109,10 +180,11 @@
           "heure": "10:00",
           "recevant": "GUEUX AS 15",
           "visiteur": "MOURMELON LIVRY AS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL N°1 - JUST FONTAINE_['2 RUE DU PLATANE', '51390 GUEUX']"
         },
         {
           "id": 79741692,

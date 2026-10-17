@@ -10,9 +10,55 @@
     {
       "cp_slug": "455780-coupe-u17-erm-vallon-vivier-boudrier/phase/1/1",
       "competition": "COUPE U17 ERM VALLON - VIVIER BOUDRIER",
-      "clubs": {},
-      "stades": {},
-      "officiels": {},
+      "clubs": {
+        "AV.S. SUD ARDECHE F. 2": {
+          "nom": "AV.S. SUD ARDECHE F. 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC550020.jpg",
+          "clNo": "100425",
+          "slug": "550020-av-s-sud-ardeche-f-2"
+        },
+        "JS LIVRON": {
+          "nom": "JS LIVRON",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC590236.jpg",
+          "clNo": "179867",
+          "slug": "590236-js-livron"
+        },
+        "RCF 07 2": {
+          "nom": "RCF 07 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC551992.jpg",
+          "clNo": "116755",
+          "slug": "551992-rcf-07-2"
+        },
+        "F.C. EYRIEUX EMBROYE": {
+          "nom": "F.C. EYRIEUX EMBROYE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC546292.jpg",
+          "clNo": "23930",
+          "slug": "546292-f-c-eyrieux-embroye"
+        }
+      },
+      "stades": {
+        "STADE DU COLOMBIER_['Le colombier', ' TRAVERSE DU STADE', '07200 ST ETIENNE DE FONTBELLON']": {
+          "nom": "STADE DU COLOMBIER",
+          "adresse": "Le colombier |  TRAVERSE DU STADE | 07200 ST ETIENNE DE FONTBELLON",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE LA PLAINE 1_['RUE PIERRE DE COUBERTIN', '07130 ST PERAY']": {
+          "nom": "STADE DE LA PLAINE 1",
+          "adresse": "RUE PIERRE DE COUBERTIN | 07130 ST PERAY",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
+      "officiels": {
+        "MATHEO BERGONZI_AC": {
+          "nom": "MATHEO BERGONZI",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        }
+      },
       "joueurs": {},
       "matchs": [
         {
@@ -186,10 +232,11 @@
           "heure": "11:00",
           "recevant": "AV.S. SUD ARDECHE F. 2",
           "visiteur": "JS LIVRON",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DU COLOMBIER_['Le colombier', ' TRAVERSE DU STADE', '07200 ST ETIENNE DE FONTBELLON']"
         },
         {
           "id": 79969507,
@@ -307,10 +354,14 @@
           "heure": "15:00",
           "recevant": "RCF 07 2",
           "visiteur": "F.C. EYRIEUX EMBROYE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA PLAINE 1_['RUE PIERRE DE COUBERTIN', '07130 ST PERAY']",
+          "officiels": [
+            "MATHEO BERGONZI_AC"
+          ]
         },
         {
           "id": 79969509,

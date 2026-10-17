@@ -22,6 +22,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564983.jpg",
           "clNo": "204218",
           "slug": "564983-gfb"
+        },
+        "GJ ETC": {
+          "nom": "GJ ETC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC561238.jpg",
+          "clNo": "200918",
+          "slug": "561238-gj-etc"
+        },
+        "GRANDE CHAMPAGNE JS": {
+          "nom": "GRANDE CHAMPAGNE JS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC582381.jpg",
+          "clNo": "189930",
+          "slug": "582381-grande-champagne-js"
         }
       },
       "stades": {
@@ -31,9 +43,22 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['-', '16330 VARS']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "- | 16330 VARS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
-      "officiels": {},
+      "officiels": {
+        "TOUFIK HEMAHMI_AC": {
+          "nom": "TOUFIK HEMAHMI",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        }
+      },
       "joueurs": {},
       "matchs": [
         {
@@ -109,10 +134,15 @@
           "heure": "10:00",
           "recevant": "GJ ETC",
           "visiteur": "GRANDE CHAMPAGNE JS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['-', '16330 VARS']",
+          "officiels": [
+            "TOUFIK HEMAHMI_AC"
+          ],
+          "tirs_au_but": true
         }
       ]
     }

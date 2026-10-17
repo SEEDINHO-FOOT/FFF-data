@@ -178,6 +178,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC505555.jpg",
           "clNo": "2579",
           "slug": "505555-pauillac-st-laurent"
+        },
+        "BLAYAIS STADE": {
+          "nom": "BLAYAIS STADE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC505569.jpg",
+          "clNo": "2586",
+          "slug": "505569-blayais-stade"
+        },
+        "CARBON BLANAIS CA": {
+          "nom": "CARBON BLANAIS CA",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC505560.jpg",
+          "clNo": "2582",
+          "slug": "505560-carbon-blanais-ca"
         }
       },
       "stades": {
@@ -271,6 +283,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE BERNARD DELORD 2_['RUE JOSEPH TAILLASSON', 'TERRAIN HONNEUR FOOTBALL', '33390 BLAYE']": {
+          "nom": "STADE BERNARD DELORD 2",
+          "adresse": "RUE JOSEPH TAILLASSON | TERRAIN HONNEUR FOOTBALL | 33390 BLAYE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -336,6 +355,11 @@
         },
         "ALBERT CAYERE_AC": {
           "nom": "ALBERT CAYERE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "BAPTISTE BRISSON_AC": {
+          "nom": "BAPTISTE BRISSON",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -740,6 +764,41 @@
           "nom": "MOUHAMED A.",
           "maillot": 14,
           "club": "BORDEAUX CHANTECLER"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd-lC0mmrM": {
+          "nom": "ZACKARY G.",
+          "maillot": 5,
+          "club": "BLAYAIS STADE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp5ky8lnrI": {
+          "nom": "WAEL P.",
+          "maillot": 12,
+          "club": "BLAYAIS STADE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19lCcsl7M": {
+          "nom": "LUCAS F.",
+          "maillot": 8,
+          "club": "CARBON BLANAIS CA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh3misinbc": {
+          "nom": "LEO M.",
+          "maillot": 12,
+          "club": "CARBON BLANAIS CA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19lS8nnbM": {
+          "nom": "MOHAMED M.",
+          "maillot": 9,
+          "club": "CARBON BLANAIS CA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15lSolnLA": {
+          "nom": "HUGO L.",
+          "maillot": 13,
+          "club": "CARBON BLANAIS CA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16ki4smr8": {
+          "nom": "MUHAMMED FATIH G.",
+          "maillot": 5,
+          "club": "CARBON BLANAIS CA"
         }
       },
       "matchs": [
@@ -1372,13 +1431,48 @@
         {
           "id": 80022695,
           "date": "2026-10-17",
-          "heure": "15:00",
+          "heure": "13:00",
           "recevant": "BLAYAIS STADE",
           "visiteur": "CARBON BLANAIS CA",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd-lC0mmrM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5ky8lnrI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 22,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK19lCcsl7M",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3misinbc",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 22,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK19lS8nnbM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK15lSolnLA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 81,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16ki4smr8",
+              "sanction": "J",
+              "sanction_detail": "J3",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE BERNARD DELORD 2_['RUE JOSEPH TAILLASSON', 'TERRAIN HONNEUR FOOTBALL', '33390 BLAYE']",
+          "officiels": [
+            "BAPTISTE BRISSON_AC"
+          ]
         },
         {
           "id": 80022696,
