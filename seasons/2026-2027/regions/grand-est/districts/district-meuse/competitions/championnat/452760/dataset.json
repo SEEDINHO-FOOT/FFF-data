@@ -10,8 +10,29 @@
     {
       "cp_slug": "452760-coupe-meuse-veteran-loisir/phase/1/1",
       "competition": "COUPE MEUSE VETERAN LOISIR",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "ENT. 3 VALLEES": {
+          "nom": "ENT. 3 VALLEES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503827.jpg",
+          "clNo": "1917",
+          "slug": "503827-ent-3-vallees"
+        },
+        "VAUCOULEURS LL": {
+          "nom": "VAUCOULEURS LL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503783.jpg",
+          "clNo": "1913",
+          "slug": "503783-vaucouleurs-ll"
+        }
+      },
+      "stades": {
+        "STADE RAYMOND FLEISCHEL_['CHEMIN DE VAURINE', '55130 GONDRECOURT LE CHATEAU']": {
+          "nom": "STADE RAYMOND FLEISCHEL",
+          "adresse": "CHEMIN DE VAURINE | 55130 GONDRECOURT LE CHATEAU",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -30,12 +51,13 @@
           "id": 79374452,
           "date": "2026-10-25",
           "heure": "10:30",
-          "recevant": "TREVERAY AS",
+          "recevant": "ENT. 3 VALLEES",
           "visiteur": "VAUCOULEURS LL",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE RAYMOND FLEISCHEL_['CHEMIN DE VAURINE', '55130 GONDRECOURT LE CHATEAU']"
         },
         {
           "id": 79374456,
@@ -53,8 +75,29 @@
     {
       "cp_slug": "452760-coupe-meuse-veteran-loisir/phase/1/2",
       "competition": "COUPE MEUSE VETERAN LOISIR",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "BEHONNE LONGEVILL.US": {
+          "nom": "BEHONNE LONGEVILL.US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC553725.jpg",
+          "clNo": "137521",
+          "slug": "553725-behonne-longevill-us"
+        },
+        "BAR LE DUC FC": {
+          "nom": "BAR LE DUC FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC551311.jpg",
+          "clNo": "112841",
+          "slug": "551311-bar-le-duc-fc"
+        }
+      },
+      "stades": {
+        "STADE MUNICIPAL_[' RUE DE LAISSUE', '55000 LONGEVILLE EN BARROIS']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": " RUE DE LAISSUE | 55000 LONGEVILLE EN BARROIS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -86,10 +129,11 @@
           "heure": "10:30",
           "recevant": "BEHONNE LONGEVILL.US",
           "visiteur": "BAR LE DUC FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_[' RUE DE LAISSUE', '55000 LONGEVILLE EN BARROIS']"
         },
         {
           "id": 79374621,
@@ -241,6 +285,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE MADINE 2_['1 CENTRE DE PREFORMATION', '55210 HEUDICOURT SOUS LES COTES']": {
+          "nom": "STADE MADINE 2",
+          "adresse": "1 CENTRE DE PREFORMATION | 55210 HEUDICOURT SOUS LES COTES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -252,12 +303,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKlNEqp4kC4jmrA": {
           "nom": "MATTHIEU H.",
-          "maillot": 12,
+          "maillot": 9,
           "club": "VERDUN BELLEVILLE FC"
         },
         "ir3_vj-lzPeINLfhzILsrKlNF6Z7lCYgl7U": {
           "nom": "ALEXANDRE F.",
-          "maillot": 9,
+          "maillot": 12,
           "club": "VERDUN BELLEVILLE FC"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKt6kS0hl7c": {
@@ -496,14 +547,24 @@
         },
         {
           "id": 79375185,
-          "date": "2026-10-25",
-          "heure": "10:30",
-          "recevant": "VERDUN BELLEVILLE FC",
-          "visiteur": "HANNONVILLE VHF",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "date": "2026-10-27",
+          "heure": "20:00",
+          "recevant": "HANNONVILLE VHF",
+          "visiteur": "VERDUN BELLEVILLE FC",
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlNEqp4kC4jmrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlNF6Z7lCYgl7U",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MADINE 2_['1 CENTRE DE PREFORMATION', '55210 HEUDICOURT SOUS LES COTES']"
         },
         {
           "id": 79375186,

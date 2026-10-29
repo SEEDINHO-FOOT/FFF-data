@@ -166,6 +166,11 @@
           "nom": "Anonyme",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "FREDERIC PIERQUIN_AC": {
+          "nom": "FREDERIC PIERQUIN",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -182,7 +187,7 @@
         "ir3_vj-lzPeINLfhzILsrKpNEKp6miwln78": {
           "nom": "PENELOPE L.",
           "maillot": 2,
-          "club": "BELLERAY FC 2"
+          "club": "BELLERAY FC"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp8lCgnl7c": {
           "nom": "SANDRA C.",
@@ -431,7 +436,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK18lykllrE": {
           "nom": "SEVERINE J.",
-          "maillot": 6,
+          "maillot": 12,
           "club": "ENT.GORCY LEXY UGNY"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt_ly0lmbU": {
@@ -451,12 +456,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKx9miwhnr4": {
           "nom": "CASSANDRA L.",
-          "maillot": 10,
+          "maillot": 17,
           "club": "ENT.GORCY LEXY UGNY"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKp6lS4jnLU": {
           "nom": "MAGALIE C.",
-          "maillot": 8,
+          "maillot": 2,
           "club": "ENT.GORCY LEXY UGNY"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd9ki4hl7Q": {
@@ -493,6 +498,26 @@
           "nom": "INES M.",
           "maillot": 5,
           "club": "AVRILLOISE US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp4ligsmbI": {
+          "nom": "CHLOE N.",
+          "maillot": 8,
+          "club": "MAIZEY-LACROIX ENT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh2myshl7U": {
+          "nom": "LUCIE B.",
+          "maillot": 5,
+          "club": "ENT.GORCY LEXY UGNY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp9lisilrU": {
+          "nom": "LEONIE G.",
+          "maillot": 19,
+          "club": "ENT.GORCY LEXY UGNY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp7lykgm7A": {
+          "nom": "KATIA M.",
+          "maillot": 32,
+          "club": "ENT.GORCY LEXY UGNY"
         }
       },
       "matchs": [
@@ -1164,13 +1189,48 @@
         {
           "id": 79394186,
           "date": "2026-10-24",
-          "heure": "17:00",
-          "recevant": "BELLERAY FC",
-          "visiteur": "MAIZEY-LACROIX ENT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "heure": "16:30",
+          "recevant": "MAIZEY-LACROIX ENT",
+          "visiteur": "BELLERAY FC",
+          "buts_recevant": 1,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl_kScjmrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx-lSotmLU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4miktmrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4ligsmbI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 28,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt-lSghlrI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4lCstlr8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 61,
+              "type": "carton-rouge",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp6miwln78",
+              "sanction": "R",
+              "sanction_detail": "R2",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL_['LE BOURG', '55300 LACROIX SUR MEUSE']",
+          "officiels": [
+            "FREDERIC PIERQUIN_AC"
+          ]
         },
         {
           "id": 79394182,
@@ -1178,10 +1238,44 @@
           "heure": "10:30",
           "recevant": "ENT.GORCY LEXY UGNY",
           "visiteur": "BELLERAY FC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 8,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 11,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4kSYtnbQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKp6lS4jnLU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7kCYgmr8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh2myshl7U",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9lisilrU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx9miwhnr4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK18lykllrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp7lykgm7A",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL_['1 RUE DU STADE', '54730 GORCY']",
+          "officiels": [
+            "JEAN MARIE SERVAIS_AC"
+          ]
         },
         {
           "id": 79394204,
@@ -2823,6 +2917,11 @@
           "nom": "NATHAN SOUDIER",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "FRANCOIS POISSON_AC": {
+          "nom": "FRANCOIS POISSON",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -2938,12 +3037,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl9ki0tl7E": {
           "nom": "BEATRICE D.",
-          "maillot": 9,
+          "maillot": 8,
           "club": "GERBEVILLER ESP"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh4lighm74": {
           "nom": "LEA C.",
-          "maillot": 11,
+          "maillot": 10,
           "club": "GERBEVILLER ESP"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp4li8tnb4": {
@@ -3165,6 +3264,31 @@
           "nom": "MANUELA D.",
           "maillot": 3,
           "club": "GERBEVILLER ESP"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd7liclm7c": {
+          "nom": "LUDIVINE L.",
+          "maillot": 9,
+          "club": "GERBEVILLER ESP"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl9ki0gmLU": {
+          "nom": "EMILIE L.",
+          "maillot": 6,
+          "club": "ENT. PADOUX-JEAN."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp9lS4smLU": {
+          "nom": "ANAÏS M.",
+          "maillot": 12,
+          "club": "ENT. PADOUX-JEAN."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt3kS4lmLA": {
+          "nom": "AURORE M.",
+          "maillot": 2,
+          "club": "ENT. PADOUX-JEAN."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp-mikimbA": {
+          "nom": "OCEANE G.",
+          "maillot": 10,
+          "club": "ENT. PADOUX-JEAN."
         }
       },
       "matchs": [
@@ -4007,10 +4131,44 @@
           "heure": "15:00",
           "recevant": "GERBEVILLER ESP",
           "visiteur": "ENT. PADOUX-JEAN.",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt_miwgnbA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7liclm7c",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 26,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl9ki0tl7E",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4lighm74",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 36,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl9ki0gmLU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9lS4smLU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 38,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3kS4lmLA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp-mikimbA",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL_[' ROUTE DE REMENOVILLE', '54830 GERBEVILLER']",
+          "officiels": [
+            "FRANCOIS POISSON_AC"
+          ]
         },
         {
           "id": 79383891,
@@ -4018,10 +4176,11 @@
           "heure": "10:30",
           "recevant": "ETIVAL SM 4",
           "visiteur": "LUNEVILLE FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE CHAMP DE FOIRE_['RUE DU JARD', '88480 ETIVAL CLAIREFONTAINE']"
         },
         {
           "id": 79383873,
@@ -4591,10 +4750,11 @@
           "heure": "10:00",
           "recevant": "AS NOMEXY VINCEY",
           "visiteur": "CHATENOIS JS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['2 PLACE LEON BLUM', '88450 VINCEY']"
         },
         {
           "id": 79383966,

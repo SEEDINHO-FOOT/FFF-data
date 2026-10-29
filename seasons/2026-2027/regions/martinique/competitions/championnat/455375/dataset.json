@@ -154,6 +154,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE ALFRED MARIE JEANNE_['CITE CAMEE', '97211 RIVIERE PILOTE']": {
+          "nom": "STADE ALFRED MARIE JEANNE",
+          "adresse": "CITE CAMEE | 97211 RIVIERE PILOTE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -164,6 +171,11 @@
         },
         "SORAN BRIGITTE_AC": {
           "nom": "SORAN BRIGITTE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "MEDHY DAVY NEDRA_AC": {
+          "nom": "MEDHY DAVY NEDRA",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -858,10 +870,14 @@
           "heure": "15:30",
           "recevant": "MARTINIQUE",
           "visiteur": "S.C. LAMENTIN",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE YVES ADÈLE_['AUBERY', 'RUE ERNEST ANDRE', '97232 LE LAMENTIN']",
+          "officiels": [
+            "MEDHY DAVY NEDRA_AC"
+          ]
         },
         {
           "id": 79070092,
@@ -869,10 +885,11 @@
           "heure": "15:30",
           "recevant": "R.C. RIVIÈRE PILOTE",
           "visiteur": "SAMARITAINE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ALFRED MARIE JEANNE_['CITE CAMEE', '97211 RIVIERE PILOTE']"
         },
         {
           "id": 79070096,
@@ -1942,6 +1959,28 @@
           "date": "2026-10-18",
           "heure": "07:30",
           "recevant": "ASSAUT",
+          "visiteur": "ESSOR PRECHOTIN",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79617694,
+          "date": "2026-10-31",
+          "heure": "07:30",
+          "recevant": "EFFORT",
+          "visiteur": "ASSAUT",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
+        },
+        {
+          "id": 79617698,
+          "date": "2026-10-31",
+          "heure": "07:30",
+          "recevant": "C.S. CASE PILOTE",
           "visiteur": "ESSOR PRECHOTIN",
           "buts_recevant": null,
           "buts_visiteur": null,

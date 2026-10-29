@@ -2476,6 +2476,13 @@
           "surface": "PVC",
           "surface_jeu": "PVC",
           "type_installation": "Futsal"
+        },
+        "GYMNASE DE LA BUSSIE_[' RUE DE LA GERBE D OR', '95490 VAUREAL']": {
+          "nom": "GYMNASE DE LA BUSSIE",
+          "adresse": " RUE DE LA GERBE D OR | 95490 VAUREAL",
+          "surface": "Parquet",
+          "surface_jeu": "Parquet",
+          "type_installation": "Futsal"
         }
       },
       "officiels": {
@@ -2531,6 +2538,11 @@
         },
         "ALAIN FOUOTSAP FOUKMENIOK_AC": {
           "nom": "ALAIN FOUOTSAP FOUKMENIOK",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "SEBASTIEN MICHELIN_AC": {
+          "nom": "SEBASTIEN MICHELIN",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -2663,7 +2675,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh3li8nn7A": {
           "nom": "ELIJAH D.",
-          "maillot": 10,
+          "maillot": 5,
           "club": "AVICENNE A.S.C."
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh3li8nn7c": {
@@ -2870,6 +2882,46 @@
           "nom": "ABDOUKADRIE J.",
           "maillot": 8,
           "club": "PARIS 18 UNITED 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx-kCwhl7M": {
+          "nom": "PIERRE ADAM O.",
+          "maillot": 16,
+          "club": "BLANC MESNIL SF"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh3lCchnrU": {
+          "nom": "SIMBARA W.",
+          "maillot": 6,
+          "club": "BLANC MESNIL SF"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh6kCwhnL4": {
+          "nom": "HUGO C.",
+          "maillot": 7,
+          "club": "AVICENNE A.S.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp8miwinLc": {
+          "nom": "ABOUBACAR B.",
+          "maillot": 10,
+          "club": "AVICENNE A.S.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh2lyskmrY": {
+          "nom": "RAPHAEL C.",
+          "maillot": 9,
+          "club": "AVICENNE A.S.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt4micjnrM": {
+          "nom": "WARREN D.",
+          "maillot": 11,
+          "club": "BLANC MESNIL SF"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh9kSwin7U": {
+          "nom": "MADHY B.",
+          "maillot": 1,
+          "club": "AVICENNE A.S.C."
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh9kSwsmLA": {
+          "nom": "HASSAN M.",
+          "maillot": 8,
+          "club": "AVICENNE A.S.C."
         }
       },
       "matchs": [
@@ -3281,14 +3333,56 @@
         },
         {
           "id": 55703032,
-          "date": "2026-10-03",
-          "heure": "19:00",
+          "date": "2026-10-24",
+          "heure": "14:30",
           "recevant": "AVICENNE A.S.C.",
           "visiteur": "BLANC MESNIL SF",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "reporté"
+          "buts_recevant": 9,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 3,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx-kCwhl7M",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3lCchnrU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 3,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh6kCwhnL4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp8miwinLc",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 10,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3li8nn7A",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh2lyskmrY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 42,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt4micjnrM",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 48,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh9kSwin7U",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh9kSwsmLA",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "GYMNASE DE LA BUSSIE_[' RUE DE LA GERBE D OR', '95490 VAUREAL']",
+          "officiels": [
+            "SEBASTIEN MICHELIN_AC"
+          ]
         },
         {
           "id": 55703046,
@@ -3570,14 +3664,14 @@
         },
         {
           "id": 55703044,
-          "date": "2026-10-10",
+          "date": "2026-10-31",
           "heure": "19:00",
           "recevant": "AVICENNE A.S.C.",
           "visiteur": "MARCOUVILLE CITY CP",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "reporté"
+          "statut": "à venir"
         },
         {
           "id": 55703045,

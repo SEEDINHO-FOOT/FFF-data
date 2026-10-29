@@ -10,21 +10,100 @@
     {
       "cp_slug": "458036-coupe-credit-mutuel-u15f-a-8/phase/1/1",
       "competition": "Coupe Crédit Mutuel U15F à 8",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "MULHOUSE AZZURRI U.S": {
+          "nom": "MULHOUSE AZZURRI U.S",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC523293.jpg",
+          "clNo": "8752",
+          "slug": "523293-mulhouse-azzurri-u-s"
+        },
+        "WETTOLSHEIM F.C.": {
+          "nom": "WETTOLSHEIM F.C.",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC521646.jpg",
+          "clNo": "7703",
+          "slug": "521646-wettolsheim-f-c"
+        },
+        "HOENHEIM S.R": {
+          "nom": "HOENHEIM S.R",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503968.jpg",
+          "clNo": "1979",
+          "slug": "503968-hoenheim-s-r"
+        },
+        "DRUSENHEIM F.C": {
+          "nom": "DRUSENHEIM F.C",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC504011.jpg",
+          "clNo": "2016",
+          "slug": "504011-drusenheim-f-c"
+        },
+        "LINGOLSHEIM FC": {
+          "nom": "LINGOLSHEIM FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503945.jpg",
+          "clNo": "1959",
+          "slug": "503945-lingolsheim-fc"
+        },
+        "SOAS ENT. ASL ROB": {
+          "nom": "SOAS ENT. ASL ROB",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC536033.jpg",
+          "clNo": "17318",
+          "slug": "536033-soas-ent-asl-rob"
+        },
+        "HOHENGOEFT": {
+          "nom": "HOHENGOEFT",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC545462.jpg",
+          "clNo": "23370",
+          "slug": "545462-hohengoeft"
+        },
+        "MONSWILLER FC": {
+          "nom": "MONSWILLER FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500199.jpg",
+          "clNo": "328",
+          "slug": "500199-monswiller-fc"
+        }
+      },
+      "stades": {
+        "STADE DROUOT_[' RUE DE BRETAGNE', '68200 MULHOUSE']": {
+          "nom": "STADE DROUOT",
+          "adresse": " RUE DE BRETAGNE | 68200 MULHOUSE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE OMNISPORTS LE CHÊNE 2_['RUE DU STADE', '67800 HOENHEIM']": {
+          "nom": "STADE OMNISPORTS LE CHÊNE 2",
+          "adresse": "RUE DU STADE | 67800 HOENHEIM",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE JOFFRE LEFEBVRE 3_['RUE DE GRAFFENSTADEN', 'TERRAIN ANNEXE', '67380 LINGOLSHEIM']": {
+          "nom": "STADE JOFFRE LEFEBVRE 3",
+          "adresse": "RUE DE GRAFFENSTADEN | TERRAIN ANNEXE | 67380 LINGOLSHEIM",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 3_['3 RUE DU STADE', '67310 HOHENGOEFT']": {
+          "nom": "STADE MUNICIPAL 3",
+          "adresse": "3 RUE DU STADE | 67310 HOHENGOEFT",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football réduit"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
         {
           "id": 79893484,
           "date": "2026-10-24",
-          "heure": "16:00",
+          "heure": "16:30",
           "recevant": "HOHENGOEFT",
           "visiteur": "MONSWILLER FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 3_['3 RUE DU STADE', '67310 HOHENGOEFT']"
         },
         {
           "id": 79893485,
@@ -32,10 +111,11 @@
           "heure": "16:00",
           "recevant": "HOENHEIM S.R",
           "visiteur": "DRUSENHEIM F.C",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE OMNISPORTS LE CHÊNE 2_['RUE DU STADE', '67800 HOENHEIM']"
         },
         {
           "id": 79893486,
@@ -43,10 +123,11 @@
           "heure": "16:00",
           "recevant": "LINGOLSHEIM FC",
           "visiteur": "SOAS ENT. ASL ROB",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JOFFRE LEFEBVRE 3_['RUE DE GRAFFENSTADEN', 'TERRAIN ANNEXE', '67380 LINGOLSHEIM']"
         },
         {
           "id": 79893487,
@@ -62,7 +143,7 @@
         {
           "id": 79893488,
           "date": "2026-10-24",
-          "heure": "16:00",
+          "heure": "14:00",
           "recevant": "ROUFFACH F.C",
           "visiteur": "THANN F.C",
           "buts_recevant": null,
@@ -73,13 +154,14 @@
         {
           "id": 79893489,
           "date": "2026-10-24",
-          "heure": "16:00",
-          "recevant": "WETTOLSHEIM F.C.",
-          "visiteur": "MULHOUSE AZZURRI U.S",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "heure": "13:00",
+          "recevant": "MULHOUSE AZZURRI U.S",
+          "visiteur": "WETTOLSHEIM F.C.",
+          "buts_recevant": 5,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DROUOT_[' RUE DE BRETAGNE', '68200 MULHOUSE']"
         }
       ]
     }

@@ -165,6 +165,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE DE VOLPAJO_['FURIANI', 'RUE CLAUDE PAPI', '20600 BASTIA']": {
+          "nom": "STADE DE VOLPAJO",
+          "adresse": "FURIANI | RUE CLAUDE PAPI | 20600 BASTIA",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -187,7 +194,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK15kSkglrU": {
           "nom": "PAUL F.",
-          "maillot": 4,
+          "maillot": 9,
           "club": "ROCCA TARAVU"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh-kCsgn7I": {
@@ -252,7 +259,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd7migll7I": {
           "nom": "AYOUB E.",
-          "maillot": 11,
+          "maillot": 9,
           "club": "SUD FC 2"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp5liYjnb8": {
@@ -297,7 +304,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh-lCYnnb4": {
           "nom": "SAMUEL M.",
-          "maillot": 11,
+          "maillot": 8,
           "club": "AJACCIEN FC"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl6mygjl7E": {
@@ -362,7 +369,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh-kCYslr8": {
           "nom": "ADRIEN C.",
-          "maillot": 10,
+          "maillot": 11,
           "club": "FJE BIGUGLIA 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd9lCYimLU": {
@@ -382,12 +389,42 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKt6lC4imbc": {
           "nom": "ANTHONY H.",
-          "maillot": 8,
+          "maillot": 4,
           "club": "SVARR 2"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp5liYgnrI": {
           "nom": "DARIO T.",
           "maillot": 7,
+          "club": "SVARR 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl9liYslrQ": {
+          "nom": "CORENTIN D.",
+          "maillot": 3,
+          "club": "FC TORRA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp3listlrU": {
+          "nom": "TOMAS EUSEBIO V.",
+          "maillot": 11,
+          "club": "AJACCIEN FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl6kyghnrU": {
+          "nom": "AXEL V.",
+          "maillot": 4,
+          "club": "SOTTA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp5kSwklr4": {
+          "nom": "TERENCE Q.",
+          "maillot": 7,
+          "club": "SOTTA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt9lCgjnrM": {
+          "nom": "LEO G.",
+          "maillot": 7,
+          "club": "SVARR 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlKFq15kycmlrY": {
+          "nom": "KALED E.",
+          "maillot": 9,
           "club": "SVARR 2"
         }
       },
@@ -1042,13 +1079,22 @@
         {
           "id": 79298529,
           "date": "2026-10-25",
-          "heure": "15:00",
+          "heure": "13:00",
           "recevant": "CAPICORSU 2",
           "visiteur": "FC TORRA",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 35,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl9liYslrQ",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE DE VOLPAJO_['FURIANI', 'RUE CLAUDE PAPI', '20600 BASTIA']"
         },
         {
           "id": 79298530,
@@ -1064,24 +1110,90 @@
         {
           "id": 79298531,
           "date": "2026-10-25",
-          "heure": "15:00",
+          "heure": "18:00",
           "recevant": "SVARR 2",
-          "visiteur": "SUD F.C. 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "visiteur": "SUD FC 2",
+          "buts_recevant": 3,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 15,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7migll7I",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 25,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt6lC4imbc",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 50,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt9lCgjnrM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 55,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7migll7I",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 80,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlKFq15kycmlrY",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE JEAN ISTRIA_['San Ghaseppu', 'ROUTE DE SARTENE', 'Parc des Spots', '20110 PROPRIANO']"
         },
         {
           "id": 79298532,
           "date": "2026-10-25",
-          "heure": "15:00",
+          "heure": "12:00",
           "recevant": "FJE BIGUGLIA 2",
           "visiteur": "ROCCA TARAVU",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 19,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK15kSkglrU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 25,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx_my4hn74",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 38,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh-kCYslr8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 59,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh-kCYslr8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 80,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh-kCYslr8",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE FRANÇOIS MONTI_['R.A.S', '20620 BIGUGLIA']"
         },
         {
           "id": 79298533,
@@ -1089,16 +1201,43 @@
           "heure": "15:00",
           "recevant": "SOTTA",
           "visiteur": "AJACCIEN FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 22,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp3listlrU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 35,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh-lCYnnb4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 69,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl6kyghnrU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 78,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5kSwklr4",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "Jean Comiti_['', ' HAMEAU DI SALVA DI LEVO', '', '20146 SOTTA']"
         },
         {
           "id": 79298534,
           "date": "2026-10-25",
-          "heure": "15:00",
-          "recevant": "RCB",
+          "heure": "17:00",
+          "recevant": "RC BASTIA",
           "visiteur": "SAN ANTONE",
           "buts_recevant": null,
           "buts_visiteur": null,
@@ -1108,7 +1247,7 @@
         {
           "id": 79298535,
           "date": "2026-11-01",
-          "heure": "14:30",
+          "heure": "12:00",
           "recevant": "SAN ANTONE",
           "visiteur": "SOTTA",
           "buts_recevant": null,
@@ -1151,8 +1290,8 @@
         },
         {
           "id": 79298539,
-          "date": "2026-11-01",
-          "heure": "14:30",
+          "date": "2026-10-31",
+          "heure": "16:00",
           "recevant": "MONTESORO",
           "visiteur": "CAPICORSU 2",
           "buts_recevant": null,
@@ -1162,10 +1301,10 @@
         },
         {
           "id": 79298540,
-          "date": "2026-11-01",
-          "heure": "14:30",
+          "date": "2026-10-31",
+          "heure": "12:00",
           "recevant": "FC TORRA",
-          "visiteur": "ASC CALENZANA",
+          "visiteur": "CALENZANA",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
@@ -1176,7 +1315,7 @@
           "date": "2026-11-01",
           "heure": "14:30",
           "recevant": "BIGODE FC",
-          "visiteur": "RCB",
+          "visiteur": "RC BASTIA",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,

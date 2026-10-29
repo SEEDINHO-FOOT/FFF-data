@@ -224,6 +224,11 @@
           "nom": "JEROME LECAILLE",
           "role": "Observateur principal",
           "role_cod": "CP"
+        },
+        "Anonyme_CP": {
+          "nom": "Anonyme",
+          "role": "Observateur principal",
+          "role_cod": "CP"
         }
       },
       "joueurs": {
@@ -244,7 +249,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd9lycjmrA": {
           "nom": "ENZO D.",
-          "maillot": 14,
+          "maillot": 10,
           "club": "CS MAINVILLIERS"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK19lC0knrA": {
@@ -479,7 +484,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK16mionm7M": {
           "nom": "DARIUS K.",
-          "maillot": 9,
+          "maillot": 12,
           "club": "DAMMARIE / BERCHERES"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd7missnrE": {
@@ -684,7 +689,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK1_my4mm78": {
           "nom": "GIBRIL D.",
-          "maillot": 10,
+          "maillot": 11,
           "club": "CS MAINVILLIERS"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx4licgnbI": {
@@ -769,7 +774,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK19kS0jnbA": {
           "nom": "LIAM D.",
-          "maillot": 6,
+          "maillot": 13,
           "club": "DAMMARIE / BERCHERES"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK19kCognr4": {
@@ -791,6 +796,31 @@
           "nom": "NOAM M.",
           "maillot": 12,
           "club": "AM. EPERNON"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17kiogmLY": {
+          "nom": "MATHYS M.",
+          "maillot": 12,
+          "club": "CS MAINVILLIERS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17lSosnbM": {
+          "nom": "AMAR B.",
+          "maillot": 13,
+          "club": "CS MAINVILLIERS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd6mikilrY": {
+          "nom": "STANNISLAS L.",
+          "maillot": 14,
+          "club": "DAMMARIE / BERCHERES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK18lS4hmLE": {
+          "nom": "ADAM C.",
+          "maillot": 2,
+          "club": "CS MAINVILLIERS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16lC8llrU": {
+          "nom": "EWEN A.",
+          "maillot": 15,
+          "club": "CS MAINVILLIERS"
         }
       },
       "matchs": [
@@ -1901,14 +1931,63 @@
         },
         {
           "id": 78895712,
-          "date": "2026-10-17",
-          "heure": "16:00",
+          "date": "2026-10-24",
+          "heure": "15:00",
           "recevant": "DAMMARIE / BERCHERES",
           "visiteur": "CS MAINVILLIERS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16lyknnr4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK16mionm7M",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6lyYml7Y",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK19kS0jnbA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 56,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9lycjmrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK17kiogmLY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 56,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK1_my4mm78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK17lSosnbM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 64,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16kS4jn7M",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6mikilrY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 75,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK18lS4hmLE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK16lC8llrU",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE DE LA FILERIE 1_['ROUTE DE LA FILERIE', '28360 DAMMARIE']",
+          "officiels": [
+            "SALMA SOUAG_AC",
+            "Anonyme_CP"
+          ]
         },
         {
           "id": 78895716,

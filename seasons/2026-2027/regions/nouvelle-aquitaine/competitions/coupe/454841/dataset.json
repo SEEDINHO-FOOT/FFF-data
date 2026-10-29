@@ -189,7 +189,7 @@
         {
           "id": 79989660,
           "date": "2026-10-31",
-          "heure": "15:00",
+          "heure": "11:00",
           "recevant": "NEUVILLE CA",
           "visiteur": "DOMPIERRE STE SOULLE",
           "buts_recevant": null,
@@ -405,7 +405,7 @@
         {
           "id": 79989673,
           "date": "2026-10-31",
-          "heure": "15:00",
+          "heure": "13:00",
           "recevant": "THOUARS FOOT 79",
           "visiteur": "PERIGNY FC",
           "buts_recevant": null,
@@ -611,7 +611,7 @@
         {
           "id": 79793172,
           "date": "2026-10-31",
-          "heure": "15:00",
+          "heure": "11:00",
           "recevant": "CHAUVIGNY VVM GJ",
           "visiteur": "AURENCE-ROUSSILLON F",
           "buts_recevant": null,
@@ -625,10 +625,12 @@
           "heure": "15:00",
           "recevant": "ESPOIR SUD POIT. GJ",
           "visiteur": "BENEVENT MARSAC ES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "forfait": true,
+          "vainqueur_forfait": "ESPOIR SUD POIT. GJ"
         },
         {
           "id": 79989684,
@@ -1003,7 +1005,7 @@
         {
           "id": 79793136,
           "date": "2026-10-31",
-          "heure": "15:00",
+          "heure": "11:00",
           "recevant": "J.A. BEL-AIR",
           "visiteur": "LIMOGES FOOTBALL",
           "buts_recevant": null,
@@ -1014,7 +1016,7 @@
         {
           "id": 79793137,
           "date": "2026-10-31",
-          "heure": "15:00",
+          "heure": "13:00",
           "recevant": "GUERETOISE ES",
           "visiteur": "CHATELLERAULT SO",
           "buts_recevant": null,
@@ -1049,21 +1051,185 @@
     {
       "cp_slug": "454841-challenge-na-u14/phase/1/6",
       "competition": "CHALLENGE NA U14",
-      "clubs": {},
-      "stades": {},
-      "officiels": {},
-      "joueurs": {},
+      "clubs": {
+        "POITIERS STADE FC": {
+          "nom": "POITIERS STADE FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC553111.jpg",
+          "clNo": "127721",
+          "slug": "553111-poitiers-stade-fc"
+        },
+        "STGE ESTUAIRE GJ": {
+          "nom": "STGE ESTUAIRE GJ",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560920.jpg",
+          "clNo": "199212",
+          "slug": "560920-stge-estuaire-gj"
+        }
+      },
+      "stades": {
+        "COMPLEXE SPORTIF MICHEL AMAND 4_['RUE DU SENTIER', 'TERRAIN ANNEXE D', '86180 BUXEROLLES']": {
+          "nom": "COMPLEXE SPORTIF MICHEL AMAND 4",
+          "adresse": "RUE DU SENTIER | TERRAIN ANNEXE D | 86180 BUXEROLLES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
+      "officiels": {
+        "PAPISS DIABY_AC": {
+          "nom": "PAPISS DIABY",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        }
+      },
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFK19ky8jnLE": {
+          "nom": "NAHEL H.",
+          "maillot": 7,
+          "club": "POITIERS STADE FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK16kigtlrQ": {
+          "nom": "AMIR A.",
+          "maillot": 11,
+          "club": "POITIERS STADE FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK13liwjmLA": {
+          "nom": "Anonyme",
+          "maillot": 10,
+          "club": "STGE ESTUAIRE GJ"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp7kywnmrE": {
+          "nom": "YANIS G.",
+          "maillot": 13,
+          "club": "STGE ESTUAIRE GJ"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15kSwhlr8": {
+          "nom": "OUMAR D.",
+          "maillot": 9,
+          "club": "POITIERS STADE FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK18lSgtl78": {
+          "nom": "THOMAS D.",
+          "maillot": 6,
+          "club": "POITIERS STADE FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17kyomm7c": {
+          "nom": "GABRIEL N.",
+          "maillot": 13,
+          "club": "POITIERS STADE FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK13kiknm74": {
+          "nom": "THEO B.",
+          "maillot": 10,
+          "club": "POITIERS STADE FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15mywlnL8": {
+          "nom": "N'FALY C.",
+          "maillot": 12,
+          "club": "POITIERS STADE FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK13lS8gmrM": {
+          "nom": "ETHAN B.",
+          "maillot": 3,
+          "club": "STGE ESTUAIRE GJ"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15lC4lnbc": {
+          "nom": "LEO G.",
+          "maillot": 12,
+          "club": "STGE ESTUAIRE GJ"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17kCohl7Q": {
+          "nom": "ARTHUR C.",
+          "maillot": 4,
+          "club": "POITIERS STADE FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt8ly8tnrE": {
+          "nom": "KALOKO K.",
+          "maillot": 14,
+          "club": "POITIERS STADE FC"
+        }
+      },
       "matchs": [
         {
           "id": 79793098,
-          "date": "2026-10-17",
-          "heure": "15:00",
+          "date": "2026-10-21",
+          "heure": "17:00",
           "recevant": "POITIERS STADE FC",
           "visiteur": "STGE ESTUAIRE GJ",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 20,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK19ky8jnLE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 20,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16kigtlrQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 23,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK13liwjmLA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp7kywnmrE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 30,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK15kSwhlr8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK18lSgtl78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK17kyomm7c",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK13kiknm74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK15mywlnL8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 31,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK13lS8gmrM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK15lC4lnbc",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 46,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK15kSwhlr8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK17kCohl7Q",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt8ly8tnrE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 78,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK17kCohl7Q",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "COMPLEXE SPORTIF MICHEL AMAND 4_['RUE DU SENTIER', 'TERRAIN ANNEXE D', '86180 BUXEROLLES']",
+          "officiels": [
+            "PAPISS DIABY_AC"
+          ]
         },
         {
           "id": 79989691,
@@ -1177,7 +1343,7 @@
         {
           "id": 79793095,
           "date": "2026-10-31",
-          "heure": "15:00",
+          "heure": "11:00",
           "recevant": "SARLAT MARCILLAC FC",
           "visiteur": "TRELISSAC APFC",
           "buts_recevant": null,
@@ -1188,7 +1354,7 @@
         {
           "id": 79989714,
           "date": "2026-10-31",
-          "heure": "15:00",
+          "heure": "17:00",
           "recevant": "ST PANTALEON AS",
           "visiteur": "ENTENTE VERGERS GJ",
           "buts_recevant": null,
@@ -1600,7 +1766,7 @@
         {
           "id": 79989719,
           "date": "2026-10-31",
-          "heure": "15:00",
+          "heure": "13:00",
           "recevant": "BRIVE ESA",
           "visiteur": "RILHAC RANCON CA",
           "buts_recevant": null,
@@ -1665,7 +1831,7 @@
         {
           "id": 79793058,
           "date": "2026-10-31",
-          "heure": "15:00",
+          "heure": "13:00",
           "recevant": "SCS FC",
           "visiteur": "BASSIN ARCACHON FC",
           "buts_recevant": null,
@@ -1741,7 +1907,7 @@
         {
           "id": 79989724,
           "date": "2026-10-31",
-          "heure": "15:00",
+          "heure": "10:30",
           "recevant": "TALENCE FC",
           "visiteur": "LA BREDE  FC",
           "buts_recevant": null,
@@ -1752,7 +1918,7 @@
         {
           "id": 79989725,
           "date": "2026-10-31",
-          "heure": "15:00",
+          "heure": "13:00",
           "recevant": "JA DAX",
           "visiteur": "PORTE D AQUITAINE 47",
           "buts_recevant": null,
@@ -1817,7 +1983,7 @@
         {
           "id": 79793046,
           "date": "2026-10-31",
-          "heure": "15:00",
+          "heure": "13:00",
           "recevant": "CESTAS SAG",
           "visiteur": "PESSACAIS STADE UC",
           "buts_recevant": null,
@@ -1828,7 +1994,7 @@
         {
           "id": 79793047,
           "date": "2026-10-31",
-          "heure": "15:00",
+          "heure": "13:00",
           "recevant": "MARMANDE 47 FC",
           "visiteur": "JEUNES DE LANGON",
           "buts_recevant": null,
@@ -2012,7 +2178,7 @@
         {
           "id": 79989758,
           "date": "2026-10-31",
-          "heure": "15:00",
+          "heure": "15:30",
           "recevant": "BRUGES ES",
           "visiteur": "APFC",
           "buts_recevant": null,
@@ -2110,7 +2276,7 @@
         {
           "id": 79792764,
           "date": "2026-10-31",
-          "heure": "15:00",
+          "heure": "16:00",
           "recevant": "USTARITZ LABOURDINS",
           "visiteur": "FCE MERIGNAC ARLAC",
           "buts_recevant": null,
@@ -2175,7 +2341,7 @@
         {
           "id": 79792758,
           "date": "2026-10-31",
-          "heure": "15:00",
+          "heure": "13:00",
           "recevant": "ANGLET GENETS FOOT",
           "visiteur": "BORDEAUX COQS ROUGES",
           "buts_recevant": null,
@@ -2434,10 +2600,12 @@
           "heure": "15:00",
           "recevant": "GARAZI ST JEAN P. P.",
           "visiteur": "BAYONNE CROISES",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "forfait": true,
+          "vainqueur_forfait": "BAYONNE CROISES"
         },
         {
           "id": 79989780,
@@ -2696,7 +2864,7 @@
         {
           "id": 79792746,
           "date": "2026-10-31",
-          "heure": "15:00",
+          "heure": "17:00",
           "recevant": "RIVE DROITE 33 FC",
           "visiteur": "ST MEDARD EN JALLES",
           "buts_recevant": null,

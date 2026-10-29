@@ -22,12 +22,31 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC560812.jpg",
           "clNo": "198993",
           "slug": "560812-pierrelaye-fc-5"
+        },
+        "E.S. HERBLAY 5": {
+          "nom": "E.S. HERBLAY 5",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC561058.jpg",
+          "clNo": "200557",
+          "slug": "561058-e-s-herblay-5"
+        },
+        "ST BRICE F.C. 6": {
+          "nom": "ST BRICE F.C. 6",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC527269.jpg",
+          "clNo": "11386",
+          "slug": "527269-st-brice-f-c-6"
         }
       },
       "stades": {
         "COMPLEXE SPORTIF N. MANDELA 1_[' BOULEVARD DE L EUROPE', 'Terrain de la pepinière', '95000 PONTOISE']": {
           "nom": "COMPLEXE SPORTIF N. MANDELA 1",
           "adresse": " BOULEVARD DE L EUROPE | Terrain de la pepinière | 95000 PONTOISE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DES BEAUREGARDS 2_[' ROUTE DE PIERRELAYE', 'TERRAIN ANNEXE', '95220 HERBLAY SUR SEINE']": {
+          "nom": "STADE DES BEAUREGARDS 2",
+          "adresse": " ROUTE DE PIERRELAYE | TERRAIN ANNEXE | 95220 HERBLAY SUR SEINE",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -38,9 +57,60 @@
           "nom": "ABDELKADER TABBI",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "BADARA SIDIBE_AC": {
+          "nom": "BADARA SIDIBE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
-      "joueurs": {},
+      "joueurs": {
+        "ir3_vj-lzPeINLfhzILsrKFOFKp2kyskmL4": {
+          "nom": "ELIRONE S.",
+          "maillot": 14,
+          "club": "ST BRICE F.C. 6"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp2kysknbU": {
+          "nom": "YOEL Z.",
+          "maillot": 12,
+          "club": "ST BRICE F.C. 6"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLHad-kS4snbc": {
+          "nom": "JOHAN B.",
+          "maillot": 22,
+          "club": "E.S. HERBLAY 5"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh9micmmbM": {
+          "nom": "FAYCAL D.",
+          "maillot": 13,
+          "club": "E.S. HERBLAY 5"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp3kCkgnLU": {
+          "nom": "NATHAN C.",
+          "maillot": 11,
+          "club": "E.S. HERBLAY 5"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt7kSgtmrM": {
+          "nom": "ALVIN A.",
+          "maillot": 13,
+          "club": "ST BRICE F.C. 6"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp2kysnmbY": {
+          "nom": "BENJAMIN S.",
+          "maillot": 16,
+          "club": "ST BRICE F.C. 6"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp3kiYlm7A": {
+          "nom": "OURIEL Z.",
+          "maillot": 10,
+          "club": "ST BRICE F.C. 6"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp2kyslmrA": {
+          "nom": "NOAM C.",
+          "maillot": 15,
+          "club": "ST BRICE F.C. 6"
+        }
+      },
       "matchs": [
         {
           "id": 79971965,
@@ -107,15 +177,56 @@
           "heure": "09:30",
           "recevant": "E.S. HERBLAY 5",
           "visiteur": "ST BRICE F.C. 6",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp2kyskmL4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp2kysknbU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLHad-kS4snbc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh9micmmbM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp3kCkgnLU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh9micmmbM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt7kSgtmrM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp2kysnmbY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp3kiYlm7A",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp2kyslmrA",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE DES BEAUREGARDS 2_[' ROUTE DE PIERRELAYE', 'TERRAIN ANNEXE', '95220 HERBLAY SUR SEINE']",
+          "officiels": [
+            "BADARA SIDIBE_AC"
+          ]
         },
         {
           "id": 79971966,
           "date": "2026-11-01",
-          "heure": "09:30",
+          "heure": "11:15",
           "recevant": "E.S. HERBLAY 5",
           "visiteur": "PIERRELAYE FC 5",
           "buts_recevant": null,

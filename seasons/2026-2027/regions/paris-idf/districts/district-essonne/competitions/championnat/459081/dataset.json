@@ -64,6 +64,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC535974.jpg",
           "clNo": "17288",
           "slug": "535974-villabe-et-s"
+        },
+        "AIGLE FERTOISE": {
+          "nom": "AIGLE FERTOISE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500668.jpg",
+          "clNo": "661",
+          "slug": "500668-aigle-fertoise"
+        },
+        "SUD ESSONNE ETRECHY": {
+          "nom": "SUD ESSONNE ETRECHY",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC549327.jpg",
+          "clNo": "26082",
+          "slug": "549327-sud-essonne-etrechy"
         }
       },
       "stades": {
@@ -115,6 +127,27 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE CARNOT_['ALLEE JEAN MOULIN', '91590 LA FERTE ALAIS']": {
+          "nom": "STADE CARNOT",
+          "adresse": "ALLEE JEAN MOULIN | 91590 LA FERTE ALAIS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "Complexe Paul Poisson Ter Jeremy Peyraud_['1 RUE DU CHEMIN VERT', 'TERRAIN JEREMY PEYRAULT', '91100 VILLABE']": {
+          "nom": "Complexe Paul Poisson Ter Jeremy Peyraud",
+          "adresse": "1 RUE DU CHEMIN VERT | TERRAIN JEREMY PEYRAULT | 91100 VILLABE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE DE LA NOUE ROUSSEAU_['7 RUE ARTHUR RIMBAUD', 'JOSE MARQUES', '91240 ST MICHEL SUR ORGE']": {
+          "nom": "STADE DE LA NOUE ROUSSEAU",
+          "adresse": "7 RUE ARTHUR RIMBAUD | JOSE MARQUES | 91240 ST MICHEL SUR ORGE",
+          "surface": "Stabilisé",
+          "surface_jeu": "Stabilisé",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -138,6 +171,16 @@
           "nom": "JENNIFER S.",
           "maillot": 10,
           "club": "M-N-VDB FC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp9kCoinrI": {
+          "nom": "MARINE N.",
+          "maillot": 1,
+          "club": "AIGLE FERTOISE"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp6kigtm7A": {
+          "nom": "OUNA MAIA F.",
+          "maillot": 10,
+          "club": "AIGLE FERTOISE"
         }
       },
       "matchs": [
@@ -335,10 +378,20 @@
           "heure": "15:00",
           "recevant": "AIGLE FERTOISE",
           "visiteur": "SUD ESSONNE ETRECHY",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 22,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9kCoinrI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp6kigtm7A",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE CARNOT_['ALLEE JEAN MOULIN', '91590 LA FERTE ALAIS']"
         },
         {
           "id": 79715572,
@@ -346,10 +399,11 @@
           "heure": "16:00",
           "recevant": "VILLABE ET.S.",
           "visiteur": "STE GENEVIEVE FC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 10,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Complexe Paul Poisson Ter Jeremy Peyraud_['1 RUE DU CHEMIN VERT', 'TERRAIN JEREMY PEYRAULT', '91100 VILLABE']"
         },
         {
           "id": 79715573,
@@ -357,17 +411,18 @@
           "heure": "16:00",
           "recevant": "PORT. SAINT MICHEL",
           "visiteur": "MILLY GATINAIS FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA NOUE ROUSSEAU_['7 RUE ARTHUR RIMBAUD', 'JOSE MARQUES', '91240 ST MICHEL SUR ORGE']"
         },
         {
           "id": 79715574,
           "date": "2026-10-24",
           "heure": "16:00",
-          "recevant": "M-N-VDB FC",
-          "visiteur": "TROIS VALLEES F.C. 2",
+          "recevant": "ENT.FC3V-EPL 2",
+          "visiteur": "M-N-VDB FC",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
@@ -379,10 +434,11 @@
           "heure": "16:00",
           "recevant": "COUDRAYSIEN F.C.",
           "visiteur": "SACLAS MEREVILLE U.S",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ROBERT DAUTIER N° 3_[' AVENUE DU COUDRAY', '91830 LE COUDRAY MONTCEAUX']"
         },
         {
           "id": 79715586,

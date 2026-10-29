@@ -155,6 +155,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE GUSTAVE GANAY_['5 BOULEVARD GUSTAVE GANAY', '13009 MARSEILLE']": {
+          "nom": "STADE GUSTAVE GANAY",
+          "adresse": "5 BOULEVARD GUSTAVE GANAY | 13009 MARSEILLE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -187,6 +194,11 @@
           "nom": "AYMAN EL MAHMOUDI",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "BELATTAR BEDANI_AC": {
+          "nom": "BELATTAR BEDANI",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -197,7 +209,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK17ly4glr4": {
           "nom": "GIULIAN J.",
-          "maillot": 12,
+          "maillot": 2,
           "club": "USPEG MARS"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx8kSYtn7A": {
@@ -504,6 +516,26 @@
           "nom": "IBRAHIM H.",
           "maillot": null,
           "club": ""
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp7lyoslrY": {
+          "nom": "BATUHAN Y.",
+          "maillot": 9,
+          "club": "AVS AYGALADES CAS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt6kCcmm7Y": {
+          "nom": "MANI M.",
+          "maillot": 12,
+          "club": "AVS AYGALADES CAS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx4lSYmmrQ": {
+          "nom": "FORRES B.",
+          "maillot": 12,
+          "club": "USPEG MARS"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK12kS8gnLc": {
+          "nom": "AYMEN A.",
+          "maillot": 6,
+          "club": "AVS AYGALADES CAS"
         }
       },
       "matchs": [
@@ -1162,14 +1194,42 @@
         },
         {
           "id": 79517685,
-          "date": "2026-10-11",
-          "heure": "09:00",
-          "recevant": "AVS AYGALADES CAS",
-          "visiteur": "USPEG MARS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "date": "2026-10-25",
+          "heure": "10:00",
+          "recevant": "USPEG MARS",
+          "visiteur": "AVS AYGALADES CAS",
+          "buts_recevant": 2,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 55,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp7lyoslrY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt6kCcmm7Y",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 65,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK17ly4glr4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4lSYmmrQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 70,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12kS8gnLc",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE GUSTAVE GANAY_['5 BOULEVARD GUSTAVE GANAY', '13009 MARSEILLE']",
+          "officiels": [
+            "BELATTAR BEDANI_AC"
+          ]
         },
         {
           "id": 79517687,

@@ -135,6 +135,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "COMPLEXE SPORTIF DE L'AMBALLON 1_[\"795 ROUTE DE L'OASIS\", '38440 MOIDIEU DETOURBE']": {
+          "nom": "COMPLEXE SPORTIF DE L'AMBALLON 1",
+          "adresse": "795 ROUTE DE L'OASIS | 38440 MOIDIEU DETOURBE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -187,6 +194,11 @@
           "nom": "CHAMSEDDINE EL FASKAOUI",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "THEO MARGARIT_AC": {
+          "nom": "THEO MARGARIT",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -197,7 +209,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp7kCYsn78": {
           "nom": "TANIA D.",
-          "maillot": 12,
+          "maillot": 4,
           "club": "MOS3R FC"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh3kCckm74": {
@@ -287,7 +299,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt5ki8gl7c": {
           "nom": "NADA B.",
-          "maillot": 12,
+          "maillot": 11,
           "club": "ENT  LA COTE  ST SIM"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx5ly0gl7M": {
@@ -599,6 +611,11 @@
           "nom": "ALMEJDA B.",
           "maillot": 13,
           "club": "ENT.BOURG BOULIEU JU"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp9ly8lnLA": {
+          "nom": "LISA A.",
+          "maillot": 12,
+          "club": "MOS3R FC"
         }
       },
       "matchs": [
@@ -1213,14 +1230,35 @@
         },
         {
           "id": 79681549,
-          "date": "2026-10-17",
+          "date": "2026-10-24",
           "heure": "15:00",
           "recevant": "MOS3R FC",
           "visiteur": "ENT  LA COTE  ST SIM",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp7kCYsn78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9ly8lnLA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 76,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt5ki8gl7c",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "COMPLEXE SPORTIF DE L'AMBALLON 1_[\"795 ROUTE DE L'OASIS\", '38440 MOIDIEU DETOURBE']",
+          "officiels": [
+            "THEO MARGARIT_AC"
+          ]
         },
         {
           "id": 79681550,

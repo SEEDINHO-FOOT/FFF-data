@@ -526,6 +526,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC516726.jpg",
           "clNo": "5126",
           "slug": "516726-plaintel-sp"
+        },
+        "PLOUAGAT CHAT LAN FC": {
+          "nom": "PLOUAGAT CHAT LAN FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC563717.jpg",
+          "clNo": "172786",
+          "slug": "563717-plouagat-chat-lan-fc"
         }
       },
       "stades": {
@@ -535,11 +541,23 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "ESPACE OCEANE 1_[' ROCADE CHAMPETRE', '22940 PLAINTEL']": {
+          "nom": "ESPACE OCEANE 1",
+          "adresse": " ROCADE CHAMPETRE | 22940 PLAINTEL",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
         "IBRAHIM COLAK_AC": {
           "nom": "IBRAHIM COLAK",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "Anonyme_AC": {
+          "nom": "Anonyme",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -607,12 +625,22 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd-miclnLI": {
           "nom": "NOLAN P.",
-          "maillot": 14,
+          "maillot": 13,
           "club": "PLAINTEL SP"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp5kCkjmbY": {
           "nom": "EYAD A.",
+          "maillot": 7,
+          "club": "PLAINTEL SP"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt9mi8tmLQ": {
+          "nom": "HUGO R.",
           "maillot": 12,
+          "club": "PLAINTEL SP"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd8miktmbE": {
+          "nom": "BAPTISTE L.",
+          "maillot": 11,
           "club": "PLAINTEL SP"
         }
       },
@@ -692,14 +720,34 @@
         },
         {
           "id": 79560502,
-          "date": "2026-10-17",
+          "date": "2026-10-24",
           "heure": "15:30",
           "recevant": "PLAINTEL SP",
           "visiteur": "PLOUAGAT CHAT LAN FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5kCkjmbY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt9mi8tmLQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8miktmbE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd-miclnLI",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "ESPACE OCEANE 1_[' ROCADE CHAMPETRE', '22940 PLAINTEL']",
+          "officiels": [
+            "Anonyme_AC"
+          ]
         },
         {
           "id": 79560504,

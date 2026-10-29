@@ -151,7 +151,13 @@
           "type_installation": "Football à 11"
         }
       },
-      "officiels": {},
+      "officiels": {
+        "JACQUES LEVEFAUDES_AC": {
+          "nom": "JACQUES LEVEFAUDES",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        }
+      },
       "joueurs": {
         "ir3_vj-lzPeINLfhzILsrKFOFKt9ky0tlrY": {
           "nom": "ELOAN L.",
@@ -410,7 +416,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK19kCwinbM": {
           "nom": "MARTIN B.",
-          "maillot": 11,
+          "maillot": 13,
           "club": "U.S. POILLY-AUTRY"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK19lykknLM": {
@@ -420,7 +426,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK15myokm7Q": {
           "nom": "THYMEO L.",
-          "maillot": 14,
+          "maillot": 8,
           "club": "U.S. POILLY-AUTRY"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK17liwjnLM": {
@@ -442,6 +448,21 @@
           "nom": "MATHYS A.",
           "maillot": 13,
           "club": "NANCRAY CH.N. 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK12lSsjnbY": {
+          "nom": "ERWANN B.",
+          "maillot": 12,
+          "club": "U.S. POILLY-AUTRY"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd8kykmnbE": {
+          "nom": "AURELIEN C.",
+          "maillot": 5,
+          "club": "BAZOCHES US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh5mi4tnLI": {
+          "nom": "TITOINE O.",
+          "maillot": 9,
+          "club": "U.S. POILLY-AUTRY"
         }
       },
       "matchs": [
@@ -589,14 +610,81 @@
         },
         {
           "id": 79537814,
-          "date": "2026-09-26",
-          "heure": "16:00",
+          "date": "2026-10-24",
+          "heure": "14:30",
           "recevant": "BAZOCHES US",
           "visiteur": "U.S. POILLY-AUTRY",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 14,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK15myokm7Q",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK12lSsjnbY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 58,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8kykmnbE",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 61,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh5mi4tnLI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 65,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh5mi4tnLI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 70,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh5mi4tnLI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 73,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK19liwnnLM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 75,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8kykmnbE",
+              "sanction": "J",
+              "sanction_detail": "J2",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 75,
+              "type": "carton-rouge",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8kykmnbE",
+              "sanction": "J",
+              "sanction_detail": "J2",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 82,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK19kCwinbM",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL_['RUE DE JEU DE PAUMES', '45480 BAZOCHES LES GALLERANDES']",
+          "officiels": [
+            "JACQUES LEVEFAUDES_AC"
+          ]
         },
         {
           "id": 79537824,
@@ -1987,7 +2075,7 @@
         },
         {
           "id": 79537861,
-          "date": "2026-09-26",
+          "date": "2026-10-31",
           "heure": "16:00",
           "recevant": "C.A. PITHIVIERS",
           "visiteur": "ENT. ESMB-ASBH",

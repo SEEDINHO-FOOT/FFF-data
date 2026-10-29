@@ -685,8 +685,8 @@
           "id": 79542304,
           "date": "2026-10-31",
           "heure": "15:00",
-          "recevant": "RIGNY",
-          "visiteur": "ENT.ASV ASN USG",
+          "recevant": "ENT.ASV ASN USG",
+          "visiteur": "RIGNY",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
@@ -1705,8 +1705,8 @@
           "id": 79542357,
           "date": "2026-10-31",
           "heure": "15:00",
-          "recevant": "GJ ES NORD MACONNAIS 2",
-          "visiteur": "HLS 2",
+          "recevant": "HLS 2",
+          "visiteur": "GJ ES NORD MACONNAIS 2",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
@@ -1716,8 +1716,8 @@
           "id": 79542358,
           "date": "2026-10-31",
           "heure": "15:00",
-          "recevant": "TRAMAYES",
-          "visiteur": "DOMPIERRE MATOUR",
+          "recevant": "DOMPIERRE MATOUR",
+          "visiteur": "TRAMAYES",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
@@ -1955,6 +1955,11 @@
         },
         "AXEL DOUHAY_AC": {
           "nom": "AXEL DOUHAY",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "OSCAR TURPIN_AC": {
+          "nom": "OSCAR TURPIN",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -2244,6 +2249,11 @@
           "nom": "MATHYS R.",
           "maillot": 14,
           "club": "ENT. ASCC EVD USRF 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6lSklnLc": {
+          "nom": "JULES C.",
+          "maillot": 1,
+          "club": "LE CREUSOT JO 2"
         }
       },
       "matchs": [
@@ -2555,7 +2565,7 @@
         {
           "id": 79542543,
           "date": "2026-10-31",
-          "heure": "15:00",
+          "heure": "10:30",
           "recevant": "ENT. CHALON ACF/ACAD 2",
           "visiteur": "ENT.CRISSEY SASSENAY",
           "buts_recevant": null,
@@ -2653,14 +2663,35 @@
         },
         {
           "id": 79542494,
-          "date": "2026-09-19",
+          "date": "2026-10-24",
           "heure": "15:00",
           "recevant": "LE CREUSOT JO 2",
           "visiteur": "ENT. ASCC EVD USRF 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 20,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6lSklnLc",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 22,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16kCglmLQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt4lCsmnbI",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MONTPORCHER N°2_['AVENUE DU STADE JEAN GARNIER', 'ANNEXE 1', '71200 LE CREUSOT']",
+          "officiels": [
+            "OSCAR TURPIN_AC"
+          ]
         },
         {
           "id": 79542497,
@@ -2830,6 +2861,17 @@
           "officiels": [
             "AXEL DOUHAY_AC"
           ]
+        },
+        {
+          "id": 79542509,
+          "date": "2026-10-31",
+          "heure": "12:30",
+          "recevant": "LE CREUSOT JO 2",
+          "visiteur": "AJSF 2",
+          "buts_recevant": null,
+          "buts_visiteur": null,
+          "joue": false,
+          "statut": "à venir"
         }
       ]
     },
@@ -4463,8 +4505,8 @@
         {
           "id": 79542737,
           "date": "2026-10-31",
-          "heure": "15:00",
-          "recevant": "JSVG 2",
+          "heure": "12:30",
+          "recevant": "ENT.JSVG CLUNY 2",
           "visiteur": "ENT.USBG.ASV.USC",
           "buts_recevant": null,
           "buts_visiteur": null,

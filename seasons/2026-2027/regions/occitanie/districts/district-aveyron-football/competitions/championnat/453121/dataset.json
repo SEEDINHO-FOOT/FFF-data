@@ -129,6 +129,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['ROUTE DE REYRET', '12290 PRADES SALARS']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "ROUTE DE REYRET | 12290 PRADES SALARS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -164,6 +171,11 @@
         },
         "THOMAS COULON_AC": {
           "nom": "THOMAS COULON",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "MATHIEU CLAVEL_AC": {
+          "nom": "MATHIEU CLAVEL",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -326,12 +338,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKp-lCcjmbE": {
           "nom": "ALISSON C.",
-          "maillot": 12,
+          "maillot": 13,
           "club": "U.H. LEVEZOU"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp7lisnmrE": {
           "nom": "ANYA B.",
-          "maillot": 11,
+          "maillot": 9,
           "club": "U.H. LEVEZOU"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKp7lSwnn7Q": {
@@ -356,7 +368,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl8kCsgm78": {
           "nom": "LUCY L.",
-          "maillot": 13,
+          "maillot": 11,
           "club": "U.H. LEVEZOU"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl5lCsgl74": {
@@ -506,12 +518,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK15lC0inbU": {
           "nom": "ZOE A.",
-          "maillot": 2,
+          "maillot": 12,
           "club": "U.H. LEVEZOU"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh2li8tn7c": {
           "nom": "CHARLENE L.",
-          "maillot": 12,
+          "maillot": 14,
           "club": "U.H. LEVEZOU"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx_kicjl7M": {
@@ -521,7 +533,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh4lSsim78": {
           "nom": "AMBRE B.",
-          "maillot": 14,
+          "maillot": 7,
           "club": "U.H. LEVEZOU"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp9ly8hnrY": {
@@ -1312,14 +1324,71 @@
         },
         {
           "id": 56714796,
-          "date": "2026-10-17",
+          "date": "2026-10-24",
           "heure": "20:00",
           "recevant": "U.H. LEVEZOU",
           "visiteur": "MARGERIDE F.C.",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4lSsim78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKp-lCcjmbE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 29,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp7lisnmrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK15lC0inbU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 31,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl8kCsgm78",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 37,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp-ki8tnrY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 38,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl8kCsgm78",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK15lC0inbU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh2li8tn7c",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 80,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp-lCcjmbE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 85,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp7lisnmrE",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL_['ROUTE DE REYRET', '12290 PRADES SALARS']",
+          "officiels": [
+            "MATHIEU CLAVEL_AC"
+          ]
         },
         {
           "id": 56714795,

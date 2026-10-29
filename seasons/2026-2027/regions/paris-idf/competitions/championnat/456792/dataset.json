@@ -161,6 +161,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE AUGUSTE GENTELET N°2_['RD 445 ROND POINT', 'RUE ROGER CLAVIER', 'TERRAIN WALTER FELDER', '91700 FLEURY MEROGIS']": {
+          "nom": "STADE AUGUSTE GENTELET N°2",
+          "adresse": "RD 445 ROND POINT | RUE ROGER CLAVIER | TERRAIN WALTER FELDER | 91700 FLEURY MEROGIS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -223,6 +230,26 @@
           "nom": "YACINE ADMI",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "CYPRIEN CASTILLE_AC": {
+          "nom": "CYPRIEN CASTILLE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "MOHAMED CHALENDI_A1": {
+          "nom": "MOHAMED CHALENDI",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
+        },
+        "Anonyme_A2": {
+          "nom": "Anonyme",
+          "role": "Arbitre assistant 2",
+          "role_cod": "A2"
+        },
+        "CHRISTIAN MOUZARD_DP": {
+          "nom": "CHRISTIAN MOUZARD",
+          "role": "Délégué principal",
+          "role_cod": "DP"
         }
       },
       "joueurs": {
@@ -1817,14 +1844,21 @@
         },
         {
           "id": 55689189,
-          "date": "2026-10-18",
-          "heure": "15:00",
+          "date": "2026-10-25",
+          "heure": "09:30",
           "recevant": "FC FLEURY 91 2",
           "visiteur": "STE GENEVIEVE FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "reporté"
+          "buts_recevant": 4,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE AUGUSTE GENTELET N°2_['RD 445 ROND POINT', 'RUE ROGER CLAVIER', 'TERRAIN WALTER FELDER', '91700 FLEURY MEROGIS']",
+          "officiels": [
+            "CYPRIEN CASTILLE_AC",
+            "MOHAMED CHALENDI_A1",
+            "Anonyme_A2",
+            "CHRISTIAN MOUZARD_DP"
+          ]
         },
         {
           "id": 55689188,
@@ -1857,7 +1891,7 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "à venir"
+          "statut": "reporté"
         },
         {
           "id": 55689193,
@@ -9245,14 +9279,14 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "à venir"
+          "statut": "reporté"
         },
         {
           "id": 55689725,
           "date": "2026-11-01",
           "heure": "13:00",
-          "recevant": "VILLEMOMBLE SPORTS",
-          "visiteur": "ST BRICE F.C.",
+          "recevant": "ST BRICE F.C.",
+          "visiteur": "VILLEMOMBLE SPORTS",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
@@ -9283,7 +9317,7 @@
         {
           "id": 55689721,
           "date": "2026-11-01",
-          "heure": "14:30",
+          "heure": "12:00",
           "recevant": "RC ARGENTEUIL 2",
           "visiteur": "CRETEIL F. 2",
           "buts_recevant": null,

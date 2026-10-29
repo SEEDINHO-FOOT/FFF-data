@@ -169,6 +169,11 @@
           "nom": "JOEL CAZIN",
           "role": "Délégué principal",
           "role_cod": "DP"
+        },
+        "JEAN MARIE CROTTI_CP": {
+          "nom": "JEAN MARIE CROTTI",
+          "role": "Observateur principal",
+          "role_cod": "CP"
         }
       },
       "joueurs": {
@@ -409,7 +414,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK18lywjmbM": {
           "nom": "HUGO P.",
-          "maillot": 8,
+          "maillot": 3,
           "club": "LE VAL MOIRON 2"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt8kikhl78": {
@@ -474,7 +479,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx8my4lnbY": {
           "nom": "JULES R.",
-          "maillot": 9,
+          "maillot": 3,
           "club": "MONTIER EN DER US"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx5kCwsnL4": {
@@ -651,6 +656,31 @@
           "nom": "SAM C.",
           "maillot": 12,
           "club": "LE VAL MOIRON 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt8kycmnb4": {
+          "nom": "PAUL D.",
+          "maillot": 12,
+          "club": "LE VAL MOIRON 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx4my8hmrM": {
+          "nom": "THEO P.",
+          "maillot": 14,
+          "club": "MONTIER EN DER US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15myonnrU": {
+          "nom": "BRYAN C.",
+          "maillot": 6,
+          "club": "MONTIER EN DER US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp4li8tnLc": {
+          "nom": "ETHANN C.",
+          "maillot": 12,
+          "club": "MONTIER EN DER US"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp-ki0jnbI": {
+          "nom": "ROBIN T.",
+          "maillot": 13,
+          "club": "MONTIER EN DER US"
         }
       },
       "matchs": [
@@ -1818,11 +1848,12 @@
           "date": "2026-10-24",
           "heure": "15:00",
           "recevant": "ESPERANCE ST DIZIER",
-          "visiteur": "CHEVILLON STADE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "visiteur": "ENT.SC-DSEB-ASCR",
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF LOUIS PERGAUD_['16 ALLEE PIERRE DE COUBERTIN', '52100 ST DIZIER']"
         },
         {
           "id": 56585605,
@@ -1830,10 +1861,45 @@
           "heure": "15:00",
           "recevant": "LE VAL MOIRON 2",
           "visiteur": "MONTIER EN DER US",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 10,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 28,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK18lywjmbM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt8kycmnb4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 52,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_kysjlrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4my8hmrM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 52,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK15myonnrU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4li8tnLc",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 52,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8my4lnbY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp-ki0jnbI",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE DE VERBIESLES_['Verbiesles', '52000 VERBIESLES']",
+          "officiels": [
+            "YANIS ALBARRAS VESAIGNE_AC",
+            "JEAN MARIE CROTTI_CP"
+          ]
         },
         {
           "id": 56585629,

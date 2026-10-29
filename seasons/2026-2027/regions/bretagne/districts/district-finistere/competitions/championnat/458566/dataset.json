@@ -10,8 +10,48 @@
     {
       "cp_slug": "458566-coupe-fem-district-futsal/phase/1/1",
       "competition": "Coupe Fém District Futsal",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "BREST AS": {
+          "nom": "BREST AS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500019.jpg",
+          "clNo": "169",
+          "slug": "500019-brest-as"
+        },
+        "PLOUGUERNEAU ESPE": {
+          "nom": "PLOUGUERNEAU ESPE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC502119.jpg",
+          "clNo": "1280",
+          "slug": "502119-plouguerneau-espe"
+        },
+        "KERSAINT AS": {
+          "nom": "KERSAINT AS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC523038.jpg",
+          "clNo": "8594",
+          "slug": "523038-kersaint-as"
+        },
+        "ST RENAN EA": {
+          "nom": "ST RENAN EA",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC502016.jpg",
+          "clNo": "1213",
+          "slug": "502016-st-renan-ea"
+        }
+      },
+      "stades": {
+        "GYMNASE DE PEN AR STREAT_['rue du 08 mai 1945', '29200 BREST']": {
+          "nom": "GYMNASE DE PEN AR STREAT",
+          "adresse": "rue du 08 mai 1945 | 29200 BREST",
+          "surface": "PVC",
+          "surface_jeu": "PVC",
+          "type_installation": "Futsal"
+        },
+        "Stade Félix Guéguen 1_[' RUE DES PRIMEVERES', '29860 KERSAINT PLABENNEC']": {
+          "nom": "Stade Félix Guéguen 1",
+          "adresse": " RUE DES PRIMEVERES | 29860 KERSAINT PLABENNEC",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -21,10 +61,11 @@
           "heure": "19:00",
           "recevant": "BREST AS",
           "visiteur": "PLOUGUERNEAU ESPE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "GYMNASE DE PEN AR STREAT_['rue du 08 mai 1945', '29200 BREST']"
         },
         {
           "id": 79840106,
@@ -47,14 +88,66 @@
           "buts_visiteur": null,
           "joue": false,
           "statut": "à venir"
+        },
+        {
+          "id": 79840105,
+          "date": "2026-10-21",
+          "heure": "20:00",
+          "recevant": "KERSAINT AS",
+          "visiteur": "ST RENAN EA",
+          "buts_recevant": 0,
+          "buts_visiteur": 8,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Félix Guéguen 1_[' RUE DES PRIMEVERES', '29860 KERSAINT PLABENNEC']"
         }
       ]
     },
     {
       "cp_slug": "458566-coupe-fem-district-futsal/phase/1/2",
       "competition": "Coupe Fém District Futsal",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "GUIPAVAS COAT AL": {
+          "nom": "GUIPAVAS COAT AL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC522934.jpg",
+          "clNo": "8525",
+          "slug": "522934-guipavas-coat-al"
+        },
+        "DIRINON AS": {
+          "nom": "DIRINON AS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC523036.jpg",
+          "clNo": "8592",
+          "slug": "523036-dirinon-as"
+        },
+        "PLEUVEN FC": {
+          "nom": "PLEUVEN FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC511857.jpg",
+          "clNo": "3890",
+          "slug": "511857-pleuven-fc"
+        },
+        "EDERN SP": {
+          "nom": "EDERN SP",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC516347.jpg",
+          "clNo": "5011",
+          "slug": "516347-edern-sp"
+        }
+      },
+      "stades": {
+        "Salle de Keranna_[' RUE ANNE DE BRETAGNE', '29490 GUIPAVAS']": {
+          "nom": "Salle de Keranna",
+          "adresse": " RUE ANNE DE BRETAGNE | 29490 GUIPAVAS",
+          "surface": "Autre",
+          "surface_jeu": "Autre",
+          "type_installation": "Futsal"
+        },
+        "SALLE DE BELLEVUE_[' RUE DE BELLEVUE', '29170 PLEUVEN']": {
+          "nom": "SALLE DE BELLEVUE",
+          "adresse": " RUE DE BELLEVUE | 29170 PLEUVEN",
+          "surface": "Résine coulée",
+          "surface_jeu": "Résine coulée",
+          "type_installation": "Futsal"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -64,10 +157,11 @@
           "heure": "20:00",
           "recevant": "PLEUVEN FC",
           "visiteur": "EDERN SP",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "SALLE DE BELLEVUE_[' RUE DE BELLEVUE', '29170 PLEUVEN']"
         },
         {
           "id": 79993727,
@@ -97,10 +191,11 @@
           "heure": "20:30",
           "recevant": "GUIPAVAS COAT AL",
           "visiteur": "DIRINON AS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Salle de Keranna_[' RUE ANNE DE BRETAGNE', '29490 GUIPAVAS']"
         }
       ]
     }

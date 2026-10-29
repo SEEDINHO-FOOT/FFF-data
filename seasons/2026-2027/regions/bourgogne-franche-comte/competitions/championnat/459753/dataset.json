@@ -10,9 +10,96 @@
     {
       "cp_slug": "459753-u15-r1-futsal/phase/1/1",
       "competition": "U15 R1 FUTSAL",
-      "clubs": {},
-      "stades": {},
-      "officiels": {},
+      "clubs": {
+        "F5 DIJON METROPOLE": {
+          "nom": "F5 DIJON METROPOLE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564065.jpg",
+          "clNo": "192407",
+          "slug": "564065-f5-dijon-metropole"
+        },
+        "ENT. OPDIJON/FCNCS": {
+          "nom": "ENT. OPDIJON/FCNCS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC561028.jpg",
+          "clNo": "200372",
+          "slug": "561028-ent-opdijon-fcncs"
+        },
+        "F5 DIJON METROPOLE 3": {
+          "nom": "F5 DIJON METROPOLE 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564065.jpg",
+          "clNo": "192407",
+          "slug": "564065-f5-dijon-metropole-3"
+        },
+        "F5 DIJON METROPOLE 2": {
+          "nom": "F5 DIJON METROPOLE 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564065.jpg",
+          "clNo": "192407",
+          "slug": "564065-f5-dijon-metropole-2"
+        },
+        "FUTBM": {
+          "nom": "FUTBM",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564778.jpg",
+          "clNo": "202814",
+          "slug": "564778-futbm"
+        },
+        "CHALON ACADEMIE FOOT": {
+          "nom": "CHALON ACADEMIE FOOT",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC553837.jpg",
+          "clNo": "139121",
+          "slug": "553837-chalon-academie-foot"
+        }
+      },
+      "stades": {
+        "GYMNASE JEAN MARION_['ALLEE MARIUS CHANTEUR', '21000 DIJON']": {
+          "nom": "GYMNASE JEAN MARION",
+          "adresse": "ALLEE MARIUS CHANTEUR | 21000 DIJON",
+          "surface": "PVC",
+          "surface_jeu": "PVC",
+          "type_installation": "Futsal"
+        },
+        "SALLE DU COSEC DES ROMPOIS_['ROUTE DE MACON', '71450 BLANZY']": {
+          "nom": "SALLE DU COSEC DES ROMPOIS",
+          "adresse": "ROUTE DE MACON | 71450 BLANZY",
+          "surface": "PVC",
+          "surface_jeu": "PVC",
+          "type_installation": "Futsal"
+        },
+        "GYMNASE H. DUNANT_['4 Rue Charles Oursel', '21000 DIJON']": {
+          "nom": "GYMNASE H. DUNANT",
+          "adresse": "4 Rue Charles Oursel | 21000 DIJON",
+          "surface": "Caoutchouc",
+          "surface_jeu": "Caoutchouc",
+          "type_installation": "Futsal"
+        },
+        "GYMNASE ANDRE SELLENET_['9 RUE ERNEST CHAMPEAUX', '21000 DIJON']": {
+          "nom": "GYMNASE ANDRE SELLENET",
+          "adresse": "9 RUE ERNEST CHAMPEAUX | 21000 DIJON",
+          "surface": "Parquet",
+          "surface_jeu": "Parquet",
+          "type_installation": "Futsal"
+        }
+      },
+      "officiels": {
+        "MYLAN RYON_AC": {
+          "nom": "MYLAN RYON",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "LUDOVIC BOISOT_AC": {
+          "nom": "LUDOVIC BOISOT",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "JEROME BINACCHI_AC": {
+          "nom": "JEROME BINACCHI",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "FREDERIC DEGAND_AC": {
+          "nom": "FREDERIC DEGAND",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        }
+      },
       "joueurs": {},
       "matchs": [
         {
@@ -20,11 +107,15 @@
           "date": "2026-10-20",
           "heure": "17:30",
           "recevant": "F5 DIJON METROPOLE",
-          "visiteur": "O.D FUTSAL",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "visiteur": "ENT. OPDIJON/FCNCS",
+          "buts_recevant": 17,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "GYMNASE JEAN MARION_['ALLEE MARIUS CHANTEUR', '21000 DIJON']",
+          "officiels": [
+            "MYLAN RYON_AC"
+          ]
         },
         {
           "id": 79787057,
@@ -32,10 +123,14 @@
           "heure": "19:00",
           "recevant": "F5 DIJON METROPOLE 3",
           "visiteur": "F5 DIJON METROPOLE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "GYMNASE JEAN MARION_['ALLEE MARIUS CHANTEUR', '21000 DIJON']",
+          "officiels": [
+            "LUDOVIC BOISOT_AC"
+          ]
         },
         {
           "id": 79787058,
@@ -43,21 +138,29 @@
           "heure": "18:15",
           "recevant": "FUTBM",
           "visiteur": "CHALON ACADEMIE FOOT",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "SALLE DU COSEC DES ROMPOIS_['ROUTE DE MACON', '71450 BLANZY']",
+          "officiels": [
+            "JEROME BINACCHI_AC"
+          ]
         },
         {
           "id": 79787060,
           "date": "2026-10-26",
           "heure": "18:00",
-          "recevant": "O.D FUTSAL",
+          "recevant": "ENT. OPDIJON/FCNCS",
           "visiteur": "F5 DIJON METROPOLE 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "GYMNASE H. DUNANT_['4 Rue Charles Oursel', '21000 DIJON']",
+          "officiels": [
+            "FREDERIC DEGAND_AC"
+          ]
         },
         {
           "id": 79787061,
@@ -65,10 +168,14 @@
           "heure": "21:15",
           "recevant": "F5 DIJON METROPOLE",
           "visiteur": "FUTBM",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 24,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "GYMNASE ANDRE SELLENET_['9 RUE ERNEST CHAMPEAUX', '21000 DIJON']",
+          "officiels": [
+            "LUDOVIC BOISOT_AC"
+          ]
         },
         {
           "id": 79787059,
@@ -185,9 +292,66 @@
     {
       "cp_slug": "459753-u15-r1-futsal/phase/1/2",
       "competition": "U15 R1 FUTSAL",
-      "clubs": {},
-      "stades": {},
-      "officiels": {},
+      "clubs": {
+        "BESANCON SP.FUTSAL": {
+          "nom": "BESANCON SP.FUTSAL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC580783.jpg",
+          "clNo": "178403",
+          "slug": "580783-besancon-sp-futsal"
+        },
+        "BESANCON AC FUTSAL": {
+          "nom": "BESANCON AC FUTSAL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC580784.jpg",
+          "clNo": "178404",
+          "slug": "580784-besancon-ac-futsal"
+        },
+        "AMANCE CORRE POLAINC": {
+          "nom": "AMANCE CORRE POLAINC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC553875.jpg",
+          "clNo": "139603",
+          "slug": "553875-amance-corre-polainc"
+        },
+        "PONTARLIER CA": {
+          "nom": "PONTARLIER CA",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500527.jpg",
+          "clNo": "588",
+          "slug": "500527-pontarlier-ca"
+        },
+        "MBFC": {
+          "nom": "MBFC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC581485.jpg",
+          "clNo": "184030",
+          "slug": "581485-mbfc"
+        }
+      },
+      "stades": {
+        "GYMNASE CHATEAUFARINE_['3, rue de Savoie', '25000 BESANCON']": {
+          "nom": "GYMNASE CHATEAUFARINE",
+          "adresse": "3, rue de Savoie | 25000 BESANCON",
+          "surface": "PVC",
+          "surface_jeu": "PVC",
+          "type_installation": "Futsal"
+        },
+        "Gymnase Diderot Salle Principale_['3 RUE DE COLOGNE', '25000 BESANCON']": {
+          "nom": "Gymnase Diderot Salle Principale",
+          "adresse": "3 RUE DE COLOGNE | 25000 BESANCON",
+          "surface": "PVC",
+          "surface_jeu": "PVC",
+          "type_installation": "Futsal"
+        }
+      },
+      "officiels": {
+        "XAVIER DEROZE_AC": {
+          "nom": "XAVIER DEROZE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "MAXIME PERRINGERARD_AC": {
+          "nom": "MAXIME PERRINGERARD",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        }
+      },
       "joueurs": {},
       "matchs": [
         {
@@ -196,10 +360,14 @@
           "heure": "14:45",
           "recevant": "BESANCON SP.FUTSAL",
           "visiteur": "BESANCON AC FUTSAL",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 14,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "GYMNASE CHATEAUFARINE_['3, rue de Savoie', '25000 BESANCON']",
+          "officiels": [
+            "XAVIER DEROZE_AC"
+          ]
         },
         {
           "id": 79787095,
@@ -207,10 +375,14 @@
           "heure": "16:15",
           "recevant": "AMANCE CORRE POLAINC",
           "visiteur": "PONTARLIER CA",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 9,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "GYMNASE CHATEAUFARINE_['3, rue de Savoie', '25000 BESANCON']",
+          "officiels": [
+            "MAXIME PERRINGERARD_AC"
+          ]
         },
         {
           "id": 79787098,
@@ -218,21 +390,28 @@
           "heure": "15:45",
           "recevant": "BESANCON AC FUTSAL",
           "visiteur": "MBFC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 23,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Gymnase Diderot Salle Principale_['3 RUE DE COLOGNE', '25000 BESANCON']",
+          "officiels": [
+            "XAVIER DEROZE_AC"
+          ]
         },
         {
           "id": 79787099,
           "date": "2026-10-27",
-          "heure": "17:00",
+          "heure": "15:00",
           "recevant": "PONTARLIER CA",
           "visiteur": "BESANCON SP.FUTSAL",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 11,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "officiels": [
+            "XAVIER DEROZE_AC"
+          ]
         },
         {
           "id": 79787101,

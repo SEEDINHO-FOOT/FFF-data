@@ -154,6 +154,11 @@
           "nom": "FREDDY CASSEL",
           "role": "Observateur principal",
           "role_cod": "CP"
+        },
+        "ARTHUR TROESCH_AC": {
+          "nom": "ARTHUR TROESCH",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -174,12 +179,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh9liwmmr8": {
           "nom": "GIUSEPPE A.",
-          "maillot": 12,
+          "maillot": 2,
           "club": "SCHWENHEIM WALDO U.S 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFKt_kCggmA": {
           "nom": "THOMAS K.",
-          "maillot": 13,
+          "maillot": 12,
           "club": "SCHWENHEIM WALDO U.S 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl5kSwinrY": {
@@ -249,7 +254,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpAFKx5ly8knQ": {
           "nom": "ERIC S.",
-          "maillot": 7,
+          "maillot": 9,
           "club": "ERNOLSHEIM SAV F.C 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh9myotlr4": {
@@ -454,7 +459,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpBFKx_my0lnA": {
           "nom": "MAXIME H.",
-          "maillot": 2,
+          "maillot": 11,
           "club": "SCHWENHEIM WALDO U.S 2"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK18lSgsmrE": {
@@ -516,6 +521,21 @@
           "nom": "DAYAN L.",
           "maillot": 13,
           "club": "KESKASTEL F.C 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpAFKx2lSwnnQ": {
+          "nom": "JEREMY C.",
+          "maillot": 8,
+          "club": "SCHWENHEIM WALDO U.S 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt9kiwgn7U": {
+          "nom": "REGIS D.",
+          "maillot": 2,
+          "club": "ERNOLSHEIM SAV F.C 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl5mi4mmbE": {
+          "nom": "NATHAN W.",
+          "maillot": 13,
+          "club": "SCHWENHEIM WALDO U.S 2"
         }
       },
       "matchs": [
@@ -1227,10 +1247,11 @@
           "heure": "19:00",
           "recevant": "KESKASTEL F.C 2",
           "visiteur": "HARSKIRCHEN C.S 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['20 RUE DES CIGOGNES', '67260 KESKASTEL']"
         },
         {
           "id": 56178028,
@@ -1241,7 +1262,7 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "à venir"
+          "statut": "reporté"
         },
         {
           "id": 56178029,
@@ -1252,7 +1273,7 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "à venir"
+          "statut": "reporté"
         },
         {
           "id": 56178031,
@@ -1260,10 +1281,78 @@
           "heure": "10:00",
           "recevant": "ERNOLSHEIM SAV F.C 2",
           "visiteur": "SCHWENHEIM WALDO U.S 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 11,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpAFKx2lSwnnQ",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt9kiwgn7U",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt4kSgtnbM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 35,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpBFKx_my0lnA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 50,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpAFKx5ly8knQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpIFKh_kC4mnrE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 54,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpIFKh_kC4mnrE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 55,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh9liwmmr8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl5mi4mmbE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 85,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl5mi4mmbE",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 88,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpBFKx_my0lnA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFKt_kCggmA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 90,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK18lSgsmrE",
+              "sanction": "J",
+              "sanction_detail": "J3",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE FROHNBERG_['RUE DE MONSWILLER', '67330 ERNOLSHEIM LES SAVERNE']",
+          "officiels": [
+            "ARTHUR TROESCH_AC"
+          ]
         },
         {
           "id": 56178032,
@@ -1548,6 +1637,21 @@
           "nom": "FREDERIC AMANN",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "EL HASSANE SOUANE_AC": {
+          "nom": "EL HASSANE SOUANE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ERIC KIEFFER_AC": {
+          "nom": "ERIC KIEFFER",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "MAXIME BARIDO_AC": {
+          "nom": "MAXIME BARIDO",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -1618,7 +1722,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKp9lCkkn74": {
           "nom": "DOGUKAN A.",
-          "maillot": 13,
+          "maillot": 12,
           "club": "FROESCH ENT. LANGEN"
         },
         "ir3_vj-lzPeINLfhzILsrKpIFKt-kigjnQ": {
@@ -1688,7 +1792,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx2kSgsmrA": {
           "nom": "NOE F.",
-          "maillot": 7,
+          "maillot": 13,
           "club": "GUMBRECH DAMBACH 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl6kystnLY": {
@@ -1758,7 +1862,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp9kSwtnbE": {
           "nom": "MATTEO I.",
-          "maillot": 14,
+          "maillot": 13,
           "club": "GUNDERSHOFFEN A.S.P 3"
         },
         "ir3_vj-lzPeINLfhzILsrKpBFKx_kyggnA": {
@@ -1783,7 +1887,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh8ky8knrY": {
           "nom": "YANIS V.",
-          "maillot": 12,
+          "maillot": 13,
           "club": "MERTZWILLER A.S 3"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKp5li4lm7c": {
@@ -1818,23 +1922,118 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpKFKt8kywhng": {
           "nom": "JEREMY D.",
-          "maillot": 11,
+          "maillot": 9,
           "club": "GUMBRECH DAMBACH 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKp6kicgnLA": {
           "nom": "YANNIS I.",
-          "maillot": 13,
+          "maillot": 14,
           "club": "GUMBRECH DAMBACH 2"
         },
         "ir3_vj-lzPeINLfhzILsrKlNHKp4kygsn7U": {
           "nom": "MIKE W.",
-          "maillot": 9,
+          "maillot": 10,
           "club": "GUMBRECH DAMBACH 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpAFKx5kicmnw": {
           "nom": "DAVID L.",
           "maillot": 14,
           "club": "GUMBRECH DAMBACH 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd9liwjmrU": {
+          "nom": "ABDELKADER M.",
+          "maillot": 11,
+          "club": "FROESCH ENT. LANGEN"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx3lSghmLI": {
+          "nom": "FLORIAN V.",
+          "maillot": 9,
+          "club": "GUNDERSHOFFEN A.S.P 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpAFKx4lyokng": {
+          "nom": "HERVE S.",
+          "maillot": 12,
+          "club": "GUNDERSHOFFEN A.S.P 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl_kCoknrE": {
+          "nom": "KEVIN B.",
+          "maillot": 7,
+          "club": "FROESCH ENT. LANGEN"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx8kywjmbA": {
+          "nom": "FLORIAN F.",
+          "maillot": 13,
+          "club": "FROESCH ENT. LANGEN"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh4liohl78": {
+          "nom": "ADELIN W.",
+          "maillot": 7,
+          "club": "GUNDERSHOFFEN A.S.P 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpAFKx8misnnA": {
+          "nom": "JACKY R.",
+          "maillot": 6,
+          "club": "GUNDERSHOFFEN A.S.P 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLFKx2lysknQ": {
+          "nom": "ALBAN A.",
+          "maillot": 4,
+          "club": "GUNDERSHOFFEN A.S.P 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlNHKp4kCclmb4": {
+          "nom": "JONATHAN M.",
+          "maillot": 10,
+          "club": "GUNDERSHOFFEN A.S.P 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFKt_kCommA": {
+          "nom": "TAYLAN A.",
+          "maillot": 14,
+          "club": "GUNDERSHOFFEN A.S.P 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl4michnrc": {
+          "nom": "SAMI S.",
+          "maillot": 11,
+          "club": "GUNDERSHOFFEN A.S.P 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFKt_miknmw": {
+          "nom": "THOMAS K.",
+          "maillot": 3,
+          "club": "FROESCH ENT. LANGEN"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl6migknbE": {
+          "nom": "NATHAN G.",
+          "maillot": 7,
+          "club": "GUMBRECH DAMBACH 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx9ki0hm7I": {
+          "nom": "THOMAS W.",
+          "maillot": 4,
+          "club": "MERTZWILLER A.S 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp2lSohmLU": {
+          "nom": "LUCAS L.",
+          "maillot": 12,
+          "club": "MERTZWILLER A.S 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp6lC0jnbQ": {
+          "nom": "IVAN A.",
+          "maillot": 11,
+          "club": "MERTZWILLER A.S 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt9kiwlnL8": {
+          "nom": "GEORGES P.",
+          "maillot": 14,
+          "club": "MERTZWILLER A.S 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd8kS0lmb4": {
+          "nom": "LUDOVIC K.",
+          "maillot": 11,
+          "club": "GUMBRECH DAMBACH 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx-lyssn7A": {
+          "nom": "LUC K.",
+          "maillot": 8,
+          "club": "MERTZWILLER A.S 3"
         }
       },
       "matchs": [
@@ -2440,10 +2639,91 @@
           "heure": "10:00",
           "recevant": "GUNDERSHOFFEN A.S.P 3",
           "visiteur": "FROESCH ENT. LANGEN",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9liwjmrU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKp9lCkkn74",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx3lSghmLI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpAFKx4lyokng",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 50,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl_kCoknrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx8kywjmbA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 55,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4liohl78",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 60,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4liohl78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9kSwtnbE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 65,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpAFKx8misnnA",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 75,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLFKx2lysknQ",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 80,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlNHKp4kCclmb4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFKt_kCommA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 85,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl4michnrc",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 90,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFKt_miknmw",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE CHARLES JUNG 1_['RUE DE LA GARE', '67110 GUNDERSHOFFEN']",
+          "officiels": [
+            "EL HASSANE SOUANE_AC"
+          ]
         },
         {
           "id": 56178183,
@@ -2451,10 +2731,74 @@
           "heure": "10:00",
           "recevant": "GUMBRECH DAMBACH 2",
           "visiteur": "MERTZWILLER A.S 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpKFKt8kywhng",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl6kystnLY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 28,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl6migknbE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx2kSgsmrA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx9ki0hm7I",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKp2lSohmLU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpPFKx_ky8nnA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh8ky8knrY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 65,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlNHKp4kygsn7U",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKp6kicgnLA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 70,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp6lC0jnbQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt9kiwlnL8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 75,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8kS0lmb4",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 75,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx-lyssn7A",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE ROBERT WURTZ_['RUE DU STADE', '67110 DAMBACH']",
+          "officiels": [
+            "ERIC KIEFFER_AC"
+          ]
         },
         {
           "id": 56178184,
@@ -2462,10 +2806,11 @@
           "heure": "10:00",
           "recevant": "UHLWILLER U.S",
           "visiteur": "REICHSHOFFEN F.C 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['RUE DU STADE', '67350 UHLWILLER']"
         },
         {
           "id": 56178185,
@@ -2473,10 +2818,14 @@
           "heure": "10:00",
           "recevant": "VAL DE MODER FA 3",
           "visiteur": "UHRWILLER A.S 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 2 UBERACH_[' CHEMIN DE LA MODER', '67350 VAL DE MODER']",
+          "officiels": [
+            "MAXIME BARIDO_AC"
+          ]
         },
         {
           "id": 56178187,
@@ -2773,6 +3122,16 @@
           "nom": "THIERRY HAGER",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "CHARLES LOGEL_AC": {
+          "nom": "CHARLES LOGEL",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "THOMAS CAILLE_AC": {
+          "nom": "THOMAS CAILLE",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -2823,7 +3182,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKx2kCsnnbM": {
           "nom": "Anonyme",
-          "maillot": 12,
+          "maillot": 10,
           "club": "NIEDERR ENT SCHAFF 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKt6lCkgmbA": {
@@ -2833,7 +3192,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKx6kS0sm7M": {
           "nom": "YOHAN D.",
-          "maillot": 14,
+          "maillot": 9,
           "club": "NIEDERR ENT SCHAFF 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh4lConnrY": {
@@ -2938,7 +3297,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl9kykkmb4": {
           "nom": "JOHAN H.",
-          "maillot": 2,
+          "maillot": 13,
           "club": "ASCHBACH ENT FCO 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl5lSYjl7Y": {
@@ -3115,6 +3474,81 @@
           "nom": "CYRILLE C.",
           "maillot": 13,
           "club": "BEINHEIM S.S. 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpBFKx_lysgmA": {
+          "nom": "KEVIN H.",
+          "maillot": 5,
+          "club": "SURBOURG U.S 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl8kSwkn7M": {
+          "nom": "ROMUALD F.",
+          "maillot": 14,
+          "club": "SURBOURG U.S 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx3lyommrQ": {
+          "nom": "KIMO K.",
+          "maillot": 2,
+          "club": "NIEDERR ENT SCHAFF 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK1_miommrU": {
+          "nom": "NATHAN H.",
+          "maillot": 3,
+          "club": "SURBOURG U.S 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh6lismnLM": {
+          "nom": "TERRY S.",
+          "maillot": 12,
+          "club": "SURBOURG U.S 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx3lS0ln7E": {
+          "nom": "QUENTIN O.",
+          "maillot": 14,
+          "club": "NIEDERR ENT SCHAFF 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx_lS8hl74": {
+          "nom": "BRANDON C.",
+          "maillot": 12,
+          "club": "NIEDERR ENT SCHAFF 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt5kiwknL8": {
+          "nom": "MATHIEU B.",
+          "maillot": 11,
+          "club": "NIEDERR ENT SCHAFF 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh8lycjlrI": {
+          "nom": "LUCAS B.",
+          "maillot": 9,
+          "club": "ASCHBACH ENT FCO 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl6liYlm7M": {
+          "nom": "LUCAS B.",
+          "maillot": 14,
+          "club": "ASCHBACH ENT FCO 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh9kCgmmbE": {
+          "nom": "COLIN S.",
+          "maillot": 4,
+          "club": "ASCHBACH ENT FCO 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpOFKx_kSogmw": {
+          "nom": "MATHIEU W.",
+          "maillot": 5,
+          "club": "HUNSPACH A.S 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp5liYllr4": {
+          "nom": "LOIC T.",
+          "maillot": 11,
+          "club": "HUNSPACH A.S 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpOFKx_kyoimA": {
+          "nom": "NICOLAS M.",
+          "maillot": 13,
+          "club": "HUNSPACH A.S 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp6kicgm7c": {
+          "nom": "SAMUEL M.",
+          "maillot": 12,
+          "club": "ASCHBACH ENT FCO 2"
         }
       },
       "matchs": [
@@ -3739,10 +4173,59 @@
           "heure": "10:00",
           "recevant": "SURBOURG U.S 2",
           "visiteur": "NIEDERR ENT SCHAFF 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 26,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpBFKx_lysgmA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl8kSwkn7M",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 40,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx3lyommrQ",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK1_miommrU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh6lismnLM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx6kS0sm7M",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx3lS0ln7E",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 71,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx2kCsnnbM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx_lS8hl74",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 71,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt5kiwknL8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKp6lCksnbY",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL_['RUE DU STADE', '67250 SURBOURG']",
+          "officiels": [
+            "CHARLES LOGEL_AC"
+          ]
         },
         {
           "id": 56178450,
@@ -3750,10 +4233,51 @@
           "heure": "10:00",
           "recevant": "ASCHBACH ENT FCO 2",
           "visiteur": "HUNSPACH A.S 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh8lycjlrI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl6liYlm7M",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh9kCgmmbE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl9kykkmb4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 48,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpOFKx_kSogmw",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx-kSYll7A",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 55,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5liYllr4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpOFKx_kyoimA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 60,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpMFKx_kS0llw",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKp6kicgm7c",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL_['RUE DES FOSSES', '67250 ASCHBACH']",
+          "officiels": [
+            "THOMAS CAILLE_AC"
+          ]
         },
         {
           "id": 56178451,
@@ -3761,10 +4285,11 @@
           "heure": "10:00",
           "recevant": "ROTT F.C 2",
           "visiteur": "BEINHEIM S.S. 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE OBERWIESE_['rue du stade', '67160 ROTT']"
         },
         {
           "id": 56178454,
@@ -4057,6 +4582,21 @@
           "nom": "ALEXANDRE ECK",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "ARSIM HUSEJNI_AC": {
+          "nom": "ARSIM HUSEJNI",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "RAPHAEL MATHIS_AC": {
+          "nom": "RAPHAEL MATHIS",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ALAIN HOLENDER_AC": {
+          "nom": "ALAIN HOLENDER",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -4067,7 +4607,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh-li4kmrE": {
           "nom": "TOM B.",
-          "maillot": 14,
+          "maillot": 7,
           "club": "WINGERSHEIM F.C 3"
         },
         "ir3_vj-lzPeINLfhzILsrKpOFKx_kCoknA": {
@@ -4087,12 +4627,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKx2li4smrU": {
           "nom": "CLEMENT K.",
-          "maillot": 11,
+          "maillot": 3,
           "club": "NIEDERSCHAEFFOLSHEIM 3"
         },
         "ir3_vj-lzPeINLfhzILsrKlLFqt-kyggmbM": {
           "nom": "ALEXANDRE S.",
-          "maillot": 16,
+          "maillot": 17,
           "club": "WINGERSHEIM F.C 3"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt9miommLY": {
@@ -4112,7 +4652,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpAFKx4lSokmA": {
           "nom": "GUILLAUME L.",
-          "maillot": 14,
+          "maillot": 12,
           "club": "WAHLENHEIM BERN A.S 2"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp8lCkjmLY": {
@@ -4182,7 +4722,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpAFKx7kCgmmQ": {
           "nom": "VICTORIEN S.",
-          "maillot": 13,
+          "maillot": 12,
           "club": "BRUMATH S.S 3"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl6kCwsnbA": {
@@ -4252,7 +4792,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpJFKt_kSkimg": {
           "nom": "DANIEL M.",
-          "maillot": 10,
+          "maillot": 12,
           "club": "LAMPERTHEIM F.C. 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKx4ky0tn74": {
@@ -4272,7 +4812,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl7lystlrc": {
           "nom": "JUSTIN S.",
-          "maillot": 13,
+          "maillot": 12,
           "club": "WITTERSHEIM U.S 3"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKx8kSYkmbU": {
@@ -4282,7 +4822,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl3kS4nlrA": {
           "nom": "ANTHONY S.",
-          "maillot": 12,
+          "maillot": 13,
           "club": "WITTERSHEIM U.S 3"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx2mi0jn7U": {
@@ -4417,7 +4957,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd8kyghmL4": {
           "nom": "ANTOINE W.",
-          "maillot": 14,
+          "maillot": 13,
           "club": "OHLUNGEN A.S 4"
         },
         "ir3_vj-lzPeINLfhzILsrKpKFKt8kCkgng": {
@@ -4447,7 +4987,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx3kS8tnbc": {
           "nom": "ROAN K.",
-          "maillot": 13,
+          "maillot": 12,
           "club": "WINGERSHEIM F.C 3"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh_myoimbQ": {
@@ -4507,7 +5047,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK15kSohlr4": {
           "nom": "NOE R.",
-          "maillot": 13,
+          "maillot": 11,
           "club": "WITTERSHEIM U.S 3"
         },
         "ir3_vj-lzPeINLfhzILsrKpBFKx_kiwnng": {
@@ -4547,7 +5087,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKp6kictm7A": {
           "nom": "LILIAN L.",
-          "maillot": 9,
+          "maillot": 7,
           "club": "LAMPERTHEIM F.C. 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl8kS0tmbY": {
@@ -4597,17 +5137,17 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKx5ky4nnrc": {
           "nom": "CHRISTOPHER P.",
-          "maillot": 10,
+          "maillot": 8,
           "club": "WITTERSHEIM U.S 3"
         },
         "ir3_vj-lzPeINLfhzILsrKpKFKt_mygtmA": {
           "nom": "STEEVE C.",
-          "maillot": 14,
+          "maillot": 10,
           "club": "NIEDERSCHAEFFOLSHEIM 3"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKp9mycil7U": {
           "nom": "CORENTIN S.",
-          "maillot": 11,
+          "maillot": 13,
           "club": "LAMPERTHEIM F.C. 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNFKx_lysgnQ": {
@@ -4627,8 +5167,108 @@
         },
         "ir3_vj-lzPeINLfhzILsrKlNFKp4kCkjlrI": {
           "nom": "KEVIN T.",
-          "maillot": 13,
+          "maillot": 14,
           "club": "LAMPERTHEIM F.C. 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpKFKt8kSkllg": {
+          "nom": "ANTHONY P.",
+          "maillot": 7,
+          "club": "NIEDERSCHAEFFOLSHEIM 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx4ky0jmrI": {
+          "nom": "ARNAUD P.",
+          "maillot": 14,
+          "club": "NIEDERSCHAEFFOLSHEIM 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx9li8gl78": {
+          "nom": "THOMAS F.",
+          "maillot": 12,
+          "club": "NIEDERSCHAEFFOLSHEIM 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpAFKx9ly8gnQ": {
+          "nom": "FREDERIC L.",
+          "maillot": 4,
+          "club": "WAHLENHEIM BERN A.S 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpAFKx4kCkhnQ": {
+          "nom": "LAURENT R.",
+          "maillot": 11,
+          "club": "WAHLENHEIM BERN A.S 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx_kichnrA": {
+          "nom": "DEAN R.",
+          "maillot": 11,
+          "club": "LAMPERTHEIM F.C. 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK18kSwmmLM": {
+          "nom": "THIBAULT L.",
+          "maillot": 2,
+          "club": "BRUMATH S.S 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK15lC0kn7Q": {
+          "nom": "JUSTIN M.",
+          "maillot": 11,
+          "club": "BRUMATH S.S 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh5mi4lnbE": {
+          "nom": "MAROUANE Q.",
+          "maillot": 13,
+          "club": "BRUMATH S.S 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpKFKt8likmlg": {
+          "nom": "XAVIER M.",
+          "maillot": 3,
+          "club": "BRUMATH S.S 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpAFKx7my8gmw": {
+          "nom": "NICOLAS M.",
+          "maillot": 4,
+          "club": "BRUMATH S.S 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlLFq94lSsmmbc": {
+          "nom": "JEAN CAMILLE F.",
+          "maillot": 14,
+          "club": "BRUMATH S.S 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh6lS8jlrU": {
+          "nom": "ANTOINE S.",
+          "maillot": 6,
+          "club": "BRUMATH S.S 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt9lCskmL4": {
+          "nom": "MAXIME K.",
+          "maillot": 8,
+          "club": "LAMPERTHEIM F.C. 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh8kicgnL8": {
+          "nom": "JULES B.",
+          "maillot": 13,
+          "club": "WINGERSHEIM F.C 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh7likgmbU": {
+          "nom": "FLORIAN B.",
+          "maillot": 11,
+          "club": "WINGERSHEIM F.C 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd9migin7Q": {
+          "nom": "ENZO F.",
+          "maillot": 10,
+          "club": "OHLUNGEN A.S 4"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl8lysslrI": {
+          "nom": "KILIAN R.",
+          "maillot": 12,
+          "club": "OHLUNGEN A.S 4"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK14kygnmrQ": {
+          "nom": "EDMOND M.",
+          "maillot": 11,
+          "club": "OHLUNGEN A.S 4"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpPFKx_kyoslg": {
+          "nom": "BENJAMIN I.",
+          "maillot": 14,
+          "club": "WITTERSHEIM U.S 3"
         }
       },
       "matchs": [
@@ -5626,10 +6266,86 @@
           "heure": "10:00",
           "recevant": "NIEDERSCHAEFFOLSHEIM 3",
           "visiteur": "WAHLENHEIM BERN A.S 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 15,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpKFKt8kSkllg",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 25,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpKFKt_mygtmA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 29,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpKFKt_mygtmA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx4ky0jmrI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx2li4smrU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx9li8gl78",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 55,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpAFKx9ly8gnQ",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 58,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp6kCwsl78",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 63,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpOFKx_kCoknA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx9li8gl78",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 77,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpAFKx4kCkhnQ",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 85,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpAFKx5myshmQ",
+              "sanction": "J",
+              "sanction_detail": "J2",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 88,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp6kCwsl78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpAFKx4lSokmA",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE DES BOULEAUX_['RUE DU STADE', '67500 NIEDERSCHAEFFOLSHEIM']",
+          "officiels": [
+            "ARSIM HUSEJNI_AC"
+          ]
         },
         {
           "id": 56178625,
@@ -5637,10 +6353,124 @@
           "heure": "10:00",
           "recevant": "LAMPERTHEIM F.C. 2",
           "visiteur": "BRUMATH S.S 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp6kictm7A",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFKt_kSkimg",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_kichnrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKp9mycil7U",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 48,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK18kSwmmLM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 56,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK15lC0kn7Q",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 60,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh5mi4lnbE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 60,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx3ky0nmbU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlNFKp4kCkjlrI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 60,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpKFKt8likmlg",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh5mi4lnbE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 60,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpAFKx7my8gmw",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlLFq94lSsmmbc",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 70,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpAFKx7kCgmmQ",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 70,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3lC4tlrc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpAFKx7kCgmmQ",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 71,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp6kictm7A",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 82,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp6kictm7A",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 84,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNFKx_lysgnQ",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 84,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl2kSosm7I",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 90,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh6lS8jlrU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 90,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt9lCskmL4",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL 1_['RUE DU STADE', '67450 LAMPERTHEIM']",
+          "officiels": [
+            "RAPHAEL MATHIS_AC"
+          ]
         },
         {
           "id": 56178626,
@@ -5648,10 +6478,34 @@
           "heure": "10:00",
           "recevant": "WINGERSHEIM F.C 3",
           "visiteur": "SCHWINDRATZHEIM F.C 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlLFqt-kyggmbM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh8kicgnL8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 41,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh7likgmbU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3kS8tnbc",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 55,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh-li4kmrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8micmm7E",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE DES HOUBLONNIÈRES_['11 RUE DES ACACIAS', '67170 WINGERSHEIM LES QUATRE BANS']"
         },
         {
           "id": 56178628,
@@ -5659,10 +6513,51 @@
           "heure": "10:00",
           "recevant": "OHLUNGEN A.S 4",
           "visiteur": "WITTERSHEIM U.S 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 37,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK15kSohlr4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl7lystlrc",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9migin7Q",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl8lysslrI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK14kygnmrQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8kyghmL4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 70,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlNHap4ky0jmLY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl3kS4nlrA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 80,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx5ky4nnrc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpPFKx_kyoslg",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL 1_['RUE DES SPORTS', '67590 OHLUNGEN']",
+          "officiels": [
+            "ALAIN HOLENDER_AC"
+          ]
         },
         {
           "id": 56178629,
@@ -5986,6 +6881,11 @@
           "nom": "CANER ATES",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "DANIEL HOLENDER_AC": {
+          "nom": "DANIEL HOLENDER",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -6006,7 +6906,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpOFKx8kiwhlw": {
           "nom": "VICTOR J.",
-          "maillot": 13,
+          "maillot": 14,
           "club": "HERRLISHEIM F.C 3"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKt4kiwgnbE": {
@@ -6041,12 +6941,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKx8kSwll7U": {
           "nom": "THEO K.",
-          "maillot": 8,
+          "maillot": 10,
           "club": "HERRLISHEIM F.C 3"
         },
         "ir3_vj-lzPeINLfhzILsrKpIFKt-lS0glw": {
           "nom": "YANNICK D.",
-          "maillot": 3,
+          "maillot": 13,
           "club": "HERRLISHEIM F.C 3"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl-kygim7I": {
@@ -6096,7 +6996,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl-ky0jmL4": {
           "nom": "ALEXIS K.",
-          "maillot": 15,
+          "maillot": 4,
           "club": "ROESCHWOOG S.C 3"
         },
         "ir3_vj-lzPeINLfhzILsrKpNFKx_ki0kng": {
@@ -6126,12 +7026,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpLFKx3lC8smg": {
           "nom": "JEAN E.",
-          "maillot": 8,
+          "maillot": 6,
           "club": "DALHUNDEN U.S 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh6kikgmL8": {
           "nom": "MICHEL S.",
-          "maillot": 2,
+          "maillot": 3,
           "club": "MUNDOLSHEIM A.S 3"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd_ki4tlrA": {
@@ -6186,7 +7086,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKx4kiohnLY": {
           "nom": "ADAM O.",
-          "maillot": 9,
+          "maillot": 11,
           "club": "DALHUNDEN U.S 2"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt3kykgmrQ": {
@@ -6196,7 +7096,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpIFKt-kywgmA": {
           "nom": "JEROME B.",
-          "maillot": 6,
+          "maillot": 12,
           "club": "NEUHAES. ENT FORST. 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl_kiolmLI": {
@@ -6421,12 +7321,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpJFKt_lyggmQ": {
           "nom": "STEPHAN K.",
-          "maillot": 12,
+          "maillot": 13,
           "club": "ROESCHWOOG S.C 3"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKx4lS4kmbY": {
           "nom": "NICOLAS K.",
-          "maillot": 17,
+          "maillot": 14,
           "club": "ROESCHWOOG S.C 3"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl9kS4lmrI": {
@@ -6436,7 +7336,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpJFKt_ly0mmw": {
           "nom": "ROMAIN L.",
-          "maillot": 8,
+          "maillot": 6,
           "club": "ROHRWILLER F.C 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKt_lCwnnrI": {
@@ -6451,12 +7351,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKlNFap4kystnbQ": {
           "nom": "ISMAEL S.",
-          "maillot": 6,
+          "maillot": 4,
           "club": "HOERDT A.S 4"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKt3lSskn7I": {
           "nom": "JORDAN B.",
-          "maillot": 4,
+          "maillot": 12,
           "club": "HOERDT A.S 4"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh_ly8nn7M": {
@@ -6471,7 +7371,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKt_lCwll7M": {
           "nom": "JULIEN P.",
-          "maillot": 12,
+          "maillot": 2,
           "club": "HOERDT A.S 4"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd8miklm7Q": {
@@ -6506,7 +7406,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKx4lCYlmLE": {
           "nom": "TANGUY M.",
-          "maillot": 14,
+          "maillot": 13,
           "club": "DALHUNDEN U.S 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKp3mysil7E": {
@@ -6561,7 +7461,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKp_kiYln7Y": {
           "nom": "DYLAN H.",
-          "maillot": 12,
+          "maillot": 13,
           "club": "MUNDOLSHEIM A.S 3"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKt-miktl7M": {
@@ -6596,7 +7496,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKt7ly4tm74": {
           "nom": "ROMAIN S.",
-          "maillot": 13,
+          "maillot": 9,
           "club": "ROESCHWOOG S.C 3"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKt8mikin7I": {
@@ -6616,7 +7516,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpAFKx2lywjmg": {
           "nom": "CHRISTOPHE K.",
-          "maillot": 17,
+          "maillot": 15,
           "club": "ROESCHWOOG S.C 3"
         },
         "ir3_vj-lzPeINLfhzILsrKpKFKt8kC4tlw": {
@@ -6626,12 +7526,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKt9kiwgmrM": {
           "nom": "XAVIER C.",
-          "maillot": 9,
+          "maillot": 12,
           "club": "HERRLISHEIM F.C 3"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl8lC4gnLY": {
           "nom": "VICTOR M.",
-          "maillot": 13,
+          "maillot": 11,
           "club": "HERRLISHEIM F.C 3"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKx4li8lnrc": {
@@ -6658,6 +7558,81 @@
           "nom": "MICKAEL H.",
           "maillot": 12,
           "club": "NEUHAES. ENT FORST. 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl_kCYll7A": {
+          "nom": "YANIS D.",
+          "maillot": 8,
+          "club": "ROESCHWOOG S.C 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl2li8tnLA": {
+          "nom": "RAYAN A.",
+          "maillot": 7,
+          "club": "ROESCHWOOG S.C 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpMFKx_kCgknw": {
+          "nom": "GILLES S.",
+          "maillot": 11,
+          "club": "NEUHAES. ENT FORST. 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx6kC8tnrA": {
+          "nom": "MATHEO B.",
+          "maillot": 12,
+          "club": "DALHUNDEN U.S 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpAFKx4listmQ": {
+          "nom": "JEREMY S.",
+          "maillot": 14,
+          "club": "DALHUNDEN U.S 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp9mioml74": {
+          "nom": "STEVEN D.",
+          "maillot": 15,
+          "club": "ROHRWILLER F.C 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt-kywjm7Y": {
+          "nom": "ANTOINE K.",
+          "maillot": 13,
+          "club": "ROHRWILLER F.C 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx8kConlrE": {
+          "nom": "AYOUB E.",
+          "maillot": 11,
+          "club": "MUNDOLSHEIM A.S 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpKFKt8ky4knQ": {
+          "nom": "CORENTIN B.",
+          "maillot": 12,
+          "club": "MUNDOLSHEIM A.S 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx9kCosmLM": {
+          "nom": "MARC V.",
+          "maillot": 4,
+          "club": "MUNDOLSHEIM A.S 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpAFKx7lywilg": {
+          "nom": "MATHIAS C.",
+          "maillot": 13,
+          "club": "HOERDT A.S 4"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLFKx2kS0nnw": {
+          "nom": "MIKE M.",
+          "maillot": 7,
+          "club": "HOERDT A.S 4"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpMFKx_li0lmA": {
+          "nom": "THIBAUT K.",
+          "maillot": 15,
+          "club": "HOERDT A.S 4"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx3lS4inb4": {
+          "nom": "BRUNO D.",
+          "maillot": 10,
+          "club": "HOERDT A.S 4"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK14kiskm7E": {
+          "nom": "Anonyme",
+          "maillot": 9,
+          "club": "HOERDT A.S 4"
         }
       },
       "matchs": [
@@ -7836,10 +8811,106 @@
           "heure": "10:00",
           "recevant": "ROESCHWOOG S.C 3",
           "visiteur": "HERRLISHEIM F.C 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl8lC4gnLY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpIFKt-lS0glw",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl5lyksnLM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpOFKx8kiwhlw",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx8kSwll7U",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt9kiwgmrM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 40,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpIFKt-lS0glw",
+              "sanction": "J",
+              "sanction_detail": "J3",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl_kCYll7A",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFKt_lyggmQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 54,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl-ky0jmL4",
+              "sanction": "J",
+              "sanction_detail": "J3",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 64,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx8kSwll7U",
+              "sanction": "J",
+              "sanction_detail": "J3",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 79,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt7ly4tm74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpAFKx2lywjmg",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 80,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl2li8tnLA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx4lS4kmbY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 87,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx8kSwll7U",
+              "sanction": "J",
+              "sanction_detail": "J3",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 87,
+              "type": "carton-rouge",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx8kSwll7U",
+              "sanction": "J",
+              "sanction_detail": "J3",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 90,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl2li8tnLA",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE JEAN PIERRE 2_['RUE DU STADE', '67480 ROESCHWOOG']",
+          "officiels": [
+            "Anonyme_AC"
+          ]
         },
         {
           "id": 56178802,
@@ -7847,10 +8918,66 @@
           "heure": "10:00",
           "recevant": "NEUHAES. ENT FORST. 2",
           "visiteur": "DALHUNDEN U.S 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 8,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 1,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpMFKx_kCgknw",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpIFKt-kywgmA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpMFKx_kCgknw",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpOFKx_myYklg",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFKt_mishmQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlNFaZ7kC0mmLQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx4kiohnLY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx6kC8tnrA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 50,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp4kysinrU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx4lCYlmLE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 55,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLFKx3lC8smg",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 60,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpKFKt_myollw",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpAFKx4listmQ",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE DE L' ESPOIR_['RUE DU STADE', '67480 FORSTFELD']",
+          "officiels": [
+            "CANER ATES_AC"
+          ]
         },
         {
           "id": 56178803,
@@ -7858,10 +8985,60 @@
           "heure": "10:00",
           "recevant": "ROHRWILLER F.C 2",
           "visiteur": "MUNDOLSHEIM A.S 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 9,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 21,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp9mioml74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt-kywjm7Y",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 50,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt-kywjm7Y",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpAFKx4liosnw",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 55,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8kConlrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpKFKt8ky4knQ",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 60,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh6kikgmL8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKp_kiYln7Y",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 75,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFKt_ly0mmw",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 77,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx9kCosmLM",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL 1_['RUE DU STADE', '67410 ROHRWILLER']",
+          "officiels": [
+            "DANIEL HOLENDER_AC"
+          ]
         },
         {
           "id": 56178805,
@@ -7869,10 +9046,59 @@
           "heure": "10:00",
           "recevant": "HOERDT A.S 4",
           "visiteur": "ROUNTZENHEIM-AUENHEI 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 64,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpAFKx7lywilg",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 64,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpLFKx2kS0nnw",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpAFKx7lywilg",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 70,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlNFap4kystnbQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpMFKx_li0lmA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 75,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3lS4inb4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt3lSskn7I",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 78,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt_lCwll7M",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpAFKx7lywilg",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 80,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK14kiskm7E",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt3lSskn7I",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL 2_['RUE DE LA REPUBLIQUE', 'ANNEXE 1', '67720 HOERDT']",
+          "officiels": [
+            "Anonyme_AC"
+          ]
         },
         {
           "id": 56178806,
@@ -8282,7 +9508,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx8kiwjnLM": {
           "nom": "ISMAIL G.",
-          "maillot": 38,
+          "maillot": 58,
           "club": "PFETTISHEIM EPB 3"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKp2kiojl7U": {
@@ -8432,7 +9658,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK1_micimrY": {
           "nom": "ALEXANDRE W.",
-          "maillot": 13,
+          "maillot": 7,
           "club": "NIEDERHAUSBERGEN F.C 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpKFKt8kSYmlg": {
@@ -8442,12 +9668,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKp7kygjm7Y": {
           "nom": "LUDOVIC B.",
-          "maillot": 13,
+          "maillot": 9,
           "club": "NIEDERHAUSBERGEN F.C 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKt-kiYinbQ": {
           "nom": "SACHA M.",
-          "maillot": 14,
+          "maillot": 12,
           "club": "NIEDERHAUSBERGEN F.C 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl7mi0ml7I": {
@@ -8619,6 +9845,31 @@
           "nom": "HERVE P.",
           "maillot": 5,
           "club": "DINGSHEIM GRIES A.S 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpAFKx9lyojmA": {
+          "nom": "OUKHACH M.",
+          "maillot": 8,
+          "club": "NIEDERHAUSBERGEN F.C 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNFKx_li8imA": {
+          "nom": "CEDRIC M.",
+          "maillot": 14,
+          "club": "NIEDERHAUSBERGEN F.C 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt9ki0jnrI": {
+          "nom": "AXEL K.",
+          "maillot": 99,
+          "club": "PFETTISHEIM EPB 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt-kyotl7U": {
+          "nom": "KAMIL K.",
+          "maillot": 38,
+          "club": "PFETTISHEIM EPB 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp3lyYknbA": {
+          "nom": "HUGO D.",
+          "maillot": 10,
+          "club": "NIEDERHAUSBERGEN F.C 2"
         }
       },
       "matchs": [
@@ -9464,10 +10715,11 @@
           "heure": "20:30",
           "recevant": "STRG KRONENBOURG F.C 4",
           "visiteur": "PFULGRIESHEIM A.S 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE EXÈS 1_['31 RUE DU RIETH', \"TERRAIN D'HONNEUR\", '67000 STRASBOURG']"
         },
         {
           "id": 56178978,
@@ -9475,10 +10727,67 @@
           "heure": "10:00",
           "recevant": "NIEDERHAUSBERGEN F.C 2",
           "visiteur": "PFETTISHEIM EPB 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 12,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx8kiwjnLM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpIFKt-licmmQ",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK1_micimrY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt-kiYinbQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 36,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpAFKx9lyojmA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNFKx_li8imA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt9ki0jnrI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt-kyotl7U",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 65,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpIFKt-licmmQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4my8imb4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 80,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp7kygjm7Y",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 89,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp3lyYknbA",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL 1_['ALLEE DES TERRES DU SUD', '67207 NIEDERHAUSBERGEN']",
+          "officiels": [
+            "ERIC ADAM_AC"
+          ]
         },
         {
           "id": 56178981,
@@ -9500,12 +10809,12 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "à venir"
+          "statut": "reporté"
         },
         {
           "id": 56178985,
           "date": "2026-10-31",
-          "heure": "19:30",
+          "heure": "15:00",
           "recevant": "PFULGRIESHEIM A.S 3",
           "visiteur": "NIEDERHAUSBERGEN F.C 2",
           "buts_recevant": null,
@@ -9539,8 +10848,8 @@
           "id": 56178987,
           "date": "2026-11-01",
           "heure": "10:00",
-          "recevant": "DINGSHEIM GRIES A.S 2",
-          "visiteur": "HOHENGOEFT 2",
+          "recevant": "HOHENGOEFT 2",
+          "visiteur": "DINGSHEIM GRIES A.S 2",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
@@ -9766,6 +11075,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE LANGHAAG 1_[\"14 RUE D'ALKIRCH\", '67000 STRASBOURG']": {
+          "nom": "STADE LANGHAAG 1",
+          "adresse": "14 RUE D'ALKIRCH | 67000 STRASBOURG",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -9838,7 +11154,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKt3kSgklrI": {
           "nom": "OSMAN NURI S.",
-          "maillot": 5,
+          "maillot": 14,
           "club": "STRG NEUHOF C.S 3"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKx_lC0tn7E": {
@@ -9888,7 +11204,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh_kCwsnbA": {
           "nom": "SAFOUENE G.",
-          "maillot": 13,
+          "maillot": 8,
           "club": "STRG VAUBAN U.S 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd9ki0in78": {
@@ -9945,6 +11261,26 @@
           "nom": "HEDAYATULLAH H.",
           "maillot": 5,
           "club": "STRG NEUDORF A.S 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp5lCcsnb8": {
+          "nom": "MOHAMED AMINE K.",
+          "maillot": 12,
+          "club": "STRG VAUBAN U.S 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpKFKt_mycnmA": {
+          "nom": "CEDRIC YAKUP D.",
+          "maillot": 12,
+          "club": "STRG NEUHOF C.S 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh4lCYgmbQ": {
+          "nom": "KAMAL M.",
+          "maillot": 6,
+          "club": "STRG VAUBAN U.S 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh_lSsin7M": {
+          "nom": "SAIF EDIN A.",
+          "maillot": 14,
+          "club": "STRG VAUBAN U.S 2"
         }
       },
       "matchs": [
@@ -10398,10 +11734,11 @@
           "heure": "19:45",
           "recevant": "STRG CITE DE L ILL 2",
           "visiteur": "STRG HAUTEPIERRE AFJ 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE LA THUR 2_['RUE DE LA DOLLER', '67000 STRASBOURG']"
         },
         {
           "id": 56179090,
@@ -10420,10 +11757,41 @@
           "heure": "10:00",
           "recevant": "STRG NEUHOF C.S 3",
           "visiteur": "STRG VAUBAN U.S 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 11,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh_kCwsnbA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5lCcsnb8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 33,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx5ky4jnbI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpKFKt_mycnmA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 65,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4lCYgmbQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh_lSsin7M",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 66,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx-kC0nnbc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt3kSgklrI",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MICHEL WALTER 1_['40, RUE DE LA KLEBSAU', '67000 STRASBOURG']"
         },
         {
           "id": 56179092,
@@ -10431,10 +11799,11 @@
           "heure": "10:00",
           "recevant": "STRG EGALITAIRE U.S 2",
           "visiteur": "STRG NEUDORF A.S 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE LANGHAAG 1_[\"14 RUE D'ALKIRCH\", '67000 STRASBOURG']"
         },
         {
           "id": 56179095,
@@ -10743,6 +12112,16 @@
           "nom": "YANNICK LAGOUTTE",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "ALEXIS GABEL ETTER_AC": {
+          "nom": "ALEXIS GABEL ETTER",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "Anonyme_AC": {
+          "nom": "Anonyme",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -10858,7 +12237,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKx6mychl7c": {
           "nom": "LUCAS L.",
-          "maillot": 11,
+          "maillot": 13,
           "club": "NIEDERNAI A.S 2"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx4kCwtmLY": {
@@ -11135,6 +12514,36 @@
           "nom": "KEVIN L.",
           "maillot": 7,
           "club": "URMATT ENT HUG 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpIFKt-micimA": {
+          "nom": "QUENTIN C.",
+          "maillot": 4,
+          "club": "BISCHOFFSHEIM A.S 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlNFKp4kS8snLI": {
+          "nom": "JONATHAN G.",
+          "maillot": 12,
+          "club": "BISCHOFFSHEIM A.S 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd_kCsgm74": {
+          "nom": "ALEXIS F.",
+          "maillot": 12,
+          "club": "NIEDERNAI A.S 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt2mykimb8": {
+          "nom": "ANTONIO S.",
+          "maillot": 8,
+          "club": "NIEDERNAI A.S 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpAFKx9kS4knw": {
+          "nom": "CHRISTOPHE E.",
+          "maillot": 4,
+          "club": "NIEDERNAI A.S 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlJF616kC8ln7A": {
+          "nom": "ALEXIS V.",
+          "maillot": 7,
+          "club": "BISCHOFFSHEIM A.S 3"
         }
       },
       "matchs": [
@@ -11850,10 +13259,68 @@
           "heure": "10:00",
           "recevant": "BISCHOFFSHEIM A.S 3",
           "visiteur": "NIEDERNAI A.S 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpIFKt-micimA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKlNFKp4kS8snLI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl_mi4slrI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd_kCsgm74",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt2mykimb8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx6mychl7c",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 42,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpAFKx9kS4knw",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlJF616kC8ln7A",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpAFKx9ky4smQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 82,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx7lywnl7A",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 90,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpAFKx9ky4smQ",
+              "sanction": "J",
+              "sanction_detail": "J4",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL 2_['1 RUE DU STADE', '67870 BISCHOFFSHEIM']",
+          "officiels": [
+            "ALEXIS GABEL ETTER_AC"
+          ]
         },
         {
           "id": 56179203,
@@ -11861,10 +13328,11 @@
           "heure": "10:00",
           "recevant": "DANGOL. ENT DAHL. 4",
           "visiteur": "NATZWILLER A.S 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE NOTRE DAME_['RUE DU STADE', '67310 DANGOLSHEIM']"
         },
         {
           "id": 56179204,
@@ -11872,10 +13340,14 @@
           "heure": "10:00",
           "recevant": "ALTORF ENT. DORLISH 2",
           "visiteur": "MOLSHEIM ERNO. E.S 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DU SCHIFFBACH_[' RUE ARTHUR SILBERZAHN', '67120 DORLISHEIM']",
+          "officiels": [
+            "Anonyme_AC"
+          ]
         },
         {
           "id": 56179205,
@@ -12154,6 +13626,21 @@
           "nom": "RIDGI WELSCH",
           "role": "Observateur principal",
           "role_cod": "CP"
+        },
+        "Anonyme_AC": {
+          "nom": "Anonyme",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "BRUNO DOGAN_AC": {
+          "nom": "BRUNO DOGAN",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "KEVIN FLUCK_AC": {
+          "nom": "KEVIN FLUCK",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -12229,7 +13716,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh4ki4jm7Q": {
           "nom": "MATHIAS F.",
-          "maillot": 3,
+          "maillot": 11,
           "club": "BOOFZHEIM ENT. HERBS 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh_lSwjlrQ": {
@@ -12299,7 +13786,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl9kCwtnr8": {
           "nom": "MATTEO J.",
-          "maillot": 13,
+          "maillot": 12,
           "club": "HIPSHEIM F.C 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpPFKx_ki4lmg": {
@@ -12324,7 +13811,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpPFKx_kigtnA": {
           "nom": "LUDOVIC M.",
-          "maillot": 10,
+          "maillot": 14,
           "club": "NORDHOUSE U.S 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpBFKx_ly8nlw": {
@@ -12344,7 +13831,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKx8mycnnbA": {
           "nom": "MUKREMIN G.",
-          "maillot": 7,
+          "maillot": 13,
           "club": "ESCHAU F.C 3"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd9kiosnbA": {
@@ -12439,7 +13926,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpJFKt_kisnlg": {
           "nom": "STEPHANE O.",
-          "maillot": 14,
+          "maillot": 9,
           "club": "NORDHOUSE U.S 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl3kSYtl7E": {
@@ -12594,7 +14081,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpBFKx_kygnlw": {
           "nom": "QUENTIN H.",
-          "maillot": 10,
+          "maillot": 6,
           "club": "HIPSHEIM F.C 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl3kCgsnrI": {
@@ -12651,6 +14138,61 @@
           "nom": "YOHANN K.",
           "maillot": 14,
           "club": "MATZENHEIM F.C 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh4kiYimrQ": {
+          "nom": "YOAN R.",
+          "maillot": 5,
+          "club": "HIPSHEIM F.C 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt7miggn74": {
+          "nom": "STEEVEN B.",
+          "maillot": 10,
+          "club": "WESTHOUSE A.S. 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt-mi4gmLc": {
+          "nom": "THIBAUT K.",
+          "maillot": 12,
+          "club": "WESTHOUSE A.S. 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl8lismmL4": {
+          "nom": "SIMON S.",
+          "maillot": 11,
+          "club": "WESTHOUSE A.S. 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLFKx3li8jmw": {
+          "nom": "PIERRE K.",
+          "maillot": 13,
+          "club": "WESTHOUSE A.S. 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp3myksl7I": {
+          "nom": "YASIN D.",
+          "maillot": 10,
+          "club": "HIPSHEIM F.C 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp8kS0tmr4": {
+          "nom": "SEKOU N.",
+          "maillot": 13,
+          "club": "HIPSHEIM F.C 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl5lCYkn78": {
+          "nom": "MATTEO O.",
+          "maillot": 12,
+          "club": "NORDHOUSE U.S 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpAFKx2kikimA": {
+          "nom": "MATTHIEU L.",
+          "maillot": 13,
+          "club": "BOOFZHEIM ENT. HERBS 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt3kiosnbA": {
+          "nom": "MATHEO B.",
+          "maillot": 14,
+          "club": "BOOFZHEIM ENT. HERBS 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNFKx_liknlw": {
+          "nom": "JULIEN M.",
+          "maillot": 88,
+          "club": "LIPSHEIM O.C 2"
         }
       },
       "matchs": [
@@ -13610,10 +15152,52 @@
           "heure": "10:00",
           "recevant": "HIPSHEIM F.C 2",
           "visiteur": "WESTHOUSE A.S. 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpBFKx_kygnlw",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl9kCwtnr8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 22,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4kiYimrQ",
+              "sanction": "J",
+              "sanction_detail": "J3",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 23,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt7miggn74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt-mi4gmLc",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl8lismmL4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpLFKx3li8jmw",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp3myksl7I",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp8kS0tmr4",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE DE LA FORÊT 2_['LE BOURG', '67150 HIPSHEIM']",
+          "officiels": [
+            "Anonyme_AC"
+          ]
         },
         {
           "id": 56179379,
@@ -13621,10 +15205,51 @@
           "heure": "10:00",
           "recevant": "NORDHOUSE U.S 2",
           "visiteur": "BOOFZHEIM ENT. HERBS 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 33,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpIFKt-kigsmg",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl5lCYkn78",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 33,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFKt_kisnlg",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx5kiwnm7U",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 33,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh4ki4jm7Q",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpAFKx2kikimA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 75,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx5ky4nmLc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpPFKx_kigtnA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 76,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpAFKx2kikimA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3kiosnbA",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE DE LA FORÊT 2_['RUE DU STADE', 'TERRAIN ANNEXE', '67150 NORDHOUSE']",
+          "officiels": [
+            "BRUNO DOGAN_AC"
+          ]
         },
         {
           "id": 56179380,
@@ -13635,7 +15260,7 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "à venir"
+          "statut": "reporté"
         },
         {
           "id": 56179381,
@@ -13643,10 +15268,62 @@
           "heure": "10:00",
           "recevant": "LIPSHEIM O.C 2",
           "visiteur": "ESCHAU F.C 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 24,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFKt_lS8slw",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 33,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFKt_lS8slw",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 48,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx8mycnnbA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 53,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFKt_lS8slw",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 53,
+              "type": "carton-rouge",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl8miokl7A",
+              "sanction": "R",
+              "sanction_detail": "R1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 79,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFKt_lS8slw",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 87,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNFKx_liknlw",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE DE LA STIERMATT 1_['RUE DE LA CHAPELLE', '67640 LIPSHEIM']",
+          "officiels": [
+            "KEVIN FLUCK_AC"
+          ]
         },
         {
           "id": 56179382,
@@ -13930,6 +15607,16 @@
           "nom": "RAPHAEL SCHOTT",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "PATRICK SCHNEIDER_AC": {
+          "nom": "PATRICK SCHNEIDER",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "PATRICK FRIANT_AC": {
+          "nom": "PATRICK FRIANT",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -13955,7 +15642,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl4kyYnl7Y": {
           "nom": "TOM B.",
-          "maillot": 11,
+          "maillot": 6,
           "club": "HEILIGENSTEIN A.S 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl3liYsl7Q": {
@@ -13990,7 +15677,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd9li8sn78": {
           "nom": "TAHIR D.",
-          "maillot": 13,
+          "maillot": 12,
           "club": "EPFIG UJSF 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpKFKt8kicsmg": {
@@ -14060,7 +15747,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl_kCYkmL8": {
           "nom": "AXEL P.",
-          "maillot": 14,
+          "maillot": 11,
           "club": "ENT. DU VIGNOBLE 2 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl_ky8imr8": {
@@ -14125,7 +15812,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKx-lCosmr8": {
           "nom": "STEPHANE M.",
-          "maillot": 6,
+          "maillot": 10,
           "club": "HEILIGENSTEIN A.S 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpMFKx_miknmw": {
@@ -14165,7 +15852,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKx3lC8tmbI": {
           "nom": "JEREMY S.",
-          "maillot": 13,
+          "maillot": 4,
           "club": "EBERSMUNSTER F.C"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKp3ly8nlr8": {
@@ -14185,7 +15872,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpAFKx7lConng": {
           "nom": "REGIS E.",
-          "maillot": 12,
+          "maillot": 9,
           "club": "EBERSMUNSTER F.C"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKx3kSoimL4": {
@@ -14235,12 +15922,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpBFKx_liwlmw": {
           "nom": "MUSTAFA S.",
-          "maillot": 10,
+          "maillot": 14,
           "club": "EPFIG UJSF 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpJFKt_kSYhmA": {
           "nom": "AHMET E.",
-          "maillot": 12,
+          "maillot": 13,
           "club": "EPFIG UJSF 2"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK15lyslnL8": {
@@ -14250,7 +15937,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpAFKx5lSwknA": {
           "nom": "OKTAY S.",
-          "maillot": 9,
+          "maillot": 7,
           "club": "EPFIG UJSF 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpAFKx4liYmnw": {
@@ -14312,6 +15999,71 @@
           "nom": "ARNAUD J.",
           "maillot": 14,
           "club": "BREITENBACH F.C"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpAFKx8micnnQ": {
+          "nom": "Anonyme",
+          "maillot": 12,
+          "club": "EBERSMUNSTER F.C"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp8licnmbE": {
+          "nom": "RUBEN D.",
+          "maillot": 8,
+          "club": "EBERSMUNSTER F.C"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpLFKx3kCYinQ": {
+          "nom": "MAXIME K.",
+          "maillot": 13,
+          "club": "EBERSMUNSTER F.C"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx4mi0lmbY": {
+          "nom": "VEYSEL K.",
+          "maillot": 6,
+          "club": "EPFIG UJSF 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx3mi8knrE": {
+          "nom": "ABDULLAH Z.",
+          "maillot": 10,
+          "club": "EPFIG UJSF 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx-kC0hl7c": {
+          "nom": "FABRICE L.",
+          "maillot": 14,
+          "club": "EBERSMUNSTER F.C"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx9lCcgmL8": {
+          "nom": "JASON F.",
+          "maillot": 7,
+          "club": "ENT. DU VIGNOBLE 2 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd-lickm74": {
+          "nom": "ENES A.",
+          "maillot": 2,
+          "club": "HEILIGENSTEIN A.S 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl7my0tnLI": {
+          "nom": "ANGELO N.",
+          "maillot": 12,
+          "club": "HEILIGENSTEIN A.S 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp5lyosmbU": {
+          "nom": "ANTOINE R.",
+          "maillot": 3,
+          "club": "ENT. DU VIGNOBLE 2 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt6kSYtnLM": {
+          "nom": "VALENTIN R.",
+          "maillot": 12,
+          "club": "ENT. DU VIGNOBLE 2 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp3lS0gnLc": {
+          "nom": "EWAN S.",
+          "maillot": 14,
+          "club": "ENT. DU VIGNOBLE 2 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpIFKt-liktlw": {
+          "nom": "JEREMY K.",
+          "maillot": 14,
+          "club": "HEILIGENSTEIN A.S 2"
         }
       },
       "matchs": [
@@ -14940,10 +16692,11 @@
           "heure": "10:00",
           "recevant": "KINTZHEIM R.C 2",
           "visiteur": "SELESTAT PORTUGAIS 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_[' RUE DU STADE', '67600 KINTZHEIM']"
         },
         {
           "id": 56179577,
@@ -14951,10 +16704,82 @@
           "heure": "10:00",
           "recevant": "EBERSMUNSTER F.C",
           "visiteur": "EPFIG UJSF 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpAFKx7lConng",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpAFKx8micnnQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp8licnmbE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpLFKx3kCYinQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 42,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpAFKx5lSwknA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9li8sn78",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 45,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9li8sn78",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 50,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9li8sn78",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 50,
+              "type": "carton-rouge",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9li8sn78",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 50,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx4mi0lmbY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFKt_kSYhmA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 70,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx3mi8knrE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpBFKx_liwlmw",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 85,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx3lC8tmbI",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx-kC0hl7c",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL_['Rue du stade', '67600 EBERSMUNSTER']",
+          "officiels": [
+            "PATRICK SCHNEIDER_AC"
+          ]
         },
         {
           "id": 56179579,
@@ -14962,10 +16787,66 @@
           "heure": "10:00",
           "recevant": "HEILIGENSTEIN A.S 2",
           "visiteur": "ENT. DU VIGNOBLE 2 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 15,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl_kCYkmL8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx9lCcgmL8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd-lickm74",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl3liYsl7Q",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 44,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx-lCosmr8",
+              "sanction": "J",
+              "sanction_detail": "J3",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 50,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx-lCosmr8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl7my0tnLI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 65,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp5lyosmbU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt6kSYtnLM",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 65,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx4lysgmb4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKp3lS0gnLc",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 75,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl4kyYnl7Y",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpIFKt-liktlw",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE DU JARDIN DES SPORTS 1_['11 RUE DU TORENBERG', '67140 HEILIGENSTEIN']",
+          "officiels": [
+            "PATRICK FRIANT_AC"
+          ]
         },
         {
           "id": 56179582,
@@ -15218,6 +17099,16 @@
           "nom": "PHILIPPE LERUDULIER",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "ESER KAYA_AC": {
+          "nom": "ESER KAYA",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "Anonyme_AC": {
+          "nom": "Anonyme",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -15233,7 +17124,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpKFKt8lyYjnw": {
           "nom": "BURAK A.",
-          "maillot": 11,
+          "maillot": 12,
           "club": "MARCKOLSHEIM A.S 3"
         },
         "ir3_vj-lzPeINLfhzILsrKpPFKx_misjmg": {
@@ -15243,12 +17134,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp9liklnrA": {
           "nom": "CHRISTEEN K.",
-          "maillot": 13,
+          "maillot": 9,
           "club": "MARCKOLSHEIM A.S 3"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKp4kycin7c": {
           "nom": "CYRIL P.",
-          "maillot": 12,
+          "maillot": 2,
           "club": "MARCKOLSHEIM A.S 3"
         },
         "ir3_vj-lzPeINLfhzILsrKpBFKx_kSwkmw": {
@@ -15303,7 +17194,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpAFKx6mywimQ": {
           "nom": "Anonyme",
-          "maillot": 12,
+          "maillot": 7,
           "club": "OSTHEIM HOUSSEN F.C 3"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKx2ki4kmL8": {
@@ -15338,7 +17229,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp4kS4hl78": {
           "nom": "GEORGES G.",
-          "maillot": 15,
+          "maillot": 14,
           "club": "MARCKOLSHEIM A.S 3"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp7li0kmrA": {
@@ -15463,7 +17354,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKx3lioklrY": {
           "nom": "JEREMIE G.",
-          "maillot": 3,
+          "maillot": 11,
           "club": "JEBSHEIM-MUNTZENHEIM 3"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp6kCggn7A": {
@@ -15505,6 +17396,86 @@
           "nom": "NICOLAS W.",
           "maillot": 13,
           "club": "BALDENHEIM U.S 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpPFKx_kisgnA": {
+          "nom": "RAPHAEL K.",
+          "maillot": 10,
+          "club": "ELSENHEIM A.S 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl8kSkim78": {
+          "nom": "PEDRO G.",
+          "maillot": 9,
+          "club": "ELSENHEIM A.S 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt5kikkmLU": {
+          "nom": "FLORIAN K.",
+          "maillot": 13,
+          "club": "ELSENHEIM A.S 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt7mycml7c": {
+          "nom": "GUILLAUME S.",
+          "maillot": 2,
+          "club": "ELSENHEIM A.S 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFKt_ky8jlw": {
+          "nom": "NICOLAS R.",
+          "maillot": 13,
+          "club": "MARCKOLSHEIM A.S 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt3miwmmrA": {
+          "nom": "SANEL Z.",
+          "maillot": 6,
+          "club": "ELSENHEIM A.S 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx-kCkimLE": {
+          "nom": "ARTHUR K.",
+          "maillot": 14,
+          "club": "ELSENHEIM A.S 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpAFKx4lygllw": {
+          "nom": "MICKAEL B.",
+          "maillot": 2,
+          "club": "ARTOLSHEIM MUSSIG E. 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpAFKx4kykmng": {
+          "nom": "STEVE K.",
+          "maillot": 12,
+          "club": "ARTOLSHEIM MUSSIG E. 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK14kykjnbM": {
+          "nom": "PHILIPPE K.",
+          "maillot": 9,
+          "club": "ARTOLSHEIM MUSSIG E. 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNFKx_li4nlg": {
+          "nom": "MATHIEU K.",
+          "maillot": 13,
+          "club": "ARTOLSHEIM MUSSIG E. 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx2myclnrE": {
+          "nom": "JASON M.",
+          "maillot": 12,
+          "club": "JEBSHEIM-MUNTZENHEIM 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpIFKt-mictmw": {
+          "nom": "MICHEL B.",
+          "maillot": 13,
+          "club": "JEBSHEIM-MUNTZENHEIM 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl2lC0nmbQ": {
+          "nom": "JOAQUIM T.",
+          "maillot": 7,
+          "club": "ARTOLSHEIM MUSSIG E. 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpAFKx4liclmg": {
+          "nom": "JEREMY S.",
+          "maillot": 14,
+          "club": "ARTOLSHEIM MUSSIG E. 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpMFKx_lyYimw": {
+          "nom": "YANNICK L.",
+          "maillot": 12,
+          "club": "OSTHEIM HOUSSEN F.C 3"
         }
       },
       "matchs": [
@@ -16060,10 +18031,74 @@
           "heure": "10:00",
           "recevant": "MARCKOLSHEIM A.S 3",
           "visiteur": "ELSENHEIM A.S 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 35,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpPFKx_kisgnA",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl8kSkim78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt5kikkmLU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt7mycml7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9kCcimbc",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9liklnrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpJFKt_ky8jlw",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 55,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpAFKx5lSYhmA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4kS4hl78",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 60,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt3miwmmrA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx-kCkimLE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 60,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp4kycin7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpKFKt8lyYjnw",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 75,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp4kycin7c",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL N°1_[' RUE DE LA GARONNE', '67390 MARCKOLSHEIM']",
+          "officiels": [
+            "ESER KAYA_AC"
+          ]
         },
         {
           "id": 56179667,
@@ -16074,7 +18109,7 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "à venir"
+          "statut": "réserve"
         },
         {
           "id": 56179668,
@@ -16082,10 +18117,51 @@
           "heure": "10:00",
           "recevant": "ARTOLSHEIM MUSSIG E. 3",
           "visiteur": "JEBSHEIM-MUNTZENHEIM 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 19,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpAFKx4lygllw",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpAFKx4kykmng",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK14kykjnbM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNFKx_li4nlg",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 33,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx3lioklrY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx2myclnrE",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 40,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp-kysnm7Y",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpIFKt-mictmw",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl2lC0nmbQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpAFKx4liclmg",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE DES LACHENS 1_['RUE DU STADE', '67390 ARTOLSHEIM']",
+          "officiels": [
+            "Anonyme_AC"
+          ]
         },
         {
           "id": 56179669,
@@ -16093,10 +18169,20 @@
           "heure": "10:00",
           "recevant": "OSTHEIM HOUSSEN F.C 3",
           "visiteur": "BALDENHEIM U.S 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 43,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpAFKx6mywimQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpMFKx_lyYimw",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL_['HR 1/3', 'ROUTE DE COLMAR', '68150 OSTHEIM']"
         },
         {
           "id": 56179671,
@@ -16124,8 +18210,8 @@
           "id": 56179673,
           "date": "2026-11-01",
           "heure": "10:00",
-          "recevant": "WITTISHEIM F.C 2",
-          "visiteur": "MARCKOLSHEIM A.S 3",
+          "recevant": "MARCKOLSHEIM A.S 3",
+          "visiteur": "WITTISHEIM F.C 2",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
@@ -16431,7 +18517,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKp3kygmnbQ": {
           "nom": "LUCAS M.",
-          "maillot": 13,
+          "maillot": 9,
           "club": "COLMAR PORTUGAIS 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKt_liYkl7A": {
@@ -16521,12 +18607,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh7micim7I": {
           "nom": "HUGO D.",
-          "maillot": 3,
+          "maillot": 8,
           "club": "COLMAR PORTUGAIS 2"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt4lCsllrM": {
           "nom": "ARNAUD P.",
-          "maillot": 13,
+          "maillot": 11,
           "club": "COLMAR PORTUGAIS 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpBFKx_migmnA": {
@@ -16586,7 +18672,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl3lisnnr4": {
           "nom": "MATHIEU H.",
-          "maillot": 3,
+          "maillot": 12,
           "club": "COLMAR PORTUGAIS 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh4ki0tnrY": {
@@ -16606,7 +18692,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKt5kickmr8": {
           "nom": "HUGO M.",
-          "maillot": 12,
+          "maillot": 13,
           "club": "COLMAR PORTUGAIS 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKh8miwtnLU": {
@@ -16673,6 +18759,21 @@
           "nom": "LOUIS T.",
           "maillot": 7,
           "club": "VALLEE NOBLE A.S. 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp3kC8lmrU": {
+          "nom": "MATHEO M.",
+          "maillot": 7,
+          "club": "COLMAR PORTUGAIS 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl9lCknlrM": {
+          "nom": "ADRIEN C.",
+          "maillot": 6,
+          "club": "COLMAR PORTUGAIS 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKx5kCkkmbM": {
+          "nom": "Anonyme",
+          "maillot": 8,
+          "club": "UNGERSHEIM F.C. 3"
         }
       },
       "matchs": [
@@ -17249,7 +19350,7 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "à venir"
+          "statut": "réserve"
         },
         {
           "id": 56179867,
@@ -17257,10 +19358,70 @@
           "heure": "10:00",
           "recevant": "COLMAR PORTUGAIS 2",
           "visiteur": "SIGOLSHEIM A.S. 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 1,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp3kC8lmrU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 11,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp3kygmnbQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 14,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp3kygmnbQ",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 24,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl9lCknlrM",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt4lCsllrM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl3lisnnr4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 33,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh7micim7I",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt5kickmr8",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 51,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl3lisnnr4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 66,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKl3lisnnr4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKx3kycmm7c",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 75,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx3kycmm7c",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE DE L' ORANGERIE 1_['HR 1/3', 'ALLEE DE L ORANGERIE', 'TERRAIN HONNEUR', '68000 COLMAR']"
         },
         {
           "id": 56179869,
@@ -17268,10 +19429,11 @@
           "heure": "10:00",
           "recevant": "RUMERSHEIM A.L.S.C. 2",
           "visiteur": "MUNSTER A.S. 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DU CHÂTEAU D' EAU 1_['HR 2/3', 'RUE DU STADE', '68740 RUMERSHEIM LE HAUT']"
         },
         {
           "id": 56179870,
@@ -17279,10 +19441,37 @@
           "heure": "10:00",
           "recevant": "UNGERSHEIM F.C. 3",
           "visiteur": "VALLEE NOBLE A.S. 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 50,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx5kCkkmbM",
+              "sanction": "J",
+              "sanction_detail": "J3",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 80,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx5kCkkmbM",
+              "sanction": "J",
+              "sanction_detail": "J3",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 80,
+              "type": "carton-rouge",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx5kCkkmbM",
+              "sanction": "J",
+              "sanction_detail": "J3",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE JEAN SPAETY 1_['HR 2/3', \"ROUTE D'ENSISHEIM\", '68190 UNGERSHEIM']"
         },
         {
           "id": 56179872,
@@ -17565,6 +19754,11 @@
           "nom": "JEREMIE OSTERMANN",
           "role": "Délégué accompagnateur",
           "role_cod": "DA"
+        },
+        "JEREMIE BEIL_AC": {
+          "nom": "JEREMIE BEIL",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -17845,7 +20039,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKt8lisnl78": {
           "nom": "THOMAS G.",
-          "maillot": 4,
+          "maillot": 2,
           "club": "RAEDERSHEIM A.S 3"
         },
         "ir3_vj-lzPeINLfhzILsrKpBFKx_lSwlmQ": {
@@ -17880,7 +20074,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKt_mioin7E": {
           "nom": "BAPTISTE D.",
-          "maillot": 20,
+          "maillot": 12,
           "club": "RAEDERSHEIM A.S 3"
         },
         "ir3_vj-lzPeINLfhzILsrKpPFKx_li0mlw": {
@@ -17891,6 +20085,56 @@
         "ir3_vj-lzPeINLfhzILsrKpNEKp3myYil78": {
           "nom": "IVAN C.",
           "maillot": 7,
+          "club": "RAEDERSHEIM A.S 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt6lysmnbE": {
+          "nom": "ONUR K.",
+          "maillot": 11,
+          "club": "MULHOUSE ANATOLIE 4"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx_ky4ml7A": {
+          "nom": "SALAHEDDINE B.",
+          "maillot": 13,
+          "club": "MULHOUSE ANATOLIE 4"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp_kiotnLE": {
+          "nom": "MUHAMMED D.",
+          "maillot": 9,
+          "club": "MULHOUSE ANATOLIE 4"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl3kyslm7M": {
+          "nom": "BERKAN K.",
+          "maillot": 14,
+          "club": "MULHOUSE ANATOLIE 4"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpAFKx9kCwhnA": {
+          "nom": "ANNUNZIATO L.",
+          "maillot": 11,
+          "club": "RAEDERSHEIM A.S 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt7lCktmL4": {
+          "nom": "OSMAN E.",
+          "maillot": 12,
+          "club": "MULHOUSE ANATOLIE 4"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpIFKt-lCogmg": {
+          "nom": "KEVIN W.",
+          "maillot": 10,
+          "club": "RAEDERSHEIM A.S 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh2lykjnL8": {
+          "nom": "ALEXIS B.",
+          "maillot": 14,
+          "club": "RAEDERSHEIM A.S 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl7lyYlmbc": {
+          "nom": "LIONEL B.",
+          "maillot": 13,
+          "club": "RAEDERSHEIM A.S 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpJFKt_kikgnw": {
+          "nom": "FRANCK S.",
+          "maillot": 8,
           "club": "RAEDERSHEIM A.S 3"
         }
       },
@@ -18504,7 +20748,7 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "à venir"
+          "statut": "réserve"
         },
         {
           "id": 56180077,
@@ -18512,10 +20756,11 @@
           "heure": "10:00",
           "recevant": "RODEREN F.C. 3",
           "visiteur": "VALLEE THUR U.S. 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE SAINT-MICHEL 1_['HR 2/3', 'ROUTE DE GUEWENHEIM', '68800 RODEREN']"
         },
         {
           "id": 56180078,
@@ -18523,10 +20768,11 @@
           "heure": "10:00",
           "recevant": "PULVERSHEIM F.C. U.S 3",
           "visiteur": "THANN F.C 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE OLYMPIQUE_['HR 2/3', '3A RUE DE MULHOUSE', '68840 PULVERSHEIM']"
         },
         {
           "id": 56180080,
@@ -18534,10 +20780,82 @@
           "heure": "10:00",
           "recevant": "MULHOUSE ANATOLIE 4",
           "visiteur": "RAEDERSHEIM A.S 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 13,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt6lysmnbE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_ky4ml7A",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 27,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp_kiotnLE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl3kyslm7M",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 31,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpAFKx9kCwhnA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 39,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt8lyYll7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt7lCktmL4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 44,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpAFKx9kCwhnA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpIFKt-lCogmg",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh2lykjnL8",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 56,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpAFKx9kCwhnA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 65,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt8lisnl78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt_mioin7E",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 65,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpAFKx9kCwhnA",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl7lyYlmbc",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 75,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpJFKt_kikgnw",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE DE LA DOLLER_['HR 2:3', '98 RUE PIERRE BROSSOLETTE', '68200 MULHOUSE']",
+          "officiels": [
+            "JEREMIE BEIL_AC"
+          ]
         },
         {
           "id": 56180082,
@@ -19713,10 +22031,11 @@
           "heure": "18:30",
           "recevant": "WITTERSDORF A.S. 2",
           "visiteur": "UEBERST. ENT. EVL 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['ROUTE DE WALHEIM', '68130 WITTERSDORF']"
         },
         {
           "id": 56180265,
@@ -19727,7 +22046,7 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "à venir"
+          "statut": "réserve"
         },
         {
           "id": 56180267,
@@ -19735,10 +22054,11 @@
           "heure": "10:00",
           "recevant": "HIRSINGUE U.S 3",
           "visiteur": "TRAUBACH UFPA 5",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE CHRISTIAN TOURNIER 1_['HR 3/3', 'RUE DU STADE', '68560 HIRSINGUE']"
         },
         {
           "id": 56212706,
@@ -19749,7 +22069,7 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "à venir"
+          "statut": "reporté"
         },
         {
           "id": 56180269,
@@ -20885,10 +23205,11 @@
           "heure": "10:00",
           "recevant": "BALDERSHEIM F.C. 3",
           "visiteur": "RIXHEIM A.S. 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['HR 2/3', 'Rue de Bantzenheim', '68390 BALDERSHEIM']"
         },
         {
           "id": 56180312,
@@ -20896,10 +23217,11 @@
           "heure": "10:00",
           "recevant": "OBERMORSCHWILLER F.C",
           "visiteur": "HESINGUE U.S 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['HR 3/3', '68130 OBERMORSCHWILLER']"
         },
         {
           "id": 56180313,
@@ -20910,7 +23232,7 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "à venir"
+          "statut": "réserve"
         },
         {
           "id": 56180314,

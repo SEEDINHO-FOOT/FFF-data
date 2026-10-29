@@ -109,6 +109,20 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 1_['3 RUE DE LA FORET', '4 rue de la forêt', '35560 BAZOUGES LA PEROUSE']": {
+          "nom": "STADE MUNICIPAL 1",
+          "adresse": "3 RUE DE LA FORET | 4 rue de la forêt | 35560 BAZOUGES LA PEROUSE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL_['LE BOURG', '35490 VIEUX VY SUR COUESNON']": {
+          "nom": "STADE MUNICIPAL",
+          "adresse": "LE BOURG | 35490 VIEUX VY SUR COUESNON",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -263,10 +277,11 @@
           "heure": "11:00",
           "recevant": "SENS VX-VY GAHARD ES",
           "visiteur": "DINGE CS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['LE BOURG', '35490 VIEUX VY SUR COUESNON']"
         },
         {
           "id": 79390416,
@@ -274,21 +289,23 @@
           "heure": "11:00",
           "recevant": "BAGUER MORVAN US 2",
           "visiteur": "BAIE DU MONT FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE BEAUREGARD 1_[' RUE AMIRAL DUPERRE', '35120 BAGUER MORVAN']"
         },
         {
           "id": 79390417,
           "date": "2026-10-25",
-          "heure": "11:00",
+          "heure": "10:30",
           "recevant": "MAR/BAZ/ST REM/NO FC",
           "visiteur": "GF PAYS DE FOUGERES 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['3 RUE DE LA FORET', '4 rue de la forêt', '35560 BAZOUGES LA PEROUSE']"
         },
         {
           "id": 79390418,
@@ -296,10 +313,11 @@
           "heure": "11:00",
           "recevant": "ST GUINOUX US",
           "visiteur": "MAEN ROCH FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 9,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE FRANCIS LEMARIE 2_['CHATEAU MALO', 'RUE ABBE LORIN', '35400 ST MALO']"
         },
         {
           "id": 79390419,
@@ -574,6 +592,21 @@
           "nom": "CECILE V.",
           "maillot": 10,
           "club": "US BEL AIR BDC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx7kycsm7I": {
+          "nom": "ROZENN C.",
+          "maillot": 7,
+          "club": "PAYS ANAST FC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx4kCshnbA": {
+          "nom": "HARMONIE L.",
+          "maillot": 11,
+          "club": "PAYS ANAST FC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh7my4nnrI": {
+          "nom": "SATHYNE L.",
+          "maillot": 8,
+          "club": "GD-FOUGERAY STE-ANNE"
         }
       },
       "matchs": [
@@ -721,10 +754,11 @@
           "heure": "11:00",
           "recevant": "GUIGNEN US",
           "visiteur": "F.C. CANTON DU SEL",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Municipal 1_['ROUTE DES VERGERS', '35580 GUIGNEN']"
         },
         {
           "id": 79390529,
@@ -732,10 +766,31 @@
           "heure": "13:30",
           "recevant": "GD-FOUGERAY STE-ANNE",
           "visiteur": "PAYS ANAST FC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 35,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx7kycsm7I",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 52,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4kCshnbA",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 60,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh7my4nnrI",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE MUNICIPAL_['LE BOURG', '35390 STE ANNE SUR VILAINE']"
         },
         {
           "id": 79390527,
@@ -743,10 +798,11 @@
           "heure": "15:30",
           "recevant": "ST SEGLIN REVEIL",
           "visiteur": "US BEL AIR BDC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['LE BOURG', '35330 ST SEGLIN']"
         },
         {
           "id": 79390531,
@@ -944,6 +1000,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 1_['ALLEE DES SPORTS', '35113 DOMAGNE']": {
+          "nom": "STADE MUNICIPAL 1",
+          "adresse": "ALLEE DES SPORTS | 35113 DOMAGNE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {},
@@ -1071,10 +1134,11 @@
           "heure": "11:00",
           "recevant": "DOMLOUP SP. (E)",
           "visiteur": "LA BOUEXIERE ESP",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "COMPLEXE SPORTIF 3_[\"ALLEE DE L'ETANG\", '35410 DOMLOUP']"
         },
         {
           "id": 79390604,
@@ -1082,10 +1146,11 @@
           "heure": "11:00",
           "recevant": "LA SEICHE FC (E) 2",
           "visiteur": "DOMLOUP SP. (E) 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['ALLEE DES SPORTS', '35113 DOMAGNE']"
         },
         {
           "id": 79390607,
@@ -1219,6 +1284,18 @@
           "buts_visiteur": null,
           "joue": false,
           "statut": "à venir"
+        },
+        {
+          "id": 79536449,
+          "date": "2026-10-25",
+          "heure": "11:00",
+          "recevant": "ETRELLES AS",
+          "visiteur": "CHATEAUGIRON US 2",
+          "buts_recevant": 1,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DES HAIRIES_['LES HAIRIES', '35370 ETRELLES']"
         }
       ]
     },
@@ -1321,6 +1398,13 @@
         "STADE MUNICIPAL_[' ROUTE DE LA MOTTE', '35250 CHEVAIGNE']": {
           "nom": "STADE MUNICIPAL",
           "adresse": " ROUTE DE LA MOTTE | 35250 CHEVAIGNE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE GERARD POURCHET_['11, AVENUE DU STADE', '35650 LE RHEU']": {
+          "nom": "STADE GERARD POURCHET",
+          "adresse": "11, AVENUE DU STADE | 35650 LE RHEU",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -1561,10 +1645,11 @@
           "heure": "20:00",
           "recevant": "LE RHEU SC",
           "visiteur": "HERMITAGE CHAP CINTR",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE GERARD POURCHET_['11, AVENUE DU STADE', '35650 LE RHEU']"
         },
         {
           "id": 79390859,
@@ -1572,10 +1657,11 @@
           "heure": "11:00",
           "recevant": "MONTR GAST AS",
           "visiteur": "IRODOUER AV",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Municipal 1 Terrain Daniel Lucas_['RUE COURS BESNARD', '35520 MONTREUIL LE GAST']"
         },
         {
           "id": 79390856,
@@ -1591,13 +1677,14 @@
         {
           "id": 79390857,
           "date": "2026-10-25",
-          "heure": "15:30",
+          "heure": "11:00",
           "recevant": "ST AUBIN AUBIGNE FC",
           "visiteur": "QUEDILLAC SEP",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE THORIAL 2_['RUE DU CHATEAU D EAU', '35250 ST AUBIN D AUBIGNE']"
         },
         {
           "id": 79390860,

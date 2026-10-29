@@ -2048,6 +2048,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC523856.jpg",
           "clNo": "9109",
           "slug": "523856-neuville-ac"
+        },
+        "FALAISES DU TALOU": {
+          "nom": "FALAISES DU TALOU",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564971.jpg",
+          "clNo": "204188",
+          "slug": "564971-falaises-du-talou"
+        },
+        "FC LA VARENNE": {
+          "nom": "FC LA VARENNE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC581291.jpg",
+          "clNo": "183378",
+          "slug": "581291-fc-la-varenne"
         }
       },
       "stades": {
@@ -2085,6 +2097,20 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE FERNAND SASTRE_['291 RUE DE LA COMMUNE 1871', '76320 CAUDEBEC LES ELBEUF']": {
+          "nom": "STADE FERNAND SASTRE",
+          "adresse": "291 RUE DE LA COMMUNE 1871 | 76320 CAUDEBEC LES ELBEUF",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "Stade Saint - Onuphre 2_['Route des Marrouins', '76890 BIVILLE LA BAIGNARDE']": {
+          "nom": "Stade Saint - Onuphre 2",
+          "adresse": "Route des Marrouins | 76890 BIVILLE LA BAIGNARDE",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football réduit"
         }
       },
       "officiels": {},
@@ -2118,6 +2144,26 @@
           "nom": "EMILIE G.",
           "maillot": 4,
           "club": "ENT. EST FEMININES"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp7lSsknrc": {
+          "nom": "KELLY R.",
+          "maillot": 4,
+          "club": "FALAISES DU TALOU"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp4li0nmrA": {
+          "nom": "AGATHE T.",
+          "maillot": 7,
+          "club": "FALAISES DU TALOU"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh3lCsmmrM": {
+          "nom": "JAMILIA A.",
+          "maillot": 8,
+          "club": "NEUVILLE AC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp7ki8nm7I": {
+          "nom": "MORGANE D.",
+          "maillot": 9,
+          "club": "NEUVILLE AC"
         }
       },
       "matchs": [
@@ -2260,7 +2306,7 @@
         },
         {
           "id": 79634614,
-          "date": "2026-10-11",
+          "date": "2026-11-01",
           "heure": "15:00",
           "recevant": "ST AUBIN FC",
           "visiteur": "ENT. EST FEMININES",
@@ -2283,14 +2329,15 @@
         },
         {
           "id": 79634616,
-          "date": "2026-10-11",
+          "date": "2026-10-25",
           "heure": "15:00",
           "recevant": "CAUDEBEC ST PIERRE F",
           "visiteur": "FC OFFRANVILLAIS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 8,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE FERNAND SASTRE_['291 RUE DE LA COMMUNE 1871', '76320 CAUDEBEC LES ELBEUF']"
         },
         {
           "id": 79634618,
@@ -2353,10 +2400,27 @@
           "heure": "15:00",
           "recevant": "FALAISES DU TALOU",
           "visiteur": "NEUVILLE AC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 20,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp7lSsknrc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp4li0nmrA",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 50,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3lCsmmrM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp7ki8nm7I",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "Stade Saint - Onuphre 2_['Route des Marrouins', '76890 BIVILLE LA BAIGNARDE']"
         },
         {
           "id": 79634657,
@@ -2364,10 +2428,11 @@
           "heure": "15:00",
           "recevant": "FC SOMMERY",
           "visiteur": "FC LA VARENNE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Georges Delamare_[' RUE DE TOTES', '76440 SOMMERY']"
         },
         {
           "id": 79634636,

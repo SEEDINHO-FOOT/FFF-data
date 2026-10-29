@@ -122,9 +122,22 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE CHARLES DE MANGOU 1_['ROUTE DE ST GERMAIN DES BOIS', '18340 LEVET']": {
+          "nom": "STADE CHARLES DE MANGOU 1",
+          "adresse": "ROUTE DE ST GERMAIN DES BOIS | 18340 LEVET",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
-      "officiels": {},
+      "officiels": {
+        "Anonyme_AC": {
+          "nom": "Anonyme",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        }
+      },
       "joueurs": {
         "ir3_vj-lzPeINLfhzILsrKFOFKx9kCYsmrY": {
           "nom": "VALENTINE G.",
@@ -275,6 +288,31 @@
           "nom": "CAMILLE C.",
           "maillot": 5,
           "club": "TROUY ES 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt4kCosmLQ": {
+          "nom": "NOLAN J.",
+          "maillot": 9,
+          "club": "C.2.L FOOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17licsmr4": {
+          "nom": "MATTHEO L.",
+          "maillot": 12,
+          "club": "C.2.L FOOT"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd4kiosl7A": {
+          "nom": "ETHAN M.",
+          "maillot": 3,
+          "club": "LURY MÉREAU USA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd6lighl7U": {
+          "nom": "ETHAN D.",
+          "maillot": 5,
+          "club": "LURY MÉREAU USA"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx2mi4hl7U": {
+          "nom": "MANOE R.",
+          "maillot": 10,
+          "club": "C.2.L FOOT"
         }
       },
       "matchs": [
@@ -314,14 +352,59 @@
         },
         {
           "id": 79578868,
-          "date": "2026-09-19",
+          "date": "2026-10-24",
           "heure": "16:00",
           "recevant": "C.2.L FOOT",
           "visiteur": "LURY MÉREAU USA",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 25,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt4kCosmLQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK17licsmr4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 42,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd4kiosl7A",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 75,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6lighl7U",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 75,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx2mi4hl7U",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 80,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6kSstnLY",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE CHARLES DE MANGOU 1_['ROUTE DE ST GERMAIN DES BOIS', '18340 LEVET']",
+          "officiels": [
+            "Anonyme_AC"
+          ]
         },
         {
           "id": 79578870,
@@ -429,14 +512,14 @@
         },
         {
           "id": 79578873,
-          "date": "2026-09-26",
+          "date": "2026-10-24",
           "heure": "16:00",
           "recevant": "F.C.S.A.O 2",
           "visiteur": "MEHUN PORTUGAIS OL",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "à venir"
+          "statut": "réserve"
         },
         {
           "id": 79578876,
@@ -691,7 +774,7 @@
         },
         {
           "id": 79578887,
-          "date": "2026-10-17",
+          "date": "2026-10-31",
           "heure": "14:30",
           "recevant": "MEHUN PORTUGAIS OL",
           "visiteur": "ENT. US DUN/USPG",

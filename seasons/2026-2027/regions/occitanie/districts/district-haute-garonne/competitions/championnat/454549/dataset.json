@@ -52,6 +52,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC551897.jpg",
           "clNo": "162621",
           "slug": "551897-tlse-nord-fc"
+        },
+        "GRENADE FC": {
+          "nom": "GRENADE FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC515892.jpg",
+          "clNo": "4923",
+          "slug": "515892-grenade-fc"
+        },
+        "L UNION ST JEAN FC 3": {
+          "nom": "L UNION ST JEAN FC 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC582636.jpg",
+          "clNo": "191908",
+          "slug": "582636-l-union-st-jean-fc-3"
         }
       },
       "stades": {
@@ -79,6 +91,13 @@
         "STADE CAZAL LAPUJADE N° 2_[\"20 RUE D'AVRANCHES\", '31200 TOULOUSE']": {
           "nom": "STADE CAZAL LAPUJADE N° 2",
           "adresse": "20 RUE D'AVRANCHES | 31200 TOULOUSE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE JACQUES MONTEL 2_['ROUTE DE MONTRABE', '31240 ST JEAN']": {
+          "nom": "STADE JACQUES MONTEL 2",
+          "adresse": "ROUTE DE MONTRABE | 31240 ST JEAN",
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
@@ -251,10 +270,11 @@
           "heure": "21:00",
           "recevant": "L UNION ST JEAN FC 3",
           "visiteur": "LABEGE INTER FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE JACQUES MONTEL 2_['ROUTE DE MONTRABE', '31240 ST JEAN']"
         },
         {
           "id": 79657380,
@@ -262,10 +282,11 @@
           "heure": "20:30",
           "recevant": "FONTENILLES FC 2",
           "visiteur": "E.F.C. DE LA VALLEE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "PLAINE DES SPORTS CHRISTIAN JUMEL_[' ROUTE DE LIAS', '31470 FONTENILLES']"
         },
         {
           "id": 79657383,
@@ -273,10 +294,11 @@
           "heure": "20:30",
           "recevant": "MURET RC 2",
           "visiteur": "GRENADE FC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE COLETTE BESSON_['AVENUE HENRI PEYRUSSE', 'LYCEE PIERRE ARAGON', '31600 MURET']"
         },
         {
           "id": 79657385,
@@ -314,7 +336,7 @@
         {
           "id": 79657366,
           "date": "2026-10-26",
-          "heure": "20:00",
+          "heure": "20:30",
           "recevant": "LABEGE INTER FC",
           "visiteur": "E.F.C. DE LA VALLEE",
           "buts_recevant": null,
@@ -324,10 +346,10 @@
         },
         {
           "id": 79657370,
-          "date": "2026-10-26",
-          "heure": "20:00",
-          "recevant": "GRATENTOUR US",
-          "visiteur": "GRENADE FC",
+          "date": "2026-10-30",
+          "heure": "20:30",
+          "recevant": "GRENADE FC",
+          "visiteur": "GRATENTOUR US",
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
@@ -1602,6 +1624,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC524099.jpg",
           "clNo": "9277",
           "slug": "524099-st-lys-o"
+        },
+        "ST ORENS FC 2": {
+          "nom": "ST ORENS FC 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC524101.jpg",
+          "clNo": "9278",
+          "slug": "524101-st-orens-fc-2"
         }
       },
       "stades": {
@@ -1631,6 +1659,20 @@
           "adresse": "AVENUE DE LA SAVE | 31530 LEVIGNAC",
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 1_[' RUE DU DOCTEUR MARC JACOBSOHN', '31470 ST LYS']": {
+          "nom": "STADE MUNICIPAL 1",
+          "adresse": " RUE DU DOCTEUR MARC JACOBSOHN | 31470 ST LYS",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        },
+        "STADE COLETTE BESSON_['AVENUE HENRI PEYRUSSE', 'LYCEE PIERRE ARAGON', '31600 MURET']": {
+          "nom": "STADE COLETTE BESSON",
+          "adresse": "AVENUE HENRI PEYRUSSE | LYCEE PIERRE ARAGON | 31600 MURET",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
         }
       },
@@ -1731,7 +1773,7 @@
         },
         {
           "id": 79674213,
-          "date": "2026-10-09",
+          "date": "2026-10-30",
           "heure": "20:30",
           "recevant": "ST LYS O",
           "visiteur": "ST ORENS FC 2",
@@ -1802,10 +1844,11 @@
           "heure": "20:30",
           "recevant": "GARDOUCH OC",
           "visiteur": "RAMONVILLE COTEAUX 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['AVENUE TOLOSANE', '31290 GARDOUCH']"
         },
         {
           "id": 79674208,
@@ -1824,10 +1867,11 @@
           "heure": "20:30",
           "recevant": "ST LYS O",
           "visiteur": "CASTELGINEST US 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_[' RUE DU DOCTEUR MARC JACOBSOHN', '31470 ST LYS']"
         },
         {
           "id": 79674228,
@@ -1846,10 +1890,11 @@
           "heure": "20:30",
           "recevant": "SAVE ET GARONNE FC",
           "visiteur": "LABARTHE SUR LEZE AS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 10,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL_['AVENUE DE LA SAVE', '31530 LEVIGNAC']"
         },
         {
           "id": 79674226,
@@ -1857,10 +1902,11 @@
           "heure": "20:30",
           "recevant": "MURET RC",
           "visiteur": "ST ORENS FC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 4,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE COLETTE BESSON_['AVENUE HENRI PEYRUSSE', 'LYCEE PIERRE ARAGON', '31600 MURET']"
         },
         {
           "id": 79674205,

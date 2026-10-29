@@ -101,6 +101,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "Stade Des Écoles 1_['LES ÉCOLES', ' RUE DES MESLIERS', '14330 LE MOLAY LITTRY']": {
+          "nom": "Stade Des Écoles 1",
+          "adresse": "LES ÉCOLES |  RUE DES MESLIERS | 14330 LE MOLAY LITTRY",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -111,6 +118,11 @@
         },
         "MICKAEL JOUAUX_AC": {
           "nom": "MICKAEL JOUAUX",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "JORIS DAIGREMONT_AC": {
+          "nom": "JORIS DAIGREMONT",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -447,19 +459,23 @@
         },
         {
           "id": 79555528,
-          "date": "2026-10-21",
+          "date": "2026-10-24",
           "heure": "15:00",
           "recevant": "LYSTRIEN-TREVIERES E",
           "visiteur": "BSO FOOTBALL",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "Stade Des Écoles 1_['LES ÉCOLES', ' RUE DES MESLIERS', '14330 LE MOLAY LITTRY']",
+          "officiels": [
+            "JORIS DAIGREMONT_AC"
+          ]
         },
         {
           "id": 79555569,
           "date": "2026-10-31",
-          "heure": "13:30",
+          "heure": "13:00",
           "recevant": "US VILLERS BOCAGE 2",
           "visiteur": "RSG COURSEULLES",
           "buts_recevant": null,
@@ -1881,7 +1897,7 @@
         {
           "id": 79555758,
           "date": "2026-10-31",
-          "heure": "15:30",
+          "heure": "14:00",
           "recevant": "ASTDV 2",
           "visiteur": "SCH FOOTBALL 3",
           "buts_recevant": null,

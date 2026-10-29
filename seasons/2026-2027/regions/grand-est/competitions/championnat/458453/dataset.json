@@ -10,8 +10,91 @@
     {
       "cp_slug": "458453-r1-esport/phase/1/1",
       "competition": "R1 ESPORT",
-      "clubs": {},
-      "stades": {},
+      "clubs": {
+        "DOMBASLE FC": {
+          "nom": "DOMBASLE FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503602.jpg",
+          "clNo": "1820",
+          "slug": "503602-dombasle-fc"
+        },
+        "SCHLEITHAL US 4": {
+          "nom": "SCHLEITHAL US 4",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC521282.jpg",
+          "clNo": "7479",
+          "slug": "521282-schleithal-us-4"
+        },
+        "ARDENNES FUTSAL": {
+          "nom": "ARDENNES FUTSAL",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565201.jpg",
+          "clNo": "205136",
+          "slug": "565201-ardennes-futsal"
+        },
+        "AUMETZ US": {
+          "nom": "AUMETZ US",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503617.jpg",
+          "clNo": "1834",
+          "slug": "503617-aumetz-us"
+        },
+        "WOERTH AS": {
+          "nom": "WOERTH AS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC553774.jpg",
+          "clNo": "138261",
+          "slug": "553774-woerth-as"
+        },
+        "REININGUE BLUE STAR": {
+          "nom": "REININGUE BLUE STAR",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC504185.jpg",
+          "clNo": "2127",
+          "slug": "504185-reiningue-blue-star"
+        },
+        "REIMS STE ANNE": {
+          "nom": "REIMS STE ANNE",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC548111.jpg",
+          "clNo": "25244",
+          "slug": "548111-reims-ste-anne"
+        },
+        "BOULAY CA 2": {
+          "nom": "BOULAY CA 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503595.jpg",
+          "clNo": "1816",
+          "slug": "503595-boulay-ca-2"
+        },
+        "YUTZ FC": {
+          "nom": "YUTZ FC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503608.jpg",
+          "clNo": "1826",
+          "slug": "503608-yutz-fc"
+        },
+        "AUMETZ US 2": {
+          "nom": "AUMETZ US 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503617.jpg",
+          "clNo": "1834",
+          "slug": "503617-aumetz-us-2"
+        }
+      },
+      "stades": {
+        "GYMNASE_[' CHEMIN DE LA LEUPIERRE', '08440 LUMES']": {
+          "nom": "GYMNASE",
+          "adresse": " CHEMIN DE LA LEUPIERRE | 08440 LUMES",
+          "surface": "PVC",
+          "surface_jeu": "PVC",
+          "type_installation": "Futsal"
+        },
+        "STADE ROBERT PIRÈS_['6 RUE SIMON DAUPHINOT', '51350 CORMONTREUIL']": {
+          "nom": "STADE ROBERT PIRÈS",
+          "adresse": "6 RUE SIMON DAUPHINOT | 51350 CORMONTREUIL",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        },
+        "STADE MUNICIPAL 1_['RUE DE LA PAIX', '67160 SCHLEITHAL']": {
+          "nom": "STADE MUNICIPAL 1",
+          "adresse": "RUE DE LA PAIX | 67160 SCHLEITHAL",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
+        }
+      },
       "officiels": {},
       "joueurs": {},
       "matchs": [
@@ -21,10 +104,10 @@
           "heure": "20:00",
           "recevant": "DOMBASLE FC",
           "visiteur": "SCHLEITHAL US 4",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 3,
+          "buts_visiteur": 24,
+          "joue": true,
+          "statut": "joué"
         },
         {
           "id": 80450955,
@@ -32,10 +115,11 @@
           "heure": "20:00",
           "recevant": "ARDENNES FUTSAL",
           "visiteur": "AUMETZ US",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 9,
+          "buts_visiteur": 3,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "GYMNASE_[' CHEMIN DE LA LEUPIERRE', '08440 LUMES']"
         },
         {
           "id": 80450956,
@@ -43,10 +127,10 @@
           "heure": "20:00",
           "recevant": "WOERTH AS",
           "visiteur": "REININGUE BLUE STAR",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 42,
+          "joue": true,
+          "statut": "joué"
         },
         {
           "id": 80450957,
@@ -54,10 +138,11 @@
           "heure": "20:00",
           "recevant": "REIMS STE ANNE",
           "visiteur": "BOULAY CA 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 12,
+          "buts_visiteur": 8,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ROBERT PIRÈS_['6 RUE SIMON DAUPHINOT', '51350 CORMONTREUIL']"
         },
         {
           "id": 80450958,
@@ -65,10 +150,10 @@
           "heure": "20:00",
           "recevant": "YUTZ FC",
           "visiteur": "AUMETZ US 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 8,
+          "buts_visiteur": 7,
+          "joue": true,
+          "statut": "joué"
         },
         {
           "id": 80450959,
@@ -109,10 +194,10 @@
           "heure": "20:00",
           "recevant": "REININGUE BLUE STAR",
           "visiteur": "REIMS STE ANNE",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 29,
+          "buts_visiteur": 4,
+          "joue": true,
+          "statut": "joué"
         },
         {
           "id": 80450963,
@@ -120,10 +205,11 @@
           "heure": "20:00",
           "recevant": "SCHLEITHAL US 4",
           "visiteur": "WOERTH AS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 41,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE MUNICIPAL 1_['RUE DE LA PAIX', '67160 SCHLEITHAL']"
         },
         {
           "id": 80450964,
@@ -746,7 +832,80 @@
     {
       "cp_slug": "458453-r1-esport/phase/1/2",
       "competition": "R1 ESPORT",
-      "clubs": {},
+      "clubs": {
+        "MERLEBACH SO": {
+          "nom": "MERLEBACH SO",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503619.jpg",
+          "clNo": "1835",
+          "slug": "503619-merlebach-so"
+        },
+        "REININGUE BLUE STAR 2": {
+          "nom": "REININGUE BLUE STAR 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC504185.jpg",
+          "clNo": "2127",
+          "slug": "504185-reiningue-blue-star-2"
+        },
+        "BOULAY CA": {
+          "nom": "BOULAY CA",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503595.jpg",
+          "clNo": "1816",
+          "slug": "503595-boulay-ca"
+        },
+        "REININGUE BLUE STAR 3": {
+          "nom": "REININGUE BLUE STAR 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC504185.jpg",
+          "clNo": "2127",
+          "slug": "504185-reiningue-blue-star-3"
+        },
+        "OLYMPIQUE REMOIS": {
+          "nom": "OLYMPIQUE REMOIS",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565370.jpg",
+          "clNo": "205585",
+          "slug": "565370-olympique-remois"
+        },
+        "NEUVILLETTE JAMIN": {
+          "nom": "NEUVILLETTE JAMIN",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC581832.jpg",
+          "clNo": "186860",
+          "slug": "581832-neuvillette-jamin"
+        },
+        "RC STRASBOURG ALSACE 2": {
+          "nom": "RC STRASBOURG ALSACE 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500191.jpg",
+          "clNo": "320",
+          "slug": "500191-rc-strasbourg-alsace-2"
+        },
+        "CRUSNES AUDUN RC": {
+          "nom": "CRUSNES AUDUN RC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC564913.jpg",
+          "clNo": "203923",
+          "slug": "564913-crusnes-audun-rc"
+        },
+        "BOULAY CA 3": {
+          "nom": "BOULAY CA 3",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503595.jpg",
+          "clNo": "1816",
+          "slug": "503595-boulay-ca-3"
+        },
+        "DOMBASLE FC 2": {
+          "nom": "DOMBASLE FC 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC503602.jpg",
+          "clNo": "1820",
+          "slug": "503602-dombasle-fc-2"
+        },
+        "RETHEL SF": {
+          "nom": "RETHEL SF",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500541.jpg",
+          "clNo": "595",
+          "slug": "500541-rethel-sf"
+        },
+        "AMNEVILLE CSO": {
+          "nom": "AMNEVILLE CSO",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC500175.jpg",
+          "clNo": "306",
+          "slug": "500175-amneville-cso"
+        }
+      },
       "stades": {},
       "officiels": {},
       "joueurs": {},
@@ -757,10 +916,10 @@
           "heure": "20:00",
           "recevant": "MERLEBACH SO",
           "visiteur": "REININGUE BLUE STAR 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 14,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué"
         },
         {
           "id": 80451021,
@@ -768,10 +927,10 @@
           "heure": "20:00",
           "recevant": "BOULAY CA",
           "visiteur": "REININGUE BLUE STAR 3",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 7,
+          "buts_visiteur": 8,
+          "joue": true,
+          "statut": "joué"
         },
         {
           "id": 80451022,
@@ -779,10 +938,10 @@
           "heure": "20:00",
           "recevant": "OLYMPIQUE REMOIS",
           "visiteur": "NEUVILLETTE JAMIN",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 25,
+          "joue": true,
+          "statut": "joué"
         },
         {
           "id": 80451023,
@@ -790,10 +949,10 @@
           "heure": "20:00",
           "recevant": "RC STRASBOURG ALSACE 2",
           "visiteur": "CRUSNES AUDUN RC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 10,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué"
         },
         {
           "id": 80451024,
@@ -801,10 +960,10 @@
           "heure": "20:00",
           "recevant": "BOULAY CA 3",
           "visiteur": "DOMBASLE FC 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 0,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué"
         },
         {
           "id": 80451025,
@@ -812,10 +971,10 @@
           "heure": "20:00",
           "recevant": "RETHEL SF",
           "visiteur": "AMNEVILLE CSO",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 8,
+          "buts_visiteur": 6,
+          "joue": true,
+          "statut": "joué"
         },
         {
           "id": 80451026,
@@ -856,10 +1015,10 @@
           "heure": "20:00",
           "recevant": "REININGUE BLUE STAR 2",
           "visiteur": "OLYMPIQUE REMOIS",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 32,
+          "buts_visiteur": 9,
+          "joue": true,
+          "statut": "joué"
         },
         {
           "id": 80451030,
@@ -878,10 +1037,10 @@
           "heure": "20:00",
           "recevant": "BOULAY CA",
           "visiteur": "RETHEL SF",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 8,
+          "buts_visiteur": 5,
+          "joue": true,
+          "statut": "joué"
         },
         {
           "id": 80451032,

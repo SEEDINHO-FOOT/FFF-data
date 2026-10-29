@@ -4360,6 +4360,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE POURTALÈS 1_['120 RUE KEMPF', '67000 STRASBOURG']": {
+          "nom": "STADE POURTALÈS 1",
+          "adresse": "120 RUE KEMPF | 67000 STRASBOURG",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -4460,6 +4467,11 @@
         },
         "MATHIEU SCHUPP_AC": {
           "nom": "MATHIEU SCHUPP",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ROMAIN BASTON JARDINIER_AC": {
+          "nom": "ROMAIN BASTON JARDINIER",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -4657,7 +4669,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK13my4jm78": {
           "nom": "ELVIN Q.",
-          "maillot": 3,
+          "maillot": 12,
           "club": "ALSACE DU NORD GJ 2"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK17lSgslrU": {
@@ -5072,12 +5084,12 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK14lS4nmrQ": {
           "nom": "LEON H.",
-          "maillot": 13,
+          "maillot": 8,
           "club": "STRG ROBERTSAU A.S.L"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt8miwgm78": {
           "nom": "DIEGO ALEXANDER B.",
-          "maillot": 12,
+          "maillot": 5,
           "club": "STRG ROBERTSAU A.S.L"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK16li4knbc": {
@@ -5372,7 +5384,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK19myginbY": {
           "nom": "NATHAN D.",
-          "maillot": 8,
+          "maillot": 13,
           "club": "ALSACE DU NORD GJ 2"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt4my0snLQ": {
@@ -5394,6 +5406,26 @@
           "nom": "KYARAN B.",
           "maillot": 6,
           "club": "SCHIRRHEIN F.C.E"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx_mioknbY": {
+          "nom": "JOACHIM S.",
+          "maillot": 5,
+          "club": "ALSACE DU NORD GJ 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx_kCstmLU": {
+          "nom": "ANAS B.",
+          "maillot": 14,
+          "club": "STRG ROBERTSAU A.S.L"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt2kSgilrU": {
+          "nom": "ALI NEJAT K.",
+          "maillot": 12,
+          "club": "STRG ROBERTSAU A.S.L"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd8mycsn7c": {
+          "nom": "TREVIS A.",
+          "maillot": 11,
+          "club": "STRG ROBERTSAU A.S.L"
         }
       },
       "matchs": [
@@ -7542,15 +7574,110 @@
           "heure": "18:00",
           "recevant": "STRG ROBERTSAU A.S.L",
           "visiteur": "ALSACE DU NORD GJ 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 5,
+          "buts_visiteur": 0,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 9,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_mioknbY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK19myginbY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 17,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16li4knbc",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_kCstmLU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 23,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx_kCstmLU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 30,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt6miYtl7Q",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK13my4jm78",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 33,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK19kSkgnr4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 36,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt8lC0snbc",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 47,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK14lS4nmrQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt2kSgilrU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 50,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt8miwgm78",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx2lC4tl7Y",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 53,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt8lC0snbc",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 53,
+              "type": "carton-rouge",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt8lC0snbc",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 62,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK18kyognbY",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 70,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd8mycsn7c",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 74,
+              "type": "but",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK18kyognbY",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE POURTALÈS 1_['120 RUE KEMPF', '67000 STRASBOURG']",
+          "officiels": [
+            "ROMAIN BASTON JARDINIER_AC"
+          ]
         },
         {
           "id": 56454466,
           "date": "2026-10-31",
-          "heure": "15:30",
+          "heure": "15:00",
           "recevant": "KALTENHOUSE MAR. U.S",
           "visiteur": "STRG ROBERTSAU A.S.L",
           "buts_recevant": null,
@@ -10983,8 +11110,8 @@
         },
         {
           "id": 56454648,
-          "date": "2026-11-07",
-          "heure": "17:15",
+          "date": "2026-10-31",
+          "heure": "15:00",
           "recevant": "FEGERSHEIM C.S",
           "visiteur": "BENNWIHR F.C",
           "buts_recevant": null,

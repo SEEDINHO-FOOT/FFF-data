@@ -2246,7 +2246,7 @@
         {
           "id": 79350188,
           "date": "2026-11-01",
-          "heure": "15:00",
+          "heure": "14:30",
           "recevant": "U.S. VENDOME 3",
           "visiteur": "US PETITE BEAUCE 2",
           "buts_recevant": null,
@@ -3359,6 +3359,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE MARIE AMELIE LEFUR_['RUE HONORE DE BALZAC', '41000 BLOIS']": {
+          "nom": "STADE MARIE AMELIE LEFUR",
+          "adresse": "RUE HONORE DE BALZAC | 41000 BLOIS",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -3436,6 +3443,11 @@
           "nom": "STEPHANE JUAN",
           "role": "Observateur principal",
           "role_cod": "CP"
+        },
+        "EMRE YALVAC_AC": {
+          "nom": "EMRE YALVAC",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -3661,7 +3673,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKp4myYhl7U": {
           "nom": "ILYAS S.",
-          "maillot": 7,
+          "maillot": 2,
           "club": "BLOIS ASC PORTUGAIS 2"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp5kColmr8": {
@@ -4208,6 +4220,36 @@
           "nom": "RACHID J.",
           "maillot": 2,
           "club": "CHOUZY/ONZAIN 3"
+        },
+        "ir3_vj-lzPeINLfhzILsrKlIEa1_kCwnmbE": {
+          "nom": "ADHIL M.",
+          "maillot": 3,
+          "club": "A.S. ST LUBIN"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKl5mi4mnL4": {
+          "nom": "BRAHIM B.",
+          "maillot": 13,
+          "club": "A.S. ST LUBIN"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp7lCkgmrc": {
+          "nom": "KOUROUFIA S.",
+          "maillot": 10,
+          "club": "A.S. ST LUBIN"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt_lS0mn78": {
+          "nom": "NABIL B.",
+          "maillot": 12,
+          "club": "BLOIS ASC PORTUGAIS 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx3kC0nmrI": {
+          "nom": "YANNE DAVID G.",
+          "maillot": 12,
+          "club": "A.S. ST LUBIN"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt9lC4tlrU": {
+          "nom": "NASSIM A.",
+          "maillot": 8,
+          "club": "BLOIS ASC PORTUGAIS 2"
         }
       },
       "matchs": [
@@ -5567,14 +5609,74 @@
         },
         {
           "id": 79350641,
-          "date": "2026-10-04",
+          "date": "2026-10-25",
           "heure": "15:00",
           "recevant": "BLOIS ASC PORTUGAIS 2",
           "visiteur": "A.S. ST LUBIN",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 1,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlIEa1_kCwnmbE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl5mi4mnL4",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 8,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp7lCkgmrc",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 10,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp4myYhl7U",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt_lS0mn78",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 18,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5lCkkmbQ",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 28,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp5lCkkmbQ",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3kC0nmrI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 53,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt9lC4tlrU",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 58,
+              "type": "carton-rouge",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKx3kC0nmrI",
+              "sanction": "R",
+              "sanction_detail": "R2",
+              "club_type": "visiteur"
+            }
+          ],
+          "stade_id": "STADE MARIE AMELIE LEFUR_['RUE HONORE DE BALZAC', '41000 BLOIS']",
+          "officiels": [
+            "EMRE YALVAC_AC",
+            "STEPHANE JUAN_CP"
+          ]
         },
         {
           "id": 79350642,
@@ -5882,7 +5984,7 @@
         {
           "id": 79350652,
           "date": "2026-11-01",
-          "heure": "14:30",
+          "heure": "12:00",
           "recevant": "BLOIS ASC PORTUGAIS 2",
           "visiteur": "BLOIS AFC 1995 2",
           "buts_recevant": null,
@@ -5904,7 +6006,7 @@
         {
           "id": 79350655,
           "date": "2026-11-01",
-          "heure": "14:30",
+          "heure": "12:00",
           "recevant": "CHOUZY/ONZAIN 3",
           "visiteur": "CASTLAURENT-LA FERTE 2",
           "buts_recevant": null,
@@ -8933,7 +9035,7 @@
         {
           "id": 56582306,
           "date": "2026-11-01",
-          "heure": "13:00",
+          "heure": "12:00",
           "recevant": "SOINGS AS 2",
           "visiteur": "A.S.C.S.",
           "buts_recevant": null,
@@ -11625,7 +11727,7 @@
         {
           "id": 56582493,
           "date": "2026-11-01",
-          "heure": "12:30",
+          "heure": "12:00",
           "recevant": "NOUAN LAMOTTE 2",
           "visiteur": "CHAUMONT/THAR",
           "buts_recevant": null,
@@ -11658,7 +11760,7 @@
         {
           "id": 56582492,
           "date": "2026-11-01",
-          "heure": "15:00",
+          "heure": "14:30",
           "recevant": "VILLEFRANCHE 2",
           "visiteur": "VNC FOOT",
           "buts_recevant": null,

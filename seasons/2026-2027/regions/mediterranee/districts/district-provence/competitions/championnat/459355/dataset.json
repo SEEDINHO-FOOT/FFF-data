@@ -1276,6 +1276,13 @@
           "surface": "Pelouse Naturelle",
           "surface_jeu": "Pelouse Naturelle",
           "type_installation": "Football à 11"
+        },
+        "STADE LYCÉE LA FOURRAGÈRE_['14 RUE LOUIS REYBAUD', '13012 MARSEILLE']": {
+          "nom": "STADE LYCÉE LA FOURRAGÈRE",
+          "adresse": "14 RUE LOUIS REYBAUD | 13012 MARSEILLE",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -1348,6 +1355,16 @@
           "nom": "PHILIPPE SABONNADIERE",
           "role": "Arbitre assistant 1",
           "role_cod": "A1"
+        },
+        "Anonyme_AC": {
+          "nom": "Anonyme",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "MARIA AMELIA RIBEIRO DE SOUSA_A1": {
+          "nom": "MARIA AMELIA RIBEIRO DE SOUSA",
+          "role": "Arbitre assistant 1",
+          "role_cod": "A1"
         }
       },
       "joueurs": {
@@ -1413,7 +1430,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKlPFq94my8hnrY": {
           "nom": "ANGELIQUE F.",
-          "maillot": 3,
+          "maillot": 2,
           "club": "F.C. CHEVAL BLANC"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK12liYslrY": {
@@ -1573,7 +1590,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK12kS4nlr8": {
           "nom": "EMMA F.",
-          "maillot": 13,
+          "maillot": 7,
           "club": "F. ASS MARS FEMININ"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK12myYhn7Q": {
@@ -1584,6 +1601,26 @@
         "ir3_vj-lzPeINLfhzILsrKpNEKp3miYnm78": {
           "nom": "MARINA F.",
           "maillot": 12,
+          "club": "F. ASS MARS FEMININ"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt8mi4jmL4": {
+          "nom": "SOLENE G.",
+          "maillot": 8,
+          "club": "F.C. CHEVAL BLANC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK17kyghnbI": {
+          "nom": "CHARLOTTE D.",
+          "maillot": 12,
+          "club": "F.C. CHEVAL BLANC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt8micknbI": {
+          "nom": "ROXANNE S.",
+          "maillot": 13,
+          "club": "F.C. CHEVAL BLANC"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh3my8lmrI": {
+          "nom": "EMMA P.",
+          "maillot": 13,
           "club": "F. ASS MARS FEMININ"
         }
       },
@@ -1849,14 +1886,50 @@
         },
         {
           "id": 79567157,
-          "date": "2026-10-04",
+          "date": "2026-10-25",
           "heure": "13:00",
           "recevant": "F. ASS MARS FEMININ",
           "visiteur": "F.C. CHEVAL BLANC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 22,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKt8mi4jmL4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK17kyghnbI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 26,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKlPFq94my8hnrY",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt8micknbI",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 32,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12myYhn7Q",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKh3my8lmrI",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 35,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK12kS4nlr8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKp3miYnm78",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE LYCÉE LA FOURRAGÈRE_['14 RUE LOUIS REYBAUD', '13012 MARSEILLE']",
+          "officiels": [
+            "Anonyme_AC",
+            "MARIA AMELIA RIBEIRO DE SOUSA_A1",
+            "Anonyme_A2"
+          ]
         },
         {
           "id": 79567158,
@@ -1871,7 +1944,7 @@
         },
         {
           "id": 79567160,
-          "date": "2026-10-11",
+          "date": "2026-11-01",
           "heure": "15:00",
           "recevant": "F.C. CHEVAL BLANC",
           "visiteur": "F.C. ST VICTORET",

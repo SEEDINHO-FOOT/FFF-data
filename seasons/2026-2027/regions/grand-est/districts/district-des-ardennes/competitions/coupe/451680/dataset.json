@@ -10,9 +10,36 @@
     {
       "cp_slug": "451680-coupe-u18-roger-tissot-leroy/phase/1/1",
       "competition": "COUPE U18 ROGER TISSOT-LEROY",
-      "clubs": {},
-      "stades": {},
-      "officiels": {},
+      "clubs": {
+        "CHARLEVILLE ES": {
+          "nom": "CHARLEVILLE ES",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC502788.jpg",
+          "clNo": "1565",
+          "slug": "502788-charleville-es"
+        },
+        "NOUVION USC": {
+          "nom": "NOUVION USC",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC502624.jpg",
+          "clNo": "1505",
+          "slug": "502624-nouvion-usc"
+        }
+      },
+      "stades": {
+        "STADE ROGER SALENGRO 1_['5 RUE FELICIEN WAUTELET', '08000 CHARLEVILLE MEZIERES']": {
+          "nom": "STADE ROGER SALENGRO 1",
+          "adresse": "5 RUE FELICIEN WAUTELET | 08000 CHARLEVILLE MEZIERES",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
+        }
+      },
+      "officiels": {
+        "DORIAN LUC_AC": {
+          "nom": "DORIAN LUC",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        }
+      },
       "joueurs": {},
       "matchs": [
         {
@@ -101,7 +128,7 @@
           "buts_recevant": null,
           "buts_visiteur": null,
           "joue": false,
-          "statut": "à venir"
+          "statut": "reporté"
         },
         {
           "id": 80466107,
@@ -142,10 +169,14 @@
           "heure": "16:00",
           "recevant": "CHARLEVILLE ES",
           "visiteur": "NOUVION USC",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 2,
+          "buts_visiteur": 10,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE ROGER SALENGRO 1_['5 RUE FELICIEN WAUTELET', '08000 CHARLEVILLE MEZIERES']",
+          "officiels": [
+            "DORIAN LUC_AC"
+          ]
         }
       ]
     }

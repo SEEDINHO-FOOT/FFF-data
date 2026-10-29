@@ -34,6 +34,18 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC504994.jpg",
           "clNo": "2477",
           "slug": "504994-belabre-ss"
+        },
+        "FC ETOILE CX": {
+          "nom": "FC ETOILE CX",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC504993.jpg",
+          "clNo": "2476",
+          "slug": "504993-fc-etoile-cx"
+        },
+        "ES BORDS DE CREUSE 2": {
+          "nom": "ES BORDS DE CREUSE 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC565330.jpg",
+          "clNo": "205354",
+          "slug": "565330-es-bords-de-creuse-2"
         }
       },
       "stades": {
@@ -57,11 +69,23 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE DE BEAULIEU_[\"2 Bis RUE D'AQUITAINE\", '36000 CHATEAUROUX']": {
+          "nom": "STADE DE BEAULIEU",
+          "adresse": "2 Bis RUE D'AQUITAINE | 36000 CHATEAUROUX",
+          "surface": "Synthétique",
+          "surface_jeu": "Synthétique",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
         "LORENZO OLIVEIRA_AC": {
           "nom": "LORENZO OLIVEIRA",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "LEO CHAMPIGNEUX_AC": {
+          "nom": "LEO CHAMPIGNEUX",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -180,14 +204,18 @@
         },
         {
           "id": 79707076,
-          "date": "2026-10-03",
-          "heure": "18:00",
+          "date": "2026-10-24",
+          "heure": "15:00",
           "recevant": "FC ETOILE CX",
           "visiteur": "ES BORDS DE CREUSE 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 6,
+          "buts_visiteur": 1,
+          "joue": true,
+          "statut": "joué",
+          "stade_id": "STADE DE BEAULIEU_[\"2 Bis RUE D'AQUITAINE\", '36000 CHATEAUROUX']",
+          "officiels": [
+            "LEO CHAMPIGNEUX_AC"
+          ]
         },
         {
           "id": 79707068,
@@ -360,6 +388,12 @@
           "logo": "https://cdn-transverse.azureedge.net/phlogos/BC504874.jpg",
           "clNo": "2408",
           "slug": "504874-u-s-le-blanc-2"
+        },
+        "E. BUZ-ARPHEUILLES 2": {
+          "nom": "E. BUZ-ARPHEUILLES 2",
+          "logo": "https://cdn-transverse.azureedge.net/phlogos/BC504869.jpg",
+          "clNo": "2407",
+          "slug": "504869-e-buz-arpheuilles-2"
         }
       },
       "stades": {
@@ -383,6 +417,13 @@
           "surface": "Synthétique",
           "surface_jeu": "Synthétique",
           "type_installation": "Football à 11"
+        },
+        "STADE DES BORDS DE CREUSE 1_['33 AVENUE PIERRE MENDES FRANCE', '36300 LE BLANC']": {
+          "nom": "STADE DES BORDS DE CREUSE 1",
+          "adresse": "33 AVENUE PIERRE MENDES FRANCE | 36300 LE BLANC",
+          "surface": "Pelouse Naturelle",
+          "surface_jeu": "Pelouse Naturelle",
+          "type_installation": "Football à 11"
         }
       },
       "officiels": {
@@ -398,6 +439,11 @@
         },
         "QUENTIN POURNIN_AC": {
           "nom": "QUENTIN POURNIN",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
+        },
+        "ENES DERICI_AC": {
+          "nom": "ENES DERICI",
           "role": "Arbitre centre",
           "role_cod": "AC"
         }
@@ -520,17 +566,47 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKt5kSkhn7Q": {
           "nom": "SHAHENDA S.",
-          "maillot": 13,
+          "maillot": 9,
           "club": "U.S. LE BLANC 2"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK16myommLU": {
           "nom": "NOEMIE B.",
-          "maillot": 9,
+          "maillot": 11,
           "club": "U.S. LE BLANC 2"
         },
         "ir3_vj-lzPeINLfhzILsrKFOFKp_mystlrE": {
           "nom": "INES G.",
           "maillot": 14,
+          "club": "U.S. LE BLANC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19liwtnbM": {
+          "nom": "MARIUS P.",
+          "maillot": 8,
+          "club": "E. BUZ-ARPHEUILLES 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFK19lSkimrU": {
+          "nom": "FLORENTIN B.",
+          "maillot": 12,
+          "club": "E. BUZ-ARPHEUILLES 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKx4my4lmr4": {
+          "nom": "LOLA P.",
+          "maillot": 12,
+          "club": "U.S. LE BLANC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt3myskn7A": {
+          "nom": "SAMI M.",
+          "maillot": 13,
+          "club": "U.S. LE BLANC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKp2lyoklrU": {
+          "nom": "JULIA N.",
+          "maillot": 14,
+          "club": "U.S. LE BLANC 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKd6lS8nnL8": {
+          "nom": "MATHIEU C.",
+          "maillot": 1,
           "club": "U.S. LE BLANC 2"
         }
       },
@@ -787,6 +863,59 @@
           "officiels": [
             "QUENTIN POURNIN_AC"
           ]
+        },
+        {
+          "id": 79707616,
+          "date": "2026-10-24",
+          "heure": "15:00",
+          "recevant": "U.S. LE BLANC 2",
+          "visiteur": "E. BUZ-ARPHEUILLES 2",
+          "buts_recevant": 1,
+          "buts_visiteur": 10,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 22,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK19liwtnbM",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK19lSkimrU",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 41,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKp9lyksnb8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKx4my4lmr4",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 51,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt5kSkhn7Q",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKt3myskn7A",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 51,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFK16myommLU",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFKp2lyoklrU",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 57,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKd6lS8nnL8",
+              "sanction": "J",
+              "sanction_detail": "J2",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "STADE DES BORDS DE CREUSE 1_['33 AVENUE PIERRE MENDES FRANCE', '36300 LE BLANC']",
+          "officiels": [
+            "ENES DERICI_AC"
+          ]
         }
       ]
     },
@@ -952,8 +1081,8 @@
         },
         {
           "id": 79707646,
-          "date": "2026-10-17",
-          "heure": "15:30",
+          "date": "2026-10-31",
+          "heure": "15:00",
           "recevant": "U.S.3.C",
           "visiteur": "ESPOIR BOISCHAUT SUD 2",
           "buts_recevant": null,
