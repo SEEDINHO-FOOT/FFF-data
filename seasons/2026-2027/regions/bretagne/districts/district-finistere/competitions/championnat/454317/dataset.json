@@ -169,6 +169,11 @@
           "nom": "HUGO JESTIN",
           "role": "Arbitre centre",
           "role_cod": "AC"
+        },
+        "DAANI HIMIDI_AC": {
+          "nom": "DAANI HIMIDI",
+          "role": "Arbitre centre",
+          "role_cod": "AC"
         }
       },
       "joueurs": {
@@ -184,7 +189,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKd9mi4kmrY": {
           "nom": "LUCAS P.",
-          "maillot": 7,
+          "maillot": 14,
           "club": "GUILERS AM S 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKp_kC0hnbA": {
@@ -279,7 +284,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKFOFK13kiYnmrc": {
           "nom": "NAEL A.",
-          "maillot": 14,
+          "maillot": 12,
           "club": "BREST BERGOT PL"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKt7kiotnbM": {
@@ -309,7 +314,7 @@
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl3miogl7c": {
           "nom": "MATHIS L.",
-          "maillot": 3,
+          "maillot": 12,
           "club": "GUILERS AM S 2"
         },
         "ir3_vj-lzPeINLfhzILsrKpNEKl7listmLI": {
@@ -496,6 +501,26 @@
           "nom": "VALENTIN R.",
           "maillot": 14,
           "club": "BREST LEG SP 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKh6lS0snbE": {
+          "nom": "GWENN C.",
+          "maillot": 4,
+          "club": "GUILERS AM S 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKt9mikhmbc": {
+          "nom": "THOMAS V.",
+          "maillot": 13,
+          "club": "GUILERS AM S 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKpNEKp7kyoin7U": {
+          "nom": "VALENTIN P.",
+          "maillot": 8,
+          "club": "GUILERS AM S 2"
+        },
+        "ir3_vj-lzPeINLfhzILsrKFOFKt9miYtnLY": {
+          "nom": "HAMED D.",
+          "maillot": 6,
+          "club": "BREST BERGOT PL"
         }
       },
       "matchs": [
@@ -1102,10 +1127,75 @@
           "heure": "15:30",
           "recevant": "BREST BERGOT PL",
           "visiteur": "GUILERS AM S 2",
-          "buts_recevant": null,
-          "buts_visiteur": null,
-          "joue": false,
-          "statut": "à venir"
+          "buts_recevant": 1,
+          "buts_visiteur": 2,
+          "joue": true,
+          "statut": "joué",
+          "moments": [
+            {
+              "minute": 36,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpKFah5ly8mnr4",
+              "sanction": "J",
+              "sanction_detail": "J7",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 36,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpKFah5ly8mnr4",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKFOFK13kiYnmrc",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 45,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh7kyckmr8",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd7lygimrE",
+              "club_type": "recevant"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh6lS0snbE",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKd9mi4kmrY",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKx3kSsnm7c",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKt9mikhmbc",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 46,
+              "type": "remplacement",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKp7kyoin7U",
+              "remplacant_id": "ir3_vj-lzPeINLfhzILsrKpNEKl3miogl7c",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 55,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKpNEKh6lS0snbE",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "visiteur"
+            },
+            {
+              "minute": 70,
+              "type": "carton-jaune",
+              "joueur_id": "ir3_vj-lzPeINLfhzILsrKFOFKt9miYtnLY",
+              "sanction": "J",
+              "sanction_detail": "J1",
+              "club_type": "recevant"
+            }
+          ],
+          "stade_id": "COMPLEXE SPORTIF DE PROVENCE_['2 RUE DE RENNES', '29200 BREST']",
+          "officiels": [
+            "DAANI HIMIDI_AC"
+          ]
         },
         {
           "id": 56117742,
@@ -15797,7 +15887,7 @@
         {
           "id": 56089255,
           "date": "2026-11-01",
-          "heure": "13:30",
+          "heure": "15:00",
           "recevant": "TELGRUC AS 2",
           "visiteur": "LOPEREC SP",
           "buts_recevant": null,
@@ -19016,7 +19106,7 @@
         },
         {
           "id": 56089486,
-          "date": "2026-10-18",
+          "date": "2026-11-01",
           "heure": "15:30",
           "recevant": "POULDERGAT SP",
           "visiteur": "PLUGUFFAN US 2",
